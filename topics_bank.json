@@ -2,57 +2,650 @@
   {
     "title": "The Man Who Vanished With $200,000",
     "segments": [
-      {"text": "In 1971, a man calling himself D.B. Cooper hijacked a passenger plane.", "keywords": "vintage airplane sky"},
-      {"text": "He demanded two hundred thousand dollars and four parachutes.", "keywords": "cash money stack"},
-      {"text": "After releasing the passengers, he got his money.", "keywords": "airport night runway"},
-      {"text": "Then, somewhere over the forests, he jumped from the plane.", "keywords": "dark forest aerial"},
-      {"text": "He was never found, and the case remains unsolved to this day.", "keywords": "foggy forest trees"},
-      {"text": "A man who vanished into the night, and into legend.", "keywords": "cloudy mountain sky"},
-      {"text": "Follow for cases the world never forgot.", "keywords": "old case files"}
+      {
+        "text": "In 1971, a man calling himself D.B. Cooper hijacked a passenger plane.",
+        "keywords": "vintage airplane sky"
+      },
+      {
+        "text": "He demanded two hundred thousand dollars and four parachutes.",
+        "keywords": "cash money stack"
+      },
+      {
+        "text": "After releasing the passengers, he got his money.",
+        "keywords": "airport night runway"
+      },
+      {
+        "text": "Then, somewhere over the forests, he jumped from the plane.",
+        "keywords": "dark forest aerial"
+      },
+      {
+        "text": "He was never found, and the case remains unsolved to this day.",
+        "keywords": "foggy forest trees"
+      },
+      {
+        "text": "A man who vanished into the night, and into legend.",
+        "keywords": "cloudy mountain sky"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
     ],
     "description": "In 1971 D.B. Cooper hijacked a plane, jumped out with the ransom, and was never found. Follow for daily cold cases!",
-    "hashtags": ["#truecrime", "#dbcooper", "#unsolved", "#coldcase", "#mystery", "#shorts", "#fyp", "#casefiles"]
+    "hashtags": [
+      "#truecrime",
+      "#dbcooper",
+      "#unsolved",
+      "#coldcase",
+      "#mystery",
+      "#shorts",
+      "#fyp",
+      "#casefiles"
+    ]
   },
   {
     "title": "The Biggest Art Heist in History",
     "segments": [
-      {"text": "In 1990, two men dressed as police knocked on a Boston museum door.", "keywords": "museum night exterior"},
-      {"text": "The guards let them in, and were quickly tied up.", "keywords": "empty museum hallway"},
-      {"text": "Over 81 minutes, the thieves took thirteen works of art.", "keywords": "empty picture frame"},
-      {"text": "Including paintings by Rembrandt and Vermeer.", "keywords": "classic oil painting"},
-      {"text": "The art, worth around 500 million dollars, was never found.", "keywords": "empty gallery wall"},
-      {"text": "To this day, the empty frames still hang where they were stolen.", "keywords": "museum empty frame"},
-      {"text": "Follow for cases the world never forgot.", "keywords": "old case files"}
+      {
+        "text": "In 1990, two men dressed as police knocked on a Boston museum door.",
+        "keywords": "museum night exterior"
+      },
+      {
+        "text": "The guards let them in, and were quickly tied up.",
+        "keywords": "empty museum hallway"
+      },
+      {
+        "text": "Over 81 minutes, the thieves took thirteen works of art.",
+        "keywords": "empty picture frame"
+      },
+      {
+        "text": "Including paintings by Rembrandt and Vermeer.",
+        "keywords": "classic oil painting"
+      },
+      {
+        "text": "The art, worth around 500 million dollars, was never found.",
+        "keywords": "empty gallery wall"
+      },
+      {
+        "text": "To this day, the empty frames still hang where they were stolen.",
+        "keywords": "museum empty frame"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
     ],
     "description": "In 1990 thieves dressed as police stole $500M of art from a Boston museum, never found. Follow for daily cold cases!",
-    "hashtags": ["#truecrime", "#heist", "#gardnermuseum", "#unsolved", "#coldcase", "#shorts", "#fyp", "#art"]
+    "hashtags": [
+      "#truecrime",
+      "#heist",
+      "#gardnermuseum",
+      "#unsolved",
+      "#coldcase",
+      "#shorts",
+      "#fyp",
+      "#art"
+    ]
   },
   {
     "title": "The Heist of the Century",
     "segments": [
-      {"text": "In 2003, thieves broke into one of the most secure vaults on Earth.", "keywords": "bank vault door"},
-      {"text": "It sat under the Antwerp Diamond Center, behind layers of security.", "keywords": "diamond gem close"},
-      {"text": "Heat sensors, motion detectors, a magnetic lock, and more.", "keywords": "security camera dark"},
-      {"text": "Yet the thieves bypassed every one of them.", "keywords": "empty vault interior"},
-      {"text": "They escaped with over one hundred million dollars in diamonds and gold.", "keywords": "diamonds jewels"},
-      {"text": "Most of the treasure was never recovered.", "keywords": "empty safe deposit"},
-      {"text": "Follow for cases the world never forgot.", "keywords": "old case files"}
+      {
+        "text": "In 2003, thieves broke into one of the most secure vaults on Earth.",
+        "keywords": "bank vault door"
+      },
+      {
+        "text": "It sat under the Antwerp Diamond Center, behind layers of security.",
+        "keywords": "diamond gem close"
+      },
+      {
+        "text": "Heat sensors, motion detectors, a magnetic lock, and more.",
+        "keywords": "security camera dark"
+      },
+      {
+        "text": "Yet the thieves bypassed every one of them.",
+        "keywords": "empty vault interior"
+      },
+      {
+        "text": "They escaped with over one hundred million dollars in diamonds and gold.",
+        "keywords": "diamonds jewels"
+      },
+      {
+        "text": "Most of the treasure was never recovered.",
+        "keywords": "empty safe deposit"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
     ],
     "description": "In 2003 thieves beat layers of security to steal $100M+ in diamonds in Antwerp. Follow for daily cold cases!",
-    "hashtags": ["#truecrime", "#heist", "#antwerp", "#diamonds", "#coldcase", "#shorts", "#fyp", "#casefiles"]
+    "hashtags": [
+      "#truecrime",
+      "#heist",
+      "#antwerp",
+      "#diamonds",
+      "#coldcase",
+      "#shorts",
+      "#fyp",
+      "#casefiles"
+    ]
   },
   {
     "title": "The Pensioners Who Pulled Off a Massive Heist",
     "segments": [
-      {"text": "In 2015, a gang broke into a London vault over the Easter weekend.", "keywords": "london street night"},
-      {"text": "They drilled through a thick concrete wall to reach it.", "keywords": "concrete wall drill"},
-      {"text": "Inside, they emptied dozens of safe deposit boxes.", "keywords": "safe deposit boxes"},
-      {"text": "They took an estimated fourteen million pounds in jewels and cash.", "keywords": "jewelry gems gold"},
-      {"text": "The twist? Most of the gang were pensioners in their sixties and seventies.", "keywords": "elderly man silhouette"},
-      {"text": "A vault, cracked open by a crew of old-timers.", "keywords": "vault door closed"},
-      {"text": "Follow for cases the world never forgot.", "keywords": "old case files"}
+      {
+        "text": "In 2015, a gang broke into a London vault over the Easter weekend.",
+        "keywords": "london street night"
+      },
+      {
+        "text": "They drilled through a thick concrete wall to reach it.",
+        "keywords": "concrete wall drill"
+      },
+      {
+        "text": "Inside, they emptied dozens of safe deposit boxes.",
+        "keywords": "safe deposit boxes"
+      },
+      {
+        "text": "They took an estimated fourteen million pounds in jewels and cash.",
+        "keywords": "jewelry gems gold"
+      },
+      {
+        "text": "The twist? Most of the gang were pensioners in their sixties and seventies.",
+        "keywords": "elderly man silhouette"
+      },
+      {
+        "text": "A vault, cracked open by a crew of old-timers.",
+        "keywords": "vault door closed"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
     ],
     "description": "In 2015 a gang of pensioners drilled into a London vault and stole 14 million in jewels. Follow for daily cold cases!",
-    "hashtags": ["#truecrime", "#heist", "#hattongarden", "#london", "#coldcase", "#shorts", "#fyp", "#casefiles"]
+    "hashtags": [
+      "#truecrime",
+      "#heist",
+      "#hattongarden",
+      "#london",
+      "#coldcase",
+      "#shorts",
+      "#fyp",
+      "#casefiles"
+    ]
+  },
+  {
+    "title": "The Mystery of The Lost Gold Train",
+    "segments": [
+      {
+        "text": "In 1945, a train carrying treasure disappeared without a trace.",
+        "keywords": "abandoned train tracks"
+      },
+      {
+        "text": "It was loaded with gold, silver, and priceless artifacts.",
+        "keywords": "gold bars coins"
+      },
+      {
+        "text": "Rumors spread about buried treasure in the mountains.",
+        "keywords": "mystic mountains aerial"
+      },
+      {
+        "text": "Many have searched, but none found the lost train.",
+        "keywords": "people searching forest"
+      },
+      {
+        "text": "Decades later, the train's fate remains a mystery.",
+        "keywords": "foggy valley train"
+      },
+      {
+        "text": "A treasure hunt that continues to captivate imaginations.",
+        "keywords": "golden sunset sky"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "In 1945, a train loaded with treasure vanished, leaving a legacy of mystery. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#lostgold",
+      "#unsolved",
+      "#coldcase",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Disappearance of the Sodder Children",
+    "segments": [
+      {
+        "text": "On Christmas Eve 1945, a fire consumed the Sodder home.",
+        "keywords": "burning house night"
+      },
+      {
+        "text": "Five of the ten children vanished without a trace.",
+        "keywords": "missing children photos"
+      },
+      {
+        "text": "The family believed they were kidnapped, not dead.",
+        "keywords": "family portrait"
+      },
+      {
+        "text": "Sightings and clues surfaced, but none were ever confirmed.",
+        "keywords": "shadowy figure"
+      },
+      {
+        "text": "Years later, the search for the children continues.",
+        "keywords": "old newspaper clippings"
+      },
+      {
+        "text": "A case shrouded in pain and unanswered questions.",
+        "keywords": "cloudy sky"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "Five children vanished after a house fire in 1945, leading to endless questions. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#sodderchildren",
+      "#unsolved",
+      "#coldcase",
+      "#missing",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Great Brink's Job",
+    "segments": [
+      {
+        "text": "In 1956, robbers executed the largest cash heist in history.",
+        "keywords": "masked robbers bank"
+      },
+      {
+        "text": "They took over $1.5 million from a secure vault.",
+        "keywords": "money bags"
+      },
+      {
+        "text": "The planning was meticulous, but the aftermath was chaotic.",
+        "keywords": "blueprints and plans"
+      },
+      {
+        "text": "Many were arrested, yet a significant amount of cash vanished.",
+        "keywords": "old police investigation"
+      },
+      {
+        "text": "The case remains partially unsolved, with theories abounding.",
+        "keywords": "mystery papers"
+      },
+      {
+        "text": "A heist that changed the face of robbery forever.",
+        "keywords": "historic bank scene"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "In 1956, the Brink's heist shocked the world, yet some questions remain. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#brinkshiest",
+      "#heist",
+      "#coldcase",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Vanished Ship of the Great Lakes",
+    "segments": [
+      {
+        "text": "In 1920, a vessel mysteriously disappeared on Lake Michigan.",
+        "keywords": "calm lake waters"
+      },
+      {
+        "text": "The ship was carrying a full crew and cargo.",
+        "keywords": "ship at sea"
+      },
+      {
+        "text": "Search efforts found no trace of the vessel.",
+        "keywords": "search boats"
+      },
+      {
+        "text": "Theories emerged about storms and sabotage.",
+        "keywords": "stormy clouds"
+      },
+      {
+        "text": "Decades have passed, but the ship's fate remains unknown.",
+        "keywords": "dark water mystery"
+      },
+      {
+        "text": "A maritime mystery that still haunts the shores.",
+        "keywords": "foggy shoreline"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "A ship vanished on Lake Michigan in 1920, and its mystery endures. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#vanishedship",
+      "#coldcase",
+      "#mystery",
+      "#unsolved",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Unsolved Murder of Elizabeth Short",
+    "segments": [
+      {
+        "text": "In 1947, Elizabeth Short was found dead in Los Angeles.",
+        "keywords": "dark alley night"
+      },
+      {
+        "text": "Her brutal murder shocked the nation and remains unsolved.",
+        "keywords": "old newspaper headlines"
+      },
+      {
+        "text": "Known as the Black Dahlia, she became a symbol of mystery.",
+        "keywords": "woman in shadow"
+      },
+      {
+        "text": "Countless suspects and theories emerged, yet no convictions.",
+        "keywords": "police investigation files"
+      },
+      {
+        "text": "The case continues to intrigue true crime enthusiasts.",
+        "keywords": "mystery enthusiasts"
+      },
+      {
+        "text": "A tragic story that haunts the streets of L.A.",
+        "keywords": "Los Angeles skyline"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "Elizabeth Short's unsolved murder in 1947 captivated the public and still resonates. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#blackdahlia",
+      "#unsolved",
+      "#coldcase",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Disappearance of Flight 19",
+    "segments": [
+      {
+        "text": "In 1945, five Navy bombers mysteriously vanished in the Bermuda Triangle.",
+        "keywords": "aerial view ocean"
+      },
+      {
+        "text": "The pilots reported navigational issues before losing contact.",
+        "keywords": "plane cockpit instruments"
+      },
+      {
+        "text": "A rescue mission was launched, but nothing was ever found.",
+        "keywords": "search and rescue boats"
+      },
+      {
+        "text": "Theories range from magnetic anomalies to paranormal activity.",
+        "keywords": "mysterious ocean"
+      },
+      {
+        "text": "To this day, Flight 19 remains one of aviation's biggest mysteries.",
+        "keywords": "dark stormy sky"
+      },
+      {
+        "text": "A flight that vanished, leaving questions without answers.",
+        "keywords": "foggy horizon"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "Flight 19 disappeared in the Bermuda Triangle in 1945, leaving a mystery unsolved. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#flight19",
+      "#unsolved",
+      "#coldcase",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Ghost of the Hindenburg",
+    "segments": [
+      {
+        "text": "In 1937, the Hindenburg airship tragically caught fire.",
+        "keywords": "airship disaster"
+      },
+      {
+        "text": "The disaster killed 36 people and shocked the world.",
+        "keywords": "crowd gasping"
+      },
+      {
+        "text": "Many questions remain about the cause of the fire.",
+        "keywords": "vintage news footage"
+      },
+      {
+        "text": "Some believe it was sabotage, while others suspect accident.",
+        "keywords": "newspaper articles"
+      },
+      {
+        "text": "The Hindenburg's legacy lives on, haunting aviation history.",
+        "keywords": "historic photos"
+      },
+      {
+        "text": "A tragedy that continues to captivate and mystify.",
+        "keywords": "shadowy sky"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "The Hindenburg disaster of 1937 remains a symbol of tragedy and mystery. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#hindenburg",
+      "#aviation",
+      "#coldcase",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Lost Treasure of Oak Island",
+    "segments": [
+      {
+        "text": "In 1795, treasure seekers discovered a mysterious pit on Oak Island.",
+        "keywords": "island treasure map"
+      },
+      {
+        "text": "Many believe it holds legendary riches and artifacts.",
+        "keywords": "ancient chest gold"
+      },
+      {
+        "text": "Countless attempts to retrieve the treasure have failed.",
+        "keywords": "digging tools"
+      },
+      {
+        "text": "Some theorize it's linked to pirate lore and ancient secrets.",
+        "keywords": "pirate flag"
+      },
+      {
+        "text": "The mystery of Oak Island remains unsolved for over two centuries.",
+        "keywords": "mysterious pit"
+      },
+      {
+        "text": "A treasure hunt that inspires dreams and legends.",
+        "keywords": "sunset over ocean"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "The treasure pit on Oak Island has baffled seekers for over two centuries. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#oakisland",
+      "#treasure",
+      "#coldcase",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Enigma of the Zodiac Killer",
+    "segments": [
+      {
+        "text": "In the late 1960s, a serial killer terrorized Northern California.",
+        "keywords": "dark city streets"
+      },
+      {
+        "text": "He taunted police with cryptic letters and puzzles.",
+        "keywords": "envelope with letters"
+      },
+      {
+        "text": "Despite extensive investigations, his identity remains unknown.",
+        "keywords": "detectives examining clues"
+      },
+      {
+        "text": "Numerous theories have emerged, but none lead to a conviction.",
+        "keywords": "mystery documents"
+      },
+      {
+        "text": "The Zodiac Killer's legacy continues to captivate the public.",
+        "keywords": "crime scene investigation"
+      },
+      {
+        "text": "A chilling reminder of a case that remains unsolved.",
+        "keywords": "shadowy figure"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "The Zodiac Killer remains one of America's most infamous unsolved cases. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#zodiackiller",
+      "#unsolved",
+      "#coldcase",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Lindbergh Baby Kidnapping",
+    "segments": [
+      {
+        "text": "In 1932, the son of aviator Charles Lindbergh was kidnapped.",
+        "keywords": "baby crib night"
+      },
+      {
+        "text": "The case gripped the nation, drawing massive media attention.",
+        "keywords": "newspaper headlines"
+      },
+      {
+        "text": "A ransom was demanded, leading to a frantic search.",
+        "keywords": "money bag"
+      },
+      {
+        "text": "Tragically, the child was found dead months later.",
+        "keywords": "empty woods"
+      },
+      {
+        "text": "The case led to the arrest and conviction of a suspect.",
+        "keywords": "courtroom sketches"
+      },
+      {
+        "text": "Yet, questions about the case remain even decades later.",
+        "keywords": "old case files"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "The kidnapping of Charles Lindbergh's baby captivated America and led to a tragic discovery. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#lindberghbaby",
+      "#kidnapping",
+      "#coldcase",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Disappearance of Amelia Earhart",
+    "segments": [
+      {
+        "text": "In 1937, aviator Amelia Earhart vanished during her flight around the world.",
+        "keywords": "vintage airplane sky"
+      },
+      {
+        "text": "She was attempting to make history as the first female pilot.",
+        "keywords": "aviator portrait"
+      },
+      {
+        "text": "Her last known position was over the Pacific Ocean.",
+        "keywords": "ocean horizon"
+      },
+      {
+        "text": "Despite extensive searches, no trace of her or the plane was found.",
+        "keywords": "search party boats"
+      },
+      {
+        "text": "Theories about her fate range from crash to capture.",
+        "keywords": "mysterious island"
+      },
+      {
+        "text": "Amelia's disappearance remains one of aviation's greatest mysteries.",
+        "keywords": "cloudy sky"
+      },
+      {
+        "text": "Follow for cases the world never forgot.",
+        "keywords": "old case files"
+      }
+    ],
+    "description": "Amelia Earhart's disappearance in 1937 left the world in awe and mystery. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#ameliaearhart",
+      "#aviation",
+      "#coldcase",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
