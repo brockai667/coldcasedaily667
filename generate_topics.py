@@ -66,6 +66,8 @@ def build_prompt(n, existing_titles):
         "- the SECOND-TO-LAST segment loops back to the opening hook so a rewatch feels seamless.\n"
         "- the LAST segment text MUST be exactly: 'Follow for cases the world never forgot.'\n"
         "- description: one sentence ending with 'Follow for daily cold cases!'.\n"
+        "- Occasionally (about a third of the time) add ONE subtle fitting emoji at the very END of the "
+        "description (e.g. 🔍, 🕯️, 🗂️). Emoji ONLY in the description text, NEVER inside any segment 'text'.\n"
         "- hashtags: 6-8 tags including #truecrime #coldcase #shorts #fyp.\n"
         f"- Do NOT reuse any of these existing titles: {existing_titles}\n"
         "Return ONLY the JSON array."
