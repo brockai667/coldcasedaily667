@@ -2,9 +2,21 @@
   "pexels_api_key": "",
   "buffer_token": "",
   "buffer_channels": [
-    { "id": "6a3f8cc65ab6d2f10679ab80", "service": "instagram", "name": "coldcasedaily667" },
-    { "id": "6a3f8cdc5ab6d2f10679abbf", "service": "youtube", "name": "coldcasedaily667" },
-    { "id": "6a3f8cea5ab6d2f10679abda", "service": "tiktok", "name": "coldcasedaily667" }
+    {
+      "id": "6a3f8cc65ab6d2f10679ab80",
+      "service": "instagram",
+      "name": "coldcasedaily667"
+    },
+    {
+      "id": "6a3f8cdc5ab6d2f10679abbf",
+      "service": "youtube",
+      "name": "coldcasedaily667"
+    },
+    {
+      "id": "6a3f8cea5ab6d2f10679abda",
+      "service": "tiktok",
+      "name": "coldcasedaily667"
+    }
   ],
   "cloudinary_cloud_name": "",
   "cloudinary_api_key": "",
@@ -21,12 +33,28 @@
   "brand_name": "ColdCaseDaily",
   "brand_handle": "",
   "brand_cta": "Follow for cases the world never forgot 🔍",
-  "brand_hashtags": ["#truecrime", "#coldcase", "#unsolved", "#mystery", "#crimetok", "#shorts", "#fyp", "#casefiles"],
+  "brand_hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#mystery",
+    "#crimetok",
+    "#shorts",
+    "#fyp",
+    "#casefiles"
+  ],
   "color_grade": "eq=contrast=1.2:brightness=-0.08:saturation=0.6:gamma=0.9,vignette=angle=PI/3.5",
   "caption_words_per_line": 3,
   "caption_fontsize": 80,
   "caption_margin_v": 880,
   "caption_margin_h": 185,
   "ffmpeg": "ffmpeg",
-  "ffprobe": "ffprobe"
+  "ffprobe": "ffprobe",
+  "caption_style": "color",
+  "caption_highlight_hex": "303BFF",
+  "caption_box_hex": "303BFF",
+  "caption_text_hex": "FFFFFF",
+  "caption_pop_scale": 112,
+  "brand_primary": "0x140707",
+  "brand_accent": "0xff3b30"
 }
