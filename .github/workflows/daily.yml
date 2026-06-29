@@ -2,7 +2,7 @@ name: ColdCaseDaily Daily
 
 on:
   schedule:
-    - cron: "21 1 * * *"   # 01:21 UTC (~03:21 Bratislava) - skoro rano, hotove davno pred publik. slotom
+    - cron: "21 20 * * *"   # 01:21 UTC (~03:21 Bratislava) - skoro rano, hotove davno pred publik. slotom
   workflow_dispatch: {}    # umoznuje rucne spustenie z GitHub UI
 
 permissions:
