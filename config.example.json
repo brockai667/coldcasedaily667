@@ -58,5 +58,7 @@
   "brand_primary": "0x140707",
   "brand_accent": "0xff3b30",
   "promo_yt": "\n\n🔍 Want the FULL story? Watch our deep-dive documentaries → https://www.youtube.com/@coldcasedaily667",
-  "promo_social": "\n\n🔍 Full case documentaries on our YouTube → @coldcasedaily667"
+  "promo_social": "\n\n🔍 Full case documentaries on our YouTube → @coldcasedaily667",
+  "tts_engine": "kokoro",
+  "kokoro_voice": "am_puck"
 }
