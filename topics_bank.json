@@ -993,49 +993,6 @@
     ]
   },
   {
-    "title": "The Heist That Stole the Mona Lisa",
-    "segments": [
-      {
-        "text": "In 1911, the Mona Lisa was stolen from the Louvre.",
-        "keywords": "mona lisa museum"
-      },
-      {
-        "text": "The thief disguised himself as a museum employee.",
-        "keywords": "vintage uniform"
-      },
-      {
-        "text": "He hid the painting in a trunk for over two years.",
-        "keywords": "trunk hidden"
-      },
-      {
-        "text": "When the painting was recovered, the world was shocked.",
-        "keywords": "crowd shocked"
-      },
-      {
-        "text": "The incident sparked a global fascination with the theft.",
-        "keywords": "art heist"
-      },
-      {
-        "text": "The Mona Lisa, a masterpiece that captured hearts and minds.",
-        "keywords": "famous painting"
-      },
-      {
-        "text": "Follow for cases the world never forgot.",
-        "keywords": "old case files"
-      }
-    ],
-    "description": "In 1911, the Mona Lisa was stolen and captivated the world. Follow for daily cold cases! 🎨",
-    "hashtags": [
-      "#truecrime",
-      "#monalisa",
-      "#unsolved",
-      "#coldcase",
-      "#artheist",
-      "#shorts",
-      "#fyp"
-    ]
-  },
-  {
     "title": "The Mysterious Disappearance of Amelia Earhart",
     "segments": [
       {
@@ -1244,78 +1201,6 @@
       "#truecrime",
       "#haroldholt",
       "#disappearance",
-      "#coldcase",
-      "#mystery",
-      "#shorts",
-      "#fyp"
-    ]
-  },
-  {
-    "title": "The Heist That Disappeared Without a Trace",
-    "segments": [
-      {
-        "text": "In 1956, the Great Train Robbery netted £2.6 million in cash.",
-        "keywords": "vintage train robbery",
-        "visual": {
-          "type": "hook",
-          "prompt": "dramatic scene image",
-          "big": "£2.6 Million Stolen!"
-        }
-      },
-      {
-        "text": "A gang of 15 men meticulously planned for months.",
-        "keywords": "gang planning heist",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "dark silhouettes of men with blueprints"
-        }
-      },
-      {
-        "text": "They intercepted a Royal Mail train in the dead of night.",
-        "keywords": "train tracks night",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "dimly lit train tracks at night"
-        }
-      },
-      {
-        "text": "The criminals escaped, leaving behind only a few clues.",
-        "keywords": "abandoned robbery scene",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "empty train cabin after robbery"
-        }
-      },
-      {
-        "text": "To this day, the majority of the money remains missing.",
-        "keywords": "mysterious money bags",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "empty bags on a table"
-        }
-      },
-      {
-        "text": "A case that continues to baffle law enforcement.",
-        "keywords": "police investigation files",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "police files spread on a table"
-        }
-      },
-      {
-        "text": "Follow for the cases that were never solved.",
-        "keywords": "old case files",
-        "visual": {
-          "type": "cta",
-          "prompt": "iconic train"
-        }
-      }
-    ],
-    "description": "In 1956, a daring heist left millions missing and a mystery unsolved. Follow for daily cold cases! 🔍",
-    "hashtags": [
-      "#truecrime",
-      "#greattrainrobbery",
-      "#unsolved",
       "#coldcase",
       "#mystery",
       "#shorts",
