@@ -1,0 +1,65 @@
+{
+  "title": "The Heist of the Century That Left Many Questions",
+  "place": "Paris",
+  "country": "France",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Seven million euros and no one in custody.",
+      "hook_top": "MILLIONS NO ONE CAUGHT",
+      "query": "glistening jewels display",
+      "query2": "empty bank vault"
+    },
+    {
+      "role": "map",
+      "text": "It took place in Paris, at a high-end jewelry store."
+    },
+    {
+      "role": "fact",
+      "text": "In 2010, sophisticated thieves made off with priceless diamonds.",
+      "query": "luxury jewelry heist",
+      "query2": "shiny diamonds close-up",
+      "chips": [
+        {
+          "t": "2010",
+          "on": "2010",
+          "style": "white"
+        },
+        {
+          "t": "€7M STOLEN",
+          "on": "million",
+          "style": "accent"
+        }
+      ],
+      "punch": "stolen"
+    },
+    {
+      "role": "callout",
+      "text": "Despite extensive investigations, the culprits were never found.",
+      "query": "detective office night",
+      "query2": "mysterious safe",
+      "label": "UNSOLVED HEIST",
+      "sub": "Who is behind it?",
+      "label_on": "unsolved",
+      "punch": "who"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night aerial",
+      "query2": "rain window night city"
+    }
+  ],
+  "description": "📍 Paris, France - 2010. A daring heist at a luxury jewelry store left thieves with seven million euros worth of diamonds, yet no one has been caught. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#heist",
+    "#paris",
+    "#jewelry",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

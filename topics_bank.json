@@ -1782,5 +1782,391 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "A Caper Worth Millions: The Lufthansa Heist",
+    "place": "New York City",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Over five million dollars vanished in mere minutes.",
+        "hook_top": "FIVE MILLION DOLLARS GONE",
+        "query": "dark airport night",
+        "query2": "abandoned baggage claim"
+      },
+      {
+        "role": "map",
+        "text": "It happened in New York City, at JFK Airport."
+      },
+      {
+        "role": "fact",
+        "text": "In 1978, a group orchestrated a heist that still remains unresolved.",
+        "query": "night skyline airport",
+        "query2": "cargo hold warehouse",
+        "chips": [
+          {
+            "t": "1978",
+            "on": "1978",
+            "style": "white"
+          },
+          {
+            "t": "$5M STOLEN",
+            "on": "million",
+            "style": "accent"
+          }
+        ],
+        "punch": "stolen"
+      },
+      {
+        "role": "callout",
+        "text": "Not a single suspect was ever convicted.",
+        "query": "case files folder desk",
+        "query2": "detective office night",
+        "label": "UNSOLVED MYSTERY",
+        "sub": "Millions still unaccounted for",
+        "label_on": "unsolved",
+        "punch": "unsolved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy city night aerial",
+        "query2": "rain window night city"
+      }
+    ],
+    "description": "📍 New York City, USA - 1978. A meticulously planned heist stole over five million dollars from JFK Airport, and no one was ever convicted. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#heist",
+      "#jfkairport",
+      "#newyork",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Disappearance That Baffled a Nation",
+    "place": "Alaska",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A simple trip turned into a never-ending search.",
+        "hook_top": "A NEVERENDING SEARCH",
+        "query": "snowy wilderness landscape",
+        "query2": "remote cabin in woods"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Alaska, during a family trip."
+      },
+      {
+        "role": "fact",
+        "text": "In 1991, a mother and her children vanished without a trace.",
+        "query": "snowstorm night",
+        "query2": "search party searching",
+        "chips": [
+          {
+            "t": "1991",
+            "on": "1991",
+            "style": "white"
+          },
+          {
+            "t": "3 PEOPLE MISSING",
+            "on": "missing",
+            "style": "accent"
+          }
+        ],
+        "punch": "missing"
+      },
+      {
+        "role": "callout",
+        "text": "Countless searches yielded no clues.",
+        "query": "search team planning",
+        "query2": "map of search area",
+        "label": "STILL MISSING",
+        "sub": "A mystery unresolved",
+        "label_on": "missing",
+        "punch": "still"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy city night aerial",
+        "query2": "rain window night city"
+      }
+    ],
+    "description": "📍 Alaska, USA - 1991. A mother and her two children disappeared during a trip, and despite extensive searches, no trace was ever found. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#disappearance",
+      "#alaska",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Unsolved Mystery of the S.S. Ourang Medan",
+    "place": "Indonesian Waters",
+    "country": "Indonesia",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "All aboard, but not a soul was left alive.",
+        "hook_top": "NOT A SOUL LEFT ALIVE",
+        "query": "ghost ship at dawn",
+        "query2": "abandoned ship at sea"
+      },
+      {
+        "role": "map",
+        "text": "This eerie event occurred in the waters of Indonesia."
+      },
+      {
+        "role": "fact",
+        "text": "In 1947, a signal reported crew in distress, but all were found dead.",
+        "query": "old maritime distress signal",
+        "query2": "haunted shipwreck",
+        "chips": [
+          {
+            "t": "1947",
+            "on": "1947",
+            "style": "white"
+          },
+          {
+            "t": "CREW FOUND DEAD",
+            "on": "crew",
+            "style": "accent"
+          }
+        ],
+        "punch": "dead"
+      },
+      {
+        "role": "callout",
+        "text": "The cause of death remains a mystery.",
+        "query": "mysterious ocean waves",
+        "query2": "night ocean horizon",
+        "label": "UNEXPLAINED DEATHS",
+        "sub": "Theories abound but no answers",
+        "label_on": "mystery",
+        "punch": "mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "foggy city night aerial",
+        "query2": "rain window night city"
+      }
+    ],
+    "description": "📍 Indonesian Waters, Indonesia - 1947. An enigmatic distress signal led rescuers to a ghost ship where the entire crew was found dead. The cause remains unexplained. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#mystery",
+      "#ghostship",
+      "#indonesia",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Heist of the Century That Left Many Questions",
+    "place": "Paris",
+    "country": "France",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Seven million euros and no one in custody.",
+        "hook_top": "MILLIONS NO ONE CAUGHT",
+        "query": "glistening jewels display",
+        "query2": "empty bank vault"
+      },
+      {
+        "role": "map",
+        "text": "It took place in Paris, at a high-end jewelry store."
+      },
+      {
+        "role": "fact",
+        "text": "In 2010, sophisticated thieves made off with priceless diamonds.",
+        "query": "luxury jewelry heist",
+        "query2": "shiny diamonds close-up",
+        "chips": [
+          {
+            "t": "2010",
+            "on": "2010",
+            "style": "white"
+          },
+          {
+            "t": "€7M STOLEN",
+            "on": "million",
+            "style": "accent"
+          }
+        ],
+        "punch": "stolen"
+      },
+      {
+        "role": "callout",
+        "text": "Despite extensive investigations, the culprits were never found.",
+        "query": "detective office night",
+        "query2": "mysterious safe",
+        "label": "UNSOLVED HEIST",
+        "sub": "Who is behind it?",
+        "label_on": "unsolved",
+        "punch": "who"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night aerial",
+        "query2": "rain window night city"
+      }
+    ],
+    "description": "📍 Paris, France - 2010. A daring heist at a luxury jewelry store left thieves with seven million euros worth of diamonds, yet no one has been caught. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#heist",
+      "#paris",
+      "#jewelry",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Gone Without a Trace: The Disappearance of Brandon Lawson",
+    "place": "Texas",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A call for help that led to a vast search.",
+        "hook_top": "A CALL FOR HELP",
+        "query": "dark rural Texan road",
+        "query2": "haunted stretch of highway"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Texas, along a desolate highway."
+      },
+      {
+        "role": "fact",
+        "text": "In 2013, Brandon vanished after calling 911 with a desperate plea.",
+        "query": "urban night highway",
+        "query2": "small rural town lights",
+        "chips": [
+          {
+            "t": "2013",
+            "on": "2013",
+            "style": "white"
+          },
+          {
+            "t": "MISSING SINCE 2013",
+            "on": "missing",
+            "style": "accent"
+          }
+        ],
+        "punch": "missing"
+      },
+      {
+        "role": "callout",
+        "text": "Despite extensive searches, he was never found.",
+        "query": "search party in forest",
+        "query2": "case files on table",
+        "label": "STILL UNRESOLVED",
+        "sub": "His fate remains a mystery",
+        "label_on": "unresolved",
+        "punch": "mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "foggy city night aerial",
+        "query2": "rain window night city"
+      }
+    ],
+    "description": "📍 Texas, USA - 2013. Brandon Lawson called 911 for help but mysteriously disappeared afterward. As of today, he remains missing. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#disappearance",
+      "#texas",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Sweethearts Who Vanished in the Woods",
+    "place": "Milwaukee",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A romantic getaway turned chilling mystery.",
+        "hook_top": "A CHILLING MYSTERY",
+        "query": "lush wooded area",
+        "query2": "roads leading into forest"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Milwaukee, during a camping trip."
+      },
+      {
+        "role": "fact",
+        "text": "In 1976, a young couple disappeared without a trace while camping.",
+        "query": "campground at night",
+        "query2": "tent in forest",
+        "chips": [
+          {
+            "t": "1976",
+            "on": "1976",
+            "style": "white"
+          },
+          {
+            "t": "YOUNG COUPLE MISSING",
+            "on": "couple",
+            "style": "accent"
+          }
+        ],
+        "punch": "missing"
+      },
+      {
+        "role": "callout",
+        "text": "Despite searches, no evidence has surfaced.",
+        "query": "search team with dogs",
+        "query2": "investigators in woods",
+        "label": "UNSOLVED CASE",
+        "sub": "Their fate remains uncertain",
+        "label_on": "unsolved",
+        "punch": "case"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night aerial",
+        "query2": "rain window night city"
+      }
+    ],
+    "description": "📍 Milwaukee, USA - 1976. A young couple vanished while camping, leaving families and authorities in a desperate search for answers. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#disappearance",
+      "#milwaukee",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

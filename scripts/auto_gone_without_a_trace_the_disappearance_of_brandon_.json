@@ -1,0 +1,64 @@
+{
+  "title": "Gone Without a Trace: The Disappearance of Brandon Lawson",
+  "place": "Texas",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A call for help that led to a vast search.",
+      "hook_top": "A CALL FOR HELP",
+      "query": "dark rural Texan road",
+      "query2": "haunted stretch of highway"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Texas, along a desolate highway."
+    },
+    {
+      "role": "fact",
+      "text": "In 2013, Brandon vanished after calling 911 with a desperate plea.",
+      "query": "urban night highway",
+      "query2": "small rural town lights",
+      "chips": [
+        {
+          "t": "2013",
+          "on": "2013",
+          "style": "white"
+        },
+        {
+          "t": "MISSING SINCE 2013",
+          "on": "missing",
+          "style": "accent"
+        }
+      ],
+      "punch": "missing"
+    },
+    {
+      "role": "callout",
+      "text": "Despite extensive searches, he was never found.",
+      "query": "search party in forest",
+      "query2": "case files on table",
+      "label": "STILL UNRESOLVED",
+      "sub": "His fate remains a mystery",
+      "label_on": "unresolved",
+      "punch": "mystery"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "foggy city night aerial",
+      "query2": "rain window night city"
+    }
+  ],
+  "description": "📍 Texas, USA - 2013. Brandon Lawson called 911 for help but mysteriously disappeared afterward. As of today, he remains missing. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#disappearance",
+    "#texas",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

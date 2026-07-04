@@ -1,0 +1,64 @@
+{
+  "title": "The Unsolved Mystery of the S.S. Ourang Medan",
+  "place": "Indonesian Waters",
+  "country": "Indonesia",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "All aboard, but not a soul was left alive.",
+      "hook_top": "NOT A SOUL LEFT ALIVE",
+      "query": "ghost ship at dawn",
+      "query2": "abandoned ship at sea"
+    },
+    {
+      "role": "map",
+      "text": "This eerie event occurred in the waters of Indonesia."
+    },
+    {
+      "role": "fact",
+      "text": "In 1947, a signal reported crew in distress, but all were found dead.",
+      "query": "old maritime distress signal",
+      "query2": "haunted shipwreck",
+      "chips": [
+        {
+          "t": "1947",
+          "on": "1947",
+          "style": "white"
+        },
+        {
+          "t": "CREW FOUND DEAD",
+          "on": "crew",
+          "style": "accent"
+        }
+      ],
+      "punch": "dead"
+    },
+    {
+      "role": "callout",
+      "text": "The cause of death remains a mystery.",
+      "query": "mysterious ocean waves",
+      "query2": "night ocean horizon",
+      "label": "UNEXPLAINED DEATHS",
+      "sub": "Theories abound but no answers",
+      "label_on": "mystery",
+      "punch": "mystery"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "foggy city night aerial",
+      "query2": "rain window night city"
+    }
+  ],
+  "description": "📍 Indonesian Waters, Indonesia - 1947. An enigmatic distress signal led rescuers to a ghost ship where the entire crew was found dead. The cause remains unexplained. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#mystery",
+    "#ghostship",
+    "#indonesia",
+    "#shorts",
+    "#fyp"
+  ]
+}

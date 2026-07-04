@@ -1,0 +1,65 @@
+{
+  "title": "A Caper Worth Millions: The Lufthansa Heist",
+  "place": "New York City",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Over five million dollars vanished in mere minutes.",
+      "hook_top": "FIVE MILLION DOLLARS GONE",
+      "query": "dark airport night",
+      "query2": "abandoned baggage claim"
+    },
+    {
+      "role": "map",
+      "text": "It happened in New York City, at JFK Airport."
+    },
+    {
+      "role": "fact",
+      "text": "In 1978, a group orchestrated a heist that still remains unresolved.",
+      "query": "night skyline airport",
+      "query2": "cargo hold warehouse",
+      "chips": [
+        {
+          "t": "1978",
+          "on": "1978",
+          "style": "white"
+        },
+        {
+          "t": "$5M STOLEN",
+          "on": "million",
+          "style": "accent"
+        }
+      ],
+      "punch": "stolen"
+    },
+    {
+      "role": "callout",
+      "text": "Not a single suspect was ever convicted.",
+      "query": "case files folder desk",
+      "query2": "detective office night",
+      "label": "UNSOLVED MYSTERY",
+      "sub": "Millions still unaccounted for",
+      "label_on": "unsolved",
+      "punch": "unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night aerial",
+      "query2": "rain window night city"
+    }
+  ],
+  "description": "📍 New York City, USA - 1978. A meticulously planned heist stole over five million dollars from JFK Airport, and no one was ever convicted. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#heist",
+    "#jfkairport",
+    "#newyork",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

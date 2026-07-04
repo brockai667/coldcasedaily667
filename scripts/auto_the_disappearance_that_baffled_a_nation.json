@@ -1,0 +1,64 @@
+{
+  "title": "The Disappearance That Baffled a Nation",
+  "place": "Alaska",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A simple trip turned into a never-ending search.",
+      "hook_top": "A NEVERENDING SEARCH",
+      "query": "snowy wilderness landscape",
+      "query2": "remote cabin in woods"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Alaska, during a family trip."
+    },
+    {
+      "role": "fact",
+      "text": "In 1991, a mother and her children vanished without a trace.",
+      "query": "snowstorm night",
+      "query2": "search party searching",
+      "chips": [
+        {
+          "t": "1991",
+          "on": "1991",
+          "style": "white"
+        },
+        {
+          "t": "3 PEOPLE MISSING",
+          "on": "missing",
+          "style": "accent"
+        }
+      ],
+      "punch": "missing"
+    },
+    {
+      "role": "callout",
+      "text": "Countless searches yielded no clues.",
+      "query": "search team planning",
+      "query2": "map of search area",
+      "label": "STILL MISSING",
+      "sub": "A mystery unresolved",
+      "label_on": "missing",
+      "punch": "still"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night aerial",
+      "query2": "rain window night city"
+    }
+  ],
+  "description": "📍 Alaska, USA - 1991. A mother and her two children disappeared during a trip, and despite extensive searches, no trace was ever found. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#disappearance",
+    "#alaska",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
