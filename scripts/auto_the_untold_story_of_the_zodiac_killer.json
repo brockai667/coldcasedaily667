@@ -1,0 +1,69 @@
+{
+  "title": "The Untold Story of the Zodiac Killer",
+  "place": "San Francisco",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A serial killer taunts police with letters, yet remains unidentified.",
+      "hook_top": "A SERIAL KILLER UNIDENTIFIED",
+      "query": "dark alley streetlight",
+      "query2": "ominous urban landscape"
+    },
+    {
+      "role": "map",
+      "text": "The Zodiac Killer operated in the San Francisco Bay Area during the late 1960s."
+    },
+    {
+      "role": "fact",
+      "text": "He claimed responsibility for five murders, sending cryptic letters to the press.",
+      "query": "mysterious letters",
+      "query2": "detective examining notes",
+      "chips": [
+        {
+          "t": "1960s",
+          "on": "1960s",
+          "style": "white"
+        },
+        {
+          "t": "5 MURDERS",
+          "on": "responsibility",
+          "style": "accent"
+        }
+      ],
+      "punch": "unidentified"
+    },
+    {
+      "role": "archive",
+      "text": "The case remains one of the most infamous and still unsolved in history.",
+      "archive_query": "Zodiac Killer letters",
+      "archive_label": "The Zodiac Letters"
+    },
+    {
+      "role": "callout",
+      "text": "Despite advances, the Zodiac Killer has never been caught.",
+      "query": "case files on table",
+      "query2": "detective's desk night",
+      "label": "NEVER CAUGHT",
+      "sub": "The mystery endures today.",
+      "label_on": "caught",
+      "punch": "endures"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "urban night skyline",
+      "query2": "moonlit cityscape"
+    }
+  ],
+  "description": "📍 San Francisco, USA - 1960s. The Zodiac Killer claimed five lives and taunted police with letters, but they never caught him. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#mystery",
+    "#zodiackiller",
+    "#sanfrancisco",
+    "#shorts",
+    "#fyp"
+  ]
+}

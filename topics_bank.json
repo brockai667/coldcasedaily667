@@ -2168,5 +2168,208 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Disappearance That Left No Trace",
+    "place": "Lake Michigan",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A plane vanishes from radar, leaving families in heartbreak.",
+        "hook_top": "A PLANE VANISHES FROM RADAR",
+        "query": "dark lake at night",
+        "query2": "foggy airplane silhouette"
+      },
+      {
+        "role": "map",
+        "text": "It happened over Lake Michigan, during a stormy night in 1950."
+      },
+      {
+        "role": "fact",
+        "text": "The disappearance of Flight 2501 involved 58 passengers and crew. No wreckage was ever found.",
+        "query": "airplane wreck search",
+        "query2": "searching dark water",
+        "chips": [
+          {
+            "t": "1950",
+            "on": "1950",
+            "style": "white"
+          },
+          {
+            "t": "58 ON BOARD",
+            "on": "passengers",
+            "style": "accent"
+          }
+        ],
+        "punch": "wreckage"
+      },
+      {
+        "role": "archive",
+        "text": "The case remains one of the most mysterious aviation incidents.",
+        "archive_query": "Lake Michigan aviation",
+        "archive_label": "Flight 2501 Incident"
+      },
+      {
+        "role": "callout",
+        "text": "No survivors and no trace; it remains a haunting mystery.",
+        "query": "ominous sky over lake",
+        "query2": "distant thunder over water",
+        "label": "NO TRACE REMAINS",
+        "sub": "The mystery continues today.",
+        "label_on": "trace",
+        "punch": "haunting"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "mysterious fog over lake",
+        "query2": "calm water reflection"
+      }
+    ],
+    "description": "📍 Lake Michigan, USA - 1950. Flight 2501 disappeared without a trace, carrying 58 souls. No wreckage has ever been found. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#aviationmystery",
+      "#lakemichigan",
+      "#fyp",
+      "#shorts"
+    ]
+  },
+  {
+    "title": "The Untold Story of the Zodiac Killer",
+    "place": "San Francisco",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A serial killer taunts police with letters, yet remains unidentified.",
+        "hook_top": "A SERIAL KILLER UNIDENTIFIED",
+        "query": "dark alley streetlight",
+        "query2": "ominous urban landscape"
+      },
+      {
+        "role": "map",
+        "text": "The Zodiac Killer operated in the San Francisco Bay Area during the late 1960s."
+      },
+      {
+        "role": "fact",
+        "text": "He claimed responsibility for five murders, sending cryptic letters to the press.",
+        "query": "mysterious letters",
+        "query2": "detective examining notes",
+        "chips": [
+          {
+            "t": "1960s",
+            "on": "1960s",
+            "style": "white"
+          },
+          {
+            "t": "5 MURDERS",
+            "on": "responsibility",
+            "style": "accent"
+          }
+        ],
+        "punch": "unidentified"
+      },
+      {
+        "role": "archive",
+        "text": "The case remains one of the most infamous and still unsolved in history.",
+        "archive_query": "Zodiac Killer letters",
+        "archive_label": "The Zodiac Letters"
+      },
+      {
+        "role": "callout",
+        "text": "Despite advances, the Zodiac Killer has never been caught.",
+        "query": "case files on table",
+        "query2": "detective's desk night",
+        "label": "NEVER CAUGHT",
+        "sub": "The mystery endures today.",
+        "label_on": "caught",
+        "punch": "endures"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "urban night skyline",
+        "query2": "moonlit cityscape"
+      }
+    ],
+    "description": "📍 San Francisco, USA - 1960s. The Zodiac Killer claimed five lives and taunted police with letters, but they never caught him. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#mystery",
+      "#zodiackiller",
+      "#sanfrancisco",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Unsolved Murder of JonBenét Ramsey",
+    "place": "Boulder",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A child's death shrouded in mystery, whose truth remains hidden.",
+        "hook_top": "A CHILD'S MURDER UNSOLVED",
+        "query": "creepy mansion at night",
+        "query2": "dark window light"
+      },
+      {
+        "role": "map",
+        "text": "This tragedy occurred in Boulder, Colorado, in 1996."
+      },
+      {
+        "role": "fact",
+        "text": "JonBenét Ramsey was found dead in her home, sparking a national outcry.",
+        "query": "old police tape",
+        "query2": "police lights at night",
+        "chips": [
+          {
+            "t": "1996",
+            "on": "1996",
+            "style": "white"
+          },
+          {
+            "t": "NATIONAL OUTCRY",
+            "on": "her death",
+            "style": "accent"
+          }
+        ],
+        "punch": "sparked"
+      },
+      {
+        "role": "archive",
+        "text": "The case remains unsolved, often revisited by the public and media alike.",
+        "archive_query": "JonBenét Ramsey case",
+        "archive_label": "The Ramsey Case"
+      },
+      {
+        "role": "callout",
+        "text": "Despite extensive investigations, the killer has never been identified.",
+        "query": "detective notes",
+        "query2": "old case file"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "serene Boulder landscape",
+        "query2": "calm suburban street"
+      }
+    ],
+    "description": "📍 Boulder, Colorado, USA - 1996. JonBenét Ramsey was found dead in her home, her murder remains unsolved. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#jonbenetramsey",
+      "#boulder",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

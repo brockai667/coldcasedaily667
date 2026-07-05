@@ -1,0 +1,64 @@
+{
+  "title": "The Sweethearts Who Vanished in the Woods",
+  "place": "Milwaukee",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A romantic getaway turned chilling mystery.",
+      "hook_top": "A CHILLING MYSTERY",
+      "query": "lush wooded area",
+      "query2": "roads leading into forest"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Milwaukee, during a camping trip."
+    },
+    {
+      "role": "fact",
+      "text": "In 1976, a young couple disappeared without a trace while camping.",
+      "query": "campground at night",
+      "query2": "tent in forest",
+      "chips": [
+        {
+          "t": "1976",
+          "on": "1976",
+          "style": "white"
+        },
+        {
+          "t": "YOUNG COUPLE MISSING",
+          "on": "couple",
+          "style": "accent"
+        }
+      ],
+      "punch": "missing"
+    },
+    {
+      "role": "callout",
+      "text": "Despite searches, no evidence has surfaced.",
+      "query": "search team with dogs",
+      "query2": "investigators in woods",
+      "label": "UNSOLVED CASE",
+      "sub": "Their fate remains uncertain",
+      "label_on": "unsolved",
+      "punch": "case"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night aerial",
+      "query2": "rain window night city"
+    }
+  ],
+  "description": "📍 Milwaukee, USA - 1976. A young couple vanished while camping, leaving families and authorities in a desperate search for answers. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#disappearance",
+    "#milwaukee",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

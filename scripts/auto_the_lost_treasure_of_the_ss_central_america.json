@@ -1,0 +1,72 @@
+{
+  "title": "The Lost Treasure of the SS Central America",
+  "segments": [
+    {
+      "text": "In 1857, the SS Central America sank with $400 million in gold.",
+      "keywords": "shipwreck ocean treasure",
+      "visual": {
+        "type": "hook",
+        "prompt": "dramatic scene image",
+        "big": "$400 Million in Gold!"
+      }
+    },
+    {
+      "text": "The ship was traveling from Panama to New York when it went down.",
+      "keywords": "historic ship ocean",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "historical ship on the ocean"
+      }
+    },
+    {
+      "text": "A storm caused the ship to capsize off the coast of Carolina.",
+      "keywords": "stormy sea shipwreck",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "stormy sea with waves"
+      }
+    },
+    {
+      "text": "Over 400 passengers lost their lives, along with the gold.",
+      "keywords": "memorial ship tragedy",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "memorial for lost passengers"
+      }
+    },
+    {
+      "text": "The wreck was discovered in 1988, revealing only a fraction of the treasure.",
+      "keywords": "underwater treasure discovery",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "divers exploring shipwreck"
+      }
+    },
+    {
+      "text": "Where did the rest of the treasure go?",
+      "keywords": "mysterious gold coins",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "gold coins scattered in sand"
+      }
+    },
+    {
+      "text": "Follow because some cases still need answers.",
+      "keywords": "old case files",
+      "visual": {
+        "type": "cta",
+        "prompt": "iconic ship"
+      }
+    }
+  ],
+  "description": "The SS Central America sank in 1857, taking precious gold and lives with it. Follow for daily cold cases! 🗝️",
+  "hashtags": [
+    "#truecrime",
+    "#shipwreck",
+    "#treasurehunt",
+    "#coldcase",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

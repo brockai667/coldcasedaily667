@@ -1,0 +1,69 @@
+{
+  "title": "The Disappearance That Left No Trace",
+  "place": "Lake Michigan",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A plane vanishes from radar, leaving families in heartbreak.",
+      "hook_top": "A PLANE VANISHES FROM RADAR",
+      "query": "dark lake at night",
+      "query2": "foggy airplane silhouette"
+    },
+    {
+      "role": "map",
+      "text": "It happened over Lake Michigan, during a stormy night in 1950."
+    },
+    {
+      "role": "fact",
+      "text": "The disappearance of Flight 2501 involved 58 passengers and crew. No wreckage was ever found.",
+      "query": "airplane wreck search",
+      "query2": "searching dark water",
+      "chips": [
+        {
+          "t": "1950",
+          "on": "1950",
+          "style": "white"
+        },
+        {
+          "t": "58 ON BOARD",
+          "on": "passengers",
+          "style": "accent"
+        }
+      ],
+      "punch": "wreckage"
+    },
+    {
+      "role": "archive",
+      "text": "The case remains one of the most mysterious aviation incidents.",
+      "archive_query": "Lake Michigan aviation",
+      "archive_label": "Flight 2501 Incident"
+    },
+    {
+      "role": "callout",
+      "text": "No survivors and no trace; it remains a haunting mystery.",
+      "query": "ominous sky over lake",
+      "query2": "distant thunder over water",
+      "label": "NO TRACE REMAINS",
+      "sub": "The mystery continues today.",
+      "label_on": "trace",
+      "punch": "haunting"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "mysterious fog over lake",
+      "query2": "calm water reflection"
+    }
+  ],
+  "description": "📍 Lake Michigan, USA - 1950. Flight 2501 disappeared without a trace, carrying 58 souls. No wreckage has ever been found. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#aviationmystery",
+    "#lakemichigan",
+    "#fyp",
+    "#shorts"
+  ]
+}
