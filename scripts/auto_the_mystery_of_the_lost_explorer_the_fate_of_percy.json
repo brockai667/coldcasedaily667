@@ -1,0 +1,64 @@
+{
+  "title": "The Mystery of the Lost Explorer: The Fate of Percy Fawcett",
+  "place": "Amazon Rainforest",
+  "country": "Brazil",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "An adventurer's quest for treasure led to his mysterious disappearance.",
+      "hook_top": "AN ADVENTURER DISAPPEARED",
+      "query": "dense jungle foliage",
+      "query2": "old explorer's maps"
+    },
+    {
+      "role": "map",
+      "text": "It happened in the Amazon Rainforest, Brazil, in 1925."
+    },
+    {
+      "role": "fact",
+      "text": "In 1925, Percy Fawcett vanished while searching for a legendary city of gold.",
+      "query": "historical jungle photos",
+      "query2": "gold artifacts on display",
+      "chips": [
+        {
+          "t": "1925",
+          "on": "year",
+          "style": "white"
+        },
+        {
+          "t": "SEARCH FOR GOLD",
+          "on": "search",
+          "style": "accent"
+        }
+      ],
+      "punch": "yields"
+    },
+    {
+      "role": "callout",
+      "text": "To this day, no trace of Fawcett has ever been found.",
+      "query": "old trails in the jungle",
+      "query2": "suspenseful jungle environment",
+      "label": "NEVER FOUND",
+      "sub": "A mystery deep in the Amazon",
+      "label_on": "found",
+      "punch": "mystery"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "sunset over jungle",
+      "query2": "aerial view of forest"
+    }
+  ],
+  "description": "📍 Amazon Rainforest, Brazil - 1925. Percy Fawcett disappeared while searching for a city of gold, leaving behind an enduring mystery. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#missingexplorer",
+    "#percyfawcett",
+    "#brazil",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

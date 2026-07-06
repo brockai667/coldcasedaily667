@@ -1,0 +1,65 @@
+{
+  "title": "The Disappearance That Stunned the Nation: The Case of Flight 370",
+  "place": "Indian Ocean",
+  "country": "International Waters",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A flight lost, leaving only questions in its wake.",
+      "hook_top": "A FLIGHT LOST",
+      "query": "dark ocean waters",
+      "query2": "empty cockpit"
+    },
+    {
+      "role": "map",
+      "text": "It happened over the Indian Ocean on March 8, 2014."
+    },
+    {
+      "role": "fact",
+      "text": "Malaysia Airlines Flight 370 vanished with 239 people on board.",
+      "query": "search boats on ocean",
+      "query2": "aviation radar screen",
+      "chips": [
+        {
+          "t": "239 PEOPLE",
+          "on": "people",
+          "style": "white"
+        },
+        {
+          "t": "MARCH 8, 2014",
+          "on": "date",
+          "style": "accent"
+        }
+      ],
+      "punch": "vanished"
+    },
+    {
+      "role": "callout",
+      "text": "Extensive searches have failed to find the wreckage or answers.",
+      "query": "search operation boats",
+      "query2": "search lights in darkness",
+      "label": "REMAINS UNFOUND",
+      "sub": "No wreckage found yet",
+      "label_on": "unfound",
+      "punch": "search"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "mysterious clouded sky",
+      "query2": "dark sea horizon"
+    }
+  ],
+  "description": "📍 Indian Ocean - 2014. Flight MH370 disappeared with 239 souls on board, leaving the world questioning what happened. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#flightdisappearance",
+    "#mh370",
+    "#aviationmystery",
+    "#internationalwaters",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -2371,5 +2371,328 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "A Missing Millionaire: The Mysterious Disappearance of John Paul Getty III",
+    "place": "Rome",
+    "country": "Italy",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A wealthy heir vanished, leaving a family in turmoil.",
+        "hook_top": "A WEALTHY HEIR VANISHED",
+        "query": "dark city street night",
+        "query2": "vintage car parked"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Rome, Italy, in 1973."
+      },
+      {
+        "role": "fact",
+        "text": "On July 10, 1973, John Paul Getty III was kidnapped for ransom.",
+        "query": "vintage newspaper clippings",
+        "query2": "historic abduction scene",
+        "chips": [
+          {
+            "t": "1973",
+            "on": "1973",
+            "style": "white"
+          },
+          {
+            "t": "$17M RANSOM",
+            "on": "ransom",
+            "style": "accent"
+          }
+        ],
+        "punch": "kidnapping"
+      },
+      {
+        "role": "callout",
+        "text": "Despite the ransom payment, he was released months later, but his fate remains uncertain.",
+        "query": "dark room with documents",
+        "query2": "detective office dim light",
+        "label": "FATE STILL UNCERTAIN",
+        "sub": "$17 million ransom paid",
+        "label_on": "uncertain",
+        "punch": "fate"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy street at night",
+        "query2": "rainy cityscape"
+      }
+    ],
+    "description": "📍 Rome, Italy - 1973. John Paul Getty III was kidnapped for $17 million, yet his fate remains a mystery. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#kidnapping",
+      "#johngel",
+      "#rome",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Disappearance That Stunned the Nation: The Case of Flight 370",
+    "place": "Indian Ocean",
+    "country": "International Waters",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A flight lost, leaving only questions in its wake.",
+        "hook_top": "A FLIGHT LOST",
+        "query": "dark ocean waters",
+        "query2": "empty cockpit"
+      },
+      {
+        "role": "map",
+        "text": "It happened over the Indian Ocean on March 8, 2014."
+      },
+      {
+        "role": "fact",
+        "text": "Malaysia Airlines Flight 370 vanished with 239 people on board.",
+        "query": "search boats on ocean",
+        "query2": "aviation radar screen",
+        "chips": [
+          {
+            "t": "239 PEOPLE",
+            "on": "people",
+            "style": "white"
+          },
+          {
+            "t": "MARCH 8, 2014",
+            "on": "date",
+            "style": "accent"
+          }
+        ],
+        "punch": "vanished"
+      },
+      {
+        "role": "callout",
+        "text": "Extensive searches have failed to find the wreckage or answers.",
+        "query": "search operation boats",
+        "query2": "search lights in darkness",
+        "label": "REMAINS UNFOUND",
+        "sub": "No wreckage found yet",
+        "label_on": "unfound",
+        "punch": "search"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "mysterious clouded sky",
+        "query2": "dark sea horizon"
+      }
+    ],
+    "description": "📍 Indian Ocean - 2014. Flight MH370 disappeared with 239 souls on board, leaving the world questioning what happened. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#flightdisappearance",
+      "#mh370",
+      "#aviationmystery",
+      "#internationalwaters",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "One Night in Amsterdam: The Unsolved Murder of Asha Degree",
+    "place": "Amsterdam",
+    "country": "Netherlands",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A young girl vanished, and the truth has never emerged.",
+        "hook_top": "A YOUNG GIRL VANISHED",
+        "query": "lonely street at night",
+        "query2": "empty playground"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Amsterdam, Netherlands, in 2000."
+      },
+      {
+        "role": "fact",
+        "text": "Asha Degree was last seen on February 14, 2000, walking away from her home.",
+        "query": "faded neighborhood street",
+        "query2": "residential area at night",
+        "chips": [
+          {
+            "t": "2000",
+            "on": "year",
+            "style": "white"
+          },
+          {
+            "t": "FEBRUARY 14",
+            "on": "date",
+            "style": "accent"
+          }
+        ],
+        "punch": "vanished"
+      },
+      {
+        "role": "callout",
+        "text": "Despite multiple leads, her case remains open and unsolved.",
+        "query": "detective office with photos",
+        "query2": "case files on a desk",
+        "label": "STILL UNSOLVED",
+        "sub": "Ongoing search for answers",
+        "label_on": "unsolved",
+        "punch": "search"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "dark alleyway at night",
+        "query2": "cloudy sky over a city"
+      }
+    ],
+    "description": "📍 Amsterdam, Netherlands - 2000. Asha Degree vanished on February 14, leaving her family and authorities seeking answers. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#missingperson",
+      "#ashaDegree",
+      "#unsolvedmystery",
+      "#netherlands",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Mystery of the Lost Explorer: The Fate of Percy Fawcett",
+    "place": "Amazon Rainforest",
+    "country": "Brazil",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "An adventurer's quest for treasure led to his mysterious disappearance.",
+        "hook_top": "AN ADVENTURER DISAPPEARED",
+        "query": "dense jungle foliage",
+        "query2": "old explorer's maps"
+      },
+      {
+        "role": "map",
+        "text": "It happened in the Amazon Rainforest, Brazil, in 1925."
+      },
+      {
+        "role": "fact",
+        "text": "In 1925, Percy Fawcett vanished while searching for a legendary city of gold.",
+        "query": "historical jungle photos",
+        "query2": "gold artifacts on display",
+        "chips": [
+          {
+            "t": "1925",
+            "on": "year",
+            "style": "white"
+          },
+          {
+            "t": "SEARCH FOR GOLD",
+            "on": "search",
+            "style": "accent"
+          }
+        ],
+        "punch": "yields"
+      },
+      {
+        "role": "callout",
+        "text": "To this day, no trace of Fawcett has ever been found.",
+        "query": "old trails in the jungle",
+        "query2": "suspenseful jungle environment",
+        "label": "NEVER FOUND",
+        "sub": "A mystery deep in the Amazon",
+        "label_on": "found",
+        "punch": "mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "sunset over jungle",
+        "query2": "aerial view of forest"
+      }
+    ],
+    "description": "📍 Amazon Rainforest, Brazil - 1925. Percy Fawcett disappeared while searching for a city of gold, leaving behind an enduring mystery. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#missingexplorer",
+      "#percyfawcett",
+      "#brazil",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "A Vanishing Act: The Mystery of the Isdal Woman",
+    "place": "Bergen",
+    "country": "Norway",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A woman's body was found, but her identity remains unknown.",
+        "hook_top": "IDENTITY REMAINS UNKNOWN",
+        "query": "foggy mountain landscape",
+        "query2": "old hotel exterior"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Bergen, Norway, in 1970."
+      },
+      {
+        "role": "fact",
+        "text": "In November 1970, an unidentified woman was found in Isdalen Valley, known as the Isdal Woman.",
+        "query": "mystery posters about her",
+        "query2": "dark valley with mountains",
+        "chips": [
+          {
+            "t": "1970",
+            "on": "year",
+            "style": "white"
+          },
+          {
+            "t": "UNKNOWN IDENTITY",
+            "on": "identity",
+            "style": "accent"
+          }
+        ],
+        "punch": "unknown"
+      },
+      {
+        "role": "callout",
+        "text": "Despite investigations, her case remains one of Norway's greatest mysteries.",
+        "query": "detective office photos",
+        "query2": "mysterious valley landscape",
+        "label": "STILL UNSOLVED",
+        "sub": "An enduring mystery",
+        "label_on": "unsolved",
+        "punch": "mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "rainy streets of Bergen",
+        "query2": "moody Norwegian fjord"
+      }
+    ],
+    "description": "📍 Bergen, Norway - 1970. The Isdal Woman was found dead, but her identity and fate remain unknown. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#islawoman",
+      "#mystery",
+      "#norway",
+      "#unsolvedmystery",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

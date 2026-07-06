@@ -1,0 +1,65 @@
+{
+  "title": "One Night in Amsterdam: The Unsolved Murder of Asha Degree",
+  "place": "Amsterdam",
+  "country": "Netherlands",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A young girl vanished, and the truth has never emerged.",
+      "hook_top": "A YOUNG GIRL VANISHED",
+      "query": "lonely street at night",
+      "query2": "empty playground"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Amsterdam, Netherlands, in 2000."
+    },
+    {
+      "role": "fact",
+      "text": "Asha Degree was last seen on February 14, 2000, walking away from her home.",
+      "query": "faded neighborhood street",
+      "query2": "residential area at night",
+      "chips": [
+        {
+          "t": "2000",
+          "on": "year",
+          "style": "white"
+        },
+        {
+          "t": "FEBRUARY 14",
+          "on": "date",
+          "style": "accent"
+        }
+      ],
+      "punch": "vanished"
+    },
+    {
+      "role": "callout",
+      "text": "Despite multiple leads, her case remains open and unsolved.",
+      "query": "detective office with photos",
+      "query2": "case files on a desk",
+      "label": "STILL UNSOLVED",
+      "sub": "Ongoing search for answers",
+      "label_on": "unsolved",
+      "punch": "search"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "dark alleyway at night",
+      "query2": "cloudy sky over a city"
+    }
+  ],
+  "description": "📍 Amsterdam, Netherlands - 2000. Asha Degree vanished on February 14, leaving her family and authorities seeking answers. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#missingperson",
+    "#ashaDegree",
+    "#unsolvedmystery",
+    "#netherlands",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

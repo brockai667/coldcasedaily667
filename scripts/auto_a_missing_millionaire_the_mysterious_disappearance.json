@@ -1,0 +1,65 @@
+{
+  "title": "A Missing Millionaire: The Mysterious Disappearance of John Paul Getty III",
+  "place": "Rome",
+  "country": "Italy",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A wealthy heir vanished, leaving a family in turmoil.",
+      "hook_top": "A WEALTHY HEIR VANISHED",
+      "query": "dark city street night",
+      "query2": "vintage car parked"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Rome, Italy, in 1973."
+    },
+    {
+      "role": "fact",
+      "text": "On July 10, 1973, John Paul Getty III was kidnapped for ransom.",
+      "query": "vintage newspaper clippings",
+      "query2": "historic abduction scene",
+      "chips": [
+        {
+          "t": "1973",
+          "on": "1973",
+          "style": "white"
+        },
+        {
+          "t": "$17M RANSOM",
+          "on": "ransom",
+          "style": "accent"
+        }
+      ],
+      "punch": "kidnapping"
+    },
+    {
+      "role": "callout",
+      "text": "Despite the ransom payment, he was released months later, but his fate remains uncertain.",
+      "query": "dark room with documents",
+      "query2": "detective office dim light",
+      "label": "FATE STILL UNCERTAIN",
+      "sub": "$17 million ransom paid",
+      "label_on": "uncertain",
+      "punch": "fate"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy street at night",
+      "query2": "rainy cityscape"
+    }
+  ],
+  "description": "📍 Rome, Italy - 1973. John Paul Getty III was kidnapped for $17 million, yet his fate remains a mystery. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#kidnapping",
+    "#johngel",
+    "#rome",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

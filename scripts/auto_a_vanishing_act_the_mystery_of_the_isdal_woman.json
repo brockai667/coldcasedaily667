@@ -1,0 +1,64 @@
+{
+  "title": "A Vanishing Act: The Mystery of the Isdal Woman",
+  "place": "Bergen",
+  "country": "Norway",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A woman's body was found, but her identity remains unknown.",
+      "hook_top": "IDENTITY REMAINS UNKNOWN",
+      "query": "foggy mountain landscape",
+      "query2": "old hotel exterior"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Bergen, Norway, in 1970."
+    },
+    {
+      "role": "fact",
+      "text": "In November 1970, an unidentified woman was found in Isdalen Valley, known as the Isdal Woman.",
+      "query": "mystery posters about her",
+      "query2": "dark valley with mountains",
+      "chips": [
+        {
+          "t": "1970",
+          "on": "year",
+          "style": "white"
+        },
+        {
+          "t": "UNKNOWN IDENTITY",
+          "on": "identity",
+          "style": "accent"
+        }
+      ],
+      "punch": "unknown"
+    },
+    {
+      "role": "callout",
+      "text": "Despite investigations, her case remains one of Norway's greatest mysteries.",
+      "query": "detective office photos",
+      "query2": "mysterious valley landscape",
+      "label": "STILL UNSOLVED",
+      "sub": "An enduring mystery",
+      "label_on": "unsolved",
+      "punch": "mystery"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "rainy streets of Bergen",
+      "query2": "moody Norwegian fjord"
+    }
+  ],
+  "description": "📍 Bergen, Norway - 1970. The Isdal Woman was found dead, but her identity and fate remain unknown. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#islawoman",
+    "#mystery",
+    "#norway",
+    "#unsolvedmystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
