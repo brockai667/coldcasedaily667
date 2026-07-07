@@ -1,0 +1,72 @@
+{
+  "title": "The Unsolved Mystery of the Axeman of New Orleans",
+  "segments": [
+    {
+      "text": "Between 1918 and 1919, an unknown killer terrorized New Orleans.",
+      "keywords": "historic newspaper headlines",
+      "visual": {
+        "type": "hook",
+        "prompt": "dramatic scene image",
+        "big": "The Axeman Strikes!"
+      }
+    },
+    {
+      "text": "Victims were attacked in their homes, often while they slept.",
+      "keywords": "dark house interior",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "dimly lit bedroom at night"
+      }
+    },
+    {
+      "text": "The killer would leave an axe at the crime scene.",
+      "keywords": "crime scene axe",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "axe on the floor near a doorway"
+      }
+    },
+    {
+      "text": "He famously sent a letter to the press, claiming he would kill again.",
+      "keywords": "historic letter typewriter",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "old typewriter with a letter"
+      }
+    },
+    {
+      "text": "Despite numerous suspects, the case remains unsolved.",
+      "keywords": "detective case files",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "police investigation files on desk"
+      }
+    },
+    {
+      "text": "The Axeman has become a chilling figure of urban legend.",
+      "keywords": "creepy urban legend",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "shadowy figure in the alley"
+      }
+    },
+    {
+      "text": "Follow for daily true crime mysteries.",
+      "keywords": "old case files",
+      "visual": {
+        "type": "cta",
+        "prompt": "iconic old newspaper"
+      }
+    }
+  ],
+  "description": "An unknown killer haunted New Orleans in the early 20th century, leaving behind a chilling mystery. Follow for daily cold cases! 🕵️‍♂️",
+  "hashtags": [
+    "#truecrime",
+    "#axeman",
+    "#unsolved",
+    "#coldcase",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

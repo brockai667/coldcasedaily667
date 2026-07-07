@@ -2694,5 +2694,69 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Disappearance of a Hiker: The Case of the Lost Olympic National Park",
+    "place": "Olympic National Park",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "One hiker vanished without a trace in the wilderness.",
+        "hook_top": "VANISHED WITHOUT A TRACE",
+        "query": "dense forest path",
+        "query2": "mystical foggy woods"
+      },
+      {
+        "role": "map",
+        "text": "The incident occurred in Olympic National Park, Washington State."
+      },
+      {
+        "role": "fact",
+        "text": "In 2006, a hiker named Chris disappeared during a solo trek.",
+        "query": "trail sign in forest",
+        "query2": "hiking gear on a trail",
+        "chips": [
+          {
+            "t": "2006",
+            "on": "2006",
+            "style": "white"
+          },
+          {
+            "t": "ALONE IN THE WOODS",
+            "on": "hiker",
+            "style": "accent"
+          }
+        ],
+        "punch": "disappeared"
+      },
+      {
+        "role": "callout",
+        "text": "Extensive searches found no sign of him, raising many questions.",
+        "query": "search team in forest",
+        "query2": "lost hiker missing poster",
+        "label": "NEVER FOUND",
+        "sub": "Searches were extensive.",
+        "label_on": "missing",
+        "punch": "questions"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "misty forest aerial view",
+        "query2": "mountain fog night"
+      }
+    ],
+    "description": "📍 Olympic National Park, USA - 2006. Hiker Chris vanished during a solo trek, and extensive searches found no trace. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#olympicnationalpark",
+      "#hiker",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

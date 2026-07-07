@@ -1,0 +1,72 @@
+{
+  "title": "The Missing Art of Van Gogh",
+  "segments": [
+    {
+      "text": "In 2008, two Van Gogh paintings worth $100 million were stolen.",
+      "keywords": "beautiful Van Gogh",
+      "visual": {
+        "type": "hook",
+        "prompt": "dramatic scene image",
+        "big": "Stolen Masterpieces!"
+      }
+    },
+    {
+      "text": "The theft occurred from a museum in Italy during the night.",
+      "keywords": "museum exterior night",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "exterior of an art museum"
+      }
+    },
+    {
+      "text": "Thieves broke in through a window and grabbed the paintings.",
+      "keywords": "broken window theft",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "shattered glass close-up"
+      }
+    },
+    {
+      "text": "Despite extensive investigations, the paintings remain missing.",
+      "keywords": "missing art investigation",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "detectives examining art"
+      }
+    },
+    {
+      "text": "The case remains one of the art world's greatest mysteries.",
+      "keywords": "mystery art theft",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "empty frame on wall"
+      }
+    },
+    {
+      "text": "Art enthusiasts still hope for their return.",
+      "keywords": "hopeful art fans",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "people viewing art at a gallery"
+      }
+    },
+    {
+      "text": "Follow for the cases that were never solved.",
+      "keywords": "old case files",
+      "visual": {
+        "type": "cta",
+        "prompt": "iconic Van Gogh painting"
+      }
+    }
+  ],
+  "description": "In 2008, two priceless Van Gogh paintings were stolen from an Italian museum and never recovered. Follow for daily cold cases! 🎨",
+  "hashtags": [
+    "#truecrime",
+    "#arttheft",
+    "#unsolved",
+    "#coldcase",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

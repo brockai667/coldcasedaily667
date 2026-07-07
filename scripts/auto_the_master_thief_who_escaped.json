@@ -1,0 +1,72 @@
+{
+  "title": "The Master Thief Who Escaped",
+  "segments": [
+    {
+      "text": "In 1956, a daring heist stole over $9 million in jewels.",
+      "keywords": "jewelry vault riches",
+      "visual": {
+        "type": "hook",
+        "prompt": "dramatic scene image",
+        "big": "9 Million Dollar Theft!"
+      }
+    },
+    {
+      "text": "The thieves accessed the London Diamond Bourse after hours.",
+      "keywords": "luxury diamond bourse",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "interior of a diamond bourse"
+      }
+    },
+    {
+      "text": "Security alarms were cleverly disabled by the criminals.",
+      "keywords": "alarm system cut",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "security alarm panel"
+      }
+    },
+    {
+      "text": "They expertly evaded the police and vanished.",
+      "keywords": "dark alley escape",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "shadowy alley at night"
+      }
+    },
+    {
+      "text": "To this day, the case remains unsolved.",
+      "keywords": "foggy city street",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "mysterious foggy street"
+      }
+    },
+    {
+      "text": "A heist that left authorities baffled and puzzled.",
+      "keywords": "mystery crime scene",
+      "visual": {
+        "type": "kenburns",
+        "prompt": "investigation scene with police tape"
+      }
+    },
+    {
+      "text": "Follow because some cases still need answers.",
+      "keywords": "old case files",
+      "visual": {
+        "type": "cta",
+        "prompt": "iconic diamond bourse"
+      }
+    }
+  ],
+  "description": "In 1956, over $9 million worth of jewels vanished from the London Diamond Bourse. Follow for daily cold cases! 🔍",
+  "hashtags": [
+    "#truecrime",
+    "#heist",
+    "#unsolved",
+    "#coldcase",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
