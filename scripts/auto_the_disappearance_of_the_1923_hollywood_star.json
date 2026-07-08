@@ -1,0 +1,64 @@
+{
+  "title": "The Disappearance of the 1923 Hollywood Star",
+  "place": "Los Angeles",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A glamorous star vanished a week before her wedding.",
+      "hook_top": "WEEK BEFORE WEDDING",
+      "query": "vintage Hollywood lights",
+      "query2": "empty movie set"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Los Angeles, California, in 1923."
+    },
+    {
+      "role": "fact",
+      "text": "Ruth Elsie disappeared without a trace, and the media frenzy followed.",
+      "query": "newspaper clippings",
+      "query2": "Hollywood streets at night",
+      "chips": [
+        {
+          "t": "1923",
+          "on": "1923",
+          "style": "white"
+        },
+        {
+          "t": "MEDIA FRENZY",
+          "on": "media",
+          "style": "accent"
+        }
+      ],
+      "punch": "frenzy"
+    },
+    {
+      "role": "callout",
+      "text": "More than a century later, her fate remains a mystery.",
+      "query": "vintage Hollywood posters",
+      "query2": "searching old archives",
+      "label": "FATE REMAINS A MYSTERY",
+      "sub": "Will we ever know?",
+      "label_on": "mystery",
+      "punch": "mystery"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "Hollywood sign at dusk",
+      "query2": "city lights twinkling"
+    }
+  ],
+  "description": "📍 Los Angeles, USA - 1923. Ruth Elsie vanished just a week before her wedding, leaving behind questions and a media frenzy. More than a century later, her fate is still unknown. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#missingperson",
+    "#losangeles",
+    "#hollywoodmystery",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

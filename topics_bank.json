@@ -2758,5 +2758,389 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Legend of the Lost Dutchman's Gold Mine",
+    "place": "Apache Junction",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A treasure buried in the desert has never been found.",
+        "hook_top": "TREASURE NEVER FOUND",
+        "query": "desert landscape",
+        "query2": "golden glint in sunlight"
+      },
+      {
+        "role": "map",
+        "text": "It is believed to be located near Apache Junction, Arizona."
+      },
+      {
+        "role": "fact",
+        "text": "The Lost Dutchman's Gold Mine legend began in the 1800s and still intrigues treasure hunters.",
+        "query": "old maps and tools",
+        "query2": "treasure hunters in desert",
+        "chips": [
+          {
+            "t": "1800s",
+            "on": "1800s",
+            "style": "white"
+          },
+          {
+            "t": "TREASURE HUNTERS SEEKING",
+            "on": "treasure",
+            "style": "accent"
+          }
+        ],
+        "punch": "legend"
+      },
+      {
+        "role": "callout",
+        "text": "Many have searched in vain, yet the mine remains elusive.",
+        "query": "searchers with pickaxes",
+        "query2": "mysterious mountain",
+        "label": "STILL ELUSIVE",
+        "sub": "Will it ever be found?",
+        "label_on": "elusive",
+        "punch": "elusive"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "sunset over desert",
+        "query2": "cacti at dusk"
+      }
+    ],
+    "description": "📍 Apache Junction, USA - 1800s. The legend of the Lost Dutchman's Gold Mine has captured the imagination of treasure hunters for generations, yet it remains undiscovered. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#treasurehunt",
+      "#apachejunction",
+      "#lostdutchman",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Disappearance of the 1923 Hollywood Star",
+    "place": "Los Angeles",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A glamorous star vanished a week before her wedding.",
+        "hook_top": "WEEK BEFORE WEDDING",
+        "query": "vintage Hollywood lights",
+        "query2": "empty movie set"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Los Angeles, California, in 1923."
+      },
+      {
+        "role": "fact",
+        "text": "Ruth Elsie disappeared without a trace, and the media frenzy followed.",
+        "query": "newspaper clippings",
+        "query2": "Hollywood streets at night",
+        "chips": [
+          {
+            "t": "1923",
+            "on": "1923",
+            "style": "white"
+          },
+          {
+            "t": "MEDIA FRENZY",
+            "on": "media",
+            "style": "accent"
+          }
+        ],
+        "punch": "frenzy"
+      },
+      {
+        "role": "callout",
+        "text": "More than a century later, her fate remains a mystery.",
+        "query": "vintage Hollywood posters",
+        "query2": "searching old archives",
+        "label": "FATE REMAINS A MYSTERY",
+        "sub": "Will we ever know?",
+        "label_on": "mystery",
+        "punch": "mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "Hollywood sign at dusk",
+        "query2": "city lights twinkling"
+      }
+    ],
+    "description": "📍 Los Angeles, USA - 1923. Ruth Elsie vanished just a week before her wedding, leaving behind questions and a media frenzy. More than a century later, her fate is still unknown. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#missingperson",
+      "#losangeles",
+      "#hollywoodmystery",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Mysterious Death of a Socialite",
+    "place": "New York City",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A celebrated socialite's life ended in uncertainty.",
+        "hook_top": "LIFE ENDED IN UNCERTAINTY",
+        "query": "elegant party scene",
+        "query2": "shadowy figure leaving"
+      },
+      {
+        "role": "map",
+        "text": "It happened in New York City, in 1947."
+      },
+      {
+        "role": "fact",
+        "text": "The body of Mary Jane Kelly was found in her apartment, raising more questions than answers.",
+        "query": "detectives at the scene",
+        "query2": "police tape around apartment",
+        "chips": [
+          {
+            "t": "1947",
+            "on": "1947",
+            "style": "white"
+          },
+          {
+            "t": "QUESTIONS REMAIN",
+            "on": "questions",
+            "style": "accent"
+          }
+        ],
+        "punch": "questions"
+      },
+      {
+        "role": "callout",
+        "text": "Despite multiple investigations, the cause of her death is still unknown.",
+        "query": "old case files",
+        "query2": "mysterious shadows",
+        "label": "CAUSE UNKNOWN",
+        "sub": "A tragic mystery.",
+        "label_on": "unknown",
+        "punch": "unknown"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "NYC skyline at twilight",
+        "query2": "cars passing by"
+      }
+    ],
+    "description": "📍 New York City, USA - 1947. Mary Jane Kelly, a prominent socialite, was found dead in her apartment, and the details remain a tragic enigma. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#newyork",
+      "#socialitemystery",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Vanishing of the Great Pyramids",
+    "place": "Giza",
+    "country": "Egypt",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "An ancient site shrouded in mystery and disappearance.",
+        "hook_top": "SHROUDED IN MYSTERY",
+        "query": "grand pyramids under moonlight",
+        "query2": "desert landscape"
+      },
+      {
+        "role": "map",
+        "text": "It is located in Giza, Egypt, a marvel of the ancient world."
+      },
+      {
+        "role": "fact",
+        "text": "The Great Pyramids were built thousands of years ago and still intrigue historians today.",
+        "query": "architectural blueprint",
+        "query2": "archeologist on site",
+        "chips": [
+          {
+            "t": "THOUSANDS OF YEARS OLD",
+            "on": "years",
+            "style": "white"
+          },
+          {
+            "t": "HISTORIANS STILL INTRIGU",
+            "on": "intrigued",
+            "style": "accent"
+          }
+        ],
+        "punch": "intrigued"
+      },
+      {
+        "role": "callout",
+        "text": "While theories abound, the means of construction remain a topic of mystery.",
+        "query": "ancient tools",
+        "query2": "mysterious scrolls",
+        "label": "MEANS STILL A MYSTERY",
+        "sub": "What secrets do they hold?",
+        "label_on": "mystery",
+        "punch": "mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "sunset over the pyramids",
+        "query2": "golden sands of Giza"
+      }
+    ],
+    "description": "📍 Giza, Egypt - Thousands of years ago. The great pyramids remain one of history's greatest marvels, but many of their secrets are still locked in time. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#historymystery",
+      "#giza",
+      "#pyramids",
+      "#ancientsites",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Unsolved Murder of the Spy",
+    "place": "Berlin",
+    "country": "Germany",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A hidden life ended in a mysterious killing.",
+        "hook_top": "A MYSTERIOUS KILLING",
+        "query": "dark alley in Berlin",
+        "query2": "spy tools scattered"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Berlin, Germany, during the Cold War in 1986."
+      },
+      {
+        "role": "fact",
+        "text": "The body of a British spy was discovered, leaving behind lingering questions.",
+        "query": "police investigating scene",
+        "query2": "case files on table",
+        "chips": [
+          {
+            "t": "1986",
+            "on": "1986",
+            "style": "white"
+          },
+          {
+            "t": "LINGERING QUESTIONS",
+            "on": "questions",
+            "style": "accent"
+          }
+        ],
+        "punch": "questions"
+      },
+      {
+        "role": "callout",
+        "text": "Despite investigations, the murder remains officially unsolved.",
+        "query": "detective in shadows",
+        "query2": "old newspaper articles",
+        "label": "OFFICIALLY UNSOLVED",
+        "sub": "What happened that night?",
+        "label_on": "unsolved",
+        "punch": "unsolved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "nighttime Berlin skyline",
+        "query2": "streetlight illuminating street"
+      }
+    ],
+    "description": "📍 Berlin, Germany - 1986. The murder of a British spy after a life of secrecy remains unsolved, leaving questions in its wake. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#spy",
+      "#berlin",
+      "#mystery",
+      "#unsolved",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "A Disappearance into Thin Air",
+    "place": "Colombia",
+    "country": "Colombia",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A tourist vanished from a bustling area without anyone noticing.",
+        "hook_top": "VANISHED WITHOUT A TRACE",
+        "query": "crowded street scene",
+        "query2": "bright Colombian landscape"
+      },
+      {
+        "role": "map",
+        "text": "It happened in a popular tourist area in Colombia in 2018."
+      },
+      {
+        "role": "fact",
+        "text": "The disappearance of a tourist sparked a massive search effort, but no clues were found.",
+        "query": "searching in crowds",
+        "query2": "local police investigation",
+        "chips": [
+          {
+            "t": "2018",
+            "on": "2018",
+            "style": "white"
+          },
+          {
+            "t": "NO CLUES FOUND",
+            "on": "clues",
+            "style": "accent"
+          }
+        ],
+        "punch": "clues"
+      },
+      {
+        "role": "callout",
+        "text": "Even with local and international attention, the case remains unsolved.",
+        "query": "news reports on case",
+        "query2": "crowd of searchers",
+        "label": "REMAINS UNSOLVED",
+        "sub": "Where is the missing tourist?",
+        "label_on": "unsolved",
+        "punch": "unsolved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "bustling market scene",
+        "query2": "sunset over cityscape"
+      }
+    ],
+    "description": "📍 Colombia - 2018. A tourist vanished from a busy area, capturing local and international attention. Despite extensive searches, the case remains unsolved. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#missingperson",
+      "#colombia",
+      "#unsolved",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

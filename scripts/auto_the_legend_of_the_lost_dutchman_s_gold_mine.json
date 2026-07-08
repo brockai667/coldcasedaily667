@@ -1,0 +1,64 @@
+{
+  "title": "The Legend of the Lost Dutchman's Gold Mine",
+  "place": "Apache Junction",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A treasure buried in the desert has never been found.",
+      "hook_top": "TREASURE NEVER FOUND",
+      "query": "desert landscape",
+      "query2": "golden glint in sunlight"
+    },
+    {
+      "role": "map",
+      "text": "It is believed to be located near Apache Junction, Arizona."
+    },
+    {
+      "role": "fact",
+      "text": "The Lost Dutchman's Gold Mine legend began in the 1800s and still intrigues treasure hunters.",
+      "query": "old maps and tools",
+      "query2": "treasure hunters in desert",
+      "chips": [
+        {
+          "t": "1800s",
+          "on": "1800s",
+          "style": "white"
+        },
+        {
+          "t": "TREASURE HUNTERS SEEKING",
+          "on": "treasure",
+          "style": "accent"
+        }
+      ],
+      "punch": "legend"
+    },
+    {
+      "role": "callout",
+      "text": "Many have searched in vain, yet the mine remains elusive.",
+      "query": "searchers with pickaxes",
+      "query2": "mysterious mountain",
+      "label": "STILL ELUSIVE",
+      "sub": "Will it ever be found?",
+      "label_on": "elusive",
+      "punch": "elusive"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "sunset over desert",
+      "query2": "cacti at dusk"
+    }
+  ],
+  "description": "📍 Apache Junction, USA - 1800s. The legend of the Lost Dutchman's Gold Mine has captured the imagination of treasure hunters for generations, yet it remains undiscovered. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#treasurehunt",
+    "#apachejunction",
+    "#lostdutchman",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
