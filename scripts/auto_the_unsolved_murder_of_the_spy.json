@@ -1,0 +1,64 @@
+{
+  "title": "The Unsolved Murder of the Spy",
+  "place": "Berlin",
+  "country": "Germany",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A hidden life ended in a mysterious killing.",
+      "hook_top": "A MYSTERIOUS KILLING",
+      "query": "dark alley in Berlin",
+      "query2": "spy tools scattered"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Berlin, Germany, during the Cold War in 1986."
+    },
+    {
+      "role": "fact",
+      "text": "The body of a British spy was discovered, leaving behind lingering questions.",
+      "query": "police investigating scene",
+      "query2": "case files on table",
+      "chips": [
+        {
+          "t": "1986",
+          "on": "1986",
+          "style": "white"
+        },
+        {
+          "t": "LINGERING QUESTIONS",
+          "on": "questions",
+          "style": "accent"
+        }
+      ],
+      "punch": "questions"
+    },
+    {
+      "role": "callout",
+      "text": "Despite investigations, the murder remains officially unsolved.",
+      "query": "detective in shadows",
+      "query2": "old newspaper articles",
+      "label": "OFFICIALLY UNSOLVED",
+      "sub": "What happened that night?",
+      "label_on": "unsolved",
+      "punch": "unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "nighttime Berlin skyline",
+      "query2": "streetlight illuminating street"
+    }
+  ],
+  "description": "📍 Berlin, Germany - 1986. The murder of a British spy after a life of secrecy remains unsolved, leaving questions in its wake. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#spy",
+    "#berlin",
+    "#mystery",
+    "#unsolved",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -1568,222 +1568,6 @@
     ]
   },
   {
-    "title": "The Lost Treasure of the SS Waratah",
-    "segments": [
-      {
-        "text": "In 1909, the SS Waratah vanished without a trace off the coast of Australia.",
-        "keywords": "historic shipwreck",
-        "visual": {
-          "type": "hook",
-          "prompt": "dramatic scene image",
-          "big": "A Ship That Disappeared!"
-        }
-      },
-      {
-        "text": "The ship was carrying over 700 passengers and a fortune in cargo.",
-        "keywords": "passenger ship ocean",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "steamship at sea"
-        }
-      },
-      {
-        "text": "Despite numerous search efforts, no wreckage was found.",
-        "keywords": "search boats ocean",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "search boats in stormy sea"
-        }
-      },
-      {
-        "text": "The mystery sparked countless theories about its fate.",
-        "keywords": "rumors and theories",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "mystery board with notes"
-        }
-      },
-      {
-        "text": "To this day, the fate of the SS Waratah remains a mystery.",
-        "keywords": "dark ocean depths",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "mysterious ocean depth"
-        }
-      },
-      {
-        "text": "A lost treasure story still captivating many.",
-        "keywords": "treasure map",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "vintage treasure map"
-        }
-      },
-      {
-        "text": "Follow for daily true crime mysteries.",
-        "keywords": "old case files",
-        "visual": {
-          "type": "cta",
-          "prompt": "iconic SS Waratah"
-        }
-      }
-    ],
-    "description": "In 1909, the SS Waratah and its fortune disappeared off Australia’s coast, never to be found. Follow for daily cold cases! 🗺️",
-    "hashtags": [
-      "#truecrime",
-      "#shipwreck",
-      "#unsolved",
-      "#coldcase",
-      "#mystery",
-      "#shorts",
-      "#fyp"
-    ]
-  },
-  {
-    "title": "The Curious Case of Jim Thompson",
-    "segments": [
-      {
-        "text": "In 1967, Jim Thompson, the 'Silk King', vanished in Thailand.",
-        "keywords": "silk industry Thailand",
-        "visual": {
-          "type": "hook",
-          "prompt": "dramatic scene image",
-          "big": "A Businessman Who Disappeared!"
-        }
-      },
-      {
-        "text": "He was last seen hiking in the jungles of Malaysia.",
-        "keywords": "jungle hiking trail",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "dense jungle trail"
-        }
-      },
-      {
-        "text": "His disappearance sparked international intrigue and investigation.",
-        "keywords": "news headlines intrigue",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "vintage newspaper headline"
-        }
-      },
-      {
-        "text": "Despite thorough searches, no traces of him were found.",
-        "keywords": "search party jungle",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "search team in jungle"
-        }
-      },
-      {
-        "text": "Theories abound, from kidnapping to accidental death.",
-        "keywords": "mystery theories",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "mystery theory cork board"
-        }
-      },
-      {
-        "text": "Jim Thompson's fate remains unknown to this day.",
-        "keywords": "dark jungle shadows",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "shadows in jungle"
-        }
-      },
-      {
-        "text": "Follow for the cases that were never solved.",
-        "keywords": "old case files",
-        "visual": {
-          "type": "cta",
-          "prompt": "iconic silk fabric"
-        }
-      }
-    ],
-    "description": "In 1967, Jim Thompson mysteriously vanished while hiking in Thailand’s jungles, and his fate remains unsolved. Follow for daily cold cases! 🌿",
-    "hashtags": [
-      "#truecrime",
-      "#disappearance",
-      "#unsolved",
-      "#coldcase",
-      "#mystery",
-      "#shorts",
-      "#fyp"
-    ]
-  },
-  {
-    "title": "The Vanishing of the Beaumont Children",
-    "segments": [
-      {
-        "text": "On January 26, 1966, three siblings disappeared from a beach in Australia.",
-        "keywords": "beach children",
-        "visual": {
-          "type": "hook",
-          "prompt": "dramatic scene image",
-          "big": "Three Children Gone Missing!"
-        }
-      },
-      {
-        "text": "The Beaumont children were last seen playing on the sand.",
-        "keywords": "children playing beach",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "children playing at a beach"
-        }
-      },
-      {
-        "text": "Their sudden disappearance sparked a massive search operation.",
-        "keywords": "search operation",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "search team on beach"
-        }
-      },
-      {
-        "text": "Despite extensive efforts, no trace of them was ever found.",
-        "keywords": "missing children",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "empty beach"
-        }
-      },
-      {
-        "text": "The case remains one of Australia's most famous mysteries.",
-        "keywords": "famous mystery case",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "mystery beach setting"
-        }
-      },
-      {
-        "text": "The Beaumont children’s fate continues to haunt the nation.",
-        "keywords": "haunting mystery",
-        "visual": {
-          "type": "kenburns",
-          "prompt": "dark ocean waves"
-        }
-      },
-      {
-        "text": "Follow because some cases still need answers.",
-        "keywords": "old case files",
-        "visual": {
-          "type": "cta",
-          "prompt": "iconic beach setting"
-        }
-      }
-    ],
-    "description": "In 1966, three siblings mysteriously vanished from an Australian beach, and their fate remains unsolved. Follow for daily cold cases! 🏖️",
-    "hashtags": [
-      "#truecrime",
-      "#missingchildren",
-      "#unsolved",
-      "#coldcase",
-      "#mystery",
-      "#shorts",
-      "#fyp"
-    ]
-  },
-  {
     "title": "A Caper Worth Millions: The Lufthansa Heist",
     "place": "New York City",
     "country": "USA",
@@ -3138,6 +2922,518 @@
       "#missingperson",
       "#colombia",
       "#unsolved",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Vanished in the Desert: The Fate of the Missing Hikers",
+    "place": "Joshua Tree",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Three hikers ventured into the wilderness and never returned.",
+        "hook_top": "THREE HIKERS VANISHED",
+        "query": "vast desert landscape",
+        "query2": "hiking trail Joshua Tree"
+      },
+      {
+        "role": "map",
+        "text": "The disappearance took place in Joshua Tree National Park, California."
+      },
+      {
+        "role": "fact",
+        "text": "In 1999, three experienced hikers went missing without a trace during a routine trek.",
+        "query": "desert mountain view",
+        "query2": "sunset over rocky terrain",
+        "chips": [
+          {
+            "t": "1999",
+            "on": "1999",
+            "style": "white"
+          },
+          {
+            "t": "THREE MISSING",
+            "on": "hikers",
+            "style": "accent"
+          }
+        ],
+        "punch": "missing"
+      },
+      {
+        "role": "callout",
+        "text": "Despite extensive search efforts, no evidence of their fate has ever been found.",
+        "query": "search and rescue team",
+        "query2": "helicopter searching",
+        "label": "UNSOLVED MYSTERY",
+        "sub": "The case remains open",
+        "label_on": "evidence",
+        "punch": "unsolved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "night sky with stars",
+        "query2": "desert silhouette at night"
+      }
+    ],
+    "description": "📍 Joshua Tree, USA - 1999. Three hikers set out for a routine hike but never returned, leaving their families and search teams in despair. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#missinghikers",
+      "#joshuatree",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Chilling Story of the Watcher House",
+    "place": "Westfield",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A family's dream home turned into a nightmare with mysterious letters.",
+        "hook_top": "DREAM HOME TURNED NIGHTMARE",
+        "query": "dark suburban street night",
+        "query2": "mysterious letters on table"
+      },
+      {
+        "role": "map",
+        "text": "This eerie situation unfolded in Westfield, New Jersey."
+      },
+      {
+        "role": "fact",
+        "text": "In 2014, the Broaddus family received anonymous, threatening letters about their new home.",
+        "query": "family moving into house",
+        "query2": "house for sale sign",
+        "chips": [
+          {
+            "t": "2014",
+            "on": "2014",
+            "style": "white"
+          },
+          {
+            "t": "ANONYMOUS LETTERS",
+            "on": "letters",
+            "style": "accent"
+          }
+        ],
+        "punch": "letters"
+      },
+      {
+        "role": "callout",
+        "text": "Investigation yielded no suspects; the identity of 'The Watcher' remains unknown.",
+        "query": "detectives at a house",
+        "query2": "police questioning family",
+        "label": "UNSOLVED",
+        "sub": "The Watcher remains at large",
+        "label_on": "identity",
+        "punch": "unknown"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "creepy old house night",
+        "query2": "fog rolling through trees"
+      }
+    ],
+    "description": "📍 Westfield, USA - 2014. The Broaddus family received anonymous letters from a mysterious figure known as 'The Watcher' after moving into their new home. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#thewatcher",
+      "#westfield",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Disappearance of the Taman Shud Case",
+    "place": "Adelaide",
+    "country": "Australia",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A mysterious body found with a cryptic note haunts Australia.",
+        "hook_top": "A BODY WITH A NOTE",
+        "query": "beach at dusk",
+        "query2": "mysterious note close-up"
+      },
+      {
+        "role": "map",
+        "text": "This perplexing case occurred in Adelaide, South Australia."
+      },
+      {
+        "role": "fact",
+        "text": "In 1948, an unidentified man was found dead with a scrap of paper in his pocket.",
+        "query": "vintage suitcase on sand",
+        "query2": "beach police investigation",
+        "chips": [
+          {
+            "t": "1948",
+            "on": "1948",
+            "style": "white"
+          },
+          {
+            "t": "UNIDENTIFIED MAN",
+            "on": "body",
+            "style": "accent"
+          }
+        ],
+        "punch": "found"
+      },
+      {
+        "role": "callout",
+        "text": "The note contained a code that has stumped experts for decades.",
+        "query": "detectives examining note",
+        "query2": "close-up of code",
+        "label": "UNSOLVED MYSTERY",
+        "sub": "Identity remains unknown",
+        "label_on": "mystery",
+        "punch": "mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "moonlit beach night",
+        "query2": "dark ocean waves"
+      }
+    ],
+    "description": "📍 Adelaide, Australia - 1948. An unidentifiable man was found dead at Somerton Beach with a cryptic note leading to an enduring mystery. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#tamanShud",
+      "#adelaide",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Silent Witness: The Case of the Boy in the Box",
+    "place": "Philadelphia",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A child's body discovered in a box sparked one of Philadelphia's biggest mysteries.",
+        "hook_top": "A BOY IN A BOX",
+        "query": "dark alley Philadelphia",
+        "query2": "mysterious box in the woods"
+      },
+      {
+        "role": "map",
+        "text": "This tragedy occurred in Philadelphia, Pennsylvania."
+      },
+      {
+        "role": "fact",
+        "text": "In 1957, the body of an unidentified boy was found in a cardboard box.",
+        "query": "cardboard box in brush",
+        "query2": "detective examining site",
+        "chips": [
+          {
+            "t": "1957",
+            "on": "1957",
+            "style": "white"
+          },
+          {
+            "t": "UNIDENTIFIED BOY",
+            "on": "body",
+            "style": "accent"
+          }
+        ],
+        "punch": "box"
+      },
+      {
+        "role": "callout",
+        "text": "Despite efforts to identify the boy, his identity and cause of death remain a mystery.",
+        "query": "police searching area",
+        "query2": "detectives at a desk",
+        "label": "UNSOLVED CASE",
+        "sub": "Who was he?",
+        "label_on": "identity",
+        "punch": "who"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy street Philadelphia",
+        "query2": "nighttime city skyline"
+      }
+    ],
+    "description": "📍 Philadelphia, USA - 1957. A young boy's body was found abandoned in a box, his identity and story lost to time. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#boyinthebox",
+      "#philadelphia",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Mystery of the Missing Titanic Gold",
+    "place": "Atlantic Ocean",
+    "country": "N/A",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A fortune lies submerged in the depths after the Titanic tragedy.",
+        "hook_top": "A FORTUNE BENEATH WAVES",
+        "query": "ocean floor underwater",
+        "query2": "sinking Titanic recreation"
+      },
+      {
+        "role": "map",
+        "text": "The Titanic sank in the North Atlantic Ocean in 1912."
+      },
+      {
+        "role": "fact",
+        "text": "On its maiden voyage, the Titanic carried valuable cargo, including gold ingots worth millions.",
+        "query": "vintage ship sailing",
+        "query2": "ocean waves crashing",
+        "chips": [
+          {
+            "t": "1912",
+            "on": "1912",
+            "style": "white"
+          },
+          {
+            "t": "MILLIONS IN GOLD",
+            "on": "gold ingots",
+            "style": "accent"
+          }
+        ],
+        "punch": "gold"
+      },
+      {
+        "role": "callout",
+        "text": "The exact fate of the gold remains a mystery, with theories still explored.",
+        "query": "diver searching seabed",
+        "query2": "ocean exploration vehicle",
+        "label": "UNSOLVED MYSTERY",
+        "sub": "Where did it end up?",
+        "label_on": "fate",
+        "punch": "where"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "dark ocean waves",
+        "query2": "sunset over ocean"
+      }
+    ],
+    "description": "📍 Atlantic Ocean - 1912. The Titanic bore a shipment of gold that disappeared when the ship sank, leaving its fate unknown. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#titanicgold",
+      "#mystery",
+      "#ocean",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Vanishing Act of the Museo Nacional",
+    "place": "Mexico City",
+    "country": "Mexico",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "An art heist that pulled off the unimaginable from a national museum.",
+        "hook_top": "AN ART HEIST UNVEILED",
+        "query": "historic museum exterior",
+        "query2": "art theft preparation scene"
+      },
+      {
+        "role": "map",
+        "text": "This stunning art theft occurred at the Museo Nacional in Mexico City."
+      },
+      {
+        "role": "fact",
+        "text": "In 1985, thieves stole pieces worth millions, including pre-Columbian art.",
+        "query": "thieves in museum night",
+        "query2": "art pieces on display",
+        "chips": [
+          {
+            "t": "1985",
+            "on": "1985",
+            "style": "white"
+          },
+          {
+            "t": "MILLIONS IN ART",
+            "on": "stolen",
+            "style": "accent"
+          }
+        ],
+        "punch": "stolen"
+      },
+      {
+        "role": "callout",
+        "text": "Despite the value, many artifacts remain missing and lost to time.",
+        "query": "case file showing art",
+        "query2": "museum security footage",
+        "label": "ART HEIST UNSOLVED",
+        "sub": "Where is the art?",
+        "label_on": "missing",
+        "punch": "where"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "museum at sunset",
+        "query2": "modern art exterior"
+      }
+    ],
+    "description": "📍 Mexico City, Mexico - 1985. An ambitious heist led to the theft of priceless pre-Columbian art from the Museo Nacional, and many pieces remain missing. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#museonacional",
+      "#mexicocity",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Strange Case of the Lost Treasure of the Flor de la Mar",
+    "place": "Malay Peninsula",
+    "country": "Malaysia",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "An enormous treasure ship sank, taking riches to the depths.",
+        "hook_top": "A TREASURE LOST IN TIME",
+        "query": "ocean treasure sunlight",
+        "query2": "old galleon shipwreck"
+      },
+      {
+        "role": "map",
+        "text": "The Flor de la Mar sank near the Malay Peninsula in 1511."
+      },
+      {
+        "role": "fact",
+        "text": "Carrying one of the largest treasures ever, the ship went down during a storm.",
+        "query": "stormy sea waves",
+        "query2": "galleon ship sailing",
+        "chips": [
+          {
+            "t": "1511",
+            "on": "1511",
+            "style": "white"
+          },
+          {
+            "t": "MILLIONS IN GOLD",
+            "on": "treasure",
+            "style": "accent"
+          }
+        ],
+        "punch": "ship"
+      },
+      {
+        "role": "callout",
+        "text": "To this day, the treasure has never been recovered despite many search attempts.",
+        "query": "divers searching ocean",
+        "query2": "shipwreck exploration",
+        "label": "UNSOLVED TREASURE",
+        "sub": "Where did it go?",
+        "label_on": "disappearance",
+        "punch": "where"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "tranquil ocean sunset",
+        "query2": "island silhouette at dusk"
+      }
+    ],
+    "description": "📍 Malay Peninsula, Malaysia - 1511. The Flor de la Mar sank with an immense treasure on board, leaving its riches hidden beneath the waves for centuries. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#flordelamar",
+      "#malaypeninsula",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Ghost of the Greenbrier Hotel",
+    "place": "White Sulphur Springs",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A luxurious hotel conceals a troubling history of disappearances.",
+        "hook_top": "HIDDEN DISAPPEARANCES",
+        "query": "luxurious hotel exterior",
+        "query2": "opulent interior hallway"
+      },
+      {
+        "role": "map",
+        "text": "The unsettling stories took place at The Greenbrier in West Virginia."
+      },
+      {
+        "role": "fact",
+        "text": "Multiple guests have vanished under mysterious circumstances within the hotel since the 1800s.",
+        "query": "luxurious hotel lobby",
+        "query2": "ghostly figure in hall",
+        "chips": [
+          {
+            "t": "1800s",
+            "on": "since the 1800s",
+            "style": "white"
+          },
+          {
+            "t": "MYSTERIOUS DISAPPEARANCE",
+            "on": "guests",
+            "style": "accent"
+          }
+        ],
+        "punch": "disappearances"
+      },
+      {
+        "role": "callout",
+        "text": "The tales of the vanished guests continue to spark intrigue and speculation.",
+        "query": "ghostly hotel night",
+        "query2": "dark hotel hallway",
+        "label": "UNSOLVED",
+        "sub": "Haunting questions remain",
+        "label_on": "stories",
+        "punch": "haunting"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "moonlit hotel exterior",
+        "query2": "fog around hotel grounds"
+      }
+    ],
+    "description": "📍 White Sulphur Springs, USA - 1800s. The Greenbrier Hotel holds a dark history of disappearing guests and haunted stories that linger in the halls. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#greenbrierhotel",
+      "#whitesulphursprings",
       "#mystery",
       "#shorts",
       "#fyp"

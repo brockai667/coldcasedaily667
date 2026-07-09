@@ -1,0 +1,64 @@
+{
+  "title": "The Vanishing of the Great Pyramids",
+  "place": "Giza",
+  "country": "Egypt",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "An ancient site shrouded in mystery and disappearance.",
+      "hook_top": "SHROUDED IN MYSTERY",
+      "query": "grand pyramids under moonlight",
+      "query2": "desert landscape"
+    },
+    {
+      "role": "map",
+      "text": "It is located in Giza, Egypt, a marvel of the ancient world."
+    },
+    {
+      "role": "fact",
+      "text": "The Great Pyramids were built thousands of years ago and still intrigue historians today.",
+      "query": "architectural blueprint",
+      "query2": "archeologist on site",
+      "chips": [
+        {
+          "t": "THOUSANDS OF YEARS OLD",
+          "on": "years",
+          "style": "white"
+        },
+        {
+          "t": "HISTORIANS STILL INTRIGU",
+          "on": "intrigued",
+          "style": "accent"
+        }
+      ],
+      "punch": "intrigued"
+    },
+    {
+      "role": "callout",
+      "text": "While theories abound, the means of construction remain a topic of mystery.",
+      "query": "ancient tools",
+      "query2": "mysterious scrolls",
+      "label": "MEANS STILL A MYSTERY",
+      "sub": "What secrets do they hold?",
+      "label_on": "mystery",
+      "punch": "mystery"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "sunset over the pyramids",
+      "query2": "golden sands of Giza"
+    }
+  ],
+  "description": "📍 Giza, Egypt - Thousands of years ago. The great pyramids remain one of history's greatest marvels, but many of their secrets are still locked in time. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#historymystery",
+    "#giza",
+    "#pyramids",
+    "#ancientsites",
+    "#shorts",
+    "#fyp"
+  ]
+}

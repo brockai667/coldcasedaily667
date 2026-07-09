@@ -1,0 +1,64 @@
+{
+  "title": "A Disappearance into Thin Air",
+  "place": "Colombia",
+  "country": "Colombia",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A tourist vanished from a bustling area without anyone noticing.",
+      "hook_top": "VANISHED WITHOUT A TRACE",
+      "query": "crowded street scene",
+      "query2": "bright Colombian landscape"
+    },
+    {
+      "role": "map",
+      "text": "It happened in a popular tourist area in Colombia in 2018."
+    },
+    {
+      "role": "fact",
+      "text": "The disappearance of a tourist sparked a massive search effort, but no clues were found.",
+      "query": "searching in crowds",
+      "query2": "local police investigation",
+      "chips": [
+        {
+          "t": "2018",
+          "on": "2018",
+          "style": "white"
+        },
+        {
+          "t": "NO CLUES FOUND",
+          "on": "clues",
+          "style": "accent"
+        }
+      ],
+      "punch": "clues"
+    },
+    {
+      "role": "callout",
+      "text": "Even with local and international attention, the case remains unsolved.",
+      "query": "news reports on case",
+      "query2": "crowd of searchers",
+      "label": "REMAINS UNSOLVED",
+      "sub": "Where is the missing tourist?",
+      "label_on": "unsolved",
+      "punch": "unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "bustling market scene",
+      "query2": "sunset over cityscape"
+    }
+  ],
+  "description": "📍 Colombia - 2018. A tourist vanished from a busy area, capturing local and international attention. Despite extensive searches, the case remains unsolved. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#missingperson",
+    "#colombia",
+    "#unsolved",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
