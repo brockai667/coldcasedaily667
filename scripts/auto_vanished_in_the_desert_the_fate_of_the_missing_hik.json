@@ -1,0 +1,64 @@
+{
+  "title": "Vanished in the Desert: The Fate of the Missing Hikers",
+  "place": "Joshua Tree",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Three hikers ventured into the wilderness and never returned.",
+      "hook_top": "THREE HIKERS VANISHED",
+      "query": "vast desert landscape",
+      "query2": "hiking trail Joshua Tree"
+    },
+    {
+      "role": "map",
+      "text": "The disappearance took place in Joshua Tree National Park, California."
+    },
+    {
+      "role": "fact",
+      "text": "In 1999, three experienced hikers went missing without a trace during a routine trek.",
+      "query": "desert mountain view",
+      "query2": "sunset over rocky terrain",
+      "chips": [
+        {
+          "t": "1999",
+          "on": "1999",
+          "style": "white"
+        },
+        {
+          "t": "THREE MISSING",
+          "on": "hikers",
+          "style": "accent"
+        }
+      ],
+      "punch": "missing"
+    },
+    {
+      "role": "callout",
+      "text": "Despite extensive search efforts, no evidence of their fate has ever been found.",
+      "query": "search and rescue team",
+      "query2": "helicopter searching",
+      "label": "UNSOLVED MYSTERY",
+      "sub": "The case remains open",
+      "label_on": "evidence",
+      "punch": "unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "night sky with stars",
+      "query2": "desert silhouette at night"
+    }
+  ],
+  "description": "📍 Joshua Tree, USA - 1999. Three hikers set out for a routine hike but never returned, leaving their families and search teams in despair. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#missinghikers",
+    "#joshuatree",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

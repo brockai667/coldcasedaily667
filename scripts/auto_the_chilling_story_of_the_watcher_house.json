@@ -1,0 +1,64 @@
+{
+  "title": "The Chilling Story of the Watcher House",
+  "place": "Westfield",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A family's dream home turned into a nightmare with mysterious letters.",
+      "hook_top": "DREAM HOME TURNED NIGHTMARE",
+      "query": "dark suburban street night",
+      "query2": "mysterious letters on table"
+    },
+    {
+      "role": "map",
+      "text": "This eerie situation unfolded in Westfield, New Jersey."
+    },
+    {
+      "role": "fact",
+      "text": "In 2014, the Broaddus family received anonymous, threatening letters about their new home.",
+      "query": "family moving into house",
+      "query2": "house for sale sign",
+      "chips": [
+        {
+          "t": "2014",
+          "on": "2014",
+          "style": "white"
+        },
+        {
+          "t": "ANONYMOUS LETTERS",
+          "on": "letters",
+          "style": "accent"
+        }
+      ],
+      "punch": "letters"
+    },
+    {
+      "role": "callout",
+      "text": "Investigation yielded no suspects; the identity of 'The Watcher' remains unknown.",
+      "query": "detectives at a house",
+      "query2": "police questioning family",
+      "label": "UNSOLVED",
+      "sub": "The Watcher remains at large",
+      "label_on": "identity",
+      "punch": "unknown"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "creepy old house night",
+      "query2": "fog rolling through trees"
+    }
+  ],
+  "description": "📍 Westfield, USA - 2014. The Broaddus family received anonymous letters from a mysterious figure known as 'The Watcher' after moving into their new home. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#thewatcher",
+    "#westfield",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

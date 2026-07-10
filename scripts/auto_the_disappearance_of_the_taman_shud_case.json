@@ -1,0 +1,64 @@
+{
+  "title": "The Disappearance of the Taman Shud Case",
+  "place": "Adelaide",
+  "country": "Australia",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A mysterious body found with a cryptic note haunts Australia.",
+      "hook_top": "A BODY WITH A NOTE",
+      "query": "beach at dusk",
+      "query2": "mysterious note close-up"
+    },
+    {
+      "role": "map",
+      "text": "This perplexing case occurred in Adelaide, South Australia."
+    },
+    {
+      "role": "fact",
+      "text": "In 1948, an unidentified man was found dead with a scrap of paper in his pocket.",
+      "query": "vintage suitcase on sand",
+      "query2": "beach police investigation",
+      "chips": [
+        {
+          "t": "1948",
+          "on": "1948",
+          "style": "white"
+        },
+        {
+          "t": "UNIDENTIFIED MAN",
+          "on": "body",
+          "style": "accent"
+        }
+      ],
+      "punch": "found"
+    },
+    {
+      "role": "callout",
+      "text": "The note contained a code that has stumped experts for decades.",
+      "query": "detectives examining note",
+      "query2": "close-up of code",
+      "label": "UNSOLVED MYSTERY",
+      "sub": "Identity remains unknown",
+      "label_on": "mystery",
+      "punch": "mystery"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "moonlit beach night",
+      "query2": "dark ocean waves"
+    }
+  ],
+  "description": "📍 Adelaide, Australia - 1948. An unidentifiable man was found dead at Somerton Beach with a cryptic note leading to an enduring mystery. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#tamanShud",
+    "#adelaide",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
