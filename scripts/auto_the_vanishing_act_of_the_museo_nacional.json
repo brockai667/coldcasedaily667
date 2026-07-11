@@ -1,0 +1,64 @@
+{
+  "title": "The Vanishing Act of the Museo Nacional",
+  "place": "Mexico City",
+  "country": "Mexico",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "An art heist that pulled off the unimaginable from a national museum.",
+      "hook_top": "AN ART HEIST UNVEILED",
+      "query": "historic museum exterior",
+      "query2": "art theft preparation scene"
+    },
+    {
+      "role": "map",
+      "text": "This stunning art theft occurred at the Museo Nacional in Mexico City."
+    },
+    {
+      "role": "fact",
+      "text": "In 1985, thieves stole pieces worth millions, including pre-Columbian art.",
+      "query": "thieves in museum night",
+      "query2": "art pieces on display",
+      "chips": [
+        {
+          "t": "1985",
+          "on": "1985",
+          "style": "white"
+        },
+        {
+          "t": "MILLIONS IN ART",
+          "on": "stolen",
+          "style": "accent"
+        }
+      ],
+      "punch": "stolen"
+    },
+    {
+      "role": "callout",
+      "text": "Despite the value, many artifacts remain missing and lost to time.",
+      "query": "case file showing art",
+      "query2": "museum security footage",
+      "label": "ART HEIST UNSOLVED",
+      "sub": "Where is the art?",
+      "label_on": "missing",
+      "punch": "where"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "museum at sunset",
+      "query2": "modern art exterior"
+    }
+  ],
+  "description": "📍 Mexico City, Mexico - 1985. An ambitious heist led to the theft of priceless pre-Columbian art from the Museo Nacional, and many pieces remain missing. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#museonacional",
+    "#mexicocity",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

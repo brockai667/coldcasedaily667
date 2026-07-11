@@ -3438,5 +3438,636 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Night the Music Stopped",
+    "place": "Las Vegas",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A music legend vanished without a trace, leaving behind a mystery.",
+        "hook_top": "A MUSIC LEGEND VANISHED",
+        "query": "dark hotel corridor night",
+        "query2": "faded neon lights"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Las Vegas, at the Flamingo Hotel."
+      },
+      {
+        "role": "fact",
+        "text": "In 1981, famous singer and performer, Jimmy Hoffa, disappeared without a clue.",
+        "query": "old concert poster",
+        "query2": "empty stage lights",
+        "chips": [
+          {
+            "t": "1981",
+            "on": "1981",
+            "style": "white"
+          },
+          {
+            "t": "MYSTERY REMAINS",
+            "on": "disappear",
+            "style": "accent"
+          }
+        ],
+        "punch": "disappear"
+      },
+      {
+        "role": "archive",
+        "text": "Hoffa's legacy lives on, but his fate remains unknown.",
+        "archive_query": "Jimmy Hoffa performance",
+        "archive_label": "Jimmy Hoffa · Las Vegas"
+      },
+      {
+        "role": "callout",
+        "text": "Despite numerous theories, no evidence has ever surfaced.",
+        "query": "case files on table",
+        "query2": "detective looking puzzled",
+        "label": "NO EVIDENCE FOUND",
+        "sub": "Theories abound, but remains unsolved.",
+        "label_on": "evidence",
+        "punch": "found"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy Las Vegas skyline",
+        "query2": "nighttime strip lights"
+      }
+    ],
+    "description": "📍 Las Vegas, USA - 1981. A legendary singer mysteriously disappeared, leaving only questions behind. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#Hoffa",
+      "#LasVegas",
+      "#musicmystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Vanishing Train of 1925",
+    "place": "Pennsylvania",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A train carrying valuables mysteriously disappeared without a trace.",
+        "hook_top": "VALUABLE TRAIN VANISHED",
+        "query": "train tracks at dawn",
+        "query2": "old steam engine faded"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Pennsylvania, along the tracks of the Pennsylvania Railroad."
+      },
+      {
+        "role": "fact",
+        "text": "In 1925, a freight train carrying jewels vanished en route.",
+        "query": "historic train station",
+        "query2": "freight train on tracks",
+        "chips": [
+          {
+            "t": "1925",
+            "on": "1925",
+            "style": "white"
+          },
+          {
+            "t": "JEWELS WORTH MILLIONS",
+            "on": "jewels",
+            "style": "accent"
+          }
+        ],
+        "punch": "vanished"
+      },
+      {
+        "role": "archive",
+        "text": "The mystery of the missing train remains unsolved to this day.",
+        "archive_query": "Pennsylvania Railroad history",
+        "archive_label": "Pennsylvania Railroad"
+      },
+      {
+        "role": "callout",
+        "text": "Despite searches, the train and its cargo were never found.",
+        "query": "detectives looking at maps",
+        "query2": "vast open fields",
+        "label": "NEVER FOUND",
+        "sub": "A mystery that persists.",
+        "label_on": "found",
+        "punch": "never"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "sunset over train tracks",
+        "query2": "train departs into the horizon"
+      }
+    ],
+    "description": "📍 Pennsylvania, USA - 1925. A freight train loaded with jewels vanished mysteriously, and the case remains unsolved. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#trainmystery",
+      "#Pennsylvania",
+      "#jewelheist",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "An Unsolved Heist in the City of Angels",
+    "place": "Los Angeles",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Valuable artifacts were stolen in a daring daytime heist.",
+        "hook_top": "DAYTIME HEIST IN LA",
+        "query": "busy museum exterior",
+        "query2": "security cameras watching"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Los Angeles, at the Getty Museum."
+      },
+      {
+        "role": "fact",
+        "text": "In 2005, thieves stole priceless items worth millions during visiting hours.",
+        "query": "museum exhibits",
+        "query2": "crowded gallery",
+        "chips": [
+          {
+            "t": "2005",
+            "on": "2005",
+            "style": "white"
+          },
+          {
+            "t": "MILLIONS IN ARTIFACTS",
+            "on": "millions",
+            "style": "accent"
+          }
+        ],
+        "punch": "stolen"
+      },
+      {
+        "role": "archive",
+        "text": "Art that was meant to be treasured is now lost.",
+        "archive_query": "Getty Museum Los Angeles",
+        "archive_label": "Getty Museum · L.A."
+      },
+      {
+        "role": "callout",
+        "text": "Despite security footage, no arrests have been made.",
+        "query": "monitoring security footage",
+        "query2": "guards checking credentials",
+        "label": "NO ARRESTS MADE",
+        "sub": "The case continues to baffle.",
+        "label_on": "arrests",
+        "punch": "made"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "sunset over Los Angeles",
+        "query2": "cityscape at night"
+      }
+    ],
+    "description": "📍 Los Angeles, USA - 2005. In broad daylight, priceless artifacts were stolen, and the case remains unsolved. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#heist",
+      "#GettyMuseum",
+      "#LosAngeles",
+      "#arttheft",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Secrets of the Deadly Hotel",
+    "place": "Californian Desert",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A desert hotel holds the secrets to a long-forgotten tragedy.",
+        "hook_top": "SECRETS IN THE DESERT",
+        "query": "abandoned hotel exterior",
+        "query2": "dusty lobby area"
+      },
+      {
+        "role": "map",
+        "text": "It happened in the Californian Desert, at the El Mirage Hotel."
+      },
+      {
+        "role": "fact",
+        "text": "In 1939, several guests died in mysterious circumstances within days.",
+        "query": "historic hotel images",
+        "query2": "empty guest rooms",
+        "chips": [
+          {
+            "t": "1939",
+            "on": "1939",
+            "style": "white"
+          },
+          {
+            "t": "TRAGEDY UNFOLDED",
+            "on": "tragedy",
+            "style": "accent"
+          }
+        ],
+        "punch": "died"
+      },
+      {
+        "role": "archive",
+        "text": "The hotel still stands, but its history remains a haunting mystery.",
+        "archive_query": "El Mirage Hotel history",
+        "archive_label": "El Mirage Hotel"
+      },
+      {
+        "role": "callout",
+        "text": "Many theories suggest a toxic substance may have contributed.",
+        "query": "mysterious substances",
+        "query2": "gathering storm clouds",
+        "label": "THEORIES ABOUND",
+        "sub": "The truth remains elusive.",
+        "label_on": "toxic",
+        "punch": "may"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "sunset over the desert",
+        "query2": "night sky filled with stars"
+      }
+    ],
+    "description": "📍 Californian Desert, USA - 1939. A series of mysterious deaths at a hotel left questions that linger to this day. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#deserthotel",
+      "#California",
+      "#tragedy",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Case of the Lost Airship",
+    "place": "Goodyear, Arizona",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "An airship vanished without a trace, leaving a baffling mystery.",
+        "hook_top": "AN AIRSHIP VANISHED",
+        "query": "cloudy sky with airship",
+        "query2": "abandoned airfield"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Goodyear, Arizona, during a routine flight."
+      },
+      {
+        "role": "fact",
+        "text": "In 1937, the Goodyear airship mysteriously disappeared on a test flight.",
+        "query": "old airship design",
+        "query2": "cloudy skies",
+        "chips": [
+          {
+            "t": "1937",
+            "on": "1937",
+            "style": "white"
+          },
+          {
+            "t": "VANISHED IN FLIGHT",
+            "on": "vanished",
+            "style": "accent"
+          }
+        ],
+        "punch": "vanished"
+      },
+      {
+        "role": "archive",
+        "text": "The fate of the airship remains one of aviation's greatest mysteries.",
+        "archive_query": "Goodyear airship history",
+        "archive_label": "Goodyear Airship"
+      },
+      {
+        "role": "callout",
+        "text": "Despite extensive searches, no wreckage was ever recovered.",
+        "query": "airship search teams",
+        "query2": "vast open landscapes",
+        "label": "NO WRECKAGE FOUND",
+        "sub": "A mystery unfolds in the skies.",
+        "label_on": "wreckage",
+        "punch": "found"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "clear skies over Arizona",
+        "query2": "distant mountains"
+      }
+    ],
+    "description": "📍 Goodyear, Arizona, USA - 1937. An airship vanished during a test flight and has never been found. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#airshipmystery",
+      "#Arizona",
+      "#aviationhistory",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Great Museum Robbery",
+    "place": "Antwerp",
+    "country": "Belgium",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Stolen artifacts worth millions vanished in a single night.",
+        "hook_top": "MILLIONS IN ART STOLEN",
+        "query": "museum exterior at night",
+        "query2": "security system alarms"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Antwerp, at the Museum of Fine Arts."
+      },
+      {
+        "role": "fact",
+        "text": "In 2001, thieves executed a perfect heist, stealing art valued at 100 million euros.",
+        "query": "empty museum halls",
+        "query2": "art displayed in silence",
+        "chips": [
+          {
+            "t": "2001",
+            "on": "2001",
+            "style": "white"
+          },
+          {
+            "t": "ART WORTH €100M",
+            "on": "million",
+            "style": "accent"
+          }
+        ],
+        "punch": "stolen"
+      },
+      {
+        "role": "archive",
+        "text": "The museum is still haunted by the absence of its treasures.",
+        "archive_query": "Museum of Fine Arts Antwerp",
+        "archive_label": "Museum of Fine Arts"
+      },
+      {
+        "role": "callout",
+        "text": "To this day, the art has never been recovered.",
+        "query": "case files on desk",
+        "query2": "detective at work",
+        "label": "NEVER RECOVERED",
+        "sub": "A mystery that remains.",
+        "label_on": "recovered",
+        "punch": "never"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "Antwerp at night",
+        "query2": "night skyline view"
+      }
+    ],
+    "description": "📍 Antwerp, Belgium - 2001. A daring museum robbery led to the theft of art valued at 100 million euros, and it remains unsolved. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#museumheist",
+      "#Antwerp",
+      "#arttheft",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Mystery of the Haunted Portrait",
+    "place": "Edinburgh",
+    "country": "Scotland",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A legendary portrait vanished, sparking ghostly tales of sorrow.",
+        "hook_top": "HAUNTED PORTRAIT VANISHES",
+        "query": "dark old castle interiors",
+        "query2": "portrait of a woman"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Edinburgh, at the Scottish National Gallery."
+      },
+      {
+        "role": "fact",
+        "text": "In 2009, an iconic portrait mysteriously disappeared during a gallery exhibition.",
+        "query": "exhibition halls with art",
+        "query2": "crowds admiring artwork",
+        "chips": [
+          {
+            "t": "2009",
+            "on": "2009",
+            "style": "white"
+          },
+          {
+            "t": "ICONIC PORTRAIT STOLEN",
+            "on": "portrait",
+            "style": "accent"
+          }
+        ],
+        "punch": "disappeared"
+      },
+      {
+        "role": "archive",
+        "text": "The gallery remains haunted by the loss of the artwork.",
+        "archive_query": "Scottish National Gallery",
+        "archive_label": "Scottish National Gallery"
+      },
+      {
+        "role": "callout",
+        "text": "Despite investigations, the portrait has never been recovered.",
+        "query": "mysterious art investigation",
+        "query2": "detectives at work",
+        "label": "NEVER RECOVERED",
+        "sub": "The mystery lingers on.",
+        "label_on": "recovered",
+        "punch": "never"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "foggy Edinburgh streets",
+        "query2": "old castle silhouette"
+      }
+    ],
+    "description": "📍 Edinburgh, Scotland - 2009. An iconic portrait vanished during an exhibition, leaving tales of hauntings in its wake. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#artmystery",
+      "#Edinburgh",
+      "#haunted",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Cold Case of the Missing Heiress",
+    "place": "Newport",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A wealthy heiress vanished, leaving behind only questions and rumors.",
+        "hook_top": "WEALTHY HEIRESS VANISHED",
+        "query": "opulent mansion exterior",
+        "query2": "grand staircase in a mansion"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Newport, at a lavish estate."
+      },
+      {
+        "role": "fact",
+        "text": "In 1940, heiress Helen Wills disappeared from her home without a trace.",
+        "query": "vintage family portraits",
+        "query2": "grand estate gardens",
+        "chips": [
+          {
+            "t": "1940",
+            "on": "1940",
+            "style": "white"
+          },
+          {
+            "t": "MYSTERY REMAINS UNSOLVED",
+            "on": "unsolved",
+            "style": "accent"
+          }
+        ],
+        "punch": "disappeared"
+      },
+      {
+        "role": "archive",
+        "text": "The estate remains a reminder of a mystery that lasted decades.",
+        "archive_query": "Newport mansions history",
+        "archive_label": "Newport Mansion"
+      },
+      {
+        "role": "callout",
+        "text": "Despite extensive searches, Helen has never been found.",
+        "query": "detectives examining old maps",
+        "query2": "abandoned estate interior",
+        "label": "NEVER FOUND",
+        "sub": "The case is still baffling.",
+        "label_on": "found",
+        "punch": "never"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "sunrise over Newport",
+        "query2": "ocean waves crashing"
+      }
+    ],
+    "description": "📍 Newport, USA - 1940. Heiress Helen Wills vanished from her estate, and the case remains unsolved. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#missingheiress",
+      "#Newport",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Baffling Bank Job of 1972",
+    "place": "London",
+    "country": "UK",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A daring bank robbery shocked a nation, yet the robbers vanished.",
+        "hook_top": "DAUNTING BANK ROBBERY",
+        "query": "busy London street",
+        "query2": "old bank exterior"
+      },
+      {
+        "role": "map",
+        "text": "It happened in London, at the Baker Street Bank."
+      },
+      {
+        "role": "fact",
+        "text": "In 1972, a well-planned heist stole over 200,000 pounds.",
+        "query": "inside a bank vault",
+        "query2": "security systems flashing",
+        "chips": [
+          {
+            "t": "1972",
+            "on": "1972",
+            "style": "white"
+          },
+          {
+            "t": "OVER £200,000 STOLEN",
+            "on": "pounds",
+            "style": "accent"
+          }
+        ],
+        "punch": "stolen"
+      },
+      {
+        "role": "archive",
+        "text": "The case remains unsolved, with no leads after all these years.",
+        "archive_query": "Baker Street Bank historical",
+        "archive_label": "Baker Street Bank"
+      },
+      {
+        "role": "callout",
+        "text": "Despite extensive investigations, the robbers were never apprehended.",
+        "query": "detectives examining evidence",
+        "query2": "case files on a desk",
+        "label": "NEVER APPREHENDED",
+        "sub": "The mystery continues.",
+        "label_on": "apprehended",
+        "punch": "never"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "London skyline at dusk",
+        "query2": "lights of the city"
+      }
+    ],
+    "description": "📍 London, UK - 1972. A bank heist led to the theft of over 200,000 pounds, and the case remains unsolved. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#bankrobbery",
+      "#London",
+      "#heist",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

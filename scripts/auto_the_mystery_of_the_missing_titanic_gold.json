@@ -1,0 +1,64 @@
+{
+  "title": "The Mystery of the Missing Titanic Gold",
+  "place": "Atlantic Ocean",
+  "country": "N/A",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A fortune lies submerged in the depths after the Titanic tragedy.",
+      "hook_top": "A FORTUNE BENEATH WAVES",
+      "query": "ocean floor underwater",
+      "query2": "sinking Titanic recreation"
+    },
+    {
+      "role": "map",
+      "text": "The Titanic sank in the North Atlantic Ocean in 1912."
+    },
+    {
+      "role": "fact",
+      "text": "On its maiden voyage, the Titanic carried valuable cargo, including gold ingots worth millions.",
+      "query": "vintage ship sailing",
+      "query2": "ocean waves crashing",
+      "chips": [
+        {
+          "t": "1912",
+          "on": "1912",
+          "style": "white"
+        },
+        {
+          "t": "MILLIONS IN GOLD",
+          "on": "gold ingots",
+          "style": "accent"
+        }
+      ],
+      "punch": "gold"
+    },
+    {
+      "role": "callout",
+      "text": "The exact fate of the gold remains a mystery, with theories still explored.",
+      "query": "diver searching seabed",
+      "query2": "ocean exploration vehicle",
+      "label": "UNSOLVED MYSTERY",
+      "sub": "Where did it end up?",
+      "label_on": "fate",
+      "punch": "where"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "dark ocean waves",
+      "query2": "sunset over ocean"
+    }
+  ],
+  "description": "📍 Atlantic Ocean - 1912. The Titanic bore a shipment of gold that disappeared when the ship sank, leaving its fate unknown. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#titanicgold",
+    "#mystery",
+    "#ocean",
+    "#shorts",
+    "#fyp"
+  ]
+}

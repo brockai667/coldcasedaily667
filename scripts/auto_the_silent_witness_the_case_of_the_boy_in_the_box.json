@@ -1,0 +1,64 @@
+{
+  "title": "The Silent Witness: The Case of the Boy in the Box",
+  "place": "Philadelphia",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A child's body discovered in a box sparked one of Philadelphia's biggest mysteries.",
+      "hook_top": "A BOY IN A BOX",
+      "query": "dark alley Philadelphia",
+      "query2": "mysterious box in the woods"
+    },
+    {
+      "role": "map",
+      "text": "This tragedy occurred in Philadelphia, Pennsylvania."
+    },
+    {
+      "role": "fact",
+      "text": "In 1957, the body of an unidentified boy was found in a cardboard box.",
+      "query": "cardboard box in brush",
+      "query2": "detective examining site",
+      "chips": [
+        {
+          "t": "1957",
+          "on": "1957",
+          "style": "white"
+        },
+        {
+          "t": "UNIDENTIFIED BOY",
+          "on": "body",
+          "style": "accent"
+        }
+      ],
+      "punch": "box"
+    },
+    {
+      "role": "callout",
+      "text": "Despite efforts to identify the boy, his identity and cause of death remain a mystery.",
+      "query": "police searching area",
+      "query2": "detectives at a desk",
+      "label": "UNSOLVED CASE",
+      "sub": "Who was he?",
+      "label_on": "identity",
+      "punch": "who"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy street Philadelphia",
+      "query2": "nighttime city skyline"
+    }
+  ],
+  "description": "📍 Philadelphia, USA - 1957. A young boy's body was found abandoned in a box, his identity and story lost to time. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#boyinthebox",
+    "#philadelphia",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
