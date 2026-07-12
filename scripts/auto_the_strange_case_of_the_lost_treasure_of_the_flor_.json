@@ -1,0 +1,64 @@
+{
+  "title": "The Strange Case of the Lost Treasure of the Flor de la Mar",
+  "place": "Malay Peninsula",
+  "country": "Malaysia",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "An enormous treasure ship sank, taking riches to the depths.",
+      "hook_top": "A TREASURE LOST IN TIME",
+      "query": "ocean treasure sunlight",
+      "query2": "old galleon shipwreck"
+    },
+    {
+      "role": "map",
+      "text": "The Flor de la Mar sank near the Malay Peninsula in 1511."
+    },
+    {
+      "role": "fact",
+      "text": "Carrying one of the largest treasures ever, the ship went down during a storm.",
+      "query": "stormy sea waves",
+      "query2": "galleon ship sailing",
+      "chips": [
+        {
+          "t": "1511",
+          "on": "1511",
+          "style": "white"
+        },
+        {
+          "t": "MILLIONS IN GOLD",
+          "on": "treasure",
+          "style": "accent"
+        }
+      ],
+      "punch": "ship"
+    },
+    {
+      "role": "callout",
+      "text": "To this day, the treasure has never been recovered despite many search attempts.",
+      "query": "divers searching ocean",
+      "query2": "shipwreck exploration",
+      "label": "UNSOLVED TREASURE",
+      "sub": "Where did it go?",
+      "label_on": "disappearance",
+      "punch": "where"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "tranquil ocean sunset",
+      "query2": "island silhouette at dusk"
+    }
+  ],
+  "description": "📍 Malay Peninsula, Malaysia - 1511. The Flor de la Mar sank with an immense treasure on board, leaving its riches hidden beneath the waves for centuries. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#flordelamar",
+    "#malaypeninsula",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

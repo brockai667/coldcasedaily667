@@ -1,0 +1,64 @@
+{
+  "title": "The Ghost of the Greenbrier Hotel",
+  "place": "White Sulphur Springs",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A luxurious hotel conceals a troubling history of disappearances.",
+      "hook_top": "HIDDEN DISAPPEARANCES",
+      "query": "luxurious hotel exterior",
+      "query2": "opulent interior hallway"
+    },
+    {
+      "role": "map",
+      "text": "The unsettling stories took place at The Greenbrier in West Virginia."
+    },
+    {
+      "role": "fact",
+      "text": "Multiple guests have vanished under mysterious circumstances within the hotel since the 1800s.",
+      "query": "luxurious hotel lobby",
+      "query2": "ghostly figure in hall",
+      "chips": [
+        {
+          "t": "1800s",
+          "on": "since the 1800s",
+          "style": "white"
+        },
+        {
+          "t": "MYSTERIOUS DISAPPEARANCE",
+          "on": "guests",
+          "style": "accent"
+        }
+      ],
+      "punch": "disappearances"
+    },
+    {
+      "role": "callout",
+      "text": "The tales of the vanished guests continue to spark intrigue and speculation.",
+      "query": "ghostly hotel night",
+      "query2": "dark hotel hallway",
+      "label": "UNSOLVED",
+      "sub": "Haunting questions remain",
+      "label_on": "stories",
+      "punch": "haunting"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "moonlit hotel exterior",
+      "query2": "fog around hotel grounds"
+    }
+  ],
+  "description": "📍 White Sulphur Springs, USA - 1800s. The Greenbrier Hotel holds a dark history of disappearing guests and haunted stories that linger in the halls. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#greenbrierhotel",
+    "#whitesulphursprings",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

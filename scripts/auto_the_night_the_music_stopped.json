@@ -1,0 +1,70 @@
+{
+  "title": "The Night the Music Stopped",
+  "place": "Las Vegas",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A music legend vanished without a trace, leaving behind a mystery.",
+      "hook_top": "A MUSIC LEGEND VANISHED",
+      "query": "dark hotel corridor night",
+      "query2": "faded neon lights"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Las Vegas, at the Flamingo Hotel."
+    },
+    {
+      "role": "fact",
+      "text": "In 1981, famous singer and performer, Jimmy Hoffa, disappeared without a clue.",
+      "query": "old concert poster",
+      "query2": "empty stage lights",
+      "chips": [
+        {
+          "t": "1981",
+          "on": "1981",
+          "style": "white"
+        },
+        {
+          "t": "MYSTERY REMAINS",
+          "on": "disappear",
+          "style": "accent"
+        }
+      ],
+      "punch": "disappear"
+    },
+    {
+      "role": "archive",
+      "text": "Hoffa's legacy lives on, but his fate remains unknown.",
+      "archive_query": "Jimmy Hoffa performance",
+      "archive_label": "Jimmy Hoffa · Las Vegas"
+    },
+    {
+      "role": "callout",
+      "text": "Despite numerous theories, no evidence has ever surfaced.",
+      "query": "case files on table",
+      "query2": "detective looking puzzled",
+      "label": "NO EVIDENCE FOUND",
+      "sub": "Theories abound, but remains unsolved.",
+      "label_on": "evidence",
+      "punch": "found"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy Las Vegas skyline",
+      "query2": "nighttime strip lights"
+    }
+  ],
+  "description": "📍 Las Vegas, USA - 1981. A legendary singer mysteriously disappeared, leaving only questions behind. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#Hoffa",
+    "#LasVegas",
+    "#musicmystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

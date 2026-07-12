@@ -4069,5 +4069,216 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Silence of the Sled Dogs: The Disappearance of the Lost Patrol",
+    "place": "Mackenzie Mountains",
+    "country": "Canada",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A routine expedition turns into a haunting mystery.",
+        "hook_top": "A HAUNTING MYSTERY",
+        "query": "snowy mountains aerial",
+        "query2": "abandoned expedition camp"
+      },
+      {
+        "role": "map",
+        "text": "It happened in the Mackenzie Mountains of Canada."
+      },
+      {
+        "role": "fact",
+        "text": "In 1910, the Lost Patrol disappeared without a trace while searching for a missing team.",
+        "query": "historical expedition map",
+        "query2": "black and white sled dogs",
+        "chips": [
+          {
+            "t": "1910",
+            "on": "1910",
+            "style": "white"
+          },
+          {
+            "t": "MISSING EXPEDITION",
+            "on": "missing",
+            "style": "accent"
+          }
+        ],
+        "punch": "missing"
+      },
+      {
+        "role": "archive",
+        "text": "The story remains a chilling reminder of the wilderness's power.",
+        "archive_query": "historic Mackenzie Patrol",
+        "archive_label": "Lost Patrol · 1910"
+      },
+      {
+        "role": "callout",
+        "text": "Despite extensive searches, their fate remains unknown.",
+        "query": "cold, empty wilderness",
+        "query2": "search team in snow",
+        "label": "NEVER FOUND",
+        "sub": "A mystery that endures",
+        "label_on": "found",
+        "punch": "never"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "foggy forest trail",
+        "query2": "mountain range in mist"
+      }
+    ],
+    "description": "📍 Mackenzie Mountains, Canada - 1910. An expedition vanished into the frozen wilderness, leaving only questions behind. Their fate remains a mystery. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#expedition",
+      "#mystery",
+      "#canada",
+      "#sleddogs",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Enigma of the Missing Kidnappers",
+    "place": "Missouri",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "They vanished without a trace, leaving behind only questions.",
+        "hook_top": "VANISHED WITHOUT A TRACE",
+        "query": "dark highway night",
+        "query2": "abandoned car on road"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Missouri, USA."
+      },
+      {
+        "role": "fact",
+        "text": "In 1959, a notorious kidnapping ring simply disappeared, leaving authorities baffled.",
+        "query": "vintage newspaper clippings",
+        "query2": "investigators in a meeting",
+        "chips": [
+          {
+            "t": "1959",
+            "on": "1959",
+            "style": "white"
+          },
+          {
+            "t": "KIDNAPPING RING",
+            "on": "kidnapping",
+            "style": "accent"
+          }
+        ],
+        "punch": "baffled"
+      },
+      {
+        "role": "archive",
+        "text": "Their sudden disappearance has led to numerous theories over the years.",
+        "archive_query": "Missouri kidnapping news",
+        "archive_label": "Missouri Kidnapping · 1959"
+      },
+      {
+        "role": "callout",
+        "text": "To this day, no suspects have been found or charged.",
+        "query": "confidential case files",
+        "query2": "detective examining documents",
+        "label": "UNSOLVED",
+        "sub": "A case still open",
+        "label_on": "unsolved",
+        "punch": "unsolved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "haunting empty street",
+        "query2": "eerie night cityscape"
+      }
+    ],
+    "description": "📍 Missouri, USA - 1959. A kidnapping ring vanished, leaving behind countless unanswered questions. Their mystery continues to confound. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#kidnapping",
+      "#mystery",
+      "#missouri",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Secrets of the Riddle Mansion",
+    "place": "Burlington",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "An old mansion hides a dark mystery dating back decades.",
+        "hook_top": "DARK MYSTERY AWAITS",
+        "query": "old mansion exterior",
+        "query2": "creepy ivy-covered house"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Burlington, New Jersey."
+      },
+      {
+        "role": "fact",
+        "text": "In 1928, the Riddle Mansion was the site of a mysterious disappearance of its owner, Albert Riddle.",
+        "query": "historic black and white mansion",
+        "query2": "mansion at twilight",
+        "chips": [
+          {
+            "t": "1928",
+            "on": "1928",
+            "style": "white"
+          },
+          {
+            "t": "MYSTERIOUS DISAPPEARANCE",
+            "on": "disappearance",
+            "style": "accent"
+          }
+        ],
+        "punch": "mysterious"
+      },
+      {
+        "role": "archive",
+        "text": "The mansion still stands, holding onto its secrets.",
+        "archive_query": "Riddle Mansion historical",
+        "archive_label": "Riddle Mansion · 1928"
+      },
+      {
+        "role": "callout",
+        "text": "Despite investigations, Riddle was never found, and theories abound.",
+        "query": "research documents on table",
+        "query2": "detective contemplating",
+        "label": "UNSOLVED",
+        "sub": "A web of mystery",
+        "label_on": "unsolved",
+        "punch": "unsolved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "foggy road leading to mansion",
+        "query2": "mansion under moonlight"
+      }
+    ],
+    "description": "📍 Burlington, USA - 1928. Albert Riddle vanished from the Riddle Mansion, leaving behind an array of unanswered questions. The mystery remains unsolved. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#mansionmystery",
+      "#mystery",
+      "#newjersey",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
