@@ -1,0 +1,71 @@
+{
+  "title": "An Unsolved Heist in the City of Angels",
+  "place": "Los Angeles",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Valuable artifacts were stolen in a daring daytime heist.",
+      "hook_top": "DAYTIME HEIST IN LA",
+      "query": "busy museum exterior",
+      "query2": "security cameras watching"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Los Angeles, at the Getty Museum."
+    },
+    {
+      "role": "fact",
+      "text": "In 2005, thieves stole priceless items worth millions during visiting hours.",
+      "query": "museum exhibits",
+      "query2": "crowded gallery",
+      "chips": [
+        {
+          "t": "2005",
+          "on": "2005",
+          "style": "white"
+        },
+        {
+          "t": "MILLIONS IN ARTIFACTS",
+          "on": "millions",
+          "style": "accent"
+        }
+      ],
+      "punch": "stolen"
+    },
+    {
+      "role": "archive",
+      "text": "Art that was meant to be treasured is now lost.",
+      "archive_query": "Getty Museum Los Angeles",
+      "archive_label": "Getty Museum · L.A."
+    },
+    {
+      "role": "callout",
+      "text": "Despite security footage, no arrests have been made.",
+      "query": "monitoring security footage",
+      "query2": "guards checking credentials",
+      "label": "NO ARRESTS MADE",
+      "sub": "The case continues to baffle.",
+      "label_on": "arrests",
+      "punch": "made"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "sunset over Los Angeles",
+      "query2": "cityscape at night"
+    }
+  ],
+  "description": "📍 Los Angeles, USA - 2005. In broad daylight, priceless artifacts were stolen, and the case remains unsolved. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#heist",
+    "#GettyMuseum",
+    "#LosAngeles",
+    "#arttheft",
+    "#shorts",
+    "#fyp"
+  ]
+}

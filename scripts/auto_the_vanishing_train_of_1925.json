@@ -1,0 +1,70 @@
+{
+  "title": "The Vanishing Train of 1925",
+  "place": "Pennsylvania",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A train carrying valuables mysteriously disappeared without a trace.",
+      "hook_top": "VALUABLE TRAIN VANISHED",
+      "query": "train tracks at dawn",
+      "query2": "old steam engine faded"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Pennsylvania, along the tracks of the Pennsylvania Railroad."
+    },
+    {
+      "role": "fact",
+      "text": "In 1925, a freight train carrying jewels vanished en route.",
+      "query": "historic train station",
+      "query2": "freight train on tracks",
+      "chips": [
+        {
+          "t": "1925",
+          "on": "1925",
+          "style": "white"
+        },
+        {
+          "t": "JEWELS WORTH MILLIONS",
+          "on": "jewels",
+          "style": "accent"
+        }
+      ],
+      "punch": "vanished"
+    },
+    {
+      "role": "archive",
+      "text": "The mystery of the missing train remains unsolved to this day.",
+      "archive_query": "Pennsylvania Railroad history",
+      "archive_label": "Pennsylvania Railroad"
+    },
+    {
+      "role": "callout",
+      "text": "Despite searches, the train and its cargo were never found.",
+      "query": "detectives looking at maps",
+      "query2": "vast open fields",
+      "label": "NEVER FOUND",
+      "sub": "A mystery that persists.",
+      "label_on": "found",
+      "punch": "never"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "sunset over train tracks",
+      "query2": "train departs into the horizon"
+    }
+  ],
+  "description": "📍 Pennsylvania, USA - 1925. A freight train loaded with jewels vanished mysteriously, and the case remains unsolved. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#trainmystery",
+    "#Pennsylvania",
+    "#jewelheist",
+    "#shorts",
+    "#fyp"
+  ]
+}

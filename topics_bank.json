@@ -4280,5 +4280,194 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Curse of the Hope Diamond",
+    "place": "Washington D.C.",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A gem that brings misfortune to all who possess it.",
+        "hook_top": "A CURSED GEM",
+        "query": "sparkling blue diamond",
+        "query2": "dark jewel display"
+      },
+      {
+        "role": "map",
+        "text": "The Hope Diamond is housed in the Smithsonian National Museum of Natural History."
+      },
+      {
+        "role": "fact",
+        "text": "Stolen from King Louis XVI's treasury during the French Revolution.",
+        "query": "historical revolution scene",
+        "query2": "old treasury room",
+        "chips": [
+          {
+            "t": "1791",
+            "on": "1791",
+            "style": "white"
+          },
+          {
+            "t": "3.16 CARATS",
+            "on": "carats",
+            "style": "accent"
+          }
+        ],
+        "punch": "stolen"
+      },
+      {
+        "role": "callout",
+        "text": "Many owners experienced tragedy and loss.",
+        "query": "dimly lit gemstone room",
+        "query2": "old jewelry box",
+        "label": "TRAGIC LEGACY",
+        "sub": "The curse persists.",
+        "label_on": "legacy",
+        "punch": "curse"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "foggy city night aerial",
+        "query2": "rain window night city"
+      }
+    ],
+    "description": "📍 Washington D.C., USA - 1791. The Hope Diamond, a stunning gemstone, holds a dark history tied to misfortune for its owners. Explore the tragic tales surrounding it. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#mystery",
+      "#smithsonian",
+      "#hopeDiamond",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Mystery of the Lost Leonardo",
+    "place": "Florence",
+    "country": "Italy",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A masterpiece vanished without a trace from a museum.",
+        "hook_top": "A MASTERPIECE VANISHES",
+        "query": "museum gallery night",
+        "query2": "empty artwork stand"
+      },
+      {
+        "role": "map",
+        "text": "The 'Salvator Mundi' disappeared from the Louvre in 2011."
+      },
+      {
+        "role": "fact",
+        "text": "Leonardo da Vinci’s painting, valued at over $450 million, was stolen amidst controversy.",
+        "query": "painted artwork close up",
+        "query2": "museum artifact display",
+        "chips": [
+          {
+            "t": "2011",
+            "on": "2011",
+            "style": "white"
+          },
+          {
+            "t": "$450M VALUE",
+            "on": "million",
+            "style": "accent"
+          }
+        ],
+        "punch": "stolen"
+      },
+      {
+        "role": "callout",
+        "text": "It remains one of the most expensive paintings ever lost.",
+        "query": "famous artwork images",
+        "query2": "art theft news",
+        "label": "MYSTERY STILL EXISTS",
+        "sub": "Where is it now?",
+        "label_on": "lost",
+        "punch": "exists"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "foggy city night aerial",
+        "query2": "rain window night city"
+      }
+    ],
+    "description": "📍 Florence, Italy - 2011. The renowned 'Salvator Mundi' vanished from the Louvre and has never been recovered. It remains the most valuable lost artwork in history. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#arttheft",
+      "#leonardodavinci",
+      "#florence",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Enigmatic Disappearance of Ebenezer Sibly",
+    "place": "London",
+    "country": "UK",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A respected doctor vanished without a clue in 1799.",
+        "hook_top": "A MYSTERIOUS VANISHING",
+        "query": "old London street night",
+        "query2": "foggy alleyway"
+      },
+      {
+        "role": "map",
+        "text": "It happened in London, England in 1799."
+      },
+      {
+        "role": "fact",
+        "text": "Ebenezer Sibly, a prominent physician, mysteriously disappeared one night.",
+        "query": "historical documents",
+        "query2": "old town maps",
+        "chips": [
+          {
+            "t": "1799",
+            "on": "1799",
+            "style": "white"
+          },
+          {
+            "t": "RESPECTED DOCTOR",
+            "on": "doctor",
+            "style": "accent"
+          }
+        ],
+        "punch": "disappeared"
+      },
+      {
+        "role": "callout",
+        "text": "To this day, his fate remains unknown.",
+        "query": "dark historical archives",
+        "query2": "ancient books",
+        "label": "UNSOLVED MYSTERY",
+        "sub": "What happened to him?",
+        "label_on": "fate",
+        "punch": "unknown"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "foggy city night aerial",
+        "query2": "rain window night city"
+      }
+    ],
+    "description": "📍 London, UK - 1799. Dr. Ebenezer Sibly, a well-respected physician, vanished without a trace. The mystery of his disappearance remains unsolved to this day. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#mystery",
+      "#london",
+      "#historical",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
