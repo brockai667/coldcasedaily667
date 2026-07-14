@@ -1,0 +1,70 @@
+{
+  "title": "The Case of the Lost Airship",
+  "place": "Goodyear, Arizona",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "An airship vanished without a trace, leaving a baffling mystery.",
+      "hook_top": "AN AIRSHIP VANISHED",
+      "query": "cloudy sky with airship",
+      "query2": "abandoned airfield"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Goodyear, Arizona, during a routine flight."
+    },
+    {
+      "role": "fact",
+      "text": "In 1937, the Goodyear airship mysteriously disappeared on a test flight.",
+      "query": "old airship design",
+      "query2": "cloudy skies",
+      "chips": [
+        {
+          "t": "1937",
+          "on": "1937",
+          "style": "white"
+        },
+        {
+          "t": "VANISHED IN FLIGHT",
+          "on": "vanished",
+          "style": "accent"
+        }
+      ],
+      "punch": "vanished"
+    },
+    {
+      "role": "archive",
+      "text": "The fate of the airship remains one of aviation's greatest mysteries.",
+      "archive_query": "Goodyear airship history",
+      "archive_label": "Goodyear Airship"
+    },
+    {
+      "role": "callout",
+      "text": "Despite extensive searches, no wreckage was ever recovered.",
+      "query": "airship search teams",
+      "query2": "vast open landscapes",
+      "label": "NO WRECKAGE FOUND",
+      "sub": "A mystery unfolds in the skies.",
+      "label_on": "wreckage",
+      "punch": "found"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "clear skies over Arizona",
+      "query2": "distant mountains"
+    }
+  ],
+  "description": "📍 Goodyear, Arizona, USA - 1937. An airship vanished during a test flight and has never been found. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#airshipmystery",
+    "#Arizona",
+    "#aviationhistory",
+    "#shorts",
+    "#fyp"
+  ]
+}

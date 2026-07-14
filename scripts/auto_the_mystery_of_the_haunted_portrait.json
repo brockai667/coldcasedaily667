@@ -1,0 +1,70 @@
+{
+  "title": "The Mystery of the Haunted Portrait",
+  "place": "Edinburgh",
+  "country": "Scotland",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A legendary portrait vanished, sparking ghostly tales of sorrow.",
+      "hook_top": "HAUNTED PORTRAIT VANISHES",
+      "query": "dark old castle interiors",
+      "query2": "portrait of a woman"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Edinburgh, at the Scottish National Gallery."
+    },
+    {
+      "role": "fact",
+      "text": "In 2009, an iconic portrait mysteriously disappeared during a gallery exhibition.",
+      "query": "exhibition halls with art",
+      "query2": "crowds admiring artwork",
+      "chips": [
+        {
+          "t": "2009",
+          "on": "2009",
+          "style": "white"
+        },
+        {
+          "t": "ICONIC PORTRAIT STOLEN",
+          "on": "portrait",
+          "style": "accent"
+        }
+      ],
+      "punch": "disappeared"
+    },
+    {
+      "role": "archive",
+      "text": "The gallery remains haunted by the loss of the artwork.",
+      "archive_query": "Scottish National Gallery",
+      "archive_label": "Scottish National Gallery"
+    },
+    {
+      "role": "callout",
+      "text": "Despite investigations, the portrait has never been recovered.",
+      "query": "mysterious art investigation",
+      "query2": "detectives at work",
+      "label": "NEVER RECOVERED",
+      "sub": "The mystery lingers on.",
+      "label_on": "recovered",
+      "punch": "never"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "foggy Edinburgh streets",
+      "query2": "old castle silhouette"
+    }
+  ],
+  "description": "📍 Edinburgh, Scotland - 2009. An iconic portrait vanished during an exhibition, leaving tales of hauntings in its wake. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#artmystery",
+    "#Edinburgh",
+    "#haunted",
+    "#shorts",
+    "#fyp"
+  ]
+}

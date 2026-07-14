@@ -1,0 +1,70 @@
+{
+  "title": "The Great Museum Robbery",
+  "place": "Antwerp",
+  "country": "Belgium",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Stolen artifacts worth millions vanished in a single night.",
+      "hook_top": "MILLIONS IN ART STOLEN",
+      "query": "museum exterior at night",
+      "query2": "security system alarms"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Antwerp, at the Museum of Fine Arts."
+    },
+    {
+      "role": "fact",
+      "text": "In 2001, thieves executed a perfect heist, stealing art valued at 100 million euros.",
+      "query": "empty museum halls",
+      "query2": "art displayed in silence",
+      "chips": [
+        {
+          "t": "2001",
+          "on": "2001",
+          "style": "white"
+        },
+        {
+          "t": "ART WORTH €100M",
+          "on": "million",
+          "style": "accent"
+        }
+      ],
+      "punch": "stolen"
+    },
+    {
+      "role": "archive",
+      "text": "The museum is still haunted by the absence of its treasures.",
+      "archive_query": "Museum of Fine Arts Antwerp",
+      "archive_label": "Museum of Fine Arts"
+    },
+    {
+      "role": "callout",
+      "text": "To this day, the art has never been recovered.",
+      "query": "case files on desk",
+      "query2": "detective at work",
+      "label": "NEVER RECOVERED",
+      "sub": "A mystery that remains.",
+      "label_on": "recovered",
+      "punch": "never"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "Antwerp at night",
+      "query2": "night skyline view"
+    }
+  ],
+  "description": "📍 Antwerp, Belgium - 2001. A daring museum robbery led to the theft of art valued at 100 million euros, and it remains unsolved. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#museumheist",
+    "#Antwerp",
+    "#arttheft",
+    "#shorts",
+    "#fyp"
+  ]
+}
