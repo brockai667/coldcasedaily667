@@ -1,0 +1,71 @@
+{
+  "title": "The Silence of the Sled Dogs: The Disappearance of the Lost Patrol",
+  "place": "Mackenzie Mountains",
+  "country": "Canada",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A routine expedition turns into a haunting mystery.",
+      "hook_top": "A HAUNTING MYSTERY",
+      "query": "snowy mountains aerial",
+      "query2": "abandoned expedition camp"
+    },
+    {
+      "role": "map",
+      "text": "It happened in the Mackenzie Mountains of Canada."
+    },
+    {
+      "role": "fact",
+      "text": "In 1910, the Lost Patrol disappeared without a trace while searching for a missing team.",
+      "query": "historical expedition map",
+      "query2": "black and white sled dogs",
+      "chips": [
+        {
+          "t": "1910",
+          "on": "1910",
+          "style": "white"
+        },
+        {
+          "t": "MISSING EXPEDITION",
+          "on": "missing",
+          "style": "accent"
+        }
+      ],
+      "punch": "missing"
+    },
+    {
+      "role": "archive",
+      "text": "The story remains a chilling reminder of the wilderness's power.",
+      "archive_query": "historic Mackenzie Patrol",
+      "archive_label": "Lost Patrol · 1910"
+    },
+    {
+      "role": "callout",
+      "text": "Despite extensive searches, their fate remains unknown.",
+      "query": "cold, empty wilderness",
+      "query2": "search team in snow",
+      "label": "NEVER FOUND",
+      "sub": "A mystery that endures",
+      "label_on": "found",
+      "punch": "never"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "foggy forest trail",
+      "query2": "mountain range in mist"
+    }
+  ],
+  "description": "📍 Mackenzie Mountains, Canada - 1910. An expedition vanished into the frozen wilderness, leaving only questions behind. Their fate remains a mystery. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#expedition",
+    "#mystery",
+    "#canada",
+    "#sleddogs",
+    "#shorts",
+    "#fyp"
+  ]
+}

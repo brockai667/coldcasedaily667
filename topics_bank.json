@@ -4469,5 +4469,360 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Disappearance from Room 347",
+    "place": "New Orleans",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A hotel room left untouched, and a guest who vanished.",
+        "hook_top": "A GUEST WHO VANISHED",
+        "query": "hotel hallway dim light",
+        "query2": "empty hotel room"
+      },
+      {
+        "role": "map",
+        "text": "It happened in New Orleans, at the Hotel Monteleone."
+      },
+      {
+        "role": "fact",
+        "text": "In 2005, a man named Eric McFadden disappeared without a trace during his stay.",
+        "query": "hotel room key",
+        "query2": "quiet hotel lobby",
+        "chips": [
+          {
+            "t": "2005",
+            "on": "2005",
+            "style": "white"
+          },
+          {
+            "t": "NEVER FOUND",
+            "on": "disappeared",
+            "style": "accent"
+          }
+        ],
+        "punch": "disappeared"
+      },
+      {
+        "role": "archive",
+        "text": "The Hotel Monteleone continues to host guests, some unaware of its mysteries.",
+        "archive_query": "Hotel Monteleone New Orleans",
+        "archive_label": "Hotel Monteleone · New Orleans"
+      },
+      {
+        "role": "callout",
+        "text": "Despite extensive searches, Eric remains missing and his case unsolved.",
+        "query": "search and rescue team",
+        "query2": "missing person flyers",
+        "label": "MISSING SINCE 2005",
+        "sub": "No leads in the case.",
+        "label_on": "missing",
+        "punch": "missing"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "foggy streets night",
+        "query2": "rainy city skyline"
+      }
+    ],
+    "description": "📍 New Orleans, USA - 2005. A guest at the Hotel Monteleone disappears without a trace, leaving behind an untouched room. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#disappearance",
+      "#neworleans",
+      "#hotelmonteleone",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Lonely Road and the Lost Woman",
+    "place": "Yosemite National Park",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A woman's last known steps fade into the wilderness.",
+        "hook_top": "LAST KNOWN STEPS",
+        "query": "dense forest path",
+        "query2": "misty mountain trail"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Yosemite National Park, California."
+      },
+      {
+        "role": "fact",
+        "text": "In 1996, 35-year-old Joie Armstrong vanished while hiking, leaving no clues behind.",
+        "query": "hiking trail sign",
+        "query2": "serene mountain landscape",
+        "chips": [
+          {
+            "t": "1996",
+            "on": "1996",
+            "style": "white"
+          },
+          {
+            "t": "NEVER FOUND",
+            "on": "missing",
+            "style": "accent"
+          }
+        ],
+        "punch": "missing"
+      },
+      {
+        "role": "archive",
+        "text": "Search efforts have continued over the years, but Joie's case remains open.",
+        "archive_query": "Yosemite National Park",
+        "archive_label": "Yosemite National Park · CA"
+      },
+      {
+        "role": "callout",
+        "text": "Despite ongoing investigations, Joie's fate is still unknown.",
+        "query": "missing person poster",
+        "query2": "search team in forest",
+        "label": "UNSOLVED MYSTERY",
+        "sub": "Efforts still ongoing.",
+        "label_on": "unsolved",
+        "punch": "unknown"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "foggy mountain view",
+        "query2": "twilight forest imagery"
+      }
+    ],
+    "description": "📍 Yosemite National Park, USA - 1996. A hiker named Joie Armstrong disappears in the wilderness, her last steps vanishing into thin air. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#disappearance",
+      "#yosemite",
+      "#mystery",
+      "#hiking",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Hidden Secrets of the Nightclub",
+    "place": "Miami",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A woman disappears from a bustling nightclub with no leads.",
+        "hook_top": "A NIGHTCLUB MYSTERY",
+        "query": "neon lit nightclub",
+        "query2": "dance floor crowded"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Miami, at the Clevelander Hotel."
+      },
+      {
+        "role": "fact",
+        "text": "In 2015, 21-year-old Alayna Ertl vanished after a night out with friends, leaving no trace.",
+        "query": "stylish bar area",
+        "query2": "crowded venue",
+        "chips": [
+          {
+            "t": "2015",
+            "on": "2015",
+            "style": "white"
+          },
+          {
+            "t": "NEVER FOUND",
+            "on": "disappearance",
+            "style": "accent"
+          }
+        ],
+        "punch": "disappearance"
+      },
+      {
+        "role": "archive",
+        "text": "The nightclub remains a popular spot, unaware of the lingering mystery.",
+        "archive_query": "Clevelander Hotel Miami",
+        "archive_label": "Clevelander Hotel · Miami"
+      },
+      {
+        "role": "callout",
+        "text": "Extensive searches have turned up no sign of Alayna.",
+        "query": "detectives in nightclub",
+        "query2": "missing person flyer",
+        "label": "UNSOLVED MYSTERY",
+        "sub": "Her case remains open.",
+        "label_on": "unsolved",
+        "punch": "mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "city lights at night",
+        "query2": "crowd outside club"
+      }
+    ],
+    "description": "📍 Miami, USA - 2015. A young woman named Alayna Ertl goes missing after a night at the Clevelander Hotel, leaving behind a mystery. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#disappearance",
+      "#miami",
+      "#clevelanderhotel",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "A Boat Ride to Nowhere",
+    "place": "Cape Cod",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A boat trip turned into a mystery when three lives were changed forever.",
+        "hook_top": "A MYSTERIOUS BOAT TRIP",
+        "query": "waves crashing on boat",
+        "query2": "distant shore at sunset"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Cape Cod, Massachusetts."
+      },
+      {
+        "role": "fact",
+        "text": "In 2018, a fishing trip ended in tragedy as three men vanished without a trace off the coast.",
+        "query": "fishing boat on water",
+        "query2": "ocean horizon view",
+        "chips": [
+          {
+            "t": "2018",
+            "on": "2018",
+            "style": "white"
+          },
+          {
+            "t": "NEVER FOUND",
+            "on": "missing",
+            "style": "accent"
+          }
+        ],
+        "punch": "missing"
+      },
+      {
+        "role": "archive",
+        "text": "Search efforts for the missing fishermen have continued, but they remain lost at sea.",
+        "archive_query": "Cape Cod boats",
+        "archive_label": "Cape Cod · Massachusetts"
+      },
+      {
+        "role": "callout",
+        "text": "The fate of the three fishermen remains unknown until today.",
+        "query": "ocean waves at night",
+        "query2": "rescue team on boat",
+        "label": "UNSOLVED DISAPPEARANCE",
+        "sub": "Search continues.",
+        "label_on": "unsolved",
+        "punch": "unknown"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "calm sea at dusk",
+        "query2": "fishing net on shore"
+      }
+    ],
+    "description": "📍 Cape Cod, USA - 2018. Three fishermen vanish without a trace during a fishing trip, leaving a mystery that remains unsolved. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#disappearance",
+      "#capecod",
+      "#fishingtrip",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "An Enigma at the Fair",
+    "place": "Chicago",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A young boy goes missing from a bustling fairground, never to be seen again.",
+        "hook_top": "A BOY GOES MISSING",
+        "query": "crowded fairground",
+        "query2": "colorful carnival lights"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Chicago, at the Century of Progress World's Fair."
+      },
+      {
+        "role": "fact",
+        "text": "In 1933, 9-year-old Charles Lindbergh Jr. disappeared from the fair, shocking the nation.",
+        "query": "historic fair poster",
+        "query2": "classic carnival rides",
+        "chips": [
+          {
+            "t": "1933",
+            "on": "1933",
+            "style": "white"
+          },
+          {
+            "t": "NEVER FOUND",
+            "on": "disappeared",
+            "style": "accent"
+          }
+        ],
+        "punch": "disappeared"
+      },
+      {
+        "role": "archive",
+        "text": "The fair ended, but the mystery of Charles remains unanswered.",
+        "archive_query": "Century of Progress",
+        "archive_label": "Century of Progress · Chicago"
+      },
+      {
+        "role": "callout",
+        "text": "Charles’ case remains one of the most infamous unsolved mysteries.",
+        "query": "detectives at fair",
+        "query2": "missing poster on wall",
+        "label": "UNSOLD CASE",
+        "sub": "The boy was never found.",
+        "label_on": "unsolved",
+        "punch": "mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "fairground at dusk",
+        "query2": "carnival lights in dark"
+      }
+    ],
+    "description": "📍 Chicago, USA - 1933. A young boy named Charles Lindbergh Jr. vanishes amidst the excitement of the Century of Progress World's Fair, leaving questions behind. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#disappearance",
+      "#chicago",
+      "#centuryofprogress",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

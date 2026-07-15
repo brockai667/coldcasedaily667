@@ -1,0 +1,70 @@
+{
+  "title": "The Cold Case of the Missing Heiress",
+  "place": "Newport",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A wealthy heiress vanished, leaving behind only questions and rumors.",
+      "hook_top": "WEALTHY HEIRESS VANISHED",
+      "query": "opulent mansion exterior",
+      "query2": "grand staircase in a mansion"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Newport, at a lavish estate."
+    },
+    {
+      "role": "fact",
+      "text": "In 1940, heiress Helen Wills disappeared from her home without a trace.",
+      "query": "vintage family portraits",
+      "query2": "grand estate gardens",
+      "chips": [
+        {
+          "t": "1940",
+          "on": "1940",
+          "style": "white"
+        },
+        {
+          "t": "MYSTERY REMAINS UNSOLVED",
+          "on": "unsolved",
+          "style": "accent"
+        }
+      ],
+      "punch": "disappeared"
+    },
+    {
+      "role": "archive",
+      "text": "The estate remains a reminder of a mystery that lasted decades.",
+      "archive_query": "Newport mansions history",
+      "archive_label": "Newport Mansion"
+    },
+    {
+      "role": "callout",
+      "text": "Despite extensive searches, Helen has never been found.",
+      "query": "detectives examining old maps",
+      "query2": "abandoned estate interior",
+      "label": "NEVER FOUND",
+      "sub": "The case is still baffling.",
+      "label_on": "found",
+      "punch": "never"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "sunrise over Newport",
+      "query2": "ocean waves crashing"
+    }
+  ],
+  "description": "📍 Newport, USA - 1940. Heiress Helen Wills vanished from her estate, and the case remains unsolved. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#missingheiress",
+    "#Newport",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "The Baffling Bank Job of 1972",
+  "place": "London",
+  "country": "UK",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A daring bank robbery shocked a nation, yet the robbers vanished.",
+      "hook_top": "DAUNTING BANK ROBBERY",
+      "query": "busy London street",
+      "query2": "old bank exterior"
+    },
+    {
+      "role": "map",
+      "text": "It happened in London, at the Baker Street Bank."
+    },
+    {
+      "role": "fact",
+      "text": "In 1972, a well-planned heist stole over 200,000 pounds.",
+      "query": "inside a bank vault",
+      "query2": "security systems flashing",
+      "chips": [
+        {
+          "t": "1972",
+          "on": "1972",
+          "style": "white"
+        },
+        {
+          "t": "OVER £200,000 STOLEN",
+          "on": "pounds",
+          "style": "accent"
+        }
+      ],
+      "punch": "stolen"
+    },
+    {
+      "role": "archive",
+      "text": "The case remains unsolved, with no leads after all these years.",
+      "archive_query": "Baker Street Bank historical",
+      "archive_label": "Baker Street Bank"
+    },
+    {
+      "role": "callout",
+      "text": "Despite extensive investigations, the robbers were never apprehended.",
+      "query": "detectives examining evidence",
+      "query2": "case files on a desk",
+      "label": "NEVER APPREHENDED",
+      "sub": "The mystery continues.",
+      "label_on": "apprehended",
+      "punch": "never"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "London skyline at dusk",
+      "query2": "lights of the city"
+    }
+  ],
+  "description": "📍 London, UK - 1972. A bank heist led to the theft of over 200,000 pounds, and the case remains unsolved. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#bankrobbery",
+    "#London",
+    "#heist",
+    "#shorts",
+    "#fyp"
+  ]
+}
