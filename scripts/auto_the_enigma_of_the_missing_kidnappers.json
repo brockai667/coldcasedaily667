@@ -1,0 +1,70 @@
+{
+  "title": "The Enigma of the Missing Kidnappers",
+  "place": "Missouri",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "They vanished without a trace, leaving behind only questions.",
+      "hook_top": "VANISHED WITHOUT A TRACE",
+      "query": "dark highway night",
+      "query2": "abandoned car on road"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Missouri, USA."
+    },
+    {
+      "role": "fact",
+      "text": "In 1959, a notorious kidnapping ring simply disappeared, leaving authorities baffled.",
+      "query": "vintage newspaper clippings",
+      "query2": "investigators in a meeting",
+      "chips": [
+        {
+          "t": "1959",
+          "on": "1959",
+          "style": "white"
+        },
+        {
+          "t": "KIDNAPPING RING",
+          "on": "kidnapping",
+          "style": "accent"
+        }
+      ],
+      "punch": "baffled"
+    },
+    {
+      "role": "archive",
+      "text": "Their sudden disappearance has led to numerous theories over the years.",
+      "archive_query": "Missouri kidnapping news",
+      "archive_label": "Missouri Kidnapping · 1959"
+    },
+    {
+      "role": "callout",
+      "text": "To this day, no suspects have been found or charged.",
+      "query": "confidential case files",
+      "query2": "detective examining documents",
+      "label": "UNSOLVED",
+      "sub": "A case still open",
+      "label_on": "unsolved",
+      "punch": "unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "haunting empty street",
+      "query2": "eerie night cityscape"
+    }
+  ],
+  "description": "📍 Missouri, USA - 1959. A kidnapping ring vanished, leaving behind countless unanswered questions. Their mystery continues to confound. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#kidnapping",
+    "#mystery",
+    "#missouri",
+    "#shorts",
+    "#fyp"
+  ]
+}
