@@ -1,0 +1,71 @@
+{
+  "title": "The Disappearance from Room 347",
+  "place": "New Orleans",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A hotel room left untouched, and a guest who vanished.",
+      "hook_top": "A GUEST WHO VANISHED",
+      "query": "hotel hallway dim light",
+      "query2": "empty hotel room"
+    },
+    {
+      "role": "map",
+      "text": "It happened in New Orleans, at the Hotel Monteleone."
+    },
+    {
+      "role": "fact",
+      "text": "In 2005, a man named Eric McFadden disappeared without a trace during his stay.",
+      "query": "hotel room key",
+      "query2": "quiet hotel lobby",
+      "chips": [
+        {
+          "t": "2005",
+          "on": "2005",
+          "style": "white"
+        },
+        {
+          "t": "NEVER FOUND",
+          "on": "disappeared",
+          "style": "accent"
+        }
+      ],
+      "punch": "disappeared"
+    },
+    {
+      "role": "archive",
+      "text": "The Hotel Monteleone continues to host guests, some unaware of its mysteries.",
+      "archive_query": "Hotel Monteleone New Orleans",
+      "archive_label": "Hotel Monteleone · New Orleans"
+    },
+    {
+      "role": "callout",
+      "text": "Despite extensive searches, Eric remains missing and his case unsolved.",
+      "query": "search and rescue team",
+      "query2": "missing person flyers",
+      "label": "MISSING SINCE 2005",
+      "sub": "No leads in the case.",
+      "label_on": "missing",
+      "punch": "missing"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "foggy streets night",
+      "query2": "rainy city skyline"
+    }
+  ],
+  "description": "📍 New Orleans, USA - 2005. A guest at the Hotel Monteleone disappears without a trace, leaving behind an untouched room. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#disappearance",
+    "#neworleans",
+    "#hotelmonteleone",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": "The Enigmatic Disappearance of Ebenezer Sibly",
+  "place": "London",
+  "country": "UK",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A respected doctor vanished without a clue in 1799.",
+      "hook_top": "A MYSTERIOUS VANISHING",
+      "query": "old London street night",
+      "query2": "foggy alleyway"
+    },
+    {
+      "role": "map",
+      "text": "It happened in London, England in 1799."
+    },
+    {
+      "role": "fact",
+      "text": "Ebenezer Sibly, a prominent physician, mysteriously disappeared one night.",
+      "query": "historical documents",
+      "query2": "old town maps",
+      "chips": [
+        {
+          "t": "1799",
+          "on": "1799",
+          "style": "white"
+        },
+        {
+          "t": "RESPECTED DOCTOR",
+          "on": "doctor",
+          "style": "accent"
+        }
+      ],
+      "punch": "disappeared"
+    },
+    {
+      "role": "callout",
+      "text": "To this day, his fate remains unknown.",
+      "query": "dark historical archives",
+      "query2": "ancient books",
+      "label": "UNSOLVED MYSTERY",
+      "sub": "What happened to him?",
+      "label_on": "fate",
+      "punch": "unknown"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "foggy city night aerial",
+      "query2": "rain window night city"
+    }
+  ],
+  "description": "📍 London, UK - 1799. Dr. Ebenezer Sibly, a well-respected physician, vanished without a trace. The mystery of his disappearance remains unsolved to this day. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#mystery",
+    "#london",
+    "#historical",
+    "#shorts",
+    "#fyp"
+  ]
+}

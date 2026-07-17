@@ -1,0 +1,63 @@
+{
+  "title": "The Mystery of the Lost Leonardo",
+  "place": "Florence",
+  "country": "Italy",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A masterpiece vanished without a trace from a museum.",
+      "hook_top": "A MASTERPIECE VANISHES",
+      "query": "museum gallery night",
+      "query2": "empty artwork stand"
+    },
+    {
+      "role": "map",
+      "text": "The 'Salvator Mundi' disappeared from the Louvre in 2011."
+    },
+    {
+      "role": "fact",
+      "text": "Leonardo da Vinci’s painting, valued at over $450 million, was stolen amidst controversy.",
+      "query": "painted artwork close up",
+      "query2": "museum artifact display",
+      "chips": [
+        {
+          "t": "2011",
+          "on": "2011",
+          "style": "white"
+        },
+        {
+          "t": "$450M VALUE",
+          "on": "million",
+          "style": "accent"
+        }
+      ],
+      "punch": "stolen"
+    },
+    {
+      "role": "callout",
+      "text": "It remains one of the most expensive paintings ever lost.",
+      "query": "famous artwork images",
+      "query2": "art theft news",
+      "label": "MYSTERY STILL EXISTS",
+      "sub": "Where is it now?",
+      "label_on": "lost",
+      "punch": "exists"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "foggy city night aerial",
+      "query2": "rain window night city"
+    }
+  ],
+  "description": "📍 Florence, Italy - 2011. The renowned 'Salvator Mundi' vanished from the Louvre and has never been recovered. It remains the most valuable lost artwork in history. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#arttheft",
+    "#leonardodavinci",
+    "#florence",
+    "#shorts",
+    "#fyp"
+  ]
+}
