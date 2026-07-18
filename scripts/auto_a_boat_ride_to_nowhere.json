@@ -1,0 +1,71 @@
+{
+  "title": "A Boat Ride to Nowhere",
+  "place": "Cape Cod",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A boat trip turned into a mystery when three lives were changed forever.",
+      "hook_top": "A MYSTERIOUS BOAT TRIP",
+      "query": "waves crashing on boat",
+      "query2": "distant shore at sunset"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Cape Cod, Massachusetts."
+    },
+    {
+      "role": "fact",
+      "text": "In 2018, a fishing trip ended in tragedy as three men vanished without a trace off the coast.",
+      "query": "fishing boat on water",
+      "query2": "ocean horizon view",
+      "chips": [
+        {
+          "t": "2018",
+          "on": "2018",
+          "style": "white"
+        },
+        {
+          "t": "NEVER FOUND",
+          "on": "missing",
+          "style": "accent"
+        }
+      ],
+      "punch": "missing"
+    },
+    {
+      "role": "archive",
+      "text": "Search efforts for the missing fishermen have continued, but they remain lost at sea.",
+      "archive_query": "Cape Cod boats",
+      "archive_label": "Cape Cod · Massachusetts"
+    },
+    {
+      "role": "callout",
+      "text": "The fate of the three fishermen remains unknown until today.",
+      "query": "ocean waves at night",
+      "query2": "rescue team on boat",
+      "label": "UNSOLVED DISAPPEARANCE",
+      "sub": "Search continues.",
+      "label_on": "unsolved",
+      "punch": "unknown"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "calm sea at dusk",
+      "query2": "fishing net on shore"
+    }
+  ],
+  "description": "📍 Cape Cod, USA - 2018. Three fishermen vanish without a trace during a fishing trip, leaving a mystery that remains unsolved. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#disappearance",
+    "#capecod",
+    "#fishingtrip",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

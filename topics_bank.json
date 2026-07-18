@@ -5108,5 +5108,349 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Disappearing Act of a Legend",
+    "place": "Los Angeles",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A legendary actor vanished without a trace.",
+        "hook_top": "VANISHED WITHOUT A TRACE",
+        "query": "dark Hollywood street night",
+        "query2": "abandoned movie studio"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Los Angeles, California."
+      },
+      {
+        "role": "fact",
+        "text": "In 1932, the famous actor, who was last seen filming, seemingly disappeared overnight.",
+        "query": "old film set night",
+        "query2": "forgotten Hollywood sign",
+        "chips": [
+          {
+            "t": "1932",
+            "on": "1932",
+            "style": "white"
+          }
+        ],
+        "punch": "vanished"
+      },
+      {
+        "role": "archive",
+        "text": "The actor's legacy still lingers, shrouded in mystery.",
+        "archive_query": "vintage Hollywood actor photo",
+        "archive_label": "Los Angeles · 1930s"
+      },
+      {
+        "role": "callout",
+        "text": "No leads have ever surfaced since that fateful night.",
+        "query": "cluttered detective office",
+        "query2": "old case files desk",
+        "label": "NEVER FOUND",
+        "sub": "The mystery continues.",
+        "label_on": "mystery",
+        "punch": "continues"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy city skyline night",
+        "query2": "rainy street lamppost"
+      }
+    ],
+    "description": "📍 Los Angeles, USA - 1932. A legendary actor's mysterious disappearance still haunts Hollywood. Will we ever know what happened? Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#hollywoodmystery",
+      "#legend",
+      "#losangeles",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "A Heist of an Iconic Artifact",
+    "place": "New York City",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "An ancient relic was stolen in broad daylight.",
+        "hook_top": "STOLEN IN BROAD DAYLIGHT",
+        "query": "busy museum foyer",
+        "query2": "ancient artifact display"
+      },
+      {
+        "role": "map",
+        "text": "It happened in New York City, at the Metropolitan Museum of Art."
+      },
+      {
+        "role": "fact",
+        "text": "In 1972, burglars made off with a priceless Egyptian artifact.",
+        "query": "newspapers on desk",
+        "query2": "museum theft headlines",
+        "chips": [
+          {
+            "t": "1972",
+            "on": "1972",
+            "style": "white"
+          },
+          {
+            "t": "PRICED AT $1.5M",
+            "on": "million",
+            "style": "accent"
+          }
+        ],
+        "punch": "priceless"
+      },
+      {
+        "role": "archive",
+        "text": "The artifact remains missing, despite numerous investigations.",
+        "archive_query": "Metropolitan Museum of Art",
+        "archive_label": "Met Museum · NYC"
+      },
+      {
+        "role": "callout",
+        "text": "The artifact has never been recovered.",
+        "query": "searching through papers",
+        "query2": "case closed folder",
+        "label": "NEVER RECOVERED",
+        "sub": "A $1 million reward offered.",
+        "label_on": "reward",
+        "punch": "offered"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "night cityscape aerial",
+        "query2": "rainy street lights"
+      }
+    ],
+    "description": "📍 New York City, USA - 1972. A priceless Egyptian artifact was stolen in the iconic Met Museum heist. Has it been lost forever? Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#metmuseum",
+      "#heist",
+      "#newyork",
+      "#artifact",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Enigma of the Bombing in the City of Angels",
+    "place": "Los Angeles",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A historic bombing left the city in shock.",
+        "hook_top": "CITY IN SHOCK",
+        "query": "urban city street dark",
+        "query2": "fiery explosion aftermath"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Los Angeles, California, in the 1910s."
+      },
+      {
+        "role": "fact",
+        "text": "In 1910, a massive bomb exploded, claiming lives and shattering peace in the neighborhood.",
+        "query": "newspaper articles on desk",
+        "query2": "old bombsite",
+        "chips": [
+          {
+            "t": "1910",
+            "on": "1910",
+            "style": "white"
+          },
+          {
+            "t": "SHOCKING DEATHS",
+            "on": "deaths",
+            "style": "accent"
+          }
+        ],
+        "punch": "peace"
+      },
+      {
+        "role": "archive",
+        "text": "The events of that day are still remembered by locals.",
+        "archive_query": "historic Los Angeles bombing",
+        "archive_label": "Los Angeles · 1910s"
+      },
+      {
+        "role": "callout",
+        "text": "The case remains unsolved after over a century.",
+        "query": "mysterious old files",
+        "query2": "public memorial",
+        "label": "UNSOLD MYSTERY",
+        "sub": "What really happened?",
+        "label_on": "happened",
+        "punch": "what"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "dusk over cityscape",
+        "query2": "stars appearing over skyline"
+      }
+    ],
+    "description": "📍 Los Angeles, USA - 1910. A devastating bombing shocked the community, leaving many unanswered questions. Can we ever know the truth? Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#losangeles",
+      "#bombing",
+      "#history",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Legend of the Unsolved Bank Job",
+    "place": "Birmingham",
+    "country": "UK",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A daring bank heist remains a mystery decades later.",
+        "hook_top": "MYSTERY HEIST",
+        "query": "classic bank exterior",
+        "query2": "vault doors closed"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Birmingham, England, in the 1970s."
+      },
+      {
+        "role": "fact",
+        "text": "In 1971, robbers tunneled into the bank while it was still operating.",
+        "query": "old newspaper headlines",
+        "query2": "dimly lit bank vault",
+        "chips": [
+          {
+            "t": "1971",
+            "on": "1971",
+            "style": "white"
+          },
+          {
+            "t": "1.5M POUNDS STOLEN",
+            "on": "pounds",
+            "style": "accent"
+          }
+        ],
+        "punch": "robbers"
+      },
+      {
+        "role": "archive",
+        "text": "The heist is still one of the biggest in UK history.",
+        "archive_query": "Birmingham bank robbery",
+        "archive_label": "Birmingham · 1970s"
+      },
+      {
+        "role": "callout",
+        "text": "Years later, no one has been charged.",
+        "query": "old case file folder",
+        "query2": "detective in office",
+        "label": "UNSOLVED CASE",
+        "sub": "The search continues.",
+        "label_on": "search",
+        "punch": "continues"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "night city lights",
+        "query2": "rainy street reflection"
+      }
+    ],
+    "description": "📍 Birmingham, UK - 1971. A bold bank heist earned millions but left unanswered questions. Will the criminals ever face justice? Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#bankheist",
+      "#birmingham",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "An Unsolvable Disappearance in the Snow",
+    "place": "Lake Tahoe",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A young girl's disappearance puzzled authorities for decades.",
+        "hook_top": "DISAPPEARED IN THE SNOW",
+        "query": "snow-covered landscape",
+        "query2": "footprints in the snow"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Lake Tahoe, California, in the 1980s."
+      },
+      {
+        "role": "fact",
+        "text": "In 1982, a 12-year-old girl vanished from a cabin during a snowstorm.",
+        "query": "dark snowy cabin",
+        "query2": "search team in snow",
+        "chips": [
+          {
+            "t": "1982",
+            "on": "1982",
+            "style": "white"
+          }
+        ],
+        "punch": "vanished"
+      },
+      {
+        "role": "archive",
+        "text": "Years of searches yielded no results, leaving her family heartbroken.",
+        "archive_query": "Lake Tahoe historical photos",
+        "archive_label": "Lake Tahoe · 1980s"
+      },
+      {
+        "role": "callout",
+        "text": "Her case remains open and unsolved.",
+        "query": "old case files on desk",
+        "query2": "detective looking at documents",
+        "label": "OPEN CASE",
+        "sub": "Many questions remain.",
+        "label_on": "questions",
+        "punch": "remain"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "starry night over lake",
+        "query2": "calm lake reflections"
+      }
+    ],
+    "description": "📍 Lake Tahoe, USA - 1982. A 12-year-old girl disappeared during a snowstorm, leading to years of unanswered questions. Will she ever be found? Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#laketahoe",
+      "#missingperson",
+      "#snowstorm",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

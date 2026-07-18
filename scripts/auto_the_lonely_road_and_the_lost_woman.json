@@ -1,0 +1,71 @@
+{
+  "title": "The Lonely Road and the Lost Woman",
+  "place": "Yosemite National Park",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A woman's last known steps fade into the wilderness.",
+      "hook_top": "LAST KNOWN STEPS",
+      "query": "dense forest path",
+      "query2": "misty mountain trail"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Yosemite National Park, California."
+    },
+    {
+      "role": "fact",
+      "text": "In 1996, 35-year-old Joie Armstrong vanished while hiking, leaving no clues behind.",
+      "query": "hiking trail sign",
+      "query2": "serene mountain landscape",
+      "chips": [
+        {
+          "t": "1996",
+          "on": "1996",
+          "style": "white"
+        },
+        {
+          "t": "NEVER FOUND",
+          "on": "missing",
+          "style": "accent"
+        }
+      ],
+      "punch": "missing"
+    },
+    {
+      "role": "archive",
+      "text": "Search efforts have continued over the years, but Joie's case remains open.",
+      "archive_query": "Yosemite National Park",
+      "archive_label": "Yosemite National Park · CA"
+    },
+    {
+      "role": "callout",
+      "text": "Despite ongoing investigations, Joie's fate is still unknown.",
+      "query": "missing person poster",
+      "query2": "search team in forest",
+      "label": "UNSOLVED MYSTERY",
+      "sub": "Efforts still ongoing.",
+      "label_on": "unsolved",
+      "punch": "unknown"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "foggy mountain view",
+      "query2": "twilight forest imagery"
+    }
+  ],
+  "description": "📍 Yosemite National Park, USA - 1996. A hiker named Joie Armstrong disappears in the wilderness, her last steps vanishing into thin air. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#disappearance",
+    "#yosemite",
+    "#mystery",
+    "#hiking",
+    "#shorts",
+    "#fyp"
+  ]
+}
