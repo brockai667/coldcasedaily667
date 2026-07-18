@@ -24,8 +24,8 @@ MODEL = os.environ.get("MODELS_MODEL", "openai/gpt-4o-mini")
 BASE = os.environ.get("MODELS_BASE_URL", "https://models.github.ai/inference")
 TOKEN = os.environ.get("MODELS_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
-TREND_SUBREDDITS = ['TrueCrime', 'UnresolvedMysteries', 'ColdCases', 'serialkillers', 'Casefile']
-TREND_YT_QUERIES = ['true crime cold case', 'unsolved mystery case', 'famous heist']
+TREND_SUBREDDITS = ['TrueCrime', 'UnresolvedMysteries', 'serialkillers', 'Casefile', 'Damnthatsinteresting']
+TREND_YT_QUERIES = ['famous unsolved cases', 'notorious heists', 'infamous mysteries', 'famous cold cases']
 
 SYSTEM = ("You are a scriptwriter for a respectful TRUE-CRIME / cold-case brand. You retell FAMOUS, "
           "widely-documented cases (heists, disappearances, unsolved mysteries, historic cases) in a "
@@ -71,6 +71,13 @@ CTAS = [
     "Follow because some cases still need answers.",
 ]
 
+
+
+PERFORMANCE = (
+    "\nPERFORMANCE DATA (real results - obey this, it decides reach):\n"
+    "- WHAT PERFORMS (strongly prefer these): famous, notorious, widely-recognized cases - iconic unsolved mysteries, legendary heists, historic crimes with a hook people have actually heard of or a striking twist.\n"
+    "- WHAT KILLS REACH (avoid): obscure individual victims nobody has heard of, generic 'the disappearance of <unknown name>', and cases with no recognizable angle. If it is not recognizable or lacks a gripping twist, skip it and pick a famous case instead.\n"
+)
 
 def build_prompt(n, existing_titles, existing_places, trending=None):
     trend_block = ""
@@ -121,7 +128,7 @@ def build_prompt(n, existing_titles, existing_places, trending=None):
         "than one in five titles with a number; never clickbait that misleads.\n"
         f"- Do NOT reuse any of these existing titles: {existing_titles}\n"
         f"- Do NOT reuse any of these already-covered cases/places (no repeats, not even reworded): {existing_places}\n"
-        + trend_block +
+        + PERFORMANCE + trend_block +
         "Return ONLY the JSON array."
     )
 
