@@ -5452,5 +5452,216 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Great Armored Truck Robbery",
+    "place": "Los Angeles",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A team of thieves made off with $9 million in broad daylight.",
+        "hook_top": "DAYLIGHT HEIST",
+        "query": "busy city streets day",
+        "query2": "armored truck parked"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Los Angeles, California."
+      },
+      {
+        "role": "fact",
+        "text": "In 1997, a group of heavily armed men executed one of the largest cash heists in U.S. history.",
+        "query": "crime scene tape",
+        "query2": "detectives at crime scene",
+        "chips": [
+          {
+            "t": "1997",
+            "on": "1997",
+            "style": "white"
+          },
+          {
+            "t": "$9M STOLEN",
+            "on": "million",
+            "style": "accent"
+          }
+        ],
+        "punch": "stolen"
+      },
+      {
+        "role": "archive",
+        "text": "The robbery was meticulously planned, yet remains unsolved.",
+        "archive_query": "Los Angeles armored truck",
+        "archive_label": "Armored Truck Crime"
+      },
+      {
+        "role": "callout",
+        "text": "Despite extensive investigations, the culprits were never caught.",
+        "query": "investigators at work",
+        "query2": "police searching area",
+        "label": "CULPRITS NEVER CAUGHT",
+        "sub": "A massive manhunt ensued.",
+        "label_on": "culprits",
+        "punch": "never"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "aerial view of city",
+        "query2": "city skyline at dusk"
+      }
+    ],
+    "description": "📍 Los Angeles, USA - 1997. An armored truck robbery took $9 million in broad daylight, and the thieves vanished. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#armoredtruck",
+      "#losangeles",
+      "#heist",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Unsolved Disappearance of the Beaumont Children",
+    "place": "Adelaide",
+    "country": "Australia",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Three siblings vanished from a beach, and their fate remains a mystery.",
+        "hook_top": "FATE REMAINS A MYSTERY",
+        "query": "beach shoreline empty",
+        "query2": "children's toys on sand"
+      },
+      {
+        "role": "map",
+        "text": "It happened at Glenelg Beach, Adelaide."
+      },
+      {
+        "role": "fact",
+        "text": "On January 26, 1966, the Beaumont children were last seen playing at the beach.",
+        "query": "vintage beach images",
+        "query2": "crowded beach day",
+        "chips": [
+          {
+            "t": "1966",
+            "on": "1966",
+            "style": "white"
+          },
+          {
+            "t": "3 CHILDREN MISSING",
+            "on": "children",
+            "style": "accent"
+          }
+        ],
+        "punch": "missing"
+      },
+      {
+        "role": "archive",
+        "text": "Despite extensive searches, their whereabouts remain unknown.",
+        "archive_query": "Beaumont children historical photo",
+        "archive_label": "Beaumont Family"
+      },
+      {
+        "role": "callout",
+        "text": "Numerous theories have emerged, but none have provided answers.",
+        "query": "investigative files",
+        "query2": "missing persons posters",
+        "label": "NO ANSWERS FOUND",
+        "sub": "Theories but no closure.",
+        "label_on": "answers",
+        "punch": "theories"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "sunset over the beach",
+        "query2": "waves crashing on shore"
+      }
+    ],
+    "description": "📍 Adelaide, Australia - 1966. Three siblings vanished from a beach, and their mystery endures to this day. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#beaumontchildren",
+      "#adelaide",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Haunting Disappearance of Maura Murray",
+    "place": "Woodsville",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A young woman vanished after a car crash, leaving no clues behind.",
+        "hook_top": "VANISHED WITHOUT A TRACE",
+        "query": "dark forest road",
+        "query2": "lights fading on an empty road"
+      },
+      {
+        "role": "map",
+        "text": "It happened in Woodsville, New Hampshire."
+      },
+      {
+        "role": "fact",
+        "text": "On February 9, 2004, Maura Murray crashed her car and disappeared shortly after.",
+        "query": "vintage car crash scene",
+        "query2": "abandoned road at night",
+        "chips": [
+          {
+            "t": "2004",
+            "on": "2004",
+            "style": "white"
+          },
+          {
+            "t": "MISSING SINCE 2004",
+            "on": "missing",
+            "style": "accent"
+          }
+        ],
+        "punch": "missing"
+      },
+      {
+        "role": "archive",
+        "text": "Despite numerous searches and investigations, her whereabouts remain unknown.",
+        "archive_query": "Maura Murray missing person flyer",
+        "archive_label": "Maura Murray Case"
+      },
+      {
+        "role": "callout",
+        "text": "Many theories surround her disappearance, but none have been confirmed.",
+        "query": "investigative notes on table",
+        "query2": "detectives in discussion",
+        "label": "THEORIES ABOUND",
+        "sub": "Speculations but no evidence.",
+        "label_on": "theories",
+        "punch": "abound"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "eerie forest path",
+        "query2": "night sky with stars"
+      }
+    ],
+    "description": "📍 Woodsville, USA - 2004. Maura Murray vanished after a car accident, leaving behind a mystery that endures. Follow for daily cold cases!",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#mauramurray",
+      "#woodsville",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

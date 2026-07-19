@@ -1,0 +1,71 @@
+{
+  "title": "The Unsolved Mystery of the Lady in White",
+  "place": "Galveston",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A ghostly figure haunts Galveston's dimly lit streets.",
+      "hook_top": "A HAUNTED FIGURE APPEARS",
+      "query": "dark street fog",
+      "query2": "moonlit path dim light"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Galveston, Texas."
+    },
+    {
+      "role": "fact",
+      "text": "In 1850, a woman in white was believed to have died under mysterious circumstances.",
+      "query": "historic town night",
+      "query2": "old cemetery lantern",
+      "chips": [
+        {
+          "t": "1850",
+          "on": "1850",
+          "style": "white"
+        },
+        {
+          "t": "MYSTERIOUS DEATH",
+          "on": "death",
+          "style": "accent"
+        }
+      ],
+      "punch": "mystery"
+    },
+    {
+      "role": "archive",
+      "text": "Galveston’s haunted history remains compelling.",
+      "archive_query": "Galveston historic buildings",
+      "archive_label": "Galveston · TX"
+    },
+    {
+      "role": "callout",
+      "text": "Sightings continue, yet her identity remains a secret.",
+      "query": "ghostly figure night",
+      "query2": "dark night scene",
+      "label": "NEVER IDENTIFIED",
+      "sub": "The legend lives on.",
+      "label_on": "legend",
+      "punch": "secret"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "eerie moonlight street",
+      "query2": "shadowy alley night"
+    }
+  ],
+  "description": "📍 Galveston, USA - 1850. A mysterious lady in white haunts the streets, her tragic story lost to time. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#mystery",
+    "#galveston",
+    "#texas",
+    "#ghost",
+    "#shorts",
+    "#fyp"
+  ]
+}

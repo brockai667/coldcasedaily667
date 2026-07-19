@@ -1,0 +1,71 @@
+{
+  "title": "The Disappearance from the 70s: A Family Vanishes",
+  "place": "Point Pleasant",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A family vanishes without a trace in 1974.",
+      "hook_top": "A FAMILY VANISHES",
+      "query": "mysterious woods aerial",
+      "query2": "desolate small town sunset"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Point Pleasant, West Virginia."
+    },
+    {
+      "role": "fact",
+      "text": "In 1974, five members of the Sott family disappeared from their home.",
+      "query": "old house night",
+      "query2": "abandoned home dark",
+      "chips": [
+        {
+          "t": "1974",
+          "on": "1974",
+          "style": "white"
+        },
+        {
+          "t": "5 FAMILY MEMBERS",
+          "on": "members",
+          "style": "accent"
+        }
+      ],
+      "punch": "disappear"
+    },
+    {
+      "role": "archive",
+      "text": "The home where the family lived remains a haunting reminder.",
+      "archive_query": "Point Pleasant West Virginia",
+      "archive_label": "Point Pleasant · WV"
+    },
+    {
+      "role": "callout",
+      "text": "To this day, their whereabouts remain unknown.",
+      "query": "case files detective desk",
+      "query2": "old newspaper clippings",
+      "label": "NEVER FOUND",
+      "sub": "The mystery endures.",
+      "label_on": "mystery",
+      "punch": "unknown"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy road at night",
+      "query2": "road through mist"
+    }
+  ],
+  "description": "📍 Point Pleasant, USA - 1974. Five family members vanished without a trace, leaving a chilling mystery behind. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#disappearance",
+    "#pointpleasant",
+    "#westvirginia",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
