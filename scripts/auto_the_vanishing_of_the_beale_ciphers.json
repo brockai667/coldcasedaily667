@@ -1,0 +1,71 @@
+{
+  "title": "The Vanishing of the Beale Ciphers",
+  "place": "Virginia",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A treasure map hidden in an unsolved cipher.",
+      "hook_top": "A TREASURE MAP HIDDEN",
+      "query": "old treasure map zoom",
+      "query2": "ancient parchment close-up"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Virginia, USA."
+    },
+    {
+      "role": "fact",
+      "text": "In 1820, the Beale ciphers promised a fortune of gold.",
+      "query": "dusty old library",
+      "query2": "mysterious old chest",
+      "chips": [
+        {
+          "t": "1820",
+          "on": "1820",
+          "style": "white"
+        },
+        {
+          "t": "MILLION IN TREASURE",
+          "on": "treasure",
+          "style": "accent"
+        }
+      ],
+      "punch": "hidden"
+    },
+    {
+      "role": "archive",
+      "text": "The ciphers remain unsolved to this day.",
+      "archive_query": "Beale treasure ciphers",
+      "archive_label": "Beale Ciphers · VA"
+    },
+    {
+      "role": "callout",
+      "text": "The treasure is still missing, a cryptic legend.",
+      "query": "old codes paper",
+      "query2": "cryptic symbols visual",
+      "label": "TREASURE STILL LOST",
+      "sub": "A mystery endures.",
+      "label_on": "lost",
+      "punch": "legend"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "foggy backroad night",
+      "query2": "distant mountains night"
+    }
+  ],
+  "description": "📍 Virginia, USA - 1820. The Beale ciphers contain a hidden treasure map that remains unsolved, enticing treasure hunters. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#treasure",
+    "#bealeciphers",
+    "#virginia",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

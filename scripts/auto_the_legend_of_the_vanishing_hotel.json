@@ -1,0 +1,71 @@
+{
+  "title": "The Legend of the Vanishing Hotel",
+  "place": "Hershey",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Guests mysteriously vanish from a historic hotel.",
+      "hook_top": "GUESTS MYSTERIOUSLY VANISH",
+      "query": "vintage hotel exterior",
+      "query2": "haunted hotel interior"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Hershey, Pennsylvania."
+    },
+    {
+      "role": "fact",
+      "text": "In the 1920s, several guests went missing without explanation.",
+      "query": "historic lobby faded",
+      "query2": "empty hotel corridor",
+      "chips": [
+        {
+          "t": "1920s",
+          "on": "1920s",
+          "style": "white"
+        },
+        {
+          "t": "MULTIPLE GUESTS",
+          "on": "guests",
+          "style": "accent"
+        }
+      ],
+      "punch": "vanish"
+    },
+    {
+      "role": "archive",
+      "text": "The hotel stands today, shrouded in mystery.",
+      "archive_query": "Hershey hotel history",
+      "archive_label": "Hershey · PA"
+    },
+    {
+      "role": "callout",
+      "text": "Their fates remain unknown, a chilling tale.",
+      "query": "mysterious hotel room",
+      "query2": "detective office files",
+      "label": "STILL A MYSTERY",
+      "sub": "The legend persists.",
+      "label_on": "legend",
+      "punch": "chilling"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "quiet hotel corridor",
+      "query2": "overgrown garden"
+    }
+  ],
+  "description": "📍 Hershey, USA - 1920s. Guests vanished from a historic hotel without a trace, leaving a chilling legacy. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#mystery",
+    "#hershey",
+    "#pennsylvania",
+    "#hauntedhotel",
+    "#shorts",
+    "#fyp"
+  ]
+}

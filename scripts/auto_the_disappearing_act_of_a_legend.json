@@ -1,0 +1,66 @@
+{
+  "title": "The Disappearing Act of a Legend",
+  "place": "Los Angeles",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A legendary actor vanished without a trace.",
+      "hook_top": "VANISHED WITHOUT A TRACE",
+      "query": "dark Hollywood street night",
+      "query2": "abandoned movie studio"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Los Angeles, California."
+    },
+    {
+      "role": "fact",
+      "text": "In 1932, the famous actor, who was last seen filming, seemingly disappeared overnight.",
+      "query": "old film set night",
+      "query2": "forgotten Hollywood sign",
+      "chips": [
+        {
+          "t": "1932",
+          "on": "1932",
+          "style": "white"
+        }
+      ],
+      "punch": "vanished"
+    },
+    {
+      "role": "archive",
+      "text": "The actor's legacy still lingers, shrouded in mystery.",
+      "archive_query": "vintage Hollywood actor photo",
+      "archive_label": "Los Angeles · 1930s"
+    },
+    {
+      "role": "callout",
+      "text": "No leads have ever surfaced since that fateful night.",
+      "query": "cluttered detective office",
+      "query2": "old case files desk",
+      "label": "NEVER FOUND",
+      "sub": "The mystery continues.",
+      "label_on": "mystery",
+      "punch": "continues"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city skyline night",
+      "query2": "rainy street lamppost"
+    }
+  ],
+  "description": "📍 Los Angeles, USA - 1932. A legendary actor's mysterious disappearance still haunts Hollywood. Will we ever know what happened? Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#hollywoodmystery",
+    "#legend",
+    "#losangeles",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
