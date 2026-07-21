@@ -1,0 +1,70 @@
+{
+  "title": "The Unsolved Disappearance of the Beaumont Children",
+  "place": "Adelaide",
+  "country": "Australia",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Three siblings vanished from a beach, and their fate remains a mystery.",
+      "hook_top": "FATE REMAINS A MYSTERY",
+      "query": "beach shoreline empty",
+      "query2": "children's toys on sand"
+    },
+    {
+      "role": "map",
+      "text": "It happened at Glenelg Beach, Adelaide."
+    },
+    {
+      "role": "fact",
+      "text": "On January 26, 1966, the Beaumont children were last seen playing at the beach.",
+      "query": "vintage beach images",
+      "query2": "crowded beach day",
+      "chips": [
+        {
+          "t": "1966",
+          "on": "1966",
+          "style": "white"
+        },
+        {
+          "t": "3 CHILDREN MISSING",
+          "on": "children",
+          "style": "accent"
+        }
+      ],
+      "punch": "missing"
+    },
+    {
+      "role": "archive",
+      "text": "Despite extensive searches, their whereabouts remain unknown.",
+      "archive_query": "Beaumont children historical photo",
+      "archive_label": "Beaumont Family"
+    },
+    {
+      "role": "callout",
+      "text": "Numerous theories have emerged, but none have provided answers.",
+      "query": "investigative files",
+      "query2": "missing persons posters",
+      "label": "NO ANSWERS FOUND",
+      "sub": "Theories but no closure.",
+      "label_on": "answers",
+      "punch": "theories"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "sunset over the beach",
+      "query2": "waves crashing on shore"
+    }
+  ],
+  "description": "📍 Adelaide, Australia - 1966. Three siblings vanished from a beach, and their mystery endures to this day. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#beaumontchildren",
+    "#adelaide",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

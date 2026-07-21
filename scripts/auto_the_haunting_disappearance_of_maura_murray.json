@@ -1,0 +1,70 @@
+{
+  "title": "The Haunting Disappearance of Maura Murray",
+  "place": "Woodsville",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A young woman vanished after a car crash, leaving no clues behind.",
+      "hook_top": "VANISHED WITHOUT A TRACE",
+      "query": "dark forest road",
+      "query2": "lights fading on an empty road"
+    },
+    {
+      "role": "map",
+      "text": "It happened in Woodsville, New Hampshire."
+    },
+    {
+      "role": "fact",
+      "text": "On February 9, 2004, Maura Murray crashed her car and disappeared shortly after.",
+      "query": "vintage car crash scene",
+      "query2": "abandoned road at night",
+      "chips": [
+        {
+          "t": "2004",
+          "on": "2004",
+          "style": "white"
+        },
+        {
+          "t": "MISSING SINCE 2004",
+          "on": "missing",
+          "style": "accent"
+        }
+      ],
+      "punch": "missing"
+    },
+    {
+      "role": "archive",
+      "text": "Despite numerous searches and investigations, her whereabouts remain unknown.",
+      "archive_query": "Maura Murray missing person flyer",
+      "archive_label": "Maura Murray Case"
+    },
+    {
+      "role": "callout",
+      "text": "Many theories surround her disappearance, but none have been confirmed.",
+      "query": "investigative notes on table",
+      "query2": "detectives in discussion",
+      "label": "THEORIES ABOUND",
+      "sub": "Speculations but no evidence.",
+      "label_on": "theories",
+      "punch": "abound"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "eerie forest path",
+      "query2": "night sky with stars"
+    }
+  ],
+  "description": "📍 Woodsville, USA - 2004. Maura Murray vanished after a car accident, leaving behind a mystery that endures. Follow for daily cold cases!",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#mauramurray",
+    "#woodsville",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
