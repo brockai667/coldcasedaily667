@@ -1,0 +1,64 @@
+{
+  "title": "Unmasking the Case of the Zodiac Killer",
+  "thumb": "ZODIAC KILLER MYSTERY",
+  "place": "San Francisco",
+  "country": "USA",
+  "scenes": [
+    {
+      "text": "Between 1968 and 1969, the Zodiac Killer claimed five victims.",
+      "query": "graphic of Zodiac Killer inquiries",
+      "query2": "murder investigation visuals",
+      "hook_top": "5 VICTIMS IN 19681969",
+      "chips": [
+        {
+          "t": "5 victims",
+          "on": "claimed",
+          "style": "white"
+        }
+      ],
+      "role": "hook"
+    },
+    {
+      "text": "The killer taunted police with cryptic letters.",
+      "query": "letters from Zodiac Killer",
+      "query2": "police investigation",
+      "hook_top": "TAUNTED POLICE WITH LETTERS",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Numerous suspects emerged, but no one was ever convicted.",
+      "query": "detectives with possible suspects",
+      "query2": "investigation footage",
+      "hook_top": "NO CONVICTIONS, ONLY SUSPECTS",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "The Zodiac Killer's identity remains a mystery today.",
+      "query": "mystery of the Zodiac Killer",
+      "query2": "unsolved crime mystery",
+      "reveal_top": "IDENTITY STILL UNKNOWN",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Follow for a new cold case every day.",
+      "query": "engaging call to action",
+      "query2": "getting followers involved",
+      "hook_top": "FOLLOW FOR MORE MYSTERIES",
+      "chips": [],
+      "role": "cta"
+    }
+  ],
+  "description": "The Zodiac Killer remains one of America's most infamous unsolved cases. With five known victims and a history of taunting police, this mystery captivates true crime enthusiasts. Stay tuned.",
+  "hashtags": [
+    "#ZodiacKiller",
+    "#TrueCrime",
+    "#Unsolved",
+    "#Mystery",
+    "#SanFrancisco",
+    "#shorts",
+    "#fyp"
+  ]
+}

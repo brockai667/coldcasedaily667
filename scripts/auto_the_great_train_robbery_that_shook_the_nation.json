@@ -1,0 +1,64 @@
+{
+  "title": "The Great Train Robbery That Shook the Nation",
+  "thumb": "TRAIN ROBBERY SHOCK",
+  "place": "England",
+  "country": "UK",
+  "scenes": [
+    {
+      "text": "In 1963, robbers stole £2.6 million from a Royal Mail train.",
+      "query": "dramatic train robbery",
+      "query2": "train in action",
+      "hook_top": "26 MILLION TRAIN ROBBERY",
+      "chips": [
+        {
+          "t": "£2.6 million",
+          "on": "stole",
+          "style": "white"
+        }
+      ],
+      "role": "hook"
+    },
+    {
+      "text": "The gang used a fake signal to stop the train.",
+      "query": "train signal scene",
+      "query2": "train robbery planning",
+      "hook_top": "FAKE SIGNAL TRICKERY",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Despite many arrests, only a fraction of the money was recovered.",
+      "query": "detectives working on recovery",
+      "query2": "investigation process",
+      "hook_top": "NEARLY ALL MONEY LOST",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "This heist remains one of the most daring in history.",
+      "query": "historical images of train robbery",
+      "query2": "historical reenactment",
+      "reveal_top": "DAUNTING HEIST LEGACY",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Follow if you'd have cracked this one.",
+      "query": "call to action for followers",
+      "query2": "engagement",
+      "hook_top": "FOLLOW FOR MORE HEIST TALES",
+      "chips": [],
+      "role": "cta"
+    }
+  ],
+  "description": "The Great Train Robbery of 1963 became legendary, with £2.6 million stolen through a cunning plot. Discover more about notorious heists as we delve into the world of true crime.",
+  "hashtags": [
+    "#TrainRobbery",
+    "#TrueCrime",
+    "#LegendaryHeists",
+    "#Unsolved",
+    "#History",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -5704,5 +5704,248 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Heist That Changed Everything: The Banco Central Robbery",
+    "thumb": "HEIST OF A LIFETIME",
+    "place": "Fortaleza",
+    "country": "Brazil",
+    "scenes": [
+      {
+        "text": "In 2005, a heist stole $70 million from a bank.",
+        "query": "dramatic bank heist",
+        "query2": "bank robbery visualization",
+        "role": "hook",
+        "hook_top": "IN 2005 A HEIST STOLE 70"
+      },
+      {
+        "text": "Thieves dug a tunnel of over 78 meters to access the vault.",
+        "chips": [
+          {
+            "t": "78 METERS",
+            "on": "thieves",
+            "style": "white"
+          }
+        ],
+        "query": "tunnel diggers working",
+        "query2": "construction efforts",
+        "role": "fact"
+      },
+      {
+        "text": "Despite numerous arrests, the majority of the stolen money remains missing.",
+        "query": "police investigations",
+        "query2": "detectives at work",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "THE MONEY IS STILL MISSING",
+        "reveal_top": "MONEY STILL MISSING",
+        "query": "unaccounted cash",
+        "query2": "financial mysteries",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for a new cold case every day.",
+        "query": "engaged audience",
+        "query2": "happy viewers",
+        "role": "cta"
+      }
+    ],
+    "description": "In what was one of the biggest bank robberies in history, thieves executed a meticulous plan that resulted in the theft of millions. Don't miss out on more incredible stories!",
+    "hashtags": [
+      "#TrueCrime",
+      "#Heist",
+      "#BancoCentral",
+      "#Shorts",
+      "#FamousCases",
+      "#Brazil",
+      "#CrimeHistory",
+      "#Mystery"
+    ]
+  },
+  {
+    "title": "The Disappearance That Left Experts Stumped: Flight 19",
+    "thumb": "FLIGHT 19 MYSTERY",
+    "place": "Bermuda Triangle",
+    "country": "USA",
+    "scenes": [
+      {
+        "text": "In 1945, five Navy planes mysteriously vanished during a training flight.",
+        "query": "searching military planes",
+        "query2": "naval exercises",
+        "role": "hook",
+        "hook_top": "IN 1945 FIVE NAVY PLANES MYSTERIOUSLY"
+      },
+      {
+        "text": "Despite extensive search efforts, no wreckage was ever found.",
+        "query": "search and rescue mission",
+        "query2": "aerial search",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "The incident sparked theories ranging from navigation errors to supernatural events.",
+        "query": "theories about disappearances",
+        "query2": "debunking myths",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "MYSTERY STILL UNSOLVED",
+        "reveal_top": "FLIGHT MYSTERY UNSOLVED",
+        "query": "mystery exploration",
+        "query2": "investigative journalism",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for the cases that were never solved.",
+        "query": "audience engagement",
+        "query2": "curious viewers",
+        "role": "cta"
+      }
+    ],
+    "description": "Flight 19's vanishing has baffled experts for decades, leading to countless theories but no concrete answers. Stay tuned for more intriguing cases!",
+    "hashtags": [
+      "#Flight19",
+      "#BermudaTriangle",
+      "#UnsolvedMysteries",
+      "#Shorts",
+      "#TrueCrime",
+      "#AviationHistory",
+      "#Disappearance"
+    ]
+  },
+  {
+    "title": "The Mystery of the Black Dahlia: What Happened to Elizabeth Short?",
+    "thumb": "MYSTERY OF THE DAHLIA",
+    "place": "Los Angeles",
+    "country": "USA",
+    "scenes": [
+      {
+        "text": "In 1947, Elizabeth Short's body was found, igniting a media frenzy.",
+        "hook_top": "1947 BODY FOUND IN LA",
+        "query": "news archive footage of 1940s Los Angeles",
+        "query2": "historical clips of Los Angeles",
+        "chips": [
+          {
+            "t": "1947",
+            "on": "body found",
+            "style": "accent"
+          }
+        ],
+        "role": "hook"
+      },
+      {
+        "text": "Short was known for wearing black and nicknamed 'The Black Dahlia'.",
+        "archive_query": "https://commons.wikimedia.org/wiki/File:Elizabeth_Short.jpg",
+        "archive_label": "Elizabeth Short, 1940s",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "The case remains one of the most notorious unsolved murders.",
+        "label": "Fascinating Cold Case",
+        "sub": "Still Unsolved After Decades",
+        "label_on": "unsolved case",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "Follow for a new cold case every day.",
+        "ct": "Join our exploration of unsolved cases.",
+        "role": "cta",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The mystery surrounding Elizabeth Short and her tragic fate continues to captivate the public. Explore the details of this iconic unsolved case in today's deep dive.",
+    "hashtags": [
+      "#BlackDahlia",
+      "#TrueCrime",
+      "#UnsolvedMystery",
+      "#LosAngeles",
+      "#CrimeDocumentary",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Mysterious Heist of the Century",
+    "thumb": "MYSTERIOUS HEIST",
+    "place": "Boston",
+    "country": "USA",
+    "scenes": [
+      {
+        "text": "A notorious art theft that remains unsolved.",
+        "hook_top": "NOTORIOUS ART THEFT",
+        "query": "vintage art theft documentary",
+        "query2": "art heist cinematic",
+        "role": "hook"
+      },
+      {
+        "text": "It took place at the Isabella Stewart Gardner Museum.",
+        "map": "Boston, USA",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "Thieves made off with approximately $500 million in art.",
+        "chips": [
+          {
+            "t": "$500 MILLION",
+            "on": "made off",
+            "style": "white"
+          }
+        ],
+        "punch": "art",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "text": "Wikimedia Commons search: 'Isabella Stewart Gardner Museum'.",
+        "archive_query": "Isabella Stewart Gardner Museum",
+        "archive_label": "Museum Interior",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "The largest private property theft in history.",
+        "label": "HISTORY'S BIGGEST THEFT",
+        "sub": "An art heist like no other.",
+        "label_on": "theft",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "Follow for the cases that were never solved.",
+        "cta": "Stay tuned for more!",
+        "role": "cta",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "Explore the details of a heist where masterpieces vanished without a trace. Don't miss our other captivating stories.",
+    "hashtags": [
+      "#truecrime",
+      "#arttheft",
+      "#mystery",
+      "#shorts",
+      "#fyp",
+      "#heist"
+    ]
   }
 ]

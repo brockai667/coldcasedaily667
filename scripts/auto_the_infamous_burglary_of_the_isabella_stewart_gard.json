@@ -1,0 +1,64 @@
+{
+  "title": "The Infamous Burglary of the Isabella Stewart Gardner Museum",
+  "thumb": "MUSEUM HEIST MYSTERY",
+  "place": "Boston",
+  "country": "USA",
+  "scenes": [
+    {
+      "text": "In 1990, two thieves stole artwork worth $500 million from a museum.",
+      "query": "museum theft reenactment",
+      "query2": "museum heist",
+      "hook_top": "HEIST WORTH 500 MILLION",
+      "chips": [
+        {
+          "t": "$500 million",
+          "on": "stole",
+          "style": "white"
+        }
+      ],
+      "role": "hook"
+    },
+    {
+      "text": "The stolen pieces include works by Vermeer and Rembrandt.",
+      "query": "famous artworks display",
+      "query2": "famous paintings",
+      "hook_top": "STOLEN WORKS BY LEGENDS",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "The case remains unsolved despite extensive investigations.",
+      "query": "detectives exploring museum",
+      "query2": "investigation",
+      "hook_top": "EXTENSIVE INVESTIGATIONS FAILED",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "The whereabouts of the artworks remain a mystery.",
+      "query": "empty gallery scene",
+      "query2": "pieces missing gallery",
+      "reveal_top": "ARTWORKS REMAIN MISSING",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Follow for daily true crime mysteries.",
+      "query": "call to action for followers",
+      "query2": "engaging call",
+      "hook_top": "FOLLOW FOR MORE HEIST MYSTERIES",
+      "chips": [],
+      "role": "cta"
+    }
+  ],
+  "description": "The Isabella Stewart Gardner Museum heist stands as one of the most infamous thefts in art history, with $500 million worth of masterpieces lost to time. Join us for more true crime tales.",
+  "hashtags": [
+    "#ArtHeist",
+    "#TrueCrime",
+    "#Unsolved",
+    "#MuseumMystery",
+    "#Boston",
+    "#shorts",
+    "#fyp"
+  ]
+}
