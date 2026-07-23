@@ -1,0 +1,64 @@
+{
+  "title": "The Mysterious Vanishing of Flight MH370",
+  "thumb": "FLIGHT MH370 MYSTERY",
+  "place": "Indian Ocean",
+  "country": "Various",
+  "scenes": [
+    {
+      "text": "In 2014, Malaysia Airlines Flight MH370 vanished with 239 people on board.",
+      "query": "plane disappearing into the clouds",
+      "query2": "flight footage",
+      "hook_top": "FLIGHT WITH 239 PEOPLE VANISHED",
+      "chips": [
+        {
+          "t": "239 people",
+          "on": "vanished",
+          "style": "white"
+        }
+      ],
+      "role": "hook"
+    },
+    {
+      "text": "Despite extensive searches, wreckage was found only years later.",
+      "query": "search teams in action",
+      "query2": "search for wreckage",
+      "hook_top": "REMAINS FOUND YEARS LATER",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Multiple theories about its disappearance emerged but none confirmed.",
+      "query": "theories visual representation",
+      "query2": "mystery theories",
+      "hook_top": "NUMEROUS THEORIES, NO ANSWERS",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "The fate of Flight MH370 remains one of aviation's biggest mysteries.",
+      "query": "dramatic visual of the Indian Ocean",
+      "query2": "mystery deep ocean",
+      "reveal_top": "AVIONICS MYSTERY UNSOLVED",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Follow if you'd have cracked this one.",
+      "query": "call to action for followers",
+      "query2": "engaging call",
+      "hook_top": "FOLLOW FOR MORE MYSTERIES",
+      "chips": [],
+      "role": "cta"
+    }
+  ],
+  "description": "The disappearance of Flight MH370 is one of the most significant unsolved aviation mysteries in history, leaving 239 people unaccounted for. Stay tuned for more captivating true crime stories.",
+  "hashtags": [
+    "#FlightMH370",
+    "#AviationMystery",
+    "#TrueCrime",
+    "#Unsolved",
+    "#AirlineMystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

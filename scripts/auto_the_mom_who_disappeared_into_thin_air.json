@@ -1,0 +1,58 @@
+{
+  "title": "The Mom Who Disappeared Into Thin Air",
+  "thumb": "MOM DISAPPEARED MYSTERY",
+  "place": "Cincinnati",
+  "country": "USA",
+  "scenes": [
+    {
+      "text": "In 1985, 23-year-old young mother, Sheila, vanished without a word.",
+      "query": "woman disappearing from home",
+      "query2": "empty house",
+      "hook_top": "YOUNG MOM VANISHED IN 1985",
+      "chips": [],
+      "role": "hook"
+    },
+    {
+      "text": "Witnesses report last seeing her at a local store.",
+      "query": "woman shopping in store",
+      "query2": "shopping ambiance",
+      "hook_top": "LAST SEEN AT A STORE",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Sheila's case has baffled local authorities for decades.",
+      "query": "detectives investigating",
+      "query2": "detectives working",
+      "hook_top": "BAFFLING LOCAL AUTHORITIES",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Despite various leads, Sheila's fate remains a mystery.",
+      "query": "mystery case visual",
+      "query2": "unsolved mystery vibes",
+      "reveal_top": "FATE REMAINS A MYSTERY",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Follow for a new cold case every day.",
+      "query": "encouraging followers",
+      "query2": "engaging call",
+      "hook_top": "FOLLOW FOR MORE UNSOLVED CASES",
+      "chips": [],
+      "role": "cta"
+    }
+  ],
+  "description": "The chilling case of Sheila's disappearance in 1985 continues to haunt Cincinnati. Investigators still hope to uncover the truth behind her sudden vanishing. Keep following for more true crime mysteries.",
+  "hashtags": [
+    "#MissingPerson",
+    "#TrueCrime",
+    "#Unsolved",
+    "#Mystery",
+    "#Cincinnati",
+    "#shorts",
+    "#fyp"
+  ]
+}

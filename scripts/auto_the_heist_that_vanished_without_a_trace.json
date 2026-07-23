@@ -1,0 +1,76 @@
+{
+  "title": "The Heist That Vanished Without a Trace",
+  "thumb": "HEIST VANISHED TRACE",
+  "place": "Brussels",
+  "country": "Belgium",
+  "scenes": [
+    {
+      "text": "In 2005, a daring heist stole €100 million in diamonds.",
+      "query": "dramatic heist footage",
+      "query2": "heist crime scene",
+      "hook_top": "A HEIST WORTH 100 MILLION",
+      "chips": [
+        {
+          "t": "€100 million",
+          "on": "heist",
+          "style": "white"
+        }
+      ],
+      "role": "hook"
+    },
+    {
+      "text": "The robbery took place at the Brussels Airport.",
+      "query": "Brussels Airport dramatic aerial view",
+      "query2": "Brussels Airport at night",
+      "hook_top": "AT THE BRUSSELS AIRPORT",
+      "chips": [
+        {
+          "t": "Brussels Airport",
+          "on": "robbery",
+          "style": "white"
+        }
+      ],
+      "role": "fact"
+    },
+    {
+      "text": "Four thieves executed the heist in under 15 minutes.",
+      "query": "thieves planning the heist",
+      "query2": "criminal planning",
+      "hook_top": "EXECUTED IN UNDER 15 MINUTES",
+      "chips": [
+        {
+          "t": "15 minutes",
+          "on": "executed",
+          "style": "accent"
+        }
+      ],
+      "role": "fact"
+    },
+    {
+      "text": "The case remains unsolved, with the thieves never found.",
+      "query": "mysterious unsolved case imagery",
+      "query2": "mystery investigation",
+      "reveal_top": "NEVER FOUND: UNSOLVED",
+      "chips": [],
+      "role": "fact"
+    },
+    {
+      "text": "Follow for daily true crime mysteries.",
+      "query": "engaging call to action",
+      "query2": "following true crime",
+      "hook_top": "FOLLOW FOR MORE MYSTERIES",
+      "chips": [],
+      "role": "cta"
+    }
+  ],
+  "description": "In 2005, a heist at Brussels Airport made headlines with a staggering €100 million in stolen diamonds, but the culprits vanished without a trace. Join us for more gripping crime stories.",
+  "hashtags": [
+    "#Heist",
+    "#TrueCrime",
+    "#Mystery",
+    "#Unsolved",
+    "#CrimeStory",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -5314,5 +5314,395 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Heist That Vanished Without a Trace",
+    "thumb": "HEIST VANISHED TRACE",
+    "place": "Brussels",
+    "country": "Belgium",
+    "scenes": [
+      {
+        "text": "In 2005, a daring heist stole €100 million in diamonds.",
+        "query": "dramatic heist footage",
+        "query2": "heist crime scene",
+        "hook_top": "A HEIST WORTH 100 MILLION",
+        "chips": [
+          {
+            "t": "€100 million",
+            "on": "heist",
+            "style": "white"
+          }
+        ],
+        "role": "hook"
+      },
+      {
+        "text": "The robbery took place at the Brussels Airport.",
+        "query": "Brussels Airport dramatic aerial view",
+        "query2": "Brussels Airport at night",
+        "hook_top": "AT THE BRUSSELS AIRPORT",
+        "chips": [
+          {
+            "t": "Brussels Airport",
+            "on": "robbery",
+            "style": "white"
+          }
+        ],
+        "role": "fact"
+      },
+      {
+        "text": "Four thieves executed the heist in under 15 minutes.",
+        "query": "thieves planning the heist",
+        "query2": "criminal planning",
+        "hook_top": "EXECUTED IN UNDER 15 MINUTES",
+        "chips": [
+          {
+            "t": "15 minutes",
+            "on": "executed",
+            "style": "accent"
+          }
+        ],
+        "role": "fact"
+      },
+      {
+        "text": "The case remains unsolved, with the thieves never found.",
+        "query": "mysterious unsolved case imagery",
+        "query2": "mystery investigation",
+        "reveal_top": "NEVER FOUND: UNSOLVED",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Follow for daily true crime mysteries.",
+        "query": "engaging call to action",
+        "query2": "following true crime",
+        "hook_top": "FOLLOW FOR MORE MYSTERIES",
+        "chips": [],
+        "role": "cta"
+      }
+    ],
+    "description": "In 2005, a heist at Brussels Airport made headlines with a staggering €100 million in stolen diamonds, but the culprits vanished without a trace. Join us for more gripping crime stories.",
+    "hashtags": [
+      "#Heist",
+      "#TrueCrime",
+      "#Mystery",
+      "#Unsolved",
+      "#CrimeStory",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Mysterious Vanishing of Flight MH370",
+    "thumb": "FLIGHT MH370 MYSTERY",
+    "place": "Indian Ocean",
+    "country": "Various",
+    "scenes": [
+      {
+        "text": "In 2014, Malaysia Airlines Flight MH370 vanished with 239 people on board.",
+        "query": "plane disappearing into the clouds",
+        "query2": "flight footage",
+        "hook_top": "FLIGHT WITH 239 PEOPLE VANISHED",
+        "chips": [
+          {
+            "t": "239 people",
+            "on": "vanished",
+            "style": "white"
+          }
+        ],
+        "role": "hook"
+      },
+      {
+        "text": "Despite extensive searches, wreckage was found only years later.",
+        "query": "search teams in action",
+        "query2": "search for wreckage",
+        "hook_top": "REMAINS FOUND YEARS LATER",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Multiple theories about its disappearance emerged but none confirmed.",
+        "query": "theories visual representation",
+        "query2": "mystery theories",
+        "hook_top": "NUMEROUS THEORIES, NO ANSWERS",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "The fate of Flight MH370 remains one of aviation's biggest mysteries.",
+        "query": "dramatic visual of the Indian Ocean",
+        "query2": "mystery deep ocean",
+        "reveal_top": "AVIONICS MYSTERY UNSOLVED",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Follow if you'd have cracked this one.",
+        "query": "call to action for followers",
+        "query2": "engaging call",
+        "hook_top": "FOLLOW FOR MORE MYSTERIES",
+        "chips": [],
+        "role": "cta"
+      }
+    ],
+    "description": "The disappearance of Flight MH370 is one of the most significant unsolved aviation mysteries in history, leaving 239 people unaccounted for. Stay tuned for more captivating true crime stories.",
+    "hashtags": [
+      "#FlightMH370",
+      "#AviationMystery",
+      "#TrueCrime",
+      "#Unsolved",
+      "#AirlineMystery",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Mom Who Disappeared Into Thin Air",
+    "thumb": "MOM DISAPPEARED MYSTERY",
+    "place": "Cincinnati",
+    "country": "USA",
+    "scenes": [
+      {
+        "text": "In 1985, 23-year-old young mother, Sheila, vanished without a word.",
+        "query": "woman disappearing from home",
+        "query2": "empty house",
+        "hook_top": "YOUNG MOM VANISHED IN 1985",
+        "chips": [],
+        "role": "hook"
+      },
+      {
+        "text": "Witnesses report last seeing her at a local store.",
+        "query": "woman shopping in store",
+        "query2": "shopping ambiance",
+        "hook_top": "LAST SEEN AT A STORE",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Sheila's case has baffled local authorities for decades.",
+        "query": "detectives investigating",
+        "query2": "detectives working",
+        "hook_top": "BAFFLING LOCAL AUTHORITIES",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Despite various leads, Sheila's fate remains a mystery.",
+        "query": "mystery case visual",
+        "query2": "unsolved mystery vibes",
+        "reveal_top": "FATE REMAINS A MYSTERY",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Follow for a new cold case every day.",
+        "query": "encouraging followers",
+        "query2": "engaging call",
+        "hook_top": "FOLLOW FOR MORE UNSOLVED CASES",
+        "chips": [],
+        "role": "cta"
+      }
+    ],
+    "description": "The chilling case of Sheila's disappearance in 1985 continues to haunt Cincinnati. Investigators still hope to uncover the truth behind her sudden vanishing. Keep following for more true crime mysteries.",
+    "hashtags": [
+      "#MissingPerson",
+      "#TrueCrime",
+      "#Unsolved",
+      "#Mystery",
+      "#Cincinnati",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Infamous Burglary of the Isabella Stewart Gardner Museum",
+    "thumb": "MUSEUM HEIST MYSTERY",
+    "place": "Boston",
+    "country": "USA",
+    "scenes": [
+      {
+        "text": "In 1990, two thieves stole artwork worth $500 million from a museum.",
+        "query": "museum theft reenactment",
+        "query2": "museum heist",
+        "hook_top": "HEIST WORTH 500 MILLION",
+        "chips": [
+          {
+            "t": "$500 million",
+            "on": "stole",
+            "style": "white"
+          }
+        ],
+        "role": "hook"
+      },
+      {
+        "text": "The stolen pieces include works by Vermeer and Rembrandt.",
+        "query": "famous artworks display",
+        "query2": "famous paintings",
+        "hook_top": "STOLEN WORKS BY LEGENDS",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "The case remains unsolved despite extensive investigations.",
+        "query": "detectives exploring museum",
+        "query2": "investigation",
+        "hook_top": "EXTENSIVE INVESTIGATIONS FAILED",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "The whereabouts of the artworks remain a mystery.",
+        "query": "empty gallery scene",
+        "query2": "pieces missing gallery",
+        "reveal_top": "ARTWORKS REMAIN MISSING",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Follow for daily true crime mysteries.",
+        "query": "call to action for followers",
+        "query2": "engaging call",
+        "hook_top": "FOLLOW FOR MORE HEIST MYSTERIES",
+        "chips": [],
+        "role": "cta"
+      }
+    ],
+    "description": "The Isabella Stewart Gardner Museum heist stands as one of the most infamous thefts in art history, with $500 million worth of masterpieces lost to time. Join us for more true crime tales.",
+    "hashtags": [
+      "#ArtHeist",
+      "#TrueCrime",
+      "#Unsolved",
+      "#MuseumMystery",
+      "#Boston",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Great Train Robbery That Shook the Nation",
+    "thumb": "TRAIN ROBBERY SHOCK",
+    "place": "England",
+    "country": "UK",
+    "scenes": [
+      {
+        "text": "In 1963, robbers stole £2.6 million from a Royal Mail train.",
+        "query": "dramatic train robbery",
+        "query2": "train in action",
+        "hook_top": "26 MILLION TRAIN ROBBERY",
+        "chips": [
+          {
+            "t": "£2.6 million",
+            "on": "stole",
+            "style": "white"
+          }
+        ],
+        "role": "hook"
+      },
+      {
+        "text": "The gang used a fake signal to stop the train.",
+        "query": "train signal scene",
+        "query2": "train robbery planning",
+        "hook_top": "FAKE SIGNAL TRICKERY",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Despite many arrests, only a fraction of the money was recovered.",
+        "query": "detectives working on recovery",
+        "query2": "investigation process",
+        "hook_top": "NEARLY ALL MONEY LOST",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "This heist remains one of the most daring in history.",
+        "query": "historical images of train robbery",
+        "query2": "historical reenactment",
+        "reveal_top": "DAUNTING HEIST LEGACY",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Follow if you'd have cracked this one.",
+        "query": "call to action for followers",
+        "query2": "engagement",
+        "hook_top": "FOLLOW FOR MORE HEIST TALES",
+        "chips": [],
+        "role": "cta"
+      }
+    ],
+    "description": "The Great Train Robbery of 1963 became legendary, with £2.6 million stolen through a cunning plot. Discover more about notorious heists as we delve into the world of true crime.",
+    "hashtags": [
+      "#TrainRobbery",
+      "#TrueCrime",
+      "#LegendaryHeists",
+      "#Unsolved",
+      "#History",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Unmasking the Case of the Zodiac Killer",
+    "thumb": "ZODIAC KILLER MYSTERY",
+    "place": "San Francisco",
+    "country": "USA",
+    "scenes": [
+      {
+        "text": "Between 1968 and 1969, the Zodiac Killer claimed five victims.",
+        "query": "graphic of Zodiac Killer inquiries",
+        "query2": "murder investigation visuals",
+        "hook_top": "5 VICTIMS IN 19681969",
+        "chips": [
+          {
+            "t": "5 victims",
+            "on": "claimed",
+            "style": "white"
+          }
+        ],
+        "role": "hook"
+      },
+      {
+        "text": "The killer taunted police with cryptic letters.",
+        "query": "letters from Zodiac Killer",
+        "query2": "police investigation",
+        "hook_top": "TAUNTED POLICE WITH LETTERS",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Numerous suspects emerged, but no one was ever convicted.",
+        "query": "detectives with possible suspects",
+        "query2": "investigation footage",
+        "hook_top": "NO CONVICTIONS, ONLY SUSPECTS",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "The Zodiac Killer's identity remains a mystery today.",
+        "query": "mystery of the Zodiac Killer",
+        "query2": "unsolved crime mystery",
+        "reveal_top": "IDENTITY STILL UNKNOWN",
+        "chips": [],
+        "role": "fact"
+      },
+      {
+        "text": "Follow for a new cold case every day.",
+        "query": "engaging call to action",
+        "query2": "getting followers involved",
+        "hook_top": "FOLLOW FOR MORE MYSTERIES",
+        "chips": [],
+        "role": "cta"
+      }
+    ],
+    "description": "The Zodiac Killer remains one of America's most infamous unsolved cases. With five known victims and a history of taunting police, this mystery captivates true crime enthusiasts. Stay tuned.",
+    "hashtags": [
+      "#ZodiacKiller",
+      "#TrueCrime",
+      "#Unsolved",
+      "#Mystery",
+      "#SanFrancisco",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
