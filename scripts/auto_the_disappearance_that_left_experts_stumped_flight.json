@@ -1,0 +1,53 @@
+{
+  "title": "The Disappearance That Left Experts Stumped: Flight 19",
+  "thumb": "FLIGHT 19 MYSTERY",
+  "place": "Bermuda Triangle",
+  "country": "USA",
+  "scenes": [
+    {
+      "text": "In 1945, five Navy planes mysteriously vanished during a training flight.",
+      "query": "searching military planes",
+      "query2": "naval exercises",
+      "role": "hook",
+      "hook_top": "IN 1945 FIVE NAVY PLANES MYSTERIOUSLY"
+    },
+    {
+      "text": "Despite extensive search efforts, no wreckage was ever found.",
+      "query": "search and rescue mission",
+      "query2": "aerial search",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "The incident sparked theories ranging from navigation errors to supernatural events.",
+      "query": "theories about disappearances",
+      "query2": "debunking myths",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "MYSTERY STILL UNSOLVED",
+      "reveal_top": "FLIGHT MYSTERY UNSOLVED",
+      "query": "mystery exploration",
+      "query2": "investigative journalism",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for the cases that were never solved.",
+      "query": "audience engagement",
+      "query2": "curious viewers",
+      "role": "cta"
+    }
+  ],
+  "description": "Flight 19's vanishing has baffled experts for decades, leading to countless theories but no concrete answers. Stay tuned for more intriguing cases!",
+  "hashtags": [
+    "#Flight19",
+    "#BermudaTriangle",
+    "#UnsolvedMysteries",
+    "#Shorts",
+    "#TrueCrime",
+    "#AviationHistory",
+    "#Disappearance"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "The Heist That Changed Everything: The Banco Central Robbery",
+  "thumb": "HEIST OF A LIFETIME",
+  "place": "Fortaleza",
+  "country": "Brazil",
+  "scenes": [
+    {
+      "text": "In 2005, a heist stole $70 million from a bank.",
+      "query": "dramatic bank heist",
+      "query2": "bank robbery visualization",
+      "role": "hook",
+      "hook_top": "IN 2005 A HEIST STOLE 70"
+    },
+    {
+      "text": "Thieves dug a tunnel of over 78 meters to access the vault.",
+      "chips": [
+        {
+          "t": "78 METERS",
+          "on": "thieves",
+          "style": "white"
+        }
+      ],
+      "query": "tunnel diggers working",
+      "query2": "construction efforts",
+      "role": "fact"
+    },
+    {
+      "text": "Despite numerous arrests, the majority of the stolen money remains missing.",
+      "query": "police investigations",
+      "query2": "detectives at work",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "THE MONEY IS STILL MISSING",
+      "reveal_top": "MONEY STILL MISSING",
+      "query": "unaccounted cash",
+      "query2": "financial mysteries",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for a new cold case every day.",
+      "query": "engaged audience",
+      "query2": "happy viewers",
+      "role": "cta"
+    }
+  ],
+  "description": "In what was one of the biggest bank robberies in history, thieves executed a meticulous plan that resulted in the theft of millions. Don't miss out on more incredible stories!",
+  "hashtags": [
+    "#TrueCrime",
+    "#Heist",
+    "#BancoCentral",
+    "#Shorts",
+    "#FamousCases",
+    "#Brazil",
+    "#CrimeHistory",
+    "#Mystery"
+  ]
+}

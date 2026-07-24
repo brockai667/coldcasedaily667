@@ -5947,5 +5947,185 @@
       "#fyp",
       "#heist"
     ]
+  },
+  {
+    "title": "The Bank Heist That Shocked America",
+    "thumb": "SHOCKING BANK HEIST",
+    "place": "Carmen Street, North Hollywood",
+    "country": "United States",
+    "scenes": [
+      {
+        "text": "In 1997, two heavily armed men attempted to rob a bank in North Hollywood.",
+        "hook_top": "1997 HEAVILY ARMED BANK ROBBERY",
+        "query": "intense bank heist preparation",
+        "query2": "dramatic heist footage",
+        "role": "hook"
+      },
+      {
+        "text": "This robbery involved an astonishing $9 million in cash and valuables.",
+        "chips": [
+          {
+            "t": "$9 million",
+            "on": "dollar amount",
+            "style": "accent"
+          }
+        ],
+        "query": "close-up of bags filled with cash",
+        "query2": "money and valuables",
+        "role": "fact"
+      },
+      {
+        "text": "It turned into a 44-minute gun battle with LAPD, one of the longest in U.S. history.",
+        "chips": [
+          {
+            "t": "44 minutes",
+            "on": "gun battle duration",
+            "style": "white"
+          }
+        ],
+        "query": "chaotic police shootout",
+        "query2": "intense police confrontation",
+        "role": "fact"
+      },
+      {
+        "text": "The twist? The robbers were eventually killed, but the stolen money was never recovered.",
+        "reveal_top": "STOLEN MONEY NEVER RECOVERED",
+        "query": "dramatic aftermath of a heist",
+        "query2": "investigation aftermath",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for the cases that were never solved.",
+        "query": "call to action for viewers",
+        "query2": "encouragement to follow",
+        "role": "cta"
+      }
+    ],
+    "description": "In 1997, a dramatic bank heist in North Hollywood unfolded into one of the longest gun battles in U.S. history. Discover what happened next! #shorts #truecrime #heist #bankrobbery #unsolvedmysteries #fyp",
+    "hashtags": [
+      "#truecrime",
+      "#heist",
+      "#bankrobbery",
+      "#mystery",
+      "#unsolved",
+      "#shorts"
+    ]
+  },
+  {
+    "title": "The Vanishing of the Hope Diamond",
+    "thumb": "HOPE DIAMOND MYSTERY",
+    "place": "Smithsonian Institution, Washington D.C.",
+    "country": "United States",
+    "scenes": [
+      {
+        "text": "In 1958, the infamous Hope Diamond went missing from the Smithsonian.",
+        "hook_top": "1958 HOPE DIAMOND MYSTERY",
+        "query": "still image of the Hope Diamond",
+        "query2": "historical jewelry footage",
+        "role": "hook"
+      },
+      {
+        "text": "This 45.52-carat blue diamond has a legend of bringing misfortune to its owners.",
+        "chips": [
+          {
+            "t": "45.52 carats",
+            "on": "diamond size",
+            "style": "white"
+          }
+        ],
+        "query": "beautiful visuals of diamonds",
+        "query2": "sparkling jewelry close-ups",
+        "role": "fact"
+      },
+      {
+        "text": "Despite investigations, its disappearance remains one of the greatest mysteries.",
+        "query": "mysterious investigation footage",
+        "query2": "unexplained events",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "The surprising twist? The diamond was later found to be stolen by an insider.",
+        "reveal_top": "INSIDER STOLEN DIAMOND TWIST",
+        "query": "insider theft portrayal",
+        "query2": "investigation outcomes",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow because some cases still need answers.",
+        "query": "call to action for viewers",
+        "query2": "encouragement to follow",
+        "role": "cta"
+      }
+    ],
+    "description": "The Hope Diamond's mysterious disappearance in 1958 raised many questions and suspicions. Explore its legendary allure and the case that remains unsolved! #shorts #truecrime #heist #mystery #unsolved #fyp",
+    "hashtags": [
+      "#truecrime",
+      "#diamondmystery",
+      "#heist",
+      "#unsolved",
+      "#mystery",
+      "#shorts"
+    ]
+  },
+  {
+    "title": "The Unsolved Mystery of the Zodiac Killer",
+    "thumb": "ZODIAC KILLER CASE",
+    "place": "San Francisco, California",
+    "country": "United States",
+    "scenes": [
+      {
+        "text": "Between 1968 and 1969, a serial killer known as the Zodiac struck terror in California.",
+        "hook_top": "1968 ZODIAC KILLER TERROR",
+        "query": "vintage 1960s San Francisco",
+        "query2": "historical footage of cities",
+        "role": "hook"
+      },
+      {
+        "text": "The Zodiac sent taunting letters to the press, boasting about his crimes.",
+        "chips": [
+          {
+            "t": "multiple letters",
+            "on": "communication",
+            "style": "accent"
+          }
+        ],
+        "query": "dramatic letter reading",
+        "query2": "crime scene discussions",
+        "role": "fact"
+      },
+      {
+        "text": "Over 50 years later, the case remains open and unsolved.",
+        "query": "empty cold case files",
+        "query2": "unsolved case imagery",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "The surprising twist? The identity of the Zodiac Killer is still unknown.",
+        "reveal_top": "IDENTITY REMAINS A MYSTERY",
+        "query": "search for the killer",
+        "query2": "detective work",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for daily true crime mysteries.",
+        "query": "call to action for viewers",
+        "query2": "call for subscriptions",
+        "role": "cta"
+      }
+    ],
+    "description": "The Zodiac Killer terrifies San Francisco in the late 1960s, leaving behind a legacy of unanswered questions. Can we still find him? #shorts #truecrime #coldcase #ZodiacKiller #mystery #fyp",
+    "hashtags": [
+      "#truecrime",
+      "#unsolved",
+      "#ZodiacKiller",
+      "#coldcase",
+      "#mystery",
+      "#shorts"
+    ]
   }
 ]

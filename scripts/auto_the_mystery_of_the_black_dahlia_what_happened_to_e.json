@@ -1,0 +1,58 @@
+{
+  "title": "The Mystery of the Black Dahlia: What Happened to Elizabeth Short?",
+  "thumb": "MYSTERY OF THE DAHLIA",
+  "place": "Los Angeles",
+  "country": "USA",
+  "scenes": [
+    {
+      "text": "In 1947, Elizabeth Short's body was found, igniting a media frenzy.",
+      "hook_top": "1947 BODY FOUND IN LA",
+      "query": "news archive footage of 1940s Los Angeles",
+      "query2": "historical clips of Los Angeles",
+      "chips": [
+        {
+          "t": "1947",
+          "on": "body found",
+          "style": "accent"
+        }
+      ],
+      "role": "hook"
+    },
+    {
+      "text": "Short was known for wearing black and nicknamed 'The Black Dahlia'.",
+      "archive_query": "https://commons.wikimedia.org/wiki/File:Elizabeth_Short.jpg",
+      "archive_label": "Elizabeth Short, 1940s",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "The case remains one of the most notorious unsolved murders.",
+      "label": "Fascinating Cold Case",
+      "sub": "Still Unsolved After Decades",
+      "label_on": "unsolved case",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "Follow for a new cold case every day.",
+      "ct": "Join our exploration of unsolved cases.",
+      "role": "cta",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The mystery surrounding Elizabeth Short and her tragic fate continues to captivate the public. Explore the details of this iconic unsolved case in today's deep dive.",
+  "hashtags": [
+    "#BlackDahlia",
+    "#TrueCrime",
+    "#UnsolvedMystery",
+    "#LosAngeles",
+    "#CrimeDocumentary",
+    "#shorts",
+    "#fyp"
+  ]
+}
