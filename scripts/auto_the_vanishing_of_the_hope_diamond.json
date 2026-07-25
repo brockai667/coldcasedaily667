@@ -1,0 +1,58 @@
+{
+  "title": "The Vanishing of the Hope Diamond",
+  "thumb": "HOPE DIAMOND MYSTERY",
+  "place": "Smithsonian Institution, Washington D.C.",
+  "country": "United States",
+  "scenes": [
+    {
+      "text": "In 1958, the infamous Hope Diamond went missing from the Smithsonian.",
+      "hook_top": "1958 HOPE DIAMOND MYSTERY",
+      "query": "still image of the Hope Diamond",
+      "query2": "historical jewelry footage",
+      "role": "hook"
+    },
+    {
+      "text": "This 45.52-carat blue diamond has a legend of bringing misfortune to its owners.",
+      "chips": [
+        {
+          "t": "45.52 carats",
+          "on": "diamond size",
+          "style": "white"
+        }
+      ],
+      "query": "beautiful visuals of diamonds",
+      "query2": "sparkling jewelry close-ups",
+      "role": "fact"
+    },
+    {
+      "text": "Despite investigations, its disappearance remains one of the greatest mysteries.",
+      "query": "mysterious investigation footage",
+      "query2": "unexplained events",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "The surprising twist? The diamond was later found to be stolen by an insider.",
+      "reveal_top": "INSIDER STOLEN DIAMOND TWIST",
+      "query": "insider theft portrayal",
+      "query2": "investigation outcomes",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow because some cases still need answers.",
+      "query": "call to action for viewers",
+      "query2": "encouragement to follow",
+      "role": "cta"
+    }
+  ],
+  "description": "The Hope Diamond's mysterious disappearance in 1958 raised many questions and suspicions. Explore its legendary allure and the case that remains unsolved! #shorts #truecrime #heist #mystery #unsolved #fyp",
+  "hashtags": [
+    "#truecrime",
+    "#diamondmystery",
+    "#heist",
+    "#unsolved",
+    "#mystery",
+    "#shorts"
+  ]
+}

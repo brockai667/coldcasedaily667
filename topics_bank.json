@@ -6127,5 +6127,212 @@
       "#mystery",
       "#shorts"
     ]
+  },
+  {
+    "title": "The Vanishing of the Sodder Children: A Family Mystery",
+    "thumb": "SODDER KIDS MYSTERY",
+    "place": "Fayetteville",
+    "country": "United States",
+    "scenes": [
+      {
+        "text": "Five siblings disappeared on Christmas night in 1945.",
+        "hook_top": "MISSING KIDS CHRISTMAS",
+        "query": "family home fire scene",
+        "query2": "vintage Christmas evening",
+        "role": "hook"
+      },
+      {
+        "text": "Fayetteville, West Virginia: where it all began.",
+        "map": "Fayetteville, West Virginia",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "Despite extensive searches, they were never found.",
+        "fact": {
+          "t": "NEVER FOUND",
+          "on": "case",
+          "style": "white"
+        },
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "Wikimedia Commons: 'Sodder family home'",
+        "archive_query": "Sodder family home fire",
+        "archive_label": "Sodder Family Home",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "UNSOLVED MYSTERY!",
+        "label": "An Open Case",
+        "sub": "What truly happened?",
+        "label_on": "disappearance",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "Follow for daily true crime mysteries.",
+        "cta": "Join us for more stories!",
+        "role": "cta",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "On Christmas Eve 1945, five children vanished after a fire destroyed their home, leaving their family's story shrouded in mystery. Uncover the details of this compelling case!",
+    "hashtags": [
+      "#truecrime",
+      "#missingchildren",
+      "#mystery",
+      "#WestVirginia",
+      "#history",
+      "#shorts",
+      "#fyp",
+      "#sodderchildren"
+    ]
+  },
+  {
+    "title": "The Enigma of the Mary Celeste: Ghost Ship or Mystery?",
+    "thumb": "GHOST SHIP MYSTERY",
+    "place": "Atlantic Ocean",
+    "country": "International Waters",
+    "scenes": [
+      {
+        "text": "A ship was found abandoned in 1872.",
+        "hook_top": "ABANDONED SHIP FOUND",
+        "query": "mysterious ship at sea",
+        "query2": "ocean mystery scene",
+        "role": "hook"
+      },
+      {
+        "text": "The Atlantic Ocean: where the Mary Celeste was discovered.",
+        "map": "Atlantic Ocean",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "The ship had an intact cargo and no crew.",
+        "fact": {
+          "t": "INTACT CARGO",
+          "on": "ship",
+          "style": "white"
+        },
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "Wikimedia Commons: 'Mary Celeste'",
+        "archive_query": "Mary Celeste ship",
+        "archive_label": "Mary Celeste, 1872",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "MYSTERIOUS ABANDONMENT!",
+        "label": "Lost at Sea",
+        "sub": "What happened to the crew?",
+        "label_on": "mystery",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "Follow for daily true crime mysteries.",
+        "cta": "Stay tuned for more stories!",
+        "role": "cta",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Mary Celeste was found adrift in 1872 with no crew aboard. Explore the theories surrounding this legendary ship and its mysterious fate!",
+    "hashtags": [
+      "#truecrime",
+      "#ghostship",
+      "#maritimehistory",
+      "#mystery",
+      "#ocean",
+      "#shorts",
+      "#fyp",
+      "#maryceleste"
+    ]
+  },
+  {
+    "title": "The Great Museum Heist: Art Stolen",
+    "thumb": "ART HEIST REVEALED",
+    "place": "Boston",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "500 MILLION ART STOLEN",
+        "query": "museum exterior at night",
+        "query2": "crowd outside a museum",
+        "role": "hook",
+        "text": "Thieves stole $500 million in art."
+      },
+      {
+        "chips": [
+          {
+            "t": "1990 HEIST",
+            "on": "heist",
+            "style": "white"
+          }
+        ],
+        "query": "alarm systems and security",
+        "query2": "investigators analyzing art",
+        "role": "fact",
+        "text": "This heist happened in 1990."
+      },
+      {
+        "chips": [
+          {
+            "t": "33 PIECES TAKEN",
+            "on": "pieces",
+            "style": "accent"
+          }
+        ],
+        "query": "art pieces in museum",
+        "query2": "gallery installation",
+        "role": "fact",
+        "text": "33 pieces of art were taken."
+      },
+      {
+        "reveal_top": "ART STILL MISSING",
+        "query": "detectives searching archives",
+        "query2": "police investigations",
+        "role": "reveal",
+        "text": "None of the art has been recovered."
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "In 1990, an iconic heist at the Isabella Stewart Gardner Museum resulted in $500 million in stolen art, with none of it recovered to this day. Join us to revisit this infamous crime. #TrueCrime #ArtHeist",
+    "hashtags": [
+      "#TrueCrime",
+      "#ArtHeist",
+      "#Shorts",
+      "#FYP",
+      "#MuseumMystery",
+      "#Theft"
+    ]
   }
 ]

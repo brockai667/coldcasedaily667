@@ -1,0 +1,72 @@
+{
+  "title": "The Mysterious Heist of the Century",
+  "thumb": "MYSTERIOUS HEIST",
+  "place": "Boston",
+  "country": "USA",
+  "scenes": [
+    {
+      "text": "A notorious art theft that remains unsolved.",
+      "hook_top": "NOTORIOUS ART THEFT",
+      "query": "vintage art theft documentary",
+      "query2": "art heist cinematic",
+      "role": "hook"
+    },
+    {
+      "text": "It took place at the Isabella Stewart Gardner Museum.",
+      "map": "Boston, USA",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "Thieves made off with approximately $500 million in art.",
+      "chips": [
+        {
+          "t": "$500 MILLION",
+          "on": "made off",
+          "style": "white"
+        }
+      ],
+      "punch": "art",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "text": "Wikimedia Commons search: 'Isabella Stewart Gardner Museum'.",
+      "archive_query": "Isabella Stewart Gardner Museum",
+      "archive_label": "Museum Interior",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "The largest private property theft in history.",
+      "label": "HISTORY'S BIGGEST THEFT",
+      "sub": "An art heist like no other.",
+      "label_on": "theft",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "Follow for the cases that were never solved.",
+      "cta": "Stay tuned for more!",
+      "role": "cta",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "Explore the details of a heist where masterpieces vanished without a trace. Don't miss our other captivating stories.",
+  "hashtags": [
+    "#truecrime",
+    "#arttheft",
+    "#mystery",
+    "#shorts",
+    "#fyp",
+    "#heist"
+  ]
+}

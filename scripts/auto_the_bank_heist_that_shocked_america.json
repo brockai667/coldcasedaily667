@@ -1,0 +1,64 @@
+{
+  "title": "The Bank Heist That Shocked America",
+  "thumb": "SHOCKING BANK HEIST",
+  "place": "Carmen Street, North Hollywood",
+  "country": "United States",
+  "scenes": [
+    {
+      "text": "In 1997, two heavily armed men attempted to rob a bank in North Hollywood.",
+      "hook_top": "1997 HEAVILY ARMED BANK ROBBERY",
+      "query": "intense bank heist preparation",
+      "query2": "dramatic heist footage",
+      "role": "hook"
+    },
+    {
+      "text": "This robbery involved an astonishing $9 million in cash and valuables.",
+      "chips": [
+        {
+          "t": "$9 million",
+          "on": "dollar amount",
+          "style": "accent"
+        }
+      ],
+      "query": "close-up of bags filled with cash",
+      "query2": "money and valuables",
+      "role": "fact"
+    },
+    {
+      "text": "It turned into a 44-minute gun battle with LAPD, one of the longest in U.S. history.",
+      "chips": [
+        {
+          "t": "44 minutes",
+          "on": "gun battle duration",
+          "style": "white"
+        }
+      ],
+      "query": "chaotic police shootout",
+      "query2": "intense police confrontation",
+      "role": "fact"
+    },
+    {
+      "text": "The twist? The robbers were eventually killed, but the stolen money was never recovered.",
+      "reveal_top": "STOLEN MONEY NEVER RECOVERED",
+      "query": "dramatic aftermath of a heist",
+      "query2": "investigation aftermath",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for the cases that were never solved.",
+      "query": "call to action for viewers",
+      "query2": "encouragement to follow",
+      "role": "cta"
+    }
+  ],
+  "description": "In 1997, a dramatic bank heist in North Hollywood unfolded into one of the longest gun battles in U.S. history. Discover what happened next! #shorts #truecrime #heist #bankrobbery #unsolvedmysteries #fyp",
+  "hashtags": [
+    "#truecrime",
+    "#heist",
+    "#bankrobbery",
+    "#mystery",
+    "#unsolved",
+    "#shorts"
+  ]
+}
