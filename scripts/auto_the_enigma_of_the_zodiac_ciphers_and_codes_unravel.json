@@ -1,0 +1,64 @@
+{
+  "title": "The Enigma of the Zodiac: Ciphers and Codes Unraveled",
+  "thumb": "ZODIAC MYSTERY",
+  "place": "San Francisco",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "ZODIAC CIPHER MYSTERY",
+      "query": "Zodiac Killer ciphers",
+      "query2": "unsolved codes",
+      "role": "hook",
+      "text": "Can the Zodiac Killer's ciphers be solved?"
+    },
+    {
+      "chips": [
+        {
+          "t": "4 CIPHERS",
+          "on": "the number",
+          "style": "white"
+        }
+      ],
+      "query": "Zodiac Killer ciphers history",
+      "query2": "newspaper ciphers",
+      "role": "fact",
+      "text": "The Zodiac sent 4 distinct ciphers to newspapers."
+    },
+    {
+      "chips": [
+        {
+          "t": "51 YEARS",
+          "on": "the unsolved duration",
+          "style": "accent"
+        }
+      ],
+      "query": "unsolved Zodiac cipher",
+      "query2": "Zodiac code mysteries",
+      "role": "fact",
+      "text": "One cipher remained unsolved for 51 years."
+    },
+    {
+      "reveal_top": "TRUTH ON THE HORIZON",
+      "query": "Zodiac Killer updates",
+      "query2": "Zodiac Killer theories",
+      "role": "reveal",
+      "text": "New breakthroughs may finally reveal the truth."
+    },
+    {
+      "query": "Zodiac Killer news",
+      "query2": "follow Zodiac mysteries",
+      "role": "cta",
+      "text": "Follow for the cases that were never solved."
+    }
+  ],
+  "description": "The Zodiac Killer left behind ciphers that captivated investigators for decades. With new breakthroughs potentially unraveling the mystery, the truth is inching closer. Follow for updates!",
+  "hashtags": [
+    "#ZodiacKiller",
+    "#ciphers",
+    "#mystery",
+    "#unsolved",
+    "#truecrime",
+    "#shorts",
+    "#fyp"
+  ]
+}

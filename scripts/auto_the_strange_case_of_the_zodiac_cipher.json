@@ -1,0 +1,58 @@
+{
+  "title": "The Strange Case of the Zodiac Cipher",
+  "thumb": "ZODIAC CIPHER MYSTERY",
+  "place": "San Francisco, California",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "ZODIAC MYSTERY ENDURES",
+      "query": "dramatic true crime visuals",
+      "query2": "enigmatic symbols",
+      "fact": "The Zodiac Killer sent 4 confirmed letters.",
+      "chips": [
+        {
+          "t": "4 CONFIRMED LETTERS",
+          "on": "confirmed",
+          "style": "white"
+        },
+        {
+          "t": "50+ YEARS UNSOLVED",
+          "on": "unidentified",
+          "style": "accent"
+        }
+      ],
+      "punch": "mystery",
+      "role": "hook",
+      "text": "More than 50 years later, the Zodiac remains unidentified."
+    },
+    {
+      "archive_query": "Zodiac Killer Cipher",
+      "archive_label": "Zodiac Cipher",
+      "role": "archive",
+      "text": "Zodiac Cipher Wikimedia Commons"
+    },
+    {
+      "sub": "A chilling enigma still captivates.",
+      "label_on": "unresolved",
+      "role": "callout",
+      "text": "THE ZODIAC REMAINS UNSOLVED",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Zodiac Killer left behind ciphers, many of which remain unsolved after decades. Explore this enigmatic case that continues to haunt investigators. Follow for more intriguing stories.",
+  "hashtags": [
+    "#ZodiacKiller",
+    "#TrueCrime",
+    "#Mystery",
+    "#Unsolved",
+    "#Shorts",
+    "#FYP"
+  ]
+}

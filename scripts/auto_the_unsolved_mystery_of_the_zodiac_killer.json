@@ -1,0 +1,58 @@
+{
+  "title": "The Unsolved Mystery of the Zodiac Killer",
+  "thumb": "ZODIAC KILLER CASE",
+  "place": "San Francisco, California",
+  "country": "United States",
+  "scenes": [
+    {
+      "text": "Between 1968 and 1969, a serial killer known as the Zodiac struck terror in California.",
+      "hook_top": "1968 ZODIAC KILLER TERROR",
+      "query": "vintage 1960s San Francisco",
+      "query2": "historical footage of cities",
+      "role": "hook"
+    },
+    {
+      "text": "The Zodiac sent taunting letters to the press, boasting about his crimes.",
+      "chips": [
+        {
+          "t": "multiple letters",
+          "on": "communication",
+          "style": "accent"
+        }
+      ],
+      "query": "dramatic letter reading",
+      "query2": "crime scene discussions",
+      "role": "fact"
+    },
+    {
+      "text": "Over 50 years later, the case remains open and unsolved.",
+      "query": "empty cold case files",
+      "query2": "unsolved case imagery",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "The surprising twist? The identity of the Zodiac Killer is still unknown.",
+      "reveal_top": "IDENTITY REMAINS A MYSTERY",
+      "query": "search for the killer",
+      "query2": "detective work",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for daily true crime mysteries.",
+      "query": "call to action for viewers",
+      "query2": "call for subscriptions",
+      "role": "cta"
+    }
+  ],
+  "description": "The Zodiac Killer terrifies San Francisco in the late 1960s, leaving behind a legacy of unanswered questions. Can we still find him? #shorts #truecrime #coldcase #ZodiacKiller #mystery #fyp",
+  "hashtags": [
+    "#truecrime",
+    "#unsolved",
+    "#ZodiacKiller",
+    "#coldcase",
+    "#mystery",
+    "#shorts"
+  ]
+}
