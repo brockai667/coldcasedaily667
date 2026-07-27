@@ -1,0 +1,72 @@
+{
+  "title": "The Enigma of the Mary Celeste: Ghost Ship or Mystery?",
+  "thumb": "GHOST SHIP MYSTERY",
+  "place": "Atlantic Ocean",
+  "country": "International Waters",
+  "scenes": [
+    {
+      "text": "A ship was found abandoned in 1872.",
+      "hook_top": "ABANDONED SHIP FOUND",
+      "query": "mysterious ship at sea",
+      "query2": "ocean mystery scene",
+      "role": "hook"
+    },
+    {
+      "text": "The Atlantic Ocean: where the Mary Celeste was discovered.",
+      "map": "Atlantic Ocean",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "The ship had an intact cargo and no crew.",
+      "fact": {
+        "t": "INTACT CARGO",
+        "on": "ship",
+        "style": "white"
+      },
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "Wikimedia Commons: 'Mary Celeste'",
+      "archive_query": "Mary Celeste ship",
+      "archive_label": "Mary Celeste, 1872",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "MYSTERIOUS ABANDONMENT!",
+      "label": "Lost at Sea",
+      "sub": "What happened to the crew?",
+      "label_on": "mystery",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "Follow for daily true crime mysteries.",
+      "cta": "Stay tuned for more stories!",
+      "role": "cta",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Mary Celeste was found adrift in 1872 with no crew aboard. Explore the theories surrounding this legendary ship and its mysterious fate!",
+  "hashtags": [
+    "#truecrime",
+    "#ghostship",
+    "#maritimehistory",
+    "#mystery",
+    "#ocean",
+    "#shorts",
+    "#fyp",
+    "#maryceleste"
+  ]
+}

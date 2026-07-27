@@ -1,0 +1,63 @@
+{
+  "title": "The Great Museum Heist: Art Stolen",
+  "thumb": "ART HEIST REVEALED",
+  "place": "Boston",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "500 MILLION ART STOLEN",
+      "query": "museum exterior at night",
+      "query2": "crowd outside a museum",
+      "role": "hook",
+      "text": "Thieves stole $500 million in art."
+    },
+    {
+      "chips": [
+        {
+          "t": "1990 HEIST",
+          "on": "heist",
+          "style": "white"
+        }
+      ],
+      "query": "alarm systems and security",
+      "query2": "investigators analyzing art",
+      "role": "fact",
+      "text": "This heist happened in 1990."
+    },
+    {
+      "chips": [
+        {
+          "t": "33 PIECES TAKEN",
+          "on": "pieces",
+          "style": "accent"
+        }
+      ],
+      "query": "art pieces in museum",
+      "query2": "gallery installation",
+      "role": "fact",
+      "text": "33 pieces of art were taken."
+    },
+    {
+      "reveal_top": "ART STILL MISSING",
+      "query": "detectives searching archives",
+      "query2": "police investigations",
+      "role": "reveal",
+      "text": "None of the art has been recovered."
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "In 1990, an iconic heist at the Isabella Stewart Gardner Museum resulted in $500 million in stolen art, with none of it recovered to this day. Join us to revisit this infamous crime. #TrueCrime #ArtHeist",
+  "hashtags": [
+    "#TrueCrime",
+    "#ArtHeist",
+    "#Shorts",
+    "#FYP",
+    "#MuseumMystery",
+    "#Theft"
+  ]
+}

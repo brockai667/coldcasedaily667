@@ -1,0 +1,72 @@
+{
+  "title": "The Vanishing of the Sodder Children: A Family Mystery",
+  "thumb": "SODDER KIDS MYSTERY",
+  "place": "Fayetteville",
+  "country": "United States",
+  "scenes": [
+    {
+      "text": "Five siblings disappeared on Christmas night in 1945.",
+      "hook_top": "MISSING KIDS CHRISTMAS",
+      "query": "family home fire scene",
+      "query2": "vintage Christmas evening",
+      "role": "hook"
+    },
+    {
+      "text": "Fayetteville, West Virginia: where it all began.",
+      "map": "Fayetteville, West Virginia",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "Despite extensive searches, they were never found.",
+      "fact": {
+        "t": "NEVER FOUND",
+        "on": "case",
+        "style": "white"
+      },
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "Wikimedia Commons: 'Sodder family home'",
+      "archive_query": "Sodder family home fire",
+      "archive_label": "Sodder Family Home",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "UNSOLVED MYSTERY!",
+      "label": "An Open Case",
+      "sub": "What truly happened?",
+      "label_on": "disappearance",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "Follow for daily true crime mysteries.",
+      "cta": "Join us for more stories!",
+      "role": "cta",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "On Christmas Eve 1945, five children vanished after a fire destroyed their home, leaving their family's story shrouded in mystery. Uncover the details of this compelling case!",
+  "hashtags": [
+    "#truecrime",
+    "#missingchildren",
+    "#mystery",
+    "#WestVirginia",
+    "#history",
+    "#shorts",
+    "#fyp",
+    "#sodderchildren"
+  ]
+}

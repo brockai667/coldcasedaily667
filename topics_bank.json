@@ -6520,5 +6520,194 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Mysterious Disappearance of the Sodder Children",
+    "thumb": "SODDER CHILDREN MYSTERY",
+    "place": "Fayetteville, West Virginia",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "FIVE CHILDREN VANISHED",
+        "query": "Fayetteville 1945 Christmas Eve fire",
+        "query2": "historical images of Fayetteville fire",
+        "role": "hook",
+        "text": "Five children vanished on Christmas Eve 1945."
+      },
+      {
+        "chips": [
+          {
+            "t": "NO BODIES FOUND",
+            "on": "found",
+            "style": "white"
+          }
+        ],
+        "query": "burned house aftermath historical",
+        "query2": "Fayetteville fire damage",
+        "role": "fact",
+        "text": "The family's home burned to the ground, but no bodies were found."
+      },
+      {
+        "chips": [
+          {
+            "t": "MYSTERIOUS LETTERS",
+            "on": "letters",
+            "style": "accent"
+          }
+        ],
+        "query": "mysterious letters children alive",
+        "query2": "letters from unknown sender",
+        "role": "fact",
+        "text": "The parents received mysterious letters over the years, suggesting the children were alive."
+      },
+      {
+        "reveal_top": "CASE REMAINS UNSOLVED",
+        "query": "unsolved mystery symbols",
+        "query2": "mystery and uncertainty",
+        "role": "reveal",
+        "text": "The case remains unsolved to this day!"
+      },
+      {
+        "query": "mystery documentary teaser",
+        "query2": "engaging documentary clip",
+        "role": "cta",
+        "text": "Follow because some cases still need answers."
+      }
+    ],
+    "description": "The tragic story of the Sodder children haunts many, with no answers in sight. Could they still be alive? Follow us for more intriguing mysteries! ",
+    "hashtags": [
+      "#SodderChildren",
+      "#TrueCrime",
+      "#Mystery",
+      "#Unsolved",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Great Train Robbery of 1963",
+    "thumb": "LEGENDARY TRAIN HEIST",
+    "place": "Buckinghamshire",
+    "country": "UK",
+    "scenes": [
+      {
+        "hook_top": "26 MILLION STOLEN",
+        "query": "1963 Great Train Robbery",
+        "query2": "historical heist footage",
+        "role": "hook",
+        "text": "£2.6 million was stolen in a daring heist!"
+      },
+      {
+        "chips": [
+          {
+            "t": "ROYAL MAIL TRAIN",
+            "on": "train",
+            "style": "white"
+          }
+        ],
+        "query": "train heist operation",
+        "query2": "Royal Mail train delivery",
+        "role": "fact",
+        "text": "Thieves intercepted a Royal Mail train and made off with the cash."
+      },
+      {
+        "chips": [
+          {
+            "t": "FRACTION RECOVERED",
+            "on": "recovered",
+            "style": "accent"
+          }
+        ],
+        "query": "money recovery efforts",
+        "query2": "police investigation",
+        "role": "fact",
+        "text": "Despite the crime's notoriety, only a fraction of the money was recovered."
+      },
+      {
+        "reveal_top": "CULPRITS NEVER CAUGHT",
+        "query": "unsolved heist investigation",
+        "query2": "heist suspects",
+        "role": "reveal",
+        "text": "Many of the culprits were never caught!"
+      },
+      {
+        "query": "crime documentary collection",
+        "query2": "exciting true crime content",
+        "role": "cta",
+        "text": "Follow because some cases still need answers."
+      }
+    ],
+    "description": "A legendary heist that rocked the UK, the Great Train Robbery remains a case of daring and mystery. What truly happened? Follow for more true crime stories! ",
+    "hashtags": [
+      "#GreatTrainRobbery",
+      "#TrueCrime",
+      "#Heist",
+      "#Mysterious",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Disappearance of Flight MH370",
+    "thumb": "FLIGHT MH370 MYSTERY",
+    "place": "Indian Ocean",
+    "country": "Malaysia",
+    "scenes": [
+      {
+        "hook_top": "239 PEOPLE MISSING",
+        "query": "Flight MH370 disappearance",
+        "query2": "airplane crash footage",
+        "role": "hook",
+        "text": "239 people went missing on March 8, 2014."
+      },
+      {
+        "chips": [
+          {
+            "t": "NEVER FULLY FOUND",
+            "on": "found",
+            "style": "white"
+          }
+        ],
+        "query": "search efforts for MH370",
+        "query2": "ocean search operations",
+        "role": "fact",
+        "text": "Despite extensive search efforts, the wreckage has never been fully found."
+      },
+      {
+        "chips": [
+          {
+            "t": "HIJACKING THEORIES",
+            "on": "theories",
+            "style": "accent"
+          }
+        ],
+        "query": "theories surrounding plane crash",
+        "query2": "aviation mystery theories",
+        "role": "fact",
+        "text": "Theories speculate about hijacking or mechanical failure."
+      },
+      {
+        "reveal_top": "HAUNTING MYSTERY REMAINS",
+        "query": "aviation mystery unresolved",
+        "query2": "mystery in aviation",
+        "role": "reveal",
+        "text": "The fate of those on board remains a haunting mystery."
+      },
+      {
+        "query": "true crime airliner mysteries",
+        "query2": "aviation true crime",
+        "role": "cta",
+        "text": "Follow for the cases that were never solved."
+      }
+    ],
+    "description": "The disappearance of Flight MH370 is one of aviation's greatest mysteries, leaving families searching for answers. What really happened? Follow for more unexplained cases!",
+    "hashtags": [
+      "#FlightMH370",
+      "#AviationMystery",
+      "#TrueCrime",
+      "#Unsolved",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
