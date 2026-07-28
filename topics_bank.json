@@ -6458,6 +6458,135 @@
     ]
   },
   {
+    "title": "THE UNSOLVED HEIST AT THE BACK OF A BAR",
+    "thumb": "MILLIONS STOLEN!",
+    "place": "San Francisco",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "SEVENTEEN MILLION STOLEN",
+        "query": "heist San Francisco safe",
+        "query2": "millions stolen heist",
+        "role": "hook",
+        "text": "In 2020, thieves stole $17 million from a safe."
+      },
+      {
+        "chips": [
+          {
+            "t": "UNDERGROUND VAULT",
+            "on": "vault",
+            "style": "white"
+          }
+        ],
+        "punch": "operation",
+        "query": "heist underground vault",
+        "query2": "crime scene investigation",
+        "role": "fact",
+        "text": "The criminals executed the heist in an underground vault."
+      },
+      {
+        "chips": [
+          {
+            "t": "NO SUSPECTS",
+            "on": "suspects",
+            "style": "accent"
+          }
+        ],
+        "punch": "mystery",
+        "query": "security footage crime",
+        "query2": "surveillance footage heist",
+        "role": "fact",
+        "text": "Security footage captured the entire incident, yet no suspects have been identified."
+      },
+      {
+        "reveal_top": "HIGHSTAKES MYSTERY",
+        "query": "unsolved heist mystery",
+        "query2": "heist investigation",
+        "role": "reveal",
+        "text": "This high-stakes crime remains a mystery."
+      },
+      {
+        "query": "call to action true crime",
+        "query2": "engagement true crime",
+        "role": "cta",
+        "text": "Follow because some cases still need answers."
+      }
+    ],
+    "description": "A $17 million heist executed within the depths of San Francisco left law enforcement baffled when no suspects were found. Discover the intriguing details behind this audacious crime. #shorts #truecrime #heist #SanFrancisco #fyp",
+    "hashtags": [
+      "#shorts",
+      "#truecrime",
+      "#heist",
+      "#SanFrancisco",
+      "#criminalinvestigation",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "THE BIZARRE HEIST THAT ROCKED PARIS",
+    "thumb": "PARIS ART HEIST!",
+    "place": "Paris",
+    "country": "France",
+    "scenes": [
+      {
+        "hook_top": "MILLIONDOLLAR PAINTING STOLEN",
+        "query": "Paris art gallery theft",
+        "query2": "art heist details",
+        "role": "hook",
+        "text": "In 2009, a thief stole a $1 million painting from a gallery."
+      },
+      {
+        "chips": [
+          {
+            "t": "BLENDED IN",
+            "on": "exhibition",
+            "style": "white"
+          }
+        ],
+        "punch": "cunning",
+        "query": "art theft method",
+        "query2": "thief disguise",
+        "role": "fact",
+        "text": "The thief entered during an exhibition, blending in perfectly."
+      },
+      {
+        "chips": [
+          {
+            "t": "THIEF UNIDENTIFIED",
+            "on": "thief",
+            "style": "accent"
+          }
+        ],
+        "punch": "case",
+        "query": "investigation art theft",
+        "query2": "art recovery story",
+        "role": "fact",
+        "text": "Despite the painting's recovery two years later, the thief remains unidentified."
+      },
+      {
+        "reveal_top": "IDENTITY STILL A MYSTERY",
+        "query": "unidentified art thief",
+        "query2": "Paris heist case",
+        "role": "reveal",
+        "text": "The criminal's identity remains a mystery."
+      },
+      {
+        "query": "call to action true crime",
+        "query2": "engagement true crime",
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one."
+      }
+    ],
+    "description": "A daring heist at a Paris gallery saw a $1 million painting stolen right under the noses of art lovers, and the thief remains a mystery. Join us to uncover the details! #shorts #Paris #artheist #unsolved #fyp",
+    "hashtags": [
+      "#shorts",
+      "#Paris",
+      "#artheist",
+      "#unsolved",
+      "#fyp"
+    ]
+  },
+  {
     "title": "The $5 Million Art Heist That Shocked Boston",
     "thumb": "ART HEIST SHOCKER",
     "place": "Boston",
@@ -6707,6 +6836,70 @@
       "#TrueCrime",
       "#Unsolved",
       "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "THE LITTLE-KNOWN MYSTERY OF FLIGHT 19",
+    "thumb": "FLIGHT GONE MISSING",
+    "place": "Bermuda Triangle",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "FIVE PLANES DISAPPEARED",
+        "query": "Flight 19 Bermuda Triangle",
+        "query2": "Bermuda Triangle mystery",
+        "role": "hook",
+        "text": "Five planes disappeared over the Bermuda Triangle in 1945."
+      },
+      {
+        "chips": [
+          {
+            "t": "14 CREW MEMBERS",
+            "on": "members",
+            "style": "white"
+          }
+        ],
+        "punch": "crew",
+        "query": "Flight 19 crew",
+        "query2": "aviation training mission",
+        "role": "fact",
+        "text": "The planes were on a training mission with 14 crew members."
+      },
+      {
+        "chips": [
+          {
+            "t": "NO TRACE FOUND",
+            "on": "trace",
+            "style": "accent"
+          }
+        ],
+        "punch": "vanished",
+        "query": "unsolved aviation mystery",
+        "query2": "airplane disappearance",
+        "role": "fact",
+        "text": "Despite extensive searches, no trace of the planes was ever found."
+      },
+      {
+        "reveal_top": "FATE STILL UNKNOWN",
+        "query": "mystery surrounding Flight 19",
+        "query2": "Bermuda Triangle cases",
+        "role": "reveal",
+        "text": "Flight 19's fate remains unknown to this day."
+      },
+      {
+        "query": "call to action true crime",
+        "query2": "engagement true crime",
+        "role": "cta",
+        "text": "Follow for the cases that were never solved."
+      }
+    ],
+    "description": "In 1945, Flight 19's mysterious disappearance in the Bermuda Triangle remains one of aviation’s greatest enigmas. Explore the facts surrounding this unresolved case. #shorts #aviationmystery #Flight19 #BermudaTriangle #fyp",
+    "hashtags": [
+      "#shorts",
+      "#aviationmystery",
+      "#Flight19",
+      "#BermudaTriangle",
       "#fyp"
     ]
   }

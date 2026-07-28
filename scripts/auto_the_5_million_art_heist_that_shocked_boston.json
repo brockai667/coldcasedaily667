@@ -1,0 +1,64 @@
+{
+  "title": "The $5 Million Art Heist That Shocked Boston",
+  "thumb": "ART HEIST SHOCKER",
+  "place": "Boston",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "ART HEIST MYSTERY",
+      "query": "Boston art heist news",
+      "query2": "Boston art theft documentary",
+      "role": "hook",
+      "text": "How did thieves escape with $5 million worth of art?"
+    },
+    {
+      "chips": [
+        {
+          "t": "1990",
+          "on": "the year",
+          "style": "white"
+        }
+      ],
+      "query": "1990 art heist reenactment",
+      "query2": "police impersonation art theft",
+      "role": "fact",
+      "text": "In 1990, two men disguised as police officers gained entry."
+    },
+    {
+      "chips": [
+        {
+          "t": "13 PIECES",
+          "on": "the number",
+          "style": "accent"
+        }
+      ],
+      "query": "Vermeer Rembrandt stolen art",
+      "query2": "famous stolen paintings",
+      "role": "fact",
+      "text": "13 pieces were stolen, including works by Vermeer and Rembrandt."
+    },
+    {
+      "reveal_top": "NO ART RECOVERED",
+      "query": "unsolved art heist",
+      "query2": "Boston art crime",
+      "role": "reveal",
+      "text": "None have ever been recovered."
+    },
+    {
+      "query": "art mystery documentaries",
+      "query2": "true crime art stories",
+      "role": "cta",
+      "text": "Follow because some cases still need answers."
+    }
+  ],
+  "description": "In 1990, thieves disguised as police officers stole a fortune in art. The shocking twist? None of it has ever been found. Follow for more intriguing stories.",
+  "hashtags": [
+    "#artheist",
+    "#truecrime",
+    "#boston",
+    "#mystery",
+    "#unsolved",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "title": "THE UNSOLVED HEIST AT THE BACK OF A BAR",
+  "thumb": "MILLIONS STOLEN!",
+  "place": "San Francisco",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "SEVENTEEN MILLION STOLEN",
+      "query": "heist San Francisco safe",
+      "query2": "millions stolen heist",
+      "role": "hook",
+      "text": "In 2020, thieves stole $17 million from a safe."
+    },
+    {
+      "chips": [
+        {
+          "t": "UNDERGROUND VAULT",
+          "on": "vault",
+          "style": "white"
+        }
+      ],
+      "punch": "operation",
+      "query": "heist underground vault",
+      "query2": "crime scene investigation",
+      "role": "fact",
+      "text": "The criminals executed the heist in an underground vault."
+    },
+    {
+      "chips": [
+        {
+          "t": "NO SUSPECTS",
+          "on": "suspects",
+          "style": "accent"
+        }
+      ],
+      "punch": "mystery",
+      "query": "security footage crime",
+      "query2": "surveillance footage heist",
+      "role": "fact",
+      "text": "Security footage captured the entire incident, yet no suspects have been identified."
+    },
+    {
+      "reveal_top": "HIGHSTAKES MYSTERY",
+      "query": "unsolved heist mystery",
+      "query2": "heist investigation",
+      "role": "reveal",
+      "text": "This high-stakes crime remains a mystery."
+    },
+    {
+      "query": "call to action true crime",
+      "query2": "engagement true crime",
+      "role": "cta",
+      "text": "Follow because some cases still need answers."
+    }
+  ],
+  "description": "A $17 million heist executed within the depths of San Francisco left law enforcement baffled when no suspects were found. Discover the intriguing details behind this audacious crime. #shorts #truecrime #heist #SanFrancisco #fyp",
+  "hashtags": [
+    "#shorts",
+    "#truecrime",
+    "#heist",
+    "#SanFrancisco",
+    "#criminalinvestigation",
+    "#fyp"
+  ]
+}

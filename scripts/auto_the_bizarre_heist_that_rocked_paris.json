@@ -1,0 +1,64 @@
+{
+  "title": "THE BIZARRE HEIST THAT ROCKED PARIS",
+  "thumb": "PARIS ART HEIST!",
+  "place": "Paris",
+  "country": "France",
+  "scenes": [
+    {
+      "hook_top": "MILLIONDOLLAR PAINTING STOLEN",
+      "query": "Paris art gallery theft",
+      "query2": "art heist details",
+      "role": "hook",
+      "text": "In 2009, a thief stole a $1 million painting from a gallery."
+    },
+    {
+      "chips": [
+        {
+          "t": "BLENDED IN",
+          "on": "exhibition",
+          "style": "white"
+        }
+      ],
+      "punch": "cunning",
+      "query": "art theft method",
+      "query2": "thief disguise",
+      "role": "fact",
+      "text": "The thief entered during an exhibition, blending in perfectly."
+    },
+    {
+      "chips": [
+        {
+          "t": "THIEF UNIDENTIFIED",
+          "on": "thief",
+          "style": "accent"
+        }
+      ],
+      "punch": "case",
+      "query": "investigation art theft",
+      "query2": "art recovery story",
+      "role": "fact",
+      "text": "Despite the painting's recovery two years later, the thief remains unidentified."
+    },
+    {
+      "reveal_top": "IDENTITY STILL A MYSTERY",
+      "query": "unidentified art thief",
+      "query2": "Paris heist case",
+      "role": "reveal",
+      "text": "The criminal's identity remains a mystery."
+    },
+    {
+      "query": "call to action true crime",
+      "query2": "engagement true crime",
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one."
+    }
+  ],
+  "description": "A daring heist at a Paris gallery saw a $1 million painting stolen right under the noses of art lovers, and the thief remains a mystery. Join us to uncover the details! #shorts #Paris #artheist #unsolved #fyp",
+  "hashtags": [
+    "#shorts",
+    "#Paris",
+    "#artheist",
+    "#unsolved",
+    "#fyp"
+  ]
+}
