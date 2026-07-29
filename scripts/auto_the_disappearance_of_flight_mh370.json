@@ -1,0 +1,63 @@
+{
+  "title": "The Disappearance of Flight MH370",
+  "thumb": "FLIGHT MH370 MYSTERY",
+  "place": "Indian Ocean",
+  "country": "Malaysia",
+  "scenes": [
+    {
+      "hook_top": "239 PEOPLE MISSING",
+      "query": "Flight MH370 disappearance",
+      "query2": "airplane crash footage",
+      "role": "hook",
+      "text": "239 people went missing on March 8, 2014."
+    },
+    {
+      "chips": [
+        {
+          "t": "NEVER FULLY FOUND",
+          "on": "found",
+          "style": "white"
+        }
+      ],
+      "query": "search efforts for MH370",
+      "query2": "ocean search operations",
+      "role": "fact",
+      "text": "Despite extensive search efforts, the wreckage has never been fully found."
+    },
+    {
+      "chips": [
+        {
+          "t": "HIJACKING THEORIES",
+          "on": "theories",
+          "style": "accent"
+        }
+      ],
+      "query": "theories surrounding plane crash",
+      "query2": "aviation mystery theories",
+      "role": "fact",
+      "text": "Theories speculate about hijacking or mechanical failure."
+    },
+    {
+      "reveal_top": "HAUNTING MYSTERY REMAINS",
+      "query": "aviation mystery unresolved",
+      "query2": "mystery in aviation",
+      "role": "reveal",
+      "text": "The fate of those on board remains a haunting mystery."
+    },
+    {
+      "query": "true crime airliner mysteries",
+      "query2": "aviation true crime",
+      "role": "cta",
+      "text": "Follow for the cases that were never solved."
+    }
+  ],
+  "description": "The disappearance of Flight MH370 is one of aviation's greatest mysteries, leaving families searching for answers. What really happened? Follow for more unexplained cases!",
+  "hashtags": [
+    "#FlightMH370",
+    "#AviationMystery",
+    "#TrueCrime",
+    "#Unsolved",
+    "#shorts",
+    "#fyp"
+  ]
+}

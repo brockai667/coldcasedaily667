@@ -1,0 +1,63 @@
+{
+  "title": "The Mysterious Disappearance of the Sodder Children",
+  "thumb": "SODDER CHILDREN MYSTERY",
+  "place": "Fayetteville, West Virginia",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "FIVE CHILDREN VANISHED",
+      "query": "Fayetteville 1945 Christmas Eve fire",
+      "query2": "historical images of Fayetteville fire",
+      "role": "hook",
+      "text": "Five children vanished on Christmas Eve 1945."
+    },
+    {
+      "chips": [
+        {
+          "t": "NO BODIES FOUND",
+          "on": "found",
+          "style": "white"
+        }
+      ],
+      "query": "burned house aftermath historical",
+      "query2": "Fayetteville fire damage",
+      "role": "fact",
+      "text": "The family's home burned to the ground, but no bodies were found."
+    },
+    {
+      "chips": [
+        {
+          "t": "MYSTERIOUS LETTERS",
+          "on": "letters",
+          "style": "accent"
+        }
+      ],
+      "query": "mysterious letters children alive",
+      "query2": "letters from unknown sender",
+      "role": "fact",
+      "text": "The parents received mysterious letters over the years, suggesting the children were alive."
+    },
+    {
+      "reveal_top": "CASE REMAINS UNSOLVED",
+      "query": "unsolved mystery symbols",
+      "query2": "mystery and uncertainty",
+      "role": "reveal",
+      "text": "The case remains unsolved to this day!"
+    },
+    {
+      "query": "mystery documentary teaser",
+      "query2": "engaging documentary clip",
+      "role": "cta",
+      "text": "Follow because some cases still need answers."
+    }
+  ],
+  "description": "The tragic story of the Sodder children haunts many, with no answers in sight. Could they still be alive? Follow us for more intriguing mysteries! ",
+  "hashtags": [
+    "#SodderChildren",
+    "#TrueCrime",
+    "#Mystery",
+    "#Unsolved",
+    "#shorts",
+    "#fyp"
+  ]
+}

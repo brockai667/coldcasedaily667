@@ -6902,5 +6902,196 @@
       "#BermudaTriangle",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Unsolved Mystery of D.B. Cooper",
+    "thumb": "THE MAN WHO VANISHED",
+    "place": "Northwest USA",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "THE HIJACKER WHO VANISHED",
+        "query": "mysterious disappearance footage",
+        "query2": "D.B. Cooper documentary scenes",
+        "role": "hook",
+        "text": "In 1971, a man hijacked a plane and disappeared."
+      },
+      {
+        "chips": [
+          {
+            "t": "$200,000",
+            "on": "ransom",
+            "style": "white"
+          }
+        ],
+        "punch": "mystery",
+        "query": "investigative report on hijacking",
+        "query2": "historical news footage",
+        "role": "fact",
+        "text": "D.B. Cooper extorted $200,000 in ransom."
+      },
+      {
+        "archive_query": "D.B. Cooper case documents",
+        "archive_label": "Case Documents",
+        "role": "archive",
+        "text": "D.B. Cooper Case Documents"
+      },
+      {
+        "sub": "Many suspects, but no solid evidence.",
+        "label_on": "theories",
+        "role": "callout",
+        "text": "Theories abound",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "D.B. Cooper's infamous hijacking in 1971 left a mystery that has baffled investigators for decades. Explore the theories surrounding this legendary case.",
+    "hashtags": [
+      "#DBCooper",
+      "#TrueCrime",
+      "#UnsolvedMystery",
+      "#Hijacking",
+      "#History",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Great Train Robbery Mystery",
+    "thumb": "TRAIN HEIST REVEALED",
+    "place": "Buckinghamshire",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "text": "In 1963, a notorious heist took place in England.",
+        "hook_top": "1963 TRAIN HEIST IN ENGLAND",
+        "query": "1963 train heist documentary",
+        "query2": "Great Train Robbery",
+        "role": "hook"
+      },
+      {
+        "text": "Thieves made off with £2.6 million, a staggering sum at the time.",
+        "chips": [
+          {
+            "t": "£2.6 million",
+            "on": "staggering",
+            "style": "accent"
+          }
+        ],
+        "query": "stolen money footage",
+        "query2": "the money stolen",
+        "role": "fact"
+      },
+      {
+        "text": "Only a small fraction of the stolen money was ever recovered.",
+        "chips": [
+          {
+            "t": "less than 10%",
+            "on": "recovered",
+            "style": "white"
+          }
+        ],
+        "query": "recovered stolen money",
+        "query2": "money recovery",
+        "role": "fact"
+      },
+      {
+        "text": "The true masterminds behind the heist remain unidentified.",
+        "reveal_top": "A MYSTERY STILL UNSOLVED",
+        "query": "unidentified criminals mystery",
+        "query2": "criminals behind heist",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for daily true crime mysteries.",
+        "cta": "Follow for more true crime!",
+        "role": "cta",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "In 1963, the Great Train Robbery shook the UK when thieves stole £2.6 million. Though some of the criminals were captured, the masterminds behind the heist remain a mystery.",
+    "hashtags": [
+      "#GreatTrainRobbery",
+      "#Heist",
+      "#TrueCrime",
+      "#UnsolvedMystery",
+      "#History",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Art Heist That Shocked Boston",
+    "thumb": "ART HEIST REVEALED",
+    "place": "Boston",
+    "country": "United States",
+    "scenes": [
+      {
+        "text": "In 1990, thieves pulled off one of the largest art heists ever.",
+        "hook_top": "1990 BOSTON ART HEIST",
+        "query": "Boston art heist documentary",
+        "query2": "museum heist",
+        "role": "hook"
+      },
+      {
+        "text": "Over $500 million worth of art was stolen, including pieces by Vermeer.",
+        "chips": [
+          {
+            "t": "$500 million",
+            "on": "worth",
+            "style": "accent"
+          }
+        ],
+        "query": "stolen Vermeer artwork",
+        "query2": "artworks stolen",
+        "role": "fact"
+      },
+      {
+        "text": "Despite extensive investigations, none of the stolen art has been recovered.",
+        "chips": [
+          {
+            "t": "unrecovered",
+            "on": "art",
+            "style": "white"
+          }
+        ],
+        "query": "unrecovered stolen art",
+        "query2": "art recovery issues",
+        "role": "fact"
+      },
+      {
+        "text": "The case remains one of the most famous unsolved art crimes.",
+        "reveal_top": "FAMOUS UNSOLVED ART CRIME",
+        "query": "famous art crimes",
+        "query2": "unsolved art thefts",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow because some cases still need answers.",
+        "cta": "Follow for more true crime!",
+        "role": "cta",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The 1990 Boston art heist saw over $500 million worth of masterpieces stolen with no signs of recovery. It stands as one of the most infamous unsolved art crimes in history.",
+    "hashtags": [
+      "#ArtHeist",
+      "#Boston",
+      "#TrueCrime",
+      "#UnsolvedMystery",
+      "#History",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

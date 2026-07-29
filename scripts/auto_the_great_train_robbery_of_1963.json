@@ -1,0 +1,63 @@
+{
+  "title": "The Great Train Robbery of 1963",
+  "thumb": "LEGENDARY TRAIN HEIST",
+  "place": "Buckinghamshire",
+  "country": "UK",
+  "scenes": [
+    {
+      "hook_top": "26 MILLION STOLEN",
+      "query": "1963 Great Train Robbery",
+      "query2": "historical heist footage",
+      "role": "hook",
+      "text": "£2.6 million was stolen in a daring heist!"
+    },
+    {
+      "chips": [
+        {
+          "t": "ROYAL MAIL TRAIN",
+          "on": "train",
+          "style": "white"
+        }
+      ],
+      "query": "train heist operation",
+      "query2": "Royal Mail train delivery",
+      "role": "fact",
+      "text": "Thieves intercepted a Royal Mail train and made off with the cash."
+    },
+    {
+      "chips": [
+        {
+          "t": "FRACTION RECOVERED",
+          "on": "recovered",
+          "style": "accent"
+        }
+      ],
+      "query": "money recovery efforts",
+      "query2": "police investigation",
+      "role": "fact",
+      "text": "Despite the crime's notoriety, only a fraction of the money was recovered."
+    },
+    {
+      "reveal_top": "CULPRITS NEVER CAUGHT",
+      "query": "unsolved heist investigation",
+      "query2": "heist suspects",
+      "role": "reveal",
+      "text": "Many of the culprits were never caught!"
+    },
+    {
+      "query": "crime documentary collection",
+      "query2": "exciting true crime content",
+      "role": "cta",
+      "text": "Follow because some cases still need answers."
+    }
+  ],
+  "description": "A legendary heist that rocked the UK, the Great Train Robbery remains a case of daring and mystery. What truly happened? Follow for more true crime stories! ",
+  "hashtags": [
+    "#GreatTrainRobbery",
+    "#TrueCrime",
+    "#Heist",
+    "#Mysterious",
+    "#shorts",
+    "#fyp"
+  ]
+}
