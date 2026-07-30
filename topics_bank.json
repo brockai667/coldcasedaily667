@@ -6840,6 +6840,210 @@
     ]
   },
   {
+    "title": "The Daring $70 Million Theft: The Hatton Garden Heist",
+    "thumb": "MILLIONS STOLEN",
+    "place": "Hatton Garden, London",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "text": "A heist over the Easter weekend shocked the UK.",
+        "query": "dramatic heist planning",
+        "query2": "mysterious bank vaults",
+        "hook_top": "A HEIST THAT SHOCKED UK",
+        "hook": "The Easter weekend heist stole £70 million.",
+        "role": "hook"
+      },
+      {
+        "text": "Hatton Garden, London, UK.",
+        "query": "map of London's Hatton Garden",
+        "query2": "London city map",
+        "hook_top": "",
+        "hook": "",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "The heist took place in April 2015, targeting a safety deposit box company.",
+        "chips": [
+          {
+            "t": "APRIL 2015",
+            "on": "April",
+            "style": "accent"
+          }
+        ],
+        "query": "safety deposit box heist",
+        "query2": "bank vaults in London",
+        "hook_top": "",
+        "hook": "",
+        "role": "fact"
+      },
+      {
+        "text": "Wikimedia Commons search: Hatton Garden heist robbery archive.",
+        "archive_query": "Hatton Garden heist archive",
+        "archive_label": "Hatton Garden Scene",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "A million-dollar plot involving elderly thieves.",
+        "label": "ELDERLY THIEVES",
+        "sub": "A group in their 60s planned it.",
+        "label_on": "group of elderly",
+        "role": "fact",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night",
+        "chips": []
+      },
+      {
+        "text": "Follow for the cases that were never solved.",
+        "query": "heist stories",
+        "query2": "crime documentaries",
+        "hook_top": "",
+        "hook": "",
+        "role": "cta"
+      }
+    ],
+    "description": "In an audacious heist, thieves broke into London's Hatton Garden to steal millions during the Easter holiday. Join us for more gripping stories!",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#heist",
+      "#coldcase",
+      "#mystery"
+    ]
+  },
+  {
+    "title": "THE ENIGMA OF THE ZODIAC KILLER",
+    "thumb": "UNSOLVED ZODIAC MYSTERY",
+    "place": "San Francisco",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "FIVE UNSOLVED MURDERS",
+        "query": "San Francisco streets with Zodiac symbols",
+        "query2": "street signs in San Francisco",
+        "role": "hook",
+        "text": "Five confirmed victims, yet the killer was never caught."
+      },
+      {
+        "chips": [
+          {
+            "t": "ciphers",
+            "on": "ciphers",
+            "style": "white"
+          }
+        ],
+        "query": "historical letters and ciphers",
+        "query2": "envelopes of old letters",
+        "role": "fact",
+        "text": "He sent taunting letters to the press, including ciphers."
+      },
+      {
+        "chips": [
+          {
+            "t": "1974",
+            "on": "1974",
+            "style": "accent"
+          }
+        ],
+        "query": "vintage newspaper headlines",
+        "query2": "old newspapers",
+        "role": "fact",
+        "text": "The last confirmed letter was sent in 1974."
+      },
+      {
+        "reveal_top": "MYSTERY STILL UNSOLVED",
+        "query": "detectives working on cases",
+        "query2": "detective agencies at work",
+        "role": "reveal",
+        "text": "Despite extensive investigations, the identity is still unknown."
+      },
+      {
+        "query": "true crime documentaries",
+        "query2": "crime story videos",
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries."
+      }
+    ],
+    "description": "The Zodiac Killer remains one of the most infamous unsolved crimes in history. His story continues to intrigue and baffle investigators. Stay tuned for more true crime insights!",
+    "hashtags": [
+      "#ZodiacKiller",
+      "#TrueCrime",
+      "#UnsolvedMystery",
+      "#FYP",
+      "#CrimeDocumentary",
+      "#Shorts",
+      "#Mystery"
+    ]
+  },
+  {
+    "title": "THE INFAMOUS GREAT ESCAPE",
+    "thumb": "PRISON BREAK",
+    "place": "Stalag Luft III",
+    "country": "Poland",
+    "scenes": [
+      {
+        "hook_top": "76 PRISONERS ESCAPED",
+        "query": "prison escape scenes",
+        "query2": "world war two visuals",
+        "role": "hook",
+        "text": "76 prisoners escaped from a WWII camp!"
+      },
+      {
+        "chips": [
+          {
+            "t": "months of planning",
+            "on": "months",
+            "style": "white"
+          }
+        ],
+        "query": "planning meeting visuals",
+        "query2": "prison meetings",
+        "role": "fact",
+        "text": "The escape was meticulously planned over several months."
+      },
+      {
+        "chips": [
+          {
+            "t": "only three",
+            "on": "three",
+            "style": "accent"
+          }
+        ],
+        "query": "successful escape stories",
+        "query2": "prison break results",
+        "role": "fact",
+        "text": "Only three managed to successfully escape to freedom."
+      },
+      {
+        "reveal_top": "HISTORIC PRISON BREAK",
+        "query": "famous historical escapes",
+        "query2": "history of escapes",
+        "role": "reveal",
+        "text": "The escape remains one of the most famous in history."
+      },
+      {
+        "query": "prison escape documentaries",
+        "query2": "stories of bravery",
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries."
+      }
+    ],
+    "description": "The Great Escape from Stalag Luft III during World War II is legendary. Discover the details of how it unfolded and the challenges faced by those involved. Stay tuned for more captivating stories!",
+    "hashtags": [
+      "#GreatEscape",
+      "#TrueCrime",
+      "#History",
+      "#FYP",
+      "#Shorts",
+      "#PrisonBreak",
+      "#WWII"
+    ]
+  },
+  {
     "title": "THE LITTLE-KNOWN MYSTERY OF FLIGHT 19",
     "thumb": "FLIGHT GONE MISSING",
     "place": "Bermuda Triangle",

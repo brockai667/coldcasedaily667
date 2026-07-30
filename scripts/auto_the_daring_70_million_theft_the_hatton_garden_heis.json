@@ -1,0 +1,76 @@
+{
+  "title": "The Daring $70 Million Theft: The Hatton Garden Heist",
+  "thumb": "MILLIONS STOLEN",
+  "place": "Hatton Garden, London",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "text": "A heist over the Easter weekend shocked the UK.",
+      "query": "dramatic heist planning",
+      "query2": "mysterious bank vaults",
+      "hook_top": "A HEIST THAT SHOCKED UK",
+      "hook": "The Easter weekend heist stole £70 million.",
+      "role": "hook"
+    },
+    {
+      "text": "Hatton Garden, London, UK.",
+      "query": "map of London's Hatton Garden",
+      "query2": "London city map",
+      "hook_top": "",
+      "hook": "",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "The heist took place in April 2015, targeting a safety deposit box company.",
+      "chips": [
+        {
+          "t": "APRIL 2015",
+          "on": "April",
+          "style": "accent"
+        }
+      ],
+      "query": "safety deposit box heist",
+      "query2": "bank vaults in London",
+      "hook_top": "",
+      "hook": "",
+      "role": "fact"
+    },
+    {
+      "text": "Wikimedia Commons search: Hatton Garden heist robbery archive.",
+      "archive_query": "Hatton Garden heist archive",
+      "archive_label": "Hatton Garden Scene",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "A million-dollar plot involving elderly thieves.",
+      "label": "ELDERLY THIEVES",
+      "sub": "A group in their 60s planned it.",
+      "label_on": "group of elderly",
+      "role": "fact",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night",
+      "chips": []
+    },
+    {
+      "text": "Follow for the cases that were never solved.",
+      "query": "heist stories",
+      "query2": "crime documentaries",
+      "hook_top": "",
+      "hook": "",
+      "role": "cta"
+    }
+  ],
+  "description": "In an audacious heist, thieves broke into London's Hatton Garden to steal millions during the Easter holiday. Join us for more gripping stories!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#heist",
+    "#coldcase",
+    "#mystery"
+  ]
+}

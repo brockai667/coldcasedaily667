@@ -1,0 +1,64 @@
+{
+  "title": "THE ENIGMA OF THE ZODIAC KILLER",
+  "thumb": "UNSOLVED ZODIAC MYSTERY",
+  "place": "San Francisco",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "FIVE UNSOLVED MURDERS",
+      "query": "San Francisco streets with Zodiac symbols",
+      "query2": "street signs in San Francisco",
+      "role": "hook",
+      "text": "Five confirmed victims, yet the killer was never caught."
+    },
+    {
+      "chips": [
+        {
+          "t": "ciphers",
+          "on": "ciphers",
+          "style": "white"
+        }
+      ],
+      "query": "historical letters and ciphers",
+      "query2": "envelopes of old letters",
+      "role": "fact",
+      "text": "He sent taunting letters to the press, including ciphers."
+    },
+    {
+      "chips": [
+        {
+          "t": "1974",
+          "on": "1974",
+          "style": "accent"
+        }
+      ],
+      "query": "vintage newspaper headlines",
+      "query2": "old newspapers",
+      "role": "fact",
+      "text": "The last confirmed letter was sent in 1974."
+    },
+    {
+      "reveal_top": "MYSTERY STILL UNSOLVED",
+      "query": "detectives working on cases",
+      "query2": "detective agencies at work",
+      "role": "reveal",
+      "text": "Despite extensive investigations, the identity is still unknown."
+    },
+    {
+      "query": "true crime documentaries",
+      "query2": "crime story videos",
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries."
+    }
+  ],
+  "description": "The Zodiac Killer remains one of the most infamous unsolved crimes in history. His story continues to intrigue and baffle investigators. Stay tuned for more true crime insights!",
+  "hashtags": [
+    "#ZodiacKiller",
+    "#TrueCrime",
+    "#UnsolvedMystery",
+    "#FYP",
+    "#CrimeDocumentary",
+    "#Shorts",
+    "#Mystery"
+  ]
+}

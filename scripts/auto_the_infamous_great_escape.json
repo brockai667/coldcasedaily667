@@ -1,0 +1,64 @@
+{
+  "title": "THE INFAMOUS GREAT ESCAPE",
+  "thumb": "PRISON BREAK",
+  "place": "Stalag Luft III",
+  "country": "Poland",
+  "scenes": [
+    {
+      "hook_top": "76 PRISONERS ESCAPED",
+      "query": "prison escape scenes",
+      "query2": "world war two visuals",
+      "role": "hook",
+      "text": "76 prisoners escaped from a WWII camp!"
+    },
+    {
+      "chips": [
+        {
+          "t": "months of planning",
+          "on": "months",
+          "style": "white"
+        }
+      ],
+      "query": "planning meeting visuals",
+      "query2": "prison meetings",
+      "role": "fact",
+      "text": "The escape was meticulously planned over several months."
+    },
+    {
+      "chips": [
+        {
+          "t": "only three",
+          "on": "three",
+          "style": "accent"
+        }
+      ],
+      "query": "successful escape stories",
+      "query2": "prison break results",
+      "role": "fact",
+      "text": "Only three managed to successfully escape to freedom."
+    },
+    {
+      "reveal_top": "HISTORIC PRISON BREAK",
+      "query": "famous historical escapes",
+      "query2": "history of escapes",
+      "role": "reveal",
+      "text": "The escape remains one of the most famous in history."
+    },
+    {
+      "query": "prison escape documentaries",
+      "query2": "stories of bravery",
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries."
+    }
+  ],
+  "description": "The Great Escape from Stalag Luft III during World War II is legendary. Discover the details of how it unfolded and the challenges faced by those involved. Stay tuned for more captivating stories!",
+  "hashtags": [
+    "#GreatEscape",
+    "#TrueCrime",
+    "#History",
+    "#FYP",
+    "#Shorts",
+    "#PrisonBreak",
+    "#WWII"
+  ]
+}
