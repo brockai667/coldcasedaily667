@@ -1,0 +1,66 @@
+{
+  "title": "The Great Train Robbery Mystery",
+  "thumb": "TRAIN HEIST REVEALED",
+  "place": "Buckinghamshire",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "text": "In 1963, a notorious heist took place in England.",
+      "hook_top": "1963 TRAIN HEIST IN ENGLAND",
+      "query": "1963 train heist documentary",
+      "query2": "Great Train Robbery",
+      "role": "hook"
+    },
+    {
+      "text": "Thieves made off with £2.6 million, a staggering sum at the time.",
+      "chips": [
+        {
+          "t": "£2.6 million",
+          "on": "staggering",
+          "style": "accent"
+        }
+      ],
+      "query": "stolen money footage",
+      "query2": "the money stolen",
+      "role": "fact"
+    },
+    {
+      "text": "Only a small fraction of the stolen money was ever recovered.",
+      "chips": [
+        {
+          "t": "less than 10%",
+          "on": "recovered",
+          "style": "white"
+        }
+      ],
+      "query": "recovered stolen money",
+      "query2": "money recovery",
+      "role": "fact"
+    },
+    {
+      "text": "The true masterminds behind the heist remain unidentified.",
+      "reveal_top": "A MYSTERY STILL UNSOLVED",
+      "query": "unidentified criminals mystery",
+      "query2": "criminals behind heist",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for daily true crime mysteries.",
+      "cta": "Follow for more true crime!",
+      "role": "cta",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "In 1963, the Great Train Robbery shook the UK when thieves stole £2.6 million. Though some of the criminals were captured, the masterminds behind the heist remain a mystery.",
+  "hashtags": [
+    "#GreatTrainRobbery",
+    "#Heist",
+    "#TrueCrime",
+    "#UnsolvedMystery",
+    "#History",
+    "#shorts",
+    "#fyp"
+  ]
+}

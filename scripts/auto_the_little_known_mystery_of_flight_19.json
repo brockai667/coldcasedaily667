@@ -1,0 +1,64 @@
+{
+  "title": "THE LITTLE-KNOWN MYSTERY OF FLIGHT 19",
+  "thumb": "FLIGHT GONE MISSING",
+  "place": "Bermuda Triangle",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "FIVE PLANES DISAPPEARED",
+      "query": "Flight 19 Bermuda Triangle",
+      "query2": "Bermuda Triangle mystery",
+      "role": "hook",
+      "text": "Five planes disappeared over the Bermuda Triangle in 1945."
+    },
+    {
+      "chips": [
+        {
+          "t": "14 CREW MEMBERS",
+          "on": "members",
+          "style": "white"
+        }
+      ],
+      "punch": "crew",
+      "query": "Flight 19 crew",
+      "query2": "aviation training mission",
+      "role": "fact",
+      "text": "The planes were on a training mission with 14 crew members."
+    },
+    {
+      "chips": [
+        {
+          "t": "NO TRACE FOUND",
+          "on": "trace",
+          "style": "accent"
+        }
+      ],
+      "punch": "vanished",
+      "query": "unsolved aviation mystery",
+      "query2": "airplane disappearance",
+      "role": "fact",
+      "text": "Despite extensive searches, no trace of the planes was ever found."
+    },
+    {
+      "reveal_top": "FATE STILL UNKNOWN",
+      "query": "mystery surrounding Flight 19",
+      "query2": "Bermuda Triangle cases",
+      "role": "reveal",
+      "text": "Flight 19's fate remains unknown to this day."
+    },
+    {
+      "query": "call to action true crime",
+      "query2": "engagement true crime",
+      "role": "cta",
+      "text": "Follow for the cases that were never solved."
+    }
+  ],
+  "description": "In 1945, Flight 19's mysterious disappearance in the Bermuda Triangle remains one of aviation’s greatest enigmas. Explore the facts surrounding this unresolved case. #shorts #aviationmystery #Flight19 #BermudaTriangle #fyp",
+  "hashtags": [
+    "#shorts",
+    "#aviationmystery",
+    "#Flight19",
+    "#BermudaTriangle",
+    "#fyp"
+  ]
+}

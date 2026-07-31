@@ -1,0 +1,59 @@
+{
+  "title": "The Unsolved Mystery of D.B. Cooper",
+  "thumb": "THE MAN WHO VANISHED",
+  "place": "Northwest USA",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "THE HIJACKER WHO VANISHED",
+      "query": "mysterious disappearance footage",
+      "query2": "D.B. Cooper documentary scenes",
+      "role": "hook",
+      "text": "In 1971, a man hijacked a plane and disappeared."
+    },
+    {
+      "chips": [
+        {
+          "t": "$200,000",
+          "on": "ransom",
+          "style": "white"
+        }
+      ],
+      "punch": "mystery",
+      "query": "investigative report on hijacking",
+      "query2": "historical news footage",
+      "role": "fact",
+      "text": "D.B. Cooper extorted $200,000 in ransom."
+    },
+    {
+      "archive_query": "D.B. Cooper case documents",
+      "archive_label": "Case Documents",
+      "role": "archive",
+      "text": "D.B. Cooper Case Documents"
+    },
+    {
+      "sub": "Many suspects, but no solid evidence.",
+      "label_on": "theories",
+      "role": "callout",
+      "text": "Theories abound",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "D.B. Cooper's infamous hijacking in 1971 left a mystery that has baffled investigators for decades. Explore the theories surrounding this legendary case.",
+  "hashtags": [
+    "#DBCooper",
+    "#TrueCrime",
+    "#UnsolvedMystery",
+    "#Hijacking",
+    "#History",
+    "#shorts",
+    "#fyp"
+  ]
+}
