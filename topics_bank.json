@@ -7297,5 +7297,205 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Mysterious Disappearance of the Mary Celeste",
+    "thumb": "MARY CELESTE",
+    "place": "Atlantic Ocean",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "MARY CELESTE MYSTERY",
+        "query": "abandoned ship at sea",
+        "query2": "old sailing ship",
+        "role": "hook",
+        "text": "4 crew members vanished"
+      },
+      {
+        "chips": [
+          {
+            "t": "1872",
+            "on": "year",
+            "style": "white"
+          }
+        ],
+        "punch": "abandoned",
+        "query": "old logbook",
+        "query2": "vintage sailing ship interior",
+        "role": "fact",
+        "text": "The Mary Celeste was found adrift with no signs of struggle"
+      },
+      {
+        "archive_query": "Mary Celeste ship",
+        "archive_label": "Mary Celeste",
+        "query": "historic sailing ships",
+        "query2": "old maritime photos",
+        "role": "archive",
+        "text": "The Mary Celeste was a merchant ship"
+      },
+      {
+        "label": "Mary Celeste",
+        "sub": "unsolved mystery",
+        "label_on": "disappearance",
+        "query": "sea mystery",
+        "query2": "unsolved cases",
+        "role": "callout",
+        "text": "What happened to the crew?"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Mary Celeste was found adrift in 1872 with no signs of struggle or crew on board. The mystery of what happened to the crew has never been solved. Follow us for more true crime stories. #truecrime #unsolvedmystery #maryceleste",
+    "hashtags": [
+      "#truecrime",
+      "#unsolvedmystery",
+      "#maryceleste",
+      "#mystery",
+      "#sea",
+      "#ship",
+      "#history",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Great Brink's Job: A Legendary Heist",
+    "thumb": "GREAT BRINKS",
+    "place": "Boston",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "GREAT BRINKS HEIST",
+        "query": "money heist",
+        "query2": "armored truck",
+        "role": "hook",
+        "text": "13 million stolen"
+      },
+      {
+        "chips": [
+          {
+            "t": "1950",
+            "on": "year",
+            "style": "white"
+          },
+          {
+            "t": "11",
+            "on": "men",
+            "style": "accent"
+          }
+        ],
+        "punch": "stolen",
+        "query": "old newsreel",
+        "query2": "vintage police car",
+        "role": "fact",
+        "text": "The heist was carried out by 11 men"
+      },
+      {
+        "archive_query": "Great Brink's Robbery",
+        "archive_label": "Brink's Truck",
+        "query": "historic heists",
+        "query2": "old crime scene photos",
+        "role": "archive",
+        "text": "The Great Brink's Job was a notorious heist"
+      },
+      {
+        "label": "Great Brink's",
+        "sub": "legendary heist",
+        "label_on": "heist",
+        "query": "heist movie",
+        "query2": "crime drama",
+        "role": "callout",
+        "text": "How did they get away?"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Great Brink's Job was a legendary heist that took place in 1950. 13 million dollars was stolen, and the heist was carried out by 11 men. Follow us for more true crime stories. #truecrime #greatbrinks #heist #legendary",
+    "hashtags": [
+      "#truecrime",
+      "#greatbrinks",
+      "#heist",
+      "#legendary",
+      "#crime",
+      "#history",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Enigma of the Zodiac Killer",
+    "thumb": "ZODIAC KILLER",
+    "place": "San Francisco",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "ZODIAC KILLER",
+        "query": "serial killer",
+        "query2": "crime scene tape",
+        "role": "hook",
+        "text": "5 victims killed"
+      },
+      {
+        "chips": [
+          {
+            "t": "1960s",
+            "on": "decade",
+            "style": "white"
+          },
+          {
+            "t": "5",
+            "on": "victims",
+            "style": "accent"
+          }
+        ],
+        "punch": "killed",
+        "query": "old newspaper",
+        "query2": "vintage police radio",
+        "role": "fact",
+        "text": "The Zodiac Killer sent cryptic letters to the police"
+      },
+      {
+        "archive_query": "Zodiac Killer letters",
+        "archive_label": "Zodiac Killer",
+        "query": "historic serial killers",
+        "query2": "old crime scene photos",
+        "role": "archive",
+        "text": "The Zodiac Killer was a serial killer"
+      },
+      {
+        "label": "Zodiac Killer",
+        "sub": "unsolved case",
+        "label_on": "killer",
+        "query": "serial killer movie",
+        "query2": "crime documentary",
+        "role": "callout",
+        "text": "Who was the Zodiac Killer?"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Zodiac Killer was a serial killer who terrorized the San Francisco area in the 1960s. The killer sent cryptic letters to the police, and the case remains unsolved. Follow us for more true crime stories. #truecrime #zodiackiller #serialkiller #unsolved",
+    "hashtags": [
+      "#truecrime",
+      "#zodiackiller",
+      "#serialkiller",
+      "#unsolved",
+      "#crime",
+      "#history",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

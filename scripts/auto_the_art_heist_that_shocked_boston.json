@@ -1,0 +1,66 @@
+{
+  "title": "The Art Heist That Shocked Boston",
+  "thumb": "ART HEIST REVEALED",
+  "place": "Boston",
+  "country": "United States",
+  "scenes": [
+    {
+      "text": "In 1990, thieves pulled off one of the largest art heists ever.",
+      "hook_top": "1990 BOSTON ART HEIST",
+      "query": "Boston art heist documentary",
+      "query2": "museum heist",
+      "role": "hook"
+    },
+    {
+      "text": "Over $500 million worth of art was stolen, including pieces by Vermeer.",
+      "chips": [
+        {
+          "t": "$500 million",
+          "on": "worth",
+          "style": "accent"
+        }
+      ],
+      "query": "stolen Vermeer artwork",
+      "query2": "artworks stolen",
+      "role": "fact"
+    },
+    {
+      "text": "Despite extensive investigations, none of the stolen art has been recovered.",
+      "chips": [
+        {
+          "t": "unrecovered",
+          "on": "art",
+          "style": "white"
+        }
+      ],
+      "query": "unrecovered stolen art",
+      "query2": "art recovery issues",
+      "role": "fact"
+    },
+    {
+      "text": "The case remains one of the most famous unsolved art crimes.",
+      "reveal_top": "FAMOUS UNSOLVED ART CRIME",
+      "query": "famous art crimes",
+      "query2": "unsolved art thefts",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow because some cases still need answers.",
+      "cta": "Follow for more true crime!",
+      "role": "cta",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The 1990 Boston art heist saw over $500 million worth of masterpieces stolen with no signs of recovery. It stands as one of the most infamous unsolved art crimes in history.",
+  "hashtags": [
+    "#ArtHeist",
+    "#Boston",
+    "#TrueCrime",
+    "#UnsolvedMystery",
+    "#History",
+    "#shorts",
+    "#fyp"
+  ]
+}

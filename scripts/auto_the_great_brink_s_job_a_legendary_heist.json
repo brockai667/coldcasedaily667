@@ -1,0 +1,68 @@
+{
+  "title": "The Great Brink's Job: A Legendary Heist",
+  "thumb": "GREAT BRINKS",
+  "place": "Boston",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "GREAT BRINKS HEIST",
+      "query": "money heist",
+      "query2": "armored truck",
+      "role": "hook",
+      "text": "13 million stolen"
+    },
+    {
+      "chips": [
+        {
+          "t": "1950",
+          "on": "year",
+          "style": "white"
+        },
+        {
+          "t": "11",
+          "on": "men",
+          "style": "accent"
+        }
+      ],
+      "punch": "stolen",
+      "query": "old newsreel",
+      "query2": "vintage police car",
+      "role": "fact",
+      "text": "The heist was carried out by 11 men"
+    },
+    {
+      "archive_query": "Great Brink's Robbery",
+      "archive_label": "Brink's Truck",
+      "query": "historic heists",
+      "query2": "old crime scene photos",
+      "role": "archive",
+      "text": "The Great Brink's Job was a notorious heist"
+    },
+    {
+      "label": "Great Brink's",
+      "sub": "legendary heist",
+      "label_on": "heist",
+      "query": "heist movie",
+      "query2": "crime drama",
+      "role": "callout",
+      "text": "How did they get away?"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Great Brink's Job was a legendary heist that took place in 1950. 13 million dollars was stolen, and the heist was carried out by 11 men. Follow us for more true crime stories. #truecrime #greatbrinks #heist #legendary",
+  "hashtags": [
+    "#truecrime",
+    "#greatbrinks",
+    "#heist",
+    "#legendary",
+    "#crime",
+    "#history",
+    "#shorts",
+    "#fyp"
+  ]
+}

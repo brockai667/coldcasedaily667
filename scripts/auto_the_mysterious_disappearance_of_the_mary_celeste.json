@@ -1,0 +1,64 @@
+{
+  "title": "The Mysterious Disappearance of the Mary Celeste",
+  "thumb": "MARY CELESTE",
+  "place": "Atlantic Ocean",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "MARY CELESTE MYSTERY",
+      "query": "abandoned ship at sea",
+      "query2": "old sailing ship",
+      "role": "hook",
+      "text": "4 crew members vanished"
+    },
+    {
+      "chips": [
+        {
+          "t": "1872",
+          "on": "year",
+          "style": "white"
+        }
+      ],
+      "punch": "abandoned",
+      "query": "old logbook",
+      "query2": "vintage sailing ship interior",
+      "role": "fact",
+      "text": "The Mary Celeste was found adrift with no signs of struggle"
+    },
+    {
+      "archive_query": "Mary Celeste ship",
+      "archive_label": "Mary Celeste",
+      "query": "historic sailing ships",
+      "query2": "old maritime photos",
+      "role": "archive",
+      "text": "The Mary Celeste was a merchant ship"
+    },
+    {
+      "label": "Mary Celeste",
+      "sub": "unsolved mystery",
+      "label_on": "disappearance",
+      "query": "sea mystery",
+      "query2": "unsolved cases",
+      "role": "callout",
+      "text": "What happened to the crew?"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Mary Celeste was found adrift in 1872 with no signs of struggle or crew on board. The mystery of what happened to the crew has never been solved. Follow us for more true crime stories. #truecrime #unsolvedmystery #maryceleste",
+  "hashtags": [
+    "#truecrime",
+    "#unsolvedmystery",
+    "#maryceleste",
+    "#mystery",
+    "#sea",
+    "#ship",
+    "#history",
+    "#shorts",
+    "#fyp"
+  ]
+}
