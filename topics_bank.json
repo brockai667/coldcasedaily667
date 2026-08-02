@@ -7497,5 +7497,206 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Mysterious Disappearance of the Beaumont Children",
+    "thumb": "BEAUMONT KIDS",
+    "place": "Glenelg Beach",
+    "country": "Australia",
+    "scenes": [
+      {
+        "hook_top": "DISAPPEARED FOREVER",
+        "query": "Glenelg Beach aerial view",
+        "query2": "Australian beach sunset",
+        "role": "hook",
+        "text": "3 kids vanish"
+      },
+      {
+        "chips": [
+          {
+            "t": "1966",
+            "on": "year",
+            "style": "white"
+          },
+          {
+            "t": "3",
+            "on": "number of siblings",
+            "style": "accent"
+          }
+        ],
+        "punch": "Vanished",
+        "query": "old newspaper headlines",
+        "query2": "vintage news clippings",
+        "role": "fact",
+        "text": "On January 26, 1966, three siblings disappeared"
+      },
+      {
+        "archive_query": "Glenelg Beach 1966",
+        "archive_label": "Search Party",
+        "query": "Glenelg Beach historic photos",
+        "query2": "Australian police archive",
+        "role": "archive",
+        "text": "The investigate team searched the beach"
+      },
+      {
+        "label": "Cold Case",
+        "sub": "Still a mystery",
+        "label_on": "unsolved",
+        "query": "cold case files",
+        "query2": "unsolved mystery books",
+        "role": "callout",
+        "text": "The case remains unsolved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The disappearance of the Beaumont children is one of Australia's most enduring mysteries. Join us as we delve into the case. Follow us for more true crime stories.",
+    "hashtags": [
+      "#truecrime",
+      "#coldcase",
+      "#australia",
+      "#mystery",
+      "#unsolved",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Legend of the Mary Celeste",
+    "thumb": "MARY CELESTE",
+    "place": "Atlantic Ocean",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "ABANDONED SHIP",
+        "query": "Mary Celeste shipwreck",
+        "query2": "-abandoned sailing ships",
+        "role": "hook",
+        "text": "7 crew members gone"
+      },
+      {
+        "chips": [
+          {
+            "t": "1872",
+            "on": "year",
+            "style": "white"
+          },
+          {
+            "t": "7",
+            "on": "number of crew members",
+            "style": "accent"
+          }
+        ],
+        "punch": "Mystery",
+        "query": "vintage sailing ships",
+        "query2": "historical maritime mysteries",
+        "role": "fact",
+        "text": "In 1872, the Mary Celeste was found adrift with no signs of foul play"
+      },
+      {
+        "archive_query": "Mary Celeste ship",
+        "archive_label": "Abandoned Ship",
+        "query": "Mary Celeste historic photos",
+        "query2": "vintage nautical photos",
+        "role": "archive",
+        "text": "The ship was discovered with no signs of struggle"
+      },
+      {
+        "label": "Unsolved",
+        "sub": "Still no answers",
+        "label_on": "unsolved",
+        "query": "unsolved maritime mysteries",
+        "query2": "abandoned ship stories",
+        "role": "callout",
+        "text": "The reason for the crew's disappearance remains a mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Mary Celeste is one of the most famous maritime mysteries in history. Join us as we explore the story behind the abandoned ship. Follow us for more true crime and mystery stories.",
+    "hashtags": [
+      "#truecrime",
+      "#mystery",
+      "#maryceleste",
+      "#unsolved",
+      "#maritime",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Baffling Case of the Isabella Stewart Gardner Museum Heist",
+    "thumb": "GARDNER HEIST",
+    "place": "Boston",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "ART THEFT",
+        "query": "Isabella Stewart Gardner Museum",
+        "query2": "Boston museum",
+        "role": "hook",
+        "text": "13 artworks stolen"
+      },
+      {
+        "chips": [
+          {
+            "t": "1990",
+            "on": "year",
+            "style": "white"
+          },
+          {
+            "t": "13",
+            "on": "number of artworks stolen",
+            "style": "accent"
+          }
+        ],
+        "punch": "Heist",
+        "query": "vintage news headlines",
+        "query2": "museum security",
+        "role": "fact",
+        "text": "In 1990, two men disguised as police officers stole 13 works of art"
+      },
+      {
+        "archive_query": "Isabella Stewart Gardner Museum heist",
+        "archive_label": "Stolen Art",
+        "query": "Isabella Stewart Gardner Museum historic photos",
+        "query2": "museum art collection",
+        "role": "archive",
+        "text": "The thieves escaped with the artworks, leaving behind empty frames"
+      },
+      {
+        "label": "Unsolved",
+        "sub": "Still no recovery",
+        "label_on": "unsolved",
+        "query": "unsolved art thefts",
+        "query2": "famous heists",
+        "role": "callout",
+        "text": "The case remains one of the most famous unsolved art thefts in history"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Isabella Stewart Gardner Museum heist is one of the most infamous art thefts in history. Join us as we delve into the case. Follow us for more true crime and mystery stories.",
+    "hashtags": [
+      "#truecrime",
+      "#arttheft",
+      "#mystery",
+      "#unsolved",
+      "#boston",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

@@ -1,0 +1,67 @@
+{
+  "title": "The Mysterious Disappearance of the Beaumont Children",
+  "thumb": "BEAUMONT KIDS",
+  "place": "Glenelg Beach",
+  "country": "Australia",
+  "scenes": [
+    {
+      "hook_top": "DISAPPEARED FOREVER",
+      "query": "Glenelg Beach aerial view",
+      "query2": "Australian beach sunset",
+      "role": "hook",
+      "text": "3 kids vanish"
+    },
+    {
+      "chips": [
+        {
+          "t": "1966",
+          "on": "year",
+          "style": "white"
+        },
+        {
+          "t": "3",
+          "on": "number of siblings",
+          "style": "accent"
+        }
+      ],
+      "punch": "Vanished",
+      "query": "old newspaper headlines",
+      "query2": "vintage news clippings",
+      "role": "fact",
+      "text": "On January 26, 1966, three siblings disappeared"
+    },
+    {
+      "archive_query": "Glenelg Beach 1966",
+      "archive_label": "Search Party",
+      "query": "Glenelg Beach historic photos",
+      "query2": "Australian police archive",
+      "role": "archive",
+      "text": "The investigate team searched the beach"
+    },
+    {
+      "label": "Cold Case",
+      "sub": "Still a mystery",
+      "label_on": "unsolved",
+      "query": "cold case files",
+      "query2": "unsolved mystery books",
+      "role": "callout",
+      "text": "The case remains unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The disappearance of the Beaumont children is one of Australia's most enduring mysteries. Join us as we delve into the case. Follow us for more true crime stories.",
+  "hashtags": [
+    "#truecrime",
+    "#coldcase",
+    "#australia",
+    "#mystery",
+    "#unsolved",
+    "#shorts",
+    "#fyp"
+  ]
+}

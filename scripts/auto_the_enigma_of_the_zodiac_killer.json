@@ -1,64 +1,68 @@
 {
-  "title": "THE ENIGMA OF THE ZODIAC KILLER",
-  "thumb": "UNSOLVED ZODIAC MYSTERY",
+  "title": "The Enigma of the Zodiac Killer",
+  "thumb": "ZODIAC KILLER",
   "place": "San Francisco",
   "country": "USA",
   "scenes": [
     {
-      "hook_top": "FIVE UNSOLVED MURDERS",
-      "query": "San Francisco streets with Zodiac symbols",
-      "query2": "street signs in San Francisco",
+      "hook_top": "ZODIAC KILLER",
+      "query": "serial killer",
+      "query2": "crime scene tape",
       "role": "hook",
-      "text": "Five confirmed victims, yet the killer was never caught."
+      "text": "5 victims killed"
     },
     {
       "chips": [
         {
-          "t": "ciphers",
-          "on": "ciphers",
+          "t": "1960s",
+          "on": "decade",
           "style": "white"
-        }
-      ],
-      "query": "historical letters and ciphers",
-      "query2": "envelopes of old letters",
-      "role": "fact",
-      "text": "He sent taunting letters to the press, including ciphers."
-    },
-    {
-      "chips": [
+        },
         {
-          "t": "1974",
-          "on": "1974",
+          "t": "5",
+          "on": "victims",
           "style": "accent"
         }
       ],
-      "query": "vintage newspaper headlines",
-      "query2": "old newspapers",
+      "punch": "killed",
+      "query": "old newspaper",
+      "query2": "vintage police radio",
       "role": "fact",
-      "text": "The last confirmed letter was sent in 1974."
+      "text": "The Zodiac Killer sent cryptic letters to the police"
     },
     {
-      "reveal_top": "MYSTERY STILL UNSOLVED",
-      "query": "detectives working on cases",
-      "query2": "detective agencies at work",
-      "role": "reveal",
-      "text": "Despite extensive investigations, the identity is still unknown."
+      "archive_query": "Zodiac Killer letters",
+      "archive_label": "Zodiac Killer",
+      "query": "historic serial killers",
+      "query2": "old crime scene photos",
+      "role": "archive",
+      "text": "The Zodiac Killer was a serial killer"
     },
     {
-      "query": "true crime documentaries",
-      "query2": "crime story videos",
+      "label": "Zodiac Killer",
+      "sub": "unsolved case",
+      "label_on": "killer",
+      "query": "serial killer movie",
+      "query2": "crime documentary",
+      "role": "callout",
+      "text": "Who was the Zodiac Killer?"
+    },
+    {
       "role": "cta",
-      "text": "Follow for daily true crime mysteries."
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
     }
   ],
-  "description": "The Zodiac Killer remains one of the most infamous unsolved crimes in history. His story continues to intrigue and baffle investigators. Stay tuned for more true crime insights!",
+  "description": "The Zodiac Killer was a serial killer who terrorized the San Francisco area in the 1960s. The killer sent cryptic letters to the police, and the case remains unsolved. Follow us for more true crime stories. #truecrime #zodiackiller #serialkiller #unsolved",
   "hashtags": [
-    "#ZodiacKiller",
-    "#TrueCrime",
-    "#UnsolvedMystery",
-    "#FYP",
-    "#CrimeDocumentary",
-    "#Shorts",
-    "#Mystery"
+    "#truecrime",
+    "#zodiackiller",
+    "#serialkiller",
+    "#unsolved",
+    "#crime",
+    "#history",
+    "#shorts",
+    "#fyp"
   ]
 }
