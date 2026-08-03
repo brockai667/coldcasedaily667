@@ -1,0 +1,67 @@
+{
+  "title": "The Baffling Case of the Isabella Stewart Gardner Museum Heist",
+  "thumb": "GARDNER HEIST",
+  "place": "Boston",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "ART THEFT",
+      "query": "Isabella Stewart Gardner Museum",
+      "query2": "Boston museum",
+      "role": "hook",
+      "text": "13 artworks stolen"
+    },
+    {
+      "chips": [
+        {
+          "t": "1990",
+          "on": "year",
+          "style": "white"
+        },
+        {
+          "t": "13",
+          "on": "number of artworks stolen",
+          "style": "accent"
+        }
+      ],
+      "punch": "Heist",
+      "query": "vintage news headlines",
+      "query2": "museum security",
+      "role": "fact",
+      "text": "In 1990, two men disguised as police officers stole 13 works of art"
+    },
+    {
+      "archive_query": "Isabella Stewart Gardner Museum heist",
+      "archive_label": "Stolen Art",
+      "query": "Isabella Stewart Gardner Museum historic photos",
+      "query2": "museum art collection",
+      "role": "archive",
+      "text": "The thieves escaped with the artworks, leaving behind empty frames"
+    },
+    {
+      "label": "Unsolved",
+      "sub": "Still no recovery",
+      "label_on": "unsolved",
+      "query": "unsolved art thefts",
+      "query2": "famous heists",
+      "role": "callout",
+      "text": "The case remains one of the most famous unsolved art thefts in history"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Isabella Stewart Gardner Museum heist is one of the most infamous art thefts in history. Join us as we delve into the case. Follow us for more true crime and mystery stories.",
+  "hashtags": [
+    "#truecrime",
+    "#arttheft",
+    "#mystery",
+    "#unsolved",
+    "#boston",
+    "#shorts",
+    "#fyp"
+  ]
+}

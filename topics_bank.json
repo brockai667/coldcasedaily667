@@ -7698,5 +7698,180 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Baffling Case of the Philadelphia Experiment",
+    "thumb": "TIME TRAVEL",
+    "place": "Philadelphia Naval Shipyard",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "SHIP VANISHES",
+        "query": "Philadelphia Naval Shipyard stock footage",
+        "query2": "USS Eldridge archive photo",
+        "role": "hook",
+        "text": "1943 USS Eldridge disappears"
+      },
+      {
+        "chips": [
+          {
+            "t": "1943",
+            "on": "year",
+            "style": "white"
+          }
+        ],
+        "punch": "vanish",
+        "role": "fact",
+        "text": "The USS Eldridge was reportedly made invisible",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "USS Eldridge Philadelphia Naval Shipyard",
+        "archive_label": "USS Eldridge",
+        "role": "archive",
+        "text": "The USS Eldridge in dock before the experiment"
+      },
+      {
+        "label": "Mystery Solved",
+        "sub": "Find out",
+        "label_on": "mystery",
+        "role": "callout",
+        "text": "What really happened to the USS Eldridge?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Philadelphia Experiment is one of the most enduring unsolved mysteries in American history. What really happened to the USS Eldridge? Follow us for more unsolved mysteries. #shorts #mystery #PhiladelphiaExperiment",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#PhiladelphiaExperiment",
+      "#unsolved",
+      "#USSeldridge",
+      "#navy"
+    ]
+  },
+  {
+    "title": "The Mysterious Death of Albert Parsons",
+    "thumb": "HAYMARKET MYSTERY",
+    "place": "Haymarket Square",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "BOMB EXPLODES",
+        "query": "Haymarket Square riot stock footage",
+        "query2": "Haymarket Square archive photo",
+        "role": "hook",
+        "text": "4 dead in Haymarket Square"
+      },
+      {
+        "chips": [
+          {
+            "t": "4",
+            "on": "number",
+            "style": "accent"
+          }
+        ],
+        "punch": "executed",
+        "role": "fact",
+        "text": "The Haymarket affair led to the execution of 4 men",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Haymarket Square riot",
+        "archive_label": "Haymarket Riot",
+        "role": "archive",
+        "text": "The Haymarket Square riot in 1886"
+      },
+      {
+        "label": "Justice Served",
+        "sub": "Or not?",
+        "label_on": "justice",
+        "role": "callout",
+        "text": "Was Albert Parsons wrongly accused?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Haymarket affair is one of the most infamous events in American history. Was Albert Parsons wrongly accused? Follow us for more true crime stories. #shorts #truecrime #HaymarketAffair",
+    "hashtags": [
+      "#shorts",
+      "#truecrime",
+      "#HaymarketAffair",
+      "#AlbertParsons",
+      "#mystery"
+    ]
+  },
+  {
+    "title": "The Legend of the Beale Code",
+    "thumb": "LOST TREASURE",
+    "place": "Bedford County",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "GOLD RUSH",
+        "query": "Bedford County Virginia stock footage",
+        "query2": "Beale Code archive photo",
+        "role": "hook",
+        "text": "3 million dollars hidden in Virginia"
+      },
+      {
+        "chips": [
+          {
+            "t": "3",
+            "on": "number",
+            "style": "white"
+          }
+        ],
+        "punch": "codes",
+        "role": "fact",
+        "text": "The Beale Code is a set of 3 cryptograms",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Beale Code document",
+        "archive_label": "Beale Code",
+        "role": "archive",
+        "text": "The original Beale Code document"
+      },
+      {
+        "label": "Solve It",
+        "sub": "Good luck",
+        "label_on": "solve",
+        "role": "callout",
+        "text": "Can you crack the Beale Code?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Beale Code is one of the most enduring treasure hunts in American history. Can you crack the code? Follow us for more treasure hunts. #shorts #treasurehunt #BealeCode",
+    "hashtags": [
+      "#shorts",
+      "#treasurehunt",
+      "#BealeCode",
+      "#cryptography",
+      "#mystery"
+    ]
   }
 ]

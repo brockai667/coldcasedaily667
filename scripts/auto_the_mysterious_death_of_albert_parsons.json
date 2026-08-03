@@ -1,0 +1,58 @@
+{
+  "title": "The Mysterious Death of Albert Parsons",
+  "thumb": "HAYMARKET MYSTERY",
+  "place": "Haymarket Square",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "BOMB EXPLODES",
+      "query": "Haymarket Square riot stock footage",
+      "query2": "Haymarket Square archive photo",
+      "role": "hook",
+      "text": "4 dead in Haymarket Square"
+    },
+    {
+      "chips": [
+        {
+          "t": "4",
+          "on": "number",
+          "style": "accent"
+        }
+      ],
+      "punch": "executed",
+      "role": "fact",
+      "text": "The Haymarket affair led to the execution of 4 men",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Haymarket Square riot",
+      "archive_label": "Haymarket Riot",
+      "role": "archive",
+      "text": "The Haymarket Square riot in 1886"
+    },
+    {
+      "label": "Justice Served",
+      "sub": "Or not?",
+      "label_on": "justice",
+      "role": "callout",
+      "text": "Was Albert Parsons wrongly accused?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Haymarket affair is one of the most infamous events in American history. Was Albert Parsons wrongly accused? Follow us for more true crime stories. #shorts #truecrime #HaymarketAffair",
+  "hashtags": [
+    "#shorts",
+    "#truecrime",
+    "#HaymarketAffair",
+    "#AlbertParsons",
+    "#mystery"
+  ]
+}

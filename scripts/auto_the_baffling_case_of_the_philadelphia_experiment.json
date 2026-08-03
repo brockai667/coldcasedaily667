@@ -1,0 +1,59 @@
+{
+  "title": "The Baffling Case of the Philadelphia Experiment",
+  "thumb": "TIME TRAVEL",
+  "place": "Philadelphia Naval Shipyard",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "SHIP VANISHES",
+      "query": "Philadelphia Naval Shipyard stock footage",
+      "query2": "USS Eldridge archive photo",
+      "role": "hook",
+      "text": "1943 USS Eldridge disappears"
+    },
+    {
+      "chips": [
+        {
+          "t": "1943",
+          "on": "year",
+          "style": "white"
+        }
+      ],
+      "punch": "vanish",
+      "role": "fact",
+      "text": "The USS Eldridge was reportedly made invisible",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "USS Eldridge Philadelphia Naval Shipyard",
+      "archive_label": "USS Eldridge",
+      "role": "archive",
+      "text": "The USS Eldridge in dock before the experiment"
+    },
+    {
+      "label": "Mystery Solved",
+      "sub": "Find out",
+      "label_on": "mystery",
+      "role": "callout",
+      "text": "What really happened to the USS Eldridge?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Philadelphia Experiment is one of the most enduring unsolved mysteries in American history. What really happened to the USS Eldridge? Follow us for more unsolved mysteries. #shorts #mystery #PhiladelphiaExperiment",
+  "hashtags": [
+    "#shorts",
+    "#mystery",
+    "#PhiladelphiaExperiment",
+    "#unsolved",
+    "#USSeldridge",
+    "#navy"
+  ]
+}
