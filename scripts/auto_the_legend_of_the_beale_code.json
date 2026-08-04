@@ -1,0 +1,58 @@
+{
+  "title": "The Legend of the Beale Code",
+  "thumb": "LOST TREASURE",
+  "place": "Bedford County",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "GOLD RUSH",
+      "query": "Bedford County Virginia stock footage",
+      "query2": "Beale Code archive photo",
+      "role": "hook",
+      "text": "3 million dollars hidden in Virginia"
+    },
+    {
+      "chips": [
+        {
+          "t": "3",
+          "on": "number",
+          "style": "white"
+        }
+      ],
+      "punch": "codes",
+      "role": "fact",
+      "text": "The Beale Code is a set of 3 cryptograms",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Beale Code document",
+      "archive_label": "Beale Code",
+      "role": "archive",
+      "text": "The original Beale Code document"
+    },
+    {
+      "label": "Solve It",
+      "sub": "Good luck",
+      "label_on": "solve",
+      "role": "callout",
+      "text": "Can you crack the Beale Code?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Beale Code is one of the most enduring treasure hunts in American history. Can you crack the code? Follow us for more treasure hunts. #shorts #treasurehunt #BealeCode",
+  "hashtags": [
+    "#shorts",
+    "#treasurehunt",
+    "#BealeCode",
+    "#cryptography",
+    "#mystery"
+  ]
+}

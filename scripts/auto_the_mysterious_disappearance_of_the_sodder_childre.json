@@ -1,62 +1,62 @@
 {
-  "title": "The Mysterious Disappearance of the Sodder Children",
-  "thumb": "SODDER CHILDREN MYSTERY",
-  "place": "Fayetteville, West Virginia",
+  "title": "**The Mysterious Disappearance of the Sodder Children**",
+  "thumb": "SODDER CHILDREN",
+  "place": "Fayetteville",
   "country": "USA",
   "scenes": [
     {
-      "hook_top": "FIVE CHILDREN VANISHED",
-      "query": "Fayetteville 1945 Christmas Eve fire",
-      "query2": "historical images of Fayetteville fire",
+      "hook_top": "5 KIDS GONE",
+      "query": "mysterious disappearance scene",
+      "query2": "abandoned house",
       "role": "hook",
-      "text": "Five children vanished on Christmas Eve 1945."
+      "text": "5 children vanished"
     },
     {
       "chips": [
         {
-          "t": "NO BODIES FOUND",
-          "on": "found",
+          "t": "1945",
+          "on": "nineteen forty-five",
           "style": "white"
         }
       ],
-      "query": "burned house aftermath historical",
-      "query2": "Fayetteville fire damage",
+      "punch": "destroyed",
+      "query": "burning house",
+      "query2": "firefighters at work",
       "role": "fact",
-      "text": "The family's home burned to the ground, but no bodies were found."
+      "text": "On Christmas Eve, 1945, a fire destroyed the Sodder family home"
     },
     {
-      "chips": [
-        {
-          "t": "MYSTERIOUS LETTERS",
-          "on": "letters",
-          "style": "accent"
-        }
-      ],
-      "query": "mysterious letters children alive",
-      "query2": "letters from unknown sender",
-      "role": "fact",
-      "text": "The parents received mysterious letters over the years, suggesting the children were alive."
+      "archive_query": "Sodder family home fire",
+      "archive_label": "Sodder Home",
+      "query": "historical fire scene",
+      "query2": "old house remains",
+      "role": "archive",
+      "text": "The Sodder family home after the fire"
     },
     {
-      "reveal_top": "CASE REMAINS UNSOLVED",
-      "query": "unsolved mystery symbols",
-      "query2": "mystery and uncertainty",
-      "role": "reveal",
-      "text": "The case remains unsolved to this day!"
+      "label": "Unsolved Mystery",
+      "sub": "still no answers",
+      "label_on": "unsolved",
+      "query": "crime scene investigation",
+      "query2": "detectives discussing",
+      "role": "callout",
+      "text": "Theories abound, but what really happened?"
     },
     {
-      "query": "mystery documentary teaser",
-      "query2": "engaging documentary clip",
       "role": "cta",
-      "text": "Follow because some cases still need answers."
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
     }
   ],
-  "description": "The tragic story of the Sodder children haunts many, with no answers in sight. Could they still be alive? Follow us for more intriguing mysteries! ",
+  "description": "The Sodder children disappearance is one of the most enduring unsolved mysteries in American history. On Christmas Eve, 1945, a fire destroyed the Sodder family home, and five of the nine children were never found. Theories abound, but what really happened? Follow us for more true crime stories.",
   "hashtags": [
+    "#truecrime",
+    "#unsolvedmystery",
     "#SodderChildren",
-    "#TrueCrime",
-    "#Mystery",
-    "#Unsolved",
+    "#mystery",
+    "#crime",
+    "#history",
     "#shorts",
     "#fyp"
   ]

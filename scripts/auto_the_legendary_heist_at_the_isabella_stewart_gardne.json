@@ -1,0 +1,64 @@
+{
+  "title": "**The Legendary Heist at the Isabella Stewart Gardner Museum**",
+  "thumb": "GARDNER HEIST",
+  "place": "Boston",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "13 MASTERPIECES",
+      "query": "museum heist scene",
+      "query2": "art gallery",
+      "role": "hook",
+      "text": "13 works of art stolen"
+    },
+    {
+      "chips": [
+        {
+          "t": "1990",
+          "on": "nineteen ninety",
+          "style": "white"
+        }
+      ],
+      "punch": "disguised",
+      "query": "police officers at work",
+      "query2": "museum security",
+      "role": "fact",
+      "text": "The heist occurred on March 18, 1990, and the thieves disguised themselves as police officers"
+    },
+    {
+      "archive_query": "Isabella Stewart Gardner Museum",
+      "archive_label": "Gardner Museum",
+      "query": "historical museum scene",
+      "query2": "old building",
+      "role": "archive",
+      "text": "The Isabella Stewart Gardner Museum"
+    },
+    {
+      "label": "Unsolved Heist",
+      "sub": "still no recovery",
+      "label_on": "unsolved",
+      "query": "crime scene investigation",
+      "query2": "detectives discussing",
+      "role": "callout",
+      "text": "The case remains unsolved, but theories persist"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Isabella Stewart Gardner Museum heist is one of the most famous art thefts in history. On March 18, 1990, 13 works of art were stolen, and the case remains unsolved. Theories persist, but what really happened? Follow us for more true crime stories.",
+  "hashtags": [
+    "#truecrime",
+    "#unsolvedheist",
+    "#GardnerMuseum",
+    "#arttheft",
+    "#mystery",
+    "#crime",
+    "#history",
+    "#shorts",
+    "#fyp"
+  ]
+}
