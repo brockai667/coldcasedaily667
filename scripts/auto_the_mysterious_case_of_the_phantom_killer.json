@@ -1,0 +1,62 @@
+{
+  "title": "**The Mysterious Case of the Phantom Killer**",
+  "thumb": "PHANTOM KILLER",
+  "place": "Texarkana",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "PHANTOM KILLER",
+      "query": "dark woods at night",
+      "query2": "abandoned roads",
+      "role": "hook",
+      "text": "5 attacks in 3 months"
+    },
+    {
+      "chips": [
+        {
+          "t": "5",
+          "on": "attacks",
+          "style": "accent"
+        }
+      ],
+      "punch": "unsolved",
+      "query": "police investigation files",
+      "query2": "crime scene tapes",
+      "role": "fact",
+      "text": "The killer was never caught"
+    },
+    {
+      "archive_query": "Texarkana Gazette front page 1946",
+      "archive_label": "Phantom Killer",
+      "query": "vintage newspaper archives",
+      "query2": "historic news headlines",
+      "role": "archive",
+      "text": "The Texarkana Gazette front page"
+    },
+    {
+      "label": "Unsolved Mystery",
+      "sub": "still haunting",
+      "label_on": "twist",
+      "query": "mysterious figure silhouettes",
+      "query2": "unsolved crime question marks",
+      "role": "callout",
+      "text": "What drove the Phantom Killer?"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Phantom Killer struck fear into the hearts of Texarkana residents in 1946. With 5 attacks in 3 months, the killer was never caught. What drove this notorious figure? Follow for more true crime stories. #truecrime #unsolvedmystery #phantomkiller",
+  "hashtags": [
+    "#truecrime",
+    "#unsolvedmystery",
+    "#phantomkiller",
+    "#texarkana",
+    "#usa",
+    "#shorts",
+    "#fyp"
+  ]
+}

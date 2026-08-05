@@ -1,0 +1,62 @@
+{
+  "title": "**The Bizarre Disappearance of the Martin Family**",
+  "thumb": "MARTIN FAMILY",
+  "place": "Portland",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "VANISHED",
+      "query": "abandoned family homes",
+      "query2": "deserted streets",
+      "role": "hook",
+      "text": "4 family members vanished"
+    },
+    {
+      "chips": [
+        {
+          "t": "1958",
+          "on": "year",
+          "style": "accent"
+        }
+      ],
+      "punch": "baffling",
+      "query": "police search parties",
+      "query2": "missing person posters",
+      "role": "fact",
+      "text": "No bodies were ever found"
+    },
+    {
+      "archive_query": "Portland Oregonian front page 1958",
+      "archive_label": "Martin Family",
+      "query": "vintage newspaper archives",
+      "query2": "historic news headlines",
+      "role": "archive",
+      "text": "The Portland Oregonian front page"
+    },
+    {
+      "label": "Unsolved Disappearance",
+      "sub": "still unknown",
+      "label_on": "twist",
+      "query": "mysterious figures in shadows",
+      "query2": "unsolved crime question marks",
+      "role": "callout",
+      "text": "What happened to the Martin Family?"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Martin Family disappearance is a baffling mystery. 4 family members vanished in 1958, leaving no clues behind. What happened to the Martin Family? Follow for more true crime stories. #truecrime #martinfamily #unsolveddisappearance",
+  "hashtags": [
+    "#truecrime",
+    "#martinfamily",
+    "#unsolveddisappearance",
+    "#portland",
+    "#usa",
+    "#shorts",
+    "#fyp"
+  ]
+}

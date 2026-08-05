@@ -1,0 +1,63 @@
+{
+  "title": "**The Baffling Disappearance of Amelia Earhart**",
+  "thumb": "EARHART LOST",
+  "place": "Pacific Ocean",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "EARHART GONE",
+      "query": "historical airplane scene",
+      "query2": "old airport",
+      "role": "hook",
+      "text": "Amelia Earhart vanished"
+    },
+    {
+      "chips": [
+        {
+          "t": "1937",
+          "on": "nineteen thirty-seven",
+          "style": "white"
+        }
+      ],
+      "punch": "disappeared",
+      "query": "old airplane flying",
+      "query2": "pacific ocean",
+      "role": "fact",
+      "text": "On July 2, 1937, Earhart's Lockheed Electra 10E disappeared over the Pacific Ocean"
+    },
+    {
+      "archive_query": "Amelia Earhart Lockheed Electra 10E",
+      "archive_label": "Earhart's Plane",
+      "query": "historical airplane scene",
+      "query2": "old aircraft",
+      "role": "archive",
+      "text": "Amelia Earhart's Lockheed Electra 10E"
+    },
+    {
+      "label": "Unsolved Mystery",
+      "sub": "still no answers",
+      "label_on": "unsolved",
+      "query": "crime scene investigation",
+      "query2": "detectives discussing",
+      "role": "callout",
+      "text": "Theories abound, but what really happened to Earhart?"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "Amelia Earhart's disappearance is one of the most enduring unsolved mysteries in history. On July 2, 1937, Earhart's Lockheed Electra 10E disappeared over the Pacific Ocean, and despite numerous theories, what really happened remains a mystery. Follow us for more true crime stories.",
+  "hashtags": [
+    "#truecrime",
+    "#unsolvedmystery",
+    "#AmeliaEarhart",
+    "#aviation",
+    "#mystery",
+    "#history",
+    "#shorts",
+    "#fyp"
+  ]
+}
