@@ -1,0 +1,64 @@
+{
+  "title": "**The Antwerp Diamond Heist**",
+  "thumb": "DIAMOND HEIST",
+  "place": "Antwerp",
+  "country": "Belgium",
+  "scenes": [
+    {
+      "hook_top": "BIG DIAMOND HEIST",
+      "query": "Antwerp diamond district",
+      "query2": "diamonds",
+      "role": "hook",
+      "text": "2003: $100 million diamonds stolen"
+    },
+    {
+      "chips": [
+        {
+          "t": "100M",
+          "on": "value",
+          "style": "accent"
+        }
+      ],
+      "punch": "diamonds",
+      "query": "diamond exchange",
+      "query2": "thieves",
+      "role": "fact",
+      "text": "The heist was carried out by a group of professional thieves"
+    },
+    {
+      "archive_query": "Antwerp diamond district",
+      "archive_label": "Diamond District",
+      "query": "historic diamond districts",
+      "query2": "diamond markets",
+      "role": "archive",
+      "text": "The Antwerp Diamond District"
+    },
+    {
+      "label": "MYSTERY",
+      "sub": "Antwerp",
+      "label_on": "mystery",
+      "query": "crime scene investigation",
+      "query2": "diamond heist",
+      "role": "callout",
+      "text": "One of the largest diamond heists in history remains a mystery"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Antwerp Diamond Heist was a massive heist that took place in 2003. The thieves stole an estimated $100 million worth of diamonds from a vault in Antwerp's diamond district. Follow for more true crime stories.",
+  "hashtags": [
+    "#truecrime",
+    "#heist",
+    "#antwerp",
+    "#diamondheist",
+    "#mystery",
+    "#crime",
+    "#belgium",
+    "#shorts",
+    "#fyp"
+  ]
+}

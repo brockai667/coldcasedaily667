@@ -1,0 +1,64 @@
+{
+  "title": "**The Great Northern Bank Robbery**",
+  "thumb": "NORTHERN BANK",
+  "place": "Belfast",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "hook_top": "BIGGEST HEIST",
+      "query": "Northern Bank Belfast",
+      "query2": "Belfast cityscape",
+      "role": "hook",
+      "text": "2004: $50 million stolen"
+    },
+    {
+      "chips": [
+        {
+          "t": "2004",
+          "on": "year",
+          "style": "white"
+        }
+      ],
+      "punch": "stolen",
+      "query": "bank vault",
+      "query2": "money stacks",
+      "role": "fact",
+      "text": "The heist was carried out by stealing bank executives' families"
+    },
+    {
+      "archive_query": "Northern Bank Belfast",
+      "archive_label": "Northern Bank",
+      "query": "historic bank buildings",
+      "query2": "old banks",
+      "role": "archive",
+      "text": "The Northern Bank in Belfast"
+    },
+    {
+      "label": "UNSOLVED",
+      "sub": "Northern Bank",
+      "label_on": "unsolved",
+      "query": "crime scene tape",
+      "query2": "police investigation",
+      "role": "callout",
+      "text": "One of the largest heists in UK history remains unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Great Northern Bank Robbery was a massive heist that took place in 2004. The robbers stole an estimated $50 million from the Northern Bank in Belfast, making it one of the largest heists in UK history. Follow for more true crime stories.",
+  "hashtags": [
+    "#truecrime",
+    "#heist",
+    "#belfast",
+    "#northernbank",
+    "#unsolved",
+    "#crime",
+    "#uk",
+    "#shorts",
+    "#fyp"
+  ]
+}

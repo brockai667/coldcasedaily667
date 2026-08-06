@@ -8249,5 +8249,197 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "**The Great Northern Bank Robbery**",
+    "thumb": "NORTHERN BANK",
+    "place": "Belfast",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "hook_top": "BIGGEST HEIST",
+        "query": "Northern Bank Belfast",
+        "query2": "Belfast cityscape",
+        "role": "hook",
+        "text": "2004: $50 million stolen"
+      },
+      {
+        "chips": [
+          {
+            "t": "2004",
+            "on": "year",
+            "style": "white"
+          }
+        ],
+        "punch": "stolen",
+        "query": "bank vault",
+        "query2": "money stacks",
+        "role": "fact",
+        "text": "The heist was carried out by stealing bank executives' families"
+      },
+      {
+        "archive_query": "Northern Bank Belfast",
+        "archive_label": "Northern Bank",
+        "query": "historic bank buildings",
+        "query2": "old banks",
+        "role": "archive",
+        "text": "The Northern Bank in Belfast"
+      },
+      {
+        "label": "UNSOLVED",
+        "sub": "Northern Bank",
+        "label_on": "unsolved",
+        "query": "crime scene tape",
+        "query2": "police investigation",
+        "role": "callout",
+        "text": "One of the largest heists in UK history remains unsolved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Great Northern Bank Robbery was a massive heist that took place in 2004. The robbers stole an estimated $50 million from the Northern Bank in Belfast, making it one of the largest heists in UK history. Follow for more true crime stories.",
+    "hashtags": [
+      "#truecrime",
+      "#heist",
+      "#belfast",
+      "#northernbank",
+      "#unsolved",
+      "#crime",
+      "#uk",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Antwerp Diamond Heist**",
+    "thumb": "DIAMOND HEIST",
+    "place": "Antwerp",
+    "country": "Belgium",
+    "scenes": [
+      {
+        "hook_top": "BIG DIAMOND HEIST",
+        "query": "Antwerp diamond district",
+        "query2": "diamonds",
+        "role": "hook",
+        "text": "2003: $100 million diamonds stolen"
+      },
+      {
+        "chips": [
+          {
+            "t": "100M",
+            "on": "value",
+            "style": "accent"
+          }
+        ],
+        "punch": "diamonds",
+        "query": "diamond exchange",
+        "query2": "thieves",
+        "role": "fact",
+        "text": "The heist was carried out by a group of professional thieves"
+      },
+      {
+        "archive_query": "Antwerp diamond district",
+        "archive_label": "Diamond District",
+        "query": "historic diamond districts",
+        "query2": "diamond markets",
+        "role": "archive",
+        "text": "The Antwerp Diamond District"
+      },
+      {
+        "label": "MYSTERY",
+        "sub": "Antwerp",
+        "label_on": "mystery",
+        "query": "crime scene investigation",
+        "query2": "diamond heist",
+        "role": "callout",
+        "text": "One of the largest diamond heists in history remains a mystery"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Antwerp Diamond Heist was a massive heist that took place in 2003. The thieves stole an estimated $100 million worth of diamonds from a vault in Antwerp's diamond district. Follow for more true crime stories.",
+    "hashtags": [
+      "#truecrime",
+      "#heist",
+      "#antwerp",
+      "#diamondheist",
+      "#mystery",
+      "#crime",
+      "#belgium",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Banco Central Burglary**",
+    "thumb": "BANCO CENTRAL",
+    "place": "Fortaleza",
+    "country": "Brazil",
+    "scenes": [
+      {
+        "hook_top": "BIG BANK HEIST",
+        "query": "Banco Central Fortaleza",
+        "query2": "Fortaleza cityscape",
+        "role": "hook",
+        "text": "2005: $100 million stolen"
+      },
+      {
+        "chips": [
+          {
+            "t": "250ft",
+            "on": "tunnel length",
+            "style": "white"
+          }
+        ],
+        "punch": "tunnel",
+        "query": "bank vault tunnel",
+        "query2": "heist tunnel",
+        "role": "fact",
+        "text": "The heist was carried out by digging a 250-foot tunnel"
+      },
+      {
+        "archive_query": "Banco Central Fortaleza",
+        "archive_label": "Banco Central",
+        "query": "historic bank buildings",
+        "query2": "old banks",
+        "role": "archive",
+        "text": "The Banco Central in Fortaleza"
+      },
+      {
+        "label": "DARING",
+        "sub": "Banco Central",
+        "label_on": "daring",
+        "query": "crime scene investigation",
+        "query2": "bank heist",
+        "role": "callout",
+        "text": "One of the most daring heists in history remains unsolved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Banco Central Burglary was a massive heist that took place in 2005. The thieves stole an estimated $100 million from the Banco Central in Fortaleza, Brazil. Follow for more true crime stories.",
+    "hashtags": [
+      "#truecrime",
+      "#heist",
+      "#bancocentral",
+      "#fortaleza",
+      "#brazil",
+      "#daring",
+      "#crime",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

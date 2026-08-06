@@ -1,0 +1,62 @@
+{
+  "title": "**The Legend of the Black Dahlia Murder**",
+  "thumb": "BLACK DAHLIA",
+  "place": "Los Angeles",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "BLACK DAHLIA",
+      "query": "1940s Los Angeles streets",
+      "query2": "vintage crime scenes",
+      "role": "hook",
+      "text": "Elizabeth Short's brutal murder"
+    },
+    {
+      "chips": [
+        {
+          "t": "1947",
+          "on": "year",
+          "style": "white"
+        }
+      ],
+      "punch": "cold case",
+      "query": "police evidence bags",
+      "query2": "investigation notes",
+      "role": "fact",
+      "text": "The case remains unsolved"
+    },
+    {
+      "archive_query": "Los Angeles Examiner front page 1947",
+      "archive_label": "Black Dahlia",
+      "query": "historic newspaper archives",
+      "query2": "vintage news headlines",
+      "role": "archive",
+      "text": "The Los Angeles Examiner front page"
+    },
+    {
+      "label": "Unsolved Crime",
+      "sub": "still puzzling",
+      "label_on": "mystery",
+      "query": "mysterious figures in shadows",
+      "query2": "unsolved crime question marks",
+      "role": "callout",
+      "text": "Who killed the Black Dahlia?"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Black Dahlia murder is one of the most infamous unsolved crimes in history. Elizabeth Short's brutal murder in 1947 remains a mystery. Who killed the Black Dahlia? Follow for more true crime stories. #truecrime #blackdahlia #unsolvedmystery",
+  "hashtags": [
+    "#truecrime",
+    "#blackdahlia",
+    "#unsolvedmystery",
+    "#losangeles",
+    "#usa",
+    "#shorts",
+    "#fyp"
+  ]
+}
