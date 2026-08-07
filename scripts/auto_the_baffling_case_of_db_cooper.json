@@ -1,0 +1,60 @@
+{
+  "title": "**The Baffling Case of DB Cooper**",
+  "thumb": "DB COOPER",
+  "place": "Seattle",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "PLANE HIJACK",
+      "query": "Airplane taking off at night",
+      "query2": "Parachute deployment",
+      "role": "hook",
+      "text": "1 man jumped from a plane"
+    },
+    {
+      "chips": [
+        {
+          "t": "1 man",
+          "on": "hijacked",
+          "style": "accent"
+        }
+      ],
+      "punch": "Jumped!",
+      "role": "fact",
+      "text": "Cooper escaped with $200,000",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Boeing 727 aircraft interior",
+      "archive_label": "Boeing 727",
+      "role": "archive",
+      "text": "The Boeing 727 aircraft"
+    },
+    {
+      "label": "Mystery Man",
+      "sub": "Unsolved case",
+      "label_on": "still",
+      "role": "callout",
+      "text": "Was DB Cooper ever caught?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "Uncover the fascinating story of DB Cooper, the man who hijacked a plane and jumped out with a ransom, never to be seen again. One of the most baffling cases in true crime history, DB Cooper's identity remains a mystery. Follow us for more intriguing true crime stories. #DBCooter #TrueCrime #Mystery #Seattle #USA",
+  "hashtags": [
+    "#DBCooter",
+    "#TrueCrime",
+    "#Mystery",
+    "#Seattle",
+    "#USA",
+    "#shorts",
+    "#fyp"
+  ]
+}

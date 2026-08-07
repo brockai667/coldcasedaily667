@@ -8441,5 +8441,185 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "**The Great Brink's Robbery**",
+    "thumb": "GREAT BRINK'S",
+    "place": "Boston",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "BIGGEST HEIST",
+        "query": "Boston streets at night",
+        "query2": "Old bank vault",
+        "role": "hook",
+        "text": "13 men stole $2.7 million"
+      },
+      {
+        "chips": [
+          {
+            "t": "$2.7M",
+            "on": "stolen",
+            "style": "white"
+          }
+        ],
+        "punch": "Bingo!",
+        "role": "fact",
+        "text": "The gang used copied keys to access the vault",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Brink's Armored Car depot Boston",
+        "archive_label": "Brink's Depot",
+        "role": "archive",
+        "text": "The Brink's Armored Car depot"
+      },
+      {
+        "label": "Missed Chance",
+        "sub": "Security flaws",
+        "label_on": "what if",
+        "role": "callout",
+        "text": "Could the heist have been prevented?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "Discover the shocking details of the Great Brink's Robbery, one of the most infamous heists in American history. A gang of 13 men stole $2.7 million in cash, making it one of the biggest robberies of its time. Follow us for more thrilling true crime stories. #TheGreatBrinksRobbery #TrueCrime #Heist #Boston #USA",
+    "hashtags": [
+      "#TheGreatBrinksRobbery",
+      "#TrueCrime",
+      "#Heist",
+      "#Boston",
+      "#USA",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Baffling Case of DB Cooper**",
+    "thumb": "DB COOPER",
+    "place": "Seattle",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "PLANE HIJACK",
+        "query": "Airplane taking off at night",
+        "query2": "Parachute deployment",
+        "role": "hook",
+        "text": "1 man jumped from a plane"
+      },
+      {
+        "chips": [
+          {
+            "t": "1 man",
+            "on": "hijacked",
+            "style": "accent"
+          }
+        ],
+        "punch": "Jumped!",
+        "role": "fact",
+        "text": "Cooper escaped with $200,000",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Boeing 727 aircraft interior",
+        "archive_label": "Boeing 727",
+        "role": "archive",
+        "text": "The Boeing 727 aircraft"
+      },
+      {
+        "label": "Mystery Man",
+        "sub": "Unsolved case",
+        "label_on": "still",
+        "role": "callout",
+        "text": "Was DB Cooper ever caught?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "Uncover the fascinating story of DB Cooper, the man who hijacked a plane and jumped out with a ransom, never to be seen again. One of the most baffling cases in true crime history, DB Cooper's identity remains a mystery. Follow us for more intriguing true crime stories. #DBCooter #TrueCrime #Mystery #Seattle #USA",
+    "hashtags": [
+      "#DBCooter",
+      "#TrueCrime",
+      "#Mystery",
+      "#Seattle",
+      "#USA",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Legend of the Mary Celeste**",
+    "thumb": "MARY CELESTE",
+    "place": "Atlantic Ocean",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "GHOST SHIP",
+        "query": "Abandoned ship at sea",
+        "query2": "Mysterious ocean",
+        "role": "hook",
+        "text": "1 ship found abandoned"
+      },
+      {
+        "chips": [
+          {
+            "t": "11 crew",
+            "on": "vanished",
+            "style": "white"
+          }
+        ],
+        "punch": "Vanished!",
+        "role": "fact",
+        "text": "No signs of foul play or natural disaster",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Mary Celeste ship",
+        "archive_label": "Mary Celeste",
+        "role": "archive",
+        "text": "The Mary Celeste ship"
+      },
+      {
+        "label": "Unexplained",
+        "sub": "No clues",
+        "label_on": "still",
+        "role": "callout",
+        "text": "What could have caused the crew to abandon ship?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "Explore the enduring mystery of the Mary Celeste, the ship found adrift in the Atlantic Ocean with no crew on board. The legend of the Mary Celeste has captivated people for centuries, and its unsolved mystery remains one of the most fascinating in true crime history. Follow us for more intriguing true crime stories. #MaryCeleste #TrueCrime #Mystery #AtlanticOcean #USA",
+    "hashtags": [
+      "#MaryCeleste",
+      "#TrueCrime",
+      "#Mystery",
+      "#AtlanticOcean",
+      "#USA",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

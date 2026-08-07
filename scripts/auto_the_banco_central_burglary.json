@@ -1,0 +1,64 @@
+{
+  "title": "**The Banco Central Burglary**",
+  "thumb": "BANCO CENTRAL",
+  "place": "Fortaleza",
+  "country": "Brazil",
+  "scenes": [
+    {
+      "hook_top": "BIG BANK HEIST",
+      "query": "Banco Central Fortaleza",
+      "query2": "Fortaleza cityscape",
+      "role": "hook",
+      "text": "2005: $100 million stolen"
+    },
+    {
+      "chips": [
+        {
+          "t": "250ft",
+          "on": "tunnel length",
+          "style": "white"
+        }
+      ],
+      "punch": "tunnel",
+      "query": "bank vault tunnel",
+      "query2": "heist tunnel",
+      "role": "fact",
+      "text": "The heist was carried out by digging a 250-foot tunnel"
+    },
+    {
+      "archive_query": "Banco Central Fortaleza",
+      "archive_label": "Banco Central",
+      "query": "historic bank buildings",
+      "query2": "old banks",
+      "role": "archive",
+      "text": "The Banco Central in Fortaleza"
+    },
+    {
+      "label": "DARING",
+      "sub": "Banco Central",
+      "label_on": "daring",
+      "query": "crime scene investigation",
+      "query2": "bank heist",
+      "role": "callout",
+      "text": "One of the most daring heists in history remains unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Banco Central Burglary was a massive heist that took place in 2005. The thieves stole an estimated $100 million from the Banco Central in Fortaleza, Brazil. Follow for more true crime stories.",
+  "hashtags": [
+    "#truecrime",
+    "#heist",
+    "#bancocentral",
+    "#fortaleza",
+    "#brazil",
+    "#daring",
+    "#crime",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "**The Great Brink's Robbery**",
+  "thumb": "GREAT BRINK'S",
+  "place": "Boston",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "BIGGEST HEIST",
+      "query": "Boston streets at night",
+      "query2": "Old bank vault",
+      "role": "hook",
+      "text": "13 men stole $2.7 million"
+    },
+    {
+      "chips": [
+        {
+          "t": "$2.7M",
+          "on": "stolen",
+          "style": "white"
+        }
+      ],
+      "punch": "Bingo!",
+      "role": "fact",
+      "text": "The gang used copied keys to access the vault",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Brink's Armored Car depot Boston",
+      "archive_label": "Brink's Depot",
+      "role": "archive",
+      "text": "The Brink's Armored Car depot"
+    },
+    {
+      "label": "Missed Chance",
+      "sub": "Security flaws",
+      "label_on": "what if",
+      "role": "callout",
+      "text": "Could the heist have been prevented?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "Discover the shocking details of the Great Brink's Robbery, one of the most infamous heists in American history. A gang of 13 men stole $2.7 million in cash, making it one of the biggest robberies of its time. Follow us for more thrilling true crime stories. #TheGreatBrinksRobbery #TrueCrime #Heist #Boston #USA",
+  "hashtags": [
+    "#TheGreatBrinksRobbery",
+    "#TrueCrime",
+    "#Heist",
+    "#Boston",
+    "#USA",
+    "#shorts",
+    "#fyp"
+  ]
+}
