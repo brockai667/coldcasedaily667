@@ -1,66 +1,59 @@
 {
-  "title": "The Legend of the Mary Celeste",
+  "title": "**The Legend of the Mary Celeste**",
   "thumb": "MARY CELESTE",
   "place": "Atlantic Ocean",
   "country": "USA",
   "scenes": [
     {
-      "hook_top": "ABANDONED SHIP",
-      "query": "Mary Celeste shipwreck",
-      "query2": "-abandoned sailing ships",
+      "hook_top": "GHOST SHIP",
+      "query": "Abandoned ship at sea",
+      "query2": "Mysterious ocean",
       "role": "hook",
-      "text": "7 crew members gone"
+      "text": "1 ship found abandoned"
     },
     {
       "chips": [
         {
-          "t": "1872",
-          "on": "year",
+          "t": "11 crew",
+          "on": "vanished",
           "style": "white"
-        },
-        {
-          "t": "7",
-          "on": "number of crew members",
-          "style": "accent"
         }
       ],
-      "punch": "Mystery",
-      "query": "vintage sailing ships",
-      "query2": "historical maritime mysteries",
+      "punch": "Vanished!",
       "role": "fact",
-      "text": "In 1872, the Mary Celeste was found adrift with no signs of foul play"
+      "text": "No signs of foul play or natural disaster",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
     },
     {
       "archive_query": "Mary Celeste ship",
-      "archive_label": "Abandoned Ship",
-      "query": "Mary Celeste historic photos",
-      "query2": "vintage nautical photos",
+      "archive_label": "Mary Celeste",
       "role": "archive",
-      "text": "The ship was discovered with no signs of struggle"
+      "text": "The Mary Celeste ship"
     },
     {
-      "label": "Unsolved",
-      "sub": "Still no answers",
-      "label_on": "unsolved",
-      "query": "unsolved maritime mysteries",
-      "query2": "abandoned ship stories",
+      "label": "Unexplained",
+      "sub": "No clues",
+      "label_on": "still",
       "role": "callout",
-      "text": "The reason for the crew's disappearance remains a mystery"
+      "text": "What could have caused the crew to abandon ship?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
     },
     {
       "role": "cta",
-      "text": "Follow for a new cold case every day.",
+      "text": "Follow for the cases that were never solved.",
       "query": "foggy city night",
       "query2": "dark cinematic city night"
     }
   ],
-  "description": "The Mary Celeste is one of the most famous maritime mysteries in history. Join us as we explore the story behind the abandoned ship. Follow us for more true crime and mystery stories.",
+  "description": "Explore the enduring mystery of the Mary Celeste, the ship found adrift in the Atlantic Ocean with no crew on board. The legend of the Mary Celeste has captivated people for centuries, and its unsolved mystery remains one of the most fascinating in true crime history. Follow us for more intriguing true crime stories. #MaryCeleste #TrueCrime #Mystery #AtlanticOcean #USA",
   "hashtags": [
-    "#truecrime",
-    "#mystery",
-    "#maryceleste",
-    "#unsolved",
-    "#maritime",
+    "#MaryCeleste",
+    "#TrueCrime",
+    "#Mystery",
+    "#AtlanticOcean",
+    "#USA",
     "#shorts",
     "#fyp"
   ]

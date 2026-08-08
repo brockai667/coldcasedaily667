@@ -1,0 +1,68 @@
+{
+  "title": "**The Great Brink's Robbery of 1950**",
+  "thumb": "BRINKS HEIST",
+  "place": "Boston, Massachusetts",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "BRINKS HEIST 13M",
+      "query": "Vintage armored car",
+      "query2": " 1950s Boston streets",
+      "role": "hook",
+      "text": "13 Million Stolen in 1950"
+    },
+    {
+      "chips": [
+        {
+          "t": "13M",
+          "on": "thirteen million",
+          "style": "accent"
+        },
+        {
+          "t": "1950",
+          "on": "nineteen fifty",
+          "style": "white"
+        }
+      ],
+      "punch": "Stolen",
+      "query": "1950s news headlines",
+      "query2": " Vintage police investigation",
+      "role": "fact",
+      "text": "On January 17, 1950, thieves stole $13 million from a Brink's Armored Car depot"
+    },
+    {
+      "archive_query": "Brink's Armored Car depot 1950",
+      "archive_label": "Brink's Depot",
+      "query": "Vintage Boston streets archive photo",
+      "query2": " 1950s armored cars",
+      "role": "archive",
+      "text": "The Brink's Armored Car depot where the heist occurred"
+    },
+    {
+      "label": "Brink's Heist",
+      "sub": "1950 Robbery",
+      "label_on": "Heist",
+      "query": "1950s police lineup",
+      "query2": " Vintage detective work",
+      "role": "callout",
+      "text": "One of the largest heists in American history"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "In 1950, thieves stole $13 million from a Brink's Armored Car depot in Boston, Massachusetts. The Great Brink's Robbery remains one of the most infamous heists in American history. Follow us for more true crime stories.",
+  "hashtags": [
+    "#BrinksHeist",
+    "#GreatBrinksRobbery",
+    "#TrueCrime",
+    "#Heist",
+    "#1950s",
+    "#Boston",
+    "#shorts",
+    "#fyp"
+  ]
+}

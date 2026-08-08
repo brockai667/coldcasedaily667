@@ -1,0 +1,62 @@
+{
+  "title": "**The Mysterious Disappearance of Glenn Miller**",
+  "thumb": "GLENN MILLER",
+  "place": "English Channel",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "hook_top": "GLENN MILLER VANISHES",
+      "query": "Vintage plane taking off",
+      "query2": " WWII aircraft over water",
+      "role": "hook",
+      "text": "Glenn Miller's Last Flight"
+    },
+    {
+      "chips": [
+        {
+          "t": "1944",
+          "on": "nineteen forty-four",
+          "style": "white"
+        }
+      ],
+      "punch": "Vanished",
+      "query": "WWII map with flight route",
+      "query2": " Vintage air traffic control",
+      "role": "fact",
+      "text": "On December 15, 1944, Miller's plane disappeared over the English Channel"
+    },
+    {
+      "archive_query": "UC-64 Norseman",
+      "archive_label": "Norseman Plane",
+      "query": "Vintage aircraft archive photo",
+      "query2": " WWII US aircraft",
+      "role": "archive",
+      "text": "The UC-64 Norseman plane that Miller boarded"
+    },
+    {
+      "label": "Glenn Miller",
+      "sub": "Legendary Bandleader",
+      "label_on": "Miller",
+      "query": "Glenn Miller portrait",
+      "query2": " WWII musician photos",
+      "role": "callout",
+      "text": "One of the most famous musicians of all time, lost at sea"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "Glenn Miller, one of the most iconic musicians of the 20th century, disappeared on a flight over the English Channel in 1944. His disappearance remains a mystery to this day. Follow us for more true crime stories.",
+  "hashtags": [
+    "#GlennMiller",
+    "#MysteriousDisappearance",
+    "#TrueCrime",
+    "#WWII",
+    "#AviationMystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
