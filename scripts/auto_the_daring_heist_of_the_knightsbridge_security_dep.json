@@ -1,0 +1,60 @@
+{
+  "title": "**The Daring Heist of the Knightsbridge Security Deposit**",
+  "thumb": "LONDON HEIST",
+  "place": "Knightsbridge",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "hook_top": "KNIGHTSBRIDGE HEIST",
+      "query": "security deposit box",
+      "query2": "gold bars",
+      "role": "hook",
+      "text": "1987's $60 million"
+    },
+    {
+      "chips": [
+        {
+          "t": "6,800",
+          "on": "gold bars",
+          "style": "white"
+        }
+      ],
+      "punch": "stolen",
+      "role": "fact",
+      "text": "The heist involved 6,800 gold bars",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Knightsbridge safe deposit building",
+      "archive_label": "Knightsbridge",
+      "role": "archive",
+      "text": "The Knightsbridge deposit facility"
+    },
+    {
+      "label": "Unsolved Heist",
+      "sub": "still a mystery",
+      "label_on": "unsolved",
+      "role": "callout",
+      "text": "A daring crime that remains unsolved",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The 1987 Knightsbridge Security Deposit heist, one of the largest in history, remains a fascinating mystery. With $60 million in gold stolen, this crime continues to intrigue. Follow for more true crime stories.",
+  "hashtags": [
+    "#truecrime",
+    "#heist",
+    "#unsolved",
+    "#Knightsbridge",
+    "#gold",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "**The Baffling Case of the Taos Hum**",
+  "thumb": "TAOS HUM",
+  "place": "Taos",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "TAOS HUM",
+      "query": "desert landscape",
+      "query2": "mysterious sound",
+      "role": "hook",
+      "text": "1990's strange noise"
+    },
+    {
+      "chips": [
+        {
+          "t": "1990s",
+          "on": "reports",
+          "style": "white"
+        }
+      ],
+      "punch": "unexplained",
+      "role": "fact",
+      "text": " Thousands of people reported the hum",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Taos New Mexico desert landscape",
+      "archive_label": "Taos",
+      "role": "archive",
+      "text": "The desert landscape near Taos"
+    },
+    {
+      "label": "Unexplained",
+      "sub": "still a mystery",
+      "label_on": "unexplained",
+      "role": "callout",
+      "text": "The source of the hum remains unknown",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Taos Hum, a low-frequency noise, has been reported by thousands since the 1990s. Despite numerous investigations, the source of the hum remains unknown. Follow for more true crime and mystery stories.",
+  "hashtags": [
+    "#mystery",
+    "#unexplained",
+    "#TaosHum",
+    "#truecrime",
+    "#shorts",
+    "#fyp"
+  ]
+}

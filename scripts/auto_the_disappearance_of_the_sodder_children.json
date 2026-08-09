@@ -1,42 +1,67 @@
 {
-  "title": "The Disappearance of the Sodder Children",
-  "segments": [
+  "title": "**The Disappearance of the Sodder Children**",
+  "thumb": "SODDER CHILDREN",
+  "place": "Fayetteville, West Virginia",
+  "country": "United States",
+  "scenes": [
     {
-      "text": "On Christmas Eve 1945, a fire consumed the Sodder home.",
-      "keywords": "burning house night"
+      "hook_top": "SODDER CHILDREN GONE",
+      "query": "Vintage Christmas morning",
+      "query2": " 1940s family photos",
+      "role": "hook",
+      "text": "5 Children Vanish on Christmas"
     },
     {
-      "text": "Five of the ten children vanished without a trace.",
-      "keywords": "missing children photos"
+      "chips": [
+        {
+          "t": "5",
+          "on": "five",
+          "style": "white"
+        },
+        {
+          "t": "1945",
+          "on": "nineteen forty-five",
+          "style": "white"
+        }
+      ],
+      "punch": "Missing",
+      "query": "1940s newspaper headlines",
+      "query2": " Vintage fire investigation",
+      "role": "fact",
+      "text": "On December 24, 1945, a fire destroyed the Sodder family home, and 5 of the 9 children were missing"
     },
     {
-      "text": "The family believed they were kidnapped, not dead.",
-      "keywords": "family portrait"
+      "archive_query": "Sodder family home",
+      "archive_label": "Sodder Home",
+      "query": "Vintage West Virginia archive photo",
+      "query2": " 1940s family homes",
+      "role": "archive",
+      "text": "The Sodder family home before the fire"
     },
     {
-      "text": "Sightings and clues surfaced, but none were ever confirmed.",
-      "keywords": "shadowy figure"
+      "label": "Sodder Children",
+      "sub": "Unsolved Disappearance",
+      "label_on": "Children",
+      "query": "1940s missing persons poster",
+      "query2": " Vintage detective work",
+      "role": "callout",
+      "text": "A mysterious fire and a family's desperate search"
     },
     {
-      "text": "Years later, the search for the children continues.",
-      "keywords": "old newspaper clippings"
-    },
-    {
-      "text": "A case shrouded in pain and unanswered questions.",
-      "keywords": "cloudy sky"
-    },
-    {
-      "text": "Follow for cases the world never forgot.",
-      "keywords": "old case files"
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
     }
   ],
-  "description": "Five children vanished after a house fire in 1945, leading to endless questions. Follow for daily cold cases!",
+  "description": "On Christmas Eve in 1945, a fire destroyed the Sodder family home in Fayetteville, West Virginia, and 5 of the 9 children were never found. The disappearance of the Sodder children remains a mystery to this day. Follow us for more true crime stories.",
   "hashtags": [
-    "#truecrime",
-    "#sodderchildren",
-    "#unsolved",
-    "#coldcase",
-    "#missing",
+    "#SodderChildren",
+    "#UnsolvedMystery",
+    "#TrueCrime",
+    "#Disappearance",
+    "#1940s",
+    "#WestVirginia",
     "#shorts",
     "#fyp"
   ]

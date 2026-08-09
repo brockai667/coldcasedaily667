@@ -8819,5 +8819,184 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "**The Daring Heist of the Knightsbridge Security Deposit**",
+    "thumb": "LONDON HEIST",
+    "place": "Knightsbridge",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "hook_top": "KNIGHTSBRIDGE HEIST",
+        "query": "security deposit box",
+        "query2": "gold bars",
+        "role": "hook",
+        "text": "1987's $60 million"
+      },
+      {
+        "chips": [
+          {
+            "t": "6,800",
+            "on": "gold bars",
+            "style": "white"
+          }
+        ],
+        "punch": "stolen",
+        "role": "fact",
+        "text": "The heist involved 6,800 gold bars",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Knightsbridge safe deposit building",
+        "archive_label": "Knightsbridge",
+        "role": "archive",
+        "text": "The Knightsbridge deposit facility"
+      },
+      {
+        "label": "Unsolved Heist",
+        "sub": "still a mystery",
+        "label_on": "unsolved",
+        "role": "callout",
+        "text": "A daring crime that remains unsolved",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The 1987 Knightsbridge Security Deposit heist, one of the largest in history, remains a fascinating mystery. With $60 million in gold stolen, this crime continues to intrigue. Follow for more true crime stories.",
+    "hashtags": [
+      "#truecrime",
+      "#heist",
+      "#unsolved",
+      "#Knightsbridge",
+      "#gold",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Baffling Case of the Taos Hum**",
+    "thumb": "TAOS HUM",
+    "place": "Taos",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "TAOS HUM",
+        "query": "desert landscape",
+        "query2": "mysterious sound",
+        "role": "hook",
+        "text": "1990's strange noise"
+      },
+      {
+        "chips": [
+          {
+            "t": "1990s",
+            "on": "reports",
+            "style": "white"
+          }
+        ],
+        "punch": "unexplained",
+        "role": "fact",
+        "text": " Thousands of people reported the hum",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Taos New Mexico desert landscape",
+        "archive_label": "Taos",
+        "role": "archive",
+        "text": "The desert landscape near Taos"
+      },
+      {
+        "label": "Unexplained",
+        "sub": "still a mystery",
+        "label_on": "unexplained",
+        "role": "callout",
+        "text": "The source of the hum remains unknown",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Taos Hum, a low-frequency noise, has been reported by thousands since the 1990s. Despite numerous investigations, the source of the hum remains unknown. Follow for more true crime and mystery stories.",
+    "hashtags": [
+      "#mystery",
+      "#unexplained",
+      "#TaosHum",
+      "#truecrime",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Mysterious Disappearance of the Sodder Children: A Family's Nightmare**",
+    "thumb": "SODDER MYSTERY",
+    "place": "Fayetteville",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "SODDER CHILDREN",
+        "query": "abandoned house",
+        "query2": "Christmas tree",
+        "role": "hook",
+        "text": "5 children vanished"
+      },
+      {
+        "chips": [
+          {
+            "t": "5",
+            "on": "children",
+            "style": "accent"
+          }
+        ],
+        "punch": "missing",
+        "role": "fact",
+        "text": "A fire destroyed the Sodder house on Christmas Eve",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Sodder house fire remains",
+        "archive_label": "Sodder House",
+        "role": "archive",
+        "text": "The remains of the Sodder house"
+      },
+      {
+        "label": "Unsolved Case",
+        "sub": "still searching",
+        "label_on": "unsolved",
+        "role": "callout",
+        "text": "Theories abound, but no resolution",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The disappearance of the Sodder children on Christmas Eve remains a haunting mystery. Theories abound, but the truth behind their vanishing is still unknown. Follow for more true crime stories.",
+    "hashtags": [
+      "#truecrime",
+      "#mystery",
+      "#unsolved",
+      "#SodderChildren",
+      "#disappearance",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
