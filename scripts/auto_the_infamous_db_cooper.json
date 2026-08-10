@@ -1,0 +1,62 @@
+{
+  "title": "**The Infamous DB Cooper**",
+  "thumb": "DB COOPER",
+  "place": "Portland, Oregon",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "SKYJACKER",
+      "query": "db cooper plane",
+      "query2": "portland oregon",
+      "role": "hook",
+      "text": "1971"
+    },
+    {
+      "role": "map",
+      "text": "Portland, Oregon"
+    },
+    {
+      "chips": [
+        {
+          "t": "200K",
+          "on": "ransom",
+          "style": "white"
+        }
+      ],
+      "role": "fact",
+      "text": "$200,000 ransom",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "DB Cooper plane",
+      "archive_label": "DB Cooper",
+      "role": "archive",
+      "text": "DB Cooper"
+    },
+    {
+      "label": "WHO WAS HE",
+      "sub": "identity unknown",
+      "label_on": "unsolved",
+      "role": "callout",
+      "text": "Case remains unsolved",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "DB Cooper, the infamous skyjacker, parachuted out of a plane in 1971 with a $200,000 ransom. His identity and fate remain a mystery. Join us as we explore this intriguing case. Follow our channel for more true crime stories.",
+  "hashtags": [
+    "#dbcooper",
+    "#skyjacker",
+    "#portland",
+    "#truecrime",
+    "#shorts",
+    "#fyp"
+  ]
+}

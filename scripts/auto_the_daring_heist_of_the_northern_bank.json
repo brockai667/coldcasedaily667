@@ -1,0 +1,63 @@
+{
+  "title": "**The Daring Heist of the Northern Bank**",
+  "thumb": "NORTHERN BANK HEIST",
+  "place": "Belfast, Northern Ireland",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "hook_top": "BIG HEIST",
+      "query": "robbery footage",
+      "query2": "bank vault",
+      "role": "hook",
+      "text": "2004"
+    },
+    {
+      "role": "map",
+      "text": "Belfast, Northern Ireland"
+    },
+    {
+      "chips": [
+        {
+          "t": "26.5M",
+          "on": "millions",
+          "style": "white"
+        }
+      ],
+      "punch": "million",
+      "role": "fact",
+      "text": "£26.5 million stolen",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Northern Bank Belfast",
+      "archive_label": "N. Bank HQ",
+      "role": "archive",
+      "text": "Northern Bank headquarters"
+    },
+    {
+      "label": "WHO DID IT",
+      "sub": "still unknown",
+      "label_on": "unsolved",
+      "role": "callout",
+      "text": "Unsolved mystery",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The 2004 Northern Bank heist in Belfast, Northern Ireland, remains one of the most infamous crimes in history. Join us as we delve into the details of this daring heist. Follow our channel for more true crime stories.",
+  "hashtags": [
+    "#truecrime",
+    "#northernbankheist",
+    "#belfast",
+    "#heist",
+    "#shorts",
+    "#fyp"
+  ]
+}

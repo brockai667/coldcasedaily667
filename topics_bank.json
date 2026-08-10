@@ -8998,5 +8998,378 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "**The Daring Heist of the Northern Bank**",
+    "thumb": "NORTHERN BANK HEIST",
+    "place": "Belfast, Northern Ireland",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "hook_top": "BIG HEIST",
+        "query": "robbery footage",
+        "query2": "bank vault",
+        "role": "hook",
+        "text": "2004"
+      },
+      {
+        "role": "map",
+        "text": "Belfast, Northern Ireland"
+      },
+      {
+        "chips": [
+          {
+            "t": "26.5M",
+            "on": "millions",
+            "style": "white"
+          }
+        ],
+        "punch": "million",
+        "role": "fact",
+        "text": "£26.5 million stolen",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Northern Bank Belfast",
+        "archive_label": "N. Bank HQ",
+        "role": "archive",
+        "text": "Northern Bank headquarters"
+      },
+      {
+        "label": "WHO DID IT",
+        "sub": "still unknown",
+        "label_on": "unsolved",
+        "role": "callout",
+        "text": "Unsolved mystery",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The 2004 Northern Bank heist in Belfast, Northern Ireland, remains one of the most infamous crimes in history. Join us as we delve into the details of this daring heist. Follow our channel for more true crime stories.",
+    "hashtags": [
+      "#truecrime",
+      "#northernbankheist",
+      "#belfast",
+      "#heist",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Infamous DB Cooper**",
+    "thumb": "DB COOPER",
+    "place": "Portland, Oregon",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "SKYJACKER",
+        "query": "db cooper plane",
+        "query2": "portland oregon",
+        "role": "hook",
+        "text": "1971"
+      },
+      {
+        "role": "map",
+        "text": "Portland, Oregon"
+      },
+      {
+        "chips": [
+          {
+            "t": "200K",
+            "on": "ransom",
+            "style": "white"
+          }
+        ],
+        "role": "fact",
+        "text": "$200,000 ransom",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "DB Cooper plane",
+        "archive_label": "DB Cooper",
+        "role": "archive",
+        "text": "DB Cooper"
+      },
+      {
+        "label": "WHO WAS HE",
+        "sub": "identity unknown",
+        "label_on": "unsolved",
+        "role": "callout",
+        "text": "Case remains unsolved",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "DB Cooper, the infamous skyjacker, parachuted out of a plane in 1971 with a $200,000 ransom. His identity and fate remain a mystery. Join us as we explore this intriguing case. Follow our channel for more true crime stories.",
+    "hashtags": [
+      "#dbcooper",
+      "#skyjacker",
+      "#portland",
+      "#truecrime",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Mystery of the Mary Celeste**",
+    "thumb": "MARY CELESTE",
+    "place": "Atlantic Ocean",
+    "country": "International Waters",
+    "scenes": [
+      {
+        "hook_top": "GHOST SHIP",
+        "query": "abandoned ship",
+        "query2": "mystery sea",
+        "role": "hook",
+        "text": "1872"
+      },
+      {
+        "role": "map",
+        "text": "Atlantic Ocean"
+      },
+      {
+        "chips": [
+          {
+            "t": "NO FOUL",
+            "on": "signs",
+            "style": "accent"
+          }
+        ],
+        "role": "fact",
+        "text": "No signs of foul play",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Mary Celeste ship",
+        "archive_label": "M. Celeste",
+        "role": "archive",
+        "text": "Mary Celeste ship"
+      },
+      {
+        "label": "WHAT HAPPENED",
+        "sub": "still debated",
+        "label_on": "mystery",
+        "role": "callout",
+        "text": "Enduring maritime mystery",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Mary Celeste, found adrift in 1872, is one of the most enduring maritime mysteries. What happened to the crew? Join us as we explore this baffling case. Follow our channel for more unsolved mysteries.",
+    "hashtags": [
+      "#maryceleste",
+      "#mystery",
+      "#maritime",
+      "#unsolved",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Legend of the Zodiac Killer**",
+    "thumb": "ZODIAC KILLER",
+    "place": "San Francisco, California",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "ZODIAC",
+        "query": "serial killer",
+        "query2": "zodiac symbols",
+        "role": "hook",
+        "text": "5 victims"
+      },
+      {
+        "role": "map",
+        "text": "San Francisco, California"
+      },
+      {
+        "chips": [
+          {
+            "t": "CODED",
+            "on": "messages",
+            "style": "white"
+          }
+        ],
+        "role": "fact",
+        "text": "Codified messages",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Zodiac Killer letters",
+        "archive_label": "Z. Letter",
+        "role": "archive",
+        "text": "Zodiac Killer letter"
+      },
+      {
+        "label": "WHO WAS IT",
+        "sub": "identity unknown",
+        "label_on": "unsolved",
+        "role": "callout",
+        "text": "Case remains unsolved",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Zodiac Killer, known for cryptic messages, terrorized the San Francisco area. Despite efforts, the case remains unsolved. Join us as we delve into this legendary crime. Follow our channel for more true crime stories.",
+    "hashtags": [
+      "#zodiackiller",
+      "#truecrime",
+      "#sanfrancisco",
+      "#unsolved",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Great Train Robbery**",
+    "thumb": "TRAIN ROBBERY",
+    "place": "Buckinghamshire, England",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "hook_top": "BIG ROBBERY",
+        "query": "train robbery footage",
+        "query2": "robbery news",
+        "role": "hook",
+        "text": "1963"
+      },
+      {
+        "role": "map",
+        "text": "Buckinghamshire, England"
+      },
+      {
+        "chips": [
+          {
+            "t": "2.6M",
+            "on": "millions",
+            "style": "white"
+          }
+        ],
+        "role": "fact",
+        "text": "£2.6 million stolen",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Great Train Robbery 1963",
+        "archive_label": "GTR",
+        "role": "archive",
+        "text": "Great Train Robbery"
+      },
+      {
+        "label": "DARING HEIST",
+        "sub": "well-planned",
+        "label_on": "infamous",
+        "role": "callout",
+        "text": "Infamous heist in history",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Great Train Robbery of 1963 is one of the most daring heists in history. What made it so infamous? Join us as we look back at this legendary crime. Follow our channel for more historic crimes.",
+    "hashtags": [
+      "#greattrainrobbery",
+      "#historiccrime",
+      "#buckinghamshire",
+      "#heist",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Disappearance of Amelia Earhart**",
+    "thumb": "AMELIA EARHART",
+    "place": "Pacific Ocean",
+    "country": "International Waters",
+    "scenes": [
+      {
+        "hook_top": "LOST FLIGHT",
+        "query": "amelia earhart plane",
+        "query2": "pacific ocean",
+        "role": "hook",
+        "text": "1937"
+      },
+      {
+        "role": "map",
+        "text": "Pacific Ocean"
+      },
+      {
+        "chips": [
+          {
+            "t": "LAST TX",
+            "on": "transmission",
+            "style": "accent"
+          }
+        ],
+        "role": "fact",
+        "text": "Last transmission",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Amelia Earhart plane",
+        "archive_label": "A. Earhart",
+        "role": "archive",
+        "text": "Amelia Earhart"
+      },
+      {
+        "label": "WHAT HAPPENED",
+        "sub": "still unknown",
+        "label_on": "mystery",
+        "role": "callout",
+        "text": "Enduring mystery",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The disappearance of Amelia Earhart in 1937 during her attempted flight around the world remains one of the greatest mysteries in aviation history. What happened to her? Join us as we explore this enduring mystery. Follow our channel for more unsolved mysteries.",
+    "hashtags": [
+      "#ameliaearhart",
+      "#disappearance",
+      "#pacificocean",
+      "#mystery",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
