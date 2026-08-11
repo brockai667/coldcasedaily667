@@ -1,0 +1,62 @@
+{
+  "title": "**The Mystery of the Mary Celeste**",
+  "thumb": "MARY CELESTE",
+  "place": "Atlantic Ocean",
+  "country": "International Waters",
+  "scenes": [
+    {
+      "hook_top": "GHOST SHIP",
+      "query": "abandoned ship",
+      "query2": "mystery sea",
+      "role": "hook",
+      "text": "1872"
+    },
+    {
+      "role": "map",
+      "text": "Atlantic Ocean"
+    },
+    {
+      "chips": [
+        {
+          "t": "NO FOUL",
+          "on": "signs",
+          "style": "accent"
+        }
+      ],
+      "role": "fact",
+      "text": "No signs of foul play",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Mary Celeste ship",
+      "archive_label": "M. Celeste",
+      "role": "archive",
+      "text": "Mary Celeste ship"
+    },
+    {
+      "label": "WHAT HAPPENED",
+      "sub": "still debated",
+      "label_on": "mystery",
+      "role": "callout",
+      "text": "Enduring maritime mystery",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Mary Celeste, found adrift in 1872, is one of the most enduring maritime mysteries. What happened to the crew? Join us as we explore this baffling case. Follow our channel for more unsolved mysteries.",
+  "hashtags": [
+    "#maryceleste",
+    "#mystery",
+    "#maritime",
+    "#unsolved",
+    "#shorts",
+    "#fyp"
+  ]
+}

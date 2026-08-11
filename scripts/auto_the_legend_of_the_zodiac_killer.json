@@ -1,0 +1,62 @@
+{
+  "title": "**The Legend of the Zodiac Killer**",
+  "thumb": "ZODIAC KILLER",
+  "place": "San Francisco, California",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "ZODIAC",
+      "query": "serial killer",
+      "query2": "zodiac symbols",
+      "role": "hook",
+      "text": "5 victims"
+    },
+    {
+      "role": "map",
+      "text": "San Francisco, California"
+    },
+    {
+      "chips": [
+        {
+          "t": "CODED",
+          "on": "messages",
+          "style": "white"
+        }
+      ],
+      "role": "fact",
+      "text": "Codified messages",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Zodiac Killer letters",
+      "archive_label": "Z. Letter",
+      "role": "archive",
+      "text": "Zodiac Killer letter"
+    },
+    {
+      "label": "WHO WAS IT",
+      "sub": "identity unknown",
+      "label_on": "unsolved",
+      "role": "callout",
+      "text": "Case remains unsolved",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Zodiac Killer, known for cryptic messages, terrorized the San Francisco area. Despite efforts, the case remains unsolved. Join us as we delve into this legendary crime. Follow our channel for more true crime stories.",
+  "hashtags": [
+    "#zodiackiller",
+    "#truecrime",
+    "#sanfrancisco",
+    "#unsolved",
+    "#shorts",
+    "#fyp"
+  ]
+}

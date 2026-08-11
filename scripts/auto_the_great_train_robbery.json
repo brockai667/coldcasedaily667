@@ -1,0 +1,62 @@
+{
+  "title": "**The Great Train Robbery**",
+  "thumb": "TRAIN ROBBERY",
+  "place": "Buckinghamshire, England",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "hook_top": "BIG ROBBERY",
+      "query": "train robbery footage",
+      "query2": "robbery news",
+      "role": "hook",
+      "text": "1963"
+    },
+    {
+      "role": "map",
+      "text": "Buckinghamshire, England"
+    },
+    {
+      "chips": [
+        {
+          "t": "2.6M",
+          "on": "millions",
+          "style": "white"
+        }
+      ],
+      "role": "fact",
+      "text": "£2.6 million stolen",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Great Train Robbery 1963",
+      "archive_label": "GTR",
+      "role": "archive",
+      "text": "Great Train Robbery"
+    },
+    {
+      "label": "DARING HEIST",
+      "sub": "well-planned",
+      "label_on": "infamous",
+      "role": "callout",
+      "text": "Infamous heist in history",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Great Train Robbery of 1963 is one of the most daring heists in history. What made it so infamous? Join us as we look back at this legendary crime. Follow our channel for more historic crimes.",
+  "hashtags": [
+    "#greattrainrobbery",
+    "#historiccrime",
+    "#buckinghamshire",
+    "#heist",
+    "#shorts",
+    "#fyp"
+  ]
+}
