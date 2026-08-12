@@ -9371,5 +9371,192 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "**The Mysterious Disappearance of the SS Poet**",
+    "thumb": "LOST AT SEA",
+    "place": "North Atlantic Ocean",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "LOST AT SEA",
+        "query": "abandoned ship at sea",
+        "query2": "empty lifeboat",
+        "role": "hook",
+        "text": "12 people vanished"
+      },
+      {
+        "chips": [
+          {
+            "t": "1971",
+            "on": "year",
+            "style": "white"
+          }
+        ],
+        "punch": "mystery",
+        "role": "fact",
+        "text": "The SS Poet was found adrift with no signs of foul play",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "SS Poet ship",
+        "archive_label": "SS Poet",
+        "role": "archive",
+        "text": "The SS Poet was a US merchant ship"
+      },
+      {
+        "label": "Unsolved Mystery",
+        "sub": "still unknown",
+        "label_on": "disappearance",
+        "role": "callout",
+        "text": "What happened to the crew?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The SS Poet was a US merchant ship that mysteriously disappeared in 1971. The crew of 12 people vanished, leaving behind no signs of foul play. What happened to them? Follow for more unsolved mysteries.",
+    "hashtags": [
+      "#unsolvedmystery",
+      "#SSPoet",
+      "#disappearance",
+      "#sea",
+      "#mystery",
+      "#lost",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Bizarre Case of the Tołpač Family**",
+    "thumb": "POLAR EXPLORER",
+    "place": "Longyearbyen, Svalbard",
+    "country": "Norway",
+    "scenes": [
+      {
+        "hook_top": "ARCTIC MYSTERY",
+        "query": "abandoned polar expedition camp",
+        "query2": "snowy landscape",
+        "role": "hook",
+        "text": "6 people disappeared"
+      },
+      {
+        "chips": [
+          {
+            "t": "1979",
+            "on": "year",
+            "style": "white"
+          }
+        ],
+        "punch": "expedition",
+        "role": "fact",
+        "text": "The Tołpač family was on a polar expedition",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Svalbard landscape",
+        "archive_label": "Svalbard",
+        "role": "archive",
+        "text": "The Tołpač family was experienced in polar exploration"
+      },
+      {
+        "label": "Unsolved Case",
+        "sub": "still a mystery",
+        "label_on": "disappearance",
+        "role": "callout",
+        "text": "What drove them to abandon their camp?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Tołpač family disappeared during a polar expedition in 1979. The family of six left behind their camp, and their disappearance remains a mystery. What drove them to leave? Follow for more unsolved cases.",
+    "hashtags": [
+      "#unsolvedcase",
+      "#Tolpac",
+      "#disappearance",
+      "#polar",
+      "#mystery",
+      "#arctic",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Mysterious Heist at the Musée d'Art Moderne**",
+    "thumb": "PARIS HEIST",
+    "place": "Paris, France",
+    "country": "France",
+    "scenes": [
+      {
+        "hook_top": "PARIS HEIST",
+        "query": "empty museum gallery",
+        "query2": "city street at night",
+        "role": "hook",
+        "text": "5 paintings stolen"
+      },
+      {
+        "chips": [
+          {
+            "t": "100M",
+            "on": "value",
+            "style": "accent"
+          },
+          {
+            "t": "2010",
+            "on": "year",
+            "style": "white"
+          }
+        ],
+        "punch": "masterpiece",
+        "role": "fact",
+        "text": "The Musée d'Art Moderne was burglarized in 2010",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Musée d'Art Moderne Paris",
+        "archive_label": "Musée d'Art Moderne",
+        "role": "archive",
+        "text": "The Musée d'Art Moderne is a renowned art museum"
+      },
+      {
+        "label": "Art Heist",
+        "sub": "still unsolved",
+        "label_on": "investigation",
+        "role": "callout",
+        "text": "Were the thieves caught?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Musée d'Art Moderne in Paris was burglarized in 2010, with five paintings stolen. The heist remains one of the most significant in history. Were the thieves caught? Follow for more heist stories.",
+    "hashtags": [
+      "#heist",
+      "#arttheft",
+      "#museum",
+      "#paris",
+      "#masterpiece",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

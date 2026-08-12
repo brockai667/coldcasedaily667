@@ -1,0 +1,62 @@
+{
+  "title": "**The Disappearance of Amelia Earhart**",
+  "thumb": "AMELIA EARHART",
+  "place": "Pacific Ocean",
+  "country": "International Waters",
+  "scenes": [
+    {
+      "hook_top": "LOST FLIGHT",
+      "query": "amelia earhart plane",
+      "query2": "pacific ocean",
+      "role": "hook",
+      "text": "1937"
+    },
+    {
+      "role": "map",
+      "text": "Pacific Ocean"
+    },
+    {
+      "chips": [
+        {
+          "t": "LAST TX",
+          "on": "transmission",
+          "style": "accent"
+        }
+      ],
+      "role": "fact",
+      "text": "Last transmission",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Amelia Earhart plane",
+      "archive_label": "A. Earhart",
+      "role": "archive",
+      "text": "Amelia Earhart"
+    },
+    {
+      "label": "WHAT HAPPENED",
+      "sub": "still unknown",
+      "label_on": "mystery",
+      "role": "callout",
+      "text": "Enduring mystery",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The disappearance of Amelia Earhart in 1937 during her attempted flight around the world remains one of the greatest mysteries in aviation history. What happened to her? Join us as we explore this enduring mystery. Follow our channel for more unsolved mysteries.",
+  "hashtags": [
+    "#ameliaearhart",
+    "#disappearance",
+    "#pacificocean",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

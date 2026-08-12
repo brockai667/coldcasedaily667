@@ -1,0 +1,61 @@
+{
+  "title": "**The Bizarre Case of the Tołpač Family**",
+  "thumb": "POLAR EXPLORER",
+  "place": "Longyearbyen, Svalbard",
+  "country": "Norway",
+  "scenes": [
+    {
+      "hook_top": "ARCTIC MYSTERY",
+      "query": "abandoned polar expedition camp",
+      "query2": "snowy landscape",
+      "role": "hook",
+      "text": "6 people disappeared"
+    },
+    {
+      "chips": [
+        {
+          "t": "1979",
+          "on": "year",
+          "style": "white"
+        }
+      ],
+      "punch": "expedition",
+      "role": "fact",
+      "text": "The Tołpač family was on a polar expedition",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Svalbard landscape",
+      "archive_label": "Svalbard",
+      "role": "archive",
+      "text": "The Tołpač family was experienced in polar exploration"
+    },
+    {
+      "label": "Unsolved Case",
+      "sub": "still a mystery",
+      "label_on": "disappearance",
+      "role": "callout",
+      "text": "What drove them to abandon their camp?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Tołpač family disappeared during a polar expedition in 1979. The family of six left behind their camp, and their disappearance remains a mystery. What drove them to leave? Follow for more unsolved cases.",
+  "hashtags": [
+    "#unsolvedcase",
+    "#Tolpac",
+    "#disappearance",
+    "#polar",
+    "#mystery",
+    "#arctic",
+    "#shorts",
+    "#fyp"
+  ]
+}

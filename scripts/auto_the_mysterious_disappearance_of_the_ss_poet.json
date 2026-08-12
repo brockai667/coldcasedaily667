@@ -1,0 +1,61 @@
+{
+  "title": "**The Mysterious Disappearance of the SS Poet**",
+  "thumb": "LOST AT SEA",
+  "place": "North Atlantic Ocean",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "LOST AT SEA",
+      "query": "abandoned ship at sea",
+      "query2": "empty lifeboat",
+      "role": "hook",
+      "text": "12 people vanished"
+    },
+    {
+      "chips": [
+        {
+          "t": "1971",
+          "on": "year",
+          "style": "white"
+        }
+      ],
+      "punch": "mystery",
+      "role": "fact",
+      "text": "The SS Poet was found adrift with no signs of foul play",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "SS Poet ship",
+      "archive_label": "SS Poet",
+      "role": "archive",
+      "text": "The SS Poet was a US merchant ship"
+    },
+    {
+      "label": "Unsolved Mystery",
+      "sub": "still unknown",
+      "label_on": "disappearance",
+      "role": "callout",
+      "text": "What happened to the crew?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The SS Poet was a US merchant ship that mysteriously disappeared in 1971. The crew of 12 people vanished, leaving behind no signs of foul play. What happened to them? Follow for more unsolved mysteries.",
+  "hashtags": [
+    "#unsolvedmystery",
+    "#SSPoet",
+    "#disappearance",
+    "#sea",
+    "#mystery",
+    "#lost",
+    "#shorts",
+    "#fyp"
+  ]
+}
