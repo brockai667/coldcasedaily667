@@ -1,0 +1,61 @@
+{
+  "title": "**The Disappearance of Glenn Miller**",
+  "thumb": "GLENN MILLER",
+  "place": "Twinwood Airfield",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "hook_top": "GLENN MILLER VANISHES",
+      "role": "hook",
+      "text": "Big band leader Glenn Miller",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "chips": [
+        {
+          "t": "1944",
+          "on": "nineteen forty-four",
+          "style": "white"
+        }
+      ],
+      "punch": "Disaster",
+      "query": "vintage airplane taking off",
+      "query2": "historic airfield",
+      "role": "fact",
+      "text": "On December 15, 1944, Miller's plane took off from Twinwood Airfield"
+    },
+    {
+      "archive_query": "Twinwood Airfield 1940s",
+      "archive_label": "Twinwood",
+      "role": "archive",
+      "text": "Twinwood Airfield control tower in the 1940s"
+    },
+    {
+      "label": "Unsolved",
+      "sub": "Over 75 years",
+      "label_on": "unsolved",
+      "query": "old airplane wreckage",
+      "query2": "abandoned airport",
+      "role": "callout",
+      "text": "Miller's disappearance remains a mystery"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "On December 15, 1944, legendary big band leader Glenn Miller vanished while traveling to entertain troops in France. What happened to him? Follow us for more on this enduring mystery. Follow for the latest true crime stories.",
+  "hashtags": [
+    "#GlennMiller",
+    "#truecrime",
+    "#mystery",
+    "#unsolved",
+    "#aviation",
+    "#WWII",
+    "#shorts",
+    "#fyp"
+  ]
+}

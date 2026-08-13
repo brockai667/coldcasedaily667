@@ -1,0 +1,65 @@
+{
+  "title": "**The Theft of the Marlborough Gems**",
+  "thumb": "MARLBOROUGH GEMS",
+  "place": "Marlborough House",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "hook_top": "GEMS HEIST",
+      "role": "hook",
+      "text": "120 precious gems stolen",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "chips": [
+        {
+          "t": "120",
+          "on": "one hundred twenty",
+          "style": "accent"
+        },
+        {
+          "t": "1899",
+          "on": "eighteen ninety-nine",
+          "style": "white"
+        }
+      ],
+      "punch": "Burglary",
+      "query": "antique jewelry boxes",
+      "query2": "historic mansion interior",
+      "role": "fact",
+      "text": "The theft occurred on June 11, 1899, at Marlborough House"
+    },
+    {
+      "archive_query": "Marlborough House 19th century",
+      "archive_label": "Marlborough",
+      "role": "archive",
+      "text": "Marlborough House in the late 19th century"
+    },
+    {
+      "label": "Infamous",
+      "sub": "Over a century",
+      "label_on": "infamous",
+      "query": "old safe being cracked",
+      "query2": "antique detective equipment",
+      "role": "callout",
+      "text": "The case of the Marlborough Gems remains infamous"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "In 1899, a stunning collection of 120 precious gems was stolen from Marlborough House. Who was behind this daring heist? Follow us for the latest true crime stories and intriguing mysteries. Follow for more on this fascinating case.",
+  "hashtags": [
+    "#MarlboroughGems",
+    "#truecrime",
+    "#theft",
+    "#jewels",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}

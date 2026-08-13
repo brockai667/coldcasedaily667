@@ -1,0 +1,65 @@
+{
+  "title": "**The Mysterious Heist at the Musée d'Art Moderne**",
+  "thumb": "PARIS HEIST",
+  "place": "Paris, France",
+  "country": "France",
+  "scenes": [
+    {
+      "hook_top": "PARIS HEIST",
+      "query": "empty museum gallery",
+      "query2": "city street at night",
+      "role": "hook",
+      "text": "5 paintings stolen"
+    },
+    {
+      "chips": [
+        {
+          "t": "100M",
+          "on": "value",
+          "style": "accent"
+        },
+        {
+          "t": "2010",
+          "on": "year",
+          "style": "white"
+        }
+      ],
+      "punch": "masterpiece",
+      "role": "fact",
+      "text": "The Musée d'Art Moderne was burglarized in 2010",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Musée d'Art Moderne Paris",
+      "archive_label": "Musée d'Art Moderne",
+      "role": "archive",
+      "text": "The Musée d'Art Moderne is a renowned art museum"
+    },
+    {
+      "label": "Art Heist",
+      "sub": "still unsolved",
+      "label_on": "investigation",
+      "role": "callout",
+      "text": "Were the thieves caught?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Musée d'Art Moderne in Paris was burglarized in 2010, with five paintings stolen. The heist remains one of the most significant in history. Were the thieves caught? Follow for more heist stories.",
+  "hashtags": [
+    "#heist",
+    "#arttheft",
+    "#museum",
+    "#paris",
+    "#masterpiece",
+    "#shorts",
+    "#fyp"
+  ]
+}
