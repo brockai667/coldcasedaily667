@@ -1,0 +1,60 @@
+{
+  "title": "**The Great Imposter: The Case of Frank Abagnale Jr.**",
+  "thumb": "GREAT IMPOSTER",
+  "place": "New York City",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "GREAT IMPOSTER",
+      "role": "hook",
+      "text": "Frank Abagnale Jr. impersonated 8",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "chips": [
+        {
+          "t": "8",
+          "on": "identities",
+          "style": "accent"
+        }
+      ],
+      "punch": "impostor",
+      "role": "fact",
+      "text": "Frank Abagnale Jr. was a con man who impersonated a pilot, a doctor, and a lawyer, among others, and was the inspiration for the movie Catch Me If You Can.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Frank Abagnale Jr.",
+      "archive_label": "Abagnale",
+      "role": "archive",
+      "text": "Abagnale's exploits were widely publicized in the 1960s and 1970s."
+    },
+    {
+      "label": "Master Impostor",
+      "sub": "deception",
+      "label_on": "story",
+      "role": "callout",
+      "text": "Abagnale's story is a fascinating example of deception and trickery.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "Frank Abagnale Jr. was a master imposter who deceived hundreds of people. His story is a fascinating example of deception and trickery. Follow us for more fascinating true crime stories.",
+  "hashtags": [
+    "#FrankAbagnaleJr",
+    "#GreatImposter",
+    "#CatchMeIfYouCan",
+    "#TrueCrime",
+    "#NewYorkCity",
+    "#shorts",
+    "#fyp"
+  ]
+}

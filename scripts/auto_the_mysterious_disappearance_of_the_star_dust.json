@@ -1,0 +1,65 @@
+{
+  "title": "**The Mysterious Disappearance of the Star Dust**",
+  "thumb": "STAR DUST",
+  "place": "Andes Mountains",
+  "country": "Argentina",
+  "scenes": [
+    {
+      "hook_top": "STAR DUST LOST",
+      "role": "hook",
+      "text": "Star Dust vanishes with 11",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "chips": [
+        {
+          "t": "1947",
+          "on": "year",
+          "style": "white"
+        },
+        {
+          "t": "11",
+          "on": "people",
+          "style": "accent"
+        }
+      ],
+      "punch": "vanished",
+      "role": "fact",
+      "text": "On August 2, 1947, the Star Dust, a British South American Airways DC-4, disappeared while flying over the Andes Mountains.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "British South American Airways DC-4",
+      "archive_label": "Star Dust",
+      "role": "archive",
+      "text": "The Star Dust was a British aircraft that operated between Buenos Aires and Santiago."
+    },
+    {
+      "label": "No Wreckage",
+      "sub": "found",
+      "label_on": "mystery",
+      "role": "callout",
+      "text": "Despite extensive searches, no wreckage or bodies were ever found.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Star Dust disappearance is one of the most baffling unsolved mysteries in aviation history. The case remains a mystery to this day. Follow us for more unsolved mysteries.",
+  "hashtags": [
+    "#StarDust",
+    "#AviationMystery",
+    "#Unsolved",
+    "#Argentina",
+    "#AndesMountains",
+    "#shorts",
+    "#fyp"
+  ]
+}

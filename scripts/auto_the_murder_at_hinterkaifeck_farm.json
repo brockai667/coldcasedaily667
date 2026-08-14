@@ -1,0 +1,66 @@
+{
+  "title": "**The Murder at Hinterkaifeck Farm**",
+  "thumb": "HINTERKAI FECK",
+  "place": "Hinterkaifeck farm",
+  "country": "Germany",
+  "scenes": [
+    {
+      "hook_top": "FARM MASSACRE",
+      "role": "hook",
+      "text": "6 people brutally murdered",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "chips": [
+        {
+          "t": "6",
+          "on": "six",
+          "style": "accent"
+        },
+        {
+          "t": "1922",
+          "on": "nineteen twenty-two",
+          "style": "white"
+        }
+      ],
+      "punch": "Murder",
+      "query": "abandoned farmhouses",
+      "query2": "historic rural landscapes",
+      "role": "fact",
+      "text": "On March 31, 1922, the bodies were discovered at Hinterkaifeck farm"
+    },
+    {
+      "archive_query": "Hinterkaifeck farm 1920s",
+      "archive_label": "Hinterkaifeck",
+      "role": "archive",
+      "text": "Hinterkaifeck farm in the 1920s"
+    },
+    {
+      "label": "Unsolved",
+      "sub": "Nearly a century",
+      "label_on": "unsolved",
+      "query": "old police investigation equipment",
+      "query2": "vintage detective office",
+      "role": "callout",
+      "text": "The Hinterkaifeck farm murders remain unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "On March 31, 1922, a gruesome discovery was made at Hinterkaifeck farm in Germany. Six people had been brutally murdered. The case remains unsolved to this day. Follow us for more on this haunting true crime story. Follow for the latest updates.",
+  "hashtags": [
+    "#Hinterkaifeck",
+    "#truecrime",
+    "#murder",
+    "#unsolved",
+    "#farm",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
