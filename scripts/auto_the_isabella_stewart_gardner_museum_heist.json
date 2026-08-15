@@ -1,0 +1,65 @@
+{
+  "title": "**The Isabella Stewart Gardner Museum Heist**",
+  "thumb": "GARDNER HEIST",
+  "place": "Boston",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "GARDNER HEIST",
+      "role": "hook",
+      "text": "13 works stolen in Boston",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "chips": [
+        {
+          "t": "13",
+          "on": "works",
+          "style": "accent"
+        },
+        {
+          "t": "1990",
+          "on": "year",
+          "style": "white"
+        }
+      ],
+      "punch": "stolen",
+      "role": "fact",
+      "text": "On March 18, 1990, two men disguised as police officers stole 13 works of art from the Isabella Stewart Gardner Museum in Boston.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Isabella Stewart Gardner Museum",
+      "archive_label": "Gardner Museum",
+      "role": "archive",
+      "text": "The stolen works included paintings by Rembrandt, Vermeer, and Degas."
+    },
+    {
+      "label": "Unsolved Heist",
+      "sub": "art",
+      "label_on": "mystery",
+      "role": "callout",
+      "text": "The heist remains one of the most famous unsolved art thefts in history.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Isabella Stewart Gardner Museum heist is one of the most famous unsolved art thefts in history. The case remains a mystery to this day. Follow us for more unsolved mysteries.",
+  "hashtags": [
+    "#GardnerHeist",
+    "#IsabellaStewartGardnerMuseum",
+    "#ArtTheft",
+    "#Unsolved",
+    "#Boston",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -9940,5 +9940,129 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "**The Mysterious Case of the Isabella Stewart Gardner Museum Heist**",
+    "thumb": "GARDNER MUSEUM HEIST",
+    "place": "Boston",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "13 MASTERPIECES",
+        "query": "empty museum gallery",
+        "query2": "darkened art hall",
+        "role": "hook",
+        "text": "13 works stolen"
+      },
+      {
+        "chips": [
+          {
+            "t": "1990",
+            "on": "nineteen ninety",
+            "style": "white"
+          }
+        ],
+        "punch": "gone",
+        "query": "calendar page turn",
+        "query2": "old newspaper headline",
+        "role": "fact",
+        "text": "The heist occurred on March 18, 1990"
+      },
+      {
+        "archive_query": "Isabella Stewart Gardner Museum courtyard",
+        "archive_label": "Gardner Museum",
+        "query": "museum courtyard at night",
+        "query2": "empty museum courtyard",
+        "role": "archive",
+        "text": "The Isabella Stewart Gardner Museum's courtyard"
+      },
+      {
+        "label": "UNSOLVED",
+        "sub": "still a mystery",
+        "label_on": "today",
+        "query": "magnifying glass on clue",
+        "query2": "detective looking at file",
+        "role": "callout",
+        "text": "The case remains unsolved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Isabella Stewart Gardner Museum heist is one of the most infamous art thefts in history. On March 18, 1990, 13 works of art were stolen from the museum, including paintings by Rembrandt and Vermeer. The case remains unsolved to this day. Follow us for more true crime stories. #truecrime #arttheft #unsolved",
+    "hashtags": [
+      "#truecrime",
+      "#arttheft",
+      "#unsolved",
+      "#museumheist",
+      "#boston",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Legendary Heist of the Brink's Company**",
+    "thumb": "BRINKS HEIST",
+    "place": "Boston",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "11 THIEVES",
+        "query": "gang of thieves",
+        "query2": "masked men in black",
+        "role": "hook",
+        "text": "11 thieves involved"
+      },
+      {
+        "chips": [
+          {
+            "t": "1950",
+            "on": "nineteen fifty",
+            "style": "white"
+          }
+        ],
+        "punch": "struck",
+        "query": "calendar page turn",
+        "query2": "old newspaper headline",
+        "role": "fact",
+        "text": "The heist occurred on January 17, 1950"
+      },
+      {
+        "archive_query": "Brink's armoured car",
+        "archive_label": "Brink's Armoured",
+        "query": "armoured car driving",
+        "query2": "empty armoured car",
+        "role": "archive",
+        "text": "The Brink's Company armoured car"
+      },
+      {
+        "label": "SOLVED",
+        "sub": "justice served",
+        "label_on": "later",
+        "query": "handcuffs on thief",
+        "query2": "police car lights",
+        "role": "callout",
+        "text": "The heist was finally solved"
+      },
+      {
+        "role": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Brink's Company heist was a legendary robbery that took place on January 17, 1950, in Boston, Massachusetts. 11 thieves made off with $2.7 million, making it one of the largest heists in history at the time. The case was eventually solved, and the thieves were brought to justice. Follow us for more true crime stories. #truecrime #heist #solved",
+    "hashtags": [
+      "#truecrime",
+      "#heist",
+      "#solved",
+      "#boston",
+      "#brinks",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

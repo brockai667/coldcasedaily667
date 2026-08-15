@@ -1,0 +1,62 @@
+{
+  "title": "**The Legendary Heist of the Brink's Company**",
+  "thumb": "BRINKS HEIST",
+  "place": "Boston",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "11 THIEVES",
+      "query": "gang of thieves",
+      "query2": "masked men in black",
+      "role": "hook",
+      "text": "11 thieves involved"
+    },
+    {
+      "chips": [
+        {
+          "t": "1950",
+          "on": "nineteen fifty",
+          "style": "white"
+        }
+      ],
+      "punch": "struck",
+      "query": "calendar page turn",
+      "query2": "old newspaper headline",
+      "role": "fact",
+      "text": "The heist occurred on January 17, 1950"
+    },
+    {
+      "archive_query": "Brink's armoured car",
+      "archive_label": "Brink's Armoured",
+      "query": "armoured car driving",
+      "query2": "empty armoured car",
+      "role": "archive",
+      "text": "The Brink's Company armoured car"
+    },
+    {
+      "label": "SOLVED",
+      "sub": "justice served",
+      "label_on": "later",
+      "query": "handcuffs on thief",
+      "query2": "police car lights",
+      "role": "callout",
+      "text": "The heist was finally solved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Brink's Company heist was a legendary robbery that took place on January 17, 1950, in Boston, Massachusetts. 11 thieves made off with $2.7 million, making it one of the largest heists in history at the time. The case was eventually solved, and the thieves were brought to justice. Follow us for more true crime stories. #truecrime #heist #solved",
+  "hashtags": [
+    "#truecrime",
+    "#heist",
+    "#solved",
+    "#boston",
+    "#brinks",
+    "#shorts",
+    "#fyp"
+  ]
+}

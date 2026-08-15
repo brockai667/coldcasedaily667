@@ -1,0 +1,62 @@
+{
+  "title": "**The Mysterious Case of the Isabella Stewart Gardner Museum Heist**",
+  "thumb": "GARDNER MUSEUM HEIST",
+  "place": "Boston",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "13 MASTERPIECES",
+      "query": "empty museum gallery",
+      "query2": "darkened art hall",
+      "role": "hook",
+      "text": "13 works stolen"
+    },
+    {
+      "chips": [
+        {
+          "t": "1990",
+          "on": "nineteen ninety",
+          "style": "white"
+        }
+      ],
+      "punch": "gone",
+      "query": "calendar page turn",
+      "query2": "old newspaper headline",
+      "role": "fact",
+      "text": "The heist occurred on March 18, 1990"
+    },
+    {
+      "archive_query": "Isabella Stewart Gardner Museum courtyard",
+      "archive_label": "Gardner Museum",
+      "query": "museum courtyard at night",
+      "query2": "empty museum courtyard",
+      "role": "archive",
+      "text": "The Isabella Stewart Gardner Museum's courtyard"
+    },
+    {
+      "label": "UNSOLVED",
+      "sub": "still a mystery",
+      "label_on": "today",
+      "query": "magnifying glass on clue",
+      "query2": "detective looking at file",
+      "role": "callout",
+      "text": "The case remains unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Isabella Stewart Gardner Museum heist is one of the most infamous art thefts in history. On March 18, 1990, 13 works of art were stolen from the museum, including paintings by Rembrandt and Vermeer. The case remains unsolved to this day. Follow us for more true crime stories. #truecrime #arttheft #unsolved",
+  "hashtags": [
+    "#truecrime",
+    "#arttheft",
+    "#unsolved",
+    "#museumheist",
+    "#boston",
+    "#shorts",
+    "#fyp"
+  ]
+}
