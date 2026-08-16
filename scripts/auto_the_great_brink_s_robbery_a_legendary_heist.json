@@ -1,0 +1,61 @@
+{
+  "title": "**The Great Brink's Robbery: A Legendary Heist**",
+  "thumb": "BRINKS HEIST",
+  "place": "Boston",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "BRINKS HEIST RECORD",
+      "query": "armored truck at night",
+      "query2": "city street in the 50s",
+      "role": "hook",
+      "text": "13 million stolen"
+    },
+    {
+      "chips": [
+        {
+          "t": "1950",
+          "on": "nineteen fifty",
+          "style": "white"
+        }
+      ],
+      "punch": "Heist",
+      "role": "fact",
+      "text": "On January 17, 1950, the Great Brink's Robbery took place in Boston",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Brink's Armored truck 1950",
+      "archive_label": "Brink's Truck",
+      "role": "archive",
+      "text": "The Brink's Armored truck"
+    },
+    {
+      "label": "Legendary Heist",
+      "sub": "A record broken",
+      "label_on": "heist",
+      "role": "callout",
+      "text": "The largest heist in US history at the time",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Great Brink's Robbery is one of the most famous heists in American history. On January 17, 1950, a group of thieves stole $13 million from an armored truck in Boston. The heist was the largest in US history at the time. Follow for more true crime stories. #BrinksHeist #TrueCrime #Heist",
+  "hashtags": [
+    "#BrinksHeist",
+    "#TrueCrime",
+    "#Heist",
+    "#Legendary",
+    "#Boston",
+    "#1950",
+    "#shorts",
+    "#fyp"
+  ]
+}

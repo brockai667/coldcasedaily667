@@ -1,0 +1,61 @@
+{
+  "title": "**The Disappearance of the Sodder Children: A Family's Nightmare**",
+  "thumb": "SODDER CHILDREN",
+  "place": "Fayetteville",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "SODDER CHILDREN MYSTERY",
+      "query": "abandoned house at night",
+      "query2": "empty street in winter",
+      "role": "hook",
+      "text": "5 children vanished"
+    },
+    {
+      "chips": [
+        {
+          "t": "1945",
+          "on": "nineteen forty-five",
+          "style": "white"
+        }
+      ],
+      "punch": "Disaster",
+      "role": "fact",
+      "text": "On Christmas Eve, 1945, a fire destroyed the Sodder family home",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Sodder family home",
+      "archive_label": "Sodder Home",
+      "role": "archive",
+      "text": "The Sodder family home before the fire"
+    },
+    {
+      "label": "Unsolved Mystery",
+      "sub": "Still puzzling",
+      "label_on": "mystery",
+      "role": "callout",
+      "text": "Theories abound, but what really happened?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Sodder children disappearance is one of the most baffling cases in American history. On Christmas Eve, 1945, a fire destroyed the Sodder family home, and five of the nine children were never found. Theories abound, but what really happened? Follow for more true crime stories. #SodderChildren #TrueCrime #Mystery",
+  "hashtags": [
+    "#SodderChildren",
+    "#TrueCrime",
+    "#Mystery",
+    "#Unsolved",
+    "#FamilyMystery",
+    "#ColdCase",
+    "#shorts",
+    "#fyp"
+  ]
+}

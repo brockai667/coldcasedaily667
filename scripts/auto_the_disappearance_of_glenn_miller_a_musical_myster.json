@@ -1,0 +1,61 @@
+{
+  "title": "**The Disappearance of Glenn Miller: A Musical Mystery**",
+  "thumb": "GLENN MILLER",
+  "place": "Twinwood Airfield",
+  "country": "UK",
+  "scenes": [
+    {
+      "hook_top": "GLENN MILLER MYSTERY",
+      "query": "airfield in fog",
+      "query2": "vintage plane taking off",
+      "role": "hook",
+      "text": "Glenn Miller vanished"
+    },
+    {
+      "chips": [
+        {
+          "t": "1944",
+          "on": "nineteen forty-four",
+          "style": "white"
+        }
+      ],
+      "punch": "Disappearance",
+      "role": "fact",
+      "text": "On December 15, 1944, Glenn Miller's plane disappeared over the English Channel",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "archive_query": "Glenn Miller's plane",
+      "archive_label": "Miller's Plane",
+      "role": "archive",
+      "text": "Glenn Miller's plane"
+    },
+    {
+      "label": "Unsolved Mystery",
+      "sub": "Still puzzling",
+      "label_on": "mystery",
+      "role": "callout",
+      "text": "Theories abound, but what really happened to the famous musician?",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The disappearance of Glenn Miller is one of the most enduring mysteries in music history. On December 15, 1944, Miller's plane vanished over the English Channel. Theories abound, but what really happened to the famous musician? Follow for more true crime stories. #GlennMiller #TrueCrime #Mystery",
+  "hashtags": [
+    "#GlennMiller",
+    "#TrueCrime",
+    "#Mystery",
+    "#Unsolved",
+    "#MusicMystery",
+    "#Aviation",
+    "#shorts",
+    "#fyp"
+  ]
+}

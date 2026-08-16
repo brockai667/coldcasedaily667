@@ -10064,5 +10064,188 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "**The Disappearance of the Sodder Children: A Family's Nightmare**",
+    "thumb": "SODDER CHILDREN",
+    "place": "Fayetteville",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "SODDER CHILDREN MYSTERY",
+        "query": "abandoned house at night",
+        "query2": "empty street in winter",
+        "role": "hook",
+        "text": "5 children vanished"
+      },
+      {
+        "chips": [
+          {
+            "t": "1945",
+            "on": "nineteen forty-five",
+            "style": "white"
+          }
+        ],
+        "punch": "Disaster",
+        "role": "fact",
+        "text": "On Christmas Eve, 1945, a fire destroyed the Sodder family home",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Sodder family home",
+        "archive_label": "Sodder Home",
+        "role": "archive",
+        "text": "The Sodder family home before the fire"
+      },
+      {
+        "label": "Unsolved Mystery",
+        "sub": "Still puzzling",
+        "label_on": "mystery",
+        "role": "callout",
+        "text": "Theories abound, but what really happened?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Sodder children disappearance is one of the most baffling cases in American history. On Christmas Eve, 1945, a fire destroyed the Sodder family home, and five of the nine children were never found. Theories abound, but what really happened? Follow for more true crime stories. #SodderChildren #TrueCrime #Mystery",
+    "hashtags": [
+      "#SodderChildren",
+      "#TrueCrime",
+      "#Mystery",
+      "#Unsolved",
+      "#FamilyMystery",
+      "#ColdCase",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Great Brink's Robbery: A Legendary Heist**",
+    "thumb": "BRINKS HEIST",
+    "place": "Boston",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "BRINKS HEIST RECORD",
+        "query": "armored truck at night",
+        "query2": "city street in the 50s",
+        "role": "hook",
+        "text": "13 million stolen"
+      },
+      {
+        "chips": [
+          {
+            "t": "1950",
+            "on": "nineteen fifty",
+            "style": "white"
+          }
+        ],
+        "punch": "Heist",
+        "role": "fact",
+        "text": "On January 17, 1950, the Great Brink's Robbery took place in Boston",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Brink's Armored truck 1950",
+        "archive_label": "Brink's Truck",
+        "role": "archive",
+        "text": "The Brink's Armored truck"
+      },
+      {
+        "label": "Legendary Heist",
+        "sub": "A record broken",
+        "label_on": "heist",
+        "role": "callout",
+        "text": "The largest heist in US history at the time",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The Great Brink's Robbery is one of the most famous heists in American history. On January 17, 1950, a group of thieves stole $13 million from an armored truck in Boston. The heist was the largest in US history at the time. Follow for more true crime stories. #BrinksHeist #TrueCrime #Heist",
+    "hashtags": [
+      "#BrinksHeist",
+      "#TrueCrime",
+      "#Heist",
+      "#Legendary",
+      "#Boston",
+      "#1950",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "**The Disappearance of Glenn Miller: A Musical Mystery**",
+    "thumb": "GLENN MILLER",
+    "place": "Twinwood Airfield",
+    "country": "UK",
+    "scenes": [
+      {
+        "hook_top": "GLENN MILLER MYSTERY",
+        "query": "airfield in fog",
+        "query2": "vintage plane taking off",
+        "role": "hook",
+        "text": "Glenn Miller vanished"
+      },
+      {
+        "chips": [
+          {
+            "t": "1944",
+            "on": "nineteen forty-four",
+            "style": "white"
+          }
+        ],
+        "punch": "Disappearance",
+        "role": "fact",
+        "text": "On December 15, 1944, Glenn Miller's plane disappeared over the English Channel",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "archive_query": "Glenn Miller's plane",
+        "archive_label": "Miller's Plane",
+        "role": "archive",
+        "text": "Glenn Miller's plane"
+      },
+      {
+        "label": "Unsolved Mystery",
+        "sub": "Still puzzling",
+        "label_on": "mystery",
+        "role": "callout",
+        "text": "Theories abound, but what really happened to the famous musician?",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "foggy city night",
+        "query2": "dark cinematic city night"
+      }
+    ],
+    "description": "The disappearance of Glenn Miller is one of the most enduring mysteries in music history. On December 15, 1944, Miller's plane vanished over the English Channel. Theories abound, but what really happened to the famous musician? Follow for more true crime stories. #GlennMiller #TrueCrime #Mystery",
+    "hashtags": [
+      "#GlennMiller",
+      "#TrueCrime",
+      "#Mystery",
+      "#Unsolved",
+      "#MusicMystery",
+      "#Aviation",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
