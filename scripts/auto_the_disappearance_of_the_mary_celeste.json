@@ -1,0 +1,61 @@
+{
+  "title": "**The Disappearance of the Mary Celeste**",
+  "thumb": "MARY CELESTE",
+  "place": "Atlantic Ocean",
+  "country": "None",
+  "scenes": [
+    {
+      "hook_top": "11 LOST",
+      "query": "abandoned ship at sea",
+      "query2": "sailing vessel",
+      "role": "hook",
+      "text": "11 people vanished in 1872"
+    },
+    {
+      "chips": [
+        {
+          "t": "11",
+          "on": "people",
+          "style": "white"
+        }
+      ],
+      "punch": "Adrift",
+      "query": "abandoned ship",
+      "query2": "maritime mystery",
+      "role": "fact",
+      "text": "The ship was found adrift with no signs of struggle"
+    },
+    {
+      "archive_query": "Mary Celeste ship",
+      "archive_label": "Mary Celeste",
+      "query": "historic ship",
+      "query2": "sailing vessel",
+      "role": "archive",
+      "text": "The Mary Celeste after its discovery"
+    },
+    {
+      "label": "UNSOLVED",
+      "sub": "No explanation",
+      "label_on": "mystery",
+      "query": "investigation board",
+      "query2": "cold case files",
+      "role": "callout",
+      "text": "The mystery of the Mary Celeste remains unsolved"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The disappearance of the Mary Celeste is one of the greatest maritime mysteries of all time. 11 people vanished from a ship that was found adrift with no signs of struggle. What happened to them? Follow us for more true crime stories. #truecrime #marycelest #unsolved #mystery",
+  "hashtags": [
+    "#truecrime",
+    "#marycelest",
+    "#unsolved",
+    "#mystery",
+    "#shorts",
+    "#fyp"
+  ]
+}
