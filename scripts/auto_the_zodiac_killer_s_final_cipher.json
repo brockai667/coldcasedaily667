@@ -1,0 +1,72 @@
+{
+  "title": "The Zodiac Killer’s Final Cipher",
+  "thumb": "ZODIAC CODE",
+  "place": "San Francisco, USA",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "ZODIAC CODE",
+      "query": "San Francisco Chronicle 1968",
+      "query2": "San Francisco Chronicle 1968 archive",
+      "fact": "In 1968 the Zodiac sent a cryptogram containing 32 characters to the San Francisco Chronicle",
+      "chips": [
+        {
+          "t": "32 chars",
+          "on": "cipher",
+          "style": "accent"
+        }
+      ],
+      "archive": "San Francisco Chronicle 1968 issue",
+      "archive_query": "San_Francisco_Chronicle_1968",
+      "archive_label": "1968 Chronicle",
+      "role": "hook",
+      "text": "1968, a symbol, a threat, a killer’s last cipher"
+    },
+    {
+      "chips": [
+        {
+          "t": "unsolved",
+          "on": "cipher",
+          "style": "accent"
+        }
+      ],
+      "query": "unsolved Zodiac cipher",
+      "query2": "Zodiac cipher unsolved 2024",
+      "role": "fact",
+      "text": "The cipher was never fully decoded by the police"
+    },
+    {
+      "archive_query": "San_Francisco_skyline_1968",
+      "archive_label": "1968 city",
+      "query": "San Francisco skyline 1968",
+      "query2": "San Francisco skyline 1968 archive",
+      "role": "archive",
+      "text": "San Francisco skyline 1968"
+    },
+    {
+      "label": "CITY SHADOW",
+      "sub": "The Zodiac’s final message remains a puzzle",
+      "label_on": "haunt",
+      "query": "San Francisco 1968 night",
+      "query2": "San Francisco 1968 night archive",
+      "role": "callout",
+      "text": "A mystery that still haunts the city"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "The Zodiac Killer’s last cryptogram, sent in 1968, contained 32 enigmatic characters that the San Francisco Police Department never cracked. The unsolved cipher continues to intrigue cryptographers and crime enthusiasts alike. Follow for more cold‑case chronicles.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#zodiackiller",
+    "#cryptogram",
+    "#1968",
+    "#coldcase",
+    "#mystery"
+  ]
+}

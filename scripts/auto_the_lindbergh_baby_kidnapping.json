@@ -1,0 +1,72 @@
+{
+  "title": "The Lindbergh Baby Kidnapping",
+  "thumb": "BABY ABDUCTED",
+  "place": "New Jersey, USA",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "BABY ABDUCTED",
+      "query": "Lindbergh house New Jersey",
+      "query2": "Lindbergh estate New Jersey",
+      "fact": "Charles Lindbergh’s 20‑month‑old son was kidnapped on March 1, 1932",
+      "chips": [
+        {
+          "t": "March 1, 1932",
+          "on": "kidnapped",
+          "style": "white"
+        }
+      ],
+      "archive": "Lindbergh house New Jersey 1932",
+      "archive_query": "Lindbergh_house_New_Jersey_1932",
+      "archive_label": "Lindbergh home",
+      "role": "hook",
+      "text": "1932, a child vanished, a ransom was demanded"
+    },
+    {
+      "chips": [
+        {
+          "t": "$10,000",
+          "on": "ransom",
+          "style": "accent"
+        }
+      ],
+      "query": "ransom note 1932",
+      "query2": "ransom note 1932 archive",
+      "role": "fact",
+      "text": "A $10,000 ransom note was delivered to the family’s car"
+    },
+    {
+      "archive_query": "Lindbergh_estate_1932",
+      "archive_label": "1932 estate",
+      "query": "Lindbergh estate New Jersey 1932",
+      "query2": "Lindbergh estate 1932 archive",
+      "role": "archive",
+      "text": "Lindbergh estate 1932"
+    },
+    {
+      "label": "NATIONAL TRAGEDY",
+      "sub": "A young life lost, a nation in mourning",
+      "label_on": "grief",
+      "query": "New Jersey mourning 1932",
+      "query2": "New Jersey mourning 1932 archive",
+      "role": "callout",
+      "text": "The case that sparked national grief"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "foggy city night",
+      "query2": "dark cinematic city night"
+    }
+  ],
+  "description": "In 1932, the Lindbergh family’s 20‑month‑old son vanished, and a $10,000 ransom was demanded. The case remains one of America’s most infamous kidnappings, leaving a legacy of grief and legal reform. Follow for more cold‑case chronicles.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#lindbergh",
+    "#kidnapping",
+    "#1932",
+    "#coldcase",
+    "#history"
+  ]
+}
