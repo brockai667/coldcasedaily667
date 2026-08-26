@@ -10452,5 +10452,212 @@
       "#coldcase",
       "#history"
     ]
+  },
+  {
+    "title": "What Secrets Lie Behind the 1979 Antwerp Diamond Heist?",
+    "thumb": "DIAMOND HEIST",
+    "place": "Antwerp",
+    "country": "Belgium",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Six thieves stole $100 million in diamonds from a vault in 1979",
+        "hook_top": "MILLIONDIAMOND HEIST",
+        "query": "Antwerp diamond vault interior night",
+        "query2": "luxury safe room darkness",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The thieves bypassed a 10‑second delay alarm using a homemade device.",
+        "chips": [
+          {
+            "t": "10‑SECOND DELAY",
+            "on": "delay",
+            "style": "white"
+          }
+        ],
+        "punch": "bypass",
+        "query": "close‑up of alarm panel electronics",
+        "query2": "security system wiring",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "The Antwerp Diamond Center’s vaulted storage room, 1979",
+        "archive_query": "Antwerp Diamond Center vault 1979",
+        "archive_label": "Antwerp Vault 1979",
+        "query": "historic vault interior stone walls",
+        "query2": "old bank vault interior",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Even the toughest vault can be outsmarted.",
+        "label": "Vault Breach",
+        "sub": "A custom device fooled the alarm.",
+        "label_on": "breach",
+        "query": "schematic of vault security layout",
+        "query2": "blueprint of safe room",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "dramatic street night lighting",
+        "query2": "city skyline dusk",
+        "role": "cta"
+      }
+    ],
+    "description": "The 1979 Antwerp Diamond Heist remains one of the boldest thefts in history. Discover how a small team cracked a vault thought impenetrable. Follow for more crime deep‑dives.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#heist",
+      "#diamonds",
+      "#antwerp",
+      "#unsolved"
+    ]
+  },
+  {
+    "title": "Why Did the 1963 Great Train Robbery Shock Britain?",
+    "thumb": "TRAIN ROBBERY",
+    "place": "Bridge Water",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Six men stole £2.6 million from a Royal Mail train in 1963",
+        "hook_top": "MILLIONPOUND TRAIN HEIST",
+        "query": "British railway line night 1960s",
+        "query2": "empty train tracks dusk",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The robbers stopped the train by tampering with a signal light.",
+        "chips": [
+          {
+            "t": "SIGNAL LIGHT",
+            "on": "signal",
+            "style": "accent"
+          }
+        ],
+        "punch": "stop",
+        "query": "old railway signal box interior",
+        "query2": "vintage railway signal lamp",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "The Royal Mail train at Bridge Water, 1963",
+        "archive_query": "Royal Mail train Bridge Water 1963",
+        "archive_label": "Bridge Water Train",
+        "query": "historic British train platform",
+        "query2": "mid‑century railway station",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "A simple signal hack changed crime history.",
+        "label": "Signal Hack",
+        "sub": "They used a red lantern to halt the train.",
+        "label_on": "hack",
+        "query": "red lantern railway signal",
+        "query2": "old railway lantern night",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "railway tunnel sunrise ambience",
+        "query2": "empty tracks sunrise",
+        "role": "cta"
+      }
+    ],
+    "description": "The Great Train Robbery stunned a nation, pulling off the largest cash theft of its time. Learn the clever tactics that let six thieves escape with millions. Follow us for more true‑crime deep dives.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#trainrobbery",
+      "#1960s",
+      "#britain",
+      "#legendary"
+    ]
+  },
+  {
+    "title": "What Remains Unsolved in the JonBenét Ramsey Case?",
+    "thumb": "MYSTERY CASE",
+    "place": "Colorado Springs",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Six‑year‑old pageant queen found dead in her home, 1996",
+        "hook_top": "PAGEANT MYSTERY",
+        "query": "suburban house night exterior 1990s",
+        "query2": "empty driveway streetlight",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The crime scene contained a ransom note over 300 words long.",
+        "chips": [
+          {
+            "t": "300‑WORD NOTE",
+            "on": "note",
+            "style": "white"
+          }
+        ],
+        "punch": "note",
+        "query": "typed ransom note paper close‑up",
+        "query2": "handwritten note on desk",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "The Ramsey family home exterior, 1996",
+        "archive_query": "Ramsey house Colorado Springs 1996 exterior",
+        "archive_label": "Ramsey Home",
+        "query": "suburban house front view night",
+        "query2": "quiet residential street dusk",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "The note’s origin is still debated by investigators.",
+        "label": "Unanswered Note",
+        "sub": "Who wrote it and why?",
+        "label_on": "debate",
+        "query": "close‑up of typed paper texture",
+        "query2": "old typewriter keys",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "mystery board with string connections",
+        "query2": "corkboard with clues",
+        "role": "cta"
+      }
+    ],
+    "description": "The JonBenét Ramsey murder sparked endless speculation and remains unresolved. Dive into the key evidence that still puzzles investigators today. Follow for more in‑depth true‑crime analysis.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#unsolved",
+      "#ramsey",
+      "#mystery",
+      "#1996"
+    ]
   }
 ]

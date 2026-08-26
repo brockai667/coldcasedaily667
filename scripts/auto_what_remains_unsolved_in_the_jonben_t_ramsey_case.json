@@ -1,0 +1,69 @@
+{
+  "title": "What Remains Unsolved in the JonBenét Ramsey Case?",
+  "thumb": "MYSTERY CASE",
+  "place": "Colorado Springs",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Six‑year‑old pageant queen found dead in her home, 1996",
+      "hook_top": "PAGEANT MYSTERY",
+      "query": "suburban house night exterior 1990s",
+      "query2": "empty driveway streetlight",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The crime scene contained a ransom note over 300 words long.",
+      "chips": [
+        {
+          "t": "300‑WORD NOTE",
+          "on": "note",
+          "style": "white"
+        }
+      ],
+      "punch": "note",
+      "query": "typed ransom note paper close‑up",
+      "query2": "handwritten note on desk",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "The Ramsey family home exterior, 1996",
+      "archive_query": "Ramsey house Colorado Springs 1996 exterior",
+      "archive_label": "Ramsey Home",
+      "query": "suburban house front view night",
+      "query2": "quiet residential street dusk",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "The note’s origin is still debated by investigators.",
+      "label": "Unanswered Note",
+      "sub": "Who wrote it and why?",
+      "label_on": "debate",
+      "query": "close‑up of typed paper texture",
+      "query2": "old typewriter keys",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "mystery board with string connections",
+      "query2": "corkboard with clues",
+      "role": "cta"
+    }
+  ],
+  "description": "The JonBenét Ramsey murder sparked endless speculation and remains unresolved. Dive into the key evidence that still puzzles investigators today. Follow for more in‑depth true‑crime analysis.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#unsolved",
+    "#ramsey",
+    "#mystery",
+    "#1996"
+  ]
+}
