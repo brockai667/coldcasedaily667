@@ -1,0 +1,67 @@
+{
+  "title": "The $5 Million Lufthansa Heist That Shook New York",
+  "thumb": "LUXURY HEIST",
+  "place": "JFK International Airport",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "HEIST VANISHED",
+      "query": "empty airport cargo area night",
+      "query2": "dark empty terminal hallway",
+      "role": "hook",
+      "text": "How 11 thieves vanished with $5 million in 1978?"
+    },
+    {
+      "query": "aerial view JFK airport cargo area",
+      "query2": "satellite map JFK cargo terminal",
+      "role": "map",
+      "text": "The robbery took place in the cargo terminal of JFK Airport, Queens, New York."
+    },
+    {
+      "chips": [
+        {
+          "t": "$5 M STOLEN",
+          "on": "cash",
+          "style": "accent"
+        }
+      ],
+      "punch": "boom",
+      "query": "empty cargo pallets",
+      "query2": "warehouse floor with crates",
+      "role": "fact",
+      "text": "The crew stole an estimated $5 million in cash, jewelry and gold."
+    },
+    {
+      "archive_query": "Lufthansa Heist FBI press release 1978",
+      "archive_label": "FBI press release",
+      "query": "old newspaper headline",
+      "query2": "vintage newsprint",
+      "role": "archive",
+      "text": "The original FBI press release announcing the heist."
+    },
+    {
+      "label": "UNSOLVED",
+      "sub": "The case remains officially unsolved despite numerous theories.",
+      "label_on": "unsolved",
+      "query": "police tape empty hallway",
+      "query2": "closed crime scene cordon",
+      "role": "callout",
+      "text": "No arrests made"
+    },
+    {
+      "query": "close‑up of a ticking clock",
+      "query2": "slow motion hands moving",
+      "role": "cta",
+      "text": "Follow for a new cold case every day."
+    }
+  ],
+  "description": "A daring crew walked out of JFK with a fortune, leaving detectives baffled. The mystery endures—follow for more unsolved legends.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#heist",
+    "#LufthansaHeist",
+    "#truecrime",
+    "#unsolved"
+  ]
+}

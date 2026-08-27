@@ -1,0 +1,67 @@
+{
+  "title": "The 1978 Murder of a Chicago Mafia Boss: The Unfinished Story",
+  "thumb": "MOB MYSTERY",
+  "place": "Chicago, Illinois",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "RAINY MURDER",
+      "query": "wet city street at night",
+      "query2": "rain soaked downtown alley",
+      "role": "hook",
+      "text": "Who killed the Chicago mob boss on a rainy night?"
+    },
+    {
+      "query": "historic Lexington Hotel Chicago exterior",
+      "query2": "Chicago downtown hotel street view",
+      "role": "map",
+      "text": "The assassination occurred outside the Lexington Hotel, downtown Chicago."
+    },
+    {
+      "chips": [
+        {
+          "t": "1 BULLET",
+          "on": "bullet",
+          "style": "accent"
+        }
+      ],
+      "punch": "bang",
+      "query": "bullet casing on wet pavement",
+      "query2": "silhouette of a gun on a rainy street",
+      "role": "fact",
+      "text": "Police found the victim with a single bullet wound to the chest."
+    },
+    {
+      "archive_query": "Chicago Tribune September 4 1978 mafia murder headline",
+      "archive_label": "1978 headline",
+      "query": "vintage newspaper front page",
+      "query2": "old newsprint headline",
+      "role": "archive",
+      "text": "Newspaper headline announcing the murder on September 4 1978."
+    },
+    {
+      "label": "UNSOLVED",
+      "sub": "No one has been charged; theories abound.",
+      "label_on": "cold",
+      "query": "closed file folder with dust",
+      "query2": "empty police board with pins",
+      "role": "callout",
+      "text": "Case remains cold"
+    },
+    {
+      "query": "slow motion rain on window",
+      "query2": "dripping water on glass",
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries."
+    }
+  ],
+  "description": "A rain‑slicked alley, a single shot, and a powerful crime boss—Chicago’s underworld still whispers. Stay tuned for deeper dives—follow now.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#mafia",
+    "#Chicago",
+    "#truecrime",
+    "#unsolved"
+  ]
+}

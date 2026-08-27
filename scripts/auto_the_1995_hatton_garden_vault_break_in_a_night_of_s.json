@@ -1,0 +1,67 @@
+{
+  "title": "The 1995 Hatton Garden Vault Break‑In: A Night of Silver",
+  "thumb": "VANISHED SILVER",
+  "place": "Hatton Garden Safe Deposit Centre",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "hook_top": "SENIOR VANDALS",
+      "query": "empty underground vault hallway",
+      "query2": "dark stone corridor",
+      "role": "hook",
+      "text": "Eight seniors cracked a £14 million vault in one night?"
+    },
+    {
+      "query": "street view Hatton Garden London",
+      "query2": "map of Hatton Garden area",
+      "role": "map",
+      "text": "The burglary happened at the Hatton Garden Safe Deposit Centre, London’s Diamond District."
+    },
+    {
+      "chips": [
+        {
+          "t": "£4 M RECOVERED",
+          "on": "recovery",
+          "style": "white"
+        }
+      ],
+      "punch": "still",
+      "query": "open safe deposit box with empty space",
+      "query2": "vault door slightly ajar",
+      "role": "fact",
+      "text": "Police recovered only £4 million of the stolen jewellery and cash."
+    },
+    {
+      "archive_query": "Hatton Garden burglary CCTV still 1995",
+      "archive_label": "CCTV still",
+      "query": "old security camera footage",
+      "query2": "grainy surveillance still",
+      "role": "archive",
+      "text": "The original CCTV still of the vault door after the break‑in."
+    },
+    {
+      "label": "ELUSIVE GANG",
+      "sub": "Only two members were convicted; the rest vanished.",
+      "label_on": "elusive",
+      "query": "police silhouette in fog",
+      "query2": "empty alley at night",
+      "role": "callout",
+      "text": "Most thieves evaded capture"
+    },
+    {
+      "query": "slow zoom on a safe lock",
+      "query2": "metallic tumblers turning",
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries."
+    }
+  ],
+  "description": "A group of elderly thieves used drills and a night‑time blackout to breach a high‑security vault. Their daring still sparks debate—follow for more vault stories.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#HattonGarden",
+    "#heist",
+    "#truecrime",
+    "#UKcrime"
+  ]
+}

@@ -10659,5 +10659,481 @@
       "#mystery",
       "#1996"
     ]
+  },
+  {
+    "title": "The $5 Million Lufthansa Heist That Shook New York",
+    "thumb": "LUXURY HEIST",
+    "place": "JFK International Airport",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "HEIST VANISHED",
+        "query": "empty airport cargo area night",
+        "query2": "dark empty terminal hallway",
+        "role": "hook",
+        "text": "How 11 thieves vanished with $5 million in 1978?"
+      },
+      {
+        "query": "aerial view JFK airport cargo area",
+        "query2": "satellite map JFK cargo terminal",
+        "role": "map",
+        "text": "The robbery took place in the cargo terminal of JFK Airport, Queens, New York."
+      },
+      {
+        "chips": [
+          {
+            "t": "$5 M STOLEN",
+            "on": "cash",
+            "style": "accent"
+          }
+        ],
+        "punch": "boom",
+        "query": "empty cargo pallets",
+        "query2": "warehouse floor with crates",
+        "role": "fact",
+        "text": "The crew stole an estimated $5 million in cash, jewelry and gold."
+      },
+      {
+        "archive_query": "Lufthansa Heist FBI press release 1978",
+        "archive_label": "FBI press release",
+        "query": "old newspaper headline",
+        "query2": "vintage newsprint",
+        "role": "archive",
+        "text": "The original FBI press release announcing the heist."
+      },
+      {
+        "label": "UNSOLVED",
+        "sub": "The case remains officially unsolved despite numerous theories.",
+        "label_on": "unsolved",
+        "query": "police tape empty hallway",
+        "query2": "closed crime scene cordon",
+        "role": "callout",
+        "text": "No arrests made"
+      },
+      {
+        "query": "close‑up of a ticking clock",
+        "query2": "slow motion hands moving",
+        "role": "cta",
+        "text": "Follow for a new cold case every day."
+      }
+    ],
+    "description": "A daring crew walked out of JFK with a fortune, leaving detectives baffled. The mystery endures—follow for more unsolved legends.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#heist",
+      "#LufthansaHeist",
+      "#truecrime",
+      "#unsolved"
+    ]
+  },
+  {
+    "title": "The 1995 Hatton Garden Vault Break‑In: A Night of Silver",
+    "thumb": "VANISHED SILVER",
+    "place": "Hatton Garden Safe Deposit Centre",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "hook_top": "SENIOR VANDALS",
+        "query": "empty underground vault hallway",
+        "query2": "dark stone corridor",
+        "role": "hook",
+        "text": "Eight seniors cracked a £14 million vault in one night?"
+      },
+      {
+        "query": "street view Hatton Garden London",
+        "query2": "map of Hatton Garden area",
+        "role": "map",
+        "text": "The burglary happened at the Hatton Garden Safe Deposit Centre, London’s Diamond District."
+      },
+      {
+        "chips": [
+          {
+            "t": "£4 M RECOVERED",
+            "on": "recovery",
+            "style": "white"
+          }
+        ],
+        "punch": "still",
+        "query": "open safe deposit box with empty space",
+        "query2": "vault door slightly ajar",
+        "role": "fact",
+        "text": "Police recovered only £4 million of the stolen jewellery and cash."
+      },
+      {
+        "archive_query": "Hatton Garden burglary CCTV still 1995",
+        "archive_label": "CCTV still",
+        "query": "old security camera footage",
+        "query2": "grainy surveillance still",
+        "role": "archive",
+        "text": "The original CCTV still of the vault door after the break‑in."
+      },
+      {
+        "label": "ELUSIVE GANG",
+        "sub": "Only two members were convicted; the rest vanished.",
+        "label_on": "elusive",
+        "query": "police silhouette in fog",
+        "query2": "empty alley at night",
+        "role": "callout",
+        "text": "Most thieves evaded capture"
+      },
+      {
+        "query": "slow zoom on a safe lock",
+        "query2": "metallic tumblers turning",
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries."
+      }
+    ],
+    "description": "A group of elderly thieves used drills and a night‑time blackout to breach a high‑security vault. Their daring still sparks debate—follow for more vault stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#HattonGarden",
+      "#heist",
+      "#truecrime",
+      "#UKcrime"
+    ]
+  },
+  {
+    "title": "The 1978 Murder of a Chicago Mafia Boss: The Unfinished Story",
+    "thumb": "MOB MYSTERY",
+    "place": "Chicago, Illinois",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "RAINY MURDER",
+        "query": "wet city street at night",
+        "query2": "rain soaked downtown alley",
+        "role": "hook",
+        "text": "Who killed the Chicago mob boss on a rainy night?"
+      },
+      {
+        "query": "historic Lexington Hotel Chicago exterior",
+        "query2": "Chicago downtown hotel street view",
+        "role": "map",
+        "text": "The assassination occurred outside the Lexington Hotel, downtown Chicago."
+      },
+      {
+        "chips": [
+          {
+            "t": "1 BULLET",
+            "on": "bullet",
+            "style": "accent"
+          }
+        ],
+        "punch": "bang",
+        "query": "bullet casing on wet pavement",
+        "query2": "silhouette of a gun on a rainy street",
+        "role": "fact",
+        "text": "Police found the victim with a single bullet wound to the chest."
+      },
+      {
+        "archive_query": "Chicago Tribune September 4 1978 mafia murder headline",
+        "archive_label": "1978 headline",
+        "query": "vintage newspaper front page",
+        "query2": "old newsprint headline",
+        "role": "archive",
+        "text": "Newspaper headline announcing the murder on September 4 1978."
+      },
+      {
+        "label": "UNSOLVED",
+        "sub": "No one has been charged; theories abound.",
+        "label_on": "cold",
+        "query": "closed file folder with dust",
+        "query2": "empty police board with pins",
+        "role": "callout",
+        "text": "Case remains cold"
+      },
+      {
+        "query": "slow motion rain on window",
+        "query2": "dripping water on glass",
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries."
+      }
+    ],
+    "description": "A rain‑slicked alley, a single shot, and a powerful crime boss—Chicago’s underworld still whispers. Stay tuned for deeper dives—follow now.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#mafia",
+      "#Chicago",
+      "#truecrime",
+      "#unsolved"
+    ]
+  },
+  {
+    "title": "The 1993 Murder of a Hollywood Star: The Case That Stunned Tinseltown",
+    "thumb": "HOLLYWOOD HOMICIDE",
+    "place": "Beverly Hills, California",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "TV ICON KILLED",
+        "query": "empty luxury driveway at dusk",
+        "query2": "quiet suburban street night",
+        "role": "hook",
+        "text": "Who silenced a beloved TV icon in 1993?"
+      },
+      {
+        "query": "Laurel Canyon Boulevard house exterior",
+        "query2": "Beverly Hills residential street view",
+        "role": "map",
+        "text": "The crime scene was the victim’s home on Laurel Canyon Boulevard, Beverly Hills."
+      },
+      {
+        "chips": [
+          {
+            "t": "SIZE 11 PRINT",
+            "on": "shoe",
+            "style": "white"
+          }
+        ],
+        "punch": "trace",
+        "query": "shoe print in mud",
+        "query2": "footprint on gravel",
+        "role": "fact",
+        "text": "The investigation recovered a single shoe print matching a size 11 men’s shoe."
+      },
+      {
+        "archive_query": "Los Angeles Times September 1993 TV star murder front page",
+        "archive_label": "LA Times front page",
+        "query": "vintage newspaper headline",
+        "query2": "old newspaper spread",
+        "role": "archive",
+        "text": "The front page of the Los Angeles Times covering the murder."
+      },
+      {
+        "label": "NO CONVICTION",
+        "sub": "Despite extensive leads, the case stays open.",
+        "label_on": "open",
+        "query": "police badge on empty desk",
+        "query2": "closed case file with red tape",
+        "role": "callout",
+        "text": "No conviction"
+      },
+      {
+        "query": "slow zoom on a movie reel",
+        "query2": "film strip unspooling",
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one."
+      }
+    ],
+    "description": "A star’s bright life was cut short, leaving a trail of unanswered questions. The mystery still glitters—follow for more Hollywood true‑crime.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#hollywood",
+      "#truecrime",
+      "#unsolved",
+      "#celebrity"
+    ]
+  },
+  {
+    "title": "The 1997 Kidnapping That Shocked America",
+    "thumb": "DUGARD SURVIVAL",
+    "place": "Mendota, California",
+    "country": "USA",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A 12‑year‑old girl was taken from a backyard in 1997",
+        "hook_top": "12YEAROLD KIDNAPPED",
+        "query": "quiet suburban backyard night",
+        "query2": "empty swing set dusk",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "Jaycee Dugard was held captive for 18 years in a hidden trailer.",
+        "chips": [
+          {
+            "t": "18 years",
+            "on": "eighteen",
+            "style": "accent"
+          }
+        ],
+        "punch": "eighteen",
+        "query": "isolated trailer forest",
+        "query2": "metal door with padlock",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "She gave birth to two children while imprisoned, both later rescued.",
+        "chips": [
+          {
+            "t": "2 children",
+            "on": "two",
+            "style": "white"
+          }
+        ],
+        "query": "baby carriage in woods",
+        "query2": "empty crib under tarp",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Her captors were her neighbors, who lived a block away the whole time.",
+        "reveal_top": "NEIGHBOR CAPTORS",
+        "query": "quiet cul‑de‑sac street",
+        "query2": "identical houses side by side",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "sunrise over quiet neighborhood",
+        "query2": "dawn light on road",
+        "role": "cta"
+      }
+    ],
+    "description": "Jaycee Dugard survived an 18‑year captivity hidden just blocks from home. Follow for more chilling stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#kidnapping",
+      "#truecrime",
+      "#jaycee",
+      "#unsolved"
+    ]
+  },
+  {
+    "title": "Why Did O.J. Simpson’s Trial Captivate the World?",
+    "thumb": "TRIAL SHOCK",
+    "place": "Los Angeles",
+    "country": "USA",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A former NFL star faced murder charges in a $33 million civil suit.",
+        "hook_top": "NFL STAR ON TRIAL",
+        "query": "courtroom exterior neon lights night",
+        "query2": "city courthouse building dusk",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The blood evidence matched Simpson at a probability of 1 in 1 billion.",
+        "chips": [
+          {
+            "t": "1 IN A BILLION",
+            "on": "probability",
+            "style": "accent"
+          }
+        ],
+        "punch": "probability",
+        "query": "laboratory microscope slide with blood droplets",
+        "query2": "forensic lab closeup blood sample",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "The courtroom’s iconic “If it doesn’t fit, you must acquit” sign still stands.",
+        "archive_query": "If it doesn’t fit, you must acquit sign Wikimedia Commons",
+        "archive_label": "Famous courtroom sign",
+        "query": "courtroom wooden bench empty",
+        "query2": "empty courtroom with wooden panels",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "The verdict sparked nationwide protests and media frenzy.",
+        "label": "NATIONWIDE FURY",
+        "sub": "Racism, fame, and justice collided.",
+        "label_on": "fury",
+        "query": "city streets with protest signs blurred",
+        "query2": "crowd of protest silhouettes at night",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "slow pan across legal books on shelf",
+        "query2": "closeup of leather‑bound law volumes",
+        "role": "cta"
+      }
+    ],
+    "description": "Delve into the forensic evidence, courtroom drama, and cultural impact of O.J. Simpson’s trial. Join us for more true‑crime investigations.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#OJSimplon",
+      "#courtroom",
+      "#forensics",
+      "#history"
+    ]
+  },
+  {
+    "title": "How Did the 1972 Watergate Break‑In Change America?",
+    "thumb": "WATERGATE SCANDAL",
+    "place": "Washington, D.C.",
+    "country": "USA",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Five men slipped into the DNC headquarters, sparking a presidential downfall.",
+        "hook_top": "BREAKIN THAT SHOOK NATION",
+        "query": "historic building exterior night rain",
+        "query2": "old office building with dim lights",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The burglars left a tape recorder that captured secret conversations.",
+        "chips": [
+          {
+            "t": "TAPE RECORDER",
+            "on": "recorder",
+            "style": "white"
+          }
+        ],
+        "punch": "recorder",
+        "query": "vintage reel‑to‑reel tape recorder on desk",
+        "query2": "old audio equipment closeup",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "The infamous “Watergate” sign still hangs on the building’s façade.",
+        "archive_query": "Watergate complex sign Wikimedia Commons",
+        "archive_label": "Watergate sign on building",
+        "query": "historic office building facade with signage",
+        "query2": "brick building with large sign at night",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "The scandal led to the first U.S. president’s resignation.",
+        "label": "RESIGNATION",
+        "sub": "Nixon stepped down after relentless investigations.",
+        "label_on": "resignation",
+        "query": "empty presidential desk with scattered papers",
+        "query2": "oval office chair alone in dim light",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "slow zoom on historic newspaper headlines",
+        "query2": "vintage newspaper spread on table",
+        "role": "cta"
+      }
+    ],
+    "description": "Uncover the covert operation, the recorded evidence, and the political fallout of Watergate. Subscribe for more true‑crime stories that shaped history.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#Watergate",
+      "#history",
+      "#politics",
+      "#investigation"
+    ]
   }
 ]
