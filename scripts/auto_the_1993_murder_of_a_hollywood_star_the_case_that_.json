@@ -1,0 +1,67 @@
+{
+  "title": "The 1993 Murder of a Hollywood Star: The Case That Stunned Tinseltown",
+  "thumb": "HOLLYWOOD HOMICIDE",
+  "place": "Beverly Hills, California",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "TV ICON KILLED",
+      "query": "empty luxury driveway at dusk",
+      "query2": "quiet suburban street night",
+      "role": "hook",
+      "text": "Who silenced a beloved TV icon in 1993?"
+    },
+    {
+      "query": "Laurel Canyon Boulevard house exterior",
+      "query2": "Beverly Hills residential street view",
+      "role": "map",
+      "text": "The crime scene was the victim’s home on Laurel Canyon Boulevard, Beverly Hills."
+    },
+    {
+      "chips": [
+        {
+          "t": "SIZE 11 PRINT",
+          "on": "shoe",
+          "style": "white"
+        }
+      ],
+      "punch": "trace",
+      "query": "shoe print in mud",
+      "query2": "footprint on gravel",
+      "role": "fact",
+      "text": "The investigation recovered a single shoe print matching a size 11 men’s shoe."
+    },
+    {
+      "archive_query": "Los Angeles Times September 1993 TV star murder front page",
+      "archive_label": "LA Times front page",
+      "query": "vintage newspaper headline",
+      "query2": "old newspaper spread",
+      "role": "archive",
+      "text": "The front page of the Los Angeles Times covering the murder."
+    },
+    {
+      "label": "NO CONVICTION",
+      "sub": "Despite extensive leads, the case stays open.",
+      "label_on": "open",
+      "query": "police badge on empty desk",
+      "query2": "closed case file with red tape",
+      "role": "callout",
+      "text": "No conviction"
+    },
+    {
+      "query": "slow zoom on a movie reel",
+      "query2": "film strip unspooling",
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one."
+    }
+  ],
+  "description": "A star’s bright life was cut short, leaving a trail of unanswered questions. The mystery still glitters—follow for more Hollywood true‑crime.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#hollywood",
+    "#truecrime",
+    "#unsolved",
+    "#celebrity"
+  ]
+}

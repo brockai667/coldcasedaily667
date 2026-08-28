@@ -1,0 +1,69 @@
+{
+  "title": "How Did the 1972 Watergate Break‑In Change America?",
+  "thumb": "WATERGATE SCANDAL",
+  "place": "Washington, D.C.",
+  "country": "USA",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Five men slipped into the DNC headquarters, sparking a presidential downfall.",
+      "hook_top": "BREAKIN THAT SHOOK NATION",
+      "query": "historic building exterior night rain",
+      "query2": "old office building with dim lights",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The burglars left a tape recorder that captured secret conversations.",
+      "chips": [
+        {
+          "t": "TAPE RECORDER",
+          "on": "recorder",
+          "style": "white"
+        }
+      ],
+      "punch": "recorder",
+      "query": "vintage reel‑to‑reel tape recorder on desk",
+      "query2": "old audio equipment closeup",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "The infamous “Watergate” sign still hangs on the building’s façade.",
+      "archive_query": "Watergate complex sign Wikimedia Commons",
+      "archive_label": "Watergate sign on building",
+      "query": "historic office building facade with signage",
+      "query2": "brick building with large sign at night",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "The scandal led to the first U.S. president’s resignation.",
+      "label": "RESIGNATION",
+      "sub": "Nixon stepped down after relentless investigations.",
+      "label_on": "resignation",
+      "query": "empty presidential desk with scattered papers",
+      "query2": "oval office chair alone in dim light",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "slow zoom on historic newspaper headlines",
+      "query2": "vintage newspaper spread on table",
+      "role": "cta"
+    }
+  ],
+  "description": "Uncover the covert operation, the recorded evidence, and the political fallout of Watergate. Subscribe for more true‑crime stories that shaped history.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#Watergate",
+    "#history",
+    "#politics",
+    "#investigation"
+  ]
+}

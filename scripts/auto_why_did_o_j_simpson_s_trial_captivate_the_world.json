@@ -1,0 +1,69 @@
+{
+  "title": "Why Did O.J. Simpson’s Trial Captivate the World?",
+  "thumb": "TRIAL SHOCK",
+  "place": "Los Angeles",
+  "country": "USA",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A former NFL star faced murder charges in a $33 million civil suit.",
+      "hook_top": "NFL STAR ON TRIAL",
+      "query": "courtroom exterior neon lights night",
+      "query2": "city courthouse building dusk",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The blood evidence matched Simpson at a probability of 1 in 1 billion.",
+      "chips": [
+        {
+          "t": "1 IN A BILLION",
+          "on": "probability",
+          "style": "accent"
+        }
+      ],
+      "punch": "probability",
+      "query": "laboratory microscope slide with blood droplets",
+      "query2": "forensic lab closeup blood sample",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "The courtroom’s iconic “If it doesn’t fit, you must acquit” sign still stands.",
+      "archive_query": "If it doesn’t fit, you must acquit sign Wikimedia Commons",
+      "archive_label": "Famous courtroom sign",
+      "query": "courtroom wooden bench empty",
+      "query2": "empty courtroom with wooden panels",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "The verdict sparked nationwide protests and media frenzy.",
+      "label": "NATIONWIDE FURY",
+      "sub": "Racism, fame, and justice collided.",
+      "label_on": "fury",
+      "query": "city streets with protest signs blurred",
+      "query2": "crowd of protest silhouettes at night",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "slow pan across legal books on shelf",
+      "query2": "closeup of leather‑bound law volumes",
+      "role": "cta"
+    }
+  ],
+  "description": "Delve into the forensic evidence, courtroom drama, and cultural impact of O.J. Simpson’s trial. Join us for more true‑crime investigations.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#OJSimplon",
+    "#courtroom",
+    "#forensics",
+    "#history"
+  ]
+}
