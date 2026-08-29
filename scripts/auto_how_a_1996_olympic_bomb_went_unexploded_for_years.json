@@ -1,0 +1,69 @@
+{
+  "title": "How a 1996 Olympic Bomb Went Unexploded for Years",
+  "thumb": "UNEXPLODED BOMB",
+  "place": "Atlanta, Georgia",
+  "country": "USA",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A bomb hidden in a locker at the 1996 Olympics",
+      "hook_top": "OLYMPIC BOMB HID",
+      "query": "empty locker hallway",
+      "query2": "stadium storage area",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The device was discovered after a suspicious bag was reported.",
+      "chips": [
+        {
+          "t": "SUSPICIOUS BAG",
+          "on": "bag",
+          "style": "accent"
+        }
+      ],
+      "query": "abandoned suitcase in hallway",
+      "query2": "metal case on floor",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Explosives were too old; they failed to detonate during testing.",
+      "chips": [
+        {
+          "t": "OLD EXPLOSIVES",
+          "on": "explosive",
+          "style": "white"
+        }
+      ],
+      "query": "rusty bomb components",
+      "query2": "aged detonator closeup",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Forensic analysis shows the bomb was built by a foreign intelligence agency.",
+      "reveal_top": "FOREIGN AGENCY",
+      "query": "classified document folder",
+      "query2": "spy agency emblem",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "torchlight on stadium seats",
+      "query2": "empty arena at night",
+      "role": "cta"
+    }
+  ],
+  "description": "The 1996 Atlanta bomb was a ticking time‑bomb that never blew. New evidence points to foreign espionage. Subscribe for more Olympic secrets!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#Olympics",
+    "#bomb",
+    "#conspiracy",
+    "#history"
+  ]
+}

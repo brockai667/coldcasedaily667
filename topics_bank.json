@@ -11411,5 +11411,140 @@
       "#aviation",
       "#history"
     ]
+  },
+  {
+    "title": "How Did the 1993 World Trade Center Bombing Change Security?",
+    "thumb": "1993 WTC BOMBING",
+    "place": "World Trade Center, New York City",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "VAN 1993 6 KILLED",
+        "query": "abandoned van under bridge at night",
+        "query2": "dark van parked under structure",
+        "role": "hook",
+        "text": "A parked van, 1993, 6 killed."
+      },
+      {
+        "query": "map of Manhattan with World Trade Center highlighted",
+        "query2": "city map New York WTC area",
+        "role": "map",
+        "text": "The bomb detonated in the underground parking garage of the North Tower, Manhattan, New York."
+      },
+      {
+        "chips": [
+          {
+            "t": "$3 million",
+            "on": "damage",
+            "style": "white"
+          }
+        ],
+        "punch": "impact",
+        "query": "close up of cracked concrete slab",
+        "query2": "damaged garage floor after blast",
+        "role": "fact",
+        "text": "The explosion caused $3 million in structural damage."
+      },
+      {
+        "archive_query": "1993 World Trade Center bombing garage smoke Wikimedia Commons",
+        "archive_label": "Garage Aftermath",
+        "query": "archival newspaper headline WTC bombing 1993",
+        "query2": "vintage newsprint New York bombing",
+        "role": "archive",
+        "text": "A 1993 news photo shows the smoking wreckage in the garage after the blast."
+      },
+      {
+        "label": "Security Shift",
+        "sub": "Led to stricter vehicle checks and surveillance upgrades",
+        "label_on": "shift",
+        "query": "security camera lens at night",
+        "query2": "CCTV footage view corridor",
+        "role": "callout",
+        "text": "A turning point for U.S. security"
+      },
+      {
+        "query": "slow motion of a security badge sliding",
+        "query2": "close up of access card reader",
+        "role": "cta",
+        "text": "Follow for the cases that were never solved."
+      }
+    ],
+    "description": "Review the 1993 World Trade Center bombing’s immediate impact and its lasting influence on security protocols worldwide. Follow for more landmark crime stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#wtcbombing",
+      "#nyc",
+      "#terrorism",
+      "#truecrime",
+      "#history"
+    ]
+  },
+  {
+    "title": "Patty Hearst’s Shock: Kidnapped, Joined Rebels?",
+    "thumb": "HEARST REBEL",
+    "place": "San Francisco",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "HEARST VANISHED 19 DAYS",
+        "query": "San Francisco alley rain night",
+        "query2": "empty city street wet",
+        "role": "hook",
+        "text": "In 1974, a 19‑year‑old heiress vanished for 19 days—then turned militant."
+      },
+      {
+        "chips": [
+          {
+            "t": "Feb 4 1974",
+            "on": "date",
+            "style": "accent"
+          },
+          {
+            "t": "Symbionese Liberation Ar",
+            "on": "group",
+            "style": "white"
+          }
+        ],
+        "punch": "abducted",
+        "query": "SLA graffiti wall 1970s",
+        "query2": "revolutionary pamphlet street art",
+        "role": "fact",
+        "text": "Patty Hearst was abducted by the Symbionese Liberation Army on February 4 1974."
+      },
+      {
+        "archive_query": "Patty Hearst trial sketch Wikimedia Commons",
+        "archive_label": "Courtroom sketch (1975)",
+        "query": "old courtroom sketch parchment",
+        "query2": "hand‑drawn legal illustration",
+        "role": "archive",
+        "text": "The 1975 courtroom sketch of Hearst’s trial."
+      },
+      {
+        "label": "Debated Guilt",
+        "sub": "She claimed coercion, yet was sentenced to prison.",
+        "label_on": "debate",
+        "query": "empty prison cell bars sunrise",
+        "query2": "dark cell doorway light",
+        "role": "callout",
+        "text": "CONTROVERSIAL CONVICTION"
+      },
+      {
+        "query": "retro film reel animation",
+        "query2": "spinning vintage camera icon",
+        "role": "cta",
+        "text": "Follow because some cases still need answers."
+      }
+    ],
+    "description": "Patty Hearst’s kidnapping sparked a nation‑wide debate over brainwashing and free will. Discover the facts behind the headlines. Follow for more.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#PattyHearst",
+      "#SLA",
+      "#history",
+      "#mystery"
+    ]
   }
 ]

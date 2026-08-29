@@ -1,0 +1,69 @@
+{
+  "title": "The Unsolved Mystery of the 1978 “Bermuda Triangle” Flight 19 Rescue",
+  "thumb": "BERMUDA MYSTERY",
+  "place": "Bermuda Triangle, Atlantic Ocean",
+  "country": "International",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "5 aircraft vanished within the Bermuda Triangle in 1978",
+      "hook_top": "5 AIRCRAFT VANISHED",
+      "query": "stormy ocean horizon",
+      "query2": "dark sea with lightning",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "Radar lost contact when all planes reported identical instrument failures.",
+      "chips": [
+        {
+          "t": "IDENTICAL FAILURES",
+          "on": "instrument",
+          "style": "accent"
+        }
+      ],
+      "query": "old radar screen flickering",
+      "query2": "aircraft instrument panel glow",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Rescue helicopters found no debris, only a calm sea surface.",
+      "chips": [
+        {
+          "t": "NO DEBRIS",
+          "on": "sea",
+          "style": "white"
+        }
+      ],
+      "query": "calm ocean surface sunrise",
+      "query2": "empty water with gentle waves",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Recent satellite analysis suggests a rare magnetic anomaly disrupted navigation.",
+      "reveal_top": "MAGNETIC ANOMALY",
+      "query": "satellite view of magnetic field",
+      "query2": "earth's magnetic lines illustration",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "distant lighthouse on cliff",
+      "query2": "storm clouds over sea",
+      "role": "cta"
+    }
+  ],
+  "description": "The 1978 Bermuda Triangle disappearance still mystifies experts. Could an unseen magnetic field be the culprit? Tap follow for more oceanic enigmas!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#BermudaTriangle",
+    "#mystery",
+    "#aviation",
+    "#science"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "title": "The 1972 Munich Olympic Massacre: A Tragedy That Shook the World",
+  "thumb": "MUNICH MASSACRE",
+  "place": "Olympiastadion, Munich",
+  "country": "Germany",
+  "scenes": [
+    {
+      "hook_top": "11 HOSTAGES TAKEN",
+      "query": "empty Olympic stadium at dusk",
+      "query2": "cold war era stadium lights",
+      "role": "hook",
+      "text": "11 Israeli athletes taken hostage during the 1972 Games"
+    },
+    {
+      "query": "aerial view of Munich Olympic Village 1972",
+      "query2": "satellite image of Olympiastadion Munich",
+      "role": "map",
+      "text": "The attack unfolded inside the Olympic Village and the nearby Olympiastadion in Munich, West Germany."
+    },
+    {
+      "chips": [
+        {
+          "t": "11 HOSTAGES",
+          "on": "victims",
+          "style": "white"
+        },
+        {
+          "t": "5 TERRORISTS",
+          "on": "perpetrators",
+          "style": "accent"
+        }
+      ],
+      "punch": "tragedy",
+      "query": "silhouette of a memorial candle",
+      "query2": "empty podium with Olympic rings",
+      "role": "fact",
+      "text": "The crisis ended with all hostages and five terrorists dead."
+    },
+    {
+      "archive_query": "1972 Munich Olympic official report image site:wikimedia.org",
+      "archive_label": "Olympic Village 1972",
+      "query": "historic campus building with flags",
+      "query2": "quiet residential area with trees",
+      "role": "archive",
+      "text": "The official 1972 Olympic report contains photos of the village before the attack."
+    },
+    {
+      "label": "Legacy",
+      "sub": "The tragedy led to major changes in event security protocols.",
+      "label_on": "legacy",
+      "query": "modern security camera on stadium entrance",
+      "query2": "metal detector at venue entrance",
+      "role": "callout",
+      "text": "Security reforms worldwide"
+    },
+    {
+      "query": "hand hovering over a follow button",
+      "query2": "cursor clicking subscribe icon",
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one."
+    }
+  ],
+  "description": "During the 1972 Munich Olympics, terrorists seized 11 athletes, ending in a deadly standoff. The world’s approach to security changed forever. Follow for more historic crime insights.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#munich",
+    "#olympics",
+    "#truecrime",
+    "#history"
+  ]
+}
