@@ -1,0 +1,68 @@
+{
+  "title": "The 1975 D.B. Cooper Hijacking: The Ultimate Air‑borne Mystery",
+  "thumb": "SKY HIJACK",
+  "place": "Pacific Northwest",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A man vanished with $200 k after parachuting from a plane",
+      "hook_top": "PARACHUTEMYSTERY",
+      "query": "mid‑air silhouette sky 1970s",
+      "query2": "aircraft cabin window view",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "On November 24, 1971, Cooper demanded $200,000 and a parachute.",
+      "chips": [
+        {
+          "t": "$200 K",
+          "on": "money",
+          "style": "accent"
+        }
+      ],
+      "query": "vintage airline ticket stub 1971",
+      "query2": "old cash bundle close‑up",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "The Boeing 727 used for the infamous hijacking.",
+      "archive_query": "Boeing 727 1971 hijack Wikimedia Commons",
+      "archive_label": "Boeing 727 interior",
+      "query": "empty airplane aisle 1970s",
+      "query2": "vintage aircraft cabin",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Cooper’s identity and fate remain unknown to this day.",
+      "label": "UNSOLVED SKY",
+      "sub": "The case is still open after 50 years.",
+      "label_on": "unsolved",
+      "query": "lonely mountain ridge fog",
+      "query2": "remote forest canopy view",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "slow pan over clouds at sunrise",
+      "query2": "quiet runway at dawn",
+      "role": "cta"
+    }
+  ],
+  "description": "The D.B. Cooper hijacking is the only unsolved sky‑jack case in U.S. history. Dive into the daring ransom and the enduring mystery. Follow for more legendary unsolved crimes.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#DBCooper",
+    "#truecrime",
+    "#unsolved",
+    "#aviation",
+    "#history"
+  ]
+}

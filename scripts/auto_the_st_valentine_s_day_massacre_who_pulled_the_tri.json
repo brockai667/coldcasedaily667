@@ -1,0 +1,68 @@
+{
+  "title": "The St. Valentine’s Day Massacre: Who Pulled the Trigger?",
+  "thumb": "GANG MASSACRE",
+  "place": "Chicago",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Seven gangsters gunned down on a single street in 1929",
+      "hook_top": "SEVEN GUNNED DOWN",
+      "query": "rain‑slicked alley night 1920s",
+      "query2": "dim street lanterns 1929",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The attack took place on February 14, 1929, at 212 North Clark Street.",
+      "chips": [
+        {
+          "t": "FEB 14 1929",
+          "on": "date",
+          "style": "white"
+        }
+      ],
+      "query": "historic Chicago street sign 1920s",
+      "query2": "vintage city street view",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "The infamous storefront where the massacre unfolded.",
+      "archive_query": "North Clark Street 1929 photograph Wikimedia Commons",
+      "archive_label": "Clark St. façade",
+      "query": "old brick building Chicago 1920s",
+      "query2": "historic storefront façade",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "The killers were never officially identified.",
+      "label": "MYSTERY GUNMEN",
+      "sub": "Even after decades, the shooters remain unknown.",
+      "label_on": "mystery",
+      "query": "shadowy figures behind frosted glass",
+      "query2": "silhouettes in rainy alley",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "slow zoom on newspaper headline archive",
+      "query2": "flickering streetlamp glow",
+      "role": "cta"
+    }
+  ],
+  "description": "The 1929 St. Valentine’s Day Massacre shocked Chicago and the nation. Explore the facts and lingering mysteries surrounding the hit. Follow for more true‑crime deep dives.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gangster",
+    "#Chicago",
+    "#truecrime",
+    "#unsolved",
+    "#history"
+  ]
+}

@@ -11546,5 +11546,366 @@
       "#history",
       "#mystery"
     ]
+  },
+  {
+    "title": "The Unabomber’s 17‑Year Terror Trail",
+    "thumb": "UNABOMBER REVEALED",
+    "place": "Lincoln, Nebraska",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "17 letters, 16 bombs – a lone bomber stalked America",
+        "hook_top": "17 LETTERS 16 BOMBS",
+        "query": "old mailbox with letters, rural road",
+        "query2": "isolated mailbox, countryside",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "From 1978 to 1995, 16 bombs killed 3 people and injured 23",
+        "chips": [
+          {
+            "t": "3 KILLED",
+            "on": "killed",
+            "style": "accent"
+          },
+          {
+            "t": "23 INJURED",
+            "on": "injured",
+            "style": "white"
+          }
+        ],
+        "punch": "deadly",
+        "query": "court documents, newspaper clippings",
+        "query2": "archival newspaper headlines",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The bomber mailed a manifesto titled “Industrial Society and Its Future”",
+        "chips": [
+          {
+            "t": "MANIFESTO",
+            "on": "manifesto",
+            "style": "accent"
+          }
+        ],
+        "query": "typewriter paper, vintage manuscript",
+        "query2": "old typed pages",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "He was a former Harvard math professor living in a cabin",
+        "reveal_top": "PROFESSOR IN A CABIN",
+        "query": "remote cabin in woods, snow covered",
+        "query2": "isolated log house",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "old map with pins, mystery overlay",
+        "query2": "vintage world map",
+        "role": "cta"
+      }
+    ],
+    "description": "A 17‑year reign of mail bombs shocked the nation until a quiet professor was finally identified. Follow for more hidden criminal histories.",
+    "hashtags": [
+      "#shorts",
+      "#unabomber",
+      "#truecrime",
+      "#history",
+      "#mystery",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The 1976 Chowchilla Kidnapping: 26 Kids Vanish on a Bus",
+    "thumb": "CHOWCHILLA KIDNAPPED",
+    "place": "Chowchilla, California",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "26 schoolchildren and a bus driver vanished in daylight",
+        "hook_top": "26 KIDS VANISHED",
+        "query": "empty school bus on highway",
+        "query2": "abandoned school bus, desert road",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The abductors stole the bus and fled into the Sierra Nevada mountains",
+        "chips": [
+          {
+            "t": "SIERRA NEVADA",
+            "on": "mountains",
+            "style": "white"
+          }
+        ],
+        "query": "mountain road, dusty trail",
+        "query2": "rocky mountain path",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "After 16 hours, the bus was found buried under a dirt pile",
+        "chips": [
+          {
+            "t": "16 HOURS",
+            "on": "hours",
+            "style": "accent"
+          }
+        ],
+        "query": "buried bus in earth, excavation site",
+        "query2": "soil-covered vehicle",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "All victims escaped unharmed after a daring tunnel escape",
+        "reveal_top": "ALL ESCAPED UNHARMED",
+        "query": "dark tunnel, flashlight beam",
+        "query2": "underground passage, light",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "old newspaper with headlines",
+        "query2": "archival newsprint",
+        "role": "cta"
+      }
+    ],
+    "description": "A daylight bus kidnapping turned into a miraculous escape when every child walked out alive. Hit follow for more shocking escapes.",
+    "hashtags": [
+      "#shorts",
+      "#chowchilla",
+      "#truecrime",
+      "#kidnapping",
+      "#unsolved",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Natalee Holloway: The 2005 Aruba Mystery Still Unsolved",
+    "thumb": "HOLLOWAY MYSTERY",
+    "place": "Aruba",
+    "country": "Netherlands Antilles",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "American teen vanished on Aruba’s famed Eagle Beach",
+        "hook_top": "VANISHED ON EAGLE BEACH",
+        "query": "empty white sandy beach, sunrise",
+        "query2": "deserted tropical shore",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "She was last seen leaving a bar with three men on May 27, 2005",
+        "chips": [
+          {
+            "t": "MAY 27, 2005",
+            "on": "date",
+            "style": "white"
+          }
+        ],
+        "query": "cocktail bar interior, empty chairs",
+        "query2": "nightclub empty stage",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Police recovered a hotel keycard and a blood‑stained shirt, but no body",
+        "chips": [
+          {
+            "t": "KEYCARD FOUND",
+            "on": "keycard",
+            "style": "accent"
+          }
+        ],
+        "query": "hotel keycard on desk, forensic tape",
+        "query2": "evidence bag with cloth",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The case remains open; no suspect has ever been charged",
+        "reveal_top": "NO CHARGES EVER",
+        "query": "closed courtroom doors, empty bench",
+        "query2": "empty legal library",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "old case file folder, magnifying glass",
+        "query2": "archival police file",
+        "role": "cta"
+      }
+    ],
+    "description": "The disappearance of Natalee Holloway still haunts Aruba and the world, with no arrests after years of investigation. Follow for updates on cold‑case mysteries.",
+    "hashtags": [
+      "#shorts",
+      "#natalee",
+      "#truecrime",
+      "#coldcase",
+      "#unsolved",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "How the Son of Sam Terrorized NYC in 1977",
+    "thumb": "SON OF SAM",
+    "place": "New York City",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Seven murders, a taunting letter, 1977 New York",
+        "hook_top": "7 MURDERS LETTER",
+        "query": "dark Manhattan alley night 1977",
+        "query2": "empty street neon 1970s New York",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "David Berkowitz fired 100+ bullets in six weeks.",
+        "chips": [
+          {
+            "t": "100+ BULLETS",
+            "on": "bullets",
+            "style": "white"
+          },
+          {
+            "t": "6 WEEKS",
+            "on": "weeks",
+            "style": "accent"
+          }
+        ],
+        "punch": "fire",
+        "query": "handgun ammo close up 1970s",
+        "query2": "bullet casings on pavement",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "Police bulletin posted across the city.",
+        "archive_query": "Wikimedia Commons New York City police bulletin 1977",
+        "archive_label": "1977 police alert",
+        "query": "old police bulletin wall",
+        "query2": "public notice board 1970s",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "He claimed a demon drove him.",
+        "label": "Demonic Claim",
+        "sub": "Berkowitz said a demon in a dog‑named \"Sam\" possessed him.",
+        "label_on": "claim",
+        "query": "dim hallway with candle",
+        "query2": "shadowed doorway interior",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "city skyline dusk fade",
+        "query2": "urban silhouette sunset",
+        "role": "cta"
+      }
+    ],
+    "description": "The Son of Sam terrorized New York City with a string of shootings that shocked a nation. Dive into the evidence, the letters, and the eventual capture. Follow for more deep‑dive mysteries.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#sonofsam",
+      "#nyc",
+      "#coldcase",
+      "#crimehistory"
+    ]
+  },
+  {
+    "title": "What Sparked the Oklahoma City Bombing?",
+    "thumb": "OKLAHOMA BOMB",
+    "place": "Oklahoma City",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1995, a truck packed with 4,800 lbs of explosives detonates.",
+        "hook_top": "4800 LBS EXPLOSIVE",
+        "query": "abandoned federal building wreckage",
+        "query2": "exploded government structure aerial",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The blast killed 168 people, the deadliest domestic incident then.",
+        "chips": [
+          {
+            "t": "168 KILLED",
+            "on": "killed",
+            "style": "white"
+          },
+          {
+            "t": "1995",
+            "on": "year",
+            "style": "accent"
+          }
+        ],
+        "punch": "impact",
+        "query": "smoke column from building",
+        "query2": "urban fireball aftermath",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "The Alfred P. Murrah Federal Building before the attack.",
+        "archive_query": "Wikimedia Commons Murrah Federal Building 1995",
+        "archive_label": "Murrah Building 1995",
+        "query": "historic federal building exterior",
+        "query2": "government office architecture 1990s",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Terrorists claimed it was retaliation against government overreach.",
+        "label": "Retaliation Claim",
+        "sub": "Militants said the bombing was a response to federal actions.",
+        "label_on": "retaliation",
+        "query": "empty parking lot at dusk",
+        "query2": "abandoned truck silhouette",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "slow zoom on city skyline night",
+        "query2": "quiet street under streetlights",
+        "role": "cta"
+      }
+    ],
+    "description": "The Oklahoma City bombing reshaped U.S. security policy and left a scar on a community. Explore the planning, the explosion, and the aftermath. Follow for more deep‑dive crime stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#okc",
+      "#bombing",
+      "#domesticterror",
+      "#history"
+    ]
   }
 ]
