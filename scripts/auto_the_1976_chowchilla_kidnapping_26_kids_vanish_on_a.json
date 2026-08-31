@@ -1,0 +1,69 @@
+{
+  "title": "The 1976 Chowchilla Kidnapping: 26 Kids Vanish on a Bus",
+  "thumb": "CHOWCHILLA KIDNAPPED",
+  "place": "Chowchilla, California",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "26 schoolchildren and a bus driver vanished in daylight",
+      "hook_top": "26 KIDS VANISHED",
+      "query": "empty school bus on highway",
+      "query2": "abandoned school bus, desert road",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The abductors stole the bus and fled into the Sierra Nevada mountains",
+      "chips": [
+        {
+          "t": "SIERRA NEVADA",
+          "on": "mountains",
+          "style": "white"
+        }
+      ],
+      "query": "mountain road, dusty trail",
+      "query2": "rocky mountain path",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "After 16 hours, the bus was found buried under a dirt pile",
+      "chips": [
+        {
+          "t": "16 HOURS",
+          "on": "hours",
+          "style": "accent"
+        }
+      ],
+      "query": "buried bus in earth, excavation site",
+      "query2": "soil-covered vehicle",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "All victims escaped unharmed after a daring tunnel escape",
+      "reveal_top": "ALL ESCAPED UNHARMED",
+      "query": "dark tunnel, flashlight beam",
+      "query2": "underground passage, light",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "old newspaper with headlines",
+      "query2": "archival newsprint",
+      "role": "cta"
+    }
+  ],
+  "description": "A daylight bus kidnapping turned into a miraculous escape when every child walked out alive. Hit follow for more shocking escapes.",
+  "hashtags": [
+    "#shorts",
+    "#chowchilla",
+    "#truecrime",
+    "#kidnapping",
+    "#unsolved",
+    "#fyp"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "The Unabomber’s 17‑Year Terror Trail",
+  "thumb": "UNABOMBER REVEALED",
+  "place": "Lincoln, Nebraska",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "17 letters, 16 bombs – a lone bomber stalked America",
+      "hook_top": "17 LETTERS 16 BOMBS",
+      "query": "old mailbox with letters, rural road",
+      "query2": "isolated mailbox, countryside",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "From 1978 to 1995, 16 bombs killed 3 people and injured 23",
+      "chips": [
+        {
+          "t": "3 KILLED",
+          "on": "killed",
+          "style": "accent"
+        },
+        {
+          "t": "23 INJURED",
+          "on": "injured",
+          "style": "white"
+        }
+      ],
+      "punch": "deadly",
+      "query": "court documents, newspaper clippings",
+      "query2": "archival newspaper headlines",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "The bomber mailed a manifesto titled “Industrial Society and Its Future”",
+      "chips": [
+        {
+          "t": "MANIFESTO",
+          "on": "manifesto",
+          "style": "accent"
+        }
+      ],
+      "query": "typewriter paper, vintage manuscript",
+      "query2": "old typed pages",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "He was a former Harvard math professor living in a cabin",
+      "reveal_top": "PROFESSOR IN A CABIN",
+      "query": "remote cabin in woods, snow covered",
+      "query2": "isolated log house",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "old map with pins, mystery overlay",
+      "query2": "vintage world map",
+      "role": "cta"
+    }
+  ],
+  "description": "A 17‑year reign of mail bombs shocked the nation until a quiet professor was finally identified. Follow for more hidden criminal histories.",
+  "hashtags": [
+    "#shorts",
+    "#unabomber",
+    "#truecrime",
+    "#history",
+    "#mystery",
+    "#fyp"
+  ]
+}
