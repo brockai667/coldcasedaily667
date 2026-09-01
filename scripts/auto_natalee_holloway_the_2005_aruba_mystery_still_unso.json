@@ -1,0 +1,69 @@
+{
+  "title": "Natalee Holloway: The 2005 Aruba Mystery Still Unsolved",
+  "thumb": "HOLLOWAY MYSTERY",
+  "place": "Aruba",
+  "country": "Netherlands Antilles",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "American teen vanished on Aruba’s famed Eagle Beach",
+      "hook_top": "VANISHED ON EAGLE BEACH",
+      "query": "empty white sandy beach, sunrise",
+      "query2": "deserted tropical shore",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "She was last seen leaving a bar with three men on May 27, 2005",
+      "chips": [
+        {
+          "t": "MAY 27, 2005",
+          "on": "date",
+          "style": "white"
+        }
+      ],
+      "query": "cocktail bar interior, empty chairs",
+      "query2": "nightclub empty stage",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Police recovered a hotel keycard and a blood‑stained shirt, but no body",
+      "chips": [
+        {
+          "t": "KEYCARD FOUND",
+          "on": "keycard",
+          "style": "accent"
+        }
+      ],
+      "query": "hotel keycard on desk, forensic tape",
+      "query2": "evidence bag with cloth",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "The case remains open; no suspect has ever been charged",
+      "reveal_top": "NO CHARGES EVER",
+      "query": "closed courtroom doors, empty bench",
+      "query2": "empty legal library",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "old case file folder, magnifying glass",
+      "query2": "archival police file",
+      "role": "cta"
+    }
+  ],
+  "description": "The disappearance of Natalee Holloway still haunts Aruba and the world, with no arrests after years of investigation. Follow for updates on cold‑case mysteries.",
+  "hashtags": [
+    "#shorts",
+    "#natalee",
+    "#truecrime",
+    "#coldcase",
+    "#unsolved",
+    "#fyp"
+  ]
+}

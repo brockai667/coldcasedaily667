@@ -1,0 +1,74 @@
+{
+  "title": "What Sparked the Oklahoma City Bombing?",
+  "thumb": "OKLAHOMA BOMB",
+  "place": "Oklahoma City",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1995, a truck packed with 4,800 lbs of explosives detonates.",
+      "hook_top": "4800 LBS EXPLOSIVE",
+      "query": "abandoned federal building wreckage",
+      "query2": "exploded government structure aerial",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The blast killed 168 people, the deadliest domestic incident then.",
+      "chips": [
+        {
+          "t": "168 KILLED",
+          "on": "killed",
+          "style": "white"
+        },
+        {
+          "t": "1995",
+          "on": "year",
+          "style": "accent"
+        }
+      ],
+      "punch": "impact",
+      "query": "smoke column from building",
+      "query2": "urban fireball aftermath",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "The Alfred P. Murrah Federal Building before the attack.",
+      "archive_query": "Wikimedia Commons Murrah Federal Building 1995",
+      "archive_label": "Murrah Building 1995",
+      "query": "historic federal building exterior",
+      "query2": "government office architecture 1990s",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Terrorists claimed it was retaliation against government overreach.",
+      "label": "Retaliation Claim",
+      "sub": "Militants said the bombing was a response to federal actions.",
+      "label_on": "retaliation",
+      "query": "empty parking lot at dusk",
+      "query2": "abandoned truck silhouette",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "slow zoom on city skyline night",
+      "query2": "quiet street under streetlights",
+      "role": "cta"
+    }
+  ],
+  "description": "The Oklahoma City bombing reshaped U.S. security policy and left a scar on a community. Explore the planning, the explosion, and the aftermath. Follow for more deep‑dive crime stories.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#okc",
+    "#bombing",
+    "#domesticterror",
+    "#history"
+  ]
+}

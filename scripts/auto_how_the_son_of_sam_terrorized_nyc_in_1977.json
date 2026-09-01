@@ -1,0 +1,74 @@
+{
+  "title": "How the Son of Sam Terrorized NYC in 1977",
+  "thumb": "SON OF SAM",
+  "place": "New York City",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Seven murders, a taunting letter, 1977 New York",
+      "hook_top": "7 MURDERS LETTER",
+      "query": "dark Manhattan alley night 1977",
+      "query2": "empty street neon 1970s New York",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "David Berkowitz fired 100+ bullets in six weeks.",
+      "chips": [
+        {
+          "t": "100+ BULLETS",
+          "on": "bullets",
+          "style": "white"
+        },
+        {
+          "t": "6 WEEKS",
+          "on": "weeks",
+          "style": "accent"
+        }
+      ],
+      "punch": "fire",
+      "query": "handgun ammo close up 1970s",
+      "query2": "bullet casings on pavement",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "Police bulletin posted across the city.",
+      "archive_query": "Wikimedia Commons New York City police bulletin 1977",
+      "archive_label": "1977 police alert",
+      "query": "old police bulletin wall",
+      "query2": "public notice board 1970s",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "He claimed a demon drove him.",
+      "label": "Demonic Claim",
+      "sub": "Berkowitz said a demon in a dog‑named \"Sam\" possessed him.",
+      "label_on": "claim",
+      "query": "dim hallway with candle",
+      "query2": "shadowed doorway interior",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "city skyline dusk fade",
+      "query2": "urban silhouette sunset",
+      "role": "cta"
+    }
+  ],
+  "description": "The Son of Sam terrorized New York City with a string of shootings that shocked a nation. Dive into the evidence, the letters, and the eventual capture. Follow for more deep‑dive mysteries.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#sonofsam",
+    "#nyc",
+    "#coldcase",
+    "#crimehistory"
+  ]
+}

@@ -11977,5 +11977,206 @@
       "#investigation",
       "#mystery"
     ]
+  },
+  {
+    "title": "The 1996 Atlanta Olympic Bombing: How a Lone Bomber Shocked the World",
+    "thumb": "ATOMIC BOMB",
+    "place": "Atlanta",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "BOMB AT OLYMPICS",
+        "query": "stadium night sky fireworks explosion",
+        "query2": "empty Olympic arena with smoke",
+        "role": "hook",
+        "text": "1996: A bomb exploded during the Summer Games"
+      },
+      {
+        "query": "Centennial Olympic Park aerial view",
+        "query2": "Atlanta downtown park map",
+        "role": "map",
+        "text": "The blast occurred at Centennial Olympic Park in downtown Atlanta, Georgia."
+      },
+      {
+        "chips": [
+          {
+            "t": "2 KILLED",
+            "on": "killed",
+            "style": "accent"
+          },
+          {
+            "t": "100+ INJURED",
+            "on": "injured",
+            "style": "white"
+          }
+        ],
+        "punch": "impact",
+        "query": "police tape and debris at park",
+        "query2": "crowd evacuating park",
+        "role": "fact",
+        "text": "The bomb killed 2 people and injured over 100."
+      },
+      {
+        "archive_query": "Centennial Olympic Park bombing 1996 Wikimedia Commons",
+        "archive_label": "Park after blast",
+        "query": "archival news footage of park",
+        "query2": "black‑white emergency scene",
+        "role": "archive",
+        "text": "Centennial Olympic Park after the explosion, showing emergency responders."
+      },
+      {
+        "label": "MOTIVE UNKNOWN",
+        "sub": "Who built the pipe bomb and why?",
+        "label_on": "motive",
+        "query": "close‑up of pipe bomb fragments",
+        "query2": "forensic lab evidence",
+        "role": "callout",
+        "text": "Unsolved Motive?"
+      },
+      {
+        "query": "slow zoom on city skyline at dusk",
+        "query2": "empty street lights moving",
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries."
+      }
+    ],
+    "description": "The Atlanta bombing stunned the world during a global celebration. Discover the facts and lingering questions behind this tragic act. Follow for more untold crime stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#OlympicBombing",
+      "#TrueCrime",
+      "#Atlanta1996",
+      "#Unsolved"
+    ]
+  },
+  {
+    "title": "Jonestown: 918 Lives Lost in a Cult Tragedy",
+    "thumb": "DEADLY CULT",
+    "place": "Jonestown",
+    "country": "Guyana",
+    "scenes": [
+      {
+        "hook_top": "JONESTOWN MASS DEATH",
+        "query": "dense jungle clearing with wooden structures",
+        "query2": "remote settlement aerial view",
+        "role": "hook",
+        "text": "918 members died in a remote jungle settlement"
+      },
+      {
+        "query": "Guyana jungle map Jonestown location",
+        "query2": "satellite view of Jonestown site",
+        "role": "map",
+        "text": "The tragedy unfolded at the Peoples Temple Agricultural Project, Jonestown, Guyana."
+      },
+      {
+        "chips": [
+          {
+            "t": "CYANIDE PUNCH",
+            "on": "cyanide",
+            "style": "accent"
+          }
+        ],
+        "punch": "poison",
+        "query": "glass of clear liquid on table",
+        "query2": "empty punch bowl with condensation",
+        "role": "fact",
+        "text": "Victims drank a cyanide‑laced punch."
+      },
+      {
+        "archive_query": "Jonestown settlement 1977 aerial Wikimedia Commons",
+        "archive_label": "Jonestown settlement",
+        "query": "historical aerial photograph of jungle camp",
+        "query2": "old map of Jonestown community",
+        "role": "archive",
+        "text": "Aerial photo of Jonestown settlement taken before the massacre."
+      },
+      {
+        "label": "JIM JONES",
+        "sub": "Charismatic preacher who orchestrated the mass suicide.",
+        "label_on": "leader",
+        "query": "empty podium with microphone",
+        "query2": "stage with pulpit in jungle clearing",
+        "role": "callout",
+        "text": "Leader’s Role"
+      },
+      {
+        "query": "sunset over jungle canopy",
+        "query2": "slow drift over river",
+        "role": "cta",
+        "text": "Follow for a new cold case every day."
+      }
+    ],
+    "description": "Jonestown remains one of the deadliest cult tragedies in history. Explore the events, the poison, and the lingering mysteries. Follow for deeper dives into historic crimes.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#Jonestown",
+      "#TrueCrime",
+      "#CultMassacre",
+      "#History"
+    ]
+  },
+  {
+    "title": "What Went Wrong at the 1966 Kitty Genovese Murder?",
+    "thumb": "CITY SHOCK",
+    "place": "Queens, New York City",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "ONE SCREAM",
+        "query": "empty Queens street night 1960s",
+        "query2": "quiet urban alley 1960s",
+        "role": "hook",
+        "text": "A single scream in Queens sparked a citywide nightmare in 1964"
+      },
+      {
+        "chips": [
+          {
+            "t": "6 NEIGHBORS",
+            "on": "neighbors",
+            "style": "white"
+          }
+        ],
+        "punch": "silence",
+        "query": "vintage telephone box street 1960s",
+        "query2": "old city hallway dim light",
+        "role": "fact",
+        "text": "Six neighbors heard the attack but none called 911"
+      },
+      {
+        "archive_query": "Kitty Genovese crime scene police tape 1964 site",
+        "archive_label": "Police tape at scene",
+        "query": "police tape crime scene 1960s",
+        "query2": "yellow tape urban building",
+        "role": "archive",
+        "text": "Police tape surrounding the apartment building where the murder occurred"
+      },
+      {
+        "label": "BYSTANDER EFFECT",
+        "sub": "How a tragedy changed social psychology forever",
+        "label_on": "effect",
+        "query": "empty street at night 1960s",
+        "query2": "deserted city sidewalk dusk",
+        "role": "callout",
+        "text": "The Bystander Effect"
+      },
+      {
+        "query": "slow zoom on city skyline night",
+        "query2": "pan over quiet street lights",
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries."
+      }
+    ],
+    "description": "Explore the infamous 1964 Queens murder that sparked the study of the Bystander Effect. Discover the facts and lasting impact on psychology. Follow for more deep investigations.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#KittyGenovese",
+      "#psychology",
+      "#history",
+      "#crime"
+    ]
   }
 ]
