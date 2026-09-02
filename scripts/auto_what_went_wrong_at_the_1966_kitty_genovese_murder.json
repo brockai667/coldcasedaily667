@@ -1,0 +1,62 @@
+{
+  "title": "What Went Wrong at the 1966 Kitty Genovese Murder?",
+  "thumb": "CITY SHOCK",
+  "place": "Queens, New York City",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "ONE SCREAM",
+      "query": "empty Queens street night 1960s",
+      "query2": "quiet urban alley 1960s",
+      "role": "hook",
+      "text": "A single scream in Queens sparked a citywide nightmare in 1964"
+    },
+    {
+      "chips": [
+        {
+          "t": "6 NEIGHBORS",
+          "on": "neighbors",
+          "style": "white"
+        }
+      ],
+      "punch": "silence",
+      "query": "vintage telephone box street 1960s",
+      "query2": "old city hallway dim light",
+      "role": "fact",
+      "text": "Six neighbors heard the attack but none called 911"
+    },
+    {
+      "archive_query": "Kitty Genovese crime scene police tape 1964 site",
+      "archive_label": "Police tape at scene",
+      "query": "police tape crime scene 1960s",
+      "query2": "yellow tape urban building",
+      "role": "archive",
+      "text": "Police tape surrounding the apartment building where the murder occurred"
+    },
+    {
+      "label": "BYSTANDER EFFECT",
+      "sub": "How a tragedy changed social psychology forever",
+      "label_on": "effect",
+      "query": "empty street at night 1960s",
+      "query2": "deserted city sidewalk dusk",
+      "role": "callout",
+      "text": "The Bystander Effect"
+    },
+    {
+      "query": "slow zoom on city skyline night",
+      "query2": "pan over quiet street lights",
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries."
+    }
+  ],
+  "description": "Explore the infamous 1964 Queens murder that sparked the study of the Bystander Effect. Discover the facts and lasting impact on psychology. Follow for more deep investigations.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#KittyGenovese",
+    "#psychology",
+    "#history",
+    "#crime"
+  ]
+}

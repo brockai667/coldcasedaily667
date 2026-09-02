@@ -1,0 +1,67 @@
+{
+  "title": "Jonestown: 918 Lives Lost in a Cult Tragedy",
+  "thumb": "DEADLY CULT",
+  "place": "Jonestown",
+  "country": "Guyana",
+  "scenes": [
+    {
+      "hook_top": "JONESTOWN MASS DEATH",
+      "query": "dense jungle clearing with wooden structures",
+      "query2": "remote settlement aerial view",
+      "role": "hook",
+      "text": "918 members died in a remote jungle settlement"
+    },
+    {
+      "query": "Guyana jungle map Jonestown location",
+      "query2": "satellite view of Jonestown site",
+      "role": "map",
+      "text": "The tragedy unfolded at the Peoples Temple Agricultural Project, Jonestown, Guyana."
+    },
+    {
+      "chips": [
+        {
+          "t": "CYANIDE PUNCH",
+          "on": "cyanide",
+          "style": "accent"
+        }
+      ],
+      "punch": "poison",
+      "query": "glass of clear liquid on table",
+      "query2": "empty punch bowl with condensation",
+      "role": "fact",
+      "text": "Victims drank a cyanide‑laced punch."
+    },
+    {
+      "archive_query": "Jonestown settlement 1977 aerial Wikimedia Commons",
+      "archive_label": "Jonestown settlement",
+      "query": "historical aerial photograph of jungle camp",
+      "query2": "old map of Jonestown community",
+      "role": "archive",
+      "text": "Aerial photo of Jonestown settlement taken before the massacre."
+    },
+    {
+      "label": "JIM JONES",
+      "sub": "Charismatic preacher who orchestrated the mass suicide.",
+      "label_on": "leader",
+      "query": "empty podium with microphone",
+      "query2": "stage with pulpit in jungle clearing",
+      "role": "callout",
+      "text": "Leader’s Role"
+    },
+    {
+      "query": "sunset over jungle canopy",
+      "query2": "slow drift over river",
+      "role": "cta",
+      "text": "Follow for a new cold case every day."
+    }
+  ],
+  "description": "Jonestown remains one of the deadliest cult tragedies in history. Explore the events, the poison, and the lingering mysteries. Follow for deeper dives into historic crimes.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#Jonestown",
+    "#TrueCrime",
+    "#CultMassacre",
+    "#History"
+  ]
+}

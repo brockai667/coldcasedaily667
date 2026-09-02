@@ -1,0 +1,70 @@
+{
+  "title": "The Mysterious Disappearance of Madeleine McCann",
+  "thumb": "MISSING CHILD MYSTERY",
+  "place": "Portimão, Algarve",
+  "country": "Portugal",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "3‑year‑old Madeleine vanished from a holiday resort in 2007",
+      "hook_top": "MADELEINE VANISHES 2007",
+      "query": "vacant resort apartment night",
+      "query2": "Portuguese beach resort building",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "She was last seen asleep in a ground‑floor suite while parents dined nearby",
+      "chips": [
+        {
+          "t": "ground‑floor suite",
+          "on": "suite",
+          "style": "white"
+        }
+      ],
+      "query": "empty hotel corridor dim light",
+      "query2": "doorway interior night",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Over 2,000 police officers and 30 countries joined the investigation",
+      "chips": [
+        {
+          "t": "2,000 officers",
+          "on": "officers",
+          "style": "accent"
+        }
+      ],
+      "query": "police command center maps",
+      "query2": "international task force board",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Officially, the case remains unsolved with no conclusive evidence of abduction or accident",
+      "reveal_top": "CASE STILL UNSOLVED",
+      "query": "closed file folder dust",
+      "query2": "empty evidence locker",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "old case file binder",
+      "query2": "archival document stack",
+      "role": "cta"
+    }
+  ],
+  "description": "A family vacation turned into a worldwide mystery that still haunts investigators. Learn why the truth remains out of reach.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#missing",
+    "#coldcase",
+    "#investigation",
+    "#mystery"
+  ]
+}

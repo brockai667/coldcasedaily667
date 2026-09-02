@@ -11979,78 +11979,6 @@
     ]
   },
   {
-    "title": "The 1996 Atlanta Olympic Bombing",
-    "thumb": "ATOMIC BOMB",
-    "place": "Atlanta",
-    "country": "United States",
-    "scenes": [
-      {
-        "hook_top": "BOMB AT OLYMPICS",
-        "query": "stadium night sky fireworks explosion",
-        "query2": "empty Olympic arena with smoke",
-        "role": "hook",
-        "text": "1996: A bomb exploded during the Summer Games"
-      },
-      {
-        "query": "Centennial Olympic Park aerial view",
-        "query2": "Atlanta downtown park map",
-        "role": "map",
-        "text": "The blast occurred at Centennial Olympic Park in downtown Atlanta, Georgia."
-      },
-      {
-        "chips": [
-          {
-            "t": "2 KILLED",
-            "on": "killed",
-            "style": "accent"
-          },
-          {
-            "t": "100+ INJURED",
-            "on": "injured",
-            "style": "white"
-          }
-        ],
-        "punch": "impact",
-        "query": "police tape and debris at park",
-        "query2": "crowd evacuating park",
-        "role": "fact",
-        "text": "The bomb killed 2 people and injured over 100."
-      },
-      {
-        "archive_query": "Centennial Olympic Park bombing 1996 Wikimedia Commons",
-        "archive_label": "Park after blast",
-        "query": "archival news footage of park",
-        "query2": "black‑white emergency scene",
-        "role": "archive",
-        "text": "Centennial Olympic Park after the explosion, showing emergency responders."
-      },
-      {
-        "label": "MOTIVE UNKNOWN",
-        "sub": "Who built the pipe bomb and why?",
-        "label_on": "motive",
-        "query": "close‑up of pipe bomb fragments",
-        "query2": "forensic lab evidence",
-        "role": "callout",
-        "text": "Unsolved Motive?"
-      },
-      {
-        "query": "slow zoom on city skyline at dusk",
-        "query2": "empty street lights moving",
-        "role": "cta",
-        "text": "Follow for daily true crime mysteries."
-      }
-    ],
-    "description": "The Atlanta bombing stunned the world during a global celebration. Discover the facts and lingering questions behind this tragic act. Follow for more untold crime stories.",
-    "hashtags": [
-      "#shorts",
-      "#fyp",
-      "#OlympicBombing",
-      "#TrueCrime",
-      "#Atlanta1996",
-      "#Unsolved"
-    ]
-  },
-  {
     "title": "Jonestown: 918 Lives Lost in a Cult Tragedy",
     "thumb": "DEADLY CULT",
     "place": "Jonestown",
@@ -12177,6 +12105,292 @@
       "#psychology",
       "#history",
       "#crime"
+    ]
+  },
+  {
+    "title": "Jonestown Tragedy Revealed",
+    "thumb": "JONESTOWN SHOCK",
+    "place": "Guyana",
+    "country": "Guyana",
+    "scenes": [
+      {
+        "hook_top": "5000 LOST NIGHT",
+        "query": "abandoned jungle settlement aerial view",
+        "query2": "remote rainforest clearing",
+        "role": "hook",
+        "text": "5,000 lives lost in a single night"
+      },
+      {
+        "query": "Guyana jungle satellite map",
+        "query2": "Port Kaituma region map",
+        "role": "map",
+        "text": "The settlement lay deep in the jungles of north‑west Guyana, near the town of Port Kaituma."
+      },
+      {
+        "chips": [
+          {
+            "t": "900+",
+            "on": "count",
+            "style": "accent"
+          },
+          {
+            "t": "cyanide",
+            "on": "poison",
+            "style": "white"
+          }
+        ],
+        "punch": "deadly",
+        "query": "cyanide tablet bottle on table",
+        "query2": "glass jar with white pills",
+        "role": "fact",
+        "text": "More than 900 members died by cyanide poisoning on November 18, 1978."
+      },
+      {
+        "archive_query": "Jonestown Guyana aerial photograph 1978 site",
+        "archive_label": "Aerial view of Jonestown",
+        "query": "historical aerial photo of jungle clearing",
+        "query2": "archival aerial view of remote settlement",
+        "role": "archive",
+        "text": "Aerial photograph of the Jonestown site taken by the U.S. Air Force shortly after the tragedy."
+      },
+      {
+        "label": "Cult Tragedy",
+        "sub": "How a charismatic leader sparked the deadliest mass murder.",
+        "label_on": "cult",
+        "query": "empty wooden walkways in jungle",
+        "query2": "abandoned thatched structures",
+        "role": "callout",
+        "text": "Cult or tragedy?"
+      },
+      {
+        "query": "slow zoom on empty clearing mist",
+        "query2": "soft focus on overgrown path",
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one."
+      }
+    ],
+    "description": "Explore the rise and fall of Jim Jones’ Peoples Temple and the shocking events that ended in tragedy. Stay tuned for more hidden histories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#jonestown",
+      "#cult",
+      "#history"
+    ]
+  },
+  {
+    "title": "O.J. Simpson Trial Drama",
+    "thumb": "TRIAL SHOCKWAVE",
+    "place": "Los Angeles",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1994 murder trial captured a nation’s attention",
+        "hook_top": "NATION WATCHES TRIAL",
+        "query": "courtroom exterior neon lights night",
+        "query2": "city skyline with courthouse silhouette",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The glove found at the scene didn’t fit his hand in court",
+        "chips": [
+          {
+            "t": "THE GLove",
+            "on": "glove",
+            "style": "accent"
+          }
+        ],
+        "punch": "glove",
+        "query": "leather glove on wooden table",
+        "query2": "close‑up of single glove on evidence tray",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "DNA testing linked him to the crime scene with 99.9% certainty",
+        "chips": [
+          {
+            "t": "DNA 99.9%",
+            "on": "DNA",
+            "style": "white"
+          }
+        ],
+        "query": "DNA helix graphic overlay on evidence bag",
+        "query2": "microscope slide with DNA strands",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The jury’s not‑guilty verdict sparked nationwide debate on race and justice",
+        "reveal_top": "VERDICT DIVIDES NATION",
+        "query": "empty courtroom benches in silence",
+        "query2": "courtroom empty after verdict",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "city streets at sunrise with traffic",
+        "query2": "quiet downtown avenue early morning",
+        "role": "cta"
+      }
+    ],
+    "description": "From a glove that didn’t fit to a verdict that split the country, the Simpson case reshaped legal history. Follow for deeper case breakdowns.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#OJSimpson",
+      "#trial",
+      "#justice",
+      "#legal"
+    ]
+  },
+  {
+    "title": "Gianni Versace Murder",
+    "thumb": "FASHION SHOCK",
+    "place": "Miami Beach",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Fashion mogul slain on his Miami yacht in 1997",
+        "hook_top": "YACHT ASSASSINATION",
+        "query": "luxury yacht docked at night",
+        "query2": "marina with illuminated boats",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The killer approached wearing a black mask and a leather jacket",
+        "chips": [
+          {
+            "t": "BLACK MASK",
+            "on": "mask",
+            "style": "accent"
+          }
+        ],
+        "punch": "mask",
+        "query": "silhouette of a figure in black jacket on deck",
+        "query2": "empty deck with shadows",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Police recovered a single shoe matching the killer’s size at the scene",
+        "chips": [
+          {
+            "t": "SINGLE SHOE",
+            "on": "shoe",
+            "style": "white"
+          }
+        ],
+        "query": "close‑up of a men’s shoe on deck floor",
+        "query2": "sole of a leather shoe on wooden planks",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Andrew Anglin was convicted, but many still question the motive and evidence",
+        "reveal_top": "CONVICTION CONTROVERSIAL",
+        "query": "court gavel striking wood",
+        "query2": "legal scales in dim lighting",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "sunset over Miami skyline",
+        "query2": "empty beachfront promenade at dusk",
+        "role": "cta"
+      }
+    ],
+    "description": "A night of glamour turned deadly, the Versace murder still fuels debate over the truth. Follow for fashion‑crime crossovers.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#Versace",
+      "#unsolved",
+      "#fashion",
+      "#murder"
+    ]
+  },
+  {
+    "title": "The 1996 Atlanta Olympic Bombing",
+    "thumb": "ATOMIC BOMB",
+    "place": "Atlanta",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "BOMB AT OLYMPICS",
+        "query": "stadium night sky fireworks explosion",
+        "query2": "empty Olympic arena with smoke",
+        "role": "hook",
+        "text": "1996: A bomb exploded during the Summer Games"
+      },
+      {
+        "query": "Centennial Olympic Park aerial view",
+        "query2": "Atlanta downtown park map",
+        "role": "map",
+        "text": "The blast occurred at Centennial Olympic Park in downtown Atlanta, Georgia."
+      },
+      {
+        "chips": [
+          {
+            "t": "2 KILLED",
+            "on": "killed",
+            "style": "accent"
+          },
+          {
+            "t": "100+ INJURED",
+            "on": "injured",
+            "style": "white"
+          }
+        ],
+        "punch": "impact",
+        "query": "police tape and debris at park",
+        "query2": "crowd evacuating park",
+        "role": "fact",
+        "text": "The bomb killed 2 people and injured over 100."
+      },
+      {
+        "archive_query": "Centennial Olympic Park bombing 1996 Wikimedia Commons",
+        "archive_label": "Park after blast",
+        "query": "archival news footage of park",
+        "query2": "black‑white emergency scene",
+        "role": "archive",
+        "text": "Centennial Olympic Park after the explosion, showing emergency responders."
+      },
+      {
+        "label": "MOTIVE UNKNOWN",
+        "sub": "Who built the pipe bomb and why?",
+        "label_on": "motive",
+        "query": "close‑up of pipe bomb fragments",
+        "query2": "forensic lab evidence",
+        "role": "callout",
+        "text": "Unsolved Motive?"
+      },
+      {
+        "query": "slow zoom on city skyline at dusk",
+        "query2": "empty street lights moving",
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries."
+      }
+    ],
+    "description": "The Atlanta bombing stunned the world during a global celebration. Discover the facts and lingering questions behind this tragic act. Follow for more untold crime stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#OlympicBombing",
+      "#TrueCrime",
+      "#Atlanta1996",
+      "#Unsolved"
     ]
   }
 ]
