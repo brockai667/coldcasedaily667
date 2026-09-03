@@ -1,0 +1,72 @@
+{
+  "title": "Jonestown Tragedy Revealed",
+  "thumb": "JONESTOWN SHOCK",
+  "place": "Guyana",
+  "country": "Guyana",
+  "scenes": [
+    {
+      "hook_top": "5000 LOST NIGHT",
+      "query": "abandoned jungle settlement aerial view",
+      "query2": "remote rainforest clearing",
+      "role": "hook",
+      "text": "5,000 lives lost in a single night"
+    },
+    {
+      "query": "Guyana jungle satellite map",
+      "query2": "Port Kaituma region map",
+      "role": "map",
+      "text": "The settlement lay deep in the jungles of north‑west Guyana, near the town of Port Kaituma."
+    },
+    {
+      "chips": [
+        {
+          "t": "900+",
+          "on": "count",
+          "style": "accent"
+        },
+        {
+          "t": "cyanide",
+          "on": "poison",
+          "style": "white"
+        }
+      ],
+      "punch": "deadly",
+      "query": "cyanide tablet bottle on table",
+      "query2": "glass jar with white pills",
+      "role": "fact",
+      "text": "More than 900 members died by cyanide poisoning on November 18, 1978."
+    },
+    {
+      "archive_query": "Jonestown Guyana aerial photograph 1978 site",
+      "archive_label": "Aerial view of Jonestown",
+      "query": "historical aerial photo of jungle clearing",
+      "query2": "archival aerial view of remote settlement",
+      "role": "archive",
+      "text": "Aerial photograph of the Jonestown site taken by the U.S. Air Force shortly after the tragedy."
+    },
+    {
+      "label": "Cult Tragedy",
+      "sub": "How a charismatic leader sparked the deadliest mass murder.",
+      "label_on": "cult",
+      "query": "empty wooden walkways in jungle",
+      "query2": "abandoned thatched structures",
+      "role": "callout",
+      "text": "Cult or tragedy?"
+    },
+    {
+      "query": "slow zoom on empty clearing mist",
+      "query2": "soft focus on overgrown path",
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one."
+    }
+  ],
+  "description": "Explore the rise and fall of Jim Jones’ Peoples Temple and the shocking events that ended in tragedy. Stay tuned for more hidden histories.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#jonestown",
+    "#cult",
+    "#history"
+  ]
+}

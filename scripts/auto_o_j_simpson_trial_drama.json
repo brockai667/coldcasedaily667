@@ -1,0 +1,71 @@
+{
+  "title": "O.J. Simpson Trial Drama",
+  "thumb": "TRIAL SHOCKWAVE",
+  "place": "Los Angeles",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1994 murder trial captured a nation’s attention",
+      "hook_top": "NATION WATCHES TRIAL",
+      "query": "courtroom exterior neon lights night",
+      "query2": "city skyline with courthouse silhouette",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The glove found at the scene didn’t fit his hand in court",
+      "chips": [
+        {
+          "t": "THE GLove",
+          "on": "glove",
+          "style": "accent"
+        }
+      ],
+      "punch": "glove",
+      "query": "leather glove on wooden table",
+      "query2": "close‑up of single glove on evidence tray",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "DNA testing linked him to the crime scene with 99.9% certainty",
+      "chips": [
+        {
+          "t": "DNA 99.9%",
+          "on": "DNA",
+          "style": "white"
+        }
+      ],
+      "query": "DNA helix graphic overlay on evidence bag",
+      "query2": "microscope slide with DNA strands",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "The jury’s not‑guilty verdict sparked nationwide debate on race and justice",
+      "reveal_top": "VERDICT DIVIDES NATION",
+      "query": "empty courtroom benches in silence",
+      "query2": "courtroom empty after verdict",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "city streets at sunrise with traffic",
+      "query2": "quiet downtown avenue early morning",
+      "role": "cta"
+    }
+  ],
+  "description": "From a glove that didn’t fit to a verdict that split the country, the Simpson case reshaped legal history. Follow for deeper case breakdowns.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#OJSimpson",
+    "#trial",
+    "#justice",
+    "#legal"
+  ]
+}

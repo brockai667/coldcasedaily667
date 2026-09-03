@@ -1,0 +1,71 @@
+{
+  "title": "Gianni Versace Murder",
+  "thumb": "FASHION SHOCK",
+  "place": "Miami Beach",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Fashion mogul slain on his Miami yacht in 1997",
+      "hook_top": "YACHT ASSASSINATION",
+      "query": "luxury yacht docked at night",
+      "query2": "marina with illuminated boats",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The killer approached wearing a black mask and a leather jacket",
+      "chips": [
+        {
+          "t": "BLACK MASK",
+          "on": "mask",
+          "style": "accent"
+        }
+      ],
+      "punch": "mask",
+      "query": "silhouette of a figure in black jacket on deck",
+      "query2": "empty deck with shadows",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Police recovered a single shoe matching the killer’s size at the scene",
+      "chips": [
+        {
+          "t": "SINGLE SHOE",
+          "on": "shoe",
+          "style": "white"
+        }
+      ],
+      "query": "close‑up of a men’s shoe on deck floor",
+      "query2": "sole of a leather shoe on wooden planks",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Andrew Anglin was convicted, but many still question the motive and evidence",
+      "reveal_top": "CONVICTION CONTROVERSIAL",
+      "query": "court gavel striking wood",
+      "query2": "legal scales in dim lighting",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "sunset over Miami skyline",
+      "query2": "empty beachfront promenade at dusk",
+      "role": "cta"
+    }
+  ],
+  "description": "A night of glamour turned deadly, the Versace murder still fuels debate over the truth. Follow for fashion‑crime crossovers.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#Versace",
+    "#unsolved",
+    "#fashion",
+    "#murder"
+  ]
+}

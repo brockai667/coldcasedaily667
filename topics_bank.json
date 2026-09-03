@@ -12322,6 +12322,80 @@
     ]
   },
   {
+    "title": "Tylenol Cyanide Poisonings",
+    "thumb": "DEADLY PILLS",
+    "place": "Chicago, Illinois",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1982 tampering led to seven deaths after cyanide was found in capsules",
+        "hook_top": "1982 POISONING TRAGEDY",
+        "query": "1980s newspaper headline poison capsule",
+        "query2": "vintage newsprint cyanide",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The contaminated bottles were sold over a six‑day period in October",
+        "chips": [
+          {
+            "t": "six‑day period",
+            "on": "duration",
+            "style": "white"
+          },
+          {
+            "t": "October",
+            "on": "month",
+            "style": "accent"
+          }
+        ],
+        "query": "store shelf empty pill bottles",
+        "query2": "grocery aisle product boxes",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The FDA issued the first nationwide recall of a over‑the‑counter drug",
+        "chips": [
+          {
+            "t": "first recall",
+            "on": "milestone",
+            "style": "white"
+          }
+        ],
+        "query": "old FDA seal stamped paper",
+        "query2": "vintage government recall notice",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Investigators never identified a perpetrator; the case remains open",
+        "reveal_top": "NO ONE CAUGHT",
+        "query": "police file folder empty",
+        "query2": "closed file cabinet drawer",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "old ledger pages turning",
+        "query2": "vintage notebook closeup",
+        "role": "cta"
+      }
+    ],
+    "description": "The Tylenol poisonings changed consumer safety forever. Learn how a simple tampering sparked a nationwide crisis.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#tylenol",
+      "#pharma",
+      "#unsolved"
+    ]
+  },
+  {
     "title": "The 1996 Atlanta Olympic Bombing",
     "thumb": "ATOMIC BOMB",
     "place": "Atlanta",
@@ -12391,6 +12465,130 @@
       "#TrueCrime",
       "#Atlanta1996",
       "#Unsolved"
+    ]
+  },
+  {
+    "title": "Oklahoma City Bomb Tragedy",
+    "thumb": "MURDEROUS EXPLOSION",
+    "place": "Oklahoma City",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "168 DEAD MORNING",
+        "query": "empty city street after explosion",
+        "query2": "deserted downtown after blast",
+        "role": "hook",
+        "text": "168 lives lost in a single morning blast"
+      },
+      {
+        "chips": [
+          {
+            "t": "4,800 lbs",
+            "on": "ammo",
+            "style": "white"
+          }
+        ],
+        "punch": "power",
+        "query": "ammonium nitrate bags",
+        "query2": "industrial chemicals crate",
+        "role": "fact",
+        "text": "The bomb was built from a rented truck and 4,800 pounds of ammonium nitrate."
+      },
+      {
+        "archive_query": "Alfred P. Murrah Federal Building 1994 aerial",
+        "archive_label": "Murrah Building 1994",
+        "query": "historic downtown building photo",
+        "query2": "pre‑1995 federal building image",
+        "role": "archive",
+        "text": "Aerial view of the Alfred P. Murrah Federal Building before 1995."
+      },
+      {
+        "label": "Bomb Builder?",
+        "sub": "Investigation focused on domestic extremist groups.",
+        "label_on": "who",
+        "query": "empty warehouse interior",
+        "query2": "abandoned industrial site",
+        "role": "callout",
+        "text": "Who built the bomb?"
+      },
+      {
+        "query": "city skyline at dusk",
+        "query2": "urban nightscape",
+        "role": "cta",
+        "text": "Follow because some cases still need answers."
+      }
+    ],
+    "description": "The 1995 Oklahoma City bombing shocked the nation with its scale and domestic roots. Discover the key facts behind the tragedy. Follow for more deep investigations.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#OklahomaCity",
+      "#bombing",
+      "#unsolved",
+      "#history"
+    ]
+  },
+  {
+    "title": "JFK Assassination Secrets",
+    "thumb": "DALLAS MYSTERY",
+    "place": "Dallas",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "13 SECONDS 3 SHOTS",
+        "query": "empty Dealey Plaza at noon",
+        "query2": "quiet downtown street Dallas",
+        "role": "hook",
+        "text": "13 seconds, 3 shots, a nation stunned"
+      },
+      {
+        "chips": [
+          {
+            "t": "6th floor",
+            "on": "floor",
+            "style": "accent"
+          }
+        ],
+        "punch": "height",
+        "query": "old brick building exterior",
+        "query2": "historic downtown warehouse",
+        "role": "fact",
+        "text": "Lee Harvey Oswald fired from the sixth floor of the Texas School Book Depository."
+      },
+      {
+        "archive_query": "Texas School Book Depository 1945 photo",
+        "archive_label": "Book Depository 1945",
+        "query": "historic building facade",
+        "query2": "mid‑century warehouse",
+        "role": "archive",
+        "text": "Photograph of the Texas School Book Depository taken in 1945."
+      },
+      {
+        "label": "Second Gunman?",
+        "sub": "Theories still swirl after decades of inquiry.",
+        "label_on": "second",
+        "query": "empty street with shadows",
+        "query2": "lonely urban alley",
+        "role": "callout",
+        "text": "Was there a second gunman?"
+      },
+      {
+        "query": "sunset over Dallas skyline",
+        "query2": "city horizon at dusk",
+        "role": "cta",
+        "text": "Follow for the cases that were never solved."
+      }
+    ],
+    "description": "Explore the pivotal moments and lingering questions of the 1963 Dallas assassination of President Kennedy. Dive into the evidence and enduring theories. Follow for more deep true‑crime stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#JFK",
+      "#assassination",
+      "#history",
+      "#mystery",
+      "#truecrime"
     ]
   }
 ]
