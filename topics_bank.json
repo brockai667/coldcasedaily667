@@ -12590,5 +12590,213 @@
       "#mystery",
       "#truecrime"
     ]
+  },
+  {
+    "title": "JonBenét Ramsey Mystery",
+    "thumb": "MYSTERY UNSOLVED",
+    "place": "Boulder",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "WHAT HAPPENED TO",
+        "query": "empty suburban street at night",
+        "query2": "quiet residential road",
+        "role": "hook",
+        "text": "What happened to a six‑year‑old beauty queen?"
+      },
+      {
+        "query": "city map of Boulder Colorado",
+        "query2": "Colorado neighborhood map",
+        "role": "map",
+        "text": "Boulder, Colorado, USA – the family home site"
+      },
+      {
+        "chips": [
+          {
+            "t": "1996",
+            "on": "year",
+            "style": "white"
+          }
+        ],
+        "punch": "frenzy",
+        "query": "newspaper headlines 1996 crime",
+        "query2": "vintage newspaper front page",
+        "role": "fact",
+        "text": "The case sparked a nationwide media frenzy in 1996."
+      },
+      {
+        "archive_query": "Ramsey house evidence tape 1996 site:wikimedia.org",
+        "archive_label": "Evidence Tape",
+        "query": "police tape on fence",
+        "query2": "crime scene tape",
+        "role": "archive",
+        "text": "Police evidence tape outside the Ramsey house"
+      },
+      {
+        "label": "UNSOLVED",
+        "sub": "The case remains open after decades",
+        "label_on": "unsolved",
+        "query": "closed file folder on desk",
+        "query2": "empty file cabinet",
+        "role": "callout",
+        "text": "Unsolved Mystery"
+      },
+      {
+        "query": "hand pressing follow button animation",
+        "query2": "social media follow icon",
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one."
+      }
+    ],
+    "description": "A six‑year‑old beauty queen vanished, leaving a baffling crime scene that still haunts America. Dive into the facts and theories that persist. Follow for more.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#unsolved",
+      "#JonBenetRamsey",
+      "#mystery"
+    ]
+  },
+  {
+    "title": "Tylenol Poisoning Scare",
+    "thumb": "TOXIC COLD MEDS",
+    "place": "Chicago, Illinois",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Seven strangers died after swallowing cyanide‑tainted Tylenol in 1982",
+        "hook_top": "DEADLY COLD MEDS",
+        "query": "1980s pharmacy aisle",
+        "query2": "empty medicine bottles shelf",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The tainting occurred after the bottles left the factory, never before",
+        "chips": [
+          {
+            "t": "POST‑FACTORY",
+            "on": "factory",
+            "style": "accent"
+          }
+        ],
+        "punch": "factory",
+        "query": "manufacturing line empty",
+        "query2": "closed factory doors",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The crisis prompted the first nationwide product recall in U.S. history",
+        "chips": [
+          {
+            "t": "FIRST RECALL",
+            "on": "recall",
+            "style": "white"
+          }
+        ],
+        "punch": "recall",
+        "query": "store shelves being cleared",
+        "query2": "empty retail aisle",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Investigators later determined a disgruntled employee likely slipped the poison inside a retail store",
+        "reveal_top": "INSIDE STORE SABOTAGE",
+        "query": "hand placing bottle on shelf",
+        "query2": "silhouette in store",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "alert icon animation",
+        "query2": "simple caution graphic",
+        "role": "cta"
+      }
+    ],
+    "description": "The Tylenol murders changed how products are packaged and recalled. Learn the hidden details behind the tragedy.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#tylenol",
+      "#recall",
+      "#history",
+      "#safety"
+    ]
+  },
+  {
+    "title": "Boston Cold Storage Heist",
+    "thumb": "GOLD FLEE",
+    "place": "Boston, Massachusetts",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Four thieves stole $7 million in gold bars in 1990",
+        "hook_top": "GOLD STEAL",
+        "query": "gold bars stacked on concrete floor",
+        "query2": "metallic gold ingots under spotlight",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The thieves used a stolen forklift to move the loot",
+        "chips": [
+          {
+            "t": "STOLEN FORKLIFT",
+            "on": "forklift",
+            "style": "accent"
+          }
+        ],
+        "punch": "forklift",
+        "query": "industrial forklift parked in empty warehouse",
+        "query2": "warehouse loading dock with equipment",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "Police still‑image of the cold‑storage facility’s exterior",
+        "archive_query": "Boston cold storage facility 1990 photograph site:wikimedia.org",
+        "archive_label": "Cold‑storage building",
+        "query": "brick industrial building at night",
+        "query2": "warehouse facade under streetlights",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "All gold recovered, but the mastermind was never identified",
+        "label": "MYSTERY MASTER",
+        "sub": "Who organized the daring raid?",
+        "label_on": "mastermind",
+        "query": "empty vault door ajar",
+        "query2": "security camera lens blurred",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "slow motion of swinging security camera",
+        "query2": "shadowy hallway with flashing lights",
+        "role": "cta"
+      }
+    ],
+    "description": "Delve into the audacious Boston cold‑storage heist, the logistics of moving millions in gold, and the unanswered question of who masterminded it. Subscribe for more legendary crime tales.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#heist",
+      "#boston",
+      "#gold",
+      "#unsolved"
+    ]
   }
 ]

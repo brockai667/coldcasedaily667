@@ -1,0 +1,72 @@
+{
+  "title": "The 1996 Atlanta Olympic Bombing",
+  "thumb": "ATOMIC BOMB",
+  "place": "Atlanta",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "BOMB AT OLYMPICS",
+      "query": "stadium night sky fireworks explosion",
+      "query2": "empty Olympic arena with smoke",
+      "role": "hook",
+      "text": "1996: A bomb exploded during the Summer Games"
+    },
+    {
+      "query": "Centennial Olympic Park aerial view",
+      "query2": "Atlanta downtown park map",
+      "role": "map",
+      "text": "The blast occurred at Centennial Olympic Park in downtown Atlanta, Georgia."
+    },
+    {
+      "chips": [
+        {
+          "t": "2 KILLED",
+          "on": "killed",
+          "style": "accent"
+        },
+        {
+          "t": "100+ INJURED",
+          "on": "injured",
+          "style": "white"
+        }
+      ],
+      "punch": "impact",
+      "query": "police tape and debris at park",
+      "query2": "crowd evacuating park",
+      "role": "fact",
+      "text": "The bomb killed 2 people and injured over 100."
+    },
+    {
+      "archive_query": "Centennial Olympic Park bombing 1996 Wikimedia Commons",
+      "archive_label": "Park after blast",
+      "query": "archival news footage of park",
+      "query2": "black‑white emergency scene",
+      "role": "archive",
+      "text": "Centennial Olympic Park after the explosion, showing emergency responders."
+    },
+    {
+      "label": "MOTIVE UNKNOWN",
+      "sub": "Who built the pipe bomb and why?",
+      "label_on": "motive",
+      "query": "close‑up of pipe bomb fragments",
+      "query2": "forensic lab evidence",
+      "role": "callout",
+      "text": "Unsolved Motive?"
+    },
+    {
+      "query": "slow zoom on city skyline at dusk",
+      "query2": "empty street lights moving",
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries."
+    }
+  ],
+  "description": "The Atlanta bombing stunned the world during a global celebration. Discover the facts and lingering questions behind this tragic act. Follow for more untold crime stories.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#OlympicBombing",
+    "#TrueCrime",
+    "#Atlanta1996",
+    "#Unsolved"
+  ]
+}

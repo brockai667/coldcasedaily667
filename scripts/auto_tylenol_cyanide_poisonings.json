@@ -1,0 +1,74 @@
+{
+  "title": "Tylenol Cyanide Poisonings",
+  "thumb": "DEADLY PILLS",
+  "place": "Chicago, Illinois",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1982 tampering led to seven deaths after cyanide was found in capsules",
+      "hook_top": "1982 POISONING TRAGEDY",
+      "query": "1980s newspaper headline poison capsule",
+      "query2": "vintage newsprint cyanide",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The contaminated bottles were sold over a six‑day period in October",
+      "chips": [
+        {
+          "t": "six‑day period",
+          "on": "duration",
+          "style": "white"
+        },
+        {
+          "t": "October",
+          "on": "month",
+          "style": "accent"
+        }
+      ],
+      "query": "store shelf empty pill bottles",
+      "query2": "grocery aisle product boxes",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "The FDA issued the first nationwide recall of a over‑the‑counter drug",
+      "chips": [
+        {
+          "t": "first recall",
+          "on": "milestone",
+          "style": "white"
+        }
+      ],
+      "query": "old FDA seal stamped paper",
+      "query2": "vintage government recall notice",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Investigators never identified a perpetrator; the case remains open",
+      "reveal_top": "NO ONE CAUGHT",
+      "query": "police file folder empty",
+      "query2": "closed file cabinet drawer",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "old ledger pages turning",
+      "query2": "vintage notebook closeup",
+      "role": "cta"
+    }
+  ],
+  "description": "The Tylenol poisonings changed consumer safety forever. Learn how a simple tampering sparked a nationwide crisis.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#tylenol",
+    "#pharma",
+    "#unsolved"
+  ]
+}

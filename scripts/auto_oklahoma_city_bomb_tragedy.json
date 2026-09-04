@@ -1,0 +1,62 @@
+{
+  "title": "Oklahoma City Bomb Tragedy",
+  "thumb": "MURDEROUS EXPLOSION",
+  "place": "Oklahoma City",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "168 DEAD MORNING",
+      "query": "empty city street after explosion",
+      "query2": "deserted downtown after blast",
+      "role": "hook",
+      "text": "168 lives lost in a single morning blast"
+    },
+    {
+      "chips": [
+        {
+          "t": "4,800 lbs",
+          "on": "ammo",
+          "style": "white"
+        }
+      ],
+      "punch": "power",
+      "query": "ammonium nitrate bags",
+      "query2": "industrial chemicals crate",
+      "role": "fact",
+      "text": "The bomb was built from a rented truck and 4,800 pounds of ammonium nitrate."
+    },
+    {
+      "archive_query": "Alfred P. Murrah Federal Building 1994 aerial",
+      "archive_label": "Murrah Building 1994",
+      "query": "historic downtown building photo",
+      "query2": "pre‑1995 federal building image",
+      "role": "archive",
+      "text": "Aerial view of the Alfred P. Murrah Federal Building before 1995."
+    },
+    {
+      "label": "Bomb Builder?",
+      "sub": "Investigation focused on domestic extremist groups.",
+      "label_on": "who",
+      "query": "empty warehouse interior",
+      "query2": "abandoned industrial site",
+      "role": "callout",
+      "text": "Who built the bomb?"
+    },
+    {
+      "query": "city skyline at dusk",
+      "query2": "urban nightscape",
+      "role": "cta",
+      "text": "Follow because some cases still need answers."
+    }
+  ],
+  "description": "The 1995 Oklahoma City bombing shocked the nation with its scale and domestic roots. Discover the key facts behind the tragedy. Follow for more deep investigations.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#OklahomaCity",
+    "#bombing",
+    "#unsolved",
+    "#history"
+  ]
+}
