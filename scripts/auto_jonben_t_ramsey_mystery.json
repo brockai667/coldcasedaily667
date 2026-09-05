@@ -1,0 +1,67 @@
+{
+  "title": "JonBenét Ramsey Mystery",
+  "thumb": "MYSTERY UNSOLVED",
+  "place": "Boulder",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "WHAT HAPPENED TO",
+      "query": "empty suburban street at night",
+      "query2": "quiet residential road",
+      "role": "hook",
+      "text": "What happened to a six‑year‑old beauty queen?"
+    },
+    {
+      "query": "city map of Boulder Colorado",
+      "query2": "Colorado neighborhood map",
+      "role": "map",
+      "text": "Boulder, Colorado, USA – the family home site"
+    },
+    {
+      "chips": [
+        {
+          "t": "1996",
+          "on": "year",
+          "style": "white"
+        }
+      ],
+      "punch": "frenzy",
+      "query": "newspaper headlines 1996 crime",
+      "query2": "vintage newspaper front page",
+      "role": "fact",
+      "text": "The case sparked a nationwide media frenzy in 1996."
+    },
+    {
+      "archive_query": "Ramsey house evidence tape 1996 site:wikimedia.org",
+      "archive_label": "Evidence Tape",
+      "query": "police tape on fence",
+      "query2": "crime scene tape",
+      "role": "archive",
+      "text": "Police evidence tape outside the Ramsey house"
+    },
+    {
+      "label": "UNSOLVED",
+      "sub": "The case remains open after decades",
+      "label_on": "unsolved",
+      "query": "closed file folder on desk",
+      "query2": "empty file cabinet",
+      "role": "callout",
+      "text": "Unsolved Mystery"
+    },
+    {
+      "query": "hand pressing follow button animation",
+      "query2": "social media follow icon",
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one."
+    }
+  ],
+  "description": "A six‑year‑old beauty queen vanished, leaving a baffling crime scene that still haunts America. Dive into the facts and theories that persist. Follow for more.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#unsolved",
+    "#JonBenetRamsey",
+    "#mystery"
+  ]
+}

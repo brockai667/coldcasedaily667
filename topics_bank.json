@@ -12530,68 +12530,6 @@
     ]
   },
   {
-    "title": "JFK Assassination Secrets",
-    "thumb": "DALLAS MYSTERY",
-    "place": "Dallas",
-    "country": "United States",
-    "scenes": [
-      {
-        "hook_top": "13 SECONDS 3 SHOTS",
-        "query": "empty Dealey Plaza at noon",
-        "query2": "quiet downtown street Dallas",
-        "role": "hook",
-        "text": "13 seconds, 3 shots, a nation stunned"
-      },
-      {
-        "chips": [
-          {
-            "t": "6th floor",
-            "on": "floor",
-            "style": "accent"
-          }
-        ],
-        "punch": "height",
-        "query": "old brick building exterior",
-        "query2": "historic downtown warehouse",
-        "role": "fact",
-        "text": "Lee Harvey Oswald fired from the sixth floor of the Texas School Book Depository."
-      },
-      {
-        "archive_query": "Texas School Book Depository 1945 photo",
-        "archive_label": "Book Depository 1945",
-        "query": "historic building facade",
-        "query2": "mid‑century warehouse",
-        "role": "archive",
-        "text": "Photograph of the Texas School Book Depository taken in 1945."
-      },
-      {
-        "label": "Second Gunman?",
-        "sub": "Theories still swirl after decades of inquiry.",
-        "label_on": "second",
-        "query": "empty street with shadows",
-        "query2": "lonely urban alley",
-        "role": "callout",
-        "text": "Was there a second gunman?"
-      },
-      {
-        "query": "sunset over Dallas skyline",
-        "query2": "city horizon at dusk",
-        "role": "cta",
-        "text": "Follow for the cases that were never solved."
-      }
-    ],
-    "description": "Explore the pivotal moments and lingering questions of the 1963 Dallas assassination of President Kennedy. Dive into the evidence and enduring theories. Follow for more deep true‑crime stories.",
-    "hashtags": [
-      "#shorts",
-      "#fyp",
-      "#JFK",
-      "#assassination",
-      "#history",
-      "#mystery",
-      "#truecrime"
-    ]
-  },
-  {
     "title": "JonBenét Ramsey Mystery",
     "thumb": "MYSTERY UNSOLVED",
     "place": "Boulder",
@@ -12656,6 +12594,136 @@
       "#unsolved",
       "#JonBenetRamsey",
       "#mystery"
+    ]
+  },
+  {
+    "title": "Titanic Sinking Conspiracy",
+    "thumb": "ICEBERG SECRET",
+    "place": "North Atlantic Ocean",
+    "country": "International Waters",
+    "scenes": [
+      {
+        "hook_top": "SECRET BULKHEAD THEORY",
+        "query": "stormy sea horizon cinematic",
+        "query2": "dark ocean waves night",
+        "role": "hook",
+        "text": "Did a hidden bulkhead cause the Titanic to sink faster?"
+      },
+      {
+        "query": "vintage nautical chart North Atlantic 1912",
+        "query2": "old sea navigation map",
+        "role": "map",
+        "text": "The tragedy unfolded in the North Atlantic, about 370 nautical miles south of Newfoundland"
+      },
+      {
+        "chips": [
+          {
+            "t": "LONGITUDINAL BULKHEAD",
+            "on": "bulkhead",
+            "style": "white"
+          }
+        ],
+        "punch": "design",
+        "query": "schematic of early 20th century ship hull",
+        "query2": "technical drawing ocean liner",
+        "role": "fact",
+        "text": "The ship's hull was divided by a longitudinal bulkhead, later deemed a design flaw"
+      },
+      {
+        "archive_query": "Titanic deck plans site:commons.wikimedia.org",
+        "archive_label": "Titanic deck plan",
+        "query": "old blueprint on wooden table",
+        "query2": "historical ship plan close up",
+        "role": "archive",
+        "text": "Original deck plans of RMS Titanic from the Harland & Wolff archives"
+      },
+      {
+        "label": "Bulkhead breach",
+        "sub": "Witnesses reported a sudden tilt after impact",
+        "label_on": "evidence",
+        "query": "empty ship corridor with water level",
+        "query2": "abandoned hallway flooded",
+        "role": "callout",
+        "text": "Key evidence"
+      },
+      {
+        "query": "bold text over calm sea background",
+        "query2": "stylized follow graphic",
+        "role": "cta",
+        "text": "Follow for the cases that were never solved."
+      }
+    ],
+    "description": "Explore the controversial theory that Titanic’s hidden bulkhead accelerated its sinking. The facts may change how we view the disaster. Follow for more maritime true‑crime.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#titanic",
+      "#maritime",
+      "#history",
+      "#mystery",
+      "#truecrime"
+    ]
+  },
+  {
+    "title": "JFK Assassination Secrets",
+    "thumb": "DALLAS MYSTERY",
+    "place": "Dallas",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "13 SECONDS 3 SHOTS",
+        "query": "empty Dealey Plaza at noon",
+        "query2": "quiet downtown street Dallas",
+        "role": "hook",
+        "text": "13 seconds, 3 shots, a nation stunned"
+      },
+      {
+        "chips": [
+          {
+            "t": "6th floor",
+            "on": "floor",
+            "style": "accent"
+          }
+        ],
+        "punch": "height",
+        "query": "old brick building exterior",
+        "query2": "historic downtown warehouse",
+        "role": "fact",
+        "text": "Lee Harvey Oswald fired from the sixth floor of the Texas School Book Depository."
+      },
+      {
+        "archive_query": "Texas School Book Depository 1945 photo",
+        "archive_label": "Book Depository 1945",
+        "query": "historic building facade",
+        "query2": "mid‑century warehouse",
+        "role": "archive",
+        "text": "Photograph of the Texas School Book Depository taken in 1945."
+      },
+      {
+        "label": "Second Gunman?",
+        "sub": "Theories still swirl after decades of inquiry.",
+        "label_on": "second",
+        "query": "empty street with shadows",
+        "query2": "lonely urban alley",
+        "role": "callout",
+        "text": "Was there a second gunman?"
+      },
+      {
+        "query": "sunset over Dallas skyline",
+        "query2": "city horizon at dusk",
+        "role": "cta",
+        "text": "Follow for the cases that were never solved."
+      }
+    ],
+    "description": "Explore the pivotal moments and lingering questions of the 1963 Dallas assassination of President Kennedy. Dive into the evidence and enduring theories. Follow for more deep true‑crime stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#JFK",
+      "#assassination",
+      "#history",
+      "#mystery",
+      "#truecrime"
     ]
   },
   {
@@ -12797,6 +12865,144 @@
       "#boston",
       "#gold",
       "#unsolved"
+    ]
+  },
+  {
+    "title": "Lindberhous Kidnapping Mystery",
+    "thumb": "BRIEFCASE ABDUCTION",
+    "place": "Hopewell, New Jersey",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "BABY VANISHED 1932",
+        "query": "vintage newspaper headline kidnapping",
+        "query2": "old newspaper crime article",
+        "role": "hook",
+        "text": "A 20‑month‑old vanished in 1932, sparking a nation‑wide hunt"
+      },
+      {
+        "query": "historic map Hopewell New Jersey 1930s",
+        "query2": "old town map New Jersey",
+        "role": "map",
+        "text": "The crime occurred in Hopewell, New Jersey, at the Lindbergh home"
+      },
+      {
+        "chips": [
+          {
+            "t": "2 KG OF PAPER",
+            "on": "paper",
+            "style": "accent"
+          }
+        ],
+        "punch": "weight",
+        "query": "close‑up of old ransom note paper texture",
+        "query2": "vintage document paper surface",
+        "role": "fact",
+        "text": "Police recovered a ransom note weighing 2 kilograms of paper"
+      },
+      {
+        "archive_query": "Lindbergh ransom note site:commons.wikimedia.org",
+        "archive_label": "Original ransom note",
+        "query": "archival document on wooden table",
+        "query2": "historic paper document close up",
+        "role": "archive",
+        "text": "The original ransom note displayed at the National Archives"
+      },
+      {
+        "label": "Who paid?",
+        "sub": "Did the kidnapper ever receive the money?",
+        "label_on": "theory",
+        "query": "empty old safe with dim light",
+        "query2": "vintage safe interior",
+        "role": "callout",
+        "text": "Unsolved theories"
+      },
+      {
+        "query": "dramatic text overlay on dark background",
+        "query2": "stylized call‑to‑action graphic",
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries."
+      }
+    ],
+    "description": "The Lindbergh baby kidnapping shocked America and still fuels debate. Discover the evidence that still puzzles investigators. Follow for more.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#lindbergh",
+      "#unsolved",
+      "#history",
+      "#mystery"
+    ]
+  },
+  {
+    "title": "The D.B. Cooper Hijacking Reveal",
+    "thumb": "SKYJACK ONE",
+    "place": "Pacific Northwest",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A man demanded $200,000 and vanished mid‑flight in 1971",
+        "hook_top": "VANISHED SKYJACK",
+        "query": "empty 1970s airplane aisle",
+        "query2": "vintage aircraft cabin interior",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "He parachuted from the rear stairwell of a Boeing 727",
+        "chips": [
+          {
+            "t": "BOEING 727",
+            "on": "plane",
+            "style": "accent"
+          }
+        ],
+        "punch": "plane",
+        "query": "Boeing 727 silhouette at sunset",
+        "query2": "aircraft tail fin on runway",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Only $5,800 of the ransom was ever recovered in 1980",
+        "chips": [
+          {
+            "t": "$5,800 FOUND",
+            "on": "money",
+            "style": "white"
+          }
+        ],
+        "query": "old cash bundle on sand",
+        "query2": "weathered money bag on ground",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The FBI closed the case in 2016, still without identifying him",
+        "reveal_top": "IDENTITY UNKNOWN",
+        "query": "closed FBI file cabinet",
+        "query2": "empty detective badge on desk",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "vintage airplane window view",
+        "query2": "clouds over mountain range",
+        "role": "cta"
+      }
+    ],
+    "description": "The daring 1971 hijacking that sparked endless speculation. Explore the facts and why the legend lives on.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#dbcooper",
+      "#hijacking",
+      "#mystery"
     ]
   }
 ]

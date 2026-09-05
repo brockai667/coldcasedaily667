@@ -1,0 +1,68 @@
+{
+  "title": "Titanic Sinking Conspiracy",
+  "thumb": "ICEBERG SECRET",
+  "place": "North Atlantic Ocean",
+  "country": "International Waters",
+  "scenes": [
+    {
+      "hook_top": "SECRET BULKHEAD THEORY",
+      "query": "stormy sea horizon cinematic",
+      "query2": "dark ocean waves night",
+      "role": "hook",
+      "text": "Did a hidden bulkhead cause the Titanic to sink faster?"
+    },
+    {
+      "query": "vintage nautical chart North Atlantic 1912",
+      "query2": "old sea navigation map",
+      "role": "map",
+      "text": "The tragedy unfolded in the North Atlantic, about 370 nautical miles south of Newfoundland"
+    },
+    {
+      "chips": [
+        {
+          "t": "LONGITUDINAL BULKHEAD",
+          "on": "bulkhead",
+          "style": "white"
+        }
+      ],
+      "punch": "design",
+      "query": "schematic of early 20th century ship hull",
+      "query2": "technical drawing ocean liner",
+      "role": "fact",
+      "text": "The ship's hull was divided by a longitudinal bulkhead, later deemed a design flaw"
+    },
+    {
+      "archive_query": "Titanic deck plans site:commons.wikimedia.org",
+      "archive_label": "Titanic deck plan",
+      "query": "old blueprint on wooden table",
+      "query2": "historical ship plan close up",
+      "role": "archive",
+      "text": "Original deck plans of RMS Titanic from the Harland & Wolff archives"
+    },
+    {
+      "label": "Bulkhead breach",
+      "sub": "Witnesses reported a sudden tilt after impact",
+      "label_on": "evidence",
+      "query": "empty ship corridor with water level",
+      "query2": "abandoned hallway flooded",
+      "role": "callout",
+      "text": "Key evidence"
+    },
+    {
+      "query": "bold text over calm sea background",
+      "query2": "stylized follow graphic",
+      "role": "cta",
+      "text": "Follow for the cases that were never solved."
+    }
+  ],
+  "description": "Explore the controversial theory that Titanic’s hidden bulkhead accelerated its sinking. The facts may change how we view the disaster. Follow for more maritime true‑crime.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#titanic",
+    "#maritime",
+    "#history",
+    "#mystery",
+    "#truecrime"
+  ]
+}
