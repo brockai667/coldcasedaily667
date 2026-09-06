@@ -1,0 +1,69 @@
+{
+  "title": "Boston Cold Storage Heist",
+  "thumb": "GOLD FLEE",
+  "place": "Boston, Massachusetts",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Four thieves stole $7 million in gold bars in 1990",
+      "hook_top": "GOLD STEAL",
+      "query": "gold bars stacked on concrete floor",
+      "query2": "metallic gold ingots under spotlight",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The thieves used a stolen forklift to move the loot",
+      "chips": [
+        {
+          "t": "STOLEN FORKLIFT",
+          "on": "forklift",
+          "style": "accent"
+        }
+      ],
+      "punch": "forklift",
+      "query": "industrial forklift parked in empty warehouse",
+      "query2": "warehouse loading dock with equipment",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "Police still‑image of the cold‑storage facility’s exterior",
+      "archive_query": "Boston cold storage facility 1990 photograph site:wikimedia.org",
+      "archive_label": "Cold‑storage building",
+      "query": "brick industrial building at night",
+      "query2": "warehouse facade under streetlights",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "All gold recovered, but the mastermind was never identified",
+      "label": "MYSTERY MASTER",
+      "sub": "Who organized the daring raid?",
+      "label_on": "mastermind",
+      "query": "empty vault door ajar",
+      "query2": "security camera lens blurred",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "slow motion of swinging security camera",
+      "query2": "shadowy hallway with flashing lights",
+      "role": "cta"
+    }
+  ],
+  "description": "Delve into the audacious Boston cold‑storage heist, the logistics of moving millions in gold, and the unanswered question of who masterminded it. Subscribe for more legendary crime tales.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#heist",
+    "#boston",
+    "#gold",
+    "#unsolved"
+  ]
+}

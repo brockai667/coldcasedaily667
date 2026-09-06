@@ -1,0 +1,72 @@
+{
+  "title": "Tylenol Poisoning Scare",
+  "thumb": "TOXIC COLD MEDS",
+  "place": "Chicago, Illinois",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Seven strangers died after swallowing cyanide‑tainted Tylenol in 1982",
+      "hook_top": "DEADLY COLD MEDS",
+      "query": "1980s pharmacy aisle",
+      "query2": "empty medicine bottles shelf",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The tainting occurred after the bottles left the factory, never before",
+      "chips": [
+        {
+          "t": "POST‑FACTORY",
+          "on": "factory",
+          "style": "accent"
+        }
+      ],
+      "punch": "factory",
+      "query": "manufacturing line empty",
+      "query2": "closed factory doors",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "The crisis prompted the first nationwide product recall in U.S. history",
+      "chips": [
+        {
+          "t": "FIRST RECALL",
+          "on": "recall",
+          "style": "white"
+        }
+      ],
+      "punch": "recall",
+      "query": "store shelves being cleared",
+      "query2": "empty retail aisle",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Investigators later determined a disgruntled employee likely slipped the poison inside a retail store",
+      "reveal_top": "INSIDE STORE SABOTAGE",
+      "query": "hand placing bottle on shelf",
+      "query2": "silhouette in store",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "alert icon animation",
+      "query2": "simple caution graphic",
+      "role": "cta"
+    }
+  ],
+  "description": "The Tylenol murders changed how products are packaged and recalled. Learn the hidden details behind the tragedy.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#tylenol",
+    "#recall",
+    "#history",
+    "#safety"
+  ]
+}

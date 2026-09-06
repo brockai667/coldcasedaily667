@@ -1,0 +1,62 @@
+{
+  "title": "Elizabeth Smart Kidnapping Case",
+  "thumb": "MISSING TEEN",
+  "place": "Salt Lake City",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "TEEN VANISHES AT NIGHT",
+      "query": "dark suburban street empty house night",
+      "query2": "quiet residential lane moonlight",
+      "role": "hook",
+      "text": "A 14‑year‑old vanished from her bedroom while her family slept"
+    },
+    {
+      "chips": [
+        {
+          "t": "9 MONTHS",
+          "on": "captive",
+          "style": "accent"
+        }
+      ],
+      "punch": "captive",
+      "query": "locked door close-up rusted hinge",
+      "query2": "old wooden gate slightly ajar",
+      "role": "fact",
+      "text": "She was held captive for nine months before being rescued in 2003"
+    },
+    {
+      "archive_query": "Smart family home Salt Lake City 2002 Wikimedia Commons",
+      "archive_label": "Smart Home Exterior",
+      "query": "suburban house front view daytime",
+      "query2": "two‑story residence street",
+      "role": "archive",
+      "text": "The Smart family home in Salt Lake City before the abduction"
+    },
+    {
+      "label": "RESCUE BREAKTHROUGH",
+      "sub": "A tip from a former captor sparked the police raid",
+      "label_on": "tip",
+      "query": "police car lights flashing night",
+      "query2": "sheriff vehicle parked alley",
+      "role": "callout",
+      "text": "What led to her eventual rescue?"
+    },
+    {
+      "query": "closing screen simple text fade",
+      "query2": "minimalist end card background",
+      "role": "cta",
+      "text": "Follow for a new cold case every day."
+    }
+  ],
+  "description": "Uncover the harrowing kidnapping of Elizabeth Smart and the investigative work that led to her safe return. Follow for more detailed true‑crime narratives.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#ElizabethSmart",
+    "#kidnapping",
+    "#investigation",
+    "#justice"
+  ]
+}

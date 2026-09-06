@@ -12727,6 +12727,68 @@
     ]
   },
   {
+    "title": "Elizabeth Smart Kidnapping Case",
+    "thumb": "MISSING TEEN",
+    "place": "Salt Lake City",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "TEEN VANISHES AT NIGHT",
+        "query": "dark suburban street empty house night",
+        "query2": "quiet residential lane moonlight",
+        "role": "hook",
+        "text": "A 14‑year‑old vanished from her bedroom while her family slept"
+      },
+      {
+        "chips": [
+          {
+            "t": "9 MONTHS",
+            "on": "captive",
+            "style": "accent"
+          }
+        ],
+        "punch": "captive",
+        "query": "locked door close-up rusted hinge",
+        "query2": "old wooden gate slightly ajar",
+        "role": "fact",
+        "text": "She was held captive for nine months before being rescued in 2003"
+      },
+      {
+        "archive_query": "Smart family home Salt Lake City 2002 Wikimedia Commons",
+        "archive_label": "Smart Home Exterior",
+        "query": "suburban house front view daytime",
+        "query2": "two‑story residence street",
+        "role": "archive",
+        "text": "The Smart family home in Salt Lake City before the abduction"
+      },
+      {
+        "label": "RESCUE BREAKTHROUGH",
+        "sub": "A tip from a former captor sparked the police raid",
+        "label_on": "tip",
+        "query": "police car lights flashing night",
+        "query2": "sheriff vehicle parked alley",
+        "role": "callout",
+        "text": "What led to her eventual rescue?"
+      },
+      {
+        "query": "closing screen simple text fade",
+        "query2": "minimalist end card background",
+        "role": "cta",
+        "text": "Follow for a new cold case every day."
+      }
+    ],
+    "description": "Uncover the harrowing kidnapping of Elizabeth Smart and the investigative work that led to her safe return. Follow for more detailed true‑crime narratives.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#ElizabethSmart",
+      "#kidnapping",
+      "#investigation",
+      "#justice"
+    ]
+  },
+  {
     "title": "Tylenol Poisoning Scare",
     "thumb": "TOXIC COLD MEDS",
     "place": "Chicago, Illinois",
@@ -13003,6 +13065,148 @@
       "#dbcooper",
       "#hijacking",
       "#mystery"
+    ]
+  },
+  {
+    "title": "Lufthansa Heist Mystery",
+    "thumb": "GOLD HEIST",
+    "place": "Jewelers' Row, New York City",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Six men stole $5 million from a JFK vault in 1978",
+        "hook_top": "JFK HEIST 1978",
+        "query": "old airport cargo terminal night",
+        "query2": "empty warehouse interior",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The robbery was planned inside a local bar over several weeks",
+        "chips": [
+          {
+            "t": "Bar Planning",
+            "on": "planning",
+            "style": "white"
+          }
+        ],
+        "punch": "plan",
+        "query": "dimly lit bar interior",
+        "query2": "vintage cocktail glass",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Only a handful of crew members were ever identified by investigators",
+        "chips": [
+          {
+            "t": "Few Suspects",
+            "on": "suspects",
+            "style": "accent"
+          }
+        ],
+        "punch": "few",
+        "query": "old police file folder",
+        "query2": "handwritten suspect list",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The bulk of the cash was never recovered and vanished without a trace",
+        "reveal_top": "MONEY DISAPPEARED",
+        "query": "empty safe deposit box",
+        "query2": "closed vault door",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "scrolling social media icons",
+        "query2": "hand pressing follow button",
+        "role": "cta"
+      }
+    ],
+    "description": "A daring 1978 raid on a JFK cargo terminal still haunts investigators. Discover why the loot vanished forever. Follow for more untold heist stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#heist",
+      "#lufthansa",
+      "#truecrime",
+      "#mystery"
+    ]
+  },
+  {
+    "title": "Chowchilla Kidnapping Case",
+    "thumb": "BUS CAPTURE",
+    "place": "Chowchilla, California",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Twenty‑six children vanished from a school bus in 1976",
+        "hook_top": "26 CHILDREN VANISHED",
+        "query": "empty school bus parked",
+        "query2": "rural road at dawn",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "Kidnappers dug a 30‑foot tunnel beneath the desert near the school",
+        "chips": [
+          {
+            "t": "30‑ft Tunnel",
+            "on": "tunnel",
+            "style": "white"
+          }
+        ],
+        "punch": "deep",
+        "query": "sand tunnel excavation site",
+        "query2": "desert ground with shovels",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "A ransom of $5 million was demanded but never paid",
+        "chips": [
+          {
+            "t": "5 M Ransom",
+            "on": "ransom",
+            "style": "accent"
+          }
+        ],
+        "punch": "demand",
+        "query": "handwritten ransom note on wood",
+        "query2": "old envelope with seal",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "All the children were released unharmed after a police raid on the tunnel",
+        "reveal_top": "CHILDREN FREED",
+        "query": "empty tunnel entrance sunrise",
+        "query2": "police tape across desert",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "hand clicking follow button",
+        "query2": "animated follow icon",
+        "role": "cta"
+      }
+    ],
+    "description": "The 1976 Chowchilla kidnapping shocked a nation and ended with a daring rescue. Learn the hidden tunnel that led to their freedom. Follow for more shocking true‑crime reveals.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#kidnapping",
+      "#chowchilla",
+      "#truecrime",
+      "#unsolved"
     ]
   }
 ]
