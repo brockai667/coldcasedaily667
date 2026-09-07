@@ -1,0 +1,67 @@
+{
+  "title": "Civil Rights Leader Murder",
+  "thumb": "ASSASSINATED HERO",
+  "place": "Jackson, Mississippi",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "ASSASSINATED HERO",
+      "query": "empty driveway dusk",
+      "query2": "lonely suburban street night",
+      "role": "hook",
+      "text": "Why was Medgar Evers shot outside his home?"
+    },
+    {
+      "query": "Jackson MS Union Street map",
+      "query2": "satellite view Jackson street",
+      "role": "map",
+      "text": "Evers was murdered in front of his house on Union Street, Jackson, Mississippi."
+    },
+    {
+      "chips": [
+        {
+          "t": "30 feet",
+          "on": "thirty",
+          "style": "white"
+        }
+      ],
+      "punch": "shot",
+      "query": "bullet trajectory diagram",
+      "query2": "rifle muzzle silhouette",
+      "role": "fact",
+      "text": "The assassin fired from a distance of about 30 feet."
+    },
+    {
+      "archive_query": "1963 newspaper Medgar Evers murder front page",
+      "archive_label": "1963 Front Page",
+      "query": "old newspaper headline",
+      "query2": "vintage newsprint",
+      "role": "archive",
+      "text": "Newspaper front page reporting the murder, 1963."
+    },
+    {
+      "label": "JUSTICE SERVED",
+      "sub": "Bobby Frank Cherry was convicted in 1999.",
+      "label_on": "justice",
+      "query": "gavel striking wood",
+      "query2": "courtroom scales",
+      "role": "callout",
+      "text": "Convicted decades later"
+    },
+    {
+      "query": "hand turning page",
+      "query2": "arrow pointing forward",
+      "role": "cta",
+      "text": "Follow for a new cold case every day."
+    }
+  ],
+  "description": "Medgar Evers’ murder shocked a nation and later led to a historic conviction. Follow for more pivotal moments in civil rights history.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#civilrights",
+    "#medgarevers",
+    "#truecrime",
+    "#history"
+  ]
+}

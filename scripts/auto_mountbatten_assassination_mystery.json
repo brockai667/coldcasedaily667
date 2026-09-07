@@ -1,0 +1,71 @@
+{
+  "title": "Mountbatten Assassination Mystery",
+  "thumb": "ASSASSINATION SHOCK",
+  "place": "County Sligo",
+  "country": "Ireland",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Three explosives detonated on a royal yacht",
+      "hook_top": "THREE EXPLOSIVES DETONATE",
+      "query": "Royal yacht anchored at dusk",
+      "query2": "Harbor silhouette of ship",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The IRA claimed responsibility two days after the blast",
+      "chips": [
+        {
+          "t": "IRA claim",
+          "on": "statement",
+          "style": "white"
+        }
+      ],
+      "punch": "claim",
+      "query": "Newspaper headline with bold text",
+      "query2": "Printed press with red ink",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Forensic analysis found a 100‑gram Semtex charge in the hull",
+      "chips": [
+        {
+          "t": "100‑gram Semtex",
+          "on": "explosive",
+          "style": "accent"
+        }
+      ],
+      "punch": "explosive",
+      "query": "Close‑up of Semtex fragments",
+      "query2": "Explosive residue on metal",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Recent declassified files suggest a second, unknown device was never recovered",
+      "reveal_top": "SECOND DEVICE MISSING",
+      "query": "Dusty archive folder with red stamps",
+      "query2": "Classified documents on table",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "Animated follow arrow over map",
+      "query2": "Social media follow icon glow",
+      "role": "cta"
+    }
+  ],
+  "description": "A beloved royal was killed in a maritime bombing, but a hidden piece of evidence still puzzles investigators. Follow for more untold stories.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#mountbatten",
+    "#ira",
+    "#history"
+  ]
+}

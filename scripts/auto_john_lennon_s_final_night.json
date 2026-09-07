@@ -1,0 +1,71 @@
+{
+  "title": "John Lennon's Final Night",
+  "thumb": "MURDER MYSTERY",
+  "place": "New York City",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Four bullets ended a Beatle's life",
+      "hook_top": "FOUR BULLETS END LEGEND",
+      "query": "Statue of Liberty at night",
+      "query2": "New York skyline dusk",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The shooter fired from the Dakota building's entrance hallway",
+      "chips": [
+        {
+          "t": "Dakota hallway",
+          "on": "building",
+          "style": "white"
+        }
+      ],
+      "punch": "hallway",
+      "query": "Historic brownstone interior hallway",
+      "query2": "New York apartment corridor",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Detective Mark Hamill later identified a .38 caliber revolver as the murder weapon",
+      "chips": [
+        {
+          "t": ".38 revolver",
+          "on": "weapon",
+          "style": "accent"
+        }
+      ],
+      "punch": "weapon",
+      "query": "Close‑up of .38 revolver on table",
+      "query2": "Vintage handgun on wood surface",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "The case remains officially unsolved because the suspect died before trial",
+      "reveal_top": "SUSPECT DIED BEFORE TRIAL",
+      "query": "Empty courtroom with abandoned bench",
+      "query2": "Gavel on empty desk",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "Animated follow button with pulse",
+      "query2": "Social media icon animation",
+      "role": "cta"
+    }
+  ],
+  "description": "A legendary musician fell victim to a single night of gunfire. Discover why the investigation never reached a verdict. Follow for deeper dives.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#johnlennon",
+    "#unsolved",
+    "#history"
+  ]
+}

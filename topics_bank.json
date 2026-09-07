@@ -12930,6 +12930,360 @@
     ]
   },
   {
+    "title": "Civil Rights Leader Murder",
+    "thumb": "ASSASSINATED HERO",
+    "place": "Jackson, Mississippi",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "ASSASSINATED HERO",
+        "query": "empty driveway dusk",
+        "query2": "lonely suburban street night",
+        "role": "hook",
+        "text": "Why was Medgar Evers shot outside his home?"
+      },
+      {
+        "query": "Jackson MS Union Street map",
+        "query2": "satellite view Jackson street",
+        "role": "map",
+        "text": "Evers was murdered in front of his house on Union Street, Jackson, Mississippi."
+      },
+      {
+        "chips": [
+          {
+            "t": "30 feet",
+            "on": "thirty",
+            "style": "white"
+          }
+        ],
+        "punch": "shot",
+        "query": "bullet trajectory diagram",
+        "query2": "rifle muzzle silhouette",
+        "role": "fact",
+        "text": "The assassin fired from a distance of about 30 feet."
+      },
+      {
+        "archive_query": "1963 newspaper Medgar Evers murder front page",
+        "archive_label": "1963 Front Page",
+        "query": "old newspaper headline",
+        "query2": "vintage newsprint",
+        "role": "archive",
+        "text": "Newspaper front page reporting the murder, 1963."
+      },
+      {
+        "label": "JUSTICE SERVED",
+        "sub": "Bobby Frank Cherry was convicted in 1999.",
+        "label_on": "justice",
+        "query": "gavel striking wood",
+        "query2": "courtroom scales",
+        "role": "callout",
+        "text": "Convicted decades later"
+      },
+      {
+        "query": "hand turning page",
+        "query2": "arrow pointing forward",
+        "role": "cta",
+        "text": "Follow for a new cold case every day."
+      }
+    ],
+    "description": "Medgar Evers’ murder shocked a nation and later led to a historic conviction. Follow for more pivotal moments in civil rights history.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#civilrights",
+      "#medgarevers",
+      "#truecrime",
+      "#history"
+    ]
+  },
+  {
+    "title": "John Lennon's Final Night",
+    "thumb": "MURDER MYSTERY",
+    "place": "New York City",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Four bullets ended a Beatle's life",
+        "hook_top": "FOUR BULLETS END LEGEND",
+        "query": "Statue of Liberty at night",
+        "query2": "New York skyline dusk",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The shooter fired from the Dakota building's entrance hallway",
+        "chips": [
+          {
+            "t": "Dakota hallway",
+            "on": "building",
+            "style": "white"
+          }
+        ],
+        "punch": "hallway",
+        "query": "Historic brownstone interior hallway",
+        "query2": "New York apartment corridor",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Detective Mark Hamill later identified a .38 caliber revolver as the murder weapon",
+        "chips": [
+          {
+            "t": ".38 revolver",
+            "on": "weapon",
+            "style": "accent"
+          }
+        ],
+        "punch": "weapon",
+        "query": "Close‑up of .38 revolver on table",
+        "query2": "Vintage handgun on wood surface",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The case remains officially unsolved because the suspect died before trial",
+        "reveal_top": "SUSPECT DIED BEFORE TRIAL",
+        "query": "Empty courtroom with abandoned bench",
+        "query2": "Gavel on empty desk",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "Animated follow button with pulse",
+        "query2": "Social media icon animation",
+        "role": "cta"
+      }
+    ],
+    "description": "A legendary musician fell victim to a single night of gunfire. Discover why the investigation never reached a verdict. Follow for deeper dives.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#johnlennon",
+      "#unsolved",
+      "#history"
+    ]
+  },
+  {
+    "title": "Mountbatten Assassination Mystery",
+    "thumb": "ASSASSINATION SHOCK",
+    "place": "County Sligo",
+    "country": "Ireland",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Three explosives detonated on a royal yacht",
+        "hook_top": "THREE EXPLOSIVES DETONATE",
+        "query": "Royal yacht anchored at dusk",
+        "query2": "Harbor silhouette of ship",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The IRA claimed responsibility two days after the blast",
+        "chips": [
+          {
+            "t": "IRA claim",
+            "on": "statement",
+            "style": "white"
+          }
+        ],
+        "punch": "claim",
+        "query": "Newspaper headline with bold text",
+        "query2": "Printed press with red ink",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Forensic analysis found a 100‑gram Semtex charge in the hull",
+        "chips": [
+          {
+            "t": "100‑gram Semtex",
+            "on": "explosive",
+            "style": "accent"
+          }
+        ],
+        "punch": "explosive",
+        "query": "Close‑up of Semtex fragments",
+        "query2": "Explosive residue on metal",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Recent declassified files suggest a second, unknown device was never recovered",
+        "reveal_top": "SECOND DEVICE MISSING",
+        "query": "Dusty archive folder with red stamps",
+        "query2": "Classified documents on table",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "Animated follow arrow over map",
+        "query2": "Social media follow icon glow",
+        "role": "cta"
+      }
+    ],
+    "description": "A beloved royal was killed in a maritime bombing, but a hidden piece of evidence still puzzles investigators. Follow for more untold stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#mountbatten",
+      "#ira",
+      "#history"
+    ]
+  },
+  {
+    "title": "Heaven's Gate Tragedy Explained",
+    "thumb": "UFO CULT REVEALED",
+    "place": "San Diego County",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Two hundred and thirty‑seven members chose a final journey",
+        "hook_top": "237 MEMBERS EXIT",
+        "query": "Desert road at sunrise",
+        "query2": "Empty highway through desert",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "All members ingested a lethal dose of phenobarbital and alcohol",
+        "chips": [
+          {
+            "t": "Phenobarbital dose",
+            "on": "poison",
+            "style": "white"
+          }
+        ],
+        "punch": "poison",
+        "query": "Glass bottle of clear liquid on table",
+        "query2": "Medical bottle with label blurred",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The group filmed a farewell video titled \"The End\" in June 1997",
+        "chips": [
+          {
+            "t": "\"The End\" video",
+            "on": "recording",
+            "style": "accent"
+          }
+        ],
+        "punch": "video",
+        "query": "Vintage camcorder on tripod",
+        "query2": "Playback screen with static",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Investigators later found a hidden stash of cash worth over $100,000 never accounted for",
+        "reveal_top": "HIDDEN CASH DISCOVERED",
+        "query": "Wooden box with cash bundles",
+        "query2": "Stack of dollar bills on floor",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "Animated follow button with nebula background",
+        "query2": "Social media icon with starburst",
+        "role": "cta"
+      }
+    ],
+    "description": "A UFO‑obsessed cult ended its members' lives in a coordinated tragedy. Uncover the financial mystery left behind. Follow for more chilling cases.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#heavensgate",
+      "#cult",
+      "#mystery"
+    ]
+  },
+  {
+    "title": "Murder of Olof Palme",
+    "thumb": "PALME ASSASSINATION",
+    "place": "Stockholm",
+    "country": "Sweden",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Sweden’s prime minister, 55, shot on a rainy night",
+        "hook_top": "PRIME MINISTER SHOT",
+        "query": "Stockholm 1986 street at night",
+        "query2": "rainy city street Sweden",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The killer fired from a distance of about 4 meters, never identified.",
+        "chips": [
+          {
+            "t": "4 meters",
+            "on": "distance",
+            "style": "white"
+          },
+          {
+            "t": "unidentified",
+            "on": "killer",
+            "style": "accent"
+          }
+        ],
+        "punch": "unknown",
+        "query": "Crime scene tape Stockholm",
+        "query2": "Police cordon 1986",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "A police sketch of the suspect was released weeks after the murder.",
+        "archive_query": "Swedish police sketch Olof Palme suspect 1986",
+        "archive_label": "Police sketch",
+        "query": "Police sketch illustration",
+        "query2": "Investigative drawing",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "The case remains Sweden’s most enduring unsolved murder.",
+        "label": "Unsolved Mystery",
+        "sub": "Decades of investigations, no closure",
+        "label_on": "unsolved",
+        "query": "Swedish parliament building night",
+        "query2": "Stockholm cityscape dark",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "Archive newspaper headlines Sweden",
+        "query2": "Historic newsstand",
+        "role": "cta"
+      }
+    ],
+    "description": "Dive into the facts surrounding the 1986 assassination of Sweden’s leader and why it still haunts the nation. Follow for more.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#Sweden",
+      "#Palme",
+      "#truecrime",
+      "#unsolved",
+      "#history"
+    ]
+  },
+  {
     "title": "Lindberhous Kidnapping Mystery",
     "thumb": "BRIEFCASE ABDUCTION",
     "place": "Hopewell, New Jersey",
@@ -13065,148 +13419,6 @@
       "#dbcooper",
       "#hijacking",
       "#mystery"
-    ]
-  },
-  {
-    "title": "Lufthansa Heist Mystery",
-    "thumb": "GOLD HEIST",
-    "place": "Jewelers' Row, New York City",
-    "country": "United States",
-    "scenes": [
-      {
-        "type": "hook",
-        "text": "Six men stole $5 million from a JFK vault in 1978",
-        "hook_top": "JFK HEIST 1978",
-        "query": "old airport cargo terminal night",
-        "query2": "empty warehouse interior",
-        "role": "hook"
-      },
-      {
-        "type": "fact",
-        "text": "The robbery was planned inside a local bar over several weeks",
-        "chips": [
-          {
-            "t": "Bar Planning",
-            "on": "planning",
-            "style": "white"
-          }
-        ],
-        "punch": "plan",
-        "query": "dimly lit bar interior",
-        "query2": "vintage cocktail glass",
-        "role": "fact"
-      },
-      {
-        "type": "fact",
-        "text": "Only a handful of crew members were ever identified by investigators",
-        "chips": [
-          {
-            "t": "Few Suspects",
-            "on": "suspects",
-            "style": "accent"
-          }
-        ],
-        "punch": "few",
-        "query": "old police file folder",
-        "query2": "handwritten suspect list",
-        "role": "fact"
-      },
-      {
-        "type": "reveal",
-        "text": "The bulk of the cash was never recovered and vanished without a trace",
-        "reveal_top": "MONEY DISAPPEARED",
-        "query": "empty safe deposit box",
-        "query2": "closed vault door",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "cta",
-        "text": "Follow for a new cold case every day.",
-        "query": "scrolling social media icons",
-        "query2": "hand pressing follow button",
-        "role": "cta"
-      }
-    ],
-    "description": "A daring 1978 raid on a JFK cargo terminal still haunts investigators. Discover why the loot vanished forever. Follow for more untold heist stories.",
-    "hashtags": [
-      "#shorts",
-      "#fyp",
-      "#heist",
-      "#lufthansa",
-      "#truecrime",
-      "#mystery"
-    ]
-  },
-  {
-    "title": "Chowchilla Kidnapping Case",
-    "thumb": "BUS CAPTURE",
-    "place": "Chowchilla, California",
-    "country": "United States",
-    "scenes": [
-      {
-        "type": "hook",
-        "text": "Twenty‑six children vanished from a school bus in 1976",
-        "hook_top": "26 CHILDREN VANISHED",
-        "query": "empty school bus parked",
-        "query2": "rural road at dawn",
-        "role": "hook"
-      },
-      {
-        "type": "fact",
-        "text": "Kidnappers dug a 30‑foot tunnel beneath the desert near the school",
-        "chips": [
-          {
-            "t": "30‑ft Tunnel",
-            "on": "tunnel",
-            "style": "white"
-          }
-        ],
-        "punch": "deep",
-        "query": "sand tunnel excavation site",
-        "query2": "desert ground with shovels",
-        "role": "fact"
-      },
-      {
-        "type": "fact",
-        "text": "A ransom of $5 million was demanded but never paid",
-        "chips": [
-          {
-            "t": "5 M Ransom",
-            "on": "ransom",
-            "style": "accent"
-          }
-        ],
-        "punch": "demand",
-        "query": "handwritten ransom note on wood",
-        "query2": "old envelope with seal",
-        "role": "fact"
-      },
-      {
-        "type": "reveal",
-        "text": "All the children were released unharmed after a police raid on the tunnel",
-        "reveal_top": "CHILDREN FREED",
-        "query": "empty tunnel entrance sunrise",
-        "query2": "police tape across desert",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "cta",
-        "text": "Follow for a new cold case every day.",
-        "query": "hand clicking follow button",
-        "query2": "animated follow icon",
-        "role": "cta"
-      }
-    ],
-    "description": "The 1976 Chowchilla kidnapping shocked a nation and ended with a daring rescue. Learn the hidden tunnel that led to their freedom. Follow for more shocking true‑crime reveals.",
-    "hashtags": [
-      "#shorts",
-      "#fyp",
-      "#kidnapping",
-      "#chowchilla",
-      "#truecrime",
-      "#unsolved"
     ]
   }
 ]
