@@ -13284,6 +13284,146 @@
     ]
   },
   {
+    "title": "Jonestown Massacre",
+    "thumb": "DEADLY CULT",
+    "place": "Jonestown",
+    "country": "Guyana",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1978 tragedy claimed over 900 lives in a jungle settlement",
+        "hook_top": "1978 JONESTOWN TRAGEDY",
+        "query": "dense jungle clearing with huts",
+        "query2": "remote settlement aerial view",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "Members were instructed to drink poisoned Flavor‑Aid on November 18th",
+        "chips": [
+          {
+            "t": "Flavor‑Aid poison",
+            "on": "drink",
+            "style": "accent"
+          }
+        ],
+        "punch": "deadly",
+        "query": "large metal drink dispenser",
+        "query2": "empty beverage container on table",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The death toll reached 918, including 304 children",
+        "chips": [
+          {
+            "t": "918 deaths",
+            "on": "death toll",
+            "style": "white"
+          }
+        ],
+        "punch": "horrific",
+        "query": "graveyard with uniform headstones",
+        "query2": "memorial wall with names",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Jim Jones died from a self‑inflicted gunshot before the mass poisoning began",
+        "reveal_top": "JONES SHOT HIMSELF",
+        "query": "empty gun on wooden table",
+        "query2": "bullet casing on floor",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "old cassette recorder with tape",
+        "query2": "vintage radio microphone",
+        "role": "cta"
+      }
+    ],
+    "description": "Jonestown's fatal mass‑poisoning shocked the world, yet its leader's own death preceded the tragedy. Follow for more shocking historical crimes.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#Jonestown",
+      "#cult",
+      "#history"
+    ]
+  },
+  {
+    "title": "The Unsolved Murder of Jill Dando",
+    "thumb": "JILL DANDO CASE",
+    "place": "London, England",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A beloved TV presenter was shot outside her home in 1999",
+        "hook_top": "SHOT TV STAR",
+        "query": "empty London residential street dusk",
+        "query2": "quiet suburb road evening",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The fatal bullet was fired from a .22 caliber pistol",
+        "chips": [
+          {
+            "t": ".22 CALIBER",
+            "on": "pistol",
+            "style": "accent"
+          }
+        ],
+        "punch": "bullet",
+        "query": "close‑up .22 pistol on table",
+        "query2": "vintage handgun silhouette",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "Police cordoned the scene outside Dando's house",
+        "archive_query": "Jill Dando crime scene tape London 1999 Wikimedia Commons",
+        "archive_label": "Police tape at the scene",
+        "query": "police tape around house",
+        "query2": "crime scene barriers residential",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "The case remains open with multiple theories but no conviction",
+        "label": "OPEN CASE",
+        "sub": "Investigators still seek answers",
+        "label_on": "open",
+        "query": "open file folder old paper",
+        "query2": "investigation board blank",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if you'd have cracked this one.",
+        "query": "animated follow button simple",
+        "query2": "call to action graphic",
+        "role": "cta"
+      }
+    ],
+    "description": "Jill Dando's murder shocked the UK and still lacks a definitive answer. Explore the facts and lingering theories. Follow for more unsolved mysteries.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#JillDando",
+      "#Unsolved",
+      "#TrueCrime",
+      "#Mystery",
+      "#UK"
+    ]
+  },
+  {
     "title": "Lindberhous Kidnapping Mystery",
     "thumb": "BRIEFCASE ABDUCTION",
     "place": "Hopewell, New Jersey",
@@ -13419,6 +13559,74 @@
       "#dbcooper",
       "#hijacking",
       "#mystery"
+    ]
+  },
+  {
+    "title": "Mona Lisa Heist Mystery",
+    "thumb": "MYSTERIOUS ART THIEF",
+    "place": "Louvre Museum",
+    "country": "France",
+    "scenes": [
+      {
+        "hook_top": "VANISHED ART 1911",
+        "query": "empty museum hall early 20th century",
+        "query2": "historic museum interior shadows",
+        "role": "hook",
+        "text": "When the world’s most famous painting vanished in 1911"
+      },
+      {
+        "query": "aerial view of Louvre pyramid",
+        "query2": "Paris museum exterior daytime",
+        "role": "map",
+        "text": "The theft occurred inside the Louvre, Paris, France."
+      },
+      {
+        "chips": [
+          {
+            "t": "2 YEARS",
+            "on": "duration",
+            "style": "white"
+          }
+        ],
+        "punch": "lost",
+        "query": "old newspaper headline theft",
+        "query2": "vintage newspaper crime article",
+        "role": "fact",
+        "text": "The painting was missing for two years before recovery."
+      },
+      {
+        "archive_query": "Mona Lisa theft police report 1911 site:wikimedia.org",
+        "archive_label": "1911 Police Report",
+        "query": "vintage police document texture",
+        "query2": "old paper filing close up",
+        "role": "archive",
+        "text": "The original 1911 police report documenting the theft."
+      },
+      {
+        "label": "WHY STEAL?",
+        "sub": "No clear motive was ever proven",
+        "label_on": "question",
+        "query": "empty gallery spotlight",
+        "query2": "dark museum corridor",
+        "role": "callout",
+        "text": "Unsolved Motive"
+      },
+      {
+        "query": "text overlay follow animation",
+        "query2": "simple call‑to‑action graphic",
+        "role": "cta",
+        "text": "Follow because some cases still need answers."
+      }
+    ],
+    "description": "The Mona Lisa vanished from the Louvre in 1911, sparking a worldwide hunt. Discover the facts behind the daring theft and why it still intrigues historians. Follow for more iconic unsolved crimes.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#mystery",
+      "#arttheft",
+      "#louvre",
+      "#history"
     ]
   }
 ]

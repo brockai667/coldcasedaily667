@@ -1,0 +1,71 @@
+{
+  "title": "Jonestown Massacre",
+  "thumb": "DEADLY CULT",
+  "place": "Jonestown",
+  "country": "Guyana",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1978 tragedy claimed over 900 lives in a jungle settlement",
+      "hook_top": "1978 JONESTOWN TRAGEDY",
+      "query": "dense jungle clearing with huts",
+      "query2": "remote settlement aerial view",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "Members were instructed to drink poisoned Flavor‑Aid on November 18th",
+      "chips": [
+        {
+          "t": "Flavor‑Aid poison",
+          "on": "drink",
+          "style": "accent"
+        }
+      ],
+      "punch": "deadly",
+      "query": "large metal drink dispenser",
+      "query2": "empty beverage container on table",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "The death toll reached 918, including 304 children",
+      "chips": [
+        {
+          "t": "918 deaths",
+          "on": "death toll",
+          "style": "white"
+        }
+      ],
+      "punch": "horrific",
+      "query": "graveyard with uniform headstones",
+      "query2": "memorial wall with names",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Jim Jones died from a self‑inflicted gunshot before the mass poisoning began",
+      "reveal_top": "JONES SHOT HIMSELF",
+      "query": "empty gun on wooden table",
+      "query2": "bullet casing on floor",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "old cassette recorder with tape",
+      "query2": "vintage radio microphone",
+      "role": "cta"
+    }
+  ],
+  "description": "Jonestown's fatal mass‑poisoning shocked the world, yet its leader's own death preceded the tragedy. Follow for more shocking historical crimes.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#Jonestown",
+    "#cult",
+    "#history"
+  ]
+}

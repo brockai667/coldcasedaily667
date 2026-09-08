@@ -1,0 +1,71 @@
+{
+  "title": "Heaven's Gate Tragedy Explained",
+  "thumb": "UFO CULT REVEALED",
+  "place": "San Diego County",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Two hundred and thirty‑seven members chose a final journey",
+      "hook_top": "237 MEMBERS EXIT",
+      "query": "Desert road at sunrise",
+      "query2": "Empty highway through desert",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "All members ingested a lethal dose of phenobarbital and alcohol",
+      "chips": [
+        {
+          "t": "Phenobarbital dose",
+          "on": "poison",
+          "style": "white"
+        }
+      ],
+      "punch": "poison",
+      "query": "Glass bottle of clear liquid on table",
+      "query2": "Medical bottle with label blurred",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "The group filmed a farewell video titled \"The End\" in June 1997",
+      "chips": [
+        {
+          "t": "\"The End\" video",
+          "on": "recording",
+          "style": "accent"
+        }
+      ],
+      "punch": "video",
+      "query": "Vintage camcorder on tripod",
+      "query2": "Playback screen with static",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Investigators later found a hidden stash of cash worth over $100,000 never accounted for",
+      "reveal_top": "HIDDEN CASH DISCOVERED",
+      "query": "Wooden box with cash bundles",
+      "query2": "Stack of dollar bills on floor",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow because some cases still need answers.",
+      "query": "Animated follow button with nebula background",
+      "query2": "Social media icon with starburst",
+      "role": "cta"
+    }
+  ],
+  "description": "A UFO‑obsessed cult ended its members' lives in a coordinated tragedy. Uncover the financial mystery left behind. Follow for more chilling cases.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#heavensgate",
+    "#cult",
+    "#mystery"
+  ]
+}

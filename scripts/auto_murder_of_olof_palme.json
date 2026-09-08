@@ -1,0 +1,74 @@
+{
+  "title": "Murder of Olof Palme",
+  "thumb": "PALME ASSASSINATION",
+  "place": "Stockholm",
+  "country": "Sweden",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Sweden’s prime minister, 55, shot on a rainy night",
+      "hook_top": "PRIME MINISTER SHOT",
+      "query": "Stockholm 1986 street at night",
+      "query2": "rainy city street Sweden",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The killer fired from a distance of about 4 meters, never identified.",
+      "chips": [
+        {
+          "t": "4 meters",
+          "on": "distance",
+          "style": "white"
+        },
+        {
+          "t": "unidentified",
+          "on": "killer",
+          "style": "accent"
+        }
+      ],
+      "punch": "unknown",
+      "query": "Crime scene tape Stockholm",
+      "query2": "Police cordon 1986",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "A police sketch of the suspect was released weeks after the murder.",
+      "archive_query": "Swedish police sketch Olof Palme suspect 1986",
+      "archive_label": "Police sketch",
+      "query": "Police sketch illustration",
+      "query2": "Investigative drawing",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "The case remains Sweden’s most enduring unsolved murder.",
+      "label": "Unsolved Mystery",
+      "sub": "Decades of investigations, no closure",
+      "label_on": "unsolved",
+      "query": "Swedish parliament building night",
+      "query2": "Stockholm cityscape dark",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "Archive newspaper headlines Sweden",
+      "query2": "Historic newsstand",
+      "role": "cta"
+    }
+  ],
+  "description": "Dive into the facts surrounding the 1986 assassination of Sweden’s leader and why it still haunts the nation. Follow for more.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#Sweden",
+    "#Palme",
+    "#truecrime",
+    "#unsolved",
+    "#history"
+  ]
+}
