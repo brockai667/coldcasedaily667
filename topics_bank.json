@@ -13628,5 +13628,234 @@
       "#louvre",
       "#history"
     ]
+  },
+  {
+    "title": "Chowchilla School Bus Kidnapping",
+    "thumb": "BUS KIDNAP",
+    "place": "Chowchilla, California",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "26 children vanished from a school bus in 1976",
+        "hook_top": "26 CHILDREN VANISHED",
+        "query": "empty school bus on desert road",
+        "query2": "abandoned highway vehicle",
+        "role": "hook"
+      },
+      {
+        "type": "map",
+        "text": "The kidnapping took place near Chowchilla, California, USA",
+        "query": "satellite view of Chowchilla town",
+        "query2": "aerial view of California farmland",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "fact",
+        "text": "Kidnappers demanded $5 million ransom, never paid",
+        "chips": [
+          {
+            "t": "$5 M",
+            "on": "ransom",
+            "style": "accent"
+          }
+        ],
+        "punch": "demand",
+        "query": "handwritten ransom note on table",
+        "query2": "paper with typed demand",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "Police discovered the bus hidden in a culvert after a massive search",
+        "archive_query": "Chowchilla bus culvert 1976 site Wikimedia Commons",
+        "archive_label": "Bus hidden in culvert",
+        "query": "abandoned bus in concrete culvert",
+        "query2": "empty vehicle under a bridge",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "All 26 were rescued alive after 16 hours",
+        "label": "RESCUED ALIVE",
+        "sub": "All children survived the ordeal",
+        "label_on": "rescued",
+        "query": "children emerging from bus doors",
+        "query2": "kids exiting vehicle safely",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for a new cold case every day.",
+        "query": "close‑up of a follow button animation",
+        "query2": "hand tapping a like icon",
+        "role": "cta"
+      }
+    ],
+    "description": "A massive manhunt ended with a dramatic rescue of 26 schoolchildren. Follow for more true‑crime deep dives.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#chowchilla",
+      "#kidnapping",
+      "#unsolved",
+      "#history"
+    ]
+  },
+  {
+    "title": "Munich Olympic Tragedy",
+    "thumb": "OLYMPIC MASSACRE",
+    "place": "Munich, Bavaria",
+    "country": "Germany",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "11 Israeli athletes taken hostage in 1972",
+        "hook_top": "11 ATHLETES HOSTAGE",
+        "query": "empty Olympic village corridor",
+        "query2": "deserted stadium walkway",
+        "role": "hook"
+      },
+      {
+        "type": "map",
+        "text": "The attack unfolded at the Olympic Village in Munich, West Germany",
+        "query": "aerial view of Munich Olympic Village 1972",
+        "query2": "satellite image of Olympic housing complex",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "fact",
+        "text": "The terrorists used three stolen cars to breach the village",
+        "chips": [
+          {
+            "t": "3 cars",
+            "on": "vehicles",
+            "style": "white"
+          }
+        ],
+        "punch": "breach",
+        "query": "black sedan parked near village entrance",
+        "query2": "generic car parked outside building",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "German authorities stormed the building in a failed rescue attempt",
+        "archive_query": "Munich 1972 rescue operation Wikimedia Commons",
+        "archive_label": "Rescue attempt",
+        "query": "firefighters with rifles entering building",
+        "query2": "law enforcement breaching door",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "The tragedy reshaped global security at sporting events",
+        "label": "SECURITY SHIFT",
+        "sub": "New protocols after the attack",
+        "label_on": "security",
+        "query": "modern security checkpoint at stadium",
+        "query2": "metal detector rows at arena entrance",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "animated follow button with Olympic rings",
+        "query2": "hand cursor clicking follow",
+        "role": "cta"
+      }
+    ],
+    "description": "A shocking hostage crisis that forever changed Olympic security. Follow for more untold history.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#munich",
+      "#olympics",
+      "#history",
+      "#terrorism"
+    ]
+  },
+  {
+    "title": "Tylenol Poisonings Uncovered",
+    "thumb": "TOXIC CAPSULES",
+    "place": "Chicago",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Eight strangers died after taking a common painkiller in 1982",
+        "hook_top": "DEADLY CAPSULES 1982",
+        "query": "empty pharmacy aisle night",
+        "query2": "closed pharmacy storefront",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The deaths were traced to cyanide‑laced Tylenol capsules",
+        "chips": [
+          {
+            "t": "Cyanide",
+            "on": "toxic",
+            "style": "accent"
+          },
+          {
+            "t": "8 deaths",
+            "on": "fatal",
+            "style": "white"
+          }
+        ],
+        "punch": "toxic",
+        "query": "capped pills on conveyor belt",
+        "query2": "close‑up of medicine bottles",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Johnson & Johnson recalled 31 million bottles, reshaping product safety laws",
+        "chips": [
+          {
+            "t": "31 million",
+            "on": "recall",
+            "style": "white"
+          }
+        ],
+        "query": "warehouse pallets of medicine boxes",
+        "query2": "empty store shelves after recall",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The tampering was never solved, but a suspect was a disgruntled former employee who vanished",
+        "reveal_top": "UNSOLVED SUSPECT VANISHED",
+        "query": "old employee badge left on desk",
+        "query2": "abandoned office hallway",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "hand turning page of newspaper",
+        "query2": "close‑up of a ticking clock",
+        "role": "cta"
+      }
+    ],
+    "description": "A nationwide crisis sparked new safety standards. The mystery behind the tainted capsules still lingers. Follow for more hidden crime twists.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#tylenol",
+      "#producttampering",
+      "#unsolved"
+    ]
   }
 ]

@@ -1,0 +1,68 @@
+{
+  "title": "Lindberhous Kidnapping Mystery",
+  "thumb": "BRIEFCASE ABDUCTION",
+  "place": "Hopewell, New Jersey",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "BABY VANISHED 1932",
+      "query": "vintage newspaper headline kidnapping",
+      "query2": "old newspaper crime article",
+      "role": "hook",
+      "text": "A 20‑month‑old vanished in 1932, sparking a nation‑wide hunt"
+    },
+    {
+      "query": "historic map Hopewell New Jersey 1930s",
+      "query2": "old town map New Jersey",
+      "role": "map",
+      "text": "The crime occurred in Hopewell, New Jersey, at the Lindbergh home"
+    },
+    {
+      "chips": [
+        {
+          "t": "2 KG OF PAPER",
+          "on": "paper",
+          "style": "accent"
+        }
+      ],
+      "punch": "weight",
+      "query": "close‑up of old ransom note paper texture",
+      "query2": "vintage document paper surface",
+      "role": "fact",
+      "text": "Police recovered a ransom note weighing 2 kilograms of paper"
+    },
+    {
+      "archive_query": "Lindbergh ransom note site:commons.wikimedia.org",
+      "archive_label": "Original ransom note",
+      "query": "archival document on wooden table",
+      "query2": "historic paper document close up",
+      "role": "archive",
+      "text": "The original ransom note displayed at the National Archives"
+    },
+    {
+      "label": "Who paid?",
+      "sub": "Did the kidnapper ever receive the money?",
+      "label_on": "theory",
+      "query": "empty old safe with dim light",
+      "query2": "vintage safe interior",
+      "role": "callout",
+      "text": "Unsolved theories"
+    },
+    {
+      "query": "dramatic text overlay on dark background",
+      "query2": "stylized call‑to‑action graphic",
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries."
+    }
+  ],
+  "description": "The Lindbergh baby kidnapping shocked America and still fuels debate. Discover the evidence that still puzzles investigators. Follow for more.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#lindbergh",
+    "#unsolved",
+    "#history",
+    "#mystery"
+  ]
+}

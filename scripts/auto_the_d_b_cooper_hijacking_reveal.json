@@ -1,0 +1,70 @@
+{
+  "title": "The D.B. Cooper Hijacking Reveal",
+  "thumb": "SKYJACK ONE",
+  "place": "Pacific Northwest",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A man demanded $200,000 and vanished mid‑flight in 1971",
+      "hook_top": "VANISHED SKYJACK",
+      "query": "empty 1970s airplane aisle",
+      "query2": "vintage aircraft cabin interior",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "He parachuted from the rear stairwell of a Boeing 727",
+      "chips": [
+        {
+          "t": "BOEING 727",
+          "on": "plane",
+          "style": "accent"
+        }
+      ],
+      "punch": "plane",
+      "query": "Boeing 727 silhouette at sunset",
+      "query2": "aircraft tail fin on runway",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Only $5,800 of the ransom was ever recovered in 1980",
+      "chips": [
+        {
+          "t": "$5,800 FOUND",
+          "on": "money",
+          "style": "white"
+        }
+      ],
+      "query": "old cash bundle on sand",
+      "query2": "weathered money bag on ground",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "The FBI closed the case in 2016, still without identifying him",
+      "reveal_top": "IDENTITY UNKNOWN",
+      "query": "closed FBI file cabinet",
+      "query2": "empty detective badge on desk",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "vintage airplane window view",
+      "query2": "clouds over mountain range",
+      "role": "cta"
+    }
+  ],
+  "description": "The daring 1971 hijacking that sparked endless speculation. Explore the facts and why the legend lives on.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#dbcooper",
+    "#hijacking",
+    "#mystery"
+  ]
+}

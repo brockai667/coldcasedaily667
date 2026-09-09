@@ -1,0 +1,69 @@
+{
+  "title": "The Unsolved Murder of Jill Dando",
+  "thumb": "JILL DANDO CASE",
+  "place": "London, England",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A beloved TV presenter was shot outside her home in 1999",
+      "hook_top": "SHOT TV STAR",
+      "query": "empty London residential street dusk",
+      "query2": "quiet suburb road evening",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The fatal bullet was fired from a .22 caliber pistol",
+      "chips": [
+        {
+          "t": ".22 CALIBER",
+          "on": "pistol",
+          "style": "accent"
+        }
+      ],
+      "punch": "bullet",
+      "query": "close‑up .22 pistol on table",
+      "query2": "vintage handgun silhouette",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "Police cordoned the scene outside Dando's house",
+      "archive_query": "Jill Dando crime scene tape London 1999 Wikimedia Commons",
+      "archive_label": "Police tape at the scene",
+      "query": "police tape around house",
+      "query2": "crime scene barriers residential",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "The case remains open with multiple theories but no conviction",
+      "label": "OPEN CASE",
+      "sub": "Investigators still seek answers",
+      "label_on": "open",
+      "query": "open file folder old paper",
+      "query2": "investigation board blank",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if you'd have cracked this one.",
+      "query": "animated follow button simple",
+      "query2": "call to action graphic",
+      "role": "cta"
+    }
+  ],
+  "description": "Jill Dando's murder shocked the UK and still lacks a definitive answer. Explore the facts and lingering theories. Follow for more unsolved mysteries.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#JillDando",
+    "#Unsolved",
+    "#TrueCrime",
+    "#Mystery",
+    "#UK"
+  ]
+}
