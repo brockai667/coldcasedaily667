@@ -1,0 +1,72 @@
+{
+  "title": "Alcatraz Escape Plot",
+  "thumb": "ISLAND BREAKOUT",
+  "place": "Alcatraz Island, San Francisco Bay",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Three inmates vanished from Alcatraz in 1962",
+      "hook_top": "THREE VANISHED",
+      "query": "foggy Alcatraz prison exterior",
+      "query2": "isolated island silhouette",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "They crafted a 50‑foot raft from raincoats",
+      "chips": [
+        {
+          "t": "50‑foot raft",
+          "on": "raft",
+          "style": "white"
+        }
+      ],
+      "punch": "raft",
+      "query": "old raincoat fabric pile",
+      "query2": "handmade raft blueprint",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "The escape was timed with a stormy night and low tide",
+      "chips": [
+        {
+          "t": "stormy night",
+          "on": "storm",
+          "style": "accent"
+        }
+      ],
+      "punch": "tide",
+      "query": "dark stormy sea waves",
+      "query2": "low tide shoreline",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Recent sonar scans suggest the raft may still be lodged under the water",
+      "reveal_top": "RAFT FOUND UNDERWATER",
+      "query": "sonar underwater scan graphics",
+      "query2": "submerged object detection",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "old prison cell bars closeup",
+      "query2": "historic prison archive",
+      "role": "cta"
+    }
+  ],
+  "description": "The 1962 Alcatraz breakout is legendary, but new sonar evidence hints the makeshift raft still rests beneath the bay. Dive into the mystery.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#alcatraz",
+    "#escape",
+    "#crime",
+    "#history",
+    "#mystery"
+  ]
+}

@@ -13562,6 +13562,212 @@
     ]
   },
   {
+    "title": "Jack the Ripper Mystery",
+    "thumb": "RIP VANISHES",
+    "place": "Whitechapel, London",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Five murders shocked Whitechapel in 1888",
+        "hook_top": "FIVE SHOCKING MURDERS",
+        "query": "Victorian foggy streets London night",
+        "query2": "old gaslit alleyways",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "Police received 300+ letters claiming responsibility",
+        "chips": [
+          {
+            "t": "300+ letters",
+            "on": "letters",
+            "style": "white"
+          }
+        ],
+        "punch": "letters",
+        "query": "historic police letters envelope",
+        "query2": "old handwritten correspondence",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "All victims were female prostitutes aged 25‑38",
+        "chips": [
+          {
+            "t": "25‑38 years",
+            "on": "age",
+            "style": "accent"
+          }
+        ],
+        "punch": "age",
+        "query": "Victorian era clothing mannequin",
+        "query2": "period dress on mannequin",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Modern DNA suggests a royal relative could be the killer",
+        "reveal_top": "ROYAL DNA CONNECTION",
+        "query": "ancient DNA strands laboratory",
+        "query2": "scientists analyzing hair",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "old newspaper headline archive",
+        "query2": "vintage newsprint closeup",
+        "role": "cta"
+      }
+    ],
+    "description": "The Whitechapel murders remain one of history's most infamous unsolved crimes. Discover the latest DNA theory that points to royalty.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#jacktheripper",
+      "#history",
+      "#unsolved",
+      "#crime",
+      "#mystery"
+    ]
+  },
+  {
+    "title": "Alcatraz Escape Plot",
+    "thumb": "ISLAND BREAKOUT",
+    "place": "Alcatraz Island, San Francisco Bay",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Three inmates vanished from Alcatraz in 1962",
+        "hook_top": "THREE VANISHED",
+        "query": "foggy Alcatraz prison exterior",
+        "query2": "isolated island silhouette",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "They crafted a 50‑foot raft from raincoats",
+        "chips": [
+          {
+            "t": "50‑foot raft",
+            "on": "raft",
+            "style": "white"
+          }
+        ],
+        "punch": "raft",
+        "query": "old raincoat fabric pile",
+        "query2": "handmade raft blueprint",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The escape was timed with a stormy night and low tide",
+        "chips": [
+          {
+            "t": "stormy night",
+            "on": "storm",
+            "style": "accent"
+          }
+        ],
+        "punch": "tide",
+        "query": "dark stormy sea waves",
+        "query2": "low tide shoreline",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Recent sonar scans suggest the raft may still be lodged under the water",
+        "reveal_top": "RAFT FOUND UNDERWATER",
+        "query": "sonar underwater scan graphics",
+        "query2": "submerged object detection",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily true crime mysteries.",
+        "query": "old prison cell bars closeup",
+        "query2": "historic prison archive",
+        "role": "cta"
+      }
+    ],
+    "description": "The 1962 Alcatraz breakout is legendary, but new sonar evidence hints the makeshift raft still rests beneath the bay. Dive into the mystery.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#alcatraz",
+      "#escape",
+      "#crime",
+      "#history",
+      "#mystery"
+    ]
+  },
+  {
+    "title": "JFK Assassination Conspiracy Theories",
+    "thumb": "ASSASSINATION MYSTERY",
+    "place": "Dallas, Texas",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "SHOT FROM SIXTH",
+        "query": "old brick building façade",
+        "query2": "historic school window view",
+        "role": "hook",
+        "text": "President Kennedy was shot from a sixth‑floor window"
+      },
+      {
+        "chips": [
+          {
+            "t": "8,000 ft/s",
+            "on": "bullet",
+            "style": "accent"
+          }
+        ],
+        "punch": "Speed",
+        "query": "ballistics chart illustration",
+        "query2": "bullet trajectory diagram",
+        "role": "fact",
+        "text": "The Warren Commission recorded 8,000 feet per second bullet speed"
+      },
+      {
+        "archive_query": "Texas School Book Depository museum Wikimedia Commons",
+        "archive_label": "Depository Museum",
+        "query": "historic building front view",
+        "query2": "museum exterior brick",
+        "role": "archive",
+        "text": "The Texas School Book Depository, now a museum"
+      },
+      {
+        "label": "CONTROVERSIAL",
+        "sub": "Many still question the lone‑shooter conclusion",
+        "label_on": "controversy",
+        "query": "empty street at night with streetlights",
+        "query2": "quiet city avenue dusk",
+        "role": "callout",
+        "text": "Officially closed, doubts remain"
+      },
+      {
+        "query": "typewriter keys clacking",
+        "query2": "old newspaper printing press",
+        "role": "cta",
+        "text": "Follow because some cases still need answers."
+      }
+    ],
+    "description": "The assassination of President Kennedy continues to fuel debate, with countless theories challenging the official narrative. Follow for deeper dives into historic crimes.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#JFK",
+      "#conspiracy",
+      "#history",
+      "#mystery"
+    ]
+  },
+  {
     "title": "Mona Lisa Heist Mystery",
     "thumb": "MYSTERIOUS ART THIEF",
     "place": "Louvre Museum",

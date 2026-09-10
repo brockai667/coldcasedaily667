@@ -1,0 +1,72 @@
+{
+  "title": "Jack the Ripper Mystery",
+  "thumb": "RIP VANISHES",
+  "place": "Whitechapel, London",
+  "country": "United Kingdom",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Five murders shocked Whitechapel in 1888",
+      "hook_top": "FIVE SHOCKING MURDERS",
+      "query": "Victorian foggy streets London night",
+      "query2": "old gaslit alleyways",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "Police received 300+ letters claiming responsibility",
+      "chips": [
+        {
+          "t": "300+ letters",
+          "on": "letters",
+          "style": "white"
+        }
+      ],
+      "punch": "letters",
+      "query": "historic police letters envelope",
+      "query2": "old handwritten correspondence",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "All victims were female prostitutes aged 25‑38",
+      "chips": [
+        {
+          "t": "25‑38 years",
+          "on": "age",
+          "style": "accent"
+        }
+      ],
+      "punch": "age",
+      "query": "Victorian era clothing mannequin",
+      "query2": "period dress on mannequin",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Modern DNA suggests a royal relative could be the killer",
+      "reveal_top": "ROYAL DNA CONNECTION",
+      "query": "ancient DNA strands laboratory",
+      "query2": "scientists analyzing hair",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "old newspaper headline archive",
+      "query2": "vintage newsprint closeup",
+      "role": "cta"
+    }
+  ],
+  "description": "The Whitechapel murders remain one of history's most infamous unsolved crimes. Discover the latest DNA theory that points to royalty.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#jacktheripper",
+    "#history",
+    "#unsolved",
+    "#crime",
+    "#mystery"
+  ]
+}

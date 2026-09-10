@@ -1,0 +1,62 @@
+{
+  "title": "JFK Assassination Conspiracy Theories",
+  "thumb": "ASSASSINATION MYSTERY",
+  "place": "Dallas, Texas",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "SHOT FROM SIXTH",
+      "query": "old brick building façade",
+      "query2": "historic school window view",
+      "role": "hook",
+      "text": "President Kennedy was shot from a sixth‑floor window"
+    },
+    {
+      "chips": [
+        {
+          "t": "8,000 ft/s",
+          "on": "bullet",
+          "style": "accent"
+        }
+      ],
+      "punch": "Speed",
+      "query": "ballistics chart illustration",
+      "query2": "bullet trajectory diagram",
+      "role": "fact",
+      "text": "The Warren Commission recorded 8,000 feet per second bullet speed"
+    },
+    {
+      "archive_query": "Texas School Book Depository museum Wikimedia Commons",
+      "archive_label": "Depository Museum",
+      "query": "historic building front view",
+      "query2": "museum exterior brick",
+      "role": "archive",
+      "text": "The Texas School Book Depository, now a museum"
+    },
+    {
+      "label": "CONTROVERSIAL",
+      "sub": "Many still question the lone‑shooter conclusion",
+      "label_on": "controversy",
+      "query": "empty street at night with streetlights",
+      "query2": "quiet city avenue dusk",
+      "role": "callout",
+      "text": "Officially closed, doubts remain"
+    },
+    {
+      "query": "typewriter keys clacking",
+      "query2": "old newspaper printing press",
+      "role": "cta",
+      "text": "Follow because some cases still need answers."
+    }
+  ],
+  "description": "The assassination of President Kennedy continues to fuel debate, with countless theories challenging the official narrative. Follow for deeper dives into historic crimes.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#JFK",
+    "#conspiracy",
+    "#history",
+    "#mystery"
+  ]
+}
