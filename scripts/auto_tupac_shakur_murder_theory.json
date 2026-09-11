@@ -1,0 +1,70 @@
+{
+  "title": "Tupac Shakur Murder Theory",
+  "thumb": "UNSOLVED LEGEND",
+  "place": "Las Vegas Strip",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "SINGLE BULLET KILL",
+      "query": "empty hotel corridor neon lights",
+      "query2": "desert night street",
+      "role": "hook",
+      "text": "Why a single bullet ended a rap legend at 25"
+    },
+    {
+      "chips": [
+        {
+          "t": "September 7",
+          "on": "date",
+          "style": "white"
+        },
+        {
+          "t": "1996",
+          "on": "year",
+          "style": "accent"
+        }
+      ],
+      "punch": "studio",
+      "query": "closed studio doors with signage",
+      "query2": "empty recording booth",
+      "role": "fact",
+      "text": "The shooting occurred on September 7, 1996 at a recording studio"
+    },
+    {
+      "chips": [
+        {
+          "t": "30‑caliber",
+          "on": "weapon",
+          "style": "white"
+        }
+      ],
+      "query": "silhouette of handgun on floor",
+      "query2": "bullet casings on carpet",
+      "role": "fact",
+      "text": "Witnesses heard a 30‑caliber Glock before Tupac lost consciousness"
+    },
+    {
+      "reveal_top": "GANG LINKED WEAPON",
+      "query": "graffiti covered wall alley",
+      "query2": "empty gang tag mural",
+      "role": "reveal",
+      "text": "Investigators later linked the gun to a rival gang member never charged"
+    },
+    {
+      "query": "stylized text overlay follow",
+      "query2": "animated music note icon",
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one."
+    }
+  ],
+  "description": "The murder of Tupac Shakur still haunts fans, with a gun traced back to an uncharged rival. Dive into the lingering questions.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#tupac",
+    "#truecrime",
+    "#hiphop",
+    "#unsolved",
+    "#mystery"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "title": "Boston Strangler Case",
+  "thumb": "DEADLY NIGHT",
+  "place": "Boston, Massachusetts",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "13 WOMEN VANISHED",
+      "query": "empty street lamp at night",
+      "query2": "dark alley Boston 1960s",
+      "role": "hook",
+      "text": "13 women vanished over 1964‑65"
+    },
+    {
+      "query": "historic Boston street map 1960s",
+      "query2": "Boston neighborhood aerial view",
+      "role": "map",
+      "text": "The murders occurred across neighborhoods of Boston, Massachusetts, USA."
+    },
+    {
+      "chips": [
+        {
+          "t": "Strangled",
+          "on": "method",
+          "style": "white"
+        }
+      ],
+      "punch": "silent",
+      "query": "close up of old apartment door",
+      "query2": "dim hallway corridor",
+      "role": "fact",
+      "text": "All victims were strangled in their apartments."
+    },
+    {
+      "archive_query": "Boston Strangler police bulletin 1964 site:wikimedia.org",
+      "archive_label": "Police bulletin",
+      "query": "vintage police notice on wall",
+      "query2": "old bulletin board document",
+      "role": "archive",
+      "text": "Police bulletin released during the investigation."
+    },
+    {
+      "label": "UNSOLVED",
+      "sub": "No one was ever convicted of all 13 murders.",
+      "label_on": "case",
+      "query": "empty courtroom bench",
+      "query2": "dark wood panel empty chair",
+      "role": "callout",
+      "text": "Case remains officially unsolved"
+    },
+    {
+      "query": "text follow button overlay",
+      "query2": "social media follow graphic",
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries."
+    }
+  ],
+  "description": "The Boston Strangler terrorized a city, leaving a trail of mystery that endures to this day. Tap follow for more cold‑case chronicles.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#bostonstrangler",
+    "#coldcase",
+    "#truecrime",
+    "#unsolved",
+    "#history"
+  ]
+}

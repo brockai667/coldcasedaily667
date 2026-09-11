@@ -1,0 +1,68 @@
+{
+  "title": "Jaycee Dugard Capture",
+  "thumb": "MISSING CHILD",
+  "place": "South Lake Tahoe, California",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "11YEAROLD KIDNAPPED",
+      "query": "deserted cabin forest fog",
+      "query2": "remote wooden shack mist",
+      "role": "hook",
+      "text": "Kidnapped at 11, rescued after 18 years"
+    },
+    {
+      "query": "satellite view of South Lake Tahoe trailer park",
+      "query2": "aerial view of remote California trailer",
+      "role": "map",
+      "text": "She was held in a hidden trailer near South Lake Tahoe, California."
+    },
+    {
+      "chips": [
+        {
+          "t": "1,500 pages",
+          "on": "journals",
+          "style": "accent"
+        }
+      ],
+      "punch": "mountain",
+      "query": "stack of old journals on table",
+      "query2": "close up of handwritten notebook",
+      "role": "fact",
+      "text": "Police found 1,500 pages of handwritten journals."
+    },
+    {
+      "archive_query": "Jaycee Dugard rescue photo 2009 site:wikimedia.org",
+      "archive_label": "Rescue photo",
+      "query": "news headline newspaper front page",
+      "query2": "old press clipping",
+      "role": "archive",
+      "text": "Press photo of Jaycee Dugard after her rescue."
+    },
+    {
+      "label": "CONVICTED",
+      "sub": "Both kidnappers received life sentences.",
+      "label_on": "justice",
+      "query": "court gavel on wood",
+      "query2": "scales of justice silhouette",
+      "role": "callout",
+      "text": "Perpetrators convicted"
+    },
+    {
+      "query": "text follow animation",
+      "query2": "social media follow button",
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one."
+    }
+  ],
+  "description": "Jaycee Dugard survived a horrific kidnapping and was finally rescued in 2009. Follow for more survival stories from true‑crime history.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#jayceedugard",
+    "#kidnapping",
+    "#truecrime",
+    "#survival",
+    "#justice"
+  ]
+}

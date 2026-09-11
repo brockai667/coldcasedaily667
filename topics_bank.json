@@ -13768,6 +13768,212 @@
     ]
   },
   {
+    "title": "Boston Strangler Case",
+    "thumb": "DEADLY NIGHT",
+    "place": "Boston, Massachusetts",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "13 WOMEN VANISHED",
+        "query": "empty street lamp at night",
+        "query2": "dark alley Boston 1960s",
+        "role": "hook",
+        "text": "13 women vanished over 1964‑65"
+      },
+      {
+        "query": "historic Boston street map 1960s",
+        "query2": "Boston neighborhood aerial view",
+        "role": "map",
+        "text": "The murders occurred across neighborhoods of Boston, Massachusetts, USA."
+      },
+      {
+        "chips": [
+          {
+            "t": "Strangled",
+            "on": "method",
+            "style": "white"
+          }
+        ],
+        "punch": "silent",
+        "query": "close up of old apartment door",
+        "query2": "dim hallway corridor",
+        "role": "fact",
+        "text": "All victims were strangled in their apartments."
+      },
+      {
+        "archive_query": "Boston Strangler police bulletin 1964 site:wikimedia.org",
+        "archive_label": "Police bulletin",
+        "query": "vintage police notice on wall",
+        "query2": "old bulletin board document",
+        "role": "archive",
+        "text": "Police bulletin released during the investigation."
+      },
+      {
+        "label": "UNSOLVED",
+        "sub": "No one was ever convicted of all 13 murders.",
+        "label_on": "case",
+        "query": "empty courtroom bench",
+        "query2": "dark wood panel empty chair",
+        "role": "callout",
+        "text": "Case remains officially unsolved"
+      },
+      {
+        "query": "text follow button overlay",
+        "query2": "social media follow graphic",
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries."
+      }
+    ],
+    "description": "The Boston Strangler terrorized a city, leaving a trail of mystery that endures to this day. Tap follow for more cold‑case chronicles.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#bostonstrangler",
+      "#coldcase",
+      "#truecrime",
+      "#unsolved",
+      "#history"
+    ]
+  },
+  {
+    "title": "Jaycee Dugard Capture",
+    "thumb": "MISSING CHILD",
+    "place": "South Lake Tahoe, California",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "11YEAROLD KIDNAPPED",
+        "query": "deserted cabin forest fog",
+        "query2": "remote wooden shack mist",
+        "role": "hook",
+        "text": "Kidnapped at 11, rescued after 18 years"
+      },
+      {
+        "query": "satellite view of South Lake Tahoe trailer park",
+        "query2": "aerial view of remote California trailer",
+        "role": "map",
+        "text": "She was held in a hidden trailer near South Lake Tahoe, California."
+      },
+      {
+        "chips": [
+          {
+            "t": "1,500 pages",
+            "on": "journals",
+            "style": "accent"
+          }
+        ],
+        "punch": "mountain",
+        "query": "stack of old journals on table",
+        "query2": "close up of handwritten notebook",
+        "role": "fact",
+        "text": "Police found 1,500 pages of handwritten journals."
+      },
+      {
+        "archive_query": "Jaycee Dugard rescue photo 2009 site:wikimedia.org",
+        "archive_label": "Rescue photo",
+        "query": "news headline newspaper front page",
+        "query2": "old press clipping",
+        "role": "archive",
+        "text": "Press photo of Jaycee Dugard after her rescue."
+      },
+      {
+        "label": "CONVICTED",
+        "sub": "Both kidnappers received life sentences.",
+        "label_on": "justice",
+        "query": "court gavel on wood",
+        "query2": "scales of justice silhouette",
+        "role": "callout",
+        "text": "Perpetrators convicted"
+      },
+      {
+        "query": "text follow animation",
+        "query2": "social media follow button",
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one."
+      }
+    ],
+    "description": "Jaycee Dugard survived a horrific kidnapping and was finally rescued in 2009. Follow for more survival stories from true‑crime history.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#jayceedugard",
+      "#kidnapping",
+      "#truecrime",
+      "#survival",
+      "#justice"
+    ]
+  },
+  {
+    "title": "Tupac Shakur Murder Theory",
+    "thumb": "UNSOLVED LEGEND",
+    "place": "Las Vegas Strip",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "SINGLE BULLET KILL",
+        "query": "empty hotel corridor neon lights",
+        "query2": "desert night street",
+        "role": "hook",
+        "text": "Why a single bullet ended a rap legend at 25"
+      },
+      {
+        "chips": [
+          {
+            "t": "September 7",
+            "on": "date",
+            "style": "white"
+          },
+          {
+            "t": "1996",
+            "on": "year",
+            "style": "accent"
+          }
+        ],
+        "punch": "studio",
+        "query": "closed studio doors with signage",
+        "query2": "empty recording booth",
+        "role": "fact",
+        "text": "The shooting occurred on September 7, 1996 at a recording studio"
+      },
+      {
+        "chips": [
+          {
+            "t": "30‑caliber",
+            "on": "weapon",
+            "style": "white"
+          }
+        ],
+        "query": "silhouette of handgun on floor",
+        "query2": "bullet casings on carpet",
+        "role": "fact",
+        "text": "Witnesses heard a 30‑caliber Glock before Tupac lost consciousness"
+      },
+      {
+        "reveal_top": "GANG LINKED WEAPON",
+        "query": "graffiti covered wall alley",
+        "query2": "empty gang tag mural",
+        "role": "reveal",
+        "text": "Investigators later linked the gun to a rival gang member never charged"
+      },
+      {
+        "query": "stylized text overlay follow",
+        "query2": "animated music note icon",
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one."
+      }
+    ],
+    "description": "The murder of Tupac Shakur still haunts fans, with a gun traced back to an uncharged rival. Dive into the lingering questions.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#tupac",
+      "#truecrime",
+      "#hiphop",
+      "#unsolved",
+      "#mystery"
+    ]
+  },
+  {
     "title": "Mona Lisa Heist Mystery",
     "thumb": "MYSTERIOUS ART THIEF",
     "place": "Louvre Museum",
