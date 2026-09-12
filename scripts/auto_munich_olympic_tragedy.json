@@ -1,0 +1,77 @@
+{
+  "title": "Munich Olympic Tragedy",
+  "thumb": "OLYMPIC MASSACRE",
+  "place": "Munich, Bavaria",
+  "country": "Germany",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "11 Israeli athletes taken hostage in 1972",
+      "hook_top": "11 ATHLETES HOSTAGE",
+      "query": "empty Olympic village corridor",
+      "query2": "deserted stadium walkway",
+      "role": "hook"
+    },
+    {
+      "type": "map",
+      "text": "The attack unfolded at the Olympic Village in Munich, West Germany",
+      "query": "aerial view of Munich Olympic Village 1972",
+      "query2": "satellite image of Olympic housing complex",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "fact",
+      "text": "The terrorists used three stolen cars to breach the village",
+      "chips": [
+        {
+          "t": "3 cars",
+          "on": "vehicles",
+          "style": "white"
+        }
+      ],
+      "punch": "breach",
+      "query": "black sedan parked near village entrance",
+      "query2": "generic car parked outside building",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "German authorities stormed the building in a failed rescue attempt",
+      "archive_query": "Munich 1972 rescue operation Wikimedia Commons",
+      "archive_label": "Rescue attempt",
+      "query": "firefighters with rifles entering building",
+      "query2": "law enforcement breaching door",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "The tragedy reshaped global security at sporting events",
+      "label": "SECURITY SHIFT",
+      "sub": "New protocols after the attack",
+      "label_on": "security",
+      "query": "modern security checkpoint at stadium",
+      "query2": "metal detector rows at arena entrance",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily true crime mysteries.",
+      "query": "animated follow button with Olympic rings",
+      "query2": "hand cursor clicking follow",
+      "role": "cta"
+    }
+  ],
+  "description": "A shocking hostage crisis that forever changed Olympic security. Follow for more untold history.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#munich",
+    "#olympics",
+    "#history",
+    "#terrorism"
+  ]
+}

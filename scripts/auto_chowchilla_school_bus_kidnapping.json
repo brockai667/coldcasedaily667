@@ -1,0 +1,77 @@
+{
+  "title": "Chowchilla School Bus Kidnapping",
+  "thumb": "BUS KIDNAP",
+  "place": "Chowchilla, California",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "26 children vanished from a school bus in 1976",
+      "hook_top": "26 CHILDREN VANISHED",
+      "query": "empty school bus on desert road",
+      "query2": "abandoned highway vehicle",
+      "role": "hook"
+    },
+    {
+      "type": "map",
+      "text": "The kidnapping took place near Chowchilla, California, USA",
+      "query": "satellite view of Chowchilla town",
+      "query2": "aerial view of California farmland",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "fact",
+      "text": "Kidnappers demanded $5 million ransom, never paid",
+      "chips": [
+        {
+          "t": "$5 M",
+          "on": "ransom",
+          "style": "accent"
+        }
+      ],
+      "punch": "demand",
+      "query": "handwritten ransom note on table",
+      "query2": "paper with typed demand",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "Police discovered the bus hidden in a culvert after a massive search",
+      "archive_query": "Chowchilla bus culvert 1976 site Wikimedia Commons",
+      "archive_label": "Bus hidden in culvert",
+      "query": "abandoned bus in concrete culvert",
+      "query2": "empty vehicle under a bridge",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "All 26 were rescued alive after 16 hours",
+      "label": "RESCUED ALIVE",
+      "sub": "All children survived the ordeal",
+      "label_on": "rescued",
+      "query": "children emerging from bus doors",
+      "query2": "kids exiting vehicle safely",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for a new cold case every day.",
+      "query": "close‑up of a follow button animation",
+      "query2": "hand tapping a like icon",
+      "role": "cta"
+    }
+  ],
+  "description": "A massive manhunt ended with a dramatic rescue of 26 schoolchildren. Follow for more true‑crime deep dives.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#chowchilla",
+    "#kidnapping",
+    "#unsolved",
+    "#history"
+  ]
+}

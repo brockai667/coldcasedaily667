@@ -1,0 +1,68 @@
+{
+  "title": "Mona Lisa Heist Mystery",
+  "thumb": "MYSTERIOUS ART THIEF",
+  "place": "Louvre Museum",
+  "country": "France",
+  "scenes": [
+    {
+      "hook_top": "VANISHED ART 1911",
+      "query": "empty museum hall early 20th century",
+      "query2": "historic museum interior shadows",
+      "role": "hook",
+      "text": "When the world’s most famous painting vanished in 1911"
+    },
+    {
+      "query": "aerial view of Louvre pyramid",
+      "query2": "Paris museum exterior daytime",
+      "role": "map",
+      "text": "The theft occurred inside the Louvre, Paris, France."
+    },
+    {
+      "chips": [
+        {
+          "t": "2 YEARS",
+          "on": "duration",
+          "style": "white"
+        }
+      ],
+      "punch": "lost",
+      "query": "old newspaper headline theft",
+      "query2": "vintage newspaper crime article",
+      "role": "fact",
+      "text": "The painting was missing for two years before recovery."
+    },
+    {
+      "archive_query": "Mona Lisa theft police report 1911 site:wikimedia.org",
+      "archive_label": "1911 Police Report",
+      "query": "vintage police document texture",
+      "query2": "old paper filing close up",
+      "role": "archive",
+      "text": "The original 1911 police report documenting the theft."
+    },
+    {
+      "label": "WHY STEAL?",
+      "sub": "No clear motive was ever proven",
+      "label_on": "question",
+      "query": "empty gallery spotlight",
+      "query2": "dark museum corridor",
+      "role": "callout",
+      "text": "Unsolved Motive"
+    },
+    {
+      "query": "text overlay follow animation",
+      "query2": "simple call‑to‑action graphic",
+      "role": "cta",
+      "text": "Follow because some cases still need answers."
+    }
+  ],
+  "description": "The Mona Lisa vanished from the Louvre in 1911, sparking a worldwide hunt. Discover the facts behind the daring theft and why it still intrigues historians. Follow for more iconic unsolved crimes.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#mystery",
+    "#arttheft",
+    "#louvre",
+    "#history"
+  ]
+}

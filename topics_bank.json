@@ -14269,5 +14269,211 @@
       "#producttampering",
       "#unsolved"
     ]
+  },
+  {
+    "title": "Harvey Milk Assassination Story",
+    "thumb": "SAINTED POLITICIAN ASSASSINATED",
+    "place": "San Francisco, California",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "COUNCILMAN SHOT 1978",
+        "query": "vintage newspaper headline assassination 1978",
+        "query2": "old newspaper San Francisco 1978",
+        "role": "hook",
+        "text": "A city councilman slain in 1978, 7 bullets."
+      },
+      {
+        "query": "San Francisco City Hall exterior 1970s",
+        "query2": "historic government building San Francisco",
+        "role": "map",
+        "text": "The fatal shooting occurred at the San Francisco City Hall steps."
+      },
+      {
+        "chips": [
+          {
+            "t": "7‑YEAR SENTENCE",
+            "on": "sentence",
+            "style": "accent"
+          }
+        ],
+        "punch": "sentence",
+        "query": "courtroom empty bench symbolic",
+        "query2": "gavel on wood",
+        "role": "fact",
+        "text": "Assailant Dan White received a reduced sentence of seven years."
+      },
+      {
+        "archive_query": "Harvey Milk 1977 campaign photo site:commons.wikimedia.org",
+        "archive_label": "Milk 1977 rally",
+        "query": "historic political rally crowd",
+        "query2": "vintage protest signs",
+        "role": "archive",
+        "text": "The iconic photograph of Milk campaigning for gay rights in 1977."
+      },
+      {
+        "label": "TRIAL",
+        "sub": "The 'Twinkie defense' sparked national debate.",
+        "label_on": "trial",
+        "query": "courtroom empty chairs dramatic lighting",
+        "query2": "legal scales silhouette",
+        "role": "callout",
+        "text": "CONTROVERSIAL TRIAL"
+      },
+      {
+        "query": "turning old newspaper page",
+        "query2": "flicking through archive",
+        "role": "cta",
+        "text": "Follow because some cases still need answers."
+      }
+    ],
+    "description": "Harvey Milk’s murder reshaped LGBTQ activism and legal discourse in America. Discover the pivotal facts behind the trial that still echoes today. Follow for untold crime histories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#harveymilk",
+      "#assassination",
+      "#LGBTQ",
+      "#truecrime",
+      "#history"
+    ]
+  },
+  {
+    "title": "The Beaumont Children Vanish",
+    "thumb": "MYSTERIOUS CHILD DISAPPEARANCE",
+    "place": "Glenelg, South Australia",
+    "country": "Australia",
+    "scenes": [
+      {
+        "hook_top": "SIBLINGS VANISHED 1966",
+        "query": "vintage newspaper headline disappearance 1966",
+        "query2": "old newspaper Australia 1966",
+        "role": "hook",
+        "text": "Three siblings disappeared on a summer day, 1966."
+      },
+      {
+        "query": "Glenelg beach 1960s empty boardwalk",
+        "query2": "Australian seaside promenade historic",
+        "role": "map",
+        "text": "The kids were last seen near the Glenelg beachfront promenade."
+      },
+      {
+        "chips": [
+          {
+            "t": "ONE PAIR SHOE",
+            "on": "shoes",
+            "style": "accent"
+          }
+        ],
+        "punch": "found",
+        "query": "vintage shoe closeup on sand",
+        "query2": "old footwear on beach",
+        "role": "fact",
+        "text": "Police recovered a single pair of shoes at the scene."
+      },
+      {
+        "archive_query": "Beaumont children police poster 1966 site:commons.wikimedia.org",
+        "archive_label": "Police poster 1966",
+        "query": "historic police poster archival",
+        "query2": "vintage missing persons flyer",
+        "role": "archive",
+        "text": "The original police press release poster for the missing children."
+      },
+      {
+        "label": "UNSOLVED",
+        "sub": "No definitive leads have emerged in over fifty years.",
+        "label_on": "unsolved",
+        "query": "empty swing set at dusk",
+        "query2": "abandoned playground shadows",
+        "role": "callout",
+        "text": "UNSOLVED MYSTERY"
+      },
+      {
+        "query": "old file folder opening",
+        "query2": "paper document being turned",
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one."
+      }
+    ],
+    "description": "The 1966 disappearance of the Beaumont children remains one of Australia’s most haunting cold cases. Examine the limited clues that still baffle investigators. Follow for more cold case chronicles.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#beaumontchildren",
+      "#coldcase",
+      "#Australia",
+      "#truecrime",
+      "#unsolved"
+    ]
+  },
+  {
+    "title": "Versace Murder Unsolved Twist",
+    "thumb": "FASHION KILL",
+    "place": "Miami Beach",
+    "country": "USA",
+    "scenes": [
+      {
+        "hook_top": "VERSACE SHOT 1997",
+        "query": "luxury mansion exterior night Miami",
+        "query2": "oceanfront house dark lighting",
+        "role": "hook",
+        "text": "1997 Miami Beach home shot fashion icon Gianni Versace"
+      },
+      {
+        "chips": [
+          {
+            "t": "25 CASINGS",
+            "on": "casings",
+            "style": "white"
+          }
+        ],
+        "punch": "count",
+        "query": "close-up of spent shell casings on floor",
+        "query2": "bullet remnants on carpet",
+        "role": "fact",
+        "text": "Police recovered 25 bullet casings at the scene"
+      },
+      {
+        "chips": [
+          {
+            "t": "ANDREW CUNANAN",
+            "on": "Cunanan",
+            "style": "white"
+          },
+          {
+            "t": "POLICE CHASE",
+            "on": "chase",
+            "style": "accent"
+          }
+        ],
+        "query": "empty highway at dusk with police lights",
+        "query2": "road pursuit silhouette night",
+        "role": "fact",
+        "text": "Andrew Cunanan was identified as the gunman and died in a police chase"
+      },
+      {
+        "reveal_top": "HATE GROUP LINK",
+        "query": "shadowy organization symbol archive",
+        "query2": "mysterious emblem on paper",
+        "role": "reveal",
+        "text": "Investigators later considered a possible connection to a secretive hate group"
+      },
+      {
+        "query": "closed courtroom doors",
+        "query2": "empty legal bench",
+        "role": "cta",
+        "text": "Follow for daily true crime mysteries."
+      }
+    ],
+    "description": "The brutal killing of fashion legend Gianni Versace stunned the world. Explore the eerie possibility of a hate‑group motive behind the murder.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#gianniVersace",
+      "#crime",
+      "#murderMystery",
+      "#fashion",
+      "#unsolved"
+    ]
   }
 ]
