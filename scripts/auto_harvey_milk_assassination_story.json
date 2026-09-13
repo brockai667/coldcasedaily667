@@ -1,0 +1,68 @@
+{
+  "title": "Harvey Milk Assassination Story",
+  "thumb": "SAINTED POLITICIAN ASSASSINATED",
+  "place": "San Francisco, California",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "COUNCILMAN SHOT 1978",
+      "query": "vintage newspaper headline assassination 1978",
+      "query2": "old newspaper San Francisco 1978",
+      "role": "hook",
+      "text": "A city councilman slain in 1978, 7 bullets."
+    },
+    {
+      "query": "San Francisco City Hall exterior 1970s",
+      "query2": "historic government building San Francisco",
+      "role": "map",
+      "text": "The fatal shooting occurred at the San Francisco City Hall steps."
+    },
+    {
+      "chips": [
+        {
+          "t": "7‑YEAR SENTENCE",
+          "on": "sentence",
+          "style": "accent"
+        }
+      ],
+      "punch": "sentence",
+      "query": "courtroom empty bench symbolic",
+      "query2": "gavel on wood",
+      "role": "fact",
+      "text": "Assailant Dan White received a reduced sentence of seven years."
+    },
+    {
+      "archive_query": "Harvey Milk 1977 campaign photo site:commons.wikimedia.org",
+      "archive_label": "Milk 1977 rally",
+      "query": "historic political rally crowd",
+      "query2": "vintage protest signs",
+      "role": "archive",
+      "text": "The iconic photograph of Milk campaigning for gay rights in 1977."
+    },
+    {
+      "label": "TRIAL",
+      "sub": "The 'Twinkie defense' sparked national debate.",
+      "label_on": "trial",
+      "query": "courtroom empty chairs dramatic lighting",
+      "query2": "legal scales silhouette",
+      "role": "callout",
+      "text": "CONTROVERSIAL TRIAL"
+    },
+    {
+      "query": "turning old newspaper page",
+      "query2": "flicking through archive",
+      "role": "cta",
+      "text": "Follow because some cases still need answers."
+    }
+  ],
+  "description": "Harvey Milk’s murder reshaped LGBTQ activism and legal discourse in America. Discover the pivotal facts behind the trial that still echoes today. Follow for untold crime histories.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#harveymilk",
+    "#assassination",
+    "#LGBTQ",
+    "#truecrime",
+    "#history"
+  ]
+}

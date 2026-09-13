@@ -1,0 +1,68 @@
+{
+  "title": "The Beaumont Children Vanish",
+  "thumb": "MYSTERIOUS CHILD DISAPPEARANCE",
+  "place": "Glenelg, South Australia",
+  "country": "Australia",
+  "scenes": [
+    {
+      "hook_top": "SIBLINGS VANISHED 1966",
+      "query": "vintage newspaper headline disappearance 1966",
+      "query2": "old newspaper Australia 1966",
+      "role": "hook",
+      "text": "Three siblings disappeared on a summer day, 1966."
+    },
+    {
+      "query": "Glenelg beach 1960s empty boardwalk",
+      "query2": "Australian seaside promenade historic",
+      "role": "map",
+      "text": "The kids were last seen near the Glenelg beachfront promenade."
+    },
+    {
+      "chips": [
+        {
+          "t": "ONE PAIR SHOE",
+          "on": "shoes",
+          "style": "accent"
+        }
+      ],
+      "punch": "found",
+      "query": "vintage shoe closeup on sand",
+      "query2": "old footwear on beach",
+      "role": "fact",
+      "text": "Police recovered a single pair of shoes at the scene."
+    },
+    {
+      "archive_query": "Beaumont children police poster 1966 site:commons.wikimedia.org",
+      "archive_label": "Police poster 1966",
+      "query": "historic police poster archival",
+      "query2": "vintage missing persons flyer",
+      "role": "archive",
+      "text": "The original police press release poster for the missing children."
+    },
+    {
+      "label": "UNSOLVED",
+      "sub": "No definitive leads have emerged in over fifty years.",
+      "label_on": "unsolved",
+      "query": "empty swing set at dusk",
+      "query2": "abandoned playground shadows",
+      "role": "callout",
+      "text": "UNSOLVED MYSTERY"
+    },
+    {
+      "query": "old file folder opening",
+      "query2": "paper document being turned",
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one."
+    }
+  ],
+  "description": "The 1966 disappearance of the Beaumont children remains one of Australia’s most haunting cold cases. Examine the limited clues that still baffle investigators. Follow for more cold case chronicles.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#beaumontchildren",
+    "#coldcase",
+    "#Australia",
+    "#truecrime",
+    "#unsolved"
+  ]
+}
