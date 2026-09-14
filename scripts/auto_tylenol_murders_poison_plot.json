@@ -1,0 +1,68 @@
+{
+  "title": "Tylenol Murders Poison Plot",
+  "thumb": "TYLENOL POISON",
+  "place": "Chicago",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "DEADLY TYLENOL 1982",
+      "query": "pill bottles on kitchen counter with warning label",
+      "query2": "medicine cabinet close up",
+      "role": "hook",
+      "text": "Seven strangers died after swallowing extra‑strength Tylenol"
+    },
+    {
+      "query": "map of Chicago suburbs with marker points",
+      "query2": "regional map highlighting Chicago",
+      "role": "map",
+      "text": "The tampered capsules were discovered across the Chicago metropolitan area."
+    },
+    {
+      "chips": [
+        {
+          "t": "500 mg KCN",
+          "on": "cyanide",
+          "style": "white"
+        }
+      ],
+      "punch": "toxic",
+      "query": "chemical lab with cyanide crystals",
+      "query2": "close‑up of white powder on glass",
+      "role": "fact",
+      "text": "The cyanide-laced capsules contained 500 mg of potassium cyanide each."
+    },
+    {
+      "archive_query": "Chicago Tribune October 1982 Tylenol deaths front page",
+      "archive_label": "Newspaper headline",
+      "query": "archival newspaper headline 1982",
+      "query2": "historic newsprint page",
+      "role": "archive",
+      "text": "Front page of the Chicago Tribune reporting the deaths."
+    },
+    {
+      "label": "Mystery Perp",
+      "sub": "No one was ever convicted for the tampering",
+      "label_on": "perp",
+      "query": "empty pharmacy shelf at night",
+      "query2": "closed drugstore storefront",
+      "role": "callout",
+      "text": "Who could have poisoned a trusted brand?"
+    },
+    {
+      "query": "text overlay follow animation",
+      "query2": "call‑to‑action graphic",
+      "role": "cta",
+      "text": "Follow because some cases still need answers."
+    }
+  ],
+  "description": "In 1982, a mysterious poisoner turned everyday medicine into a lethal weapon, reshaping product safety standards. Dive into the facts and lingering questions. Follow for more untold crime stories.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#TylenolMurders",
+    "#cynide",
+    "#1982",
+    "#investigation"
+  ]
+}

@@ -14672,5 +14672,210 @@
       "#terror",
       "#history"
     ]
+  },
+  {
+    "title": "Sharon Tate Murder",
+    "thumb": "MURDER OF TATE",
+    "place": "Los Angeles",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "HOLLYWOOD STAR SLAYED",
+        "query": "creepy mansion exterior night",
+        "query2": "dark house silhouette",
+        "role": "hook",
+        "text": "A Hollywood star slain in her home"
+      },
+      {
+        "query": "Los Angeles hillside street 1969",
+        "query2": "Cielo Drive aerial view",
+        "role": "map",
+        "text": "The crime took place at 10050 Cielo Drive, Los Angeles, California."
+      },
+      {
+        "chips": [
+          {
+            "t": "4 victims",
+            "on": "victims",
+            "style": "accent"
+          }
+        ],
+        "punch": "four",
+        "query": "police tape on house front",
+        "query2": "crime scene markers",
+        "role": "fact",
+        "text": "Four people were killed on August 9, 1969."
+      },
+      {
+        "archive_query": "Cielo Drive crime scene diagram 1969",
+        "archive_label": "Crime Scene Sketch",
+        "query": "archival crime diagram",
+        "query2": "historical police sketch",
+        "role": "archive",
+        "text": "Police sketch of the crime scene layout."
+      },
+      {
+        "label": "MURDER MOTIVE",
+        "sub": "Manson family claimed responsibility.",
+        "label_on": "motive",
+        "query": "burned newspaper headlines",
+        "query2": "old magazine cover",
+        "role": "callout",
+        "text": "Cult motive"
+      },
+      {
+        "query": "flickering candle flame",
+        "query2": "slowly burning match",
+        "role": "cta",
+        "text": "Follow because some cases still need answers."
+      }
+    ],
+    "description": "The brutal 1969 slaying that shocked the film world. Learn the timeline and unanswered questions. Follow for more.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#SharonTate",
+      "#Manson",
+      "#Hollywood",
+      "#history"
+    ]
+  },
+  {
+    "title": "Hae Min Lee Murder",
+    "thumb": "KIDNAPPED CASE",
+    "place": "Baltimore",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "TEEN VANISHED RAIN",
+        "query": "wet street lantern night",
+        "query2": "rainy city sidewalk",
+        "role": "hook",
+        "text": "A teen vanished on a rainy night"
+      },
+      {
+        "query": "Baltimore neighborhood map 1999",
+        "query2": "Woodlawn Park aerial view",
+        "role": "map",
+        "text": "The disappearance occurred near the Woodlawn Park area of Baltimore, Maryland."
+      },
+      {
+        "chips": [
+          {
+            "t": "8 months",
+            "on": "time",
+            "style": "white"
+          }
+        ],
+        "punch": "delay",
+        "query": "overgrown park path",
+        "query2": "empty park trail",
+        "role": "fact",
+        "text": "Lee’s body was found eight months later in a park."
+      },
+      {
+        "archive_query": "Baltimore police press release 2000 Hae Min Lee",
+        "archive_label": "2000 Press Release",
+        "query": "archival police announcement",
+        "query2": "vintage news release",
+        "role": "archive",
+        "text": "Police press release announcing the discovery."
+      },
+      {
+        "label": "UNSOLVED",
+        "sub": "No conviction has been secured.",
+        "label_on": "unsolved",
+        "query": "closed file folder",
+        "query2": "sealed evidence box",
+        "role": "callout",
+        "text": "Case still open"
+      },
+      {
+        "query": "turning calendar page",
+        "query2": "slow clock hand movement",
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one."
+      }
+    ],
+    "description": "A high‑profile murder that sparked nationwide debate. Examine the facts and ongoing controversy. Follow for more.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#HaeMinLee",
+      "#Baltimore",
+      "#coldcase",
+      "#history"
+    ]
+  },
+  {
+    "title": "Lufthansa Heist Secrets",
+    "thumb": "GOLDEN HEIST",
+    "place": "Kennedy Airport",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Over $5 million in cash vanished from a single vault",
+        "hook_top": "MILLION DOLLAR HEIST",
+        "query": "empty airport cargo area night",
+        "query2": "dark warehouse interior",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The thieves stole 1,400 suitcases filled with cash and jewels",
+        "chips": [
+          {
+            "t": "1,400 SUITCASES",
+            "on": "stole",
+            "style": "accent"
+          }
+        ],
+        "punch": "stole",
+        "query": "open safe door with light",
+        "query2": "stacked luggage crates",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "The cargo terminal at JFK where the robbery occurred",
+        "archive_query": "JFK cargo terminal 1978 Wikimedia Commons",
+        "archive_label": "JFK Cargo Terminal",
+        "query": "airport freight building exterior",
+        "query2": "industrial warehouse facade",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "No convictions were secured despite massive evidence",
+        "label": "Unsolved Verdict",
+        "sub": "The case remains one of the largest unsolved thefts",
+        "label_on": "unsolved",
+        "query": "courtroom empty chairs",
+        "query2": "gavel on legal books",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow because some cases still need answers.",
+        "query": "hand flipping through newspaper headlines",
+        "query2": "scrolling digital article",
+        "role": "cta"
+      }
+    ],
+    "description": "Uncover how a daring crew emptied a vault in minutes and walked away free. Subscribe for more heist analyses.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#Lufthansa",
+      "#heist",
+      "#unsolved",
+      "#history"
+    ]
   }
 ]

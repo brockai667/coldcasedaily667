@@ -1,0 +1,67 @@
+{
+  "title": "Atlanta Olympic Bomb Tragedy",
+  "thumb": "BOMB AT LANE",
+  "place": "Atlanta",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "BOMBS SHOCK ATLANTA",
+      "query": "1996 olympic stadium exterior night",
+      "query2": "olympic venue empty stands",
+      "role": "hook",
+      "text": "What 2 bombs shook the 1996 Games?"
+    },
+    {
+      "chips": [
+        {
+          "t": "2 KILLED",
+          "on": "killed",
+          "style": "accent"
+        },
+        {
+          "t": "111 INJURED",
+          "on": "injured",
+          "style": "white"
+        }
+      ],
+      "punch": "impact",
+      "query": "close‑up of pipe bomb fragment",
+      "query2": "explosive device detail",
+      "role": "fact",
+      "text": "A pipe bomb detonated in Centennial Olympic Park, killing 2 and injuring 111."
+    },
+    {
+      "archive_query": "Centennial Olympic Park security camera 1996",
+      "archive_label": "Park surveillance",
+      "query": "empty park walkway with trees",
+      "query2": "city park path at dusk",
+      "role": "archive",
+      "text": "Security footage of the park moments before the blast."
+    },
+    {
+      "label": "MOTIVE UNKNOWN",
+      "sub": "Who wanted to tarnish the Olympics?",
+      "label_on": "unknown",
+      "query": "silhouette of empty stadium lights",
+      "query2": "darkened arena seats",
+      "role": "callout",
+      "text": "Unsolved Motive"
+    },
+    {
+      "query": "animated text follow icon",
+      "query2": "simple motion graphics subscribe",
+      "role": "cta",
+      "text": "Follow for the cases that were never solved."
+    }
+  ],
+  "description": "The 1996 Atlanta Olympics were marred by a deadly bombing that still sparks debate. Discover the facts behind the attack and the lingering questions.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#olympics",
+    "#bombing",
+    "#history",
+    "#unsolved"
+  ]
+}

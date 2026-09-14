@@ -1,0 +1,70 @@
+{
+  "title": "Versace Murder Unsolved Twist",
+  "thumb": "FASHION KILL",
+  "place": "Miami Beach",
+  "country": "USA",
+  "scenes": [
+    {
+      "hook_top": "VERSACE SHOT 1997",
+      "query": "luxury mansion exterior night Miami",
+      "query2": "oceanfront house dark lighting",
+      "role": "hook",
+      "text": "1997 Miami Beach home shot fashion icon Gianni Versace"
+    },
+    {
+      "chips": [
+        {
+          "t": "25 CASINGS",
+          "on": "casings",
+          "style": "white"
+        }
+      ],
+      "punch": "count",
+      "query": "close-up of spent shell casings on floor",
+      "query2": "bullet remnants on carpet",
+      "role": "fact",
+      "text": "Police recovered 25 bullet casings at the scene"
+    },
+    {
+      "chips": [
+        {
+          "t": "ANDREW CUNANAN",
+          "on": "Cunanan",
+          "style": "white"
+        },
+        {
+          "t": "POLICE CHASE",
+          "on": "chase",
+          "style": "accent"
+        }
+      ],
+      "query": "empty highway at dusk with police lights",
+      "query2": "road pursuit silhouette night",
+      "role": "fact",
+      "text": "Andrew Cunanan was identified as the gunman and died in a police chase"
+    },
+    {
+      "reveal_top": "HATE GROUP LINK",
+      "query": "shadowy organization symbol archive",
+      "query2": "mysterious emblem on paper",
+      "role": "reveal",
+      "text": "Investigators later considered a possible connection to a secretive hate group"
+    },
+    {
+      "query": "closed courtroom doors",
+      "query2": "empty legal bench",
+      "role": "cta",
+      "text": "Follow for daily true crime mysteries."
+    }
+  ],
+  "description": "The brutal killing of fashion legend Gianni Versace stunned the world. Explore the eerie possibility of a hate‑group motive behind the murder.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gianniVersace",
+    "#crime",
+    "#murderMystery",
+    "#fashion",
+    "#unsolved"
+  ]
+}
