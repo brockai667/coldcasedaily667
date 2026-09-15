@@ -1,0 +1,68 @@
+{
+  "title": "Hae Min Lee Murder",
+  "thumb": "KIDNAPPED CASE",
+  "place": "Baltimore",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "TEEN VANISHED RAIN",
+      "query": "wet street lantern night",
+      "query2": "rainy city sidewalk",
+      "role": "hook",
+      "text": "A teen vanished on a rainy night"
+    },
+    {
+      "query": "Baltimore neighborhood map 1999",
+      "query2": "Woodlawn Park aerial view",
+      "role": "map",
+      "text": "The disappearance occurred near the Woodlawn Park area of Baltimore, Maryland."
+    },
+    {
+      "chips": [
+        {
+          "t": "8 months",
+          "on": "time",
+          "style": "white"
+        }
+      ],
+      "punch": "delay",
+      "query": "overgrown park path",
+      "query2": "empty park trail",
+      "role": "fact",
+      "text": "Lee’s body was found eight months later in a park."
+    },
+    {
+      "archive_query": "Baltimore police press release 2000 Hae Min Lee",
+      "archive_label": "2000 Press Release",
+      "query": "archival police announcement",
+      "query2": "vintage news release",
+      "role": "archive",
+      "text": "Police press release announcing the discovery."
+    },
+    {
+      "label": "UNSOLVED",
+      "sub": "No conviction has been secured.",
+      "label_on": "unsolved",
+      "query": "closed file folder",
+      "query2": "sealed evidence box",
+      "role": "callout",
+      "text": "Case still open"
+    },
+    {
+      "query": "turning calendar page",
+      "query2": "slow clock hand movement",
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one."
+    }
+  ],
+  "description": "A high‑profile murder that sparked nationwide debate. Examine the facts and ongoing controversy. Follow for more.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#HaeMinLee",
+    "#Baltimore",
+    "#coldcase",
+    "#history"
+  ]
+}

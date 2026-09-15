@@ -1,0 +1,62 @@
+{
+  "title": "Oklahoma City Terror Attack",
+  "thumb": "BOMB BURNS",
+  "place": "Oklahoma City",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "FERTILIZER BOMB",
+      "query": "aluminum building exterior before explosion",
+      "query2": "federal building facade day",
+      "role": "hook",
+      "text": "How 5,000 pounds of fertilizer devastated a building?"
+    },
+    {
+      "chips": [
+        {
+          "t": "5,000 LB",
+          "on": "pounds",
+          "style": "accent"
+        }
+      ],
+      "punch": "blast",
+      "query": "ammonium nitrate bag close up",
+      "query2": "large white fertilizer sack",
+      "role": "fact",
+      "text": "A truck bomb of about 5,000 pounds of ammonium nitrate exploded at the Alfred P. Murrah Federal Building."
+    },
+    {
+      "archive_query": "Alfred P. Murrah Federal Building aftermath 1995",
+      "archive_label": "Ruined facade",
+      "query": "collapsed concrete wall with dust",
+      "query2": "urban rubble after explosion",
+      "role": "archive",
+      "text": "News photo of the shattered building remains."
+    },
+    {
+      "label": "HOME‑GROWN TERROR",
+      "sub": "The first major act of domestic terrorism in the U.S.",
+      "label_on": "terror",
+      "query": "empty parking lot with police tape",
+      "query2": "caution tape across street",
+      "role": "callout",
+      "text": "Domestic Terrorism"
+    },
+    {
+      "query": "simple follow button animation",
+      "query2": "graphic subscribe cue",
+      "role": "cta",
+      "text": "Follow if you'd have cracked this one."
+    }
+  ],
+  "description": "The 1995 Oklahoma City bombing shocked a nation and reshaped security policies. Explore the details of the blast and its lasting impact.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#bombing",
+    "#OklahomaCity",
+    "#terror",
+    "#history"
+  ]
+}

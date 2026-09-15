@@ -1,0 +1,68 @@
+{
+  "title": "Sharon Tate Murder",
+  "thumb": "MURDER OF TATE",
+  "place": "Los Angeles",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "HOLLYWOOD STAR SLAYED",
+      "query": "creepy mansion exterior night",
+      "query2": "dark house silhouette",
+      "role": "hook",
+      "text": "A Hollywood star slain in her home"
+    },
+    {
+      "query": "Los Angeles hillside street 1969",
+      "query2": "Cielo Drive aerial view",
+      "role": "map",
+      "text": "The crime took place at 10050 Cielo Drive, Los Angeles, California."
+    },
+    {
+      "chips": [
+        {
+          "t": "4 victims",
+          "on": "victims",
+          "style": "accent"
+        }
+      ],
+      "punch": "four",
+      "query": "police tape on house front",
+      "query2": "crime scene markers",
+      "role": "fact",
+      "text": "Four people were killed on August 9, 1969."
+    },
+    {
+      "archive_query": "Cielo Drive crime scene diagram 1969",
+      "archive_label": "Crime Scene Sketch",
+      "query": "archival crime diagram",
+      "query2": "historical police sketch",
+      "role": "archive",
+      "text": "Police sketch of the crime scene layout."
+    },
+    {
+      "label": "MURDER MOTIVE",
+      "sub": "Manson family claimed responsibility.",
+      "label_on": "motive",
+      "query": "burned newspaper headlines",
+      "query2": "old magazine cover",
+      "role": "callout",
+      "text": "Cult motive"
+    },
+    {
+      "query": "flickering candle flame",
+      "query2": "slowly burning match",
+      "role": "cta",
+      "text": "Follow because some cases still need answers."
+    }
+  ],
+  "description": "The brutal 1969 slaying that shocked the film world. Learn the timeline and unanswered questions. Follow for more.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#SharonTate",
+    "#Manson",
+    "#Hollywood",
+    "#history"
+  ]
+}

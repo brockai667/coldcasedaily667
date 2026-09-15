@@ -14877,5 +14877,214 @@
       "#unsolved",
       "#history"
     ]
+  },
+  {
+    "title": "Nicole Brown Simpson Murder",
+    "thumb": "TRIAL SHOCK",
+    "place": "Los Angeles",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A glamorous actress was slain in a quiet L.A. cul‑de‑sac",
+        "hook_top": "GLAMOUR SLAYED",
+        "query": "Quiet suburban street Los Angeles night",
+        "query2": "Residential cul‑de‑sac lighting",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "Detectives recovered a bloody glove near the crime scene",
+        "chips": [
+          {
+            "t": "BLOODY GLOVE",
+            "on": "glove",
+            "style": "accent"
+          }
+        ],
+        "punch": "found",
+        "query": "Police evidence bag on pavement",
+        "query2": "Crime scene markers on street",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "The tranquil Brentwood residence where the tragedy occurred",
+        "archive_query": "Brentwood home exterior 1994",
+        "archive_label": "Brentwood Home",
+        "query": "Suburban house front view with garden",
+        "query2": "Quiet residential property façade",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "The case sparked a national media frenzy and a landmark trial",
+        "label": "MEDIA FRENZY",
+        "sub": "How a murder reshaped courtroom TV",
+        "label_on": "reshaped",
+        "query": "Television studio with bright lights",
+        "query2": "Courtroom broadcasting equipment",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "Animated follow button overlay",
+        "query2": "Social media follow icon",
+        "role": "cta"
+      }
+    ],
+    "description": "Unpack the investigation, evidence, and cultural impact of Nicole Brown Simpson's murder. Follow for more thorough true‑crime examinations.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#nicolebrown",
+      "#truecrime",
+      "#hollywood",
+      "#legaldrama"
+    ]
+  },
+  {
+    "title": "Lindbergh Baby Kidnapping",
+    "thumb": "MISSING BABY",
+    "place": "Hopewell, New Jersey",
+    "country": "United States",
+    "scenes": [
+      {
+        "hook_top": "NEWBORN VANISHED 1932",
+        "query": "empty nursery room night",
+        "query2": "old wooden crib shadows",
+        "role": "hook",
+        "text": "A newborn vanished from a bedside in 1932"
+      },
+      {
+        "query": "historic map Hopewell New Jersey 1930s",
+        "query2": "vintage aerial view New Jersey town",
+        "role": "map",
+        "text": "The crime occurred in Hopewell, New Jersey, USA."
+      },
+      {
+        "chips": [
+          {
+            "t": "3 DAYS",
+            "on": "days",
+            "style": "accent"
+          },
+          {
+            "t": "DITCH",
+            "on": "ditch",
+            "style": "white"
+          }
+        ],
+        "punch": "found",
+        "query": "isolated rural roadside ditch autumn",
+        "query2": "empty gravel road forest",
+        "role": "fact",
+        "text": "Police recovered the infant’s clothing three days later near a roadside ditch."
+      },
+      {
+        "archive_query": "Lindbergh baby clothing police photo site:wikimedia.org",
+        "archive_label": "Recovered clothing",
+        "query": "vintage police evidence photo",
+        "query2": "old crime scene documentation",
+        "role": "archive",
+        "text": "Original police photograph of the recovered clothing."
+      },
+      {
+        "label": "UNSOLVED MYSTERY",
+        "sub": "No one has been convicted for the kidnapping.",
+        "label_on": "unsolved",
+        "query": "empty courtroom bench",
+        "query2": "dark wooden paneling",
+        "role": "callout",
+        "text": "Case remains unsolved"
+      },
+      {
+        "query": "soft focus city skyline at dusk",
+        "query2": "quiet street lamp glow",
+        "role": "cta",
+        "text": "Follow for a new cold case every day."
+      }
+    ],
+    "description": "The 1932 Lindbergh kidnapping shocked a nation and still haunts investigators. Follow for more unsolved legends.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#lindbergh",
+      "#unsolved",
+      "#history",
+      "#mystery"
+    ]
+  },
+  {
+    "title": "Great Train Robbery 1963",
+    "thumb": "RAILWAY HEIST",
+    "place": "Chelford, Cheshire",
+    "country": "United Kingdom",
+    "scenes": [
+      {
+        "hook_top": "26M TRAIN HEIST",
+        "query": "empty railway line sunrise",
+        "query2": "deserted track with mist",
+        "role": "hook",
+        "text": "Six thieves stole £2.6 million from a speeding train."
+      },
+      {
+        "query": "vintage map Cheshire railways 1960s",
+        "query2": "old railway station aerial view",
+        "role": "map",
+        "text": "The robbery took place near Chelford, Cheshire, England."
+      },
+      {
+        "chips": [
+          {
+            "t": "FLATBED TRUCK",
+            "on": "truck",
+            "style": "white"
+          }
+        ],
+        "punch": "blocked",
+        "query": "old flatbed truck on railway crossing",
+        "query2": "rusty truck near tracks",
+        "role": "fact",
+        "text": "The gang used a flatbed truck to block the line and board the train."
+      },
+      {
+        "archive_query": "Great Train Robbery 1963 armored train image site:wikimedia.org",
+        "archive_label": "Armored train",
+        "query": "historic armored train carriage",
+        "query2": "vintage railway car exterior",
+        "role": "archive",
+        "text": "Photograph of the armored train after the robbery."
+      },
+      {
+        "label": "MISSING CASH",
+        "sub": "Only a fraction of the money was ever found.",
+        "label_on": "missing",
+        "query": "empty bank vault interior",
+        "query2": "dark stone floor with shadows",
+        "role": "callout",
+        "text": "Most loot never recovered"
+      },
+      {
+        "query": "soft focus night sky over rails",
+        "query2": "quiet countryside under moonlight",
+        "role": "cta",
+        "text": "Follow for the cases that were never solved."
+      }
+    ],
+    "description": "The 1963 Great Train Robbery remains one of Britain’s boldest heists, with much of the loot still missing. Follow for more daring crimes.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#trainrobbery",
+      "#ukhistory",
+      "#heist",
+      "#unsolved"
+    ]
   }
 ]
