@@ -15086,5 +15086,215 @@
       "#heist",
       "#unsolved"
     ]
+  },
+  {
+    "title": "The Heist of the French Crown Jewels",
+    "thumb": "CROWN JEWELS",
+    "place": "Paris",
+    "country": "France",
+    "scenes": [
+      {
+        "hook_top": "JEWEL HEIST 1970",
+        "query": "empty museum hall night",
+        "query2": "dimly lit vaulted room",
+        "role": "hook",
+        "text": "When 4 thieves stole 1.5 million francs of jewels in 1970"
+      },
+      {
+        "query": "Louvre exterior night",
+        "query2": "Paris museum façade dusk",
+        "role": "map",
+        "text": "The theft took place at the Louvre Museum in Paris, France."
+      },
+      {
+        "chips": [
+          {
+            "t": "2,000 pieces",
+            "on": "pieces",
+            "style": "accent"
+          },
+          {
+            "t": "2 recovered",
+            "on": "recovered",
+            "style": "white"
+          }
+        ],
+        "punch": "only",
+        "query": "close‑up of sparkling gems",
+        "query2": "display case with empty slots",
+        "role": "fact",
+        "text": "Police recovered only 2 of the 2,000 stolen pieces."
+      },
+      {
+        "archive_query": "Louvre 1970 robbery newspaper archive",
+        "archive_label": "1970 Louvre robbery headline",
+        "query": "vintage newspaper front page",
+        "query2": "old press clipping",
+        "role": "archive",
+        "text": "A 1970 newspaper headline announcing the robbery."
+      },
+      {
+        "label": "UNSOLVED",
+        "sub": "Who vanished with the priceless gems?",
+        "label_on": "unsolved",
+        "query": "shadowy empty gallery",
+        "query2": "dim hallway with missing frames",
+        "role": "callout",
+        "text": "Unsolved Mystery"
+      },
+      {
+        "query": "hand turning a page",
+        "query2": "paper scroll animation",
+        "role": "cta",
+        "text": "Follow for a new cold case every day."
+      }
+    ],
+    "description": "The 1970 Louvre theft still haunts France; half a millennium of speculation remains. Follow for more true‑crime deep dives.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#heist",
+      "#Louvre",
+      "#jewels",
+      "#unsolved"
+    ]
+  },
+  {
+    "title": "The Mystery of the Dyatlov Pass",
+    "thumb": "DYATLOV PASS",
+    "place": "Ural Mountains",
+    "country": "Russia",
+    "scenes": [
+      {
+        "hook_top": "9 HIKERS MYSTERY",
+        "query": "snow‑covered mountain ridge",
+        "query2": "cold alpine landscape night",
+        "role": "hook",
+        "text": "Nine hikers died under baffling circumstances in 1959 Siberia"
+      },
+      {
+        "query": "Siberian forest winter aerial",
+        "query2": "remote mountain trail snow",
+        "role": "map",
+        "text": "The incident occurred on the slopes of Kholat Syakhl, Ural Mountains, Russia."
+      },
+      {
+        "chips": [
+          {
+            "t": "tent ripped",
+            "on": "tent",
+            "style": "accent"
+          }
+        ],
+        "punch": "inside",
+        "query": "torn canvas close‑up",
+        "query2": "damaged tent fabric",
+        "role": "fact",
+        "text": "Investigators found their tent ripped open from the inside."
+      },
+      {
+        "archive_query": "Dyatlov Pass investigation diagram archive",
+        "archive_label": "Site diagram 1959",
+        "query": "old map sketch",
+        "query2": "hand‑drawn terrain diagram",
+        "role": "archive",
+        "text": "Original Soviet investigation diagram of the site."
+      },
+      {
+        "label": "UNSOLVED",
+        "sub": "Scientists still debate the cause of death.",
+        "label_on": "unsolved",
+        "query": "frosted window pane",
+        "query2": "snow blowing across ground",
+        "role": "callout",
+        "text": "Cold Case"
+      },
+      {
+        "query": "breath fog in cold air",
+        "query2": "cold wind animation",
+        "role": "cta",
+        "text": "Follow if you'd have cracked this one."
+      }
+    ],
+    "description": "The Dyatlov Pass incident continues to intrigue researchers and conspiracy theorists alike. Stay tuned for more mysterious true‑crime stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#DyatlovPass",
+      "#mystery",
+      "#Russia",
+      "#unsolved",
+      "#truecrime"
+    ]
+  },
+  {
+    "title": "Heaven's Gate Mass Suicide",
+    "thumb": "COSMIC END",
+    "place": "Rural San Diego County",
+    "country": "United States",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "39 members left Earth in a 1997 UFO ritual",
+        "hook_top": "39 UFO SUICIDE",
+        "query": "desert night sky with stars",
+        "query2": "empty rural road at twilight",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "All victims took phenobarbital before stepping onto a runway.",
+        "chips": [
+          {
+            "t": "PHENOBARBITAL",
+            "on": "drug",
+            "style": "white"
+          }
+        ],
+        "punch": "pill",
+        "query": "bottles of pills on table",
+        "query2": "medicine bottle close up",
+        "role": "fact"
+      },
+      {
+        "type": "archive",
+        "text": "The group's leased mansion where the tragedy occurred.",
+        "archive_query": "Heaven's Gate mansion San Diego site:wikimedia.org",
+        "archive_label": "Mansion exterior",
+        "query": "large suburban house exterior night",
+        "query2": "quiet residential building under moon",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "The cult believed they would board a spacecraft hidden behind the comet.",
+        "label": "COSMIC BELIEF",
+        "sub": "They sought a higher existence",
+        "label_on": "belief",
+        "query": "comet streaking night sky",
+        "query2": "spacecraft silhouette over horizon",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the cases that were never solved.",
+        "query": "simple motion graphic follow button",
+        "query2": "animated subscribe icon",
+        "role": "cta"
+      }
+    ],
+    "description": "A UFO‑obsessed cult ended their lives together, believing they would ascend to an alien ship. Their story remains one of the most chilling modern tragedies. Follow for more eerie true‑crime stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#truecrime",
+      "#cult",
+      "#heavensgate",
+      "#mystery",
+      "#unsolved"
+    ]
   }
 ]

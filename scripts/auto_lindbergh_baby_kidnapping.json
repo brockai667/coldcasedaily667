@@ -1,0 +1,73 @@
+{
+  "title": "Lindbergh Baby Kidnapping",
+  "thumb": "MISSING BABY",
+  "place": "Hopewell, New Jersey",
+  "country": "United States",
+  "scenes": [
+    {
+      "hook_top": "NEWBORN VANISHED 1932",
+      "query": "empty nursery room night",
+      "query2": "old wooden crib shadows",
+      "role": "hook",
+      "text": "A newborn vanished from a bedside in 1932"
+    },
+    {
+      "query": "historic map Hopewell New Jersey 1930s",
+      "query2": "vintage aerial view New Jersey town",
+      "role": "map",
+      "text": "The crime occurred in Hopewell, New Jersey, USA."
+    },
+    {
+      "chips": [
+        {
+          "t": "3 DAYS",
+          "on": "days",
+          "style": "accent"
+        },
+        {
+          "t": "DITCH",
+          "on": "ditch",
+          "style": "white"
+        }
+      ],
+      "punch": "found",
+      "query": "isolated rural roadside ditch autumn",
+      "query2": "empty gravel road forest",
+      "role": "fact",
+      "text": "Police recovered the infant’s clothing three days later near a roadside ditch."
+    },
+    {
+      "archive_query": "Lindbergh baby clothing police photo site:wikimedia.org",
+      "archive_label": "Recovered clothing",
+      "query": "vintage police evidence photo",
+      "query2": "old crime scene documentation",
+      "role": "archive",
+      "text": "Original police photograph of the recovered clothing."
+    },
+    {
+      "label": "UNSOLVED MYSTERY",
+      "sub": "No one has been convicted for the kidnapping.",
+      "label_on": "unsolved",
+      "query": "empty courtroom bench",
+      "query2": "dark wooden paneling",
+      "role": "callout",
+      "text": "Case remains unsolved"
+    },
+    {
+      "query": "soft focus city skyline at dusk",
+      "query2": "quiet street lamp glow",
+      "role": "cta",
+      "text": "Follow for a new cold case every day."
+    }
+  ],
+  "description": "The 1932 Lindbergh kidnapping shocked a nation and still haunts investigators. Follow for more unsolved legends.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#truecrime",
+    "#lindbergh",
+    "#unsolved",
+    "#history",
+    "#mystery"
+  ]
+}

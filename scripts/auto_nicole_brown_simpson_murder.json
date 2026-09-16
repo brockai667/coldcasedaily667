@@ -1,0 +1,68 @@
+{
+  "title": "Nicole Brown Simpson Murder",
+  "thumb": "TRIAL SHOCK",
+  "place": "Los Angeles",
+  "country": "United States",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A glamorous actress was slain in a quiet L.A. cul‑de‑sac",
+      "hook_top": "GLAMOUR SLAYED",
+      "query": "Quiet suburban street Los Angeles night",
+      "query2": "Residential cul‑de‑sac lighting",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "Detectives recovered a bloody glove near the crime scene",
+      "chips": [
+        {
+          "t": "BLOODY GLOVE",
+          "on": "glove",
+          "style": "accent"
+        }
+      ],
+      "punch": "found",
+      "query": "Police evidence bag on pavement",
+      "query2": "Crime scene markers on street",
+      "role": "fact"
+    },
+    {
+      "type": "archive",
+      "text": "The tranquil Brentwood residence where the tragedy occurred",
+      "archive_query": "Brentwood home exterior 1994",
+      "archive_label": "Brentwood Home",
+      "query": "Suburban house front view with garden",
+      "query2": "Quiet residential property façade",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "The case sparked a national media frenzy and a landmark trial",
+      "label": "MEDIA FRENZY",
+      "sub": "How a murder reshaped courtroom TV",
+      "label_on": "reshaped",
+      "query": "Television studio with bright lights",
+      "query2": "Courtroom broadcasting equipment",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the cases that were never solved.",
+      "query": "Animated follow button overlay",
+      "query2": "Social media follow icon",
+      "role": "cta"
+    }
+  ],
+  "description": "Unpack the investigation, evidence, and cultural impact of Nicole Brown Simpson's murder. Follow for more thorough true‑crime examinations.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#nicolebrown",
+    "#truecrime",
+    "#hollywood",
+    "#legaldrama"
+  ]
+}
