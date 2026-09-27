@@ -139,5 +139,17 @@
    "era": "ancient"
   }
  ],
- "speed": 1.12
+ "speed": 1.12,
+ "look_used": {
+  "world": "snow",
+  "terrain": "peaks",
+  "time": "dusk",
+  "weather": "clear",
+  "palette": 2,
+  "decor": [
+   "cairn",
+   "firs"
+  ],
+  "moon": "full"
+ }
 }
