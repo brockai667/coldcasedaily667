@@ -1,0 +1,143 @@
+{
+ "title": "The Mystery of Roopkund",
+ "topic": "Roopkund",
+ "facts": [
+  "Roopkund is a high‑altitude glacial lake in the Himalayas at 5,020 m (16,470 ft) elevation in Chamoli District, Uttarakhand, India.",
+  "The lake is seldom more than 40 m in diameter, covering about 1,000–1,500 m², and is about three metres deep.",
+  "Skeletons were rediscovered in 1942 by forest ranger Hari Kishan Madhwal of Nanda Devi National Park.",
+  "A National Geographic team retrieved about 30 skeletons in 2003, some still with flesh attached.",
+  "Radiocarbon dating at Oxford University placed the older group of remains at 850 CE ± 30 years (around 800 CE).",
+  "Genome‑wide analysis identified three distinct ancestry groups: 23 individuals (~800 CE) with South Asian ancestry, 1 individual (~1800 CE) with Southeast Asian ancestry, and 14 individuals (~1800 CE) with eastern Mediterranean ancestry.",
+  "The older South Asian remains appear to have been deposited over an extended period, while the younger Mediterranean and Southeast Asian remains were deposited in a single event.",
+  "Local legend attributes the deaths to a sudden hailstorm that killed a pilgrimage party led by King Raja Jasdhaval and his wife Rani Balampa.",
+  "The lake's skeletons are visible in clear water for about one month each year when the ice melts.",
+  "Tourists have been reported to remove bones on mules, prompting conservation concerns from Chamoli district authorities.",
+  "The lake freezes for most of the year; the optimal trekking season is autumn (mid‑September to October).",
+  "The typical multi‑day trek from Lohajung to Roopkund takes about five days and passes through alpine meadows such as Bedni Bugyal."
+ ],
+ "world": "snow",
+ "hero": "ranger",
+ "lines": [
+  {
+   "say": "In 1942, a forest ranger walks toward a lake.",
+   "shot": "walk_in",
+   "params": {
+    "object": "water",
+    "year": null
+   },
+   "fact": "Roopkund is a high‑altitude glacial lake in the Himalayas at 5,020 m (16,470 ft) elevation in Chamoli District, Uttarakhand, India.",
+   "cue": "ranger",
+   "era": "historic"
+  },
+  {
+   "say": "He discovers dozens of ancient bones.",
+   "shot": "spot",
+   "params": {
+    "object": "bones",
+    "action": "find"
+   },
+   "fact": "Skeletons were rediscovered in 1942 by forest ranger Hari Kishan Madhwal of Nanda Devi National Park.",
+   "cue": "bones",
+   "era": "ancient"
+  },
+  {
+   "say": "Each summer melt reveals the skeletons for a month.",
+   "shot": "object_reveal",
+   "params": {
+    "object": "water",
+    "action": "watch"
+   },
+   "fact": "The lake's skeletons are visible in clear water for about one month each year when the ice melts.",
+   "cue": "the",
+   "era": "ancient"
+  },
+  {
+   "say": "The lake stretches roughly forty meters across.",
+   "shot": "scale_measure",
+   "params": {
+    "object": "water",
+    "value": 40.0,
+    "unit": "m",
+    "axis": "h",
+    "action": "measure"
+   },
+   "fact": "The lake is seldom more than 40 m in diameter, covering about 1,000–1,500 m², and is about three metres deep.",
+   "gold": {
+    "count": 40.0,
+    "unit": "m",
+    "axis": "h"
+   },
+   "cue": "roughly",
+   "era": "ancient"
+  },
+  {
+   "say": "A thousand years separate the South Asian and Mediterranean remains.",
+   "shot": "timeline_compare",
+   "params": {
+    "vs": "800 CE",
+    "vs2": "1800 CE",
+    "years": 1000,
+    "action": "point"
+   },
+   "fact": "Genome‑wide analysis identified three distinct ancestry groups: 23 individuals (~800 CE) with South Asian ancestry, 1 individual (~1800 CE) with Southeast Asian ancestry, and 14 individuals (~1800 CE) with eastern Mediterranean ancestry.",
+   "gold": {
+    "count": 1000,
+    "unit": "YEARS"
+   },
+   "vs": "800 ce",
+   "cue": "South",
+   "era": "ancient"
+  },
+  {
+   "say": "In 2003, a team extracts thirty skeletons, some still fleshed.",
+   "shot": "action_crowd",
+   "params": {
+    "era": "modern",
+    "cargo": "bones",
+    "count": 30,
+    "action": "carry"
+   },
+   "fact": "A National Geographic team retrieved about 30 skeletons in 2003, some still with flesh attached.",
+   "gold": {
+    "text": "30"
+   },
+   "cue": "thirty",
+   "era": "modern"
+  },
+  {
+   "say": "Legends claim a sudden hailstorm killed the royal pilgrimage.",
+   "shot": "theory",
+   "params": {
+    "bubble": "hailstorm"
+   },
+   "fact": "Local legend attributes the deaths to a sudden hailstorm that killed a pilgrimage party led by King Raja Jasdhaval and his wife Rani Balampa.",
+   "bubble": "hailstorm",
+   "cue": "hailstorm",
+   "era": "ancient"
+  },
+  {
+   "say": "The mystery remains completely unexplained.",
+   "shot": "punch",
+   "params": {
+    "word": "UNEXPLAINED"
+   },
+   "fact": "The case has never been explained.",
+   "cue": "",
+   "era": "ancient",
+   "gold": {
+    "text": "UNEXPLAINED"
+   }
+  },
+  {
+   "say": "What truly lies behind this mystery?",
+   "shot": "loop_close",
+   "params": {
+    "question": "What truly lies behind this mystery?"
+   },
+   "fact": "Open question for the viewer.",
+   "cue": "behind",
+   "era": "ancient"
+  }
+ ],
+ "speed": 1.12
+}

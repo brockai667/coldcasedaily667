@@ -1,0 +1,140 @@
+{
+ "title": "The Somerton Man Mystery",
+ "topic": "The Somerton Man",
+ "facts": [
+  "Tamam Shud: The Somerton Man Mystery is a 2012 non-fiction book by Australian author Kerry Greenwood.\nIt was the winner of the Readers Choice Davitt Award in 2013.\n\n\n== Synopsis ==\nThe author investigates the case of the \"Somerton Man\", an unidentified man whose body was found on 1 December 1948 on the beach at Somerton, a suburb of Adelaide, South Australia.\nThe book also contains a Phryne Fisher story about the mystery.\n\n\n== Critical reception ==\nIn The Advertiser newspaper Katherine England commented: \"This is a very Greenwood book; gossipy, personal, sometimes a little silly and endlessly but purposefully discursive, always coming round to some aspect of the crime or theory about its solution. The last word on the case, and a second imaginative elucidation, is given to the fabulous Phryne Fisher - a Phryne aged by her Resistance work during the war, her black hair slightly silvered in her late 40s, her memories haunted, but her instinct and feminist ethics still safely intact.\"\nReviewing the book for the Sydney Review of Books Jennifer Mills saw it as a missed opportunity: \"Someone in love with their form can see infinite potential within it, and Greenwood’s storytelling is impeccable, engaging, great fun. But someone in love with their form can also miss the potential that lies in breaking away from it, shifting familiar parameters to suit the demands of a different kind of story. Greenwood’s curiosity is so infectious, her stories so interesting, and the mystery of Somerton Man so fascinating, that this flaw can easily slip past us.\"\n\n\n== Awards ==\n2013 Davitt Award Readers Choice, winner\n\n\n== See also ==\n2012 in Australian literature\n\n\n== References =="
+ ],
+ "world": "shore",
+ "hero": "detective",
+ "lines": [
+  {
+   "say": "In 1948 a detective walks the Somerton shore.",
+   "shot": "walk_in",
+   "params": {
+    "object": "water",
+    "year": 1948
+   },
+   "see": "A stick-figure detective in a trench coat walks along a sandy beach toward the water under a pale sky; the year 1948 glints in gold above the horizon.",
+   "gold": {
+    "text": "1948"
+   },
+   "cue": "1948",
+   "era": "historic"
+  },
+  {
+   "say": "He discovers a body on the quiet beach.",
+   "shot": "spot",
+   "params": {
+    "object": "body",
+    "action": "watch"
+   },
+   "see": "The detective kneels beside a motionless stick figure lying on the sand, one hand raised as if pointing.",
+   "cue": "body",
+   "era": "ancient"
+  },
+  {
+   "say": "No identification marks exist on the unknown man.",
+   "shot": "detail_compare",
+   "params": {
+    "object": "body"
+   },
+   "see": "A magnifying lens hovers over the coat on the body, revealing blank labels and no marks.",
+   "cue": "on",
+   "era": "ancient"
+  },
+  {
+   "say": "A hidden pocket holds a torn letter.",
+   "shot": "insert",
+   "params": {
+    "object": "letter",
+    "mark": "none",
+    "label": "TORN LETTER",
+    "inside": false
+   },
+   "see": "The detective lifts a tiny fragment of paper from a concealed pocket; the words 'Tamam Shud' are faintly visible on the torn edge.",
+   "cue": "letter",
+   "era": "ancient"
+  },
+  {
+   "say": "The phrase means ended in a rare poetry book.",
+   "shot": "theory",
+   "params": {
+    "bubble": "book"
+   },
+   "see": "A thought bubble shows a book; the detective strokes his chin, pondering the literary clue.",
+   "bubble": "book",
+   "cue": "in",
+   "era": "ancient"
+  },
+  {
+   "say": "A rare copy matches the torn letter.",
+   "shot": "insert",
+   "params": {
+    "object": "book_torn",
+    "mark": "circle",
+    "label": "MATCHES",
+    "inside": false
+   },
+   "see": "The detective holds a slender volume beside the paper scrap; the torn edges align perfectly.",
+   "cue": "matches",
+   "era": "ancient"
+  },
+  {
+   "say": "A secret code appears inside the book cover.",
+   "shot": "insert",
+   "params": {
+    "object": "book",
+    "mark": "circle",
+    "label": "SECRET CODE",
+    "inside": true
+   },
+   "see": "Inside a dim room, the detective examines the book's inner cover; faint pencil letters form an unbroken cipher.",
+   "cue": "book",
+   "era": "ancient"
+  },
+  {
+   "say": "The case remains completely unexplained.",
+   "shot": "punch",
+   "params": {
+    "word": "UNEXPLAINED"
+   },
+   "see": "The golden word UNEXPLAINED pulses above the waves.",
+   "cue": "",
+   "era": "ancient",
+   "gold": {
+    "text": "UNEXPLAINED"
+   }
+  },
+  {
+   "say": "Who was the man on Somerton beach?",
+   "shot": "loop_close",
+   "params": {
+    "question": "Who was the man on Somerton beach?"
+   },
+   "see": "The detective fades into the distance; the question hangs in gold over the empty beach.",
+   "cue": "man",
+   "era": "ancient"
+  }
+ ],
+ "generator": "v3",
+ "speed": 1.12,
+ "critic": {
+  "hook": 7,
+  "story": 8,
+  "picture": 5,
+  "clarity": 6
+ },
+ "look_used": {
+  "world": "shore",
+  "terrain": "beach",
+  "time": "dusk",
+  "weather": "overcast",
+  "palette": 0,
+  "decor": [
+   "sailboat",
+   "island",
+   "buoy"
+  ],
+  "moon": "full"
+ }
+}
