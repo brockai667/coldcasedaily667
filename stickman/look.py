@@ -57,7 +57,8 @@ DECOR_BLOCK = {("shore", "cliffs"): ("driftwood",), ("shore", "harbour"): ("drif
 
 # ------------------------------------------------------------------ slova v naracii
 KW_TIME = (("night", r"\b(night|nights|midnight|dark|darkness|moon|moonlight|moonlit)\b"),
-           ("dusk", r"\b(dusk|sunset|sundown|evening|twilight|nightfall|dawn|sunrise)\b"))
+           ("dusk", r"\b(dusk|sunset|sundown|evening|twilight|nightfall|dawn|sunrise)\b"),
+           ("day", r"\b(morning|noon|midday|daylight|daytime|sunny|afternoon|sunshine)\b"))
 KW_WEATHER = (("rain", r"\b(storm|storms|stormy|rain|rains|raining|rainy|gale|gales|downpour|thunder|thunderstorm)\b"),
               ("fog", r"\b(fog|foggy|mist|misty|haze|hazy)\b"))
 KW_TERRAIN = {

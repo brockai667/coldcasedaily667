@@ -39,7 +39,8 @@ CATALOG = {
     "spot": ("the character finds something: kneels and uncovers a small object, or spots a big one and points",
              "object, action (find | point), inside (true when it happens in a room)"),
     "dig": ("the character digs, the pit deepens and the object emerges from the ground", "object"),
-    "descend": ("the camera goes down a shaft or into water, a ruler counts the depth", "value, unit (m | ft)"),
+    "descend": ("the character climbs down a shaft or dives, a ruler counts the depth - only for the character's "
+                "own descent, never for victims or bodies", "value, unit (m | ft)"),
     "object_reveal": ("the object close up, the character next to it reacting (looks into it, touches it, holds it up)",
                       "object, action (watch | reach | climb | find), inside (true when it happens in a room)"),
     "detail_compare": ("a magnifying lens shows a close detail of the object (marks, strange writing, damage)",
@@ -345,6 +346,11 @@ def _fix_unspoken(spec):
         # telo sa nevykopava ani nedviha: postava k nemu pride, ukaze a klakne (spot/object_reveal s watch)
         if pr.get("object") == "body" and pr.get("action") in ("find", "dig", "reach", "carry"):
             pr["action"] = "watch"
+        # zostup do sachty (s vykrikom AAAAH) nie je zaber na obete - „buried under four meters of snow" -> insert tela
+        if l["shot"] == "descend" and re.search(r"\b(bod(y|ies)|dead|victims?|missing|buried|remains|corpses?)\b", l["say"].lower()):
+            l["shot"] = "insert"
+            lab = next((w.upper() for w in ("buried", "missing", "found") if re.search(r"\b" + w, l["say"].lower())), "")
+            pr = {"object": "body", "mark": "none", "inside": False} | ({"label": lab} if lab else {})
         # „obrovska vlna" v bubline je vlna, nie jazero
         if l["shot"] == "theory" and str(pr.get("bubble") or "").lower() in ("water", "sea", "ocean") \
                 and re.search(r"\b(waves?|tsunami|swell)\b", l["say"].lower()):
