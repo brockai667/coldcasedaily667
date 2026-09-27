@@ -1,10 +1,10 @@
 name: ColdCase Stickman
 
 # Denna panacikova epizoda (nevyrieseny pripad): pribeh z Wikipedie cez OpenRouter (free),
-# render HyperFrames, Buffer o 12:00 Bratislava. Cron sa zapne az po schvalenom dry-run behu:
-#   schedule:
-#     - cron: "10 4 * * *"   # 04:10 UTC - hotove davno pred publik. slotom (12:00 SK)
+# render HyperFrames, Buffer o 12:00 Bratislava. Dry-run v Actions presiel 27.9. (3 min), cron zapnuty.
 on:
+  schedule:
+    - cron: "10 4 * * *"   # 04:10 UTC - hotove davno pred publik. slotom (12:00 SK)
   workflow_dispatch:
     inputs:
       dry_run:
