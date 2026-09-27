@@ -15,6 +15,10 @@ on:
         description: "Konkretna tema (prazdne = prva nepouzita z banky)"
         type: string
         default: ""
+      spec:
+        description: "Hotovy spec (napr. stickman/specs/the-somerton-man.json) - preskoci generovanie pribehu"
+        type: string
+        default: ""
 
 permissions:
   contents: write            # commit stavu (topics.json, specs/, published.json)
@@ -92,6 +96,9 @@ jobs:
           fi
           if [ -n "${{ inputs.topic }}" ]; then
             ARGS="$ARGS --topic \"${{ inputs.topic }}\""
+          fi
+          if [ -n "${{ inputs.spec }}" ]; then
+            ARGS="$ARGS --spec \"${{ inputs.spec }}\""
           fi
           echo "run_daily.py $ARGS"
           eval python stickman/run_daily.py $ARGS

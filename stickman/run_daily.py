@@ -203,10 +203,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="vyrob video, nepublikuj")
     ap.add_argument("--topic", default=None, help="konkretna tema namiesto banky")
+    ap.add_argument("--spec", default=None, help="hotovy spec JSON - preskoci generovanie pribehu (test/rerun)")
     a = ap.parse_args()
 
     bank = load_json(TOPICS, {"used": [], "topics": []})
-    for _ in range(3):
+    if a.spec:
+        spec_path = os.path.abspath(a.spec)
+        spec = load_json(spec_path, {})
+        topic = spec.get("topic") or os.path.basename(spec_path)
+        a.topic = topic                      # hotovy spec = konkretna tema, banka sa nemeni
+        log("=== SPEC: %s%s ===" % (spec_path, "  (dry-run)" if a.dry_run else ""))
+    for _ in range(0 if a.spec else 3):
         topic = pick_topic(bank, a.topic)
         if not topic:
             log("Banka tem je prazdna - nic na vyrobu.")
@@ -224,7 +231,8 @@ def main():
             bank["auto"] = [t for t in bank.get("auto", []) if t != topic]
             save_json(TOPICS, bank)
     else:
-        raise RuntimeError("tri temy za sebou sa nedali spracovat")
+        if not a.spec:
+            raise RuntimeError("tri temy za sebou sa nedali spracovat")
     log("  [spec] %s  (%d viet, world=%s, hero=%s, speed=%s, kritik=%s)"
         % (spec.get("title"), len(spec["lines"]), spec.get("world"), spec.get("hero"), spec.get("speed"),
            spec.get("critic")))
