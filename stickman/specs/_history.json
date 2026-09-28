@@ -1,0 +1,19 @@
+[
+ {
+  "topic": "The Dyatlov Pass incident",
+  "world": "snow",
+  "hero": "detective",
+  "shots": [
+   "walk_in",
+   "spot",
+   "object_reveal",
+   "spot",
+   "object_reveal",
+   "detail_compare",
+   "insert",
+   "theory",
+   "punch",
+   "loop_close"
+  ]
+ }
+]

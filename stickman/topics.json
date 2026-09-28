@@ -1,7 +1,6 @@
 {
  "channel": "ColdCase (stickman)",
  "topics": [
-  "The Dyatlov Pass incident",
   "The Mary Celeste",
   "D. B. Cooper",
   "The Hinterkaifeck murders",
@@ -82,7 +81,8 @@
  ],
  "used": [
   "The Flannan Isles lighthouse",
-  "The Somerton Man"
+  "The Somerton Man",
+  "The Dyatlov Pass incident"
  ],
  "auto": [
   "Deaths of Kris Kremers and Lisanne Froon",

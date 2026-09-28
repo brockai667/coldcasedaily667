@@ -1,0 +1,20 @@
+{
+ "runs": [
+  {
+   "date": "2026-09-28",
+   "topic": "The Dyatlov Pass incident",
+   "slug": "the-dyatlov-pass-incident",
+   "title": "The Dyatlov Pass Incident",
+   "seconds": 28.12,
+   "due": "2026-09-28T16:00:00.000Z",
+   "url": "https://github.com/brockai667/coldcasedaily667/releases/download/media/the-dyatlov-pass-incident.mp4",
+   "services": [
+    "instagram",
+    "youtube",
+    "tiktok"
+   ],
+   "failed": [],
+   "look": null
+  }
+ ]
+}
