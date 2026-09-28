@@ -565,3 +565,299 @@ NEW.update({"coat_hanging": p_coat_hanging, "book_torn": p_book_torn})
 SIZES.update({"coat_hanging": ("h", 0.62),    # plast bez stojana, o niecu kratsi nez na vesiaku
               "book_torn": ("w", 0.18)})      # rovnaka velkost ako cela kniha (book)
 register()
+
+
+# ================================================================== JAVY (UnexplainedDaily)
+# Kanal rozprava o javoch (svetla na oblohe, hucanie, signaly, hmla, blesky, kratery), nie len o predmetoch -
+# bez nich kritik dal obrazu 3/10 (katalog mal kamen, lod, lebku..., ale nic pre svetlo, zvuk ani signal).
+# Vsetko STATICKE (ziadna animacia) - neviditelna slucka ostava nedotknuta, "zivot" dava boil filter ako
+# vsetkym ciaram. Ciary INK maju pod sebou polopriesvitny svetly podklad (PAPER): cez den na papieri ho nevidno,
+# v noci na tmavej oblohe obrys "svieti" (rovnaky trik ako biely lem titulkov).
+# Vsetkych sest je "obj" (stage.dominance): insert ich ukaze v krajine s oblohou (insert_shots._big_focus),
+# nie na plochej zemi ako male predmety. P.FOCUS = ohnisko (kam ide kruh/krizik/sipka, co musi byt v zabere).
+GLOW_CORE = "#fffdf2"
+GLOW_IN = "#ffe680"
+GLOW_MID = "#ffd84f"
+GLOW_OUT = "#ffcf40"
+GLOW_RAY = "#f5a623"
+BOLT = "#fffbe3"
+STORM = "#a3aab5"
+STORM_D = "#7f8794"
+SOIL = "#c2a579"
+SOIL_D = "#6b5439"
+SOIL_W = "#9a7b55"
+SOIL_F = "#4a3a28"
+DISH_W = "#f3f1ea"
+DISH_B = "#cfcbc1"
+CONCRETE = "#d8d2c4"
+
+
+def _glow_line(d, w, sw_ink=7, halo=0.55):
+    """Svetly podklad pod ciaru INK (v noci sa obrys od tmavej oblohy odlisi, cez den nevidno)."""
+    return (f'<path d="{d}" fill="none" stroke="{PAPER}" stroke-width="{sw_ink + w}" stroke-linecap="round" '
+            f'stroke-linejoin="round" opacity="{halo}"/>')
+
+
+def _poly(pts, close=False):
+    return "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in pts) + (" Z" if close else "")
+
+
+# ------------------------------------------------------------------ svetelna gula
+LIGHT_Y = -420          # stred gule nad zemou - vznasa sa vo vyske ~2,3 m
+
+
+def _sparkle(x, y, s):
+    """Styrcipa iskra (ako hviezdy v noci), s obrysom - cez den na papieri nezmizne."""
+    q = s * 0.26
+    return (f'<path d="M{x:.0f},{y - s:.0f} L{x + q:.1f},{y - q:.1f} L{x + s:.0f},{y:.0f} L{x + q:.1f},{y + q:.1f} '
+            f'L{x:.0f},{y + s:.0f} L{x - q:.1f},{y + q:.1f} L{x - s:.0f},{y:.0f} L{x - q:.1f},{y - q:.1f} Z" '
+            f'fill="#fff6cc" stroke="{INK}" stroke-width="3.5" stroke-linejoin="round"/>')
+
+
+def p_light(pid=""):
+    """Svetelna gula vo vzduchu (Hessdalen, bludicka, "orb"): biele jadro s obrysom, makka zlta ziara (tri vrstvy
+    bez obrysu), dva prerusovane "pulzujuce" kruhy a styri iskry - ziadne luce, cez den nesmie vyzerat ako druhe
+    slnko. Dotyk so zemou (y=0) je svetelna skvrna pod gulou, nie predmet - gula visi vo vzduchu."""
+    cy = LIGHT_Y
+    pool = (f'<path d="{P.ell(0, 0, 124, 18)}" fill="{GLOW_MID}" opacity="0.40"/>'
+            f'<path d="{P.ell(0, 0, 66, 10)}" fill="{GLOW_IN}" opacity="0.70"/>')
+    halo = (f'<circle cx="0" cy="{cy}" r="150" fill="{GLOW_OUT}" opacity="0.16"/>'
+            f'<circle cx="0" cy="{cy}" r="116" fill="{GLOW_MID}" opacity="0.30"/>'
+            f'<circle cx="0" cy="{cy}" r="84" fill="{GLOW_IN}" opacity="0.62"/>')
+    rings = (f'<circle cx="0" cy="{cy}" r="104" fill="none" stroke="{GLOW_RAY}" stroke-width="6" '
+             f'stroke-dasharray="18 14" stroke-linecap="round"/>'
+             f'<circle cx="0" cy="{cy}" r="138" fill="none" stroke="{GLOW_RAY}" stroke-width="5" '
+             f'stroke-dasharray="10 22" stroke-linecap="round" opacity="0.8"/>')
+    sparks = "".join(_sparkle(x, cy + y, s) for x, y, s in ((-118, -104, 17), (126, -78, 13), (112, 110, 15),
+                                                            (-128, 84, 11)))
+    core = (f'<circle cx="0" cy="{cy}" r="52" fill="{GLOW_CORE}" stroke="{INK}" stroke-width="7"/>'
+            f'<circle cx="0" cy="{cy}" r="52" fill="none" stroke="{GLOW_IN}" stroke-width="10" opacity="0.8"/>'
+            f'<circle cx="0" cy="{cy}" r="52" fill="none" stroke="{INK}" stroke-width="7"/>'
+            f'<circle cx="-6" cy="{cy - 6}" r="27" fill="#ffffff"/>'
+            f'<path d="M-30,{cy - 14} q8,-19 28,-23" fill="none" stroke="#ffffff" stroke-width="6" '
+            f'stroke-linecap="round"/>')
+    return _r(pool + halo + rings + sparks + core, 300, 570)
+
+
+# ------------------------------------------------------------------ blesk z burkoveho mraku
+_CLOUD_Q = ((-40, -6, -22, -40), (14, -38, 56, -22), (22, -46, 70, -18), (44, -8, 40, 36), (34, 10, 8, 44))
+
+
+def _cloud_d(cx, cy, sx, sy):
+    """Obrys rucne kresleneho oblaku (props.cloud) natiahnuty bez transformacie - hrubka ciary ostane rovnaka."""
+    return (f"M{cx - 90 * sx:.1f},{cy + 30 * sy:.1f}"
+            + "".join(f" q{a * sx:.1f},{b * sy:.1f} {c * sx:.1f},{e * sy:.1f}" for a, b, c, e in _CLOUD_Q) + " Z")
+
+
+def p_lightning(pid=""):
+    """Blesk z burkoveho mraku do zeme: dva tmavosive oblaky, lomeny blesk (ziara, obrys, svetle jadro), dve
+    bocne vetvy, na zemi zablesk, iskry a dva odletene kamienky v mieste zasahu. Mrak je sucast kresby - blesk
+    sa cita aj v bubline teorie a v detaile bez oblohy."""
+    clouds = (f'<path d="{_cloud_d(140, -912, 1.9, 1.25)}" fill="{STORM_D}" stroke="{INK}" stroke-width="8" '
+              f'stroke-linejoin="round"/>'
+              f'<path d="{_cloud_d(-10, -882, 2.3, 1.55)}" fill="{STORM}" stroke="{INK}" stroke-width="8" '
+              f'stroke-linejoin="round"/>'
+              f'<path d="M-150,-866 q70,18 150,4 q60,-8 120,8" fill="none" stroke="{STORM_D}" stroke-width="7" '
+              f'stroke-linecap="round"/>')
+    main = ((-6, -858), (38, -700), (-16, -610), (42, -452), (-8, -362), (34, -204), (4, -126), (22, 0))
+    b1 = ((-16, -610), (-74, -532), (-62, -488), (-116, -418))
+    b2 = ((42, -452), (98, -386), (90, -344), (136, -286))
+
+    def bolt(pts, glow, ink, core):
+        d = "M" + " L".join(f"{x},{y}" for x, y in pts)
+        return (f'<path d="{d}" fill="none" stroke="{GLOW_IN}" stroke-width="{glow}" stroke-linecap="round" '
+                f'stroke-linejoin="round" opacity="0.45"/>'
+                f'<path d="{d}" fill="none" stroke="{INK}" stroke-width="{ink}" stroke-linecap="round" '
+                f'stroke-linejoin="miter" stroke-miterlimit="3"/>'
+                f'<path d="{d}" fill="none" stroke="{BOLT}" stroke-width="{core}" stroke-linecap="round" '
+                f'stroke-linejoin="miter" stroke-miterlimit="3"/>')
+    sx = 22
+    strike = (f'<path d="{P.ell(sx, 0, 96, 15)}" fill="{GLOW_IN}" opacity="0.55"/>'
+              + "".join(f'<path d="M{sx + math.cos(a) * 34:.0f},{-8 + math.sin(a) * 34:.0f} '
+                        f'L{sx + math.cos(a) * 64:.0f},{-8 + math.sin(a) * 64:.0f}" stroke="{INK}" stroke-width="6" '
+                        f'stroke-linecap="round"/>' for a in [math.radians(v) for v in (200, 226, 250, 290, 314, 340)])
+              + f'<path d="M{sx - 70},4 l14,-18 l16,6 l4,14 z M{sx + 58},6 l10,-14 l14,4 l2,12 z" fill="{STONE}" '
+                f'stroke="{INK}" stroke-width="5" stroke-linejoin="round"/>')
+    return _r(clouds + bolt(b1, 28, 15, 6) + bolt(b2, 28, 15, 6) + bolt(main, 52, 26, 14) + strike, 560, 990)
+
+
+# ------------------------------------------------------------------ zvuk (hucanie, dunenie, tresk)
+def p_sound(pid=""):
+    """Zvuk zo zeme (alebo z mora): styri sustredne oblúky stupajuce z bodu na zemi, jemne sa "chveju"
+    (sinusovka po obvode - zvuk, nie hladky signal ako pri anténe), vonkajsi prerusovany (doznieva);
+    pri zdroji chvenie zeme (ciarky, vlnovky), po stranach kratke ciarky pohybu."""
+    cy = -8
+    arcs = ""
+    a0, a1 = math.radians(-134), math.radians(-46)
+    for i, (R, sw) in enumerate(((96, 10), (172, 9), (248, 8), (324, 7))):
+        waves = max(2, round(R * (a1 - a0) / 90.0))
+        amp = 2.2 + i * 0.5
+        pts = []
+        for k in range(65):
+            rr = R + amp * math.sin(2 * math.pi * waves * k / 64)
+            a = a0 + (a1 - a0) * k / 64
+            pts.append((rr * math.cos(a), cy + rr * math.sin(a)))
+        d = _poly(pts)
+        dash = ' stroke-dasharray="26 18"' if i == 3 else ""
+        arcs += (_glow_line(d, 10, sw)
+                 + f'<path d="{d}" fill="none" stroke="{INK}" stroke-width="{sw}" stroke-linecap="round"{dash}/>')
+    ticks = ""
+    for s in (-1, 1):
+        a = math.radians(-90 + s * 54)
+        for R0, R1 in ((150, 178), (228, 256)):
+            ticks += (f"M{R0 * math.cos(a):.1f},{cy + R0 * math.sin(a):.1f} "
+                      f"L{R1 * math.cos(a):.1f},{cy + R1 * math.sin(a):.1f} ")
+        for a_deg in (200, 222, 244):
+            b = math.radians(a_deg if s < 0 else 540 - a_deg)
+            ticks += (f"M{26 * math.cos(b):.1f},{-6 + 26 * math.sin(b):.1f} "
+                      f"L{50 * math.cos(b):.1f},{-6 + 50 * math.sin(b):.1f} ")
+    ticks = ticks.strip()
+    wig = "M44,2 q10,-8 20,0 q10,8 20,0 q10,-8 20,0 M-44,2 q-10,-8 -20,0 q-10,8 -20,0 q-10,-8 -20,0"
+    src = (_glow_line(ticks, 8, 6)
+           + f'<path d="{ticks}" fill="none" stroke="{INK}" stroke-width="6" stroke-linecap="round"/>'
+           + f'<path d="{P.ell(0, 0, 30, 8)}" fill="{INK}"/>'
+           + f'<path d="{wig}" fill="none" stroke="{INK}" stroke-width="5" stroke-linecap="round"/>')
+    return _r(arcs + src, 450, 340)
+
+
+# ------------------------------------------------------------------ radioteleskop (signal, antena)
+def _ellipse_pts(c, u, v, a, b, n, t0=0.0, t1=2 * math.pi):
+    return [(c[0] + a * u[0] * math.cos(t) + b * v[0] * math.sin(t), c[1] + a * u[1] * math.cos(t) + b * v[1] * math.sin(t))
+            for t in [t0 + (t1 - t0) * k / n for k in range(n + 1)]]
+
+
+def p_dish(pid=""):
+    """Radioteleskop: betonovy podstavec, stlp s dvierkami, otocna hlava a velka parabola natocena doprava hore
+    (zadna miska aj osvetlena plocha s prstencami panelov), v ohnisku prijimac na troch vzperach a z neho
+    tri vlny signalu (vonkajsia prerusovana)."""
+    dx = -60
+    ang = math.radians(-40)
+    n = (math.cos(ang), math.sin(ang))              # kam miera parabola (doprava hore)
+    u = (-n[1], n[0])                               # hlavna os okraja (kolmo na n)
+    C = (dx + n[0] * 90, -400.0 + n[1] * 90)        # stred okraja paraboly (90 od otocneho uchytu)
+    A, B, D = 230.0, 80.0, 150.0                    # polosi okraja, hlbka misky
+    base = (f'<path d="M{-190 + dx},6 L{-160 + dx},-54 H{160 + dx} L{190 + dx},6 Z" fill="{CONCRETE}" '
+            f'stroke="{INK}" stroke-width="9" stroke-linejoin="round"/>'
+            f'<path d="M{-150 + dx},-30 H{150 + dx}" stroke="#b3ab99" stroke-width="5"/>')
+    tower = (f'<path d="M{-62 + dx},-54 L{-36 + dx},-380 H{36 + dx} L{62 + dx},-54 Z" fill="#e9e6de" stroke="{INK}" '
+             f'stroke-width="8" stroke-linejoin="round"/>'
+             f'<path d="M{-16 + dx},-54 V-124 H{16 + dx} V-54" fill="#b9b4a8" stroke="{INK}" stroke-width="5" '
+             f'stroke-linejoin="round"/>'
+             f'<path d="M{-44 + dx},-210 H{44 + dx} M{-40 + dx},-300 H{40 + dx}" stroke="#bdb7aa" stroke-width="5"/>')
+    hub = (f'<path d="M{-64 + dx},-372 H{64 + dx} V-424 Q{dx},-446 {-64 + dx},-424 Z" fill="{METAL}" stroke="{INK}" '
+           f'stroke-width="8" stroke-linejoin="round"/>')
+    back = [(C[0] + A * u[0] * math.cos(t) - D * n[0] * math.sin(t), C[1] + A * u[1] * math.cos(t) - D * n[1] * math.sin(t))
+            for t in [math.pi * k / 18 for k in range(19)]]
+    shell = f'<path d="{_poly(back, True)}" fill="{DISH_B}" stroke="{INK}" stroke-width="9" stroke-linejoin="round"/>'
+    rim = _ellipse_pts(C, u, n, A, B, 36)
+    face = f'<path d="{_poly(rim, True)}" fill="{DISH_W}" stroke="{INK}" stroke-width="9" stroke-linejoin="round"/>'
+    rings = "".join(f'<path d="{_poly(_ellipse_pts(C, u, n, A * k, B * k, 28), True)}" fill="none" '
+                    f'stroke="#bdb8ab" stroke-width="4"/>' for k in (0.36, 0.68))
+    spokes = "".join(f'<path d="M{C[0]:.1f},{C[1]:.1f} L{p[0]:.1f},{p[1]:.1f}" stroke="#bdb8ab" stroke-width="4"/>'
+                     for p in (rim[0], rim[9], rim[18], rim[27]))
+    F = (C[0] + n[0] * 150, C[1] + n[1] * 150)      # ohnisko s prijimacom
+    struts = "".join(f'<path d="M{p[0]:.1f},{p[1]:.1f} L{F[0]:.1f},{F[1]:.1f}" stroke="{INK}" stroke-width="5" '
+                     f'stroke-linecap="round"/>' for p in (rim[4], rim[16], rim[28]))
+    feed = (f'<circle cx="{F[0]:.1f}" cy="{F[1]:.1f}" r="26" fill="{GLOW_IN}" opacity="0.6"/>'
+            f'<circle cx="{F[0]:.1f}" cy="{F[1]:.1f}" r="14" fill="{METAL}" stroke="{INK}" stroke-width="6"/>')
+    waves = ""
+    for i, R in enumerate((52, 90, 128)):
+        w0, w1 = ang - math.radians(34), ang + math.radians(34)
+        d = (f"M{F[0] + R * math.cos(w0):.1f},{F[1] + R * math.sin(w0):.1f} "
+             f"A{R},{R} 0 0 1 {F[0] + R * math.cos(w1):.1f},{F[1] + R * math.sin(w1):.1f}")
+        waves += (_glow_line(d, 10, 7)
+                  + f'<path d="{d}" fill="none" stroke="{INK}" stroke-width="7" stroke-linecap="round"'
+                  + (' stroke-dasharray="20 14"' if i == 2 else "") + "/>")
+    return _r(base + tower + shell + hub + face + rings + spokes + struts + feed + waves, 500, 680)
+
+
+# ------------------------------------------------------------------ hmla / opar
+def _fog_band(x0, x1, H, ramp, bumps, base=6):
+    """Hmlovy pas: dlha plosina (nie kopula) s makko klesajucimi koncami + nepravidelne chuchvalce na hornej
+    hrane. Vrati (d vyplne uzavretej po zemi, d hornej hrany)."""
+    n = len(bumps)
+    xs = [x0 + (x1 - x0) * i / n for i in range(n + 1)]
+
+    def yb(x):
+        u = max(0.0, min(1.0, min(x - x0, x1 - x) / ramp))
+        return base - H * u * u * (3 - 2 * u)
+    top = f"M{xs[0]:.0f},{base}"
+    for i in range(n):
+        xa, xb = xs[i], xs[i + 1]
+        top += f" Q{(xa + xb) / 2:.0f},{min(yb(xa), yb(xb)) - bumps[i]:.0f} {xb:.0f},{yb(xb):.0f}"
+    return top + " Z", top
+
+
+def p_fog(pid=""):
+    """Nizka hmla / opar plaziaci sa po zemi (po hrud postavy): tri dlhe polopriesvitne pasy s chuchvalcami
+    (zadny najvyssi a najbledsi, kazdy posunuty inam), obrys len na hornej hrane (spodok splyva so zemou),
+    po stranach a vpredu odtrhnute pramene - hmla sa hybe do stran."""
+    layers = ((-450, 400, 226, 300, (18, 30, 22, 34, 20, 28, 36, 22, 30, 18, 26), "#e3e8ec", 0.55, 5, 0.40),
+              (-380, 470, 150, 280, (16, 26, 20, 30, 18, 24, 28, 20, 26, 16), "#eceff2", 0.62, 6, 0.62),
+              (-480, 430, 74, 240, (12, 20, 16, 22, 14, 20, 18, 22, 14, 18, 12), "#f5f6f7", 0.76, 7, 0.85))
+    out = ""
+    for x0, x1, H, ramp, bumps, fill, op, sw, sop in layers:
+        fd, td = _fog_band(x0, x1, H, ramp, bumps)
+        out += (f'<path d="{fd}" fill="{fill}" opacity="{op}"/>'
+                f'<path d="{td}" fill="none" stroke="{INK}" stroke-width="{sw}" stroke-linecap="round" '
+                f'stroke-linejoin="round" opacity="{sop}"/>')
+    wisps = ("M-560,-26 h110 M-540,-78 h86 M-516,-132 h60 M-470,-190 h40 M470,-40 h96 M494,-96 h66 M468,-150 h46 "
+             "M-300,-14 q50,-12 100,0 M80,-20 q50,-12 100,0 M-150,-70 q40,-10 80,0 M200,-104 q36,-10 72,0")
+    out += (f'<path d="{wisps}" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity="0.55"/>'
+            f'<path d="{wisps}" fill="none" stroke="{INK}" stroke-width="4" stroke-linecap="round" opacity="0.45"/>')
+    return _r(out, 1120, 244)
+
+
+# ------------------------------------------------------------------ krater
+def _rock(x, y, s):
+    return (f'<path d="M{x - s:.0f},{y:.0f} L{x - s * 0.6:.0f},{y - s * 0.9:.0f} L{x + s * 0.4:.0f},{y - s:.0f} '
+            f'L{x + s:.0f},{y - s * 0.3:.0f} L{x + s * 0.7:.0f},{y:.0f} Z" fill="{STONE}" stroke="{INK}" '
+            f'stroke-width="6" stroke-linejoin="round"/>')
+
+
+# nepravidelnost vonkajsieho okraja valu - pevne cisla (build musi byt deterministicky, ziadny random)
+_RIM_JIT = (0, 9, -4, 11, 2, -7, 10, -3, 7, -9, 4, 8, -6, 3, 10, -4, 6, -8, 9, 1, -3, 7, -6, 5)
+
+
+def p_crater(pid=""):
+    """Krater = jama V ZEMI (mierne zhora): plocha elipsa otvoru, okolo nizky zubaty val vyhodenej hliny
+    (vzadu nad jamou, vpredu ako okraj), vnutri osvetlena protilahla stena a tmave dno; na zemi okolo svetle
+    luce vyvrhnutej hliny, praskliny a rozhadzane kamene. Nie kopa s dierou - val je len o malo vyssi nez zem."""
+    hy, rx, ry = -64, 246, 58            # otvor jamy
+    orx, ory = 304, 90                   # vonkajsi okraj valu
+    n = len(_RIM_JIT)
+    ring = [(math.cos(2 * math.pi * k / n) * (orx + j * 1.6), hy + math.sin(2 * math.pi * k / n) * (ory + j))
+            for k, j in enumerate(_RIM_JIT)]
+    rays = ("M-300,-30 L-430,-22 M-296,-4 L-410,18 M-270,16 L-352,40 M300,-30 L432,-24 M296,-4 L414,16 "
+            "M268,18 L350,38 M-150,22 L-188,38 M150,22 L188,38 M-230,-130 L-286,-150 M226,-132 L284,-150")
+    rim = (f'<path d="{_poly(ring, True)}" fill="{SOIL}" stroke="{INK}" stroke-width="8" stroke-linejoin="round"/>'
+           f'<path d="M{-orx + 40},{hy - 30} Q0,{hy - ory - 26} {orx - 40},{hy - 30}" fill="none" stroke="#d9c297" '
+           f'stroke-width="9" stroke-linecap="round"/>')
+    cracks = ("M-262,-86 l-30,-10 M-270,-40 l-30,6 M-196,-128 l-16,-18 M264,-84 l30,-10 M272,-42 l30,8 "
+              "M200,-126 l16,-20 M-90,6 l-8,18 M96,4 l10,18 M4,8 l0,18")
+    hole = f'<path d="{P.ell(0, hy, rx, ry)}" fill="{SOIL_D}"/>'
+    wall = f'<path d="M{-rx},{hy} A{rx},{ry} 0 0 1 {rx},{hy} Q0,{hy - 30} {-rx},{hy} Z" fill="{SOIL_W}"/>'
+    floor = f'<path d="{P.ell(0, hy + 20, 124, 20)}" fill="{SOIL_F}"/>'
+    edge = f'<path d="{P.ell(0, hy, rx, ry)}" fill="none" stroke="{INK}" stroke-width="8"/>'
+    lip = (f'<path d="M{-rx + 26},{hy + 22} Q0,{hy + ry + 30} {rx - 26},{hy + 22}" fill="none" stroke="#e2cda3" '
+           f'stroke-width="8" stroke-linecap="round"/>')
+    rocks = "".join(_rock(x, y, s) for x, y, s in ((-376, 12, 30), (-318, 28, 20), (-432, -2, 16), (362, 14, 28),
+                                                   (314, 28, 18), (424, 2, 15), (-158, -150, 16), (196, -142, 13),
+                                                   (48, 28, 13)))
+    return _r(f'<path d="{rays}" fill="none" stroke="#d8c193" stroke-width="9" stroke-linecap="round"/>'
+              + rim + f'<path d="{cracks}" fill="none" stroke="{INK}" stroke-width="5" stroke-linecap="round"/>'
+              + hole + wall + floor + lip + edge + rocks, 890, 170)
+
+
+NEW.update({"light": p_light, "lightning": p_lightning, "sound": p_sound, "dish": p_dish, "fog": p_fog,
+            "crater": p_crater})
+SIZES.update({"light": ("h", 1.8),        # gula ~0,55 m vo vyske ~2,3 m (vratane ziary nad nou ~3,1 m)
+              "lightning": ("h", 3.2),    # mrak ~5,6 m nad zemou - blesk ide z neba, v zabere presahuje ram
+              "sound": ("h", 1.6),        # oblúky ~2,8 m nad zdrojom
+              "dish": ("h", 2.6),         # radioteleskop ~4,5 m (skutocne su vacsie - v zabere musi ostat cely)
+              "fog": ("w", 4.0),          # pas ~6 m dlhy, po hrud postavy
+              "crater": ("w", 3.0)})      # jama ~3,8 m s valom a kamenmi, val nizsie nez koleno
+# ohnisko (x, y, sirka, vyska) pri mierke 1 - vid props.FOCUS
+P.FOCUS.update({"light": (0, LIGHT_Y, 300, 300), "lightning": (0, -494, 560, 988), "sound": (0, -165, 450, 340),
+                "dish": (0, -338, 500, 680), "fog": (0, -118, 960, 244), "crater": (0, -64, 660, 200)})
+register()

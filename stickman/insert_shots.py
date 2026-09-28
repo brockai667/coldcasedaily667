@@ -94,6 +94,15 @@ def _ghost(svg):
     return f'<g opacity="0.25" stroke-dasharray="15 10">{g}</g>'
 
 
+def _ghost_sky(svg):
+    """_ghost pre jav na oblohe: v noci su ciernosede ciarky na tmavej oblohe neviditelne - vtedy svetle."""
+    if not look.night():
+        return _ghost(svg)
+    g = _FILL_RE.sub('fill="none"', svg)
+    g = _STROKE_RE.sub('stroke="#e8edf5"', g)
+    return f'<g opacity="0.45" stroke-dasharray="15 10">{g}</g>'
+
+
 def _macro_scale(pw, ph):
     """Surova velkost predmetu: ~44 % vysky ramu, alebo ~78 % sirky pre ploche/siroke veci -
     berie sa mensia z oboch mierok, aby ostalo miesto na anotaciu a popisok. Ploche veci (kniha,
@@ -317,6 +326,111 @@ def _big(p, c, key, mark, cue_t):
     return svg, js
 
 
+# ------------------------------------------------------------------ javy (props.FOCUS): detail v krajine
+TOP_Y = 470.0             # vrch ohniska javu nesmie vyjst vyssie (nad nim je cerveny popisok na LABEL_Y)
+G_MIN = 1000.0            # ciara zeme pri detaile javu najvyssie tu - ostane obloha aj pozadie sveta
+FOCUS_CY = 820.0          # kam idealne padne stred ohniska (ako OBJ_CY makra)
+
+
+G_LOW = 640.0             # nizky jav (krater) lezi v pasme zeme pred horizontom - horizont moze ist az sem
+SUN_SPOTS = ((890, 240), (190, 240))     # kam moze slnko/mesiac (ako stage_shots.sun_clear)
+
+
+def _focus_frame(cen, top, width, height, frac, sink=0.0):
+    """Zoom a ciara zeme (obrazovka) pre detail javu: ohnisko co najvacsie (frac sirky ramu, najviac ZMAX),
+    vrch ohniska pod popiskom, stred okolo FOCUS_CY, zem medzi G_MIN a HOR (vzdy nad titulkami).
+    cen/top = vyska stredu/vrchu ohniska nad zemou, width/height = rozmery ohniska (vsetko vo svete).
+    sink > 0 = nizky jav (krater) je zapusteny o sink pod ciaru zeme - lezi v zemi pred horizontom, nie na nom;
+    horizont sa vtedy zdvihne (G_LOW..G_MIN), aby jama padla okolo FOCUS_CY."""
+    z = min(st.ZMAX, frac * CW / max(1.0, width), 0.46 * CH / max(1.0, height))
+    if sink > 0:
+        return max(0.45, z), max(G_LOW, min(G_MIN, FOCUS_CY - (sink - cen) * z))
+    G = st.HOR
+    for _ in range(4):
+        if top > 1.0:
+            z = min(z, (G - TOP_Y) / top)
+        G = max(G_MIN, min(st.HOR, FOCUS_CY + cen * z))
+    return max(0.45, z), G
+
+
+def _sky_spots(boxes):
+    """Slnko/mesiac a oblak mimo popisku aj ohniska (obrazovkove boxy x0, x1, y_top): prve volne miesto
+    zo SUN_SPOTS, inak bez slnka. Oblaky pod popiskom, na opacnej strane nez slnko."""
+    def hit(sx, sy, r=135):
+        return any(b and b[1] > sx - r and b[0] < sx + r and b[2] < sy + r for b in boxes)
+    sun = next((s for s in SUN_SPOTS if not hit(*s)), None)
+    if sun is None:
+        return None, ((150, 470, 0.7), (930, 500, 0.6))
+    return sun, (((150, 470, 0.75),) if sun[0] > 540 else ((930, 470, 0.7),))
+
+
+def _big_focus(p, c, key, mark, count, filled, cue_t, label=""):
+    """Kompozicia C: jav (props.FOCUS - svetelna gula, blesk, zvuk, radioteleskop, hmla, krater) v krajine s oblohou,
+    bez postavy. Na plochej zemi makra by gula lezala v hline - jav potrebuje oblohu a horizont. Ramuje sa podla
+    ohniska (gula, nie svetlo na zemi pod nou). count >= 2 = rad javov (chybajuce su prerusovany obrys ako v _row);
+    znacky patria ohnisku: jeden kus -> kruh/krizik/sipka ako v makre, rad -> kruh/krizik na kazdom chybajucom,
+    sipka na prvy chybajuci. Znacky sa kreslia v obrazovkovych suradniciach (rovnake orezy ako makro) a zabalia
+    sa spat do sveta kamery - s prisunom kamery sa hybu spolu so scenou."""
+    key, psvg, pw, ph, scl = SS._prop(p, c, key)
+    fx, fy, fw, fh = props.FOCUS[key]
+    fws, fhs = fw * scl, fh * scl
+    cen, top = -fy * scl, -(fy - fh / 2.0) * scl
+    # nizky jav (krater): v detaile lezi V zemi pred horizontom (zapusteny pod ciaru zeme), nie na horizonte
+    sink = (top + 24.0) if top < 0.6 * props.BOB_H else 0.0
+    n = count
+    pitch = fws * 1.15
+    # rad: kruh okolo krajneho kusu je o 16 % sirsi nez kus - uzsi zaber a bez posunu kamery, nech ho ram neoreze
+    z, G = _focus_frame(cen, top, fws + pitch * (n - 1), fhs, 0.78 if n == 1 else 0.80, sink)
+    cx = FCX
+    centers = [cx + (i - (n - 1) / 2.0) * pitch for i in range(n)]
+    world = ""
+    for i, fcx in enumerate(centers):
+        isvg = psvg if n == 1 else S.prop_svg(f"{p}_r{i}", key)[0]
+        frag = f'<g transform="translate({fcx - fx * scl:.1f},{GY + sink:.1f}) scale({scl:.4f})">{isvg}</g>'
+        world += frag if (n == 1 or i < filled) else _ghost_sky(frag)
+
+    def scr(wx):                                         # stred ohniska kusu na obrazovke
+        return 540.0 + (wx - cx) * z, G + (sink - cen) * z
+    marks, mjs = "", ""
+    ow, oh = fws * z, fhs * z
+    if n == 1:
+        sx, sy = scr(centers[0])
+        marks, mjs = _mark(mark, sx, sy, ow, oh, p, cue_t)
+        if mark != "none":
+            mjs += f'shake(cam, {cue_t:.3f}, 12, 0.24);\n'
+    else:
+        for k, i in enumerate(range(filled, n)):
+            sx, sy = scr(centers[i])
+            t = cue_t + k * 0.12
+            if mark == "circle":
+                d = _wobble_path(sx, sy, ow * 0.58, oh * 0.54, rot=(-6 + 5 * i))
+                marks += (f'<path id="{p}_rm{i}" class="pen" pathLength="1" d="{d}" fill="none" stroke="{RED}" '
+                          f'stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>')
+                mjs += (f'tl.to(pen("{p}_rm{i}"), {{ d: 1, duration: 0.28, ease: "power1.inOut" }}, {t:.3f});\n'
+                        f'shake(cam, {t:.3f}, 10, 0.20);\n')
+            elif mark == "cross" or (mark == "arrow" and k == 0):
+                m_svg, m_js = _mark(mark, sx, sy, ow, oh, f"{p}_x{i}", t)
+                marks += m_svg
+                mjs += m_js + f'shake(cam, {t:.3f}, 10, 0.20);\n'
+    if marks:
+        world += f'<g transform="translate({cx - 540.0 / z:.2f},{GY - G / z:.2f}) scale({1.0 / z:.5f})">{marks}</g>'
+    world += f'<g id="{c["bob"]}_root"></g>'
+    # slnko/mesiac ani oblak nesmu byt pod cervenym popiskom ani za ohniskom
+    lab_box = None
+    if label:
+        fs = S.fit_size(label, 118, 940)
+        lw = 0.62 * fs * len(label)
+        lab_box = (FCX - lw / 2 - 30, FCX + lw / 2 + 30, LABEL_Y - fs)
+    foc_box = (scr(centers[0])[0] - ow / 2, scr(centers[-1])[0] + ow / 2, G + (sink - top) * z)
+    sun, clouds = _sky_spots((lab_box, foc_box))
+    svg = SS._scene(p, c, cx, z, G, world, sun=sun, clouds=clouds)
+    t0, t1 = c["t0"], c["t1"]
+    js = SS._cam_js(p, cx, cx - (24.0 / z if n == 1 else 0.0), z * 0.95, z * 1.05, G - 960, G - 944, t0, t1)
+    js += mjs
+    js += SS._flurry(p, c)          # vlocky/dazd, ktore _scene nakreslil
+    return svg, js
+
+
 def shot_insert(p, c):
     key = c["prop"]
     params = c.get("params") or {}
@@ -327,6 +441,13 @@ def shot_insert(p, c):
     count = max(1, min(8, _to_int(params.get("count"), 1)))
     filled = max(0, min(count, _to_int(params.get("filled"), count)))
     cu = c["cue_t"]
+    if st.dominance(key) == "obj" and key in props.FOCUS:
+        # jav: krajina s oblohou, ramovanie podla ohniska, rad kusov aj znacky (bezne velke veci ostavaju v _big)
+        scene_svg, js = _big_focus(p, c, key, mark, count, filled, cu, label)
+        lab_svg, lab_js = _label(p, label, cu)
+        svg = S.svg_wrap(scene_svg + lab_svg + S.gold_layer(p, c["gold"], ""))
+        js += lab_js + S.js_gold(p, c, cu, "cam", gy=300)
+        return svg, js
     if st.dominance(key) == "obj":
         scene_svg, js = _big(p, c, key, mark, cu)
         lab_svg, lab_js = _label(p, label, cu)

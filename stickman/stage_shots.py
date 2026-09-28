@@ -101,6 +101,28 @@ def _prop(p, c, key=None):
     return key, psvg, pw, ph, scl
 
 
+def _focus_fit(key, scl, BX, ox, z):
+    """Jav (props.FOCUS): Bob aj ohnisko javu naraz v zabere - siroky zvuk/krater by inak presiahol ram prave tam,
+    kde je jeho podstata (zdroj zvuku, stred jamy). Kamera odstupi len kolko treba a nie dalej nez na Boba
+    ~17 % vysky (ako frame_z pri velkych veciach); vtedy ostane cely Bob a lava cast javu.
+    Vrati (z, cx0, cx1) alebo None - bezne rekvizity sa ramuju presne ako predtym."""
+    foc = props.FOCUS.get(key)
+    if not foc:
+        return None
+    fx, _fy, fw, _fh = foc
+    left = BX - 150.0                                 # Bob aj s batohom (kip ho ma siroky) + rezerva na prisun
+    right = ox + (fx + fw / 2.0) * scl + 40.0
+    z2 = max(min(z, 0.17 * st.CH / BOB_H), min(z, 0.86 * st.CW / max(1.0, right - left)))
+    cxm = min((left + right) / 2.0, left + 0.40 * st.CW / z2)     # 0.40: rezerva na prisun kamery (az 1,07x)
+    return z2, cxm - 12.0 / z2, cxm + 12.0 / z2
+
+
+def _low(key, scl):
+    """Jav nizko pri zemi (krater): Bob sa pozera a ukazuje dolu, nie hore ako na velku vec."""
+    foc = props.FOCUS.get(key)
+    return bool(foc) and -(foc[1] - foc[3] / 2.0) * scl < 0.6 * BOB_H
+
+
 # ================================================================== object_reveal
 def shot_object(p, c):
     key = S.pkey(c)
@@ -250,6 +272,12 @@ def _look(p, c, key, act):
         cx0 = BX + 0.46 * CW_half(z)
         cx1 = cx0 + min(ow * 0.35, 0.3 * CW_half(z) * 2)
         up1 = up0
+    ff = None if on_water else _focus_fit(key, scl, BX, ox, z)
+    if ff:
+        # jav: Bob aj ohnisko v zabere; naklon hore len ked vrch javu inak nevidno (blesk z mraku)
+        z, cx0, cx1 = ff
+        up1 = up0 + max(0.0, min(320.0, 200.0 - (st.HOR - oh * z * 1.04)))
+    low = _low(key, scl)
     world = (f'<g transform="translate({ox:.0f},{GY + sub}) scale({scl:.3f})">{psvg}</g>'
              + (S.water_front(ox - ow / 2 - 70, ox + ow / 2 + 70) if on_water else "")
              + (W.hero_rig(c["bob"], c.get("hero")) if not on_water else f'<g id="{c["bob"]}_root"></g>'))
@@ -264,10 +292,10 @@ def _look(p, c, key, act):
                f'tl.set(rg, {{ w: 1, wa: 1, ph: 0 }}, {t0:.3f});\n'
                f'tl.to(rg, {{ x: {BX:.0f}, ph: 4.2, duration: 0.55, ease: "none" }}, {t0:.3f});\n'
                f'tl.set(rg, {{ w: 0, wa: 0 }}, {t0 + 0.55:.3f});\n'
-               f'pose(rg, LOOK_UP, {t0 + 0.55:.3f}, 0.28);\n'
-               f'pose(rg, REACH, {max(t0 + 0.9, cu):.3f}, 0.26);\n'
+               f'pose(rg, {"LEAN_OVER" if low else "LOOK_UP"}, {t0 + 0.55:.3f}, 0.28);\n'
+               f'pose(rg, {"POINT_DOWN" if low else "REACH"}, {max(t0 + 0.9, cu):.3f}, 0.26);\n'
                f'tl.set(rg, {{ eye: 1, mo: 1 }}, {cu:.3f});\n'
-               f'pose(rg, {{ head: -30 }}, {max(t0 + 1.1, cu + 0.3):.3f}, 0.3);\n')
+               f'pose(rg, {{ head: {20 if low else -30} }}, {max(t0 + 1.1, cu + 0.3):.3f}, 0.3);\n')
     js += f'shake(cam, {cu:.3f}, 8, 0.22);\n'
     js += _flurry(p, c)
     js += S.js_gold(p, c, cu, "cam", gy=360)
@@ -441,6 +469,13 @@ def shot_spot(p, c):
         cx1 = cx0 + 0.25 * CW_half(z)
         qx, qy = BX + 30, GY - 380
         obj = f'<g transform="translate({ox:.0f},{GY}) scale({scl:.3f})">{psvg}</g>'
+        ff = _focus_fit(key, scl, BX, ox, z)
+        if ff:
+            z, cx0, cx1 = ff              # jav: Bob aj ohnisko (gula, zdroj zvuku, jama) v zabere
+    # iskra pri objave: pri jave na ohnisku (gula vo vzduchu), inak v 60 % vysky predmetu
+    foc = props.FOCUS.get(key) if not table else None
+    spx, spy = ((ox + foc[0] * scl, GY + foc[1] * scl) if foc else (ox, GY - table_h - oh * 0.6))
+    low = dom != "bob" and _low(key, scl)
     world = (f'{obj}'
              f'{W.hero_rig(c["bob"], c.get("hero"))}<g id="{p}_spark" opacity="0">{S.SPARK}</g>'
              f'<g id="{p}_q" opacity="0"><text x="0" y="0" class="hand" font-size="170" fill="{RED}" '
@@ -459,7 +494,7 @@ def shot_spot(p, c):
            f'var q = node("{p}_q", {{ x: {qx:.0f}, y: {qy:.0f}, s: 0, o: 0 }});\n'
            f'pop(q, {cu:.3f}, 0.3, 3.5);\n'
            f'tl.to(q, {{ r: 10, duration: 0.5, ease: "sine.inOut", repeat: 1, yoyo: true }}, {cu + 0.1:.3f});\n'
-           f'var sp = node("{p}_spark", {{ x: {ox:.0f}, y: {GY - table_h - oh * 0.6:.0f}, s: 0, o: 0 }});\n'
+           f'var sp = node("{p}_spark", {{ x: {spx:.0f}, y: {spy:.0f}, s: 0, o: 0 }});\n'
            f'pop(sp, {cu + 0.06:.3f}, 0.2, 4);\n'
            f'tl.to(sp, {{ o: 0, r: 40, s: 1.5, duration: 0.3 }}, {cu + 0.28:.3f});\n'
            f'shake(cam, {cu:.3f}, 10, 0.24);\n')
@@ -469,6 +504,8 @@ def shot_spot(p, c):
     elif dom == "bob":
         js += (f'pose(rg, POINT_DOWN, {cu:.3f}, 0.18);\n'
                f'pose(rg, KNEEL_A, {min(t1 - 0.45, cu + 0.55):.3f}, 0.3);\n')
+    elif low:
+        js += f'pose(rg, POINT_DOWN, {cu:.3f}, 0.18);\n'          # krater: ukazuje dolu do jamy, nie hore
     else:
         js += f'pose(rg, {{ lean: -6, aL: 160, aL2: 14, aR: -30, aR2: 20, head: -32 }}, {cu:.3f}, 0.18);\n'
     js += _flurry(p, c)

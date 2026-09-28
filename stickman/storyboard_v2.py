@@ -28,12 +28,19 @@ import plan_beats  # noqa: E402
 # ------------------------------------------------------------------ co engine vie nakreslit
 # 23 objektov z props.py - NIC INE sa nakreslit neda. Ked scena pomenuje cokolvek mimo, obrazok klame.
 OBJECTS = ["stone", "pillar", "mountain", "cave", "water", "ship", "wreck", "gear", "machine", "skull",
-           "bones", "door", "chest", "ruin", "map", "statue", "tunnel", "tree", "forest", "car",
+           "bones", "door",
+           # jav krater PRED truhlou: _SYN truhly/debny obsahuje "crate", co chyti aj "crater" - v3 _fix_unnamed
+           # by inak z krateru urobil truhlu (prvy pomenovany objekt v poradi tohto zoznamu)
+           "crater",
+           "chest", "ruin", "map", "statue", "tunnel", "tree", "forest", "car",
            "tablet", "tower", "coin", "meteor", "book", "fallen_tree",
            # predmety z pribehov (v3): bez nich engine kreslil posteľ ako knihu a plaste ako ozubene koleso
            "bed", "clock", "chair", "table", "meal", "lantern", "coat", "letter", "footprints", "rope", "boat",
            "candle", "bottle", "boot", "key", "radio", "ladder", "tent", "window", "fireplace", "crate", "crate_broken",
-           "body", "wave", "lighthouse", "coat_hanging", "book_torn"]
+           "body", "wave", "lighthouse", "coat_hanging", "book_torn",
+           # javy (UnexplainedDaily): svetelna gula, blesk, zvuk, radioteleskop, hmla (krater je vyssie) - na konci
+           # zoznamu, aby v _fix_unnamed (v3) mali prednost starsie predmety ("lamp lights" = lampa, "radio" = radio)
+           "light", "lightning", "sound", "dish", "fog"]
 REPEATABLE = ["stone", "pillar", "statue", "tower", "tree", "tablet", "coin", "skull", "fallen_tree"]
 _SYN = {"bones": r"bone|skeleton|remains|bodies|victim", "skull": r"skull|bone|skeleton|bodies|victim|dead", "stone": r"stone|rock|slab|"
         r"boulder|megalith", "pillar": r"pillar|column|monolith|stela", "ruin": r"ruin|site|enclosure|"
@@ -42,7 +49,8 @@ _SYN = {"bones": r"bone|skeleton|remains|bodies|victim", "skull": r"skull|bone|s
         "book": r"book|manuscript|codex|page|vellum|script|\bcopy\b|volume|edition|rubaiyat|logbook|diary|journal",
         "chest": r"chest|box|crate|casket|coffer|trunk",
         "bed": r"bed|bunk", "clock": r"clock|time", "chair": r"chair|seat|stool", "table": r"table|desk",
-        "meal": r"meal|food|dinner|breakfast|supper|lunch|plate|cup", "lantern": r"lamp|lantern|light",
+        # lantern: "light" len ako cele slovo - inak chytalo aj "lightning", "lighthouse", "sunlight"
+        "meal": r"meal|food|dinner|breakfast|supper|lunch|plate|cup", "lantern": r"lamp|lantern|\blights?\b",
         "coat": r"coat|oilskin|jacket|cloak", "letter": r"letter|note|message|log|entry|diary",
         "footprints": r"footprint|track|step|trail", "rope": r"rope|line|cable", "boat": r"boat|dinghy|raft",
         "candle": r"candle", "bottle": r"bottle|flask", "boot": r"boot|shoe", "key": r"key|lock",
@@ -54,7 +62,16 @@ _SYN = {"bones": r"bone|skeleton|remains|bodies|victim", "skull": r"skull|bone|s
         "wave": r"wave|waves|tsunami|swell|surge|breaker",
         "lighthouse": r"lighthouse|beacon|\blight\b|tower|lamp",
         "coat_hanging": r"coat|oilskin|jacket|cloak|pegs?|hooks?", "book_torn": r"book|page|copy|volume|manuscript",
-        "fallen_tree": r"tree|forest|trunk|taiga"}   # pre wide_reveal
+        "fallen_tree": r"tree|forest|trunk|taiga",   # pre wide_reveal
+        # javy: cele slova (\b) - _fix_unnamed v3 ich hlada aj bez hranic slova ("hum" nesmie chytit "human",
+        # "light" nie "lighthouse", "dish" nie "dishes")
+        "light": r"\b(lights?|orbs?|glow\w*|fireballs?|wisps?|will-o|luminous|ball lightning|balls? of light)\b",
+        "lightning": r"\b(lightnings?|bolts?|thunder\w*|flash\w*)\b",
+        "sound": r"\b(sounds?|hum|hums|hummed|humming|noises?|booms?|boomed|booming|roar\w*|rumbl\w*|drone|droning|"
+                 r"buzz\w*)\b",
+        "dish": r"\b(signals?|radio|telescopes?|antenn(a|as|ae)|dish|transmissions?|bursts?)\b",
+        "fog": r"\b(fogs?|foggy|fogbank|mists?|misty|haze|hazy|vapou?rs?)\b",
+        "crater": r"\b(craters?|sinkholes?|hole in the ground|holes in the ground)\b"}   # "impact" je slabe slovo
 VS_DRAWABLE = ["pyramid", "trilith", "clock", "column", "ship"]                          # pre timeline_compare
 
 # scena -> (co je v zabere, povinne parametre)
@@ -237,6 +254,9 @@ def check_beats(spec, world):
     for i, b in enumerate(beats, 1):
         say_l = b.get("say", "").lower()
         m_nd = re.search(NOT_DRAWN, say_l)
+        # "a low drone" pri zabere so zvukom je hucanie, nie lietajuci dron - to nakreslit vieme (sound)
+        if m_nd and m_nd.group(0) == "drone" and str((b.get("params") or {}).get("object") or "").lower() == "sound":
+            m_nd = None
         if m_nd:
             p.append(f"zaber {i}: '{m_nd.group(0)}' sa neda nakreslit - veta to nesmie pomenovat")
         if re.search(r"\b(i|we|my|our|me)\b", say_l):

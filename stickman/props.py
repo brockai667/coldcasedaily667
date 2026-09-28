@@ -679,6 +679,14 @@ SIZE = {
 }
 
 
+# Ohnisko rekvizity (x, y, sirka, vyska) v suradniciach kresby pri mierke 1 (y zaporne = hore) - len pre javy
+# (props_story: light, lightning, sound, dish, fog, crater), ktorych podstata nie je v strede obdlznika: svetelna
+# gula visi vysoko nad svetlom na zemi, zvuk stupa zo zeme. Pouziva ho insert (kruh/krizik/sipka a rad kusov
+# okolo ohniska, ramovanie so zemou a oblohou), spot/object_reveal (Bob aj jav naraz v zabere) a lupa
+# v detail_compare. Rekvizity bez zaznamu sa spravaju presne ako predtym.
+FOCUS = {}
+
+
 def human_scale(key, pw, ph, bob_s=1.0):
     """Mierka rekvizity odvodena od vysky postavy v danom zabere."""
     mode, r = SIZE.get(key, ("h", 0.80))
@@ -703,6 +711,14 @@ def prop_view(key, i=0):
 # ------------------------------------------------------------------ vyber rekvizity z textu vety
 # poradie ROZHODUJE: prva zhoda vyhrava, preto specifickejsie slova hore
 KEYWORDS = [
+    # javy - ustalene spojenia, ktore musia predbehnut aj predmety z pribehov: "radio signal" je anténa
+    # (samotne "radio" ostava lampove radio), "ball lightning" je svetelna gula, nie blesk
+    ("dish", ("radio signal", "radio signals", "radio telescope", "radio telescopes", "radio wave", "radio waves",
+              "radio burst", "radio bursts", "radio transmission", "radio transmissions", "radio source",
+              "radio sources", "radio astronomy", "radio astronomer", "radio astronomers", "radio observatory",
+              "radio dish", "radio antenna", "radio antennas", "radio frequency", "radio frequencies")),
+    ("light", ("ball lightning", "ball of light", "balls of light", "will o the wisp", "will o wisp",
+               "will o the wisps", "will o wisps")),
     # bezne predmety z pribehov (props_story) - konkretnejsie nez vseobecne kluce nizsie
     ("clock", ("clock", "clocks", "timepiece")),
     ("bed", ("bed", "beds", "bunk", "bunks", "mattress", "bedding")),
@@ -725,6 +741,20 @@ KEYWORDS = [
     ("fireplace", ("fireplace", "fireplaces", "hearth", "stove")),
     ("boat", ("boat", "boats", "rowboat", "dinghy", "lifeboat", "lifeboats", "canoe", "skiff")),
     ("meteor", ("meteor", "meteors", "meteorite", "meteorites", "comet", "asteroid", "fireball", "airburst", "bolide")),
+    # javy (UnexplainedDaily) - PRED krajinou a vseobecnymi vecami (lake/sea/hill/forest/ship/stone...), inak
+    # "lights over the lake" nakresli jazero. Za predmetmi z pribehov: "lantern light" je lampa, "radio" radio.
+    ("lightning", ("lightning", "lightnings", "thunderbolt", "thunderbolts")),
+    ("light", ("light", "lights", "orb", "orbs", "glow", "glows", "glowed", "glowing", "fireball", "fireballs",
+               "wisp", "wisps", "luminous")),
+    ("sound", ("sound", "sounds", "hum", "hums", "hummed", "humming", "noise", "noises", "boom", "booms", "boomed",
+               "booming", "roar", "roars", "roared", "roaring", "rumble", "rumbles", "rumbled", "rumbling", "drone",
+               "droning", "buzz", "buzzing")),
+    ("lightning", ("thunder", "thunders", "thunderclap", "thunderclaps", "thunderstorm", "thunderstorms")),
+    ("fog", ("fog", "fogs", "foggy", "fogbank", "mist", "mists", "misty", "haze", "hazy", "vapour", "vapor",
+             "vapours", "vapors")),
+    ("crater", ("crater", "craters", "hole in the ground", "holes in the ground", "sinkhole", "sinkholes")),
+    ("dish", ("signal", "signals", "telescope", "telescopes", "antenna", "antennas", "antennae", "dish",
+              "transmission", "transmissions", "burst", "bursts")),
     ("gear", ("gear", "cog", "teeth", "tooth", "clockwork", "dial", "mesh")),
     ("machine", ("mechanism", "machine", "device", "computer", "engine", "instrument", "apparatus")),
     ("wreck", ("wreck", "shipwreck", "sunken", "sank", "sunk", "capsized")),
@@ -755,6 +785,10 @@ KEYWORDS = [
     ("tree", ("tree", "trunk", "branch")),
     ("car", ("car", "truck", "vehicle", "train", "plane", "aircraft")),
     ("stone", ("stone", "stones", "rock", "rocks", "boulder", "slab", "granite", "limestone")),
+    # slabe slova javov - len ked veta nepomenuje nic ine: "flash flood" je voda, "door bolt" dvere,
+    # "the impact flattened the trees" (Tunguska - krater nebol) su vyvratene stromy
+    ("lightning", ("flash", "flashes", "bolt", "bolts")),
+    ("crater", ("impact", "impacts")),
 ]
 
 
@@ -766,6 +800,19 @@ _REM_NOUN_BEFORE = ("the", "human", "humans", "skeletal", "their", "his", "her",
                     "ancient", "scattered", "preserved", "frozen", "found", "no", "any", "few")
 
 
+# Slova javov, ktore v danom spojeni jav nie su - token sa zneutralizuje, takze veta dostane presne tu
+# rekvizitu ako pred pridanim javov: majak ("the lighthouse light went out"), pocasie a lietadla ("light rain",
+# "light aircraft"), nudzovy signal lode ("no distress signal", nie radioteleskop), sloveso ("it sounds like").
+_LIGHT_NOT_BEFORE = ("rain", "snow", "wind", "winds", "breeze", "drizzle", "shower", "showers", "mist", "fog", "haze",
+                     "aircraft", "plane", "planes", "year", "years", "blue", "green", "brown", "grey", "gray",
+                     "sleep", "touch", "weight")
+# "fireball" je meteor len ked veta hovori o padajucom telese; inak je to svetelna gula (Hessdalen, naga fireballs)
+_METEOR_CTX = {"meteor", "meteors", "meteorite", "meteorites", "meteoroid", "comet", "comets", "asteroid",
+               "asteroids", "bolide", "bolides", "airburst", "impact", "crater", "craters", "crash", "crashed",
+               "exploded", "explodes", "explosion", "blast", "streak", "streaked", "streaking", "trail", "fell",
+               "falling", "space", "atmosphere"}
+
+
 def rank_props(text):
     """Vsetky rekvizity, na ktore veta sedi, v poradi specifickosti."""
     low = " " + "".join(c.lower() if c.isalnum() or c.isspace() else " " for c in text) + " "
@@ -773,6 +820,17 @@ def rank_props(text):
     for i, w in enumerate(tok):
         if w == "remains" and (i == 0 or tok[i - 1] not in _REM_NOUN_BEFORE):
             tok[i] = "__rem__"
+    toks = set(tok)
+    for i, w in enumerate(tok):
+        nxt = tok[i + 1] if i + 1 < len(tok) else ""
+        if w in ("light", "lights") and (toks & {"lighthouse", "lighthouses"} or nxt in _LIGHT_NOT_BEFORE):
+            tok[i] = "__lt__"
+        elif w in ("fireball", "fireballs") and not toks & _METEOR_CTX:
+            tok[i] = "orb"
+        elif w in ("signal", "signals") and toks & {"distress", "sos", "mayday"}:
+            tok[i] = "__sig__"
+        elif w in ("sound", "sounds") and nxt in ("like", "as", "asleep", "familiar", "strange", "impossible"):
+            tok[i] = "__snd__"
     low = " " + " ".join(tok) + " "
     out = []
     for key, words in KEYWORDS:

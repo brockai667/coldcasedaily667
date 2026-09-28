@@ -263,7 +263,9 @@ def _last_noun(text):
 
 
 # rekvizity, ktore davaju zmysel ako "krajinny orientacny bod" na kopci v prvom zabere
-LANDMARKS = ("pillar", "stone", "statue", "tower", "lighthouse", "ruin", "cave", "door", "tree", "forest", "mountain", "tunnel")
+# (light = svetelna gula nad krajinou v dialke, dish = radioteleskop - javy UnexplainedDaily)
+LANDMARKS = ("pillar", "stone", "statue", "tower", "lighthouse", "ruin", "cave", "door", "tree", "forest", "mountain", "tunnel",
+             "light", "dish")
 # rekvizity, ktore znesu opakovanie v poli/kruhoch (jednoduchy obrys); ostatne sa nahradia markerom
 REPEATABLE = ("pillar", "stone", "statue", "tower", "tree", "coin", "skull", "tablet")
 
@@ -441,7 +443,8 @@ def hill_world(p, rigid, prop, with_ghost=True, loop_cls=False, world="hill", he
     # pri chodzi cez hreben; pri nultom snimku aj na konci slucky je daleko mimo obrazu
     # na brehu sa orientacny bod kreslil len pri vysokych stavbach (majak, veza, socha, ruina) - bez toho
     # "island lighthouse goes dark" nemalo v zabere ziadny majak (Flannan 27.9.)
-    show = (prop in LANDMARKS or lake) and (kind != "shore" or prop in ("tower", "lighthouse", "pillar", "statue", "ruin", "door"))
+    show = (prop in LANDMARKS or lake) and (kind != "shore" or prop in ("tower", "lighthouse", "pillar", "statue", "ruin", "door",
+                                                                        "light", "dish"))
     if W.interior(kind, walk=True) and prop not in ("pillar", "stone", "statue", "door", "tunnel", "cave", "chest"):
         show = False          # hora ani veza v jaskyni/kniznici nerastu
     lmark = ""
@@ -1423,6 +1426,15 @@ def shot_detail(p, c):
     lx, ly, R = 760, GY - 520, 250
     # lupa ukazuje predmet cez celu sosovku bez ohladu na jeho pravdivu (malu) velkost v scene
     zoom = 1.7 * R / max(1.0, max(pw, ph))
+    lens_at = f"translate({lx:.0f},{ly + ph * zoom * 0.5:.0f}) scale({zoom:.3f})"
+    link0 = (300 + pw * scl * 0.3, GY - ph * scl * 0.55)
+    foc = props.FOCUS.get(c["prop"])
+    if foc:
+        # jav (svetelna gula vysoko nad zemou): lupa ukaze ohnisko, nie cely vysoky obdlznik so svetlom na zemi
+        fx, fy, fw, fh = foc
+        zoom = 1.7 * R / max(1.0, fw, fh)
+        lens_at = f"translate({lx - fx * zoom:.0f},{ly - fy * zoom:.0f}) scale({zoom:.3f})"
+        link0 = (300 + fx * scl, GY + fy * scl)
     inside = bool((c.get("params") or {}).get("inside"))
     if inside:
         import interior
@@ -1434,9 +1446,9 @@ def shot_detail(p, c):
             f'<defs><clipPath id="{p}_clip"><circle cx="{lx}" cy="{ly}" r="{R}"/></clipPath></defs>'
             f'<g id="{p}_lensg" opacity="0">'
             f'<circle cx="{lx}" cy="{ly}" r="{R}" fill="{PAPER}" stroke="none"/>'
-            f'<g clip-path="url(#{p}_clip)"><g transform="translate({lx:.0f},{ly + ph * zoom * 0.5:.0f}) scale({zoom:.3f})">{lens_svg}</g></g>'
+            f'<g clip-path="url(#{p}_clip)"><g transform="{lens_at}">{lens_svg}</g></g>'
             f'<circle cx="{lx}" cy="{ly}" r="{R}" fill="none" stroke="{INK}" stroke-width="12"/>'
-            f'<path id="{p}_link" class="pen" pathLength="1" d="M{300 + pw * scl * 0.3:.0f},{GY - ph * scl * 0.55:.0f} '
+            f'<path id="{p}_link" class="pen" pathLength="1" d="M{link0[0]:.0f},{link0[1]:.0f} '
             f'L{lx - R * 0.78:.0f},{ly + R * 0.62:.0f}" fill="none" stroke="{INK}" stroke-width="8" stroke-linecap="round"/>'
             f'</g>{W.hero_rig(c["bob"], c.get("hero"))}</g>')
     svg = svg_wrap(body + gold_layer(p, c["gold"], ""))
