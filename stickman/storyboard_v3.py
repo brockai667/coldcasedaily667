@@ -33,6 +33,10 @@ OR_MODELS = ["nvidia/nemotron-3-ultra-550b-a55b:free", "google/gemma-4-31b-it:fr
 # dostat od modelu ako hociktore ine miesto. HEROES (kip/ott/mara) su naopak LEN pre kanal
 # "unexplained" (UnexplainedDaily) - stary kanal ostava presne pri povodnej sedmicke.
 CHANNEL = os.environ.get("STICKMAN_CHANNEL", "coldcase")
+# partia pre Unexplained: v prompte ide ROLA, nie meno (model inak pise "Kip walks..." a kontrola faktov to zrazi)
+HERO_ROLE = {"kip": "a small explorer with a huge backpack and a cap",
+             "ott": "a tall thin geographer with round glasses and a satchel",
+             "mara": "an explorer with a ponytail, a headband and a map tube"}
 WORLDS = ["hill", "shore", "sea", "snow", "desert", "cave", "forest", "city", "library",
           "island", "canyon", "jungle", "geyser", "arctic"]
 HEROES = ["kip", "ott", "mara"] if CHANNEL == "unexplained" else \
@@ -110,7 +114,7 @@ OBJECTS that can be drawn (never anything else): {objects}
 Rules for pictures:
 - The first shot is walk_in. The last two are punch and loop_close.
 - Choose the world (where the story happens) from: {worlds}; suggested: {world_hint}.
-- Choose the main character from: {heroes}; suggested: {hero_hint}. He is the one who investigates the mystery.
+- Choose the main character from: {heroes}; suggested: {hero_hint}. This character investigates the mystery.{hero_rule}
 - Use at most one action_crowd, at most one theory, at most one exhibit, and never the same shot twice in a row.
 - Use 1 to 3 insert shots for the concrete details of the mystery (the stopped clock, the torn page, the empty pegs,
   the note) - the character does not appear in them, so the episode is not always "the detective walks and looks".
@@ -550,9 +554,14 @@ def generate(topic, rounds=3):
     if CHANNEL == "unexplained":
         hero_hint = _cast_lru()          # rotacia namiesto LLM - fixne pre cele generovanie tejto temy
     cat = "\n".join(f"- {k}: {what} [{prm}]" for k, (what, prm) in CATALOG.items())
+    heroes_txt, hero_rule = ", ".join(HEROES), ""
+    if CHANNEL == "unexplained":
+        heroes_txt = f"{hero_hint} ({HERO_ROLE.get(hero_hint, 'an explorer')})"
+        hero_rule = (" The hero is fixed - use exactly this one. NEVER write the character's name in any sentence: "
+                     "the narration is about the phenomenon; say 'the explorer', 'she' or 'he' when needed.")
     base = STORY_PROMPT.format(topic=topic, article=text[:11000], example=_example(), catalog=cat, objects=", ".join(v2.OBJECTS),
-                               worlds=", ".join(WORLDS), world_hint=world_hint, heroes=", ".join(HEROES),
-                               hero_hint=hero_hint, recent=recent_shots())
+                               worlds=", ".join(WORLDS), world_hint=world_hint, heroes=heroes_txt,
+                               hero_hint=hero_hint, hero_rule=hero_rule, recent=recent_shots())
     best, notes, prev_json = None, [], ""
     for rnd in range(1, rounds + 1):
         out = llm(base + (FIX_PROMPT.format(previous=prev_json, problems="\n".join(f"- {p}" for p in notes))

@@ -579,7 +579,8 @@ def check_facts(spec):
     if not facts:
         return []
     # vseobecne zname orientacne body nie su vymyslene mena - tie sa vo fact sheete byt nemusia
-    known = {"great", "pyramid", "pyramids", "stonehenge", "egypt", "egyptian", "rome", "roman", "greek", "greece",
+    known = {"kip", "ott", "mara",       # mena partie Unexplained (nie su v clanku, ale nie su vymyslene)
+             "great", "pyramid", "pyramids", "stonehenge", "egypt", "egyptian", "rome", "roman", "greek", "greece",
              "europe", "european", "earth", "moon", "sun", "america", "asia", "africa", "viking", "vikings",
              "bronze", "iron", "stone", "middle", "ages", "world", "war", "north", "south", "east", "west",
              "eiffel", "tower", "liberty", "statue", "titanic", "colosseum", "parthenon", "acropolis", "atlantic",
