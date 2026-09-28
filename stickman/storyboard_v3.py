@@ -364,6 +364,13 @@ def _fix_unspoken(spec):
         if l["shot"] == "theory" and str(pr.get("bubble") or "").lower() in ("water", "sea", "ocean") \
                 and re.search(r"\b(waves?|tsunami|swell)\b", l["say"].lower()):
             pr["bubble"] = "wave"
+        # veta o obetiach (tongue/eyes/faces/bodies…) s vlozkou vody/stromu/kamena -> telo pod plachtou
+        if l["shot"] in ("insert", "object_reveal", "spot", "detail_compare") \
+                and pr.get("object") in ("water", "wave", "tree", "stone", "mountain", "cave", "forest", "fallen_tree") \
+                and re.search(r"\b(tongues?|eyes?|faces?|bod(y|ies)|corpses?|remains|victims?)\b", l["say"].lower()):
+            pr["object"] = "body"
+            if l["shot"] != "insert":
+                pr["action"] = "watch"
         l["params"] = pr
     # ten isty zaber dvakrat po sebe (spot, spot) -> druhy sa prepne na sesterský archetyp s rovnakym objektom
     for a, b in zip(spec["lines"], spec["lines"][1:]):
