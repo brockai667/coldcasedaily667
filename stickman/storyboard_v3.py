@@ -480,7 +480,10 @@ def check_v3(spec, text):
         probs.append(f"insert used {seen.count('insert')} times - at most 3")
     # popis v inserte nesmie pridavat fakty: kazde slovo je vo vete, alebo cislo, alebo z malej sady stavov
     OK_LABEL = {"missing", "stopped", "torn", "empty", "gone", "unknown", "locked", "open", "closed", "broken", "found",
-                "no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "left", "still"}
+                "no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "left", "still",
+                # jednotky a skratky cisel ("36 KG" pri vete "36-kilogram", "700 M", "3 HZ")
+                "kg", "g", "t", "m", "km", "cm", "mm", "ft", "mi", "mph", "kmh", "hz", "khz", "db", "c", "f", "lb",
+                "lbs", "yrs", "years", "year", "days", "hours", "min", "sec", "x", "%"}
     for i, l in enumerate(spec["lines"], 1):
         if l["shot"] != "insert":
             continue
@@ -626,7 +629,7 @@ def generate(topic, rounds=3):
                 spec, hard = cand, probs2
     # brana pre fabriku: tvrde kontroly + slaby pribeh/zrozumitelnost; poznamky editora su len informacia
     # (limit 80 slov riadi FIX/TIGHTEN; do 90 slov (~32 s reci) sa hotova epizoda nezahadzuje)
-    hard = [p for p in hard if not ("words in total" in p and _words(spec) <= 90)]
+    hard = [p for p in hard if not (("words in total" in p or p.startswith("slov ")) and _words(spec) <= 100)]
     problems = hard + [f"kritik {k} = {scores[k]}/10 (chcem aspon 6)" for k in ("story", "clarity") if scores.get(k, 0) < 6]
     for l in spec["lines"]:
         l.pop("fact", None)

@@ -212,6 +212,7 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="vyrob video, nepublikuj")
     ap.add_argument("--topic", default=None, help="konkretna tema namiesto banky")
     ap.add_argument("--spec", default=None, help="hotovy spec JSON - preskoci generovanie pribehu (test/rerun)")
+    ap.add_argument("--story-only", action="store_true", help="len pribeh (spec do specs/), bez renderu a publikovania")
     a = ap.parse_args()
 
     bank = load_json(TOPICS, {"used": [], "topics": []})
@@ -244,6 +245,11 @@ def main():
     log("  [spec] %s  (%d viet, world=%s, hero=%s, speed=%s, kritik=%s)"
         % (spec.get("title"), len(spec["lines"]), spec.get("world"), spec.get("hero"), spec.get("speed"),
            spec.get("critic")))
+    if a.story_only:
+        for i, l in enumerate(spec["lines"], 1):
+            log("    %2d. [%-14s] %s  %s" % (i, l["shot"], l["say"], l.get("params")))
+        log("STORY-ONLY: spec hotovy (%s), render a publikovanie preskocene." % spec_path)
+        return 0
 
     import push_to_buffer as P
     cfg = P.load_cfg()
