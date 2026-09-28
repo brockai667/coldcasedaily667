@@ -148,16 +148,21 @@ def write_sidecar(mp4, title, body):
 
 
 # ------------------------------------------------------------------ 5) publikovanie
-def next_slot():
-    """Najblizsi buduci den o SLOT_LOCAL (Europe/Bratislava) -> ISO UTC pre Buffer (customScheduled)."""
+def next_slot(taken=None):
+    """Najblizsi buduci den o SLOT_LOCAL (Europe/Bratislava) -> ISO UTC pre Buffer (customScheduled).
+    'taken' = sloty uz obsadene vo fronte Buffera (push_to_buffer.taken_slots) -> preskocia sa,
+    aby oneskoreny cron + dalsi den nedali dve epizody na ten isty cas."""
     from zoneinfo import ZoneInfo
     tz = ZoneInfo("Europe/Bratislava")
     hh, mm = (SLOT_LOCAL.split(":") + ["0"])[:2]
     now = datetime.datetime.now(tz)
-    for day in range(0, 3):
+    for day in range(0, 10):
         t = (now + datetime.timedelta(days=day)).replace(hour=int(hh), minute=int(mm), second=0, microsecond=0)
         if t > now + datetime.timedelta(minutes=15):
-            return t.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+            iso = t.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+            if taken and iso[:16] in taken:
+                continue                            # ten den uz epizoda caka -> dalsi den
+            return iso
     return (now + datetime.timedelta(hours=1)).astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
 
@@ -176,7 +181,7 @@ def publish(mp4, title, body, cfg):
 
     log("  [host] nahravam video...")
     url = P.host_video(cfg, mp4) if hasattr(P, "host_video") else P.upload_cloudinary(cfg, mp4)
-    due = next_slot()
+    due = next_slot(P.taken_slots(token))
     log("  [buffer] planujem na %s UTC -> %s" % (due, ", ".join(c["service"] for c in targets)))
 
     yt_title = (title + " #shorts")[:100]

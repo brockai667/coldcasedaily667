@@ -56,6 +56,34 @@ def load_cfg():
     return appconfig.load()
 
 
+def _slot_key(iso):
+    """'2026-09-29T09:00:00.000Z' / '+00:00' -> '2026-09-29T09:00' (UTC, na minutu) pre porovnanie slotov."""
+    try:
+        t = datetime.datetime.fromisoformat(str(iso).replace("Z", "+00:00"))
+        if t.tzinfo is None:
+            t = t.replace(tzinfo=datetime.timezone.utc)
+        return t.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M")
+    except Exception:
+        return str(iso)[:16]
+
+
+def taken_slots(token):
+    """Casy (UTC, na minutu) postov, ktore uz cakaju vo fronte Buffera. Dva behy (oneskoreny cron +
+    dalsi den, alebo rucny beh) tak nikdy nedaju dve videa do toho isteho slotu. Pri chybe vrati
+    prazdnu mnozinu - planovanie pokracuje ako doteraz."""
+    try:
+        org = gql(token, "query{account{organizations{id}}}")["account"]["organizations"][0]["id"]
+        q = ('query{posts(input:{organizationId:"%s", filter:{status:[scheduled,sending]}, '
+             'sort:[{field:dueAt,direction:asc}]}){edges{node{dueAt}}}}' % org)
+        taken = {_slot_key(e["node"]["dueAt"]) for e in gql(token, q)["posts"]["edges"] if e["node"].get("dueAt")}
+        if taken:
+            print(f"  fronta Buffera: {len(taken)} obsadenych slotov (preskocia sa)")
+        return taken
+    except Exception as e:
+        print(f"  (fronta Buffera sa nedala precitat: {str(e)[:100]} -> sloty bez kontroly)")
+        return set()
+
+
 def gql(token, query, variables=None):
     r = requests.post(
         BUFFER_API,
