@@ -141,7 +141,57 @@ PF.cards = (function () {
       R(-82, -38, 30, 16, "#e8eef4", 3) + C(0, 14, 52, K.mt) + C(0, 14, 40, INK) + C(0, 14, 26, K.bl) + C(-9, 4, 8, K.wh, ' opacity="0.8"'); },
     skull: function () { return CUT(P("M0 -88 C56 -88 82 -48 80 -4 C78 28 62 42 50 48 L48 72 C48 86 36 92 24 92 H-24 C-36 92 -48 86 -48 72 L-50 48 C-62 42 -78 28 -80 -4 C-82 -48 -56 -88 0 -88 Z", K.cr)) +
       E(-32, 0, 22, 25, INK) + E(32, 0, 22, 25, INK) + C(-26, -8, 5, K.wh) + C(38, -8, 5, K.wh) + P("M0 24 L-11 44 H11 Z", INK) +
-      L("M-34 64 H34 M-21 64 V86 M-7 64 V88 M7 64 V88 M21 64 V86", "#cdbd9c", 4); }
+      L("M-34 64 H34 M-21 64 V86 M-7 64 V88 M7 64 V88 M21 64 V86", "#cdbd9c", 4); },
+    diamond: function () { return CUT(P("M-50 -70 L50 -70 L96 -12 L0 92 L-96 -12 Z", K.bl) + P("M0 -70 L50 -70 L96 -12 L0 92 Z", K.blL)) +
+      P("M-30 -70 L30 -70 L12 -28 L-12 -28 Z", K.wh) +
+      L("M-50 -70 L0 92 M50 -70 L0 92 M-96 -12 H96 M-30 -70 L-12 -28 M30 -70 L12 -28", INK, 3) + spark(-72, -48, 13, K.wh); },
+    moneybag: function () { return CUT(P("M-72 -2 C-94 40 -82 96 0 96 C82 96 94 40 72 -2 C64 -20 42 -22 30 -36 L-30 -36 C-42 -22 -64 -20 -72 -2 Z", K.br)) +
+      P("M0 -40 C34 -40 60 -30 72 -2 C64 -20 42 -22 30 -36 L-30 -36 C-42 -22 -64 -20 -72 -2 C-60 -30 -34 -40 0 -40 Z", K.brD, ' opacity="0.45"') +
+      P("M-20 -58 Q0 -78 20 -58 Z", K.brD) + R(-24, -56, 48, 20, K.brD, 8) + T(2, 34, "$", 68, INK, SF); },
+    painting: function () { return CUT(R(-82, -96, 164, 192, K.wdD, 4)) + R(-62, -78, 124, 156, K.mo, 2) +
+      C(22, -46, 15, K.yl) + P("M-62 44 C-30 -2 8 -2 28 26 C44 46 62 32 62 16 V78 H-62 Z", K.gr) +
+      R(-62, -78, 124, 10, "#fff6d6", 0, ' opacity="0.35"'); },
+    train: function () { return CUT(P("M-96 42 L-52 42 L-52 6 Z", K.mtD) +
+        R(-56, -32, 106, 64, K.mtD, 8) + R(30, -68, 46, 44, K.mtD, 6) + R(-45, -64, 14, 34, K.mtD, 2) +
+        P("M-48 -64 L-30 -64 L-36 -80 L-44 -80 Z", K.mtD)) +
+      R(40, -56, 24, 20, K.mt, 3) + L("M-52 -4 H48", K.rd, 6) + C(-64, -12, 8, K.yl) +
+      C(-34, 54, 22, "#3a332e") + C(16, 54, 26, "#3a332e") + C(52, 54, 17, "#3a332e") +
+      C(-34, 54, 7, K.rd) + C(16, 54, 9, K.rd) + C(52, 54, 6, K.rd); },
+    car: function () { return CUT(R(-88, -6, 176, 40, K.gr, 16) + P("M-46 -6 C-46 -40 -20 -52 8 -52 C32 -52 48 -36 50 -6 Z", K.gr)) +
+      P("M-36 -10 C-36 -34 -16 -42 6 -42 C24 -42 38 -30 40 -10 Z", K.sl) + L("M2 -42 V-10", K.grD, 3) +
+      L("M-88 24 H-68 M68 24 H88", K.mt, 6) + C(-84, 10, 7, K.yl) +
+      C(-50, 40, 25, "#3a332e") + C(46, 40, 25, "#3a332e") + C(-50, 40, 9, K.mt) + C(46, 40, 9, K.mt); },
+    briefcase: function () { return CUT(R(-84, -44, 168, 108, K.wd, 10) + L("M-26 -44 C-26 -70 26 -70 26 -44", K.wdD, 10)) +
+      R(-84, -6, 168, 6, K.wdD) + R(-18, -18, 36, 30, K.br, 4) + C(0, -3, 4, K.wdD) +
+      C(-68, -28, 4, K.wdD) + C(68, -28, 4, K.wdD) + C(-68, 46, 4, K.wdD) + C(68, 46, 4, K.wdD); },
+    handcuffs: function () { var ring = function (cx, cy) { return P("M" + (cx - 32) + " " + cy + " a32 32 0 1 0 64 0 a32 32 0 1 0 -64 0 Z M" + (cx - 16) + " " + cy + " a16 16 0 1 1 32 0 a16 16 0 1 1 -32 0 Z", K.mt, ' fill-rule="evenodd"'); };
+      return CUT(ring(-44, -14) + ring(44, 16) + G(L("M-24 0 q12 13 24 0 q12 -13 24 0", K.mtD, 9), ' transform="translate(0 1) rotate(20)"')); },
+    fingerprint: function () { var m = "", k;
+      for (k = 0; k < 6; k++) m += E(4 - k, 4 - k * 3, 68 - k * 11, 82 - k * 12, "none", ' stroke="' + INK + '" stroke-width="6"');
+      return CUT(R(-78, -92, 156, 184, K.cr, 10)) + m + R(-78, 46, 156, 46, K.cr); },
+    safe: function () { return CUT(R(-80, -86, 160, 172, K.mtD, 10)) + C(0, 6, 66, K.mt) + RING(0, 6, 66, K.mtD, 6) +
+      C(0, -14, 27, K.br) + RING(0, -14, 27, K.brD, 3) + C(0, -14, 6, K.brD) +
+      G(L("M0 -14 L0 -34", K.brD, 4), ' transform="rotate(35 0 -14)"') +
+      R(38, -2, 24, 14, K.br, 6) + C(-64, -70, 5, K.mt) + C(64, -70, 5, K.mt) + C(-64, 78, 5, K.mt) + C(64, 78, 5, K.mt); },
+    mask: function () { return CUT(P("M-92 -8 C-70 -34 -30 -30 0 -14 C30 -30 70 -34 92 -8 C86 20 60 36 34 30 C22 26 14 14 0 14 C-14 14 -22 26 -34 30 C-60 36 -86 20 -92 -8 Z", "#3a332e", ' stroke="' + K.sn + '" stroke-width="3"') +
+        L("M-88 -14 L-98 -30 M88 -14 L98 -30", "#3a332e", 7)) +
+      E(-38, 2, 17, 12, K.skin, ' transform="rotate(-10 -38 2)"') + E(38, 2, 17, 12, K.skin, ' transform="rotate(10 38 2)"') +
+      C(-38, 2, 4, INK) + C(38, 2, 4, INK); },
+    coin: function () { var m = "", ys = [76, 56, 36];
+      ys.forEach(function (y, i) { m += E(0, y, 70, 18, i % 2 ? K.ylD : K.yl); });
+      return CUT(m + C(0, 8, 62, K.yl)) + RING(0, 8, 62, K.ylD, 5) + RING(0, 8, 38, K.ylD, 3) + T(2, 24, "$", 54, INK, SF); },
+    book: function () { return CUT(P("M-92 -38 L0 -54 L92 -38 L92 62 L0 46 L-92 62 Z", K.wdD) +
+        P("M-80 -28 L-6 -42 L-6 44 L-80 54 Z", K.cr) + P("M6 -42 L80 -28 L80 54 L6 44 Z", K.cr)) +
+      L("M0 -54 V46", K.wdD, 4) +
+      L("M-68 -12 L-16 -20 M-68 2 L-16 -6 M-68 16 L-16 8 M-68 30 L-16 22", "#8d847b", 3) +
+      L("M68 -12 L16 -20 M68 2 L16 -6 M68 16 L16 8 M68 30 L16 22", "#8d847b", 3); },
+    parachute: function () { return CUT(P("M-92 -10 A92 78 0 0 1 92 -10 Z", K.or)) +
+      L("M0 -88 L-92 -10 M0 -88 L-46 -10 M0 -88 L46 -10 M0 -88 L92 -10", K.orD, 3) +
+      L("M-70 -10 L0 46 M-24 -10 L0 46 M24 -10 L0 46 M70 -10 L0 46", INK, 2.5) +
+      man(0, 58, 0.38, K.bl); },
+    bones: function () { var kn = function (f) { return R(-72, -9, 144, 18, f, 9) + C(-80, -13, 16, f) + C(-80, 13, 16, f) + C(80, -13, 16, f) + C(80, 13, 16, f); };
+      var one = kn(K.moD) + G(kn(K.cr), ' transform="scale(0.9)"');
+      return CUT(G(one, ' transform="rotate(45)"') + G(one, ' transform="rotate(-45)"')); }
   };
   function icon(name) {
     if (!ICONS[name]) { if (name) console.warn("cards: neznama ikona '" + name + "' -> question"); name = "question"; }

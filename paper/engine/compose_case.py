@@ -38,7 +38,9 @@ FX_ALL = {f for v in SITES.values() for f in v[1]} | {"flash", "magnify"}
 KINDS = ("photo", "stat", "note", "doc", "map")
 ICONS = set(("tent mountain footprints snowflake thermometer radiation avalanche ship waves lifeboat barrel logbook compass anchor dish "
              "printout star stopwatch satellite comet question magnifier envelope key clock calendar pin eye moon lightning house tree "
-             "plane report person group lock radio camera skull").split())
+             "plane report person group lock radio camera skull "
+             "diamond moneybag painting train car briefcase handcuffs fingerprint safe mask coin book parachute bones"   # heisty, zmiznutia (28.9.)
+           ).split())
 LIM = {"banner": 18, "label": 14, "caption": 22, "big": 8, "small": 18, "note": 20, "stamp": 12, "sheet": 24, "cta": 24, "folder": 22, "doc": 16}
 MAX_CARDS, MAX_SHOTS, MAX_BEATS = 5, 4, 7
 CHROME_SFX = dict(compose.CHROME_SFX, file=("tick.wav", 0.9))   # zvuk nadpisu beatu v chrome file (compose.py sa nemeni)

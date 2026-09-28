@@ -65,7 +65,8 @@ záber: `case/specs/_test_case.json` (fiktívny prípad).
   - `magnify` – lupa na poslednú kartu (`board`) alebo na hárok (`desk`), `dur` 0.6–4 s (default 1.6)
 - Ikony `photo`: tent mountain footprints snowflake thermometer radiation avalanche ship waves lifeboat barrel logbook compass
   anchor dish printout star stopwatch satellite comet question magnifier envelope key clock calendar pin eye moon lightning
-  house tree plane report person group lock radio camera skull.
+  house tree plane report person group lock radio camera skull diamond moneybag painting train car briefcase handcuffs
+  fingerprint safe mask coin book parachute bones.
 
 ## Časovanie (`at`)
 - `at` = presné slovo z vety (zvládne aj predponu a spojené slová); `"slovo#1"` = jeho druhý výskyt. Čísla, na ktoré kotvíš,
