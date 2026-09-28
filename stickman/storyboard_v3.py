@@ -29,8 +29,19 @@ import storyboard_v2 as v2  # noqa: E402
 
 OR_URL = "https://openrouter.ai/api/v1/chat/completions"
 OR_MODELS = ["nvidia/nemotron-3-ultra-550b-a55b:free", "google/gemma-4-31b-it:free", "qwen/qwen3.8-27b:free"]
-WORLDS = ["hill", "shore", "sea", "snow", "desert", "cave", "forest", "city", "library"]
-HEROES = ["archaeologist", "diver", "ranger", "scientist", "sailor", "detective", "caver"]
+# HiddenEarth: 5 nove miesta (places.py) su pre kazdy kanal - stara ColdCase obsadenie ich moze
+# dostat od modelu ako hociktore ine miesto. HEROES (kip/ott/mara) su naopak LEN pre kanal
+# "unexplained" (UnexplainedDaily) - stary kanal ostava presne pri povodnej sedmicke.
+CHANNEL = os.environ.get("STICKMAN_CHANNEL", "coldcase")
+WORLDS = ["hill", "shore", "sea", "snow", "desert", "cave", "forest", "city", "library",
+          "island", "canyon", "jungle", "geyser", "arctic"]
+HEROES = ["kip", "ott", "mara"] if CHANNEL == "unexplained" else \
+    ["archaeologist", "diver", "ranger", "scientist", "sailor", "detective", "caver"]
+# rotacia obsadenia (len kanal "unexplained"): work/cast_history.json v enginu, ale v repo kopii
+# (priecinok "stickman", nie "_engine") stickman/cast_history.json - MIMO stickman/work/, lebo ten
+# je v .gitignore a krok "persist" v stickman-unexplained.yml musi vediet subor commitnut.
+CAST_HISTORY = os.path.join(ROOT, "cast_history.json") if os.path.basename(ROOT) != "_engine" \
+    else os.path.join(ROOT, "work", "cast_history.json")
 
 # co engine naozaj vie nakreslit - model si vybera IBA z tohto
 CATALOG = {
@@ -264,6 +275,31 @@ def remember(spec):
     json.dump(hist[-30:], open(HISTORY, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
+def _cast_lru():
+    """Kanal "unexplained": dalsi hrdina sa nevybera cez LLM ale strieda sa - vrati z HEROES toho,
+    koho CAST_HISTORY ukazuje ako najdavnejsie pouziteho (alebo hocikoho, ak tam este nikto nie je),
+    takze dve susedne epizody nikdy nemaju rovnaku postavu. Zapisuje sa cez _remember_cast nizsie."""
+    try:
+        hist = json.load(open(CAST_HISTORY, encoding="utf-8"))
+    except (OSError, ValueError):
+        hist = []
+
+    def last_used(h):
+        idx = [i for i, x in enumerate(hist) if x == h]
+        return idx[-1] if idx else -1
+    return min(HEROES, key=last_used)
+
+
+def _remember_cast(hero):
+    try:
+        hist = json.load(open(CAST_HISTORY, encoding="utf-8"))
+    except (OSError, ValueError):
+        hist = []
+    hist.append(hero)
+    os.makedirs(os.path.dirname(CAST_HISTORY), exist_ok=True)
+    json.dump(hist[-30:], open(CAST_HISTORY, "w", encoding="utf-8"))
+
+
 def _object_variant(obj, say):
     """Varianta rekvizity podla vety: „supply box" nie je piratska truhla (chest -> crate),
     rozbita debna ma vlastnu kresbu (crate_broken)."""
@@ -485,7 +521,8 @@ def _assemble(out, topic, text, world_hint, hero_hint):
     lines[-2].setdefault("params", {})["word"] = "UNEXPLAINED"
     lines[-1]["params"]["question"] = lines[-1]["say"]
     world = out.get("world") if out.get("world") in WORLDS else world_hint
-    hero = out.get("hero") if out.get("hero") in HEROES else hero_hint
+    # "unexplained": hero_hint uz je LRU-rotovana postava (generate()) - LLM ju nevybera, len ju dostane
+    hero = hero_hint if CHANNEL == "unexplained" else (out.get("hero") if out.get("hero") in HEROES else hero_hint)
     spec = {"title": out.get("title", ""), "topic": topic, "facts": [text], "world": world, "hero": hero,
             "lines": lines, "generator": "v3"}
     _fix_unspoken(spec)
@@ -510,6 +547,8 @@ def generate(topic, rounds=3):
         print(f"  !! clanok o '{topic}' je prilis kratky ({len(text)} znakov) - tema sa preskakuje", flush=True)
         raise SystemExit(3)
     world_hint, hero_hint = v1.scene_world(topic, [text], [])
+    if CHANNEL == "unexplained":
+        hero_hint = _cast_lru()          # rotacia namiesto LLM - fixne pre cele generovanie tejto temy
     cat = "\n".join(f"- {k}: {what} [{prm}]" for k, (what, prm) in CATALOG.items())
     base = STORY_PROMPT.format(topic=topic, article=text[:11000], example=_example(), catalog=cat, objects=", ".join(v2.OBJECTS),
                                worlds=", ".join(WORLDS), world_hint=world_hint, heroes=", ".join(HEROES),
@@ -537,7 +576,8 @@ def generate(topic, rounds=3):
         lines[-2].setdefault("params", {})["word"] = "UNEXPLAINED"
         lines[-1]["params"]["question"] = lines[-1]["say"]
         world = out.get("world") if out.get("world") in WORLDS else world_hint
-        hero = out.get("hero") if out.get("hero") in HEROES else hero_hint
+        # "unexplained": hero_hint uz je LRU-rotovana postava (generate()) - LLM ju nevybera, len ju dostane
+        hero = hero_hint if CHANNEL == "unexplained" else (out.get("hero") if out.get("hero") in HEROES else hero_hint)
         spec = {"title": out.get("title", ""), "topic": topic, "facts": [text], "world": world, "hero": hero,
                 "lines": lines, "generator": "v3"}
         _fix_unspoken(spec)
@@ -597,6 +637,8 @@ if __name__ == "__main__":
     json.dump(spec, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     if not problems:
         remember(spec)
+        if CHANNEL == "unexplained":
+            _remember_cast(spec["hero"])   # len pre pouzitelnu epizodu - preskocena tema nesmie "ukradnut" tah v rotacii
     print(f"\n{spec.get('title')}  ({spec['world']}/{spec['hero']}, kritik {spec.get('critic')})  ->  {out}")
     if "--show" in sys.argv:
         for i, l in enumerate(spec["lines"], 1):

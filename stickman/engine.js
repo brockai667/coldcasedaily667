@@ -107,7 +107,9 @@ function ball(id, x0, y0, vx, vy, g, t0, dur, spin) {
 /* ---------------------------------------------------------------- RIG */
 function Rig(p, init) {
   var E = {};
-  ["root", "body", "lL", "lL2", "lR", "lR2", "aL", "aL2", "aR", "aR2", "head", "hat", "eyeL", "eyeR", "mouth", "mouthO"].forEach(function (k) { E[k] = $(p + "_" + k); });
+  ["root", "body", "lL", "lL2", "lR", "lR2", "aL", "aL2", "aR", "aR2", "head", "hat", "eyeL", "eyeR", "mouth", "mouthO", "flap"].forEach(function (k) { E[k] = $(p + "_" + k); });
+  /* volitelny povievajuci diel (sal, cop, brasna - heroes.py): uhol z fazy krokov, nie z casu -> slucka sedi */
+  var FA = E.flap ? [parseFloat(E.flap.getAttribute("data-a")) || 0, parseFloat(E.flap.getAttribute("data-b")) || 0] : null;
   var d = { x: 0, y: 0, ox: 0, oy: 0, rot: 0, s: 1, flip: 1, sq: 1, o: 1, lean: 0, drop: 0, lL: 4, lL2: 0, lR: -4, lR2: 0,
     aL: 14, aL2: 10, aR: -14, aR2: 10, head: 0, w: 0, wa: 0, ph: 0, A: 26, idle: 0, wave: 0, trem: 0, eye: 0, mo: 0,
     hatx: 0, haty: 0, hatr: 0, hato: 1, seed: 0 };
@@ -128,6 +130,7 @@ function Rig(p, init) {
     R(E.aR, -(st.aR + st.wa * A * 1.15 * sn)); R(E.aR2, -(st.aR2 + st.wa * 14));
     E.head.setAttribute("transform", "rotate(" + (st.head + st.idle * 1.5 * Math.sin(t * 3.1 + 1 + st.seed)).toFixed(2) + ")");
     if (E.hat) { E.hat.setAttribute("transform", "translate(" + st.hatx.toFixed(2) + "," + st.haty.toFixed(2) + ") rotate(" + st.hatr.toFixed(2) + ")"); E.hat.setAttribute("opacity", st.hato); }
+    if (FA) E.flap.setAttribute("transform", "rotate(" + (w * (FA[0] + FA[1] * Math.sin(2 * st.ph)) - 0.5 * st.lean).toFixed(2) + ")");
     E.eyeL.setAttribute("r", (11 * st.eye).toFixed(2)); E.eyeR.setAttribute("r", (11 * st.eye).toFixed(2));
     E.mouth.setAttribute("opacity", st.mo > 0.2 ? 0 : 1);
     E.mouthO.setAttribute("rx", (7 * st.mo).toFixed(2)); E.mouthO.setAttribute("ry", (10 * st.mo).toFixed(2));

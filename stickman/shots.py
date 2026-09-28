@@ -421,7 +421,7 @@ def hill_world(p, rigid, prop, with_ghost=True, loop_cls=False, world="hill", he
                          for x, y, w in ((LCX - LRX - 14, LCY + 12, 30), (LCX - LRX * 0.55, LCY + LRY + 9, 24),
                                          (LCX + LRX * 0.35, LCY + LRY + 10, 20), (LCX + LRX + 12, LCY + 6, 28)))
         lake_back = field + pines + rim + water + stones
-    deco = (bone(760, 1560, 20) + bone(1500, 1250, -30, 0.9)) if kind in ("hill", "desert") else ""
+    deco = (bone(760, 1560, 20) + bone(1500, 1250, -30, 0.9)) if kind in ("hill", "desert") and _look.walk_bones() else ""
     if kind == "sea":
         # Na otvorenom mori nie je po com kracat: hrdinu nesie lod. Trup sa kresli
         # PRED hladinou, takze ho voda dolu prekryje a lod naozaj sedi vo vode.

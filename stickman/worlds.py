@@ -7,7 +7,9 @@ Vsetko kresli rovnakou linkou ako zvysok stavebnice (props.py).
 import math
 import re
 
+import heroes as _H
 import look as _look
+import places as _P
 import worlds_ext as _X
 from props import (DIRT, DIRT2, GH, INK, LEAF, PAPER, SHADE, STONE, SUN, WATER, WOOD,
                    PROPS, ell, p_coin, p_ship, p_ship_far, rig)
@@ -27,7 +29,10 @@ HERO_STYLE = {
 
 
 def hero_rig(p, hero="archaeologist", prop=""):
-    kw = dict(HERO_STYLE.get((hero or "").strip().lower(), HERO_STYLE["archaeologist"]))
+    h = (hero or "").strip().lower()
+    if h in _H.CAST:           # HiddenEarth: kip / ott / mara - vlastna silueta (heroes.py)
+        return _H.rig(p, h, prop)
+    kw = dict(HERO_STYLE.get(h, HERO_STYLE["archaeologist"]))
     kw["prop"] = prop
     return rig(p, **kw)
 
@@ -162,6 +167,9 @@ WORLD_ALIAS = {"mountain": "snow",
                "jungle": "forest", "woods": "forest", "taiga": "forest", "tunguska": "forest", "fallen_forest": "forest",
                "town": "city", "street": "city", "library": "city", "archive": "city", "scriptorium": "city"}
 KINDS = ("hill", "shore", "snow", "desert", "sea", "cave", "forest", "city")
+# HiddenEarth miesta (places.py): island -> shore/isle, canyon -> desert/canyon, jungle -> forest/jungle,
+# geyser/volcano -> hill/geyser, arctic/ice_shelf -> snow/iceshelf (varianta vid world_variant)
+WORLD_ALIAS.update({n: _P.KIND_OF[t] for n, t in _P.NAMES.items() if n not in KINDS})
 
 # Varianta sveta pre aktualny build (nastavi build_spec podla spec-u):
 #   forest "fallen"  = vyvratene kmene do kruhu (Tunguska)
@@ -184,6 +192,8 @@ _BOOKS_RX = (r"\b(books?|manuscripts?|codex|codices|library|libraries|librar\w*|
 def world_variant(world, spec=None):
     """Varianta sveta: explicitne meno (library, tunguska) alebo kluce slova v texte spec-u."""
     w = (world or "").strip().lower()
+    if w in _P.NAMES:              # HiddenEarth miesto (ostrov, kanon, dzungla, gejzir, ladovy self)
+        return _P.NAMES[w]
     if w in ("library", "archive", "scriptorium"):
         return "library"
     if w in ("tunguska", "fallen_forest"):

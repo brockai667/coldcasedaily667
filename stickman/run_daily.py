@@ -27,14 +27,17 @@ REPO = os.path.dirname(ROOT)
 sys.path.insert(0, ROOT)
 sys.path.insert(0, REPO)
 
-TOPICS = os.path.join(ROOT, "topics.json")
+# STICKMAN_TOPICS (napr. "stickman/topics_unexplained.json" - relativne k REPO, ako v run: kroku
+# workflow-u) umoznuje inemu kanalu (UnexplainedDaily) pouzit vlastnu banku tem; nenastavene = povodne.
+TOPICS = os.path.join(REPO, os.environ["STICKMAN_TOPICS"]) if os.environ.get("STICKMAN_TOPICS") \
+    else os.path.join(ROOT, "topics.json")
 OUT = os.path.join(ROOT, "out")
 SPECS = os.path.join(ROOT, "specs")
 STATE = os.path.join(ROOT, "published.json")
 
 MUSIC_CREDIT = ('Music: "Sneaky Snitch" by Kevin MacLeod (incompetech.com), '
                 "licensed under Creative Commons: By Attribution 3.0")
-HASHTAGS_DEFAULT = "#truecrime #coldcase #unsolved #mystery #shorts"
+HASHTAGS_DEFAULT = os.environ.get("STICKMAN_HASHTAGS") or "#truecrime #coldcase #unsolved #mystery #shorts"
 SLOT_LOCAL = os.environ.get("STICKMAN_SLOT_LOCAL", "12:00")     # HH:MM, Europe/Bratislava
 
 

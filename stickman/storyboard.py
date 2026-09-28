@@ -407,6 +407,14 @@ WORLDS = [                     # (regex, svet pre uvodny/slucokovy zaber, varian
     # vykopavka na kopci (Göbekli) - bez tohto vyhralo mesto len preto, ze fakty spominaju Sanliurfu
     (r"\b(excavat\w*|archaeolog\w*|enclosures?|megaliths?|pillars?|temples?|mounds?|hills?|hilltop)\b",
      "hill", "archaeologist", 1.0),
+    # HiddenEarth (UnexplainedDaily): 5 novych miest z places.py. Pridane na koniec s miernou vahou
+    # (1.2) - pri holom prekryve s pravidlom vyssie (napr. „jungles?" v `forest`, „deserts?" v `desert`)
+    # vyhra tento novy svet len ked clanok jasne opisuje TOTO miesto (viac / specifickejsich zhod).
+    (r"\b(islands?|isles?|islets?|lighthouses?|coastlines?)\b", "island", "sailor", 1.2),
+    (r"\b(canyons?|deserts?|rock arch(es)?|red rock|mesas?|buttes?)\b", "canyon", "archaeologist", 1.2),
+    (r"\b(jungles?|rainforests?|temple ruins|overgrown ruins)\b", "jungle", "archaeologist", 1.2),
+    (r"\b(volcanoe?s?|volcanic|geysers?|lava|hot springs?)\b", "geyser", "ranger", 1.2),
+    (r"\b(arctic|antarctic|ice shelf|ice shelves|glaciers?|icebergs?)\b", "arctic", "ranger", 1.2),
 ]
 
 

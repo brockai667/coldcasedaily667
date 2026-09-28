@@ -153,6 +153,13 @@ PAL = {
 CUR = None          # aktualny LOOK (dict) - nastavi build_spec cez set_current()
 
 
+def _pl():
+    """HiddenEarth miesta (places.py: ostrov, kanon, dzungla, gejzir, ladovy self) - lenivy import,
+    places importuje look. Kazdy hacok nizsie sa ich tyka len ked je teren epizody jedno z nich."""
+    import places
+    return places
+
+
 # ================================================================== vyber
 def _h(s):
     return int(hashlib.md5(str(s).encode("utf-8")).hexdigest()[:8], 16)
@@ -219,10 +226,15 @@ def choose(spec, kind, variant="", slug=""):
     if kind == "city" and variant in ("library", "books"):
         lk["terrain"] = variant
         why["terrain"] = "variant"
+    # HiddenEarth miesta: len explicitne meno sveta (worlds.world_variant), nikdy nahodny seed
+    if variant in _pl().TERRAINS.get(kind, ()):
+        lk["terrain"] = variant
+        why["terrain"] = "variant"
     # prepis zo spec-u (testy)
     ov = spec.get("look") or {}
     if isinstance(ov, dict):
-        if ov.get("terrain") in TERRAINS.get(kind, ()) or (kind == "forest" and ov.get("terrain") == "fallen"):
+        if (ov.get("terrain") in TERRAINS.get(kind, ()) + _pl().TERRAINS.get(kind, ())
+                or (kind == "forest" and ov.get("terrain") == "fallen")):
             lk["terrain"] = ov["terrain"]
             why["terrain"] = "spec"
         if ov.get("time") in TIMES:
@@ -243,6 +255,8 @@ def choose(spec, kind, variant="", slug=""):
     lk["decor"] = [d for d in order if d not in blocked][:ndec]
     if isinstance(ov, dict) and isinstance(ov.get("decor"), (list, tuple)):
         lk["decor"] = [d for d in ov["decor"] if d in DECOR.get(kind, ())]
+    if lk["terrain"] in _pl().ALL:
+        lk["decor"] = []          # miesta maju vlastne drobnosti (places.py)
     # sneh si necha vlocky (dazd tam nie je); v pusti je "dazd/burka" piesocny opar (hmla v piesocnej farbe);
     # jaskyna a kniznica su interier - obloha sa nekresli
     if kind == "snow" and lk["weather"] == "rain":
@@ -343,7 +357,9 @@ def pal():
     if not CUR:
         return {}
     p = PAL.get(CUR["world"])
-    return p[CUR["palette"] % len(p)] if p else {}
+    base = p[CUR["palette"] % len(p)] if p else {}
+    x = _pl().PAL.get(CUR.get("terrain"))
+    return dict(base, **x[CUR["palette"] % len(x)]) if x else base
 
 
 def _rgb(c):
@@ -411,7 +427,9 @@ def tint_pebbles(svg):
     if not CUR:
         return svg
     k, t = CUR["world"], terrain()
-    if (k, t) in (("shore", "cliffs"), ("hill", "rocky"), ("desert", "mesa")):
+    if t in _pl().ALL:
+        c = col("pebble")
+    elif (k, t) in (("shore", "cliffs"), ("hill", "rocky"), ("desert", "mesa")):
         c = col("rock_line")
     elif k in ("shore", "desert"):
         c = col("sand_line", tone(DIRT2))
@@ -468,7 +486,7 @@ def sky_rect(p):
         return f'<path d="{R}" fill="#b1b7bf" opacity="0.62"/>'
     if w == "fog":
         return f'<path d="{R}" fill="#e4e2dc" opacity="0.45"/>'
-    return ""
+    return _pl().sky_rect(p) if _pl().on() else ""
 
 
 def dusk_sun(x, y, r=80):
@@ -527,7 +545,7 @@ STAGE_HZ_KIND = {"forest": 560, "city": 400, "sea": 300}
 
 def stage_hz(hor):
     k, t = kind(), terrain()
-    return hor - STAGE_HZ.get((k, t), STAGE_HZ_KIND.get(k, 200))
+    return hor - STAGE_HZ.get((k, t), _pl().STAGE_HZ.get(t, STAGE_HZ_KIND.get(k, 200)))
 
 
 def sky(p, sun_at, clouds, cls="sunray", hor=1290, dusk_y=None):
@@ -536,6 +554,10 @@ def sky(p, sun_at, clouds, cls="sunray", hor=1290, dusk_y=None):
     if not CUR or CUR["world"] == "cave":
         return None
     t, w = time(), weather()
+    if _pl().on():
+        s = _pl().sky(p, sun_at, clouds, cls, hor, dusk_y)
+        if s is not None:
+            return s
     if t == "day" and w == "clear":
         return None
     out = sky_rect(p)
@@ -570,6 +592,10 @@ def walk_sun(p, cls, default):
     """Obsah skupiny {p}_sun uvodu/slucky (obrazovkove suradnice, staticky)."""
     if not CUR or CUR["world"] == "cave":
         return default
+    if _pl().on():
+        s = _pl().walk_sun(p, cls, default)
+        if s is not None:
+            return s
     t, w = time(), weather()
     if t == "night":
         s = ""
@@ -617,6 +643,8 @@ def walk_cloud_spec():
     """(oblaky, slnko/mesiac (x, y, r) v obrazovke alebo None) pre stage_shots._cloud_k."""
     if not CUR:
         return DEFAULT_WALK_CL, (880.0, 330.0, 134.0)
+    if _pl().on() and _pl().cloud_spec() is not None:
+        return _pl().cloud_spec()
     t, w = time(), weather()
     if t == "night":
         return walk_cloud_list(), (None if w == "rain" else (float(MOON_WALK[0]), float(MOON_WALK[1]), 118.0))
@@ -714,7 +742,7 @@ def terrain_fn(kind_):
     """(python fn, JS vyraz) profilu pre variantu terenu, inak None (povodny profil sveta)."""
     if not CUR or kind_ != CUR["world"]:
         return None
-    v = TERRAIN_FN.get((kind_, terrain()))
+    v = TERRAIN_FN.get((kind_, terrain())) or _pl().TERRAIN_FN.get((kind_, terrain()))
     if not v:
         return None
     y0, rise, xo, span = v
@@ -727,6 +755,8 @@ def style(kind_, base):
     """STYLE sveta (vypln/podklad terenu uvodu) prefarbeny paletou."""
     if not CUR or kind_ != CUR["world"]:
         return base
+    if _pl().on():
+        return _pl().style(kind_, base)
     s = dict(base)
     t = terrain()
     if kind_ == "shore":
@@ -1149,12 +1179,19 @@ def walk(kind_, hy, x0, x1):
     """Nahrada worlds_ext.walk pre variantu terenu (brezy, ulicka), inak None."""
     if not CUR or kind_ != CUR["world"]:
         return None
+    if _pl().on():
+        return _pl().walk(kind_, hy, x0, x1)
     t = terrain()
     if kind_ == "forest" and t == "birch":
         return _birch_near(hy, x0, x1)
     if kind_ == "city" and t == "alley":
         return _alley_near(hy, x0, x1)
     return None
+
+
+def walk_bones():
+    """Kosti v zemi uvodu kopca/puste; sopecne pole (places: geyser) ich nema."""
+    return not (_pl().on() and _pl().T() == "geyser")
 
 
 def walk_back(kind_, hy, x0, x1):
@@ -1173,6 +1210,8 @@ def walk_near(kind_, hy, x0, x1):
     """Prvky terenu + drobnosti (decor) v blizkej vrstve uvodu/slucky - generovane z pevneho bodu."""
     if not CUR or kind_ != CUR["world"]:
         return ""
+    if _pl().on():
+        return _pl().walk_near(kind_, hy, x0, x1)
     t = terrain()
     out = ""
     if kind_ == "shore" and t == "cliffs":
@@ -1571,6 +1610,8 @@ def far(p, kind_):
     """Cela vzdialena vrstva pre breh (vsetky terny) a nove varianty terenu; inak None."""
     if not CUR or kind_ != CUR["world"]:
         return None
+    if _pl().on():
+        return _pl().far(p, kind_)
     t = terrain()
     if kind_ == "shore":
         body = _far_shore()
@@ -1797,6 +1838,8 @@ def backdrop(kind_, hor, r):
     """Pozadie inscenovanych zaberov pre breh, kopec a nove varianty; inak None (povodne pozadie)."""
     if not CUR or kind_ != CUR["world"]:
         return None
+    if _pl().on():
+        return _pl().backdrop(kind_, hor, r)
     t = terrain()
     if kind_ == "shore":
         return _bd_shore(hor)
@@ -1819,6 +1862,8 @@ def backdrop_extra(p, kind_, hor):
     """Drobnosti v dialke + vecerne slnko sa kresli v sky(); tu drobnosti a hmla nad pozadim."""
     if not CUR or kind_ != CUR["world"]:
         return ""
+    if _pl().on():
+        return fog_band(p, hor)          # drobnosti miest su priamo v places.backdrop
     out = ""
     t = terrain()
     hz = stage_hz(hor)
@@ -1947,6 +1992,8 @@ def ground(surface, y, x0, x1):
     """Zem inscenovanych zaberov pre variant terenu; None = povodna zem (s paletou)."""
     if not CUR:
         return None
+    if _pl().on():
+        return _pl().ground(surface, y, x0, x1)
     k, t = kind(), terrain()
     if surface == "sand" and k == "shore":
         if t == "cliffs":
@@ -1969,6 +2016,8 @@ def dressing(surface, sd, y, xs):
     """Drobnosti na zemi inscenovanych zaberov pre variant terenu; None = povodne."""
     if not CUR:
         return None
+    if _pl().on():
+        return _pl().dressing(surface, sd, y, xs)
     k, t = kind(), terrain()
     r = random.Random(sd)
     if surface == "sand" and k == "shore" and t == "cliffs":
@@ -1999,6 +2048,8 @@ def foreground(kind_, x0, x1, gy, r):
     """Popredie pri okrajoch obrazu pre variant terenu; None = povodne."""
     if not CUR or kind_ != CUR["world"]:
         return None
+    if _pl().on():
+        return _pl().foreground(kind_, x0, x1, gy, r)
     t = terrain()
     w = x1 - x0
     xa = x0 + (0.04 + r.random() * 0.10) * w
@@ -2053,6 +2104,8 @@ def mound_colors(kind_, default):
     """(vypln, ciara, tien) kopy nad predmetom (stage.cover_mound/chunks)."""
     if not CUR or kind_ != CUR["world"]:
         return default
+    if _pl().on():
+        return _pl().mound_colors(default)
     t = terrain()
     if kind_ == "shore":
         if t == "cliffs":
