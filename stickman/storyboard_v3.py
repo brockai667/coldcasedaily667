@@ -372,6 +372,42 @@ def _fix_unspoken(spec):
             b["params"].setdefault("action", "watch" if b["shot"] == "object_reveal" else "point")
 
 
+def _named(obj, say, strict=False):
+    """Rovnaky test ako v2.check_beats: kmen predmetu alebo synonymum vo vete (strict = cele slovo)."""
+    stem = obj.rstrip("s")
+    pat = (r"\b" + re.escape(stem)) if strict else (stem[:5] if len(stem) > 5 else stem)
+    return bool(re.search(pat, say, re.I) or re.search(v2._SYN.get(obj, "(?!x)x"), say, re.I))
+
+
+_CONT = re.compile(r"(some|others|the rest|the others|(two|three|four|five|six|seven|eight|nine|ten|\d+) "
+                   r"(more|others|of them)|it|its|they|their|this|these)\b", re.I)
+
+
+def _fix_unnamed(spec):
+    """Zaber kresli predmet, ktory veta nepomenuje (v2 kontrola) - deterministicky, bez dalsieho kola LLM:
+    1) predmet, ktory veta naozaj pomenuje (cele slovo z OBJECTS/_SYN), 2) pri pokracovacej vete
+    ('Three more are found…', 'Others…') predmet predosleho zaberu. Inak ostava na modeli (kolo FIX)."""
+    lines = spec["lines"]
+    for i, l in enumerate(lines):
+        pr = l.get("params") or {}
+        obj = str(pr.get("object") or "").lower()
+        if not obj or l["shot"] == "walk_in" or _named(obj, l["say"]):
+            continue
+        prev = str(((lines[i - 1].get("params") or {}).get("object") if i else "") or "").lower()
+        found = next((o for o in v2.OBJECTS if o != obj and _named(o, l["say"], strict=True)), "")
+        cont = _CONT.match(l["say"].strip())
+        if prev and cont and not re.match(r"(it|its|they|their|this|these)\b", cont.group(0), re.I):
+            pr["object"] = prev                      # 'Three more…', 'Others…' = ten isty predmet ako predtym
+        elif found:
+            pr["object"] = _object_variant(found, l["say"])
+        elif prev and cont:
+            pr["object"] = prev                      # zamenova veta ('Their…', 'It…') o predoslom predmete
+        else:
+            continue
+        print(f"  [fix] zaber {i + 1}: '{obj}' -> '{pr['object']}' (veta ho pomenuje)", flush=True)
+        l["params"] = pr
+
+
 def check_v3(spec, text):
     """Kontroly v2 (nakreslitelnost, cisla, mena, opis kresby, prva osoba…) proti CELEMU clanku."""
     for l in spec["lines"]:
@@ -446,6 +482,7 @@ def _assemble(out, topic, text, world_hint, hero_hint):
     spec = {"title": out.get("title", ""), "topic": topic, "facts": [text], "world": world, "hero": hero,
             "lines": lines, "generator": "v3"}
     _fix_unspoken(spec)
+    _fix_unnamed(spec)
     v2._derive(spec)
     return spec
 
@@ -497,6 +534,7 @@ def generate(topic, rounds=3):
         spec = {"title": out.get("title", ""), "topic": topic, "facts": [text], "world": world, "hero": hero,
                 "lines": lines, "generator": "v3"}
         _fix_unspoken(spec)
+        _fix_unnamed(spec)
         v2._derive(spec)
         probs = check_v3(spec, text)
         crit = llm(CRITIC_PROMPT.format(topic=topic, beats="\n".join(
@@ -531,6 +569,8 @@ def generate(topic, rounds=3):
             if _words(cand) < nw and len(probs2) <= len(hard):
                 spec, hard = cand, probs2
     # brana pre fabriku: tvrde kontroly + slaby pribeh/zrozumitelnost; poznamky editora su len informacia
+    # (limit 80 slov riadi FIX/TIGHTEN; do 90 slov (~32 s reci) sa hotova epizoda nezahadzuje)
+    hard = [p for p in hard if not ("words in total" in p and _words(spec) <= 90)]
     problems = hard + [f"kritik {k} = {scores[k]}/10 (chcem aspon 6)" for k in ("story", "clarity") if scores.get(k, 0) < 6]
     for l in spec["lines"]:
         l.pop("fact", None)

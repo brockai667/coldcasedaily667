@@ -523,21 +523,37 @@ def _rank_titles(topic, titles):
 def wiki_extract(topic, chars=6000):
     """Realny podklad namiesto pamate modelu: Wikipedia (bez kluca). Vrati (nazov clanku, text) alebo (None, '')."""
     import requests
+    import time
     api = "https://en.wikipedia.org/w/api.php"
     h = {"User-Agent": "FactoryAnim/1.0 (storyboard research)"}
+
+    def _get(params):
+        """Wikipedia z cloudu (GitHub Actions) obcas vrati chybu/prazdno - 3 pokusy s pauzou."""
+        last = None
+        for att in range(3):
+            try:
+                return requests.get(api, params=params, headers=h, timeout=25).json()
+            except Exception as ex:
+                last = ex
+                print(f"  [wiki] pokus {att + 1} zlyhal: {str(ex)[:80]}", flush=True)
+                time.sleep(2 + 2 * att)
+        raise last
     try:
-        s = requests.get(api, params={"action": "query", "list": "search", "srsearch": topic,
-                                      "srlimit": 5, "format": "json"}, headers=h, timeout=20).json()
+        s = _get({"action": "query", "list": "search", "srsearch": topic, "srlimit": 5, "format": "json"})
         hits = s.get("query", {}).get("search", [])
         if not hits:
             return None, ""
         # najlepsi nazov, ale kratky clanok (rozcestnik, kniha o pripade) -> skus dalsi v poradi
         first = None
         for title in _rank_titles(topic, [x["title"] for x in hits])[:3]:
-            e = requests.get(api, params={"action": "query", "prop": "extracts", "explaintext": 1,
-                                          "titles": title, "format": "json"}, headers=h, timeout=25).json()
-            page = next(iter(e.get("query", {}).get("pages", {}).values()), {})
-            text = (page.get("extract") or "")
+            text = ""
+            for att in range(3):                 # prazdny extract bez chyby = docasny vypadok -> zopakuj
+                e = _get({"action": "query", "prop": "extracts", "explaintext": 1, "titles": title, "format": "json"})
+                page = next(iter(e.get("query", {}).get("pages", {}).values()), {})
+                text = (page.get("extract") or "")
+                if text:
+                    break
+                time.sleep(2 + 2 * att)
             if first is None:
                 first = (title, text[:chars])
             if len(text) >= 3000:

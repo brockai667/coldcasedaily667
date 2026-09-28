@@ -92,6 +92,7 @@ SCENES = {
     "loop_close":   ("the character shrugs, a golden question mark and the question land", {"question": "text otazky"}),
     "punch":        ("the character alone, the golden word UNEXPLAINED slams in", {"word": "zlate slovo"}),
 }
+_SYN["ship"] = _SYN.get("ship", "ship") + "|brigantine|schooner|vessel|barque|sloop|frigate|hull|steamer"  # Mary Celeste: brigantine
 # scena -> svety, kde NEMA zmysel
 BANNED = {"dig": ("sea", "shore"), "descend": ("sea", "shore"), "wide_reveal": ("sea",),
           "human_stack": ("sea",), "action_crowd": ("sea",)}
