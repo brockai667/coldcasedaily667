@@ -1,0 +1,81 @@
+{
+ "topic": "Franklin Expedition",
+ "slug": "franklin-expedition",
+ "title": "The Franklin Expedition",
+ "case": "008",
+ "hook": "In 1845, 129 men sailed into the Arctic and were never seen again.",
+ "banner": ["129 MEN.", "NEVER SEEN."],
+ "site": "sea",
+ "props": ["ship", "rocks"],
+ "place": "CANADIAN ARCTIC",
+ "date": "MAY 1845",
+ "music": "echoes",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "Two ships, Erebus and Terror, searched for a passage through Arctic ice.",
+   "shots": [
+    {"t": "fx", "fx": "waves", "at": "passage", "dur": 4.0},
+    {"t": "fx", "fx": "fog", "at": "ice", "dur": 2.0}
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Both ships became trapped in ice, and Sir John Franklin later died.",
+   "shots": [
+    {"t": "card", "kind": "photo", "icon": "ship", "caption": "TRAPPED IN ICE", "at": "trapped"},
+    {"t": "stamp", "text": "EVIDENCE", "at": "died"}
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "A note left at Victory Point said the crew would try walking south.",
+   "shots": [
+    {"t": "card", "kind": "doc", "redact": [1, 3], "title": "VICTORY POINT", "at": "note", "string": true}
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "All 129 men died; searchers later found scattered bones and abandoned gear.",
+   "shots": [
+    {"t": "card", "kind": "stat", "big": "129", "small": "MEN LOST", "at": "129", "string": true},
+    {"t": "focus", "at": "bones", "dur": 1.3}
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "Some blame lead poisoning from tinned food, others harsh Arctic starvation.",
+   "shots": [
+    {"t": "card", "kind": "note", "lines": ["LEAD POISONING?", "OR STARVATION?"], "at": "poisoning", "string": true},
+    {"t": "stamp", "text": "THEORY", "at": "starvation"}
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "Wrecks of both ships were finally found in 2014 and 2016, ending decades of searching.",
+   "shots": [
+    {"t": "fx", "fx": "waves", "at": "found", "dur": 5.0},
+    {"t": "fx", "fx": "flicker", "at": "searching", "dur": 2.0}
+   ]
+  }
+ ],
+ "end": {"line": "Are the ships found, but the mystery still unsolved?", "stamp": "SOLVED?"},
+ "cta": "COMMENT YOUR THEORY",
+ "description": "In 1845, Sir John Franklin led an Arctic expedition of 129 men that vanished searching for the Northwest Passage. The wrecks were found in 2014 and 2016, but what truly happened to the crew is still argued over.",
+ "tags": ["#unexplained", "#mystery", "#franklinexpedition", "#history", "#arctic"],
+ "facts": [
+  {"claim": "In 1845, Sir John Franklin led 129 men and two ships, HMS Erebus and HMS Terror, to find the Northwest Passage through the Canadian Arctic.", "source": "Wikipedia: Franklin lost expedition"},
+  {"claim": "Both ships became icebound near King William Island; Franklin himself died in June 1847.", "source": "Wikipedia: Franklin lost expedition"},
+  {"claim": "A note found at Victory Point in 1859 recorded that the surviving crew abandoned the ships in 1848 and set out on foot.", "source": "Wikipedia: Franklin lost expedition; Victory Point Note"},
+  {"claim": "All 129 men on the expedition eventually died; later searches found scattered remains and equipment across King William Island.", "source": "Wikipedia: Franklin lost expedition"},
+  {"claim": "Proposed causes include lead poisoning, possibly from tinned food or the ships water systems, along with scurvy and starvation.", "source": "Wikipedia: Franklin lost expedition"},
+  {"claim": "The wreck of HMS Erebus was found in 2014 and HMS Terror in 2016, both in the Canadian Arctic.", "source": "Parks Canada; Wikipedia: Franklin lost expedition"},
+  {"claim": "Despite finding the ships, the exact sequence of events and final fate of the last survivors are still debated.", "source": "Wikipedia: Franklin lost expedition"}
+ ]
+}

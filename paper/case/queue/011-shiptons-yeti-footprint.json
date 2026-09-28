@@ -1,0 +1,80 @@
+{
+ "topic": "Shipton's Yeti Print",
+ "slug": "shiptons-yeti-footprint",
+ "title": "Shipton's Yeti Footprint",
+ "case": "011",
+ "hook": "In 1951, a mountaineer photographed a giant footprint high in the Himalayas.",
+ "banner": ["GIANT PRINT.", "STILL DEBATED."],
+ "site": "mountains",
+ "props": ["footprints", "trees"],
+ "place": "MENLUNG GLACIER, NEPAL",
+ "date": "NOVEMBER 1951",
+ "music": "echoes",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "Explorer Eric Shipton was scouting a route across the Menlung Glacier.",
+   "shots": [
+    {"t": "fx", "fx": "snow", "at": "route", "dur": 4.0},
+    {"t": "fx", "fx": "wind", "at": "Glacier", "dur": 2.0}
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "At nineteen thousand feet, he found a huge footprint pressed into the snow.",
+   "shots": [
+    {"t": "card", "kind": "photo", "icon": "footprints", "caption": "PRINT IN THE SNOW", "at": "footprint"},
+    {"t": "stamp", "text": "EVIDENCE", "at": "snow"}
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "For scale, he placed his ice axe beside it, then took a photograph.",
+   "shots": [
+    {"t": "card", "kind": "stat", "big": "13 IN", "small": "PRINT LENGTH", "at": "photograph", "string": true}
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "The print showed five toes, twice the width of a normal human foot.",
+   "shots": [
+    {"t": "card", "kind": "note", "lines": ["FIVE TOES", "DOUBLE WIDTH"], "at": "toes", "string": true},
+    {"t": "focus", "at": "foot", "dur": 1.3}
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "Skeptics say a bear or wolf track simply melted wider in the sun.",
+   "shots": [
+    {"t": "card", "kind": "doc", "redact": [0, 2], "title": "SKEPTIC REPORT", "at": "melted", "string": true},
+    {"t": "stamp", "text": "THEORY", "at": "sun"}
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "The photograph remains one of the most debated pieces of yeti evidence today.",
+   "shots": [
+    {"t": "fx", "fx": "fog", "at": "photograph", "dur": 5.0},
+    {"t": "fx", "fx": "flicker", "at": "evidence", "dur": 2.0}
+   ]
+  }
+ ],
+ "end": {"line": "Was it a bear track, or something stranger?", "stamp": "UNSOLVED"},
+ "cta": "WHAT DO YOU THINK?",
+ "description": "In 1951, explorer Eric Shipton photographed a huge footprint high on the Menlung Glacier. It remains one of the most famous, and most debated, pieces of yeti evidence.",
+ "tags": ["#unexplained", "#mystery", "#yeti", "#himalayas", "#cryptid"],
+ "facts": [
+  {"claim": "In November 1951, mountaineer Eric Shipton photographed a large footprint-like impression on the Menlung Glacier during an Everest reconnaissance expedition.", "source": "Wikipedia: Yeti"},
+  {"claim": "The print was found at around 19,000 feet and Shipton placed an ice axe next to it for scale.", "source": "Wikipedia: Yeti"},
+  {"claim": "The photograph appears to show a large, roughly human-shaped print with what look like five toes.", "source": "Wikipedia: Yeti"},
+  {"claim": "Climbing partner Michael Ward also witnessed and photographed the print.", "source": "Wikipedia: Yeti; Michael Ward"},
+  {"claim": "Skeptics have suggested the print could be an animal track, such as a fox or wolf, distorted by melting snow in sunlight.", "source": "Wikipedia: Yeti"},
+  {"claim": "The photograph remains one of the most widely reproduced pieces of purported yeti evidence.", "source": "Wikipedia: Yeti"}
+ ]
+}

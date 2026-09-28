@@ -1,0 +1,177 @@
+{
+ "topic": "Rendlesham Forest",
+ "slug": "rendlesham-forest",
+ "title": "The Rendlesham Forest Incident",
+ "case": "014",
+ "hook": "In 1980, US airmen chased strange lights through an English forest at night.",
+ "banner": [
+  "STRANGE LIGHTS.",
+  "IN THE FOREST."
+ ],
+ "site": "sky",
+ "props": [
+  "observatory",
+  "trees"
+ ],
+ "place": "RENDLESHAM FOREST, UK",
+ "date": "DECEMBER 1980",
+ "music": "echoes",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "Airmen at a Royal Air Force base saw lights descend into the nearby woods.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "beam",
+     "at": "descend",
+     "dur": 4.0
+    },
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "woods",
+     "dur": 2.0
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Patrolling the forest, they reported a glowing object, and later found three marks on the ground.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "eye",
+     "caption": "THREE MARKS",
+     "at": "glowing"
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "ground"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Radiation readings at the site were reportedly higher than the normal background level.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "HIGH",
+     "small": "RADIATION READING",
+     "at": "readings",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Deputy base commander Charles Halt wrote an official memo describing the event.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      0,
+      2
+     ],
+     "title": "THE HALT MEMO",
+     "at": "memo",
+     "string": true
+    },
+    {
+     "t": "focus",
+     "at": "event",
+     "dur": 1.3
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "Some suggest a lighthouse beam or bright meteor caused the confusion that night.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "LIGHTHOUSE BEAM?",
+      "OR A METEOR?"
+     ],
+     "at": "lighthouse",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "THEORY",
+     "at": "night"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "Many of the airmen involved still insist what they saw was not of this world.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "beam",
+     "at": "insist",
+     "dur": 5.0
+    },
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "world",
+     "dur": 2.0
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really landed in Rendlesham Forest?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "In December 1980, US airmen at an English airbase reported lights and a strange craft in nearby Rendlesham Forest. It remains Britain's most famous unexplained military encounter.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#rendlesham",
+  "#ufo",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "In late December 1980, US Air Force personnel at RAF Woodbridge and Bentwaters in Suffolk, England, reported strange lights in the nearby Rendlesham Forest.",
+   "source": "Wikipedia: Rendlesham Forest incident"
+  },
+  {
+   "claim": "Patrols investigating the forest reported finding marks on the ground, along with reports of elevated radiation readings at the site.",
+   "source": "Wikipedia: Rendlesham Forest incident"
+  },
+  {
+   "claim": "Deputy base commander Lt Col Charles Halt wrote an official memo to the UK Ministry of Defence describing the events.",
+   "source": "Wikipedia: Rendlesham Forest incident; Halt memo"
+  },
+  {
+   "claim": "Some investigators have proposed the lights were a nearby lighthouse beam or a bright meteor, combined with unfamiliarity among the witnesses.",
+   "source": "Wikipedia: Rendlesham Forest incident"
+  },
+  {
+   "claim": "It is widely considered the most famous UFO case connected to the British military.",
+   "source": "Wikipedia: Rendlesham Forest incident"
+  },
+  {
+   "claim": "Several of the airmen involved have maintained in later interviews that they still believe what they saw was not conventional.",
+   "source": "Wikipedia: Rendlesham Forest incident"
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "topic": "The Flannan Isles",
+ "slug": "flannan-isles",
+ "title": "The Flannan Isles Mystery",
+ "case": "004",
+ "hook": "In 1900, three lighthouse keepers vanished without a trace from a remote Scottish island.",
+ "banner": [
+  "THREE MEN.",
+  "NO TRACE."
+ ],
+ "site": "sea",
+ "props": [
+  "rocks",
+  "buoy"
+ ],
+ "place": "FLANNAN ISLES, SCOTLAND",
+ "date": "DECEMBER 1900",
+ "music": "lightless",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "Their lighthouse stood alone on a rock, battered by an Atlantic storm.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "waves",
+     "at": "alone",
+     "dur": 4.0
+    },
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "storm",
+     "dur": 2.0
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Inside, the clock had stopped ticking, and the beds lay unmade.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "clock",
+     "caption": "CLOCK STOPPED DEAD",
+     "at": "clock"
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "unmade"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Two sets of oilskins were gone, yet one still hung inside despite the storm.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1 OF 3",
+     "small": "OILSKINS LEFT",
+     "at": "oilskins",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Investigators found ropes and equipment torn away, high above the crashing sea.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      1,
+      3
+     ],
+     "title": "MUIRHEAD REPORT",
+     "at": "torn",
+     "string": true
+    },
+    {
+     "t": "focus",
+     "at": "crashing",
+     "dur": 1.3
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "The official theory says a huge rogue wave swept the men to their deaths.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "ROGUE WAVE?",
+      "NO BODIES FOUND"
+     ],
+     "at": "wave",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "CASE CLOSED",
+     "at": "deaths"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "No wreckage, no bodies, and no witnesses were ever found again on that island.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "waves",
+     "at": "wreckage",
+     "dur": 5.0
+    },
+    {
+     "t": "fx",
+     "fx": "lightning",
+     "at": "witnesses",
+     "dur": 2.0
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to the keepers of Flannan Isles?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "In December 1900, three lighthouse keepers vanished from a remote Scottish island, leaving a stopped clock and an empty lighthouse behind.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#flannanisles",
+  "#lighthouse",
+  "#truecrime"
+ ],
+ "facts": [
+  {
+   "claim": "Three lighthouse keepers, James Ducat, Thomas Marshall, and Donald MacArthur, disappeared from the Flannan Isles Lighthouse in December 1900.",
+   "source": "Wikipedia: Flannan Isles Lighthouse"
+  },
+  {
+   "claim": "The relief vessel Hesperus arrived on 26 December 1900 and found the lighthouse deserted, with the entrance gate and door closed.",
+   "source": "Wikipedia: Flannan Isles Lighthouse"
+  },
+  {
+   "claim": "Inside, the clock had stopped and one bed appeared not to have been slept in recently.",
+   "source": "Northern Lighthouse Board records, cited in Wikipedia"
+  },
+  {
+   "claim": "One set of oilskins was missing, suggesting a keeper left without waterproof clothing.",
+   "source": "Wikipedia: Flannan Isles Lighthouse"
+  },
+  {
+   "claim": "Official investigator Robert Muirhead concluded storm-damaged ropes and equipment at the West Landing pointed to the men being swept away by a large wave.",
+   "source": "Muirhead's 1900 report, cited in Wikipedia"
+  },
+  {
+   "claim": "No trace of the three men was ever found despite extensive searches.",
+   "source": "Wikipedia: Flannan Isles Lighthouse"
+  },
+  {
+   "claim": "Later popular accounts added eerie details, such as an untouched meal, that do not appear in the original investigation records.",
+   "source": "Wikipedia: Flannan Isles Lighthouse; \"Flannan Isle\" poem by Wilfrid Wilson Gibson, 1912"
+  }
+ ]
+}

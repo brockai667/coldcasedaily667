@@ -1,0 +1,176 @@
+{
+ "topic": "Tunguska Event",
+ "slug": "tunguska-event",
+ "title": "The Tunguska Event",
+ "case": "009",
+ "hook": "In 1908, a massive blast flattened a Siberian forest. No crater was found.",
+ "banner": [
+  "NO CRATER.",
+  "MASSIVE BLAST."
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "SIBERIA, RUSSIAN EMPIRE",
+ "date": "JUNE 30, 1908",
+ "music": "cutandrun",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "Over Siberia, a fireball lit the sky before an enormous explosion.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "lightning",
+     "at": "fireball",
+     "dur": 4.0
+    },
+    {
+     "t": "fx",
+     "fx": "wind",
+     "at": "explosion",
+     "dur": 2.0
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "The blast flattened about eighty million trees across two thousand square kilometers.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "2,000",
+     "small": "SQ KM OF FOREST",
+     "at": "thousand"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Yet investigators who reached the site years later found no impact crater at all.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "NO CRATER FOUND",
+     "at": "crater",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "all"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "About sixty kilometres away, the shockwave threw a man from his chair.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "SHOCKWAVE FELT",
+      "60 KM AWAY"
+     ],
+     "at": "shockwave",
+     "string": true
+    },
+    {
+     "t": "focus",
+     "at": "chair",
+     "dur": 1.3
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "Scientists now think a small asteroid or comet exploded high in the atmosphere.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      0,
+      2
+     ],
+     "title": "AIRBURST MODEL",
+     "at": "exploded",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "THEORY",
+     "at": "atmosphere"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "It remains the largest impact event in recorded history, yet the object itself was never found.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "wind",
+     "at": "largest",
+     "dur": 5.0
+    },
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "found",
+     "dur": 2.0
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "So what really exploded over Siberia that day?",
+  "stamp": "SOLVED?"
+ },
+ "cta": "WHAT DO YOU THINK?",
+ "description": "On 30 June 1908, a huge explosion flattened about 2,000 square kilometers of Siberian forest, yet no crater or fragments were ever found. Scientists believe it was an asteroid that exploded in mid-air.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#tunguska",
+  "#space",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "On 30 June 1908, a massive explosion flattened about 80 million trees over roughly 2,000 square kilometers of Siberian forest near the Podkamennaya Tunguska River.",
+   "source": "Wikipedia: Tunguska event"
+  },
+  {
+   "claim": "Eyewitnesses reported a bright fireball and a shockwave that knocked people off their feet many kilometers away.",
+   "source": "Wikipedia: Tunguska event"
+  },
+  {
+   "claim": "The first scientific expedition did not reach the remote site until 1927, led by Leonid Kulik.",
+   "source": "Wikipedia: Tunguska event"
+  },
+  {
+   "claim": "No impact crater or meteorite fragments were ever found at the site.",
+   "source": "Wikipedia: Tunguska event"
+  },
+  {
+   "claim": "The leading scientific explanation is that a small asteroid or comet, roughly 50 to 60 meters across, exploded in an airburst several kilometers above the ground.",
+   "source": "Wikipedia: Tunguska event"
+  },
+  {
+   "claim": "It remains the largest impact-related event in recorded history.",
+   "source": "Wikipedia: Tunguska event"
+  }
+ ]
+}

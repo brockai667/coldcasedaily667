@@ -1,0 +1,80 @@
+{
+ "topic": "Flight 19",
+ "slug": "flight-19",
+ "title": "Flight 19",
+ "case": "005",
+ "hook": "In 1945, five Navy bombers vanished during a routine training flight.",
+ "banner": ["FIVE PLANES.", "NO WRECKAGE."],
+ "site": "sea",
+ "props": ["buoy"],
+ "place": "ATLANTIC, OFF FLORIDA",
+ "date": "DECEMBER 5, 1945",
+ "music": "echoes",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "Five torpedo bombers took off from Florida on a clear afternoon.",
+   "shots": [
+    {"t": "fx", "fx": "waves", "at": "clear", "dur": 4.0},
+    {"t": "fx", "fx": "flicker", "at": "afternoon", "dur": 2.0}
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "The lead pilot radioed that his compass was not working.",
+   "shots": [
+    {"t": "card", "kind": "photo", "icon": "compass", "caption": "COMPASS FAILED", "at": "compass"},
+    {"t": "stamp", "text": "EVIDENCE", "at": "working"}
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Static and confusion filled the radio as the planes flew further off course.",
+   "shots": [
+    {"t": "card", "kind": "map", "map": "sea", "place": {"x": 0.55, "y": 0.45}, "caption": "LAST KNOWN COURSE", "at": "course", "string": true}
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "A rescue plane sent to find them vanished too, with thirteen men aboard.",
+   "shots": [
+    {"t": "card", "kind": "stat", "big": "13", "small": "ON RESCUE PLANE", "at": "thirteen", "string": true},
+    {"t": "focus", "at": "aboard", "dur": 1.3}
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "The official report blamed navigator error and worsening weather that night.",
+   "shots": [
+    {"t": "card", "kind": "doc", "redact": [0, 2], "title": "NAVY REPORT", "at": "blamed", "string": true},
+    {"t": "stamp", "text": "THEORY", "at": "night"}
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "To this day, no wreckage from any of the six aircraft has ever been found.",
+   "shots": [
+    {"t": "fx", "fx": "waves", "at": "wreckage", "dur": 5.0},
+    {"t": "fx", "fx": "lightning", "at": "found", "dur": 2.0}
+   ]
+  }
+ ],
+ "end": {"line": "So what really happened to Flight 19?", "stamp": "UNSOLVED"},
+ "cta": "WHAT DO YOU THINK?",
+ "description": "In December 1945, five Navy bombers vanished over the Atlantic during a training flight, and the plane sent to find them disappeared too.",
+ "tags": ["#unexplained", "#mystery", "#flight19", "#bermudatriangle", "#history"],
+ "facts": [
+  {"claim": "Flight 19 was a training flight of five TBM Avenger torpedo bombers that disappeared on 5 December 1945 after leaving Naval Air Station Fort Lauderdale, Florida.", "source": "Wikipedia: Flight 19"},
+  {"claim": "The flight leader reported his compass was malfunctioning and the group became lost over the Atlantic.", "source": "Wikipedia: Flight 19"},
+  {"claim": "Radio transmissions grew increasingly confused as the crews debated their position before contact was lost.", "source": "Wikipedia: Flight 19"},
+  {"claim": "A PBM Mariner flying boat sent to search for the missing planes also vanished, with thirteen men aboard.", "source": "Wikipedia: Flight 19"},
+  {"claim": "A Navy board of investigation blamed navigator error and deteriorating weather for the loss.", "source": "Wikipedia: Flight 19"},
+  {"claim": "No confirmed wreckage from any of the six aircraft has ever been recovered.", "source": "Wikipedia: Flight 19"}
+ ]
+}

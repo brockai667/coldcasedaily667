@@ -1,0 +1,195 @@
+{
+ "topic": "The Dyatlov Pass case",
+ "slug": "dyatlov-pass",
+ "title": "The Dyatlov Pass case",
+ "case": "059",
+ "hook": "In 1959, nine hikers walked into the Ural Mountains. None of them came back.",
+ "banner": [
+  "NINE HIKERS.",
+  "NO SURVIVORS"
+ ],
+ "site": "mountains",
+ "props": [
+  "tent",
+  "footprints",
+  "trees"
+ ],
+ "place": "URAL MOUNTAINS, USSR",
+ "date": "FEBRUARY 1959",
+ "music": "lightless",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "Their tent stood on the slope of Kholat Syakhl, a name meaning Dead Mountain.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "snow",
+     "at": "tent",
+     "dur": 4.0
+    },
+    {
+     "t": "fx",
+     "fx": "wind",
+     "at": "Dead",
+     "dur": 2.0
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "When rescuers arrived, the tent was still there, cut open from the inside.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "tent",
+     "caption": "CUT FROM INSIDE",
+     "at": "tent"
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "inside"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Footprints led downhill, some barefoot, some in socks, in minus thirty degrees.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "footprints",
+     "caption": "SOCKS. NO BOOTS.",
+     "at": "Footprints",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "-30°C",
+     "small": "THAT NIGHT",
+     "at": "thirty",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Some had crushed ribs and a fractured skull, yet no wounds on the skin.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      1,
+      3
+     ],
+     "at": "crushed",
+     "string": true
+    },
+    {
+     "t": "focus",
+     "at": "wounds",
+     "dur": 1.3
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "Soviet investigators closed the case, blaming an unknown compelling natural force.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "\"COMPELLING",
+      "NATURAL FORCE\""
+     ],
+     "at": "compelling",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "CASE CLOSED",
+     "at": "force"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "In 2021, scientists showed a small slab avalanche could explain the injuries. But not why they fled.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "snow",
+     "at": "2021",
+     "dur": 5.0
+    },
+    {
+     "t": "fx",
+     "fx": "wind",
+     "at": "avalanche",
+     "dur": 2.5
+    },
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "fled",
+     "dur": 1.5
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "So what really happened on Dead Mountain?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Nine experienced hikers died on a Ural mountainside in 1959, and their tent was cut open from the inside. The Dyatlov Pass case is still argued about today.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#dyatlovpass",
+  "#history",
+  "#truecrime"
+ ],
+ "facts": [
+  {
+   "claim": "Nine hikers led by Igor Dyatlov died in the northern Urals in early February 1959.",
+   "source": "Wikipedia: Dyatlov Pass incident; Russian Prosecutor General 2020"
+  },
+  {
+   "claim": "Kholat Syakhl means Dead Mountain in the Mansi language.",
+   "source": "Wikipedia: Kholat Syakhl"
+  },
+  {
+   "claim": "The tent was found cut open from the inside; footprints led downhill, some in socks or barefoot.",
+   "source": "1959 investigation files; Wikipedia"
+  },
+  {
+   "claim": "Temperatures that night were around minus 25 to minus 30 °C.",
+   "source": "Wikipedia; Gaume & Puzrin 2021"
+  },
+  {
+   "claim": "Several victims had chest fractures and one a fractured skull, without external wounds.",
+   "source": "Autopsy reports cited in Wikipedia"
+  },
+  {
+   "claim": "The 1959 inquiry concluded the deaths were caused by an unknown compelling natural force.",
+   "source": "Wikipedia: Dyatlov Pass incident"
+  },
+  {
+   "claim": "In 2021 Gaume and Puzrin modelled a small slab avalanche that could explain the injuries.",
+   "source": "Communications Earth & Environment, 2021"
+  }
+ ]
+}

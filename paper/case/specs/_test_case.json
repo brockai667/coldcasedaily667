@@ -1,0 +1,46 @@
+{
+ "topic": "Greyfield Ridge",
+ "slug": "_test_case",
+ "title": "TEST The Greyfield Ridge Camp",
+ "case": "013",
+ "hook": "In 1971, three climbers camped on Greyfield Ridge. By morning, the camp was empty.",
+ "banner": ["THREE CLIMBERS.", "ONE EMPTY CAMP."],
+ "site": "mountains",
+ "props": ["tent", "footprints", "trees"],
+ "place": "GREYFIELD RIDGE",
+ "date": "MARCH 1971",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {"label": "THE CASE", "scene": "site",
+   "line": "Rescuers found the tent standing in fresh snow, with nobody inside.",
+   "shots": [
+    {"t": "fx", "fx": "snow", "at": "snow", "dur": 3.0},
+    {"t": "fx", "fx": "flash", "at": "nobody"}
+   ]},
+  {"label": "CLUE 1", "scene": "board",
+   "line": "The temperature that night was minus twenty, cold enough to kill in hours.",
+   "shots": [
+    {"t": "card", "kind": "stat", "big": "-20°C", "small": "THAT NIGHT", "at": "minus"},
+    {"t": "focus", "at": "kill", "dur": 1.2}
+   ]},
+  {"label": "CLUE 2",
+   "line": "Their footprints led calmly downhill, toward the dark treeline.",
+   "shots": [
+    {"t": "card", "kind": "photo", "icon": "footprints", "caption": "TRACKS LEAD DOWNHILL", "at": "footprints", "string": true},
+    {"t": "stamp", "text": "EVIDENCE", "at": "treeline"}
+   ]},
+  {"label": "THE REPORT",
+   "line": "A diary mentioned strange lights, and the official report is still classified.",
+   "shots": [
+    {"t": "card", "kind": "note", "lines": ["STRANGE LIGHTS", "OVER THE RIDGE"], "at": "lights", "string": true},
+    {"t": "card", "kind": "doc", "redact": [1, 3], "at": "report", "string": true}
+   ]}
+ ],
+ "end": {"line": "So what really happened on Greyfield Ridge?", "stamp": "UNSOLVED"},
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Fictional test case for the paper case-file engine (not a real event).",
+ "tags": ["#unexplained", "#mystery", "#test"],
+ "facts": [{"claim": "Fictional test case, not a real event.", "source": "none"}]
+}

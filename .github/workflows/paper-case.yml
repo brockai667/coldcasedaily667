@@ -1,0 +1,134 @@
+# Papierové spisy (ColdCaseDaily): paper/ = FactoryAnim/paper-factory (engine + lib + assets + case/queue).
+# Denne 1 video: scenár z paper/case/queue (Claude-písané 001–899, Groq záloha 9NN) -> render HyperFrames -> Buffer (YT + IG + TikTok).
+# Ručné spustenie: publish = no (len artefakt na kontrolu) | yes | check (len overí Buffer token).
+name: Paper case files (ColdCase)
+
+on:
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Koľko videí vyrobiť"
+        default: "1"
+      publish:
+        description: "Publikovať cez Buffer? (yes/no/check = len overiť token)"
+        default: "no"
+  schedule:                          # 01:35 UTC = 03:35 Bratislava; GitHub cron mešká aj hodiny, slot 12:00 SK (BUFFER_SLOT_HOURS) musí stihnúť
+    - cron: "35 1 * * *"
+
+permissions:
+  contents: write                    # stav fabriky (queue -> done, history.json, topics.json), pushed.json, release s videom
+
+concurrency:
+  group: stickman                    # nikdy súbežne so stickman workflow (spoločný pushed.json a Buffer fronta)
+  cancel-in-progress: false
+
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: FFmpeg + písmo písacieho stroja (Liberation Mono = metrická náhrada Courier New)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-liberation
+
+      - name: Python závislosti
+        run: pip install -q -r paper/requirements.txt requests cloudinary
+
+      - name: Cache npx + Chromium
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            ~/.cache/puppeteer
+            ~/.cache/ms-playwright
+          key: paper-npx-v1
+
+      - name: HyperFrames + prehliadač (cache npx)
+        run: npx -y hyperframes@0.8.78 --version
+
+      - name: Kontrola secretov (len dĺžky)
+        env:
+          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
+        run: |
+          echo "BUFFER_TOKEN: ${#BUFFER_TOKEN} znakov | MODELS_TOKEN: ${#MODELS_TOKEN} znakov"
+          if [ "${#BUFFER_TOKEN}" -lt 10 ] && { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.publish }}" = "yes" ]; }; then
+            echo "::error::BUFFER_TOKEN secret je prázdny – nastav ho v Settings > Secrets > Actions, inak sa nič nepublikuje"
+            exit 1
+          fi
+
+      - name: Buffer – kontrola tokenu (bez publikovania)
+        if: github.event.inputs.publish == 'check'
+        env:
+          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
+        run: python paper/engine/buffer_check.py
+
+      - name: Samotest (syntax knižníc, validátor scenárov vo fronte)
+        if: github.event.inputs.publish != 'check'
+        run: cd paper && python engine/selftest.py
+
+      - name: Render z fronty scenárov
+        if: github.event.inputs.publish != 'check'
+        env:
+          HF_CLI: npx -y hyperframes@0.8.78
+        run: |
+          cd paper
+          N="${{ github.event.inputs.count || '1' }}"
+          for i in $(seq 1 "$N"); do python engine/factory_case.py --out ../output || exit 1; done
+          ls -la ../output 2>/dev/null || true
+
+      - name: Doplnenie fronty (Groq, zadarmo) – Claude-písané scenáre majú prednosť
+        if: github.event.inputs.publish != 'check'
+        continue-on-error: true
+        env:
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
+          MODELS_BASE_URL: https://api.groq.com/openai/v1
+          MODELS_MODEL: openai/gpt-oss-120b
+          MODELS_FALLBACK: openai/gpt-oss-20b
+        run: cd paper && python engine/refill_case.py --target 10 --max 2
+
+      - name: Artefakt na kontrolu (video + QC hárok)
+        if: github.event.inputs.publish != 'check'
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-case-videos
+          path: |
+            output/case-*.mp4
+            output/case-*.txt
+            paper/out/*_qc.jpg
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Publikovanie (Buffer -> YouTube, Instagram, TikTok)
+        if: github.event.inputs.publish == 'yes' || github.event_name == 'schedule'
+        env:
+          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUFFER_SLOT_HOURS: "12"      # 1 video denne o 12:00 Bratislava (rovnaký slot, na aký bol kanál zvyknutý)
+        run: |
+          cp config.example.json config.json
+          python push_to_buffer.py "${{ github.event.inputs.count || '1' }}"
+
+      - name: Uloženie stavu
+        if: always() && github.event.inputs.publish != 'check'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -f config.json
+          git add -A paper/case pushed.json 2>/dev/null || true
+          git commit -m "paper-case: stav $(date -u +%F)" || echo "bez zmien"
+          for i in 1 2 3 4; do git pull --rebase --autostash -q && git push && break || sleep 15; done

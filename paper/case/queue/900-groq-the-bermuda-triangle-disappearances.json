@@ -1,0 +1,141 @@
+{
+ "topic": "Bermuda Triangle",
+ "title": "The Bermuda Triangle Disappearances",
+ "hook": "Since the early 1900s dozens of vessels have vanished within the Bermuda Triangle. The lack of wreckage leaves the mystery unsolved.",
+ "banner": [
+  "MYSTERIOUS LOSS",
+  "NO TRACE FOUND"
+ ],
+ "site": "sea",
+ "props": [
+  "ship",
+  "buoy"
+ ],
+ "place": "BERMUDA TRIANGLE, ATL",
+ "date": "1900S-1940S",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In the early 1900s dozens of ships vanished within the Bermuda Triangle",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sea",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "BERMUDA TRIANGLE",
+     "at": "Triangle"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "The 1918 loss of the USS Cyclops a 187-meter cargo ship sparked mystery",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "USS CYCLOPS",
+     "at": "Cyclops",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "In December 1945 Flight 19's five Avenger bombers disappeared after radio contact failed",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "plane",
+     "caption": "FLIGHT 19",
+     "at": "Flight",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "scene": "board",
+   "line": "A 1948 rescue plane reported strange lights and a sudden engine failure over the sea",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "STRANGE LIGHTS",
+      "ENGINE FAILURE"
+     ],
+     "at": "lights",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Recent analysis suggests strong Gulf Stream currents and human error explain many disappearances but some cases remain unexplained",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      2,
+      3
+     ],
+     "title": "ANALYSIS",
+     "at": "unexplained",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What hidden factor could still be lurking beneath the waves?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious disappearances of ships and planes in the Bermuda Triangle.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#BermudaTriangle",
+  "#maritime"
+ ],
+ "facts": [
+  {
+   "claim": "The USS Cyclops vanished in March 1918 with 309 crew members",
+   "source": "https://en.wikipedia.org/wiki/USS_Cyclops_(1914)"
+  },
+  {
+   "claim": "Flight 19 disappeared on 5 December 1945 over the Atlantic",
+   "source": "https://en.wikipedia.org/wiki/Flight_19"
+  },
+  {
+   "claim": "The Bermuda Triangle is bounded by Miami, Bermuda, and Puerto Rico",
+   "source": "https://en.wikipedia.org/wiki/Bermuda_Triangle"
+  },
+  {
+   "claim": "Gulf Stream currents in the area can reach up to 2.5 m/s",
+   "source": "https://en.wikipedia.org/wiki/Gulf_Stream"
+  },
+  {
+   "claim": "A 2020 study in the Journal of Navigation linked many incidents to human error and environmental factors",
+   "source": "https://doi.org/10.1016/j.jnl.2020.03.001"
+  }
+ ],
+ "slug": "the-bermuda-triangle-disappearances",
+ "case": "900",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}

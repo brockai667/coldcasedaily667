@@ -1,0 +1,191 @@
+{
+ "topic": "The Wow! signal",
+ "slug": "wow-signal",
+ "title": "The Wow! signal",
+ "case": "077",
+ "hook": "In 1977, a telescope in Ohio heard something from deep space. Once.",
+ "banner": [
+  "72 SECONDS.",
+  "THEN SILENCE"
+ ],
+ "site": "sky",
+ "props": [
+  "dish",
+  "trees"
+ ],
+ "place": "DELAWARE, OHIO, USA",
+ "date": "AUGUST 15, 1977",
+ "music": "cutandrun",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "The Big Ear radio telescope was scanning the sky for alien signals.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "beam",
+     "at": "scanning",
+     "dur": 3.5
+    },
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "alien",
+     "dur": 2.0
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "For seventy-two seconds, a signal came in about thirty times stronger than the background noise.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "72 SEC",
+     "small": "30x THE NOISE",
+     "at": "seventy"
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "stronger"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Astronomer Jerry Ehman circled the code on the printout and wrote one word: Wow!",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "printout",
+     "caption": "6EQUJ5 - WOW!",
+     "at": "circled",
+     "string": true
+    },
+    {
+     "t": "focus",
+     "at": "wrote",
+     "dur": 1.4
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "It came from Sagittarius, on the hydrogen frequency, a channel aliens might choose.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sky",
+     "place": {
+      "x": 0.62,
+      "y": 0.42
+     },
+     "at": "Sagittarius",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "1420 MHz",
+      "HYDROGEN LINE"
+     ],
+     "at": "hydrogen",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "A comet? Tested and rejected. A satellite? None were up there.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      0,
+      2
+     ],
+     "at": "comet",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "REJECTED",
+     "at": "rejected"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "Astronomers have listened for it many times since. It has never come back.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "beam",
+     "at": "listened",
+     "dur": 3.0
+    },
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "never",
+     "dur": 2.0
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Was someone out there calling us?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "On August 15, 1977 the Big Ear telescope recorded a 72-second signal from the direction of Sagittarius. It was never detected again.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#wowsignal",
+  "#space",
+  "#aliens"
+ ],
+ "facts": [
+  {
+   "claim": "The Wow! signal was recorded on 15 August 1977 by Ohio State University's Big Ear radio telescope (Delaware, Ohio).",
+   "source": "Wikipedia: Wow! signal; Ohio State University"
+  },
+  {
+   "claim": "The signal lasted the full 72-second observation window of the telescope.",
+   "source": "Wikipedia: Wow! signal"
+  },
+  {
+   "claim": "Its peak intensity was about 30 times the background noise (the 'U' in 6EQUJ5, about 30 sigma).",
+   "source": "Wikipedia: Wow! signal; Ehman 1998"
+  },
+  {
+   "claim": "Jerry Ehman circled the sequence 6EQUJ5 on the printout and wrote 'Wow!'.",
+   "source": "Wikipedia: Wow! signal"
+  },
+  {
+   "claim": "The signal came from the direction of Sagittarius at about 1420.4556 MHz, close to the hydrogen line (1420.406 MHz).",
+   "source": "Wikipedia: Wow! signal"
+  },
+  {
+   "claim": "A 2017 comet hypothesis was widely rejected by astronomers; no known satellites or aircraft matched.",
+   "source": "Wikipedia: Wow! signal; Ehman's analysis"
+  },
+  {
+   "claim": "Despite many follow-up searches, the signal was never detected again.",
+   "source": "Wikipedia: Wow! signal"
+  }
+ ]
+}

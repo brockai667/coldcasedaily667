@@ -19,3 +19,9 @@ stickman/assets/audio/
 stickman/assets/img/
 stickman/kokoro/
 stickman/__pycache__/
+
+# papierova fabrika (case files): pracovne subory
+paper/out/
+paper/episodes/
+paper/**/__pycache__/
+paper/assets/img/

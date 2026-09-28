@@ -1,0 +1,80 @@
+{
+ "topic": "Kentucky Meat Shower",
+ "slug": "kentucky-meat-shower",
+ "title": "The Kentucky Meat Shower",
+ "case": "013",
+ "hook": "In 1876, chunks of red meat reportedly fell from a clear Kentucky sky.",
+ "banner": ["MEAT FELL.", "FROM NOWHERE."],
+ "site": "sky",
+ "props": ["trees"],
+ "place": "BATH COUNTY, KENTUCKY",
+ "date": "MARCH 3, 1876",
+ "music": "lightless",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "On a farm in Bath County, meat fell from a cloudless sky.",
+   "shots": [
+    {"t": "fx", "fx": "flicker", "at": "cloudless", "dur": 4.0},
+    {"t": "fx", "fx": "fog", "at": "sky", "dur": 2.0}
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Flakes of flesh, some as large as a hand, covered the yard and fields.",
+   "shots": [
+    {"t": "card", "kind": "stat", "big": "100 YDS", "small": "AREA COVERED", "at": "covered"},
+    {"t": "stamp", "text": "EVIDENCE", "at": "fields"}
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Neighbours reportedly tasted the meat, and said it resembled mutton or venison.",
+   "shots": [
+    {"t": "card", "kind": "note", "lines": ["TASTED LIKE", "MUTTON? VENISON?"], "at": "tasted", "string": true}
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Scientists examined samples and identified the tissue as lung, likely from a large animal.",
+   "shots": [
+    {"t": "card", "kind": "doc", "redact": [0, 2], "title": "LAB FINDINGS", "at": "tissue", "string": true},
+    {"t": "focus", "at": "animal", "dur": 1.3}
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "The likely explanation: a large flock of vultures overhead had vomited while roosting.",
+   "shots": [
+    {"t": "card", "kind": "photo", "icon": "question", "caption": "VULTURE VOMIT?", "at": "vultures", "string": true},
+    {"t": "stamp", "text": "THEORY", "at": "roosting"}
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "It remains one of the strangest, and messiest, unexplained weather events on record.",
+   "shots": [
+    {"t": "fx", "fx": "flicker", "at": "strangest", "dur": 5.0},
+    {"t": "fx", "fx": "fog", "at": "record", "dur": 2.0}
+   ]
+  }
+ ],
+ "end": {"line": "Would you have believed a meat shower?", "stamp": "SOLVED?"},
+ "cta": "WHAT DO YOU THINK?",
+ "description": "In March 1876, chunks of meat reportedly fell from a clear sky over a Kentucky farm. Scientists now think a flock of vultures overhead is the likely explanation.",
+ "tags": ["#unexplained", "#mystery", "#kentucky", "#history", "#weirdnews"],
+ "facts": [
+  {"claim": "On 3 March 1876, pieces of red meat reportedly fell from a clear sky onto a farm in Bath County, Kentucky.", "source": "Wikipedia: Kentucky meat shower"},
+  {"claim": "Witnesses described flakes ranging from bite-sized to several inches across, scattered over an area reportedly about 100 by 50 yards.", "source": "Wikipedia: Kentucky meat shower"},
+  {"claim": "Some locals reportedly tasted the meat and said it resembled mutton or venison.", "source": "Wikipedia: Kentucky meat shower"},
+  {"claim": "Scientists who examined preserved samples identified the tissue as lung, consistent with an animal such as a horse or deer.", "source": "Wikipedia: Kentucky meat shower"},
+  {"claim": "The most widely accepted modern explanation is that a large flock of black vultures roosting overhead regurgitated the meat.", "source": "Wikipedia: Kentucky meat shower"},
+  {"claim": "The event remains a well-documented but unusual case in the history of reported odd falls from the sky.", "source": "Wikipedia: Kentucky meat shower"}
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "topic": "Hessdalen Lights",
+ "slug": "hessdalen-lights",
+ "title": "The Hessdalen Lights",
+ "case": "010",
+ "hook": "For decades, mysterious lights have flickered over a remote Norwegian valley.",
+ "banner": [
+  "STRANGE LIGHTS.",
+  "UNEXPLAINED."
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "HESSDALEN, NORWAY",
+ "date": "SINCE THE 1930S",
+ "music": "lightless",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "In Hessdalen valley, glowing orbs of light drift silently above the mountains.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "glowing",
+     "dur": 4.0
+    },
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "mountains",
+     "dur": 2.0
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Locals reported seeing the lights as early as the nineteen thirties.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "star",
+     "caption": "LIGHTS SINCE 1930S",
+     "at": "lights"
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "thirties"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Sightings peaked in the early eighties, with up to twenty reports every week.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "20/WK",
+     "small": "SIGHTINGS AT PEAK",
+     "at": "eighties",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Since 1998, scientists have run automated cameras and sensors at the site.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      0,
+      2
+     ],
+     "title": "PROJECT LOG",
+     "at": "cameras",
+     "string": true
+    },
+    {
+     "t": "focus",
+     "at": "site",
+     "dur": 1.3
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory blames ionized dust or a rare piezoelectric effect from local rock.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "IONIZED DUST?",
+      "PIEZOELECTRIC?"
+     ],
+     "at": "piezoelectric",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "THEORY",
+     "at": "rock"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "Even with cameras running, nobody has fully explained what these lights really are.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "cameras",
+     "dur": 5.0
+    },
+    {
+     "t": "fx",
+     "fx": "wind",
+     "at": "are",
+     "dur": 2.0
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What do you think causes the Hessdalen lights?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Since the 1930s, strange glowing lights have appeared over Norway's Hessdalen valley, peaking in the early 1980s. Scientists still record them, but no explanation is fully confirmed.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#hessdalen",
+  "#norway",
+  "#ufo"
+ ],
+ "facts": [
+  {
+   "claim": "The Hessdalen valley in central Norway has reported unexplained lights since at least the 1930s to 1940s.",
+   "source": "Wikipedia: Hessdalen light"
+  },
+  {
+   "claim": "Sightings peaked between 1981 and 1984, with reports of up to about 20 lights per week at times.",
+   "source": "Wikipedia: Hessdalen light"
+  },
+  {
+   "claim": "Project Hessdalen, an automated monitoring station, has recorded the phenomenon since 1998.",
+   "source": "Wikipedia: Hessdalen light; hessdalen.org"
+  },
+  {
+   "claim": "Researchers proposed the lights may result from ionized dust or a piezoelectric effect caused by local mineral-rich rock.",
+   "source": "Wikipedia: Hessdalen light"
+  },
+  {
+   "claim": "No single explanation has been confirmed for all recorded sightings.",
+   "source": "Wikipedia: Hessdalen light"
+  },
+  {
+   "claim": "The lights are still occasionally recorded by the monitoring station today.",
+   "source": "hessdalen.org; Wikipedia: Hessdalen light"
+  }
+ ]
+}

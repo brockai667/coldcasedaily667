@@ -1,0 +1,189 @@
+{
+ "topic": "The Mary Celeste",
+ "slug": "mary-celeste",
+ "title": "The Mary Celeste",
+ "case": "072",
+ "hook": "In 1872, a ship was found sailing the Atlantic with nobody on board.",
+ "banner": [
+  "GHOST SHIP.",
+  "NO CREW."
+ ],
+ "site": "sea",
+ "props": [
+  "ship",
+  "buoy"
+ ],
+ "place": "ATLANTIC, OFF THE AZORES",
+ "date": "DECEMBER 1872",
+ "music": "echoes",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "The Mary Celeste was spotted drifting, sails set, with no one at the wheel.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "waves",
+     "at": "drifting",
+     "dur": 4.0
+    },
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "wheel",
+     "dur": 2.0
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Below deck, six months of food and water sat untouched.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "barrel",
+     "caption": "SIX MONTHS OF FOOD",
+     "at": "food"
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "untouched"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The only lifeboat was gone, and the captain's log ended ten days earlier.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "lifeboat",
+     "caption": "LIFEBOAT MISSING",
+     "at": "lifeboat",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "logbook",
+     "caption": "LAST ENTRY: NOV 25",
+     "at": "log",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Her cargo: seventeen hundred barrels of alcohol, and nine of them were empty.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1,701",
+     "small": "BARRELS OF ALCOHOL",
+     "at": "seventeen",
+     "string": true
+    },
+    {
+     "t": "focus",
+     "at": "nine",
+     "dur": 1.2
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory says fumes caused a small blast, and the crew fled in panic.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "FUMES?",
+      "A BLAST?",
+      "ABANDON SHIP!"
+     ],
+     "at": "fumes",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "THEORY",
+     "at": "panic"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "Captain Briggs, his wife, their two-year-old daughter and seven sailors were never seen again.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "waves",
+     "at": "Captain",
+     "dur": 5.0
+    },
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "never",
+     "dur": 2.0
+    },
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "again",
+     "dur": 2.0
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Would you have left the ship?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "In December 1872 the Mary Celeste was found drifting in the Atlantic with food, cargo and the crew's belongings on board, but not a single person. Nobody knows why they left.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#maryceleste",
+  "#history",
+  "#ghostship"
+ ],
+ "facts": [
+  {
+   "claim": "The Mary Celeste was found adrift and abandoned in the Atlantic on 4 December 1872 (ship's time), between the Azores and Portugal, by the Dei Gratia.",
+   "source": "Wikipedia: Mary Celeste"
+  },
+  {
+   "claim": "The ship carried ample provisions (about six months' worth) and the crew's belongings were still on board.",
+   "source": "Wikipedia: Mary Celeste; Smithsonian Magazine 2007"
+  },
+  {
+   "claim": "The single lifeboat was missing and the last log entry was dated 25 November 1872.",
+   "source": "Wikipedia: Mary Celeste"
+  },
+  {
+   "claim": "The cargo was 1,701 barrels of denatured alcohol; nine were found empty when unloaded in Genoa.",
+   "source": "Wikipedia: Mary Celeste"
+  },
+  {
+   "claim": "Ten people were aboard: Captain Benjamin Briggs, his wife Sarah, daughter Sophia (2), and seven crew; none were ever found.",
+   "source": "Wikipedia: Mary Celeste"
+  },
+  {
+   "claim": "One leading theory is that alcohol vapour caused a small explosion or scare, prompting a hasty abandonment.",
+   "source": "Smithsonian Magazine 2007; Wikipedia"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "topic": "Amelia Earhart",
+ "slug": "amelia-earhart",
+ "title": "Amelia Earhart's Last Flight",
+ "case": "006",
+ "hook": "In 1937, pioneering aviator Amelia Earhart vanished over the Pacific, mid-flight around the world.",
+ "banner": ["LAST FLIGHT.", "NEVER FOUND."],
+ "site": "sea",
+ "props": ["ship"],
+ "place": "NEAR HOWLAND ISLAND",
+ "date": "JULY 2, 1937",
+ "music": "cutandrun",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "She was flying toward tiny Howland Island, a speck in the Pacific.",
+   "shots": [
+    {"t": "fx", "fx": "waves", "at": "speck", "dur": 4.0},
+    {"t": "fx", "fx": "fog", "at": "Pacific", "dur": 2.0}
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Her last radio message reported she was running low on fuel.",
+   "shots": [
+    {"t": "card", "kind": "photo", "icon": "radio", "caption": "LAST RADIO CALL", "at": "radio"},
+    {"t": "stamp", "text": "EVIDENCE", "at": "fuel"}
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The Coast Guard ship Itasca searched, but never located her plane.",
+   "shots": [
+    {"t": "card", "kind": "map", "map": "sea", "place": {"x": 0.5, "y": 0.5}, "caption": "SEARCH AREA", "at": "searched", "string": true}
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "A massive search covered about two hundred fifty thousand square miles of ocean.",
+   "shots": [
+    {"t": "card", "kind": "stat", "big": "250K", "small": "SQ MILES SEARCHED", "at": "thousand", "string": true},
+    {"t": "focus", "at": "ocean", "dur": 1.3}
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory says she crash-landed on Nikumaroro, a remote coral island.",
+   "shots": [
+    {"t": "card", "kind": "note", "lines": ["NIKUMARORO", "CASTAWAY THEORY"], "at": "Nikumaroro", "string": true},
+    {"t": "stamp", "text": "THEORY", "at": "island"}
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "Bones and tools were later found there, but nothing has ever been proven.",
+   "shots": [
+    {"t": "fx", "fx": "waves", "at": "found", "dur": 5.0},
+    {"t": "fx", "fx": "flicker", "at": "proven", "dur": 2.0}
+   ]
+  }
+ ],
+ "end": {"line": "Did Amelia Earhart survive as a castaway?", "stamp": "UNSOLVED"},
+ "cta": "COMMENT YOUR THEORY",
+ "description": "In July 1937, Amelia Earhart and navigator Fred Noonan vanished near Howland Island during her attempt to fly around the world. Despite huge searches, their fate is still debated.",
+ "tags": ["#unexplained", "#mystery", "#ameliaearhart", "#history", "#aviation"],
+ "facts": [
+  {"claim": "Amelia Earhart and navigator Fred Noonan disappeared on 2 July 1937 while flying to Howland Island during her attempt to circumnavigate the globe.", "source": "Wikipedia: Amelia Earhart"},
+  {"claim": "Her final confirmed radio transmissions to the Coast Guard cutter Itasca reported she was low on fuel and could not locate the island.", "source": "Wikipedia: Amelia Earhart; Itasca radio logs"},
+  {"claim": "The US Navy and Coast Guard conducted a search covering roughly 250,000 square miles of ocean, one of the largest air-and-sea searches up to that time.", "source": "Wikipedia: Amelia Earhart"},
+  {"claim": "No confirmed wreckage of her Lockheed Electra has ever been found.", "source": "Wikipedia: Amelia Earhart"},
+  {"claim": "A theory championed by researchers at TIGHAR suggests she landed as a castaway on Nikumaroro atoll, where artifacts and possible bone fragments have been found, though identification remains disputed.", "source": "Wikipedia: Amelia Earhart; TIGHAR Nikumaroro hypothesis"},
+  {"claim": "Most historians still favor the theory that she crashed and sank near Howland Island.", "source": "Wikipedia: Amelia Earhart"}
+ ]
+}

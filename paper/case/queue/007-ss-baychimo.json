@@ -1,0 +1,80 @@
+{
+ "topic": "SS Baychimo",
+ "slug": "ss-baychimo",
+ "title": "The Ghost Ship SS Baychimo",
+ "case": "007",
+ "hook": "In 1931, an ice-trapped cargo ship was abandoned, then kept sailing for decades.",
+ "banner": ["GHOST SHIP.", "STILL LOST."],
+ "site": "sea",
+ "props": ["ship", "rocks"],
+ "place": "ALASKAN ARCTIC COAST",
+ "date": "OCTOBER 1931",
+ "music": "lightless",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "Trapped in Arctic ice, the crew was rescued, leaving the ship behind.",
+   "shots": [
+    {"t": "fx", "fx": "fog", "at": "ice", "dur": 4.0},
+    {"t": "fx", "fx": "flicker", "at": "behind", "dur": 2.0}
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "The abandoned ship was reportedly spotted still drifting a year later.",
+   "shots": [
+    {"t": "card", "kind": "photo", "icon": "ship", "caption": "SPOTTED ADRIFT", "at": "ship"},
+    {"t": "stamp", "text": "EVIDENCE", "at": "later"}
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Sailors said they boarded her once, finding cargo still perfectly intact.",
+   "shots": [
+    {"t": "card", "kind": "note", "lines": ["BOARDED HER", "CARGO UNTOUCHED"], "at": "boarded", "string": true}
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Reported sightings continued for nearly forty years across the frozen north.",
+   "shots": [
+    {"t": "card", "kind": "stat", "big": "40 YRS", "small": "REPORTED SIGHTINGS", "at": "forty", "string": true},
+    {"t": "focus", "at": "north", "dur": 1.3}
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "Most historians now think the derelict eventually broke apart or slowly sank unseen.",
+   "shots": [
+    {"t": "card", "kind": "doc", "redact": [0, 2], "title": "LAST SIGHTING", "at": "sank", "string": true},
+    {"t": "stamp", "text": "UNCONFIRMED", "at": "unseen"}
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "No wreck has ever been found, so officially, her fate is still unknown.",
+   "shots": [
+    {"t": "fx", "fx": "fog", "at": "found", "dur": 5.0},
+    {"t": "fx", "fx": "flicker", "at": "unknown", "dur": 2.0}
+   ]
+  }
+ ],
+ "end": {"line": "Could the Baychimo still be drifting somewhere?", "stamp": "UNSOLVED"},
+ "cta": "WHAT DO YOU THINK?",
+ "description": "Abandoned in Arctic ice in 1931, the cargo ship SS Baychimo was reportedly spotted drifting, empty, for decades. Nobody knows how or when it finally disappeared.",
+ "tags": ["#unexplained", "#mystery", "#ghostship", "#baychimo", "#arctic"],
+ "facts": [
+  {"claim": "The SS Baychimo was a Hudson Bay Company cargo steamer trapped in Arctic ice off Alaska in October 1931 and abandoned by her crew.", "source": "Wikipedia: SS Baychimo"},
+  {"claim": "The ship did not sink; it was reboarded briefly by local Inuit trappers soon after being abandoned.", "source": "Wikipedia: SS Baychimo"},
+  {"claim": "Over the following decades, the empty ship was reportedly sighted drifting in the Arctic by various sailors and explorers.", "source": "Wikipedia: SS Baychimo"},
+  {"claim": "The last widely reported sighting was in 1969, nearly forty years after it was abandoned.", "source": "Wikipedia: SS Baychimo"},
+  {"claim": "No wreck of the Baychimo has ever been officially located or confirmed.", "source": "Wikipedia: SS Baychimo"},
+  {"claim": "Most researchers believe the ship eventually sank or broke apart in the ice, though exactly when and where remains unknown.", "source": "Wikipedia: SS Baychimo"}
+ ]
+}

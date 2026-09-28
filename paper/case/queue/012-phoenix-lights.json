@@ -1,0 +1,80 @@
+{
+ "topic": "Phoenix Lights",
+ "slug": "phoenix-lights",
+ "title": "The Phoenix Lights",
+ "case": "012",
+ "hook": "In 1997, thousands watched a huge V-shaped craft glide silently over Arizona.",
+ "banner": ["MASS SIGHTING.", "NEVER EXPLAINED."],
+ "site": "sky",
+ "props": ["observatory", "trees"],
+ "place": "PHOENIX, ARIZONA, USA",
+ "date": "MARCH 13, 1997",
+ "music": "cutandrun",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "A mile-wide V of lights drifted silently over the night sky of Phoenix.",
+   "shots": [
+    {"t": "fx", "fx": "beam", "at": "drifted", "dur": 4.0},
+    {"t": "fx", "fx": "flicker", "at": "Phoenix", "dur": 2.0}
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Thousands of witnesses across two states reported the same strange formation.",
+   "shots": [
+    {"t": "card", "kind": "stat", "big": "1000s", "small": "WITNESSES", "at": "witnesses"},
+    {"t": "stamp", "text": "EVIDENCE", "at": "formation"}
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Later that night, a separate row of lights hovered motionless above the city.",
+   "shots": [
+    {"t": "card", "kind": "photo", "icon": "star", "caption": "LIGHTS HELD STILL", "at": "hovered", "string": true}
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "The Air Force later said flares dropped by jets explained the second sighting.",
+   "shots": [
+    {"t": "card", "kind": "doc", "redact": [0, 2], "title": "AIR FORCE REPORT", "at": "flares", "string": true},
+    {"t": "focus", "at": "sighting", "dur": 1.3}
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "That explanation covers some sightings, but many witnesses still strongly disagree.",
+   "shots": [
+    {"t": "card", "kind": "note", "lines": ["FLARES?", "MANY DISAGREE"], "at": "sightings", "string": true},
+    {"t": "stamp", "text": "REJECTED", "at": "disagree"}
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "The larger V-formation before the flares has still never been officially explained.",
+   "shots": [
+    {"t": "fx", "fx": "beam", "at": "flares", "dur": 5.0},
+    {"t": "fx", "fx": "flicker", "at": "explained", "dur": 2.0}
+   ]
+  }
+ ],
+ "end": {"line": "What do you think those Phoenix lights really were?", "stamp": "UNSOLVED"},
+ "cta": "COMMENT YOUR THEORY",
+ "description": "On 13 March 1997, thousands of witnesses across Arizona watched a huge V-shaped formation of lights cross the night sky. The military later explained a second set of lights as flares, but the first sighting remains unexplained.",
+ "tags": ["#unexplained", "#mystery", "#phoenixlights", "#ufo", "#arizona"],
+ "facts": [
+  {"claim": "On the night of 13 March 1997, thousands of people across Arizona and Nevada reported seeing a large V-shaped formation of lights moving silently across the sky.", "source": "Wikipedia: Phoenix Lights"},
+  {"claim": "A separate set of stationary lights was also seen hovering over Phoenix later that same night.", "source": "Wikipedia: Phoenix Lights"},
+  {"claim": "The US Air Force said the later stationary lights were flares dropped during a training exercise by A-10 aircraft from the Maryland Air National Guard.", "source": "Wikipedia: Phoenix Lights"},
+  {"claim": "That explanation is widely accepted for the later flare-like lights but is disputed by many witnesses who saw the earlier, larger V-shaped formation.", "source": "Wikipedia: Phoenix Lights"},
+  {"claim": "Then-Arizona Governor Fife Symington, who initially mocked the sightings, later said he too had seen an unexplained craft.", "source": "Wikipedia: Phoenix Lights; Fife Symington"},
+  {"claim": "The earlier mass sighting of the V-shaped formation has never been officially explained.", "source": "Wikipedia: Phoenix Lights"}
+ ]
+}

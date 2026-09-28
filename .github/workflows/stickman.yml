@@ -2,9 +2,11 @@ name: ColdCase Stickman
 
 # Denna panacikova epizoda (nevyrieseny pripad): pribeh z Wikipedie cez OpenRouter (free),
 # render HyperFrames, Buffer o 12:00 Bratislava. Dry-run v Actions presiel 27.9. (3 min), cron zapnuty.
+# 28.9.2026: cron VYPNUTY - kanal ColdCaseDaily prechadza na papierove spisy (.github/workflows/paper-case.yml).
+# Stickman ostava len na rucne spustenie (workflow_dispatch).
 on:
-  schedule:
-    - cron: "15 1 * * *"   # 01:15 UTC - GitHub cron mesk. aj 6 h (28.9.: 04:10 -> 10:48 UTC), slot 12:00 SK musi stihnut
+  # schedule:
+  #   - cron: "15 1 * * *"   # 01:15 UTC - GitHub cron mesk. aj 6 h (28.9.: 04:10 -> 10:48 UTC), slot 12:00 SK musi stihnut
   workflow_dispatch:
     inputs:
       dry_run:

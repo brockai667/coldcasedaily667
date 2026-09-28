@@ -1,0 +1,170 @@
+{
+ "topic": "Voynich Manuscript",
+ "slug": "voynich-manuscript",
+ "title": "The Voynich Manuscript",
+ "case": "015",
+ "hook": "This 240-page book is written in a mysterious language nobody has ever understood.",
+ "banner": [
+  "UNKNOWN TEXT.",
+  "NEVER READ."
+ ],
+ "site": "sky",
+ "props": [],
+ "place": "CENTRAL EUROPE",
+ "date": "CIRCA 1404-1438",
+ "music": "cutandrun",
+ "mood_music": "tense",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "This handwritten manuscript is filled with strange plants, symbols, and diagrams.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "STRANGE SYMBOLS",
+     "at": "symbols"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Radiocarbon dating places the vellum's creation between 1404 and 1438.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      0,
+      2
+     ],
+     "title": "CARBON DATING",
+     "at": "vellum's",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "1438"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Its pages show unfamiliar plants that don't match any known species on Earth.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "tree",
+     "caption": "UNKNOWN PLANTS",
+     "at": "plants",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "One section shows zodiac signs ringed by tiny figures, but their meaning is unknown.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sky",
+     "place": {
+      "x": 0.5,
+      "y": 0.35
+     },
+     "caption": "ZODIAC PAGES",
+     "at": "zodiac",
+     "string": true
+    },
+    {
+     "t": "focus",
+     "at": "meaning",
+     "dur": 1.3
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "Many experts think it may be an elaborate hoax, or a constructed invented language.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "HOAX?",
+      "OR INVENTED",
+      "LANGUAGE?"
+     ],
+     "at": "hoax",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "THEORY",
+     "at": "language"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Despite decades of effort by codebreakers, not one page has ever been translated.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "magnify",
+     "at": "codebreakers",
+     "dur": 2.2
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Will the Voynich manuscript ever be decoded?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "WHAT DO YOU THINK?",
+ "description": "The Voynich manuscript is a 15th-century book written in an unknown script, filled with strange plants and diagrams nobody has ever explained. Despite a century of attempts, not one page has been reliably translated.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#voynichmanuscript",
+  "#history",
+  "#codebreaking"
+ ],
+ "facts": [
+  {
+   "claim": "The Voynich manuscript is an illustrated codex of about 240 vellum pages written in an unknown script that has never been deciphered.",
+   "source": "Wikipedia: Voynich manuscript"
+  },
+  {
+   "claim": "Radiocarbon dating in 2009 placed the vellum's creation between 1404 and 1438.",
+   "source": "Wikipedia: Voynich manuscript; Yale University 2009 dating"
+  },
+  {
+   "claim": "Its illustrations include unidentified plants, astronomical diagrams, and images of bathing women, in sections often called herbal, astronomical, and biological.",
+   "source": "Wikipedia: Voynich manuscript"
+  },
+  {
+   "claim": "The manuscript was purchased by antique book dealer Wilfrid Voynich in 1912, after whom it is named.",
+   "source": "Wikipedia: Voynich manuscript"
+  },
+  {
+   "claim": "Numerous linguists, cryptographers, and computer scientists have attempted to decode it; no proposed solution is widely accepted.",
+   "source": "Wikipedia: Voynich manuscript"
+  },
+  {
+   "claim": "Some researchers argue it may be an elaborate hoax or a constructed language rather than a genuine coded text.",
+   "source": "Wikipedia: Voynich manuscript"
+  },
+  {
+   "claim": "It has been held at Yale University's Beinecke Rare Book and Manuscript Library since 1969.",
+   "source": "Wikipedia: Voynich manuscript; Beinecke Library"
+  }
+ ]
+}
