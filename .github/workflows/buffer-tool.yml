@@ -1,0 +1,38 @@
+name: Buffer fronta (nastroj)
+
+# Sprava fronty Buffera cez secret BUFFER_TOKEN (lokalne token nie je): vypis, zmazanie postov.
+# Rucne spustenie: cmd = list | schema | delete | delete-match ; args = id posty / hladany text.
+on:
+  workflow_dispatch:
+    inputs:
+      cmd:
+        description: "list | schema | delete | delete-match"
+        type: string
+        default: "list"
+      args:
+        description: "delete: id postov oddelene medzerou; delete-match: text, ktory post obsahuje"
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  buffer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Buffer
+        env:
+          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
+          PYTHONIOENCODING: utf-8
+        run: |
+          echo "== schema (mutacie s 'post'/'delete') =="
+          python stickman/buffer_tool.py schema || true
+          echo "== ${{ inputs.cmd }} ${{ inputs.args }} =="
+          python stickman/buffer_tool.py ${{ inputs.cmd }} ${{ inputs.args }}
