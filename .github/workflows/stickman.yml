@@ -4,7 +4,7 @@ name: ColdCase Stickman
 # render HyperFrames, Buffer o 12:00 Bratislava. Dry-run v Actions presiel 27.9. (3 min), cron zapnuty.
 on:
   schedule:
-    - cron: "10 4 * * *"   # 04:10 UTC - hotove davno pred publik. slotom (12:00 SK)
+    - cron: "15 1 * * *"   # 01:15 UTC - GitHub cron mesk. aj 6 h (28.9.: 04:10 -> 10:48 UTC), slot 12:00 SK musi stihnut
   workflow_dispatch:
     inputs:
       dry_run:
@@ -19,6 +19,10 @@ on:
         description: "Hotovy spec (napr. stickman/specs/the-somerton-man.json) - preskoci generovanie pribehu"
         type: string
         default: ""
+      slot:
+        description: "Cas publikovania HH:MM (Europe/Bratislava); ak uz presiel, berie sa dalsi den"
+        type: string
+        default: "12:00"
 
 permissions:
   contents: write            # commit stavu (topics.json, specs/, published.json)
@@ -74,6 +78,23 @@ jobs:
       - name: Prepare config
         run: cp config.example.json config.json
 
+      # Prazdny secret (zle vlozeny) sa inak prejavi az po 5 min renderu pri publikovani.
+      - name: Kontrola secretov (len dlzky)
+        env:
+          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
+        run: |
+          echo "BUFFER_TOKEN: ${#BUFFER_TOKEN} znakov | OPENROUTER_API_KEY: ${#OPENROUTER_API_KEY} znakov | MODELS_TOKEN: ${#MODELS_TOKEN} znakov"
+          DRY="${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}"
+          if [ "${#BUFFER_TOKEN}" -lt 10 ] && [ "$DRY" != "true" ]; then
+            echo "::error::BUFFER_TOKEN secret je prazdny - nastav ho v Settings > Secrets > Actions (Update), inak sa nic nepublikuje"
+            exit 1
+          fi
+          if [ "${#OPENROUTER_API_KEY}" -lt 10 ]; then
+            echo "::warning::OPENROUTER_API_KEY je prazdny - pribeh pisal Groq (slabsi)"
+          fi
+
       - name: Build episode
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}   # pribeh (free modely), pridava user
@@ -86,7 +107,7 @@ jobs:
           CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
           CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          STICKMAN_SLOT_LOCAL: "12:00"
+          STICKMAN_SLOT_LOCAL: ${{ inputs.slot || '12:00' }}
           # SwiftShader namiesto GPU; `check` presiel lokalne, v cloude len zdrzuje
           STICKMAN_SKIP_CHECK: "1"
         run: |

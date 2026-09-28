@@ -286,6 +286,9 @@ def _object_variant(obj, say):
     return obj
 
 
+_LABEL_TAIL_STOP = {"NO", "AND", "OR", "OF", "THE", "A", "AN", "IN", "ON", "AT", "TO", "WITH", "BY", "FOR", "NOT"}
+
+
 def _clean_params(shot, pr, say=""):
     """Parametre len tie, ktore engine cita; objekt musi byt kreslitelny."""
     pr = dict(pr or {})
@@ -297,8 +300,14 @@ def _clean_params(shot, pr, say=""):
     if "inside" in pr:
         pr["inside"] = str(pr["inside"]).strip().lower() in ("true", "1", "yes")
     if shot == "insert":
-        lab = re.sub(r"[^A-Za-z0-9 ]", "", str(pr.get("label") or "")).strip().upper()
-        pr["label"] = " ".join(lab.split()[:3])[:26] if lab else ""
+        raw = str(pr.get("label") or "")
+        # "NO EYES, NO TONGUES" -> len prva cast pred ciarkou; max 3 slova; nikdy neskoncit spojkou/clenom
+        first = re.split(r"[,;:/|]", raw)[0] if len(raw.split()) > 3 else raw
+        lab = re.sub(r"[^A-Za-z0-9 ]", "", first).strip().upper()
+        words = lab.split()[:3]
+        while words and words[-1] in _LABEL_TAIL_STOP:
+            words.pop()
+        pr["label"] = " ".join(words)[:26] if words else ""
         if not pr["label"]:
             pr.pop("label", None)
         mk = str(pr.get("mark") or "none").strip().lower()
