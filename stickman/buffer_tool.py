@@ -60,8 +60,7 @@ def show(posts):
 def delete(ids):
     for pid in ids:
         # nazov/vstup mutacie: pri chybe schema vypise, co API ocakava ('schema' prikaz ukaze nazvy)
-        d = gql('mutation($id:PostId!){deletePost(input:{id:$id}){__typename ... on PostActionSuccess{success} '
-                '... on MutationError{message}}}', {"id": pid})
+        d = gql('mutation($id:PostId!){deletePost(input:{id:$id}){__typename}}', {"id": pid})
         print(f"  delete {pid}: {json.dumps(d, ensure_ascii=False)[:300]}")
 
 
