@@ -420,9 +420,13 @@ def _fix_unspoken(spec):
 
 
 def _named(obj, say, strict=False):
-    """Rovnaky test ako v2.check_beats: kmen predmetu alebo synonymum vo vete (strict = cele slovo)."""
+    """Rovnaky test ako v2.check_beats: kmen predmetu alebo synonymum vo vete.
+    strict = len vlastne meno predmetu ako CELE slovo (bez synonym) - inak 'car' sedi na 'carve',
+    'clock' na 'hours' a fixer prepne predmet na nezmysel."""
     stem = obj.rstrip("s")
-    pat = (r"\b" + re.escape(stem)) if strict else (stem[:5] if len(stem) > 5 else stem)
+    if strict:
+        return bool(re.search(r"\b" + re.escape(stem.replace("_", " ")) + r"(s|es)?\b", say, re.I))
+    pat = stem[:5] if len(stem) > 5 else stem
     return bool(re.search(pat, say, re.I) or re.search(v2._SYN.get(obj, "(?!x)x"), say, re.I))
 
 
