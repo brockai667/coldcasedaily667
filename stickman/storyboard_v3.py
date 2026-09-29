@@ -411,12 +411,26 @@ def _fix_unspoken(spec):
             pr["object"] = "body"
             if l["shot"] != "insert":
                 pr["action"] = "watch"
+        # wide_reveal vie opakovat len par predmetov; iny predmet (crater, light...) -> postava nan ukaze
+        if l["shot"] == "wide_reveal" and pr.get("object") not in (
+                "stone", "pillar", "statue", "tower", "tree", "tablet", "coin", "skull", "fallen_tree"):
+            l["shot"] = "spot"
+            pr.pop("count", None)
+            pr["action"] = "point"
         l["params"] = pr
     # ten isty zaber dvakrat po sebe (spot, spot) -> druhy sa prepne na sesterský archetyp s rovnakym objektom
     for a, b in zip(spec["lines"], spec["lines"][1:]):
         if a["shot"] == b["shot"] and b["shot"] in ("spot", "object_reveal"):
             b["shot"] = "object_reveal" if b["shot"] == "spot" else "spot"
             b["params"].setdefault("action", "watch" if b["shot"] == "object_reveal" else "point")
+    # tri vlozky za sebou su tri rovnake detaily - prostredna sa zmeni na zaber s postavou
+    ls = spec["lines"]
+    for a, b, c in zip(ls, ls[1:], ls[2:]):
+        if a["shot"] == b["shot"] == c["shot"] == "insert":
+            b["shot"] = "object_reveal"
+            for k in ("label", "mark", "count", "filled"):
+                b["params"].pop(k, None)
+            b["params"]["action"] = "watch"
 
 
 def _named(obj, say, strict=False):
@@ -442,7 +456,9 @@ def _fix_unnamed(spec):
     for i, l in enumerate(lines):
         pr = l.get("params") or {}
         obj = str(pr.get("object") or "").lower()
-        if not obj or l["shot"] == "walk_in" or _named(obj, l["say"]):
+        plates = obj == "dish" and not re.search(r"radio|signal|telescope|antenna|transmi|burst|astronom|observator",
+                                                 l["say"], re.I)       # 'shakes dishes' su taniere, nie antena
+        if not obj or l["shot"] == "walk_in" or (_named(obj, l["say"]) and not plates):
             continue
         prev = str(((lines[i - 1].get("params") or {}).get("object") if i else "") or "").lower()
         found = ""
