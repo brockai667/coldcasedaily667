@@ -1,0 +1,78 @@
+# Papierové spisy (ColdCaseDaily) – doposlanie hotového videa na JEDNU platformu + kontrola kanála v Bufferi.
+# Len ručné spustenie. Nič nerenderuje a nemení stav fabriky (pushed.json ostáva).
+#   action = status -> vypíše stav kanála a posledné príspevky (nič nepublikuje)
+#   action = post   -> vezme video + popis z artefaktu behu `run_id` a naplánuje ho o `delay_min` minút
+name: Paper case – doposlanie (backfill)
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "status = len kontrola kanála | post = doposlať video"
+        default: "status"
+      service:
+        description: "Platforma: tiktok | instagram | youtube"
+        default: "tiktok"
+      video:
+        description: "Video bez prípony (napr. case-dyatlov-pass) – len pre post"
+        default: ""
+      run_id:
+        description: "ID behu 'Paper case files', z ktorého je video (artefakt paper-case-videos) – len pre post"
+        default: ""
+      delay_min:
+        description: "O koľko minút publikovať (min. 5)"
+        default: "10"
+
+permissions:
+  contents: write                    # náhradné nahratie videa do release, ak by tam už nebolo
+  actions: read                      # stiahnutie artefaktu z denného behu
+
+concurrency:
+  group: stickman                    # nikdy súbežne s denným behom (spoločná fronta Buffera)
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python závislosti
+        run: pip install -q requests cloudinary
+
+      - name: Video + popis z artefaktu denného behu
+        if: github.event.inputs.action == 'post'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_ID: ${{ github.event.inputs.run_id }}
+        run: |
+          case "$RUN_ID" in ''|*[!0-9]*) echo "::error::run_id musí byť číslo behu"; exit 1;; esac
+          gh run download "$RUN_ID" -n paper-case-videos -D _artifact
+          ls -la _artifact/output 2>/dev/null || true
+
+      - name: Buffer – stav kanála alebo doposlanie
+        env:
+          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACTION: ${{ github.event.inputs.action }}
+          SERVICE: ${{ github.event.inputs.service }}
+          VIDEO: ${{ github.event.inputs.video }}
+          DELAY: ${{ github.event.inputs.delay_min }}
+        run: |
+          cp config.example.json config.json
+          if [ "$ACTION" = "post" ]; then
+            python paper/engine/backfill_post.py post "$VIDEO" "$SERVICE" --delay "${DELAY:-10}" --dir _artifact
+          else
+            python paper/engine/backfill_post.py status "$SERVICE"
+          fi
+          rm -f config.json
