@@ -12,8 +12,8 @@ on:
       publish:
         description: "Publikovať cez Buffer? (yes/no/check = len overiť token)"
         default: "no"
-  schedule:                          # 01:35 UTC = 03:35 Bratislava; GitHub cron mešká aj hodiny, slot 12:00 SK (BUFFER_SLOT_HOURS) musí stihnúť
-    - cron: "35 1 * * *"
+  schedule:                          # 21:35 UTC = 23:35 Bratislava; GitHub cron tu mešká ~6 h (29.9.: 5 h 50 min), slot 12:00 SK
+    - cron: "35 21 * * *"            # (BUFFER_SLOT_HOURS) musí stihnúť -> rezerva 12 h namiesto 8 h (pôvodne 01:35 UTC)
 
 permissions:
   contents: write                    # stav fabriky (queue -> done, history.json, topics.json), pushed.json, release s videom
