@@ -110,6 +110,7 @@ SCENES = {
     "punch":        ("the character alone, the golden word UNEXPLAINED slams in", {"word": "zlate slovo"}),
 }
 _SYN["ship"] = _SYN.get("ship", "ship") + "|brigantine|schooner|vessel|barque|sloop|frigate|hull|steamer"  # Mary Celeste: brigantine
+_SYN["sound"] = _SYN.get("sound", "sound") + r"|\b(calls?|songs?|sings?|singing|tones?|hertz)\b"  # velryba 52 Hz: volanie / spev / ton
 # scena -> svety, kde NEMA zmysel
 BANNED = {"dig": ("sea", "shore"), "descend": ("sea", "shore"), "wide_reveal": ("sea",),
           "human_stack": ("sea",), "action_crowd": ("sea",)}

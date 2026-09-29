@@ -445,7 +445,27 @@ def _fix_unnamed(spec):
         if not obj or l["shot"] == "walk_in" or _named(obj, l["say"]):
             continue
         prev = str(((lines[i - 1].get("params") or {}).get("object") if i else "") or "").lower()
-        found = next((o for o in v2.OBJECTS if o != obj and _named(o, l["say"], strict=True)), "")
+        found = ""
+        if CHANNEL == "unexplained":                 # jav pomenovany vo vete ma prednost pred hocicim inym
+            try:
+                import props as _props
+                found = next((k for k in _props.rank_props(l["say"])
+                              if k != obj and k in ("light", "lightning", "sound", "dish", "fog", "crater")
+                              and k in v2.OBJECTS and _named(k, l["say"])), "")
+            except Exception:
+                found = ""
+        if not found:
+            found = next((o for o in v2.OBJECTS if o != obj and _named(o, l["say"], strict=True)), "")
+        if not found:                                # klucove slova rekvizit: 'glowing ball' -> light, 'hum' -> sound
+            try:
+                import props as _props
+                cands = [k for k in _props.rank_props(l["say"])
+                         if k != obj and k in v2.OBJECTS and _named(k, l["say"])]
+                if CHANNEL == "unexplained":         # javy maju prednost pred nabytkom ('hum shakes the windows')
+                    cands.sort(key=lambda k: k not in ("light", "lightning", "sound", "dish", "fog", "crater"))
+                found = cands[0] if cands else ""
+            except Exception:
+                found = ""
         cont = _CONT.match(l["say"].strip())
         if prev and cont and not re.match(r"(it|its|they|their|this|these)\b", cont.group(0), re.I):
             pr["object"] = prev                      # 'Three more…', 'Others…' = ten isty predmet ako predtym
@@ -565,7 +585,14 @@ def generate(topic, rounds=3):
     if CHANNEL == "unexplained":
         heroes_txt = f"{hero_hint} ({HERO_ROLE.get(hero_hint, 'an explorer')})"
         hero_rule = (" The hero is fixed - use exactly this one. NEVER write the character's name in any sentence: "
-                     "the narration is about the phenomenon; say 'the explorer', 'she' or 'he' when needed.")
+                     "the narration is about the phenomenon; say 'the explorer', 'she' or 'he' when needed."
+                     "\n- This channel tells ONE concrete incident or place from the article: one date, one location, "
+                     "what people saw, heard or measured there, then the best explanation and why it fails. "
+                     "Never a list of sightings across centuries. No deaths, no victims."
+                     "\n- Every sentence with a picture must NAME the thing that is drawn, using the object's own word "
+                     "or an everyday synonym (light / orb / glow, sound / hum / boom / call, fog / mist, crater, "
+                     "lightning, signal / dish / antenna, stone, water, tree, mountain, ship, map...). "
+                     "If a sentence names nothing drawable, rewrite the sentence.")
     base = STORY_PROMPT.format(topic=topic, article=text[:11000], example=_example(), catalog=cat, objects=", ".join(v2.OBJECTS),
                                worlds=", ".join(WORLDS), world_hint=world_hint, heroes=heroes_txt,
                                hero_hint=hero_hint, hero_rule=hero_rule, recent=recent_shots())

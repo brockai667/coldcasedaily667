@@ -813,6 +813,10 @@ _METEOR_CTX = {"meteor", "meteors", "meteorite", "meteorites", "meteoroid", "com
                "falling", "space", "atmosphere"}
 
 
+# velryba 52 Hz a pod.: volanie / spev / ton su zvuk - az na konci zoznamu, aby nic nepredbehli
+KEYWORDS.append(("sound", ("call", "calls", "song", "songs", "sings", "singing", "tone", "tones", "hertz")))
+
+
 def rank_props(text):
     """Vsetky rekvizity, na ktore veta sedi, v poradi specifickosti."""
     low = " " + "".join(c.lower() if c.isalnum() or c.isspace() else " " for c in text) + " "
