@@ -335,7 +335,8 @@ def _lake(p, c, measure=False):
         cx1 = cx0 + 50
         z0, z1, up0, up1 = z * 0.97, z * 1.04, up, up
     depth = 185.0 / (z * 1.04)
-    under, over = st.lake_section(p, x0, x1, GY, depth, frozen=frozen, bones=6)
+    under, over = st.lake_section(p, x0, x1, GY, depth, frozen=frozen,
+                                  bones=6 if getattr(props, "LAKE_BONES", True) else 0)
     pole = ""
     if measure:
         # merna tyc s cervenymi pruhmi, zvisle cez jeho ruku (HOLD_POLE: ruka ~ (63,-136) pri s=1);

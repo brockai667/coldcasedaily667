@@ -429,6 +429,8 @@ def build(spec_path, html_only=False):
     _blob = (str(spec.get("topic", "")) + " " + " ".join(l.get("say", "") for l in lines)).lower()
     props.BOOK_STYLE = "cipher" if re.search(r"\b(manuscript|cipher|codex|voynich|glyphs?|undeciphered|"
                                              r"unknown script|strange writing|symbols)\b", _blob) else "log"
+    # kostry na dne jazera len ked o nich pribeh hovori (Roopkund ano, vriaca voda v krateri nie)
+    props.LAKE_BONES = bool(re.search(r"\b(skulls?|skelet\w*|bones?|(human|skeletal|their|the) remains|bod(y|ies)|corpses?|drowned)\b", _blob))
     # hlavny kreslitelny predmet temy (napr. kosti pri Roopkunde) - zabery, ktore nemaju
     # vlastny objekt (casova os), ho pouziju namiesto nahradnej debny
     from collections import Counter as _Counter

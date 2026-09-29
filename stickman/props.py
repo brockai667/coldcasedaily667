@@ -631,6 +631,7 @@ def p_object(pid=""):
 
 
 BOOK_STYLE = "cipher"         # "log" = dennik (pripravene, zatial nezapojene v build_spec)
+LAKE_BONES = True             # kostry na dne jazera - build_spec vypne, ked o nich epizoda nehovori
 
 PROPS = {
     "stone": p_stone, "pillar": p_pillar, "mountain": p_mountain, "cave": p_cave, "water": p_water,
