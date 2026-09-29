@@ -119,8 +119,10 @@ jobs:
           CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUFFER_SLOT_HOURS: "12"      # 1 video denne o 12:00 Bratislava (rovnaký slot, na aký bol kanál zvyknutý)
+          TIKTOK_PER_RUN: "1"          # user 29.9.: TikTok zapnúť (config.example.json má 0 = zahrievanie; prepis len pre papierové spisy)
         run: |
           cp config.example.json config.json
+          python -c "import json,os;p='config.json';c=json.load(open(p,encoding='utf-8'));c['tiktok_per_run']=int(os.environ.get('TIKTOK_PER_RUN','1'));json.dump(c,open(p,'w',encoding='utf-8'),ensure_ascii=False)"
           python push_to_buffer.py "${{ github.event.inputs.count || '1' }}"
 
       - name: Uloženie stavu
