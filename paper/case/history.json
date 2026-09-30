@@ -5,5 +5,12 @@
   "site": "mountains",
   "music": "lightless",
   "title": "The Dyatlov Pass case"
+ },
+ {
+  "slug": "mary-celeste",
+  "date": "2026-09-30",
+  "site": "sea",
+  "music": "echoes",
+  "title": "The Mary Celeste"
  }
 ]
