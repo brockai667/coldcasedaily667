@@ -12,5 +12,12 @@
   "site": "sea",
   "music": "echoes",
   "title": "The Mary Celeste"
+ },
+ {
+  "slug": "wow-signal",
+  "date": "2026-10-01",
+  "site": "sky",
+  "music": "cutandrun",
+  "title": "The Wow! signal"
  }
 ]
