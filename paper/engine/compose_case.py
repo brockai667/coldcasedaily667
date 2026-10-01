@@ -23,7 +23,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FACTORY = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import compose  # noqa: E402
-from compose import norm, words, js, MUSIC, MOOD_MUSIC, music_vol  # noqa: E402
+from compose import norm, words, js, MUSIC, MOOD_MUSIC, music_vol, music_credit  # noqa: E402
 
 # ---------- slovnik spisu (case/CONTRACT.md)
 SCENES = ("desk", "board", "site")
@@ -576,9 +576,9 @@ class CaseComposer(compose.Composer):
         ep = {
             "title": S["title"], "hook": S["banner"], "voice": S["voice"], "rate": S["rate"], "gap": 0.55, "tail": 1.6,
             "bg": "#2a1c16", "accent": "#c9382d", "kit": dict(KIT), "libs": list(LIBS),
-            "description": (str(S.get("description") or "") + "\n" + " ".join(tags) + "\nPaper animation made with code.").strip(),
+            "description": (str(S.get("description") or "") + "\n" + " ".join(tags)).strip(),
             "music": {"file": mf, "at": mat, "vol": music_vol(mf, mat),
-                      "credit": f'Music: "{mname}" - Kevin MacLeod (incompetech.com), licensed under CC BY 4.0'},
+                      "credit": music_credit(mname)},
             "lines": lines, "sfx": self.sfx}
         return ep, "\n".join(self.js) + "\n"
 

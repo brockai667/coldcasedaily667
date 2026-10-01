@@ -147,7 +147,7 @@ Spec (JSON) v `case/specs/<slug>.json`:
   `cta` default "COMMENT YOUR THEORY".
 - `episode.json` ako v `compose.py`: `title, hook: banner, voice (default en-GB-RyanNeural), rate (default "-4%"), gap 0.55, tail 1.6,
   bg "#2a1c16", accent "#c9382d", kit {chrome: "file", trans: "page", pres: "full", cam: "calm"}, libs ["core.js", "fx.js", "env_case.js", "cards_case.js"],
-  description (+ tags + "Paper animation made with code."), music {file, at, vol, credit}, lines, sfx`.
+  description (+ tags), music {file, at, vol, credit}, lines, sfx`.
 - CLI rovnaké ako compose.py: `python engine/compose_case.py case/specs/<slug>.json [--snap 1,4,8] [--render]` → `episodes/<slug>/`.
 
 ## 4. Chrome `file` (v `engine/base.html` + `lib/core.js`, len pridané riadky)
