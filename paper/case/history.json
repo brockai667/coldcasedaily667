@@ -19,5 +19,12 @@
   "site": "sky",
   "music": "cutandrun",
   "title": "The Wow! signal"
+ },
+ {
+  "slug": "flannan-isles",
+  "date": "2026-10-02",
+  "site": "sea",
+  "music": "lightless",
+  "title": "The Flannan Isles Mystery"
  }
 ]
