@@ -26,5 +26,12 @@
   "site": "sea",
   "music": "lightless",
   "title": "The Flannan Isles Mystery"
+ },
+ {
+  "slug": "flight-19",
+  "date": "2026-10-03",
+  "site": "sea",
+  "music": "echoes",
+  "title": "Flight 19"
  }
 ]
