@@ -33,5 +33,12 @@
   "site": "sea",
   "music": "echoes",
   "title": "Flight 19"
+ },
+ {
+  "slug": "amelia-earhart",
+  "date": "2026-10-04",
+  "site": "sea",
+  "music": "cutandrun",
+  "title": "Amelia Earhart's Last Flight"
  }
 ]
