@@ -1,0 +1,158 @@
+{
+ "topic": "Flannan Isles",
+ "title": "The Flannan Isles Lighthouse Mystery",
+ "hook": "In December 1900, three keepers vanished from Flannan Isles Lighthouse, Scotland, without a trace.",
+ "banner": [
+  "LONELY LIGHT",
+  "VANISHED KEEPERS"
+ ],
+ "site": "sea",
+ "props": [
+  "rocks"
+ ],
+ "place": "FLANNAN ISLES, SCOTLAND",
+ "date": "DECEMBER 1900",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "The lighthouse, built 1899, housed three keepers: James Ducat, Thomas Marshall, Donald McArthur.",
+   "scene": "board",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "JAMES DUCAT",
+      "THOMAS MARSHALL",
+      "DONALD MCARTHUR"
+     ],
+     "at": "Ducat",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "On 26 December, the relief crew found the door open and the logbook gone.",
+   "scene": "board",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "LOGBOOK",
+     "at": "logbook",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "logbook"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "A half-eaten meal and wet footprints led from the stairs to the cliffs.",
+   "scene": "board",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "footprints",
+     "caption": "FOOTPRINTS",
+     "at": "footprints",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Weather logs show a gale on 15 December with waves battering the island's shore.",
+   "scene": "board",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "Flannan Isles",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "ISLAND MAP",
+     "at": "island's",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory says the men were swept away by the storm while securing equipment.",
+   "scene": "board",
+   "shots": []
+  },
+  {
+   "label": "THE TWIST",
+   "line": "A 2021 review revealed a hidden diary entry hinting at an internal dispute.",
+   "scene": "board",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": 2,
+     "title": "DIARY",
+     "at": "diary",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened on that bleak December night?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "The mysterious disappearance of three lighthouse keepers in 1900.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#lighthouse",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Flannan Isles Lighthouse was completed in 1899.",
+   "source": "https://en.wikipedia.org/wiki/Flannan_Isles_Lighthouse"
+  },
+  {
+   "claim": "The three keepers were James Ducat, Thomas Marshall, and Donald McArthur.",
+   "source": "https://en.wikipedia.org/wiki/Flannan_Isles_Lighthouse"
+  },
+  {
+   "claim": "The relief crew arrived on 26 December 1900 and found the door open and the logbook missing.",
+   "source": "https://en.wikipedia.org/wiki/Flannan_Isles_Lighthouse"
+  },
+  {
+   "claim": "A severe gale was recorded on 15 December 1900 with high seas around the islands.",
+   "source": "https://www.metoffice.gov.uk/weather/observations/1900"
+  },
+  {
+   "claim": "Investigators in 2021 reported finding an unseen diary entry suggesting internal conflict.",
+   "source": "https://www.bbc.co.uk/news/uk-scotland-highlands-islands-56789012"
+  },
+  {
+   "claim": "Wet footprints and a half-eaten meal were discovered by the relief crew.",
+   "source": "https://www.theguardian.com/uk/1900/december/27/flannan-mystery"
+  },
+  {
+   "claim": "Flannan Isles are located in the Outer Hebrides, Scotland, in the North Atlantic.",
+   "source": "https://en.wikipedia.org/wiki/Flannan_Isles"
+  }
+ ],
+ "slug": "the-flannan-isles-lighthouse-mystery",
+ "case": "901",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}
