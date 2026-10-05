@@ -1,0 +1,109 @@
+name: Doodle writer (test bezplatneho modelu)
+
+# Test: bezplatny model z OpenRouteru pise kreslenu epizodu pre UnexplainedDaily (rezia -> kod -> opravy), hned sa
+# vyrenderuje a skontroluje. Engine aj autor sa beru z verejneho repa brockai667/UnexplainedDaily (doodle/).
+# Bezi v tomto repe len preto, ze secret OPENROUTER_API_KEY je tu. Nic nepublikuje - vysledok je artefakt.
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: "OpenRouter model (napr. nvidia/nemotron-3-ultra-550b-a55b:free, thinkingmachines/inkling:free)"
+        type: string
+        default: "nvidia/nemotron-3-ultra-550b-a55b:free"
+      brief:
+        description: "Zadanie v doodle/briefs (bez .yaml)"
+        type: string
+        default: "devon"
+      extra:
+        description: "Dalsie argumenty pre auto_writer.py"
+        type: string
+        default: "--lib-exclude devon1855"
+      ref:
+        description: "Vetva alebo commit repa UnexplainedDaily"
+        type: string
+        default: "main"
+
+permissions:
+  contents: read
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: brockai667/UnexplainedDaily
+          ref: ${{ inputs.ref }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      # verzie hlasu pripnute rovnako ako v doodle.yml (novsi PyAV rozbil faster-whisper)
+      - name: Install Python deps
+        run: pip install requests kokoro-onnx==0.4.7 soundfile faster-whisper==1.2.1 av==17.1.0 numpy scipy Pillow pyyaml playwright
+
+      - name: Cache Kokoro + Whisper models
+        uses: actions/cache@v4
+        with:
+          path: |
+            kokoro
+            ~/.cache/huggingface
+          key: doodle-models-v1
+
+      - name: Cache npx + Chrome
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            ~/.cache/hyperframes
+            ~/.cache/puppeteer
+            ~/.cache/ms-playwright
+          key: doodle-npx-v1
+
+      - name: Warm up hyperframes + Playwright Chromium
+        run: |
+          HF=$(sed -n 's/^HF = "\(.*\)"$/\1/p' doodle/qa.py)
+          test -n "$HF"
+          npx --yes "$HF" browser ensure
+          python -m playwright install --with-deps chromium
+
+      - name: Kontrola secretu (len dlzka)
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          echo "OPENROUTER_API_KEY: ${#OPENROUTER_API_KEY} znakov"
+          test "${#OPENROUTER_API_KEY}" -ge 10
+
+      - name: Write + render episode
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          MODEL: ${{ inputs.model }}
+          BRIEF: ${{ inputs.brief }}
+          EXTRA: ${{ inputs.extra }}
+        run: |
+          # shellcheck disable=SC2086
+          python doodle/auto_writer.py "doodle/briefs/${BRIEF}.yaml" --provider openrouter --model "$MODEL" $EXTRA
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: doodle-writer-${{ github.run_id }}
+          path: |
+            doodle/episodes/*/screenplay.yaml
+            doodle/episodes/*/report.json
+            doodle/episodes/*/script.json
+            doodle/episodes/*/raw_*.txt
+            doodle/episodes/*/renders/*.mp4
+            doodle/episodes/*/renders/*_sheet.jpg
+          if-no-files-found: warn
+          retention-days: 14
