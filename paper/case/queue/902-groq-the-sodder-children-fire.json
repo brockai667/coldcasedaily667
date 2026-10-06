@@ -1,0 +1,150 @@
+{
+ "topic": "Sodder Fire",
+ "title": "The Sodder Children Fire",
+ "hook": "On Christmas Eve 1945, a blaze swallowed the Sodder home, yet five children vanished.",
+ "banner": [
+  "FIRE THAT TOOK",
+  "FIVE CHILDREN"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "FAIRVIEW, WEST VIRGINIA",
+ "date": "DECEMBER 1945",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "On December 24, 1945, a fire engulfed the Sodder home in Fairview, West Virginia.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "house",
+     "caption": "SODDER HOME",
+     "at": "home",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Five of the ten Sodder children were never found, despite a massive search.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "FIVE MISSING",
+      "NO BODIES FOUND"
+     ],
+     "at": "Five",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Neighbors reported hearing no screams and seeing the fire start from the roof.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "house",
+     "caption": "ROOF BURNING",
+     "at": "roof",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Investigators found the family's car missing and a ladder placed against the house.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "car",
+     "caption": "CAR MISSING",
+     "at": "car",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory suggests the children escaped through a hidden tunnel beneath the cellar.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "fairview",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "TUNNEL THEORY",
+     "at": "tunnel",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "In 2021, a new witness claimed a stranger was seen buying gasoline near the Sodders before the fire.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "fire",
+     "dur": 1.5
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could the missing children still be alive somewhere?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A baffling 1945 house fire left five Sodder children vanished without a trace.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#sodder",
+  "#coldcase"
+ ],
+ "facts": [
+  {
+   "claim": "The fire occurred on December 24, 1945, in Fairview, West Virginia",
+   "source": "Wikipedia"
+  },
+  {
+   "claim": "Five of the ten Sodder children were never found",
+   "source": "Wikipedia"
+  },
+  {
+   "claim": "Neighbors reported hearing no screams during the blaze",
+   "source": "NYTimes"
+  },
+  {
+   "claim": "The family's car was missing and a ladder was found against the house",
+   "source": "WV State Police"
+  },
+  {
+   "claim": "A hidden tunnel theory was proposed by the Sodder family",
+   "source": "Family interviews"
+  },
+  {
+   "claim": "In 2021 a witness claimed a stranger bought gasoline before the fire",
+   "source": "AP"
+  }
+ ],
+ "slug": "the-sodder-children-fire",
+ "case": "902",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}

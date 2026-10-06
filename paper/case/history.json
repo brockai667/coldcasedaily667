@@ -47,5 +47,12 @@
   "site": "sea",
   "music": "lightless",
   "title": "The Ghost Ship SS Baychimo"
+ },
+ {
+  "slug": "franklin-expedition",
+  "date": "2026-10-06",
+  "site": "sea",
+  "music": "echoes",
+  "title": "The Franklin Expedition"
  }
 ]
