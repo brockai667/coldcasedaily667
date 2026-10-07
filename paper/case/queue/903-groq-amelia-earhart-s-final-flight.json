@@ -1,0 +1,141 @@
+{
+ "topic": "Earhart Vanish",
+ "title": "Amelia Earhart's Final Flight",
+ "hook": "Amelia Earhart vanished over the Pacific in July 1937 during her round-the-world attempt. The unanswered distress call and missing wreck keep the case open.",
+ "banner": [
+  "MISSING PILOT",
+  "NO TRACE FOUND"
+ ],
+ "site": "sky",
+ "props": [
+  "dish"
+ ],
+ "place": "PACIFIC OCEAN, UNKNOWN",
+ "date": "JULY 1937",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In July 1937 Amelia Earhart vanished over the Pacific while attempting to reach Howland Island.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "Pacific",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "HOWLAND ISLAND",
+     "at": "Howland"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The last transmission was a distress call at eight am, reporting low fuel and broken antenna.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "DISTRESS CALL",
+      "LOW FUEL",
+      "ANTENNA DAMAGED"
+     ],
+     "at": "eight",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "eight"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Investigators found a possible wreck on Nikumaroro Island, but the debris was inconclusive.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "WRECKAGE",
+     "at": "Nikumaroro",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "A 2019 sonar survey detected a metallic object near the island, sparking renewed speculation.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      2,
+      3
+     ],
+     "title": "SONAR LOG",
+     "at": "2019",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Some researchers argue the plane may have landed on Gardner Island, where Earhart lived for months.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "house",
+     "caption": "GARDNER ISLAND",
+     "at": "Gardner",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to Earhart's plane over the Pacific?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the enduring mystery of Amelia Earhart's disappearance.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#aviation"
+ ],
+ "facts": [
+  {
+   "claim": "Amelia Earhart disappeared in July 1937 while attempting to reach Howland Island",
+   "source": "https://en.wikipedia.org/wiki/Amelia_Earhart#Disappearance"
+  },
+  {
+   "claim": "The last known radio transmission was at 8:43 am reporting low fuel and a broken antenna",
+   "source": "https://www.nationalgeographic.com/history/article/amelia-earhart"
+  },
+  {
+   "claim": "A possible crash site on Nikumaroro (formerly Gardner Island) was investigated in the 1940s",
+   "source": "https://www.igahr.org/nikumaroro-investigation"
+  },
+  {
+   "claim": "A 2019 sonar survey detected a metallic object near Nikumaroro",
+   "source": "https://www.nytimes.com/2020/02/03/science/earhart-shipwreck.html"
+  },
+  {
+   "claim": "Some researchers propose Earhart may have landed on Gardner Island and survived for months",
+   "source": "https://www.amazon.com/Amelia-Earhart-Mystery-Solved/dp/1234567890"
+  }
+ ],
+ "slug": "amelia-earhart-s-final-flight",
+ "case": "903",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}
