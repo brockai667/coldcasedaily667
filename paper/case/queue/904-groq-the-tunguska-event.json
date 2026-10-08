@@ -1,0 +1,143 @@
+{
+ "topic": "TUNGUSKA EVENT",
+ "title": "The Tunguska Event",
+ "hook": "In June 1908, a massive explosion ripped through Siberia's Taiga, flattening thousands of square kilometres - yet investigators never found a crater.",
+ "banner": [
+  "MYSTERIOUS BLAZE",
+  "NO CRATER FOUND"
+ ],
+ "site": "sky",
+ "props": [
+  "trees"
+ ],
+ "place": "SIBERIA, RUSSIA",
+ "date": "JUNE 1908",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "On 30 June 1908, a bright fireball detonated over the Tunguska River.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "Tunguska",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "TUNGUSKA REGION",
+     "at": "Tunguska"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Witnesses reported a flash brighter than the sun, followed by a powerful shockwave.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "EYEWITNESS",
+      "REPORT"
+     ],
+     "at": "Witnesses",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The blast flattened about 2,150 square kilometres of forest, uprooting trees radially.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "tree",
+     "caption": "UPROOTED TREES",
+     "at": "trees",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Expeditions in 1927 found no crater, only scorched earth and standing stumps.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": 2,
+     "title": "EXPEDITION",
+     "at": "1927",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "crater"
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory suggests the event was caused by a meteoroid airburst, similar to modern Chelyabinsk.",
+   "shots": [
+    {
+     "t": "focus",
+     "at": "airburst",
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Tree-ring studies show a high-energy blast, yet no fragments were recovered.",
+   "shots": []
+  }
+ ],
+ "end": {
+  "line": "What caused the sky fire that left no crater?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the 1908 Tunguska explosion that flattened Siberian forest without leaving a crater.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#tunguska",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "The Tunguska explosion occurred on 30 June 1908 over the Tunguska River in Siberia.",
+   "source": "https://en.wikipedia.org/wiki/Tunguska_event"
+  },
+  {
+   "claim": "Eyewitnesses described a flash brighter than the sun and a powerful shockwave.",
+   "source": "https://www.nasa.gov/mission_pages/asteroids/education/tunguska.html"
+  },
+  {
+   "claim": "The blast flattened roughly 2,150 square kilometres of forest.",
+   "source": "https://en.wikipedia.org/wiki/Tunguska_event#Explosion"
+  },
+  {
+   "claim": "Expeditions in 1927 found no impact crater, only scorched earth and standing trees.",
+   "source": "https://www.nature.com/articles/236393a0"
+  },
+  {
+   "claim": "The leading hypothesis is that a meteoroid airburst caused the event, similar to the 2013 Chelyabinsk meteor.",
+   "source": "https://www.nasa.gov/feature/chelyabinsk-meteor"
+  },
+  {
+   "claim": "Tree-ring analysis indicates a high-energy explosion, but no fragments have been recovered.",
+   "source": "https://doi.org/10.1016/j.icarus.2008.08.012"
+  }
+ ],
+ "slug": "the-tunguska-event",
+ "case": "904",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}

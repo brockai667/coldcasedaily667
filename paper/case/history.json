@@ -61,5 +61,12 @@
   "site": "mountains",
   "music": "cutandrun",
   "title": "The Tunguska Event"
+ },
+ {
+  "slug": "hessdalen-lights",
+  "date": "2026-10-08",
+  "site": "mountains",
+  "music": "lightless",
+  "title": "The Hessdalen Lights"
  }
 ]
