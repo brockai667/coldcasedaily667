@@ -1,0 +1,134 @@
+{
+ "topic": "D.B. Cooper",
+ "title": "D.B. Cooper Hijacking",
+ "hook": "In November 1971, D.B. Cooper hijacked a plane and vanished, sparking a lasting mystery.",
+ "banner": [
+  "HIJACK MYSTERY",
+  "NO TRACE FOUND"
+ ],
+ "site": "sky",
+ "props": [
+  "dish"
+ ],
+ "place": "PACIFIC NORTHWEST, USA",
+ "date": "NOVEMBER 1971",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "On November 24 1971, D.B. Cooper boarded a Northwest Orient flight from Portland to Seattle.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "MAN IN SUIT",
+     "at": "Cooper"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "He demanded $200,000 and four parachutes, which were dropped over Seattle's airport.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "DEMAND $200K",
+      "FOUR PARACHUTES"
+     ],
+     "at": "parachutes",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "At 10,000 feet, Cooper opened the rear door and vanished.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "OPEN DOOR",
+     "at": "door",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "In 1980, $5,880 of the ransom was found along the Columbia River.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "$5,880",
+     "small": "FOUND 1980",
+     "at": "ransom",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "Investigators think he parachuted into forest, yet no body or gear was recovered.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "recovered"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "A 2016 FBI review noted a skydiving skill, but the case stays open.",
+   "shots": []
+  }
+ ],
+ "end": {
+  "line": "What do you think happened to D.B. Cooper after the jump?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling D.B. Cooper hijacking and the lingering mysteries surrounding his disappearance.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#coldcase",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "The hijacking occurred on November 24 1971 on Flight 305 from Portland to Seattle.",
+   "source": "https://en.wikipedia.org/wiki/D._B._Cooper"
+  },
+  {
+   "claim": "Cooper demanded $200,000 and four parachutes.",
+   "source": "https://en.wikipedia.org/wiki/D._B._Cooper"
+  },
+  {
+   "claim": "$5,880 of the ransom was recovered in 1980 along the Columbia River near Vancouver, Washington.",
+   "source": "https://www.fbi.gov/history/famous-cases/db-cooper"
+  },
+  {
+   "claim": "Cooper opened the rear door at about 10,000 feet before parachuting.",
+   "source": "https://www.fbi.gov/history/famous-cases/db-cooper"
+  },
+  {
+   "claim": "The FBI closed the case in 2016 without identifying Cooper.",
+   "source": "https://www.fbi.gov/news/stories/d-b-cooper-case-closed-2016"
+  },
+  {
+   "claim": "It remains the only unsolved skyjacking in U.S. history.",
+   "source": "https://en.wikipedia.org/wiki/D._B._Cooper"
+  }
+ ],
+ "slug": "d-b-cooper-hijacking",
+ "case": "905",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}
