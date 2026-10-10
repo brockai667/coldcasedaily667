@@ -1,0 +1,135 @@
+{
+ "topic": "Antikythera Mechanism",
+ "title": "The Antikythera Mechanism",
+ "hook": "In 1901, sponge divers uncovered a bronze relic from a shipwreck off Greece, but its purpose baffled scholars.",
+ "banner": [
+  "BRONZE GEAR",
+  "TIME MACHINE?"
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "ANTIKYTHERA, GREECE",
+ "date": "1901 DISCOVERY",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1901, sponge divers recovered a bronze gear-filled device from a shipwreck near Antikythera."
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The corroded fragments included 30 bronze gears, suggesting a complex clockwork.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "clock",
+     "caption": "BRONZE GEARS",
+     "at": "gears",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Analysis dated the device to around 100 BC, making it the oldest known analog computer.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "100 BC",
+     "small": "APPROX DATE",
+     "at": "100",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Its front dial displayed a 19-year Metonic cycle, aligning lunar months with the solar year.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "star",
+     "caption": "METONIC CYCLE",
+     "at": "Metonic",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory proposes the mechanism predicted eclipses and planetary positions for navigation.",
+   "shots": [
+    {
+     "t": "focus",
+     "at": "eclipses",
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Recent 3-D scans revealed hidden inscriptions pointing to a possible link with ancient Greek astronomer Hipparchus.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "INSCRIPTION",
+     "redact": [
+      2,
+      3
+     ],
+     "at": "inscriptions",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What could this ancient computer really have calculated for its makers?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A brief look at the mysterious Antikythera Mechanism and its secrets.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#ancienttech",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "The Antikythera Mechanism was recovered in 1901 by sponge divers off Antikythera Island.",
+   "source": "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+  },
+  {
+   "claim": "The device contains roughly 30 bronze gears forming a complex clockwork.",
+   "source": "https://en.wikipedia.org/wiki/Antikythera_mechanism#Construction"
+  },
+  {
+   "claim": "Radiocarbon dating places the mechanism around 100 BC.",
+   "source": "https://www.nature.com/articles/nature04058"
+  },
+  {
+   "claim": "One of its dials tracks the 19-year Metonic cycle aligning lunar and solar calendars.",
+   "source": "https://www.scientificamerican.com/article/ancient-greek-computer/"
+  },
+  {
+   "claim": "High-resolution 3-D imaging has uncovered hidden inscriptions linking it to Hipparchus.",
+   "source": "https://www.nature.com/articles/s41586-018-0456-5"
+  },
+  {
+   "claim": "Scholars suggest it could predict eclipses and planetary positions for navigation.",
+   "source": "https://www.britannica.com/science/Antikythera-mechanism"
+  }
+ ],
+ "slug": "the-antikythera-mechanism",
+ "case": "906",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}
