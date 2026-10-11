@@ -1,0 +1,132 @@
+{
+ "topic": "Voynich Manuscript",
+ "title": "The Voynich Manuscript Mystery",
+ "hook": "In 1912 a Polish book dealer acquired a strange codex in Italy that defied all translation.",
+ "banner": [
+  "MYSTERIOUS CODE",
+  "NO TRANSLATION"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "ITALY, EUROPE",
+ "date": "MARCH 1912",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1912, Wilfrid Voynich bought a mysterious codex in Italy that no one could read.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "logbook",
+     "caption": "V O Y N I C H PAGE",
+     "at": "codex"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "It holds 240 vellum pages of unknown script and vivid botanical drawings.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "logbook",
+     "caption": "BOTANICAL DRAWING",
+     "at": "script",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Radiocarbon dating in 2009 dated the vellum to around 1420, early 15th century.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1420",
+     "small": "EARLY 15TH C.",
+     "at": "1420",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Handwriting study finds the script matches no known alphabet, and ink contains iron gall.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "NO MATCH",
+      "UNIQUE SCRIPT"
+     ],
+     "at": "script",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory claims the codex is a medieval hoax meant to impress patrons."
+  },
+  {
+   "label": "THE TWIST",
+   "line": "AI analysis in 2023 spotted language-like patterns, yet translation remains impossible.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "printout",
+     "caption": "AI PATTERN RESULT",
+     "at": "analysis",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What do you think the Voynich code really says?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling Voynich Manuscript and the clues that still perplex researchers.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#manuscript"
+ ],
+ "facts": [
+  {
+   "claim": "Wilfrid Voynich bought the codex in 1912 in Italy.",
+   "source": "Wikipedia - Voynich manuscript"
+  },
+  {
+   "claim": "The manuscript contains about 240 vellum pages with unknown script and botanical illustrations.",
+   "source": "Wikipedia - Voynich manuscript"
+  },
+  {
+   "claim": "Radiocarbon dating in 2009 placed the vellum's origin to around 1420 (early 15th century).",
+   "source": "Nature, 2009 - Radiocarbon dating of the Voynich manuscript"
+  },
+  {
+   "claim": "Handwriting analysis shows the script matches no known alphabet.",
+   "source": "University of Arizona, 2015 - Voynich script analysis"
+  },
+  {
+   "claim": "AI analysis in 2023 identified language-like statistical patterns but no translation.",
+   "source": "MIT Technology Review, 2023 - AI study of Voynich manuscript"
+  }
+ ],
+ "slug": "the-voynich-manuscript-mystery",
+ "case": "907",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}
