@@ -1,0 +1,147 @@
+{
+ "topic": "Baghdad Battery",
+ "title": "The Baghdad Battery Mystery",
+ "hook": "In 1936, Wilhelm König unearthed a jar near Baghdad that looks like a primitive battery.",
+ "banner": [
+  "MYSTERIOUS JAR",
+  "POWER OR PRANK"
+ ],
+ "site": "sea",
+ "props": [
+  "rocks"
+ ],
+ "place": "BAGHDAD, IRAQ",
+ "date": "1930S",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1936 König uncovered a clay jar near Baghdad.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "CLAY JAR",
+     "at": "1936",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The jar holds a copper cylinder and iron rod.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "COPPER CYLINDER",
+     "at": "copper",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Acidic residue, possibly vinegar, was found inside the jar.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "RESIDUE OF ACIDIC LIQUID",
+      "POSSIBLY VINEGAR"
+     ],
+     "at": "Acidic",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Researchers suggest it might have electroplated gold in the 1st century.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1ST",
+     "small": "CENTURY",
+     "at": "1st",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory proposes the device functioned as a simple ritual battery.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "THEORY",
+     "at": "theory"
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "In 2020 analysis found no electrical evidence, doubting the battery claim.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "2020 STUDY",
+     "redact": [
+      2
+     ],
+     "at": "2020",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "Could ancient Iraq have mastered electricity, or is it a myth?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Exploring the enigmatic Baghdad Battery and its debated purpose.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#archaeology"
+ ],
+ "facts": [
+  {
+   "claim": "Wilhelm König discovered the jar in 1936 near Baghdad",
+   "source": "Wikipedia: Baghdad battery"
+  },
+  {
+   "claim": "The jar contains a copper cylinder and an iron rod forming a possible galvanic cell",
+   "source": "Wikipedia: Baghdad battery"
+  },
+  {
+   "claim": "Acidic residue, possibly vinegar, was found inside the jar",
+   "source": "Wikipedia: Baghdad battery"
+  },
+  {
+   "claim": "Some scholars suggest the device could have been used to electroplate gold in the 1st century",
+   "source": "Wikipedia: Baghdad battery"
+  },
+  {
+   "claim": "A 2020 study found no evidence of electrical use in the artifacts",
+   "source": "ScienceDirect, 2020 analysis of Baghdad battery"
+  }
+ ],
+ "slug": "the-baghdad-battery-mystery",
+ "case": "908",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}

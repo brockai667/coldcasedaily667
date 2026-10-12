@@ -89,5 +89,12 @@
   "site": "sky",
   "music": "lightless",
   "title": "The Kentucky Meat Shower"
+ },
+ {
+  "slug": "rendlesham-forest",
+  "date": "2026-10-12",
+  "site": "sky",
+  "music": "echoes",
+  "title": "The Rendlesham Forest Incident"
  }
 ]
