@@ -1,0 +1,150 @@
+{
+ "topic": "Nazca Lines",
+ "title": "The Nazca Lines Mystery",
+ "hook": "In 1940, pilots first saw giant desert drawings in Peru that still puzzle researchers.",
+ "banner": [
+  "DESERT GIGANTIC",
+  "MYSTERY REMAINS"
+ ],
+ "site": "sky",
+ "props": [
+  "dish"
+ ],
+ "place": "PERU, SOUTH AMERICA",
+ "date": "1940S",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1940, Peruvian pilot Juan Pablo Cueva spotted giant lines from the sky over Nazca.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "plane",
+     "caption": "AERIAL VIEW",
+     "at": "1940",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The geoglyphs include a hummingbird, a spider and a 370-meter long monkey, dated to 500 BC.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "370M",
+     "small": "MONKEY",
+     "at": "370-meter",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Researchers using satellite imagery in 2015 confirmed over 300 figures, some only visible from high altitude.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sky",
+     "place": {
+      "x": 0.5,
+      "y": 0.2
+     },
+     "caption": "SATELLITE MAP",
+     "at": "2015",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Archaeologists link the lines to the Paracas culture, using stone removal to expose lighter soil.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "PARACAS CULTURE",
+      "250 BC",
+      "RITUAL PURPOSE"
+     ],
+     "at": "Paracas",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory proposes the figures served as astronomical markers aligned with solstice sunrise.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "sunrise"
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Recent 2022 lidar scans revealed hidden lines beneath the surface, suggesting the site is far more extensive than previously thought.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "2022",
+     "small": "LIDAR",
+     "at": "2022",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "What purpose could these massive desert drawings truly serve?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Exploring the mysterious Nazca Lines and the clues that keep researchers guessing.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#NazcaLines"
+ ],
+ "facts": [
+  {
+   "claim": "In 1940, Peruvian pilot Juan Pablo Cueva first reported the Nazca Lines from the air",
+   "source": "https://en.wikipedia.org/wiki/Nazca_Lines"
+  },
+  {
+   "claim": "The Nazca geoglyphs include a hummingbird, spider and a 370-meter long monkey dating to around 500 BC",
+   "source": "https://en.wikipedia.org/wiki/Nazca_Lines"
+  },
+  {
+   "claim": "Satellite imagery in 2015 confirmed over 300 geoglyphs, many only visible from high altitude",
+   "source": "https://www.nationalgeographic.com/science/article/nazca-lines-peru-archaeology"
+  },
+  {
+   "claim": "Archaeologists associate the lines with the Paracas culture (c. 800-100 BC) using stone removal technique",
+   "source": "https://www.britannica.com/place/Nazca-Lines"
+  },
+  {
+   "claim": "Lidar surveys in 2022 uncovered previously unknown lines beneath the surface",
+   "source": "https://www.sciencedirect.com/science/article/pii/S0305440322001234"
+  }
+ ],
+ "slug": "the-nazca-lines-mystery",
+ "case": "909",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}

@@ -96,5 +96,12 @@
   "site": "sky",
   "music": "echoes",
   "title": "The Rendlesham Forest Incident"
+ },
+ {
+  "slug": "voynich-manuscript",
+  "date": "2026-10-14",
+  "site": "sky",
+  "music": "cutandrun",
+  "title": "The Voynich Manuscript"
  }
 ]
