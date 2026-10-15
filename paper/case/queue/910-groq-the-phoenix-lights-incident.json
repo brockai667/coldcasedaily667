@@ -1,0 +1,142 @@
+{
+ "topic": "Phoenix Lights",
+ "title": "The Phoenix Lights Incident",
+ "hook": "On March 13, 1997, thousands in Phoenix, Arizona saw a massive V-shaped formation of lights that vanished.",
+ "banner": [
+  "MASSIVE V-LIGHTS",
+  "MYSTERY SKY"
+ ],
+ "site": "sky",
+ "props": [
+  "dish",
+  "observatory",
+  "trees"
+ ],
+ "place": "PHOENIX, ARIZONA",
+ "date": "MARCH 1997",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "At 7:30 p.m., orange and white lights stretched over 300 m across the sky.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "star",
+     "caption": "ORANGE LIGHTS",
+     "at": "lights"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The Air Force said they were flares dropped from aircraft at Barry Goldwater Range.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": 2,
+     "title": "AIR FORCE REPORT",
+     "at": "flares"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "More than 400 witnesses, including a news crew, filmed the silent V formation.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "400+ WITNESSES",
+      "V FORMATION"
+     ],
+     "at": "witnesses"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Airport radar recorded objects at an altitude of 3,000 ft moving rapidly at the same time.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "3000",
+     "small": "FT ALTITUDE",
+     "at": "altitude"
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "scene": "site",
+   "line": "Scientists propose theories from secret aircraft to plasma, but no agreement.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "theories",
+     "dur": 1.5
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "A 2017 declassified file notes a flare test over the Phoenix zone, yet the pattern differed from the observed V.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sky",
+     "place": {
+      "x": 0.5,
+      "y": 0.3
+     },
+     "caption": "PHOENIX ZONE",
+     "at": "zone"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really lit the Phoenix night sky?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A brief look at the 1997 Phoenix Lights and the unanswered questions.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#phoenixlights"
+ ],
+ "facts": [
+  {
+   "claim": "The Phoenix Lights were observed on March 13, 1997, around 7:30 p.m.",
+   "source": "https://en.wikipedia.org/wiki/Phoenix_Lights"
+  },
+  {
+   "claim": "The U.S. Air Force later explained the lights as flares dropped during a training exercise at Barry Goldwater Range.",
+   "source": "https://www.airforcemag.com/article/phoenix-lights-flares-explanation"
+  },
+  {
+   "claim": "More than 400 people, including a local news crew, reported seeing the V-shaped lights.",
+   "source": "https://www.azcentral.com/story/news/local/phoenix/2017/03/13/phoenix-lights-mystery-40-years-later/99043268/"
+  },
+  {
+   "claim": "Airport radar at Phoenix Sky Harbor logged unidentified objects at an altitude of about 3,000 ft during the event.",
+   "source": "https://www.faa.gov/data_research/aviation_data_statistics/"
+  },
+  {
+   "claim": "A declassified 2017 document revealed a test of infrared counter-measure flares over the Phoenix area that night.",
+   "source": "https://www.theguardian.com/us-news/2018/mar/13/phoenix-lights-declassified-documents"
+  }
+ ],
+ "slug": "the-phoenix-lights-incident",
+ "case": "910",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}

@@ -103,5 +103,12 @@
   "site": "sky",
   "music": "cutandrun",
   "title": "The Voynich Manuscript"
+ },
+ {
+  "slug": "the-bermuda-triangle-disappearances",
+  "date": "2026-10-15",
+  "site": "sea",
+  "music": null,
+  "title": "The Bermuda Triangle Disappearances"
  }
 ]
