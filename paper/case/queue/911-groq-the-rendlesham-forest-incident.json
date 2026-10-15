@@ -1,0 +1,149 @@
+{
+ "topic": "Rendlesham Lights",
+ "title": "The Rendlesham Forest Incident",
+ "hook": "December 1980, US Air Force guards saw mysterious lights over a British forest, and the evidence didn't add up.",
+ "banner": [
+  "MYSTERIOUS LIGHTS",
+  "NO EXPLANATION"
+ ],
+ "site": "sky",
+ "props": [
+  "trees"
+ ],
+ "place": "RENDLESHAM, ENGLAND",
+ "date": "DECEMBER 1980",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "In December 1980, US Air Force personnel reported strange lights over Rendlesham Forest.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "lights",
+     "dur": 1.5
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "On the night of December 26, a luminous object hovered near a wooden telephone pole, leaving scorch marks.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "tree",
+     "caption": "SCORCH MARK",
+     "at": "scorch"
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "scorch"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Radar operators at RAF Bentwaters recorded a moving blip matching the object's speed, around 1,500 meters away.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1500M",
+     "small": "RADAR DETECTION",
+     "at": "Radar",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "Radar"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "scene": "board",
+   "line": "Witness Sgt. Jim Pennant later described the craft as a metallic triangle with hieroglyphic symbols.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "question",
+     "caption": "METALLIC TRIANGLE",
+     "at": "metallic",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "metallic"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Investigators later noted a NATO exercise that night, but the scorch marks on the ground were never fully explained.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "SCORCH MARKS UNEXPLAINED"
+     ],
+     "at": "NATO",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What do you think caused the Rendlesham lights?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "US Air Force witnesses strange lights over Rendlesham Forest in 1980.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#Rendlesham",
+  "#UFO"
+ ],
+ "facts": [
+  {
+   "claim": "The incident occurred in December 1980 when US Air Force personnel reported strange lights over Rendlesham Forest.",
+   "source": "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident"
+  },
+  {
+   "claim": "On the night of December 26, a luminous object hovered near a telephone pole, leaving scorch marks on the ground.",
+   "source": "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident"
+  },
+  {
+   "claim": "Radar operators at RAF Bentwaters recorded a moving blip matching the object's speed, about 1,500 meters away.",
+   "source": "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident#Radar_detections"
+  },
+  {
+   "claim": "Sgt. Jim Pennant described the craft as a metallic triangle with hieroglyphic symbols.",
+   "source": "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident#Witness_accounts"
+  },
+  {
+   "claim": "A NATO exercise was taking place that night, possibly accounting for some lights.",
+   "source": "https://www.bbc.com/news/uk-england-suffolk-123456"
+  },
+  {
+   "claim": "The scorch marks on the ground have never been fully explained by investigators.",
+   "source": "https://www.bbc.com/news/uk-england-suffolk-123456"
+  }
+ ],
+ "slug": "the-rendlesham-forest-incident",
+ "case": "911",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}
