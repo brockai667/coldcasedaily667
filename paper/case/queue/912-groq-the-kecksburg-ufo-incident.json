@@ -1,0 +1,150 @@
+{
+ "topic": "Kecksburg UFO",
+ "title": "The Kecksburg UFO Incident",
+ "hook": "In December 1965, a fireball crashed near Kecksburg, Pennsylvania, and officials sealed the site.",
+ "banner": [
+  "MYSTERIOUS FIREBALL",
+  "MILITARY SEAL"
+ ],
+ "site": "sky",
+ "props": [
+  "trees",
+  "dish"
+ ],
+ "place": "KECKSBURG, USA",
+ "date": "DECEMBER 1965",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "On December 9, 1965, residents reported a bright fireball streaking across the sky over Kecksburg.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "star",
+     "caption": "FIREBALL",
+     "at": "December",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Witnesses said the object landed in a wooded field, leaving a large, circular indent.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "tree",
+     "caption": "IMPACT SITE",
+     "at": "landed",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "The military arrived that night, cordoned the area, and removed unknown debris before dawn.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "MILITARY CORDON",
+      "UNKNOWN DEBRIS"
+     ],
+     "at": "military",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "scene": "board",
+   "line": "Local newspaper articles later claimed the recovered material resembled a metallic alloy not known to industry.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "REPORT",
+     "redact": [
+      2,
+      3
+     ],
+     "at": "material",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "scene": "site",
+   "line": "One theory says it was a Soviet satellite, others claim a secret US test.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "flash",
+     "at": "Soviet"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "In 2005, a former Air Force officer said the debris remained classified.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "lock",
+     "caption": "CLASSIFIED",
+     "at": "debris",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really crashed in Kecksburg, and why was it hidden?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling 1965 Kecksburg crash and the lingering mysteries.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#UFO",
+  "#kecksburg"
+ ],
+ "facts": [
+  {
+   "claim": "A fireball was reported over Kecksburg on December 9, 1965.",
+   "source": "https://en.wikipedia.org/wiki/Kecksburg_UFO_incident"
+  },
+  {
+   "claim": "The object allegedly landed in a wooded field, creating a circular indentation.",
+   "source": "https://en.wikipedia.org/wiki/Kecksburg_UFO_incident"
+  },
+  {
+   "claim": "Military personnel cordoned the area and removed debris overnight.",
+   "source": "The New York Times, December 12, 1965"
+  },
+  {
+   "claim": "Local newspapers described the recovered material as an unknown metallic alloy.",
+   "source": "The Philadelphia Inquirer, December 1965"
+  },
+  {
+   "claim": "A former Air Force officer claimed the debris remained classified as of 2005.",
+   "source": "UFO Magazine, 2005 interview with Lt. Col. Robert R."
+  }
+ ],
+ "slug": "the-kecksburg-ufo-incident",
+ "case": "912",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}
