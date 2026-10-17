@@ -1,0 +1,143 @@
+{
+ "topic": "BLOOP SOUND",
+ "title": "The Bloop Deep Sea Sound",
+ "hook": "In 1997, hydrophones recorded a mysterious low-frequency sound deep in the Pacific.",
+ "banner": [
+  "MYSTERIOUS SOUND",
+  "NO ONE HEARD"
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "SOUTHWEST PACIFIC, OCEAN",
+ "date": "APRIL 1997",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "The Bloop was detected by NOAA's Pacific acoustic array in April 1997.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "BLOOP DETECTED"
+     ],
+     "at": "Bloop"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Triangulation placed the source near the south-west Pacific, about 5,000 km offshore.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sea",
+     "place": {
+      "x": 0.4,
+      "y": 0.6
+     },
+     "caption": "PROXIMATE AREA",
+     "at": "south-west",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Its intensity reached roughly 180 decibels, louder than a blue whale.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "180",
+     "small": "DECIBELS",
+     "at": "180",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Early speculation suggested a giant unknown creature, yet no sighting occurred.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "question",
+     "caption": "UNKNOWN CREATURE?",
+     "at": "creature",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "Scientists now attribute the Bloop to icequakes on the Antarctic ice shelf.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "ICEQUAKE THEORY"
+     ],
+     "at": "icequake",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "A 2010 study matched its acoustic pattern to Ross Ice Shelf cracking.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "cracking"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What do you think caused the eerie Bloop sound?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mystery of the Bloop, the deep-sea sound that baffled scientists.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#ocean",
+  "#science"
+ ],
+ "facts": [
+  {
+   "claim": "The Bloop was first recorded on 13 April 1997 by NOAA's hydroacoustic monitoring system.",
+   "source": "https://en.wikipedia.org/wiki/Bloop"
+  },
+  {
+   "claim": "Triangulation located the source in the south-west Pacific, roughly 5,000 km from the nearest land.",
+   "source": "https://www.npr.org/sections/krulwich/2015/06/02/411242423/the-bloop-the-mystery-of-the-giant-sound-in-the-ocean"
+  },
+  {
+   "claim": "The sound's intensity was about 180 decibels, louder than a blue whale's call.",
+   "source": "https://www.nsf.gov/news/special_reports/icequake/bloop.jsp"
+  },
+  {
+   "claim": "Early speculation linked the Bloop to a giant unknown sea creature, but no visual evidence was found.",
+   "source": "https://www.livescience.com/27941-bloop-mystery.html"
+  },
+  {
+   "claim": "A 2010 NOAA study identified icequakes on the Ross Ice Shelf as the source of the Bloop.",
+   "source": "https://www.noaa.gov/news/ice-quakes-provide-explanation-for-bloop-sound"
+  }
+ ],
+ "slug": "the-bloop-deep-sea-sound",
+ "case": "913",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq"
+}
