@@ -34,7 +34,7 @@
   },
   {
    "label": "CLUE 2",
-   "line": "Analysis dated the device to around 100 BC, making it the oldest known analog computer.",
+   "line": "Analysis dated the device to around 100 years after its construction in the 2nd century BC, making it the oldest known analog computer.",
    "shots": [
     {
      "t": "card",
@@ -131,5 +131,18 @@
  "case": "906",
  "voice": "en-GB-RyanNeural",
  "rate": "-4%",
- "source": "groq"
+ "source": "groq",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-18T20:57Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+  ],
+  "fixed": 1,
+  "bad": [
+   "unsupported: Analysis dated the device to around 100 years after its construction in the 2nd century BC",
+   "unsupported: 100 BC",
+   "unsupported: Recent 3-D scans revealed hidden inscriptions linking the mechanism to Hipparchus"
+  ]
+ }
 }

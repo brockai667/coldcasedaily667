@@ -119,29 +119,27 @@
  ],
  "facts": [
   {
-   "claim": "Wilhelm König discovered the jar in 1936 near Baghdad",
-   "source": "Wikipedia: Baghdad battery"
+   "claim": "Wilhelm König",
+   "source": "https://en.wikipedia.org/wiki/Wilhelm_K%C3%B6nig"
   },
   {
-   "claim": "The jar contains a copper cylinder and an iron rod forming a possible galvanic cell",
-   "source": "Wikipedia: Baghdad battery"
-  },
-  {
-   "claim": "Acidic residue, possibly vinegar, was found inside the jar",
-   "source": "Wikipedia: Baghdad battery"
-  },
-  {
-   "claim": "Some scholars suggest the device could have been used to electroplate gold in the 1st century",
-   "source": "Wikipedia: Baghdad battery"
-  },
-  {
-   "claim": "A 2020 study found no evidence of electrical use in the artifacts",
-   "source": "ScienceDirect, 2020 analysis of Baghdad battery"
+   "claim": "Baghdad Battery",
+   "source": "https://en.wikipedia.org/wiki/Baghdad_Battery"
   }
  ],
  "slug": "the-baghdad-battery-mystery",
  "case": "908",
  "voice": "en-GB-RyanNeural",
  "rate": "-4%",
- "source": "groq"
+ "source": "groq",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-18T20:58Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Wilhelm_K%C3%B6nig",
+   "https://en.wikipedia.org/wiki/Baghdad_Battery"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
 }

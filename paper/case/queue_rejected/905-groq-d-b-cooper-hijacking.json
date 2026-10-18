@@ -29,7 +29,7 @@
   },
   {
    "label": "CLUE 1",
-   "line": "He demanded $200,000 and four parachutes, which were dropped over Seattle's airport.",
+   "line": "He demanded $200,000 and four parachutes, which were to be delivered on the plane in Seattle.",
    "shots": [
     {
      "t": "card",
@@ -59,7 +59,7 @@
   },
   {
    "label": "CLUE 3",
-   "line": "In 1980, $5,880 of the ransom was found along the Columbia River.",
+   "line": "In 1980, about $6,000 of the ransom was found.",
    "shots": [
     {
      "t": "card",
@@ -73,7 +73,7 @@
   },
   {
    "label": "THEORY",
-   "line": "Investigators think he parachuted into forest, yet no body or gear was recovered.",
+   "line": "Investigators think he parachuted into a forest; some parachutes were recovered, though no body was found.",
    "shots": [
     {
      "t": "stamp",
@@ -130,5 +130,18 @@
  "case": "905",
  "voice": "en-GB-RyanNeural",
  "rate": "-4%",
- "source": "groq"
+ "source": "groq",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-18T20:57Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/D._B._Cooper"
+  ],
+  "fixed": 3,
+  "bad": [
+   "contradicted: $5,880 was found in 1980 (spravne: $6,000)",
+   "unsupported: At 10,000 feet Cooper opened the rear door and vanished",
+   "unsupported: A 2016 FBI review noted a skydiving skill but the case stays open"
+  ]
+ }
 }

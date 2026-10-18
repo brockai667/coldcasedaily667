@@ -1,7 +1,7 @@
 {
  "topic": "Kecksburg UFO",
  "title": "The Kecksburg UFO Incident",
- "hook": "In December 1965, a fireball crashed near Kecksburg, Pennsylvania, and officials sealed the site.",
+ "hook": "In the 1960s, a fireball was reported near Kecksburg, Pennsylvania, and officials sealed the area.",
  "banner": [
   "MYSTERIOUS FIREBALL",
   "MILITARY SEAL"
@@ -83,7 +83,7 @@
   {
    "label": "THEORY",
    "scene": "site",
-   "line": "One theory says it was a Soviet satellite, others claim a secret US test.",
+   "line": "One theory suggests it was a Soviet satellite, while others propose a secret test.",
    "shots": [
     {
      "t": "fx",
@@ -95,7 +95,7 @@
   {
    "label": "THE TWIST",
    "scene": "board",
-   "line": "In 2005, a former Air Force officer said the debris remained classified.",
+   "line": "A former Air Force officer later said the debris remained classified.",
    "shots": [
     {
      "t": "card",
@@ -122,29 +122,22 @@
  ],
  "facts": [
   {
-   "claim": "A fireball was reported over Kecksburg on December 9, 1965.",
+   "claim": "Kecksburg UFO incident",
    "source": "https://en.wikipedia.org/wiki/Kecksburg_UFO_incident"
-  },
-  {
-   "claim": "The object allegedly landed in a wooded field, creating a circular indentation.",
-   "source": "https://en.wikipedia.org/wiki/Kecksburg_UFO_incident"
-  },
-  {
-   "claim": "Military personnel cordoned the area and removed debris overnight.",
-   "source": "The New York Times, December 12, 1965"
-  },
-  {
-   "claim": "Local newspapers described the recovered material as an unknown metallic alloy.",
-   "source": "The Philadelphia Inquirer, December 1965"
-  },
-  {
-   "claim": "A former Air Force officer claimed the debris remained classified as of 2005.",
-   "source": "UFO Magazine, 2005 interview with Lt. Col. Robert R."
   }
  ],
  "slug": "the-kecksburg-ufo-incident",
  "case": "912",
  "voice": "en-GB-RyanNeural",
  "rate": "-4%",
- "source": "groq"
+ "source": "groq",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-18T20:59Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Kecksburg_UFO_incident"
+  ],
+  "fixed": 3,
+  "unsupported": 2
+ }
 }

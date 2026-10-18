@@ -1,7 +1,7 @@
 {
  "topic": "Nazca Lines",
  "title": "The Nazca Lines Mystery",
- "hook": "In 1940, pilots first saw giant desert drawings in Peru that still puzzle researchers.",
+ "hook": "In the early 20th century, pilots first reported seeing giant desert drawings in Peru that still puzzle researchers.",
  "banner": [
   "DESERT GIGANTIC",
   "MYSTERY REMAINS"
@@ -16,7 +16,7 @@
  "beats": [
   {
    "label": "THE CASE",
-   "line": "In 1940, Peruvian pilot Juan Pablo Cueva spotted giant lines from the sky over Nazca.",
+   "line": "In 1940, a Peruvian pilot reported spotting giant lines from the sky over Nazca.",
    "shots": [
     {
      "t": "card",
@@ -31,14 +31,14 @@
   },
   {
    "label": "CLUE 1",
-   "line": "The geoglyphs include a hummingbird, a spider and a 370-meter long monkey, dated to 500 BC.",
+   "line": "The geoglyphs include a hummingbird about 93 m long, a spider about 47 m, and a monkey about 93 m long, created sometime between 500 BC and 500 AD.",
    "shots": [
     {
      "t": "card",
      "kind": "stat",
      "big": "370M",
      "small": "MONKEY",
-     "at": "370-meter",
+     "at": "geoglyphs",
      "string": true
     }
    ],
@@ -46,7 +46,7 @@
   },
   {
    "label": "CLUE 2",
-   "line": "Researchers using satellite imagery in 2015 confirmed over 300 figures, some only visible from high altitude.",
+   "line": "Researchers using satellite imagery in 2015 identified hundreds of figures, some only visible from high altitude.",
    "shots": [
     {
      "t": "card",
@@ -65,14 +65,14 @@
   },
   {
    "label": "CLUE 3",
-   "line": "Archaeologists link the lines to the Paracas culture, using stone removal to expose lighter soil.",
+   "line": "Archaeologists suggest the lines may be linked to an ancient culture such as Paracas, involving removal of surface material to expose lighter soil.",
    "shots": [
     {
      "t": "card",
      "kind": "note",
      "lines": [
       "PARACAS CULTURE",
-      "250 BC",
+      "C. 500",
       "RITUAL PURPOSE"
      ],
      "at": "Paracas",
@@ -95,7 +95,7 @@
   },
   {
    "label": "THE TWIST",
-   "line": "Recent 2022 lidar scans revealed hidden lines beneath the surface, suggesting the site is far more extensive than previously thought.",
+   "line": "Recent lidar scans in 2022 revealed hidden lines beneath the surface, suggesting the site is far more extensive than previously thought.",
    "shots": [
     {
      "t": "card",
@@ -146,5 +146,20 @@
  "case": "909",
  "voice": "en-GB-RyanNeural",
  "rate": "-4%",
- "source": "groq"
+ "source": "groq",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-18T20:59Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Nazca_lines"
+  ],
+  "fixed": 7,
+  "bad": [
+   "unsupported: In 1940 a Peruvian pilot reported spotting giant lines from the sky over Nazca",
+   "unsupported: 370M",
+   "unsupported: Researchers using satellite imagery in 2015 identified hundreds of figures, some only visible from high altitude",
+   "unsupported: Lidar scans in 2022 revealed hidden lines beneath the surface, showing the site is more extensive",
+   "unsupported: 2022"
+  ]
+ }
 }
