@@ -22,6 +22,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FACTORY = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import compose_case  # noqa: E402
+import case_dedup  # noqa: E402
 
 CDIR = os.path.join(FACTORY, "case")
 QDIR = os.path.join(CDIR, "queue")
@@ -35,13 +36,16 @@ def queue_files():
 
 def from_queue():
     """abecedne prvy spis z case/queue (pise ho Claude v davkach), alebo None ak je fronta prazdna"""
-    files = queue_files()
-    if not files:
-        return None
-    name = files[0]
-    S = json.load(open(os.path.join(QDIR, name), encoding="utf-8"))
-    print(f"[fronta] {name} (zostava {len(files) - 1})")
-    return name, S
+    done = case_dedup.published_keys()
+    for name in queue_files():
+        S = json.load(open(os.path.join(QDIR, name), encoding="utf-8"))
+        if case_dedup.is_dup(case_dedup.spec_keys(S), done):      # uz zverejnene -> do queue_rejected (nikdy nemazat), dalsi
+            dst = case_dedup.reject_to_folder(os.path.join(QDIR, name))
+            print(f"[fronta] DUPLICITA {name} (uz hotove) -> {os.path.relpath(dst, FACTORY)}")
+            continue
+        print(f"[fronta] {name} (zostava {len(queue_files()) - 1})")
+        return name, S
+    return None
 
 
 def remember(S):
@@ -61,6 +65,8 @@ def main():
             raise SystemExit("Fronta case/queue je prazdna. Doplnit spisy (Claude) alebo spustit s --groq.")
         import refill_case  # noqa: E402  (nacita sa az tu, aby prikaz bez --groq nepotreboval kluc)
         S = refill_case.write_spec(args[0] if args else refill_case.next_topic())
+        if case_dedup.is_dup(case_dedup.spec_keys(S), case_dedup.published_keys()):
+            raise SystemExit(f"Tema {S.get('title')} uz bola zverejnena (case_dedup) - nerenderujem.")
     else:
         name, S = got
 

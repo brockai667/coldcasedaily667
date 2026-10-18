@@ -93,4 +93,15 @@ for e in errors_case:
 for w in warns_case:
     print("  varovanie:", w)
 
-sys.exit(1 if (errors or errors_case) else 0)
+# 5) duplicity tem (case_dedup): samotest kluca; spis vo fronte zhodny s hotovym = varovanie (render ho presunie do queue_rejected)
+import case_dedup  # noqa: E402
+bad_dedup = case_dedup._selftest()
+pub = case_dedup.published_keys()
+dup_q = [f for f, S in case_dedup._specs(case_dedup.QDIR) if case_dedup.is_dup(case_dedup.spec_keys(S), pub)]
+print(f"selftest (dedup): {len(bad_dedup)} chyb kluca, {len(dup_q)} duplicit vo fronte")
+for b in bad_dedup:
+    print("  CHYBA:", b)
+for f in dup_q:
+    print("  varovanie: fronta obsahuje uz hotovu temu:", f)
+
+sys.exit(1 if (errors or errors_case or bad_dedup) else 0)

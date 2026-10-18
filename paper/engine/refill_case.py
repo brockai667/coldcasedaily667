@@ -23,6 +23,7 @@ FACTORY = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from compose_case import CaseComposer  # noqa: E402
 from llm import llm_json  # noqa: E402
+import case_dedup  # noqa: E402  (jeden kluc spisu: temy sa nesmu opakovat voci done/history/fronte)
 
 CDIR = os.path.join(FACTORY, "case")
 QDIR = os.path.join(CDIR, "queue")
@@ -146,9 +147,20 @@ def unused(bank):
     return [t for t in bank["topics"] if t not in bank["used"]]
 
 
+def known_keys():
+    """kluce vsetkeho, co uz je hotove (done + history) alebo caka vo fronte"""
+    return case_dedup.published_keys() + case_dedup.queue_keys()
+
+
+def unused_fresh(bank, known=None):
+    """nepouzite temy, ktore sa nezhoduju s nicim hotovym/vo fronte (kluc z case_dedup)"""
+    known = known_keys() if known is None else known
+    return [t for t in unused(bank) if not case_dedup.is_dup(t, known)]
+
+
 def next_topic():
     bank = load_bank()
-    u = unused(bank)
+    u = unused_fresh(bank)
     if not u:
         raise SystemExit("Banka tem case/topics.json je prazdna.")
     return u[0]
@@ -157,6 +169,7 @@ def next_topic():
 def top_up(bank, n):
     """dopyta Groq o n novych, este nepouzitych zahad (bez duplicit podla normalizovaneho nazvu)"""
     have = {norm(t) for t in bank["topics"]}
+    known = known_keys() + [case_dedup.case_key(t) for t in bank["topics"]]
     sysmsg = ("You suggest famous, well-documented real-world mysteries for a true-crime/paranormal-investigation style "
               "short video series: ghost ships, vanishings, lights in the sky, ancient artefacts, strange sounds, "
               "unexplained events. Never suggest recent tragedies with living relatives, and never frame anything as a "
@@ -168,8 +181,9 @@ def top_up(bank, n):
     added = 0
     for t in cand:
         t = str(t).strip().strip('"')
-        if not t or norm(t) in have:
+        if not t or norm(t) in have or case_dedup.is_dup(t, known):   # aj voci done/history/fronte/banke podla kluca
             continue
+        known.append(case_dedup.case_key(t))
         have.add(norm(t))
         bank["topics"].append(t)
         added += 1
@@ -229,17 +243,26 @@ def write_spec(topic):
 def refill(target=10, maximum=2):
     os.makedirs(QDIR, exist_ok=True)
     bank = load_bank()
-    if len(unused(bank)) < 5:
+    known = known_keys()
+    if len(unused_fresh(bank, known)) < 5:
         print("banka tem: doplnam", top_up(bank, 30))
         save_bank(bank)
     made = 0
     while len(queue_files()) < target and made < maximum:
+        for t in unused(bank):                           # tema zhodna s hotovou/frontou -> oznacit pouzitu, nepisat
+            if case_dedup.is_dup(t, known):
+                print(f"   [refill] duplicita (uz hotove/vo fronte): {t} -> preskocena")
+                bank["used"].append(t)
         free = unused(bank)
         if not free:
             print("banka tem je prazdna"); break
         topic = free[0]
         try:
             S = write_spec(topic)
+            sk = case_dedup.spec_keys(S)
+            if case_dedup.is_dup(sk, known):             # Groq napisal spis o inom nazve, ale tej istej veci
+                raise ValueError(f"duplicita po napisani ({S.get('title')})")
+            known += sk
             name = next_groq_name(S["slug"])
             json.dump(S, open(os.path.join(QDIR, name), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
             print(f"[fronta] + {name} ({len(S['beats'])} beatov)")
@@ -261,7 +284,7 @@ if __name__ == "__main__":
         save_bank(bank)
     elif "--list" in a:
         bank = load_bank()
-        u = unused(bank)
+        u = unused_fresh(bank)
         print(f"nepouzite temy: {len(u)} / {len(bank['topics'])}")
         for t in u:
             print("  -", t)
