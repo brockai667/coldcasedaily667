@@ -104,4 +104,15 @@ for b in bad_dedup:
 for f in dup_q:
     print("  varovanie: fronta obsahuje uz hotovu temu:", f)
 
-sys.exit(1 if (errors or errors_case or bad_dedup) else 0)
+# 6) kontrola faktov (factcheck.py): offline test s atrapami Groq + Wikipedie (bez siete a kluca) + upozornenie na nekontrolovane groq spisy
+import test_factcheck  # noqa: E402
+errors_fc = test_factcheck.run()
+unchecked = [f for f, S in case_dedup._specs(case_dedup.QDIR)
+             if S.get("source") == "groq" and (S.get("factcheck") or {}).get("ok") is not True]
+print(f"selftest (factcheck): {len(errors_fc)} chyb, {len(unchecked)} groq spisov vo fronte bez overenia faktov")
+for e in errors_fc:
+    print("  CHYBA:", e)
+if unchecked:
+    print("  varovanie: spusti python engine/factcheck.py --queue (alebo workflow Factcheck queue):", ", ".join(unchecked)[:200])
+
+sys.exit(1 if (errors or errors_case or bad_dedup or errors_fc) else 0)

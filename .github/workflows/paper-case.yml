@@ -89,7 +89,7 @@ jobs:
           ls -la ../output 2>/dev/null || true
 
       - name: Doplnenie fronty (Groq, zadarmo) – Claude-písané scenáre majú prednosť
-        if: github.event.inputs.publish != 'check'
+        if: always() && github.event.inputs.publish != 'check'     # always(): fronta sa dopĺňa každý deň aj keď render/samotest zlyhal
         continue-on-error: true
         env:
           MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}

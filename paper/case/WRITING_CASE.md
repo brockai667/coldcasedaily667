@@ -95,3 +95,13 @@ python engine/compose_case.py case/specs/<slug>.json --snap 0,1.5,4,8,12,16,20,2
 Snímky v `episodes/<slug>/build/snapshots` (prvý beh stiahne hlas cez edge-tts): nič sa neprekrýva s nadpisom (y 112–300),
 výzvou ani titulkami (od y 1566), karty sú v zóne y 400–1480, text je čitateľný, prvý = posledný snímok. Potom `--render` →
 `out/<slug>.mp4` + `_qc.jpg`. Nové ikony / fx / scény pridávať do `lib/` + do slovníka v `engine/compose_case.py` a sem.
+
+## Kontrola faktov (groq spisy)
+Groq si vymýšľa detaily (meno svedka, symboly na objekte), preto každý nový groq spis z `engine/refill_case.py` prejde `engine/factcheck.py`:
+Wikipedia (1-2 články, ~3500 znakov) + Groq vypíše tvrdenia (supported / unsupported / contradicted) z hooku, riadkov, textov na kartách a konca.
+Contradicted (alebo >2 nepodložené konkrétne mená/čísla) = jedno prepísanie len chybných textov a opakovaná kontrola; stále zlé = presun do
+`case/queue_rejected/` (nikdy sa nemaže, téma ostane použitá v `topics.json`). Výsledok je v spise:
+`"factcheck": {"ok": true|false|null, "checked_at", "source": [url], "fixed": n}`; Wikipedia URL nahradí všeobecné zdroje v `facts`.
+`ok: null` = Wikipedia/Groq nebola dostupná, spis sa nezablokuje, ale `factory_case.py` ho vyberie až po overených (Claude-písané 001-899 sa nekontrolujú).
+`python engine/factcheck.py --queue [--max N]` skontroluje celú frontu (alebo workflow „Factcheck queue (ColdCase)“); offline test: `python engine/test_factcheck.py`.
+Model nezachytí všetko, kontrola znižuje chyby, nie je zárukou.

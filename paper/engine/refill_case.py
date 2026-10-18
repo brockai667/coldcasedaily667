@@ -5,6 +5,7 @@
   python engine/refill_case.py --list           -> vypise nepouzite temy
 Spisy od Groq dostanu nazov 9NN-groq-<slug>.json -> fronta je FIFO podla nazvu, takze Claude-pisane davky (001-899)
 maju vzdy prednost a Groq je len zaloha na koniec fronty. Kazdy spis prejde validatorom (CaseComposer) a tema sa oznaci pouzita.
+Kazdy nove napisany spis prejde kontrolou faktov (engine/factcheck.py: Wikipedia + Groq); zamietnuty ide do case/queue_rejected.
 Kluc: GROQ_API_KEY alebo MODELS_TOKEN v env (CI secret), inak FactoryAnim/.env (cita ho engine/llm.py, kluc sa nikdy nevypisuje)."""
 import json
 import unicodedata
@@ -24,6 +25,7 @@ sys.path.insert(0, HERE)
 from compose_case import CaseComposer  # noqa: E402
 from llm import llm_json  # noqa: E402
 import case_dedup  # noqa: E402  (jeden kluc spisu: temy sa nesmu opakovat voci done/history/fronte)
+import factcheck  # noqa: E402  (Wikipedia + Groq kontrola faktov kazdeho noveho groq spisu)
 
 CDIR = os.path.join(FACTORY, "case")
 QDIR = os.path.join(CDIR, "queue")
@@ -110,7 +112,7 @@ def queue_files():
 
 
 def next_groq_name(slug):
-    nums = [int(m.group(1)) for d in (QDIR, DDIR) for f in (os.listdir(d) if os.path.isdir(d) else [])
+    nums = [int(m.group(1)) for d in (QDIR, DDIR, case_dedup.RDIR) for f in (os.listdir(d) if os.path.isdir(d) else [])
             for m in [re.match(r"^(9\d\d)-groq-", f)] if m]
     return f"{(max(nums) + 1) if nums else 900:03d}-groq-{slug[:40]}.json"
 
@@ -245,10 +247,14 @@ def refill(target=10, maximum=2):
     bank = load_bank()
     known = known_keys()
     if len(unused_fresh(bank, known)) < 5:
-        print("banka tem: doplnam", top_up(bank, 30))
+        try:
+            print("banka tem: doplnam", top_up(bank, 30))
+        except Exception as e:                           # Groq vypadok nesmie zhodit doplnanie fronty z uz existujucich tem
+            print(f"   [refill] doplnenie banky zlyhalo: {type(e).__name__}: {str(e)[:120]}")
         save_bank(bank)
-    made = 0
-    while len(queue_files()) < target and made < maximum:
+    made = tries = 0
+    while len(queue_files()) < target and made < maximum and tries < maximum * 3:   # strop pokusov: zamietnute/zle temy nezozerru celu banku
+        tries += 1
         for t in unused(bank):                           # tema zhodna s hotovou/frontou -> oznacit pouzitu, nepisat
             if case_dedup.is_dup(t, known):
                 print(f"   [refill] duplicita (uz hotove/vo fronte): {t} -> preskocena")
@@ -264,9 +270,14 @@ def refill(target=10, maximum=2):
                 raise ValueError(f"duplicita po napisani ({S.get('title')})")
             known += sk
             name = next_groq_name(S["slug"])
-            json.dump(S, open(os.path.join(QDIR, name), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-            print(f"[fronta] + {name} ({len(S['beats'])} beatov)")
-            made += 1
+            st = factcheck.check_spec(S)                 # Wikipedia + Groq; pri vypadku ok = null (spis sa nezablokuje)
+            if st == "rejected":
+                dst = factcheck.save_rejected(S, name)   # case/queue_rejected, nikdy sa nemaze; tema nizsie ostane oznacena ako pouzita
+                print(f"[factcheck] ZAMIETNUTE -> {os.path.relpath(dst, FACTORY)}: " + " | ".join(S["factcheck"].get("bad", []))[:300])
+            else:
+                json.dump(S, open(os.path.join(QDIR, name), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+                print(f"[fronta] + {name} ({len(S['beats'])} beatov, factcheck: {st})")
+                made += 1
         except Exception as e:
             print(f"   [refill] {topic}: {type(e).__name__}: {str(e)[:160]} -> tema preskocena")
         bank["used"].append(topic)
