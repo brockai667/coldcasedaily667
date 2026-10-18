@@ -106,7 +106,7 @@ jobs:
           MODELS_BASE_URL: https://api.groq.com/openai/v1
           MODELS_MODEL: openai/gpt-oss-120b
           MODELS_FALLBACK: openai/gpt-oss-20b
-        run: cd paper && python engine/refill_case.py --target 10 --max 2
+        run: cd paper && python engine/refill_case.py --target 10 --max 4
 
       - name: Artefakt na kontrolu (video + QC hárok)
         if: github.event.inputs.publish != 'check'
