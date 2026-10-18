@@ -105,3 +105,18 @@ Contradicted (alebo >2 nepodložené konkrétne mená/čísla) = jedno prepísan
 `ok: null` = Wikipedia/Groq nebola dostupná, spis sa nezablokuje, ale `factory_case.py` ho vyberie až po overených (Claude-písané 001-899 sa nekontrolujú).
 `python engine/factcheck.py --queue [--max N]` skontroluje celú frontu (alebo workflow „Factcheck queue (ColdCase)“); offline test: `python engine/test_factcheck.py`.
 Model nezachytí všetko, kontrola znižuje chyby, nie je zárukou.
+
+## Samoučenie (týždenný experiment, `engine/learn.py`)
+Denný workflow spustí `python engine/learn.py daily`: (1) `record` stiahne verejný `videos.json` z dashboardu, spáruje videá so
+spismi v `case/done` (YouTube podľa názvu, TikTok/IG podľa popisu) a do `case/perf.json` zapíše pozretia vo veku ~48 h
+(`v48` = prvé pozorovanie vo veku 2–4 dni; ak prvé prišlo neskôr = `late`, neporovnáva sa – staršie videá majú viac pozretí;
+0 pozretí = nedoručené, nepočíta sa). (2) `weekly`: keď experiment beží ≥ 7 dní, porovná medián `v48` spisov s jeho tagom
+(`"exp"` v spise) s ostatnými videami z posledných 14 dní, po platformách, potom medián pomerov. ≥ +15 % a ≥ 3 videá = `kept`
+(pokyn ide natrvalo do `rules`), inak `reverted` (6 týždňov sa neopakuje); kým nie sú 3 videá s `v48`, čaká max 14 dní.
+Ďalší experiment: najprv „skopíruj víťaza“ (video ≥ 2× medián susedných videí ±3 dni, geometrický priemer platforiem; Groq z neho
+spraví jednu prenositeľnú inštrukciu), inak ďalšia páčka zo zoznamu `PROFILES` v `learn.py` (titulok ≤ 4 slová, hook otázka /
+tvrdenie / „you“ POV, krátky prvý riadok, morské a nebeské záhady, „follow for part two“).
+Stav: `case/experiments.json` {current, rules, history}; verejné zhrnutie pre dashboard `case/experiment_status.json`.
+Groq scenarista dostane `rules` + pokyn experimentu na koniec promptu (max 700 znakov) a nový spis tag `"exp"`; render berie
+v rámci rovnakej priority faktov najprv spisy aktuálneho experimentu (overené vždy pred neoverenými). Claude-písané dávky
+môžu dostať `"exp"` ručne. Ručne: `python engine/learn.py status`, `weekly --force` (vyhodnotí hneď), test `python engine/test_learn.py`.

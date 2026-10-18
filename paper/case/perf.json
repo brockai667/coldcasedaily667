@@ -1,0 +1,957 @@
+{
+ "specs": {
+  "903-groq-amelia-earhart-s-final-flight": {
+   "published": "2026-10-18",
+   "platforms": {
+    "youtube": {
+     "id": "rAgdWwHs4yo",
+     "first": [
+      0.85,
+      0
+     ],
+     "latest": [
+      0.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7697946233314331936",
+     "first": [
+      0.85,
+      100
+     ],
+     "latest": [
+      0.85,
+      100
+     ],
+     "likes": 8,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "17967439524199154",
+     "first": [
+      0.85,
+      7
+     ],
+     "latest": [
+      0.85,
+      7
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "Amelia Earhart's Final Flight",
+   "exp": null
+  },
+  "902-groq-the-sodder-children-fire": {
+   "published": "2026-10-17",
+   "platforms": {
+    "youtube": {
+     "id": "CP5kH8h3DUw",
+     "first": [
+      1.85,
+      57
+     ],
+     "latest": [
+      1.85,
+      57
+     ],
+     "likes": 4,
+     "comments": 1
+    },
+    "tiktok": {
+     "id": "7697581177116445985",
+     "first": [
+      1.85,
+      83
+     ],
+     "latest": [
+      1.85,
+      83
+     ],
+     "likes": 2,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18099015629398152",
+     "first": [
+      1.85,
+      17
+     ],
+     "latest": [
+      1.85,
+      17
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The Sodder Children Fire",
+   "exp": null
+  },
+  "901-groq-the-flannan-isles-lighthouse-mystery": {
+   "published": "2026-10-16",
+   "platforms": {
+    "youtube": {
+     "id": "THrS_SHCcz0",
+     "first": [
+      2.85,
+      14
+     ],
+     "v48": 14,
+     "age48": 2.85,
+     "latest": [
+      2.85,
+      14
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7697205868537990432",
+     "first": [
+      2.85,
+      0
+     ],
+     "v48": 0,
+     "age48": 2.85,
+     "latest": [
+      2.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18356777035168829",
+     "first": [
+      2.85,
+      98
+     ],
+     "v48": 98,
+     "age48": 2.85,
+     "latest": [
+      2.85,
+      98
+     ],
+     "likes": 1,
+     "comments": 0
+    }
+   },
+   "title": "The Flannan Isles Lighthouse Mystery",
+   "exp": null
+  },
+  "900-groq-the-bermuda-triangle-disappearances": {
+   "published": "2026-10-15",
+   "platforms": {
+    "youtube": {
+     "id": "eMVWE7EiNB8",
+     "first": [
+      3.85,
+      12
+     ],
+     "v48": 12,
+     "age48": 3.85,
+     "latest": [
+      3.85,
+      12
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7696833042131717408",
+     "first": [
+      3.85,
+      0
+     ],
+     "v48": 0,
+     "age48": 3.85,
+     "latest": [
+      3.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18394316419161579",
+     "first": [
+      3.85,
+      70
+     ],
+     "v48": 70,
+     "age48": 3.85,
+     "latest": [
+      3.85,
+      70
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The Bermuda Triangle Disappearances",
+   "exp": null
+  },
+  "015-voynich-manuscript": {
+   "published": "2026-10-14",
+   "platforms": {
+    "youtube": {
+     "id": "cCYwBnclmPs",
+     "first": [
+      4.85,
+      27
+     ],
+     "late": true,
+     "latest": [
+      4.85,
+      27
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7696463389794520352",
+     "first": [
+      4.85,
+      83
+     ],
+     "late": true,
+     "latest": [
+      4.85,
+      83
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18130265113773843",
+     "first": [
+      4.85,
+      17
+     ],
+     "late": true,
+     "latest": [
+      4.85,
+      17
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The Voynich Manuscript",
+   "exp": null
+  },
+  "014-rendlesham-forest": {
+   "published": "2026-10-12",
+   "platforms": {
+    "youtube": {
+     "id": "9nUjUXRbIS4",
+     "first": [
+      6.85,
+      5
+     ],
+     "late": true,
+     "latest": [
+      6.85,
+      5
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7695721788889763105",
+     "first": [
+      6.85,
+      87
+     ],
+     "late": true,
+     "latest": [
+      6.85,
+      87
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "17963610717247930",
+     "first": [
+      6.85,
+      89
+     ],
+     "late": true,
+     "latest": [
+      6.85,
+      89
+     ],
+     "likes": 1,
+     "comments": 0
+    }
+   },
+   "title": "The Rendlesham Forest Incident",
+   "exp": null
+  },
+  "013-kentucky-meat-shower": {
+   "published": "2026-10-11",
+   "platforms": {
+    "youtube": {
+     "id": "px0WzQAyexQ",
+     "first": [
+      7.85,
+      9
+     ],
+     "late": true,
+     "latest": [
+      7.85,
+      9
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7695349825843367200",
+     "first": [
+      7.85,
+      88
+     ],
+     "late": true,
+     "latest": [
+      7.85,
+      88
+     ],
+     "likes": 6,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18076367084487646",
+     "first": [
+      7.85,
+      2
+     ],
+     "late": true,
+     "latest": [
+      7.85,
+      2
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The Kentucky Meat Shower",
+   "exp": null
+  },
+  "012-phoenix-lights": {
+   "published": "2026-10-10",
+   "platforms": {
+    "youtube": {
+     "id": "yd92b5f5hPs",
+     "first": [
+      8.85,
+      3
+     ],
+     "late": true,
+     "latest": [
+      8.85,
+      3
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7694983110773050656",
+     "first": [
+      8.85,
+      101
+     ],
+     "late": true,
+     "latest": [
+      8.85,
+      101
+     ],
+     "likes": 3,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18095949101431073",
+     "first": [
+      8.85,
+      110
+     ],
+     "late": true,
+     "latest": [
+      8.85,
+      110
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The Phoenix Lights",
+   "exp": null
+  },
+  "011-shiptons-yeti-footprint": {
+   "published": "2026-10-09",
+   "platforms": {
+    "youtube": {
+     "id": "4H7B56G02EE",
+     "first": [
+      9.85,
+      13
+     ],
+     "late": true,
+     "latest": [
+      9.85,
+      13
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7694610025372814624",
+     "first": [
+      9.85,
+      98
+     ],
+     "late": true,
+     "latest": [
+      9.85,
+      98
+     ],
+     "likes": 3,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "17988190593118456",
+     "first": [
+      9.85,
+      139
+     ],
+     "late": true,
+     "latest": [
+      9.85,
+      139
+     ],
+     "likes": 1,
+     "comments": 0
+    }
+   },
+   "title": "Shipton's Yeti Footprint",
+   "exp": null
+  },
+  "010-hessdalen-lights": {
+   "published": "2026-10-08",
+   "platforms": {
+    "youtube": {
+     "id": "SnclngNRnRg",
+     "first": [
+      10.85,
+      69
+     ],
+     "late": true,
+     "latest": [
+      10.85,
+      69
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7694241575639010593",
+     "first": [
+      10.85,
+      0
+     ],
+     "late": true,
+     "latest": [
+      10.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18167563018415288",
+     "first": [
+      10.85,
+      119
+     ],
+     "late": true,
+     "latest": [
+      10.85,
+      119
+     ],
+     "likes": 1,
+     "comments": 0
+    }
+   },
+   "title": "The Hessdalen Lights",
+   "exp": null
+  },
+  "009-tunguska-event": {
+   "published": "2026-10-07",
+   "platforms": {
+    "youtube": {
+     "id": "dKPkZiYMXQE",
+     "first": [
+      11.85,
+      18
+     ],
+     "late": true,
+     "latest": [
+      11.85,
+      18
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7693870751522376993",
+     "first": [
+      11.85,
+      0
+     ],
+     "late": true,
+     "latest": [
+      11.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18117564076924325",
+     "first": [
+      11.85,
+      34
+     ],
+     "late": true,
+     "latest": [
+      11.85,
+      34
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The Tunguska Event",
+   "exp": null
+  },
+  "008-franklin-expedition": {
+   "published": "2026-10-06",
+   "platforms": {
+    "youtube": {
+     "id": "6kE00vKrVhE",
+     "first": [
+      12.85,
+      6
+     ],
+     "late": true,
+     "latest": [
+      12.85,
+      6
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7693498429825158433",
+     "first": [
+      12.85,
+      0
+     ],
+     "late": true,
+     "latest": [
+      12.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18150012703578058",
+     "first": [
+      12.85,
+      9
+     ],
+     "late": true,
+     "latest": [
+      12.85,
+      9
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The Franklin Expedition",
+   "exp": null
+  },
+  "007-ss-baychimo": {
+   "published": "2026-10-05",
+   "platforms": {
+    "youtube": {
+     "id": "4ETNAwickfw",
+     "first": [
+      13.85,
+      30
+     ],
+     "late": true,
+     "latest": [
+      13.85,
+      30
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7693126584709942560",
+     "first": [
+      13.85,
+      0
+     ],
+     "late": true,
+     "latest": [
+      13.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18082553120344337",
+     "first": [
+      13.85,
+      1
+     ],
+     "late": true,
+     "latest": [
+      13.85,
+      1
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The Ghost Ship SS Baychimo",
+   "exp": null
+  },
+  "006-amelia-earhart": {
+   "published": "2026-10-04",
+   "platforms": {
+    "youtube": {
+     "id": "jjDcNjWj4Lo",
+     "first": [
+      14.85,
+      26
+     ],
+     "late": true,
+     "latest": [
+      14.85,
+      26
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7692754102287158561",
+     "first": [
+      14.85,
+      0
+     ],
+     "late": true,
+     "latest": [
+      14.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18198712423383200",
+     "first": [
+      14.85,
+      6
+     ],
+     "late": true,
+     "latest": [
+      14.85,
+      6
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "Amelia Earhart's Last Flight",
+   "exp": null
+  },
+  "005-flight-19": {
+   "published": "2026-10-03",
+   "platforms": {
+    "youtube": {
+     "id": "nykiMr9oicg",
+     "first": [
+      15.85,
+      62
+     ],
+     "late": true,
+     "latest": [
+      15.85,
+      62
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7692383955051466017",
+     "first": [
+      15.85,
+      0
+     ],
+     "late": true,
+     "latest": [
+      15.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "17978203112919100",
+     "first": [
+      15.85,
+      1
+     ],
+     "late": true,
+     "latest": [
+      15.85,
+      1
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "Flight 19",
+   "exp": null
+  },
+  "004-flannan-isles": {
+   "published": "2026-10-02",
+   "platforms": {
+    "youtube": {
+     "id": "jxr8I3Jx5qk",
+     "first": [
+      16.85,
+      11
+     ],
+     "late": true,
+     "latest": [
+      16.85,
+      11
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7692013851218382113",
+     "first": [
+      16.85,
+      0
+     ],
+     "late": true,
+     "latest": [
+      16.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "17939117832379575",
+     "first": [
+      16.85,
+      41
+     ],
+     "late": true,
+     "latest": [
+      16.85,
+      41
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The Flannan Isles Mystery",
+   "exp": null
+  },
+  "003-wow-signal": {
+   "published": "2026-10-01",
+   "platforms": {
+    "youtube": {
+     "id": "1rRN8cFJtM4",
+     "first": [
+      17.85,
+      12
+     ],
+     "late": true,
+     "latest": [
+      17.85,
+      12
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7691643949450104097",
+     "first": [
+      17.85,
+      0
+     ],
+     "late": true,
+     "latest": [
+      17.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "17946767454065097",
+     "first": [
+      17.85,
+      12
+     ],
+     "late": true,
+     "latest": [
+      17.85,
+      12
+     ],
+     "likes": 1,
+     "comments": 0
+    }
+   },
+   "title": "The Wow! signal",
+   "exp": null
+  },
+  "002-mary-celeste": {
+   "published": "2026-09-30",
+   "platforms": {
+    "youtube": {
+     "id": "0IiKDdNoevk",
+     "first": [
+      18.85,
+      72
+     ],
+     "late": true,
+     "latest": [
+      18.85,
+      72
+     ],
+     "likes": 1,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7691272991308664096",
+     "first": [
+      18.85,
+      0
+     ],
+     "late": true,
+     "latest": [
+      18.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18113237254829931",
+     "first": [
+      18.85,
+      6
+     ],
+     "late": true,
+     "latest": [
+      18.85,
+      6
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The Mary Celeste",
+   "exp": null
+  },
+  "001-dyatlov-pass": {
+   "published": "2026-09-29",
+   "platforms": {
+    "youtube": {
+     "id": "xqCxil70VlU",
+     "first": [
+      19.85,
+      19
+     ],
+     "late": true,
+     "latest": [
+      19.85,
+      19
+     ],
+     "likes": 1,
+     "comments": 0
+    },
+    "tiktok": {
+     "id": "7691039183816690976",
+     "first": [
+      19.85,
+      0
+     ],
+     "late": true,
+     "latest": [
+      19.85,
+      0
+     ],
+     "likes": 0,
+     "comments": 0
+    },
+    "instagram": {
+     "id": "18447796522133547",
+     "first": [
+      19.85,
+      13
+     ],
+     "late": true,
+     "latest": [
+      19.85,
+      13
+     ],
+     "likes": 1,
+     "comments": 0
+    }
+   },
+   "title": "The Dyatlov Pass case",
+   "exp": null
+  },
+  "pub-2026-09-13": {
+   "published": "2026-09-13",
+   "platforms": {
+    "youtube": {
+     "id": "ZDGSCZ5YHbc",
+     "first": [
+      35.85,
+      12
+     ],
+     "late": true,
+     "latest": [
+      35.85,
+      12
+     ],
+     "likes": 0,
+     "comments": 0
+    }
+   },
+   "title": "The D.B. Cooper Hijacking: America's Greatest Unsolved Heist",
+   "exp": null
+  }
+ },
+ "updated": "2026-10-18T20:30:10Z"
+}

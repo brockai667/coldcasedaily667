@@ -39,8 +39,14 @@ def from_queue():
     """prvy spis z case/queue (pise ho Claude v davkach), alebo None ak je fronta prazdna. Poradie: Claude-pisane a overene
     (factcheck.ok) prve, groq bez kontroly faktov az potom, zamietnute (ok = false) sa presunu do queue_rejected; v ramci skupiny abecedne"""
     done = case_dedup.published_keys()
-    specs = sorted(((factcheck.queue_priority(S), name, S) for name in queue_files()
-                    for S in [json.load(open(os.path.join(QDIR, name), encoding="utf-8"))]), key=lambda x: (x[0], x[1]))
+    specs = [(factcheck.queue_priority(S), name, S) for name in queue_files()
+             for S in [json.load(open(os.path.join(QDIR, name), encoding="utf-8"))]]
+    try:                                       # v ramci rovnakej priority faktov ma prednost spis aktualneho experimentu (learn.py)
+        import learn
+        specs = learn.order_queue(specs)
+    except Exception as e:
+        print(f"   [learn] poradie bez experimentu: {type(e).__name__}: {str(e)[:120]}")
+        specs.sort(key=lambda x: (x[0], x[1]))
     for pr, name, S in specs:
         if pr == 2:
             dst = case_dedup.reject_to_folder(os.path.join(QDIR, name))
@@ -50,7 +56,7 @@ def from_queue():
             dst = case_dedup.reject_to_folder(os.path.join(QDIR, name))
             print(f"[fronta] DUPLICITA {name} (uz hotove) -> {os.path.relpath(dst, FACTORY)}")
             continue
-        print(f"[fronta] {name} (zostava {len(queue_files()) - 1})" + (" - POZOR: groq spis bez kontroly faktov" if pr == 1 else ""))
+        print(f"[fronta] {name} (zostava {len(queue_files()) - 1})" + (f" | experiment {S['exp']}" if S.get("exp") else "") + (" - POZOR: groq spis bez kontroly faktov" if pr == 1 else ""))
         return name, S
     return None
 

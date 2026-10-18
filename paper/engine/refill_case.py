@@ -212,11 +212,24 @@ def _clean(x):
     return x
 
 
+def learn_brief():
+    """pravidla a tyzdenny experiment zo samoucenia (engine/learn.py); vypadok nesmie zastavit pisanie"""
+    try:
+        import learn
+        return learn.writer_brief(), learn.current_name()
+    except Exception as e:
+        print(f"   [learn] bez pokynov: {type(e).__name__}: {str(e)[:120]}")
+        return "", None
+
+
 def write_spec(topic):
     """LLM (Groq) napise cely spis pre `topic`; doplni case/slug/voice/rate/cta/end.stamp a overi CaseComposer.validate()
     (case/WRITING_CASE.md). Vracia hotovy dict spisu (nezapisuje na disk - to robi refill())."""
-    print(f"[scenarista-spis] {topic}")
+    brief, exp = learn_brief()
+    print(f"[scenarista-spis] {topic}" + (f" | experiment: {exp}" if exp else ""))
     prompt = f"TOPIC: {topic}\nWrite the full case file JSON exactly as specified in the system prompt."
+    if brief:                                         # samoucenie (engine/learn.py): trvale pravidla + tyzdenny experiment
+        prompt += "\n" + brief
     S = llm_json(SYS_WRITE, prompt, temperature=0.6, max_tokens=9000, effort="medium")   # high effort = truncated JSON (400) na gpt-oss-120b
     S = _clean(S)
     if not isinstance(S, dict):
@@ -232,6 +245,8 @@ def write_spec(topic):
     end.setdefault("stamp", "UNSOLVED")
     S["end"] = end
     S["source"] = "groq"                              # spis od bezplatneho modelu -> pred zverejnenim skontrolovat fakty
+    if exp:
+        S["exp"] = exp                                # tag experimentu (learn.py porovna tieto videa s ostatnymi)
     C = CaseComposer(json.loads(json.dumps(S)))
     C.validate()
     nb, nc = len(S.get("beats") or []), C.S.get("_cards", 0)
@@ -262,6 +277,11 @@ def refill(target=10, maximum=2):
         free = unused(bank)
         if not free:
             print("banka tem je prazdna"); break
+        try:                                             # tyzdenny experiment moze preferovat temovu rodinu (learn.py)
+            import learn
+            free = learn.order_topics(free)
+        except Exception:
+            pass
         topic = free[0]
         try:
             S = write_spec(topic)

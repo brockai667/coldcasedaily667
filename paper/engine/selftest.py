@@ -115,4 +115,14 @@ for e in errors_fc:
 if unchecked:
     print("  varovanie: spusti python engine/factcheck.py --queue (alebo workflow Factcheck queue):", ", ".join(unchecked)[:200])
 
+# 7) samoucenie (learn.py): offline test s atrapami videos.json + Groq. Len varovanie: experimenty nesmu zastavit denne video
+try:
+    import test_learn  # noqa: E402
+    errors_learn = test_learn.run()
+except Exception as e:
+    errors_learn = [f"test nespusteny: {type(e).__name__}: {str(e)[:160]}"]
+print(f"selftest (samoucenie): {len(errors_learn)} chyb (len varovanie)")
+for e in errors_learn:
+    print("  varovanie: learn:", e)
+
 sys.exit(1 if (errors or errors_case or bad_dedup or errors_fc) else 0)

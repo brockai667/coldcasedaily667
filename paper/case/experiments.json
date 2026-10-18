@@ -1,0 +1,38 @@
+{
+ "current": {
+  "name": "copy-010-hessdalen-lights",
+  "slot": "winner",
+  "instruction": "Start with a concise, intriguing hook that frames the mystery as a long-standing, unexplained phenomenon, then present brief chronological sightings before asking a speculative question.",
+  "hypothesis": "The winner succeeds by positioning the subject as an enduring, unsolved mystery with a strong, curiosity-driving hook and a clear call-to-action.",
+  "keywords": [
+   "mystery",
+   "unexplained",
+   "phenomenon",
+   "sightings"
+  ],
+  "source": "winner",
+  "winner": {
+   "spec": "010-hessdalen-lights",
+   "title": "The Hessdalen Lights",
+   "score": 5.89,
+   "per_platform": {
+    "youtube": 6.27,
+    "instagram": 5.53
+   }
+  },
+  "started": "2026-10-18",
+  "baseline_median": {
+   "youtube": 13.5,
+   "tiktok": 88,
+   "instagram": 52.0
+  },
+  "baseline_approx": [
+   "youtube",
+   "tiktok",
+   "instagram"
+  ],
+  "tagged": []
+ },
+ "rules": [],
+ "history": []
+}

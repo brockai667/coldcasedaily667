@@ -88,6 +88,16 @@ jobs:
           for i in $(seq 1 "$N"); do python engine/factory_case.py --out ../output || exit 1; done
           ls -la ../output 2>/dev/null || true
 
+      - name: Samoučenie – výkon videí + týždenný experiment (neblokuje)
+        if: always() && github.event.inputs.publish != 'check'
+        continue-on-error: true      # výpadok dashboardu/Groq nesmie zastaviť video ani doplnenie fronty
+        env:
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
+          MODELS_BASE_URL: https://api.groq.com/openai/v1
+          MODELS_MODEL: openai/gpt-oss-120b
+          MODELS_FALLBACK: openai/gpt-oss-20b
+        run: cd paper && python engine/learn.py daily   # record (perf.json) + po 7 dňoch vyhodnotenie a ďalší experiment
+
       - name: Doplnenie fronty (Groq, zadarmo) – Claude-písané scenáre majú prednosť
         if: always() && github.event.inputs.publish != 'check'     # always(): fronta sa dopĺňa každý deň aj keď render/samotest zlyhal
         continue-on-error: true
