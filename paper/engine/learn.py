@@ -77,7 +77,16 @@ PROFILES = {
                     "Ocean mysteries performed best on this channel so far.", ["ship", "sea", "ocean", "island", "lighthouse", "triangle", "crew", "bloop"]),
                    ("topic_sky", "topic", "Prefer sky mysteries (lights in the sky, signals, UFO reports, meteors).",
                     "Sky lights got the top YouTube and Instagram views.", ["light", "lights", "signal", "ufo", "sky", "meteor", "radar"]),
-                   "end_part2"],
+                   "end_part2",
+                   ("hook_q_unexplained", "hook", "The hook is ONE direct question about the unexplained detail ('What did these hikers see?'), max 10 words; never start with a year or date.",
+                    "A question about the unexplained detail opens a curiosity gap in the first 3 seconds."),
+                   ("hook_shock", "hook", "The hook is ONE shock statement about what nobody can explain ('Nobody has explained why ...'), max 10 words; never start with a year or date.",
+                    "A confident 'nobody can explain this' statement creates tension from the first word."),
+                   ("length_25s", "length", "Keep the whole spoken script to 55-62 words (under 25 seconds): short hook, 4 punchy beats, an end question of at most 6 words.",
+                    "MindBlown Shorts run 25-30 s and get ~1000 views; shorter videos hold viewers to the end."),
+                   ("lesser_known", "topic", "Prefer lesser-known, well-documented cases and sky or mountain anomalies (unexplained lights, UFO sightings, mountain disappearances) over famous top-20 mysteries.",
+                    "Over-covered famous mysteries drown in competition; fresh cases have no ready-made competitors.",
+                    ["light", "lights", "ufo", "sky", "sighting", "mountain", "peak", "hikers", "signal", "orb"])],
     },
 }
 
@@ -217,7 +226,7 @@ def match(v, specs):
     if not t:
         return None
     for sid, S in specs.items():
-        if t == norm(S.get("title")):
+        if t == norm(S.get("title")) or (S.get("headline") and t == norm(S.get("headline"))):   # headline = zvedavy nazov videa
             return sid
     for sid, S in specs.items():
         d = norm(S.get("description"))

@@ -133,7 +133,7 @@ jobs:
           TIKTOK_PER_RUN: "1"          # user 29.9.: TikTok zapnúť (config.example.json má 0 = zahrievanie; prepis len pre papierové spisy)
         run: |
           cp config.example.json config.json
-          python -c "import json,os;p='config.json';c=json.load(open(p,encoding='utf-8'));c['tiktok_per_run']=int(os.environ.get('TIKTOK_PER_RUN','1'));json.dump(c,open(p,'w',encoding='utf-8'),ensure_ascii=False)"
+          python -c "import json,os;p='config.json';c=json.load(open(p,encoding='utf-8'));c['tiktok_per_run']=int(os.environ.get('TIKTOK_PER_RUN','1'));c['promo_yt']='';json.dump(c,open(p,'w',encoding='utf-8'),ensure_ascii=False)"
           python push_to_buffer.py "${{ github.event.inputs.count || '1' }}"
 
       - name: Uloženie stavu

@@ -23,6 +23,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FACTORY = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import compose  # noqa: E402
+import case_rules  # noqa: E402
 from compose import norm, words, js, MUSIC, MOOD_MUSIC, music_vol, music_credit  # noqa: E402
 
 # ---------- slovnik spisu (case/CONTRACT.md)
@@ -256,6 +257,7 @@ class CaseComposer(compose.Composer):
         # ---------- hlavicka
         S["title"] = txt(S.get("title")) or txt(S.get("topic")) or "Case File"
         S["topic"] = txt(S.get("topic")) or S["title"]
+        S["headline"] = case_rules.clean_headline(dict(S, headline=txt(S.get("headline"))))   # zvedavy nazov videa (YT/TikTok); '' = pouzije sa title
         slug = str(S.get("slug") or "")
         if not re.match(r"^[A-Za-z0-9_-]{1,80}$", slug):
             new = re.sub(r"[^a-z0-9]+", "-", (slug or S["title"]).lower()).strip("-")[:60] or "case-file"
@@ -577,10 +579,17 @@ class CaseComposer(compose.Composer):
         mf, mat, mname = MUSIC[mkey]
         mf = os.path.join(FACTORY, "assets", "music", mf)
         tags = [x for x in S["tags"] if isinstance(x, str)] if isinstance(S.get("tags"), list) else []
+        desc = str(S.get("description") or "")
+        if S.get("headline"):                              # zvedavy titulok: nazov pripadu ostava v popise a tagoch (vyhladavanie)
+            if S["title"].lower() not in desc.lower():
+                desc = (desc + f" Case file: {S['title']}.").strip()
+            ctag = "#" + re.sub(r"[^A-Za-z0-9]", "", S["topic"].title())
+            if 3 < len(ctag) <= 30 and ctag.lower() not in [t.lower() for t in tags]:
+                tags.append(ctag)
         ep = {
-            "title": S["title"], "hook": S["banner"], "voice": S["voice"], "rate": S["rate"], "gap": 0.55, "tail": 1.6,
+            "title": S.get("headline") or S["title"], "hook": S["banner"], "voice": S["voice"], "rate": S["rate"], "gap": 0.55, "tail": 1.6,
             "bg": "#2a1c16", "accent": "#c9382d", "kit": dict(KIT), "libs": list(LIBS),
-            "description": (str(S.get("description") or "") + "\n" + " ".join(tags)).strip(),
+            "description": (desc + "\n" + " ".join(tags)).strip(),
             "music": {"file": mf, "at": mat, "vol": music_vol(mf, mat),
                       "credit": music_credit(mname)},
             "lines": lines, "sfx": self.sfx}

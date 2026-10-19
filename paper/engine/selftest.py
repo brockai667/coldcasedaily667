@@ -115,6 +115,13 @@ for e in errors_fc:
 if unchecked:
     print("  varovanie: spusti python engine/factcheck.py --queue (alebo workflow Factcheck queue):", ", ".join(unchecked)[:200])
 
+# 6b) pravidla rastu (case_rules.py): limit slov/beatov, hook bez datumu, headline, poradie tem, render 4-beat spisu (offline)
+import test_case_rules  # noqa: E402
+errors_rules = test_case_rules.run()
+print(f"selftest (pravidla rastu): {len(errors_rules)} chyb")
+for e in errors_rules:
+    print("  CHYBA:", e)
+
 # 7) samoucenie (learn.py): offline test s atrapami videos.json + Groq. Len varovanie: experimenty nesmu zastavit denne video
 try:
     import test_learn  # noqa: E402
@@ -125,4 +132,4 @@ print(f"selftest (samoucenie): {len(errors_learn)} chyb (len varovanie)")
 for e in errors_learn:
     print("  varovanie: learn:", e)
 
-sys.exit(1 if (errors or errors_case or bad_dedup or errors_fc) else 0)
+sys.exit(1 if (errors or errors_case or bad_dedup or errors_fc or errors_rules) else 0)

@@ -26,13 +26,14 @@ from compose_case import CaseComposer  # noqa: E402
 from llm import llm_json  # noqa: E402
 import case_dedup  # noqa: E402  (jeden kluc spisu: temy sa nesmu opakovat voci done/history/fronte)
 import factcheck  # noqa: E402  (Wikipedia + Groq kontrola faktov kazdeho noveho groq spisu)
+import case_rules  # noqa: E402  (dlzka <= 30 s, hook bez datumu, headline, poradie tem; offline testy)
 
 CDIR = os.path.join(FACTORY, "case")
 QDIR = os.path.join(CDIR, "queue")
 DDIR = os.path.join(CDIR, "done")
 TOPICS = os.path.join(CDIR, "topics.json")
 
-SYS_WRITE = """You are the head writer of ColdCaseDaily, a faceless channel of 30-40 second vertical shorts styled as a
+SYS_WRITE = """You are the head writer of ColdCaseDaily, a faceless channel of vertical shorts under 30 seconds styled as a
 paper investigation case file: a desk with a lamp and a kraft folder, a corkboard with pinned evidence and red string, and a
 night-time diorama of the scene where it happened. Audience: curious teens and adults who like real unexplained mysteries
 (ghost ships, vanishings, lights in the sky, ancient artefacts, strange sounds, unexplained events). Facts must be careful
@@ -43,15 +44,19 @@ Output ONE JSON object with EXACTLY these keys:
 {
  "topic": short case name (ideally under 22 characters, it may be printed on a folder edge),
  "title": full case title, e.g. "The Dyatlov Pass Incident",
- "hook": ONE to two short spoken sentences that hit who/where/when and what does not add up - this plays first,
+ "hook": ONE short spoken sentence (max 12 words) that creates tension or asks a question in the first 3 seconds. NEVER start with
+   a year or date ("In 1959, ..." is forbidden; put dates in later lines). Styles: "Nobody has explained why ...", "Three men vanished
+   from a locked lighthouse ...", "What did these hikers see?",
+ "hook_style": "question" | "shock" | "mystery" - which style the hook uses,
+ "headline": curiosity-gap video title, 4-9 words, under 60 chars, no year, not just the case name, e.g. "The lighthouse that emptied overnight",
  "banner": ["ROW1", "ROW2"] - a two-row newspaper headline, UPPERCASE, punchy, each row under 18 characters,
  "site": one of "mountains" | "sea" | "sky" - where the events took place,
  "props": 1-3 props allowed for that site (see SITES below),
  "place": "LOCATION, COUNTRY" (UPPERCASE, under 24 characters),
  "date": "MONTH YEAR" or similar (UPPERCASE, under 24 characters),
  "mood_music": one of "tense" | "wonder" | "calm" | "playful",
- "beats": 4 to 6 beat objects (never more than 7 - see BEATS below),
- "end": {"line": "a short question inviting the viewer's own theory, about 8-12 words", "stamp": "verdict word, under 12 characters, e.g. UNSOLVED / CLASSIFIED / CASE CLOSED"},
+ "beats": EXACTLY 4 beat objects (see BEATS below),
+ "end": {"line": "a short question inviting the viewer's own theory, 6-10 words", "stamp": "verdict word, under 12 characters, e.g. UNSOLVED / CLASSIFIED / CASE CLOSED"},
  "cta": "COMMENT YOUR THEORY" or similar, UPPERCASE, under 24 characters,
  "description": "one sentence video description",
  "tags": ["#unexplained", "#mystery", ...] - 3 to 5 hashtags,
@@ -63,8 +68,8 @@ SITES (site -> allowed props -> allowed "site" fx for shots that happen while th
  sea       -> props: ship, buoy, rocks       -> fx: waves, fog, lightning, flicker
  sky       -> props: dish, observatory, trees -> fx: beam, flicker, fog
 
-BEATS: each beat is one narrated sentence (8-16 words) plus its visuals:
-{"label": short UPPERCASE label under 14 characters, e.g. "THE CASE", "CLUE 1", "CLUE 2", "THE THEORY", "THE TWIST", "THE REPORT", "WITNESS", "EVIDENCE",
+BEATS: each beat is one narrated sentence (8-14 words) plus its visuals:
+{"label": short UPPERCASE label under 14 characters, e.g. "THE CASE", "CLUE 1", "CLUE 2", "THE TWIST",
  "scene": optional "desk" | "board" | "site" - stays the same as the previous beat if you omit it; the very first beat
    defaults to "board" if omitted; use "site" for atmosphere/scene-setting beats and "board" for evidence beats; change
    scene at most 2-3 times in the whole video,
@@ -91,10 +96,10 @@ magnifier envelope key clock calendar pin eye moon lightning house tree plane re
 
 EVERY beat line must carry at least one concrete documented detail (a date, a number, a name, a place, an object); a line that
 only describes mood, scenery or weather ("waves crash under a heavy fog") is forbidden. Beat labels in this order: THE CASE, CLUE 1,
-CLUE 2, CLUE 3, THEORY, THE TWIST (5-6 beats; THE TWIST = the most surprising documented fact or the latest finding). Give 5-7
+CLUE 2, THE TWIST (THE TWIST = the most surprising documented fact or the latest finding). Give 4-6
 entries in "facts". "end"."stamp" is exactly one of UNSOLVED, SOLVED?, CASE CLOSED. The banner must be a punchy two-line headline
 (e.g. "NINE HIKERS." / "NO SURVIVORS"), not a vague mood phrase.
-Keep the whole spoken script (hook + beats + end line) to about 85-110 words. Only use well-established facts and cite a
+HARD LIMIT: the whole spoken script (hook + 4 beats + end line) is 65-75 words, never above 80 - the video must stay under 30 seconds. Only use well-established facts and cite a
 real source for each claim in "facts"; if a claim or cause is disputed among researchers, say so instead of stating it as
 settled. No medical or dangerous advice, no gore. Output ONE JSON object only, no extra commentary, no markdown fences."""
 
@@ -165,18 +170,20 @@ def next_topic():
     u = unused_fresh(bank)
     if not u:
         raise SystemExit("Banka tem case/topics.json je prazdna.")
-    return u[0]
+    return case_rules.prefer_lesser_known(u)[0]
 
 
 def top_up(bank, n):
     """dopyta Groq o n novych, este nepouzitych zahad (bez duplicit podla normalizovaneho nazvu)"""
     have = {norm(t) for t in bank["topics"]}
     known = known_keys() + [case_dedup.case_key(t) for t in bank["topics"]]
-    sysmsg = ("You suggest famous, well-documented real-world mysteries for a true-crime/paranormal-investigation style "
-              "short video series: ghost ships, vanishings, lights in the sky, ancient artefacts, strange sounds, "
-              "unexplained events. Never suggest recent tragedies with living relatives, and never frame anything as a "
-              'violent crime. Return ONLY JSON: {"topics": ["The ...", ...]}.')
-    prompt = (f"Propose {n + 6} NEW, mutually different famous mystery case titles (short noun phrase, 2-6 words, no "
+    sysmsg = ("You suggest well-documented real-world mysteries for a true-crime/paranormal-investigation style "
+              "short video series. PREFER lesser-known cases and sky or mountain anomalies (unexplained lights, UFO sightings, "
+              "mountain disappearances, strange signals) over the 25 most famous mysteries (Dyatlov Pass, Bermuda Triangle, "
+              "Roswell, Loch Ness, Amelia Earhart, Mary Celeste, DB Cooper, Zodiac, Voynich ...). Also fine: ghost ships, "
+              "vanishings, ancient artefacts, strange sounds. Never suggest recent tragedies with living relatives, and never "
+              'frame anything as a violent crime. Return ONLY JSON: {"topics": ["The ...", ...]}.')
+    prompt = (f"Propose {n + 6} NEW, mutually different, lesser-known mystery case titles (short noun phrase, 2-6 words, no "
               f"question mark), avoiding anything similar to these existing ones:\n- " + "\n- ".join(bank["topics"][-100:]))
     out = llm_json(sysmsg, prompt, temperature=0.9, max_tokens=2000)
     cand = out.get("topics", []) if isinstance(out, dict) else []
@@ -234,6 +241,7 @@ def write_spec(topic):
     S = _clean(S)
     if not isinstance(S, dict):
         raise ValueError("LLM nevratil JSON objekt")
+    case_rules.enforce(S, lambda sy, pr: _clean(llm_json(sy, pr, temperature=0.4, max_tokens=1200, effort="low")))   # <= 4 beaty, <= 80 slov, hook bez datumu (max 1 prepis)
     S.setdefault("topic", topic)
     S["slug"] = slugify(S.get("title") or S.get("topic") or topic)
     S["case"] = next_case_no()
@@ -252,7 +260,7 @@ def write_spec(topic):
     nb, nc = len(S.get("beats") or []), C.S.get("_cards", 0)
     if C.warn:
         print("   validator:", "; ".join(C.warn)[:300])
-    if nb < 5 or nc < 3 or not str(S["end"].get("line") or "").strip():
+    if nb < 4 or nc < 3 or not str(S["end"].get("line") or "").strip():
         raise ValueError(f"slaby spis ({nb} beatov, {nc} kariet)")
     return S
 
@@ -277,6 +285,7 @@ def refill(target=10, maximum=2):
         free = unused(bank)
         if not free:
             print("banka tem je prazdna"); break
+        free = case_rules.prefer_lesser_known(free)      # menej zname + nebo/hory najprv, top-20 slavnych nakoniec (nic sa nemaze)
         try:                                             # tyzdenny experiment moze preferovat temovu rodinu (learn.py)
             import learn
             free = learn.order_topics(free)

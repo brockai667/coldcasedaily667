@@ -137,7 +137,7 @@ def post(cfg, token, video, service, delay, base):
         raise SystemExit("CHYBA: popis videa je prazdny")
     url = hosted_url(cfg, video, find_file(base, video + ".mp4"))
     due = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=delay)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
-    promo = cfg.get("promo_yt", "") if service == "youtube" else cfg.get("promo_social", "")
+    promo = "" if service == "youtube" else cfg.get("promo_social", "")   # YT popis bez odkazu na vlastny kanal (rast 19.10.)
     q, use_title = pb.build_mutation(service)
     v = {"channelId": ch["id"], "text": body + promo, "url": url, "dueAt": due}
     if use_title:
