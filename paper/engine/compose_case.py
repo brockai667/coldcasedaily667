@@ -568,7 +568,11 @@ class CaseComposer(compose.Composer):
         E('PF.O("#hook", 0, 1, T.tot - 0.8, 0.4);')
 
         # ---------- episode.json (rovnaky kontrakt ako compose.py)
-        pool = MOOD_MUSIC[S["mood_music"]]
+        have = lambda k: os.path.exists(os.path.join(FACTORY, "assets", "music", MUSIC[k][0]))   # repo nema vsetky skladby (19. 10.: "wonder" -> Inspired.mp3 chyba, render padol)
+        pool = [k for k in MOOD_MUSIC[S["mood_music"]] if have(k)] or [k for k in MOOD_MUSIC["tense"] if have(k)] or MOOD_MUSIC["tense"]
+        if S.get("music") and not have(S["music"]):
+            self.warn.append(f"music '{S['music']}' nie je v assets/music -> podla nalady")
+            S["music"] = None
         mkey = S["music"] if S.get("music") else pool[int(num(S.get("music_i"), 0, 0, 99)) % len(pool)]
         mf, mat, mname = MUSIC[mkey]
         mf = os.path.join(FACTORY, "assets", "music", mf)
