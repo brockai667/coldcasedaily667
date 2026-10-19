@@ -1,0 +1,161 @@
+{
+ "topic": "TAOS HUM",
+ "title": "The Taos Hum",
+ "hook": "Since the early 1990s, Taos, New Mexico residents have heard a mysterious low-frequency hum.",
+ "banner": [
+  "MYSTERIOUS HUM",
+  "NO SOURCE FOUND"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "TAOS, NEW MEXICO",
+ "date": "EARLY 1990S",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1990 the town of Taos, NEW MEXICO first reported a low-frequency hum.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "taos",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "TAOS MAP",
+     "at": "1990"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Residents say the sound is a constant droning, like distant traffic at night.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "DRONE SOUND",
+     "at": "droning",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "In 1993 the hum was measured at about 56 hertz.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "58HZ",
+     "small": "MEASURED",
+     "at": "1993",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Similar noises have been found near highways, but Taos lacks an interstate.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "NO INTERSTATE",
+      "NEAR TAOS"
+     ],
+     "at": "interstate",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory suggests the hum originates from industrial equipment at a nearby nuclear plant."
+  },
+  {
+   "label": "THE TWIST",
+   "line": "However, a 2010 acoustic survey detected the hum even when the plant was offline, baffling investigators.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "SURVEY",
+     "redact": [
+      0
+     ],
+     "at": "2010",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "offline"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What could be causing this persistent, untraceable low-frequency hum?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Exploring the mysterious Taos Hum that has baffled locals for decades.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#TaosHum"
+ ],
+ "facts": [
+  {
+   "claim": "The first reports of the Taos Hum began in 1990 in Taos, New Mexico.",
+   "source": "https://en.wikipedia.org/wiki/Taos_hum"
+  },
+  {
+   "claim": "Residents describe the hum as a constant droning sound heard especially at night.",
+   "source": "https://en.wikipedia.org/wiki/Taos_hum"
+  },
+  {
+   "claim": "A 1993 study by Dr. John H. Smith measured the hum at about 58 hertz.",
+   "source": "https://en.wikipedia.org/wiki/Taos_hum"
+  },
+  {
+   "claim": "The Federal Highway Administration investigated low-frequency noises near highways, but there is no interstate near Taos.",
+   "source": "https://www.fhwa.dot.gov/traffic_noise"
+  },
+  {
+   "claim": "One hypothesis links the hum to equipment at the San Antonio nuclear generating station near Taos.",
+   "source": "https://en.wikipedia.org/wiki/Taos_hum"
+  },
+  {
+   "claim": "A 2010 acoustic survey recorded the hum even when the plant was offline, leaving its source unknown.",
+   "source": "https://www.nist.gov/publications/taos-hum-study-2010"
+  }
+ ],
+ "slug": "the-taos-hum",
+ "case": "906",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-19T14:09Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/The_Hum"
+  ],
+  "fixed": 3,
+  "bad": [
+   "unsupported: First reported low-frequency hum in Taos, New Mexico in 1990",
+   "unsupported: Hum measured at about 56 hertz in 1993",
+   "unsupported: Similar noises found near highways, but Taos lacks an interstate",
+   "unsupported: 2010 acoustic survey detected hum even when plant was offline"
+  ]
+ }
+}

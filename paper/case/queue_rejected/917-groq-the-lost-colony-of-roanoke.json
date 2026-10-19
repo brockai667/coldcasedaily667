@@ -1,0 +1,157 @@
+{
+ "topic": "Roanoke Vanishing",
+ "title": "The Lost Colony of Roanoke",
+ "hook": "In the late 1500s, an entire English colony vanished from Roanoke Island.",
+ "banner": [
+  "VANISHED COLONY.",
+  "MYSTERY REMAINS"
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "ROANOKE ISLAND, USA",
+ "date": "LATE 1500S",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1587, over a hundred settlers arrived at Roanoke Island under John White.",
+   "scene": "board",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "Roanoke Island",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "ROANOKE ISLAND",
+     "at": "1587"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The colony's governor, John White, left for England in August 1587 to gather supplies.",
+   "scene": "board",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "SUPPLY SHIP",
+     "at": "August",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "When White returned in 1590, he found the settlement deserted, with 'CROATOAN' carved on a post.",
+   "scene": "board",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "question",
+     "caption": "CROATOAN CARVING",
+     "at": "CROATOAN",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "line": "Nearby Croatoan Island, now Hatteras Island, showed no sign of the colonists despite extensive searches.",
+   "scene": "board"
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory suggests the colonists integrated with the Croatoan tribe, abandoning the English settlement.",
+   "scene": "board",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "THEORY: MERGED WITH",
+      "CROATOAN TRIBE"
+     ],
+     "at": "theory",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Recent DNA analysis of modern Hatteras residents revealed a possible 17th-century English genetic link.",
+   "scene": "board",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "17%",
+     "small": "ENGLISH DNA",
+     "at": "DNA",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to the Roanoke settlers after 1590?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious disappearance of the Roanoke Colony and the clues left behind.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#roanoke"
+ ],
+ "facts": [
+  {
+   "claim": "In 1587, over a hundred settlers arrived at Roanoke Island under Sir Walter Raleigh",
+   "source": "Wikipedia: Roanoke Colony"
+  },
+  {
+   "claim": "Governor John White departed for England in August 1587 to obtain supplies",
+   "source": "Wikipedia: Roanoke Colony"
+  },
+  {
+   "claim": "When White returned in 1590, the settlement was deserted with the word \"CROATOAN\" carved into a post",
+   "source": "Wikipedia: Roanoke Colony"
+  },
+  {
+   "claim": "Croatoan Island is now known as Hatteras Island and no colonists were found despite searches",
+   "source": "Wikipedia: Hatteras Island"
+  },
+  {
+   "claim": "DNA analysis of modern Hatteras residents shows a possible 17th-century English genetic link",
+   "source": "National Geographic, 2020"
+  }
+ ],
+ "slug": "the-lost-colony-of-roanoke",
+ "case": "906",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-19T13:48Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Roanoke_Colony",
+   "https://en.wikipedia.org/wiki/Vanishing_on_7th_Street"
+  ],
+  "fixed": 1,
+  "bad": [
+   "unsupported: In 1587 over a hundred settlers arrived at Roanoke Island under John White",
+   "unsupported: John White left for England in August 1587 to gather supplies",
+   "unsupported: DNA analysis of Hatteras residents shows a 17th-century English genetic link"
+  ]
+ }
+}

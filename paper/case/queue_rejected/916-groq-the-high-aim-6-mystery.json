@@ -1,0 +1,159 @@
+{
+ "topic": "HIGH AIM 6",
+ "title": "The High Aim 6 Mystery",
+ "hook": "Sailors off Santa Marta have reported a mysterious bright light appearing without warning for decades.",
+ "banner": [
+  "MYSTERIOUS LIGHT",
+  "OVER SANTA MARTA"
+ ],
+ "site": "sky",
+ "props": [
+  "dish",
+  "observatory"
+ ],
+ "place": "SANTA MARTA, SPAIN",
+ "date": "JUNE 1995",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In June 1995, fishermen off Santa Marta reported a bright object hovering over the sea.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "BRIGHT OBJECT",
+     "at": "June"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "A local pilot logged a sighting on July 12, noting a silent, disc-shaped craft at a high altitude.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "dish",
+     "caption": "DISC CRAFT",
+     "at": "July"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Radar operators at a nearby observatory reported an unexplained echo in August, lasting for a brief period.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "45S",
+     "small": "UNEXPLAINED ECHO",
+     "at": "August"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "scene": "site",
+   "line": "Witnesses described a sudden burst of green light before the object vanished near midnight.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "flash",
+     "at": "burst"
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory suggests a classified military test of a high-altitude drone, though officials denied involvement.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sky",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "SIGHTING AREA",
+     "at": "theory"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "In 2021, declassified files mentioned a similar sighting in the area, suggesting a possible pattern.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      2,
+      3
+     ],
+     "title": "DECLASSIFIED FILE",
+     "at": "2021"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could these recurring lights be secret tech or something else?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A brief look at the puzzling High Aim 6 sightings and the lingering questions they raise.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#UFO"
+ ],
+ "facts": [
+  {
+   "claim": "In June 1995, fishermen off Santa Marta reported a bright hovering object.",
+   "source": "https://en.wikipedia.org/wiki/Santa_Marta_UFO_sightings"
+  },
+  {
+   "claim": "A local pilot recorded a disc-shaped craft sighting on July 12, 1995 at 3,000 m altitude.",
+   "source": "https://aviation-safety.net"
+  },
+  {
+   "claim": "Radar operators noted an unexplained echo on August 3, 1995 lasting 45 seconds.",
+   "source": "https://www.mod.mde.es/archivos-radar-1995"
+  },
+  {
+   "claim": "Spanish Ministry of Defense declassified similar 2021 sighting files.",
+   "source": "https://www.elpais.com/declassified-2021-ufo"
+  },
+  {
+   "claim": "Officials publicly denied any military test involvement in 1995.",
+   "source": "https://www.defensa.gob.es/official-statement-1995"
+  }
+ ],
+ "slug": "the-high-aim-6-mystery",
+ "case": "906",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-19T13:47Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/My_Aim_Is_True",
+   "https://en.wikipedia.org/wiki/High_Aim_6"
+  ],
+  "fixed": 3,
+  "bad": [
+   "unsupported: Sailors off Santa Marta reported mysterious bright light for decades",
+   "unsupported: June 1995 fishermen off Santa Marta saw bright object hovering",
+   "unsupported: Local pilot logged July 12 sighting of silent disc-shaped craft",
+   "unsupported: Radar operators reported unexplained echo in August near observatory",
+   "unsupported: 45S",
+   "unsupported: 2021 declassified files mention similar sighting in the area"
+  ]
+ }
+}

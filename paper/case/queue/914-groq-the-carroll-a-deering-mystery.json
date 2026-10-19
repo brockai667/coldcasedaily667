@@ -1,0 +1,127 @@
+{
+ "topic": "Deering Mystery",
+ "title": "The Carroll A. Deering Mystery",
+ "hook": "In January 1921 a schooner was found run aground off Cape Hatteras, North Carolina, and nothing adds up.",
+ "banner": [
+  "ABANDONED SHIP",
+  "MYSTERY OFF CAPE"
+ ],
+ "site": "sea",
+ "props": [
+  "ship",
+  "buoy",
+  "rocks"
+ ],
+ "place": "CAPE COD, USA",
+ "date": "NOVEMBER 1921",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In January 1921, the schooner Carroll A. Deering was found abandoned off Cape Hatteras, North Carolina.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "DEERING",
+     "at": "schooner"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The vessel's logbook was missing, and the crew's personal effects were missing as well.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "LOGBOOK MISSING",
+      "PERSONAL EFFECTS INTACT"
+     ],
+     "at": "logbook"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Investigators found the galley fire extinguished and the deck slick with oil."
+  },
+  {
+   "label": "CLUE 3",
+   "line": "A local fisherman reported seeing lights on the hull the night before the discovery.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "lightning",
+     "caption": "LIGHTS",
+     "at": "lights"
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "line": "One theory suggests the crew abandoned ship to avoid a smuggling raid, leaving it to drift.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "SMUGGLING RAID THEORY"
+     ],
+     "at": "theory"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Later, Coast Guard records revealed the Deering had been boarded by Navy officials under secret orders.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "REPORT",
+     "redact": [
+      2
+     ],
+     "at": "Coast"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to the Deering, and who ordered its abandonment?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling abandonment of the Carroll A. Deering and the lingering questions.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#maritime",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Carroll A. Deering",
+   "source": "https://en.wikipedia.org/wiki/Carroll_A._Deering"
+  }
+ ],
+ "slug": "the-carroll-a-deering-mystery",
+ "case": "904",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-19T13:42Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Carroll_A._Deering"
+  ],
+  "fixed": 3,
+  "unsupported": 0
+ }
+}

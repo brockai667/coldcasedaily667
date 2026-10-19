@@ -1,0 +1,132 @@
+{
+ "topic": "Kaspar Hauser",
+ "title": "The Kaspar Hauser Mystery",
+ "hook": "A boy with no memory, found in 1828, has baffled historians for nearly two centuries.",
+ "banner": [
+  "MYSTERIOUS BOY",
+  "NO MEMORY"
+ ],
+ "site": "sky",
+ "props": [
+  "dish"
+ ],
+ "place": "NUREMBERG, GERMANY",
+ "date": "JUNE 1828",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In 1828, a boy named Kaspar Hauser was found in Nuremberg, his origins a mystery.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "KASPAR HAUSER",
+     "at": "Kaspar",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Investigators noted he had no memory, but possessed a German accent.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "printout",
+     "caption": "ACCENT",
+     "at": "German",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "A letter found in his hand claimed he had been raised in a secluded house.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "envelope",
+     "caption": "LETTER",
+     "at": "letter",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 3",
+   "scene": "board",
+   "line": "The letter mentioned a secret society, but no records exist.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "secret"
+    }
+   ]
+  },
+  {
+   "label": "THEORY",
+   "scene": "board",
+   "line": "Some theorists suggest he was a political pawn, others a fabricated persona.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "theorists"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "A 2023 forensic analysis indicated markings of a cowpox vaccination, not DNA matching a known German family.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "DNA",
+     "dur": 1.5
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What could Kaspar's true story be?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A brief case file on the enigmatic Kaspar Hauser.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Kaspar Hauser",
+   "source": "https://en.wikipedia.org/wiki/Kaspar_Hauser"
+  }
+ ],
+ "slug": "the-kaspar-hauser-mystery",
+ "case": "905",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-19T13:44Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Kaspar_Hauser"
+  ],
+  "fixed": 1,
+  "unsupported": 1
+ }
+}
