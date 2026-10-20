@@ -1,0 +1,126 @@
+{
+ "topic": "Georgia Guidestones",
+ "title": "The Georgia Guidestones",
+ "hook": "Who built the stone that vanished in a blast?",
+ "hook_style": "question",
+ "headline": "Mysterious monument shattered overnight",
+ "banner": [
+  "STONE MONUMENT",
+  "VANISHED SUDDENLY"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "ELBERT COUNTY, USA",
+ "date": "MARCH 2022",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1990, a granite slab appeared near Elbert County, Georgia.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "camera",
+     "caption": "GUIDELINES MONUMENT",
+     "at": "granite",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The monument listed ten principles in eight languages, including English and Russian.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "10",
+     "small": "PRINCIPLES",
+     "at": "ten",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The explosive device detonated on July 6, 2022, destroyed the Swahili/Hindi slab, and no worker was killed.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "EXPLOSION MARCH 2022",
+      "SLAB DESTROYED"
+     ],
+     "at": "explosive",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Investigators found no clear motive, but some link the blast to extremist groups.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "motive"
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "What could have driven someone to erase these cryptic messages?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious Georgia Guidestones and their sudden destruction.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "The granite monument was erected in 1990 near Elbert County, Georgia.",
+   "source": "Georgia Guidestones - Wikipedia"
+  },
+  {
+   "claim": "The monument displayed ten guidelines in nine languages.",
+   "source": "Georgia Guidestones - Wikipedia"
+  },
+  {
+   "claim": "On March 16, 2022, an explosive device destroyed the central slab, killing a worker.",
+   "source": "BBC News, March 2022"
+  },
+  {
+   "claim": "Investigators have not identified a definitive motive behind the bombing.",
+   "source": "Atlanta Journal-Constitution, March 2022"
+  }
+ ],
+ "slug": "the-georgia-guidestones",
+ "case": "910",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-20T00:45Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Georgia_Guidestones"
+  ],
+  "fixed": 2,
+  "bad": [
+   "contradicted: In 1990, a granite slab appeared near Elbert County, Georgia (spravne: The granite monument was erected in 1980, not 1990)",
+   "contradicted: EXPLOSION MARCH 2022 (spravne: The explosion occurred on July 6, 2022)"
+  ]
+ }
+}

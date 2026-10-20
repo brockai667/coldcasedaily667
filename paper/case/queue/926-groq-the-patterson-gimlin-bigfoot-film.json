@@ -1,0 +1,121 @@
+{
+ "topic": "Patterson-Gimlin",
+ "title": "The Patterson-Gimlin Bigfoot Film",
+ "hook": "Nobody knows why the film captured a mysterious creature.",
+ "hook_style": "mystery",
+ "headline": "The Footage That Shocked Hollywood",
+ "banner": [
+  "BIGFOOT ON FILM",
+  "SKEPTICS STUNNED"
+ ],
+ "site": "mountains",
+ "props": [
+  "footprints",
+  "tree"
+ ],
+ "place": "SANTA ROSA, CALIFORNIA",
+ "date": "JUNE 1967",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "The 1967 Patterson-Gimlin film allegedly shows a large biped.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "printout",
+     "caption": "PATT GIMLIN",
+     "at": "film",
+     "string": false
+    },
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "tree",
+     "caption": "FOREST",
+     "at": "biped",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Patterson claimed the creature was 8-feet tall, weighing 300 pounds.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "8",
+     "small": "FEET",
+     "at": "creature",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "The film shows the subject moving through dense pine, leaving footprints.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "footprints",
+     "caption": "FOOTPRINTS",
+     "at": "footprints",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Later analysis revealed the subject was likely a man in a costume.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "COSTUME",
+     "at": "costume",
+     "string": false
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could this be a hoax or genuine?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the controversial 1967 Patterson-Gimlin Bigfoot film and its lingering mysteries.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#bigfoot"
+ ],
+ "facts": [
+  {
+   "claim": "Patterson–Gimlin film",
+   "source": "https://en.wikipedia.org/wiki/Patterson%E2%80%93Gimlin_film"
+  }
+ ],
+ "slug": "the-patterson-gimlin-bigfoot-film",
+ "case": "910",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-20T00:52Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Patterson%E2%80%93Gimlin_film"
+  ],
+  "fixed": 0,
+  "unsupported": 1
+ }
+}

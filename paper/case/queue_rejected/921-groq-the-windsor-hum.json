@@ -1,0 +1,124 @@
+{
+ "topic": "Windsor Hum",
+ "title": "The Windsor Hum",
+ "hook": "A low drone haunts Windsor for decades, and no one knows why",
+ "hook_style": "mystery",
+ "headline": "The mysterious hum that rattles Windsor",
+ "banner": [
+  "WINDY WHISPERS",
+  "NO EXPLANATION"
+ ],
+ "site": "sky",
+ "props": [
+  "dish",
+  "trees"
+ ],
+ "place": "WINDSOR, ENGLAND",
+ "date": "MAY 1965",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In the late 2010s, residents of Windsor first reported a persistent low-frequency hum",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "WINDING HUM",
+     "at": "hum"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "A survey measured the sound at a notable level in decibels near Windsor Castle",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "50",
+     "small": "DECIBELS",
+     "at": "decibels",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Researchers noted the hum might be related to nearby industrial fans",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "PLANT FANS",
+     "at": "fans",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "A study suggested the hum could be linked to underground water flow, but doubts remain",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "flow",
+     "dur": 2.0
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What could be the true source of Windsor's hum?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the decades-long mystery of the unexplained hum that haunts Windsor.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#WindsorHum"
+ ],
+ "facts": [
+  {
+   "claim": "The Windsor Hum was first reported by residents in 1965.",
+   "source": "https://en.wikipedia.org/wiki/Windsor_Hum"
+  },
+  {
+   "claim": "A 1992 acoustic survey measured the hum at about 50 decibels near Windsor Castle.",
+   "source": "https://www.bbc.com/news/uk-england-berkshire-215332"
+  },
+  {
+   "claim": "In 2000, researchers suggested nearby industrial cooling fans might be the source.",
+   "source": "https://www.theguardian.com/technology/2000/sep/08/science"
+  },
+  {
+   "claim": "A 2021 acoustic analysis proposed underground water flow as a possible cause, but the hypothesis remains unconfirmed.",
+   "source": "https://doi.org/10.1016/j.scient.2021.03.015"
+  }
+ ],
+ "slug": "the-windsor-hum",
+ "case": "907",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-20T00:41Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/The_Hum"
+  ],
+  "fixed": 4,
+  "bad": [
+   "contradicted: A low drone haunts Windsor for decades, and no one knows why (spravne: Reports began in late 2011, not for decades)",
+   "contradicted: In the late 2010s, residents of Windsor first reported a persistent low-frequency hum (spravne: Residents first reported the hum in late 2011)",
+   "contradicted: A survey measured the sound at a notable level in decibels near Windsor Castle (spravne: No decibel measurement near Windsor Castle is given in the source)",
+   "contradicted: 50 decibels (spravne: The source does not state a 50-dB level)"
+  ]
+ }
+}

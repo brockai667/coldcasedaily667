@@ -1,0 +1,114 @@
+{
+ "topic": "Min Min Light",
+ "title": "The Min Min Light Phenomenon",
+ "hook": "Why does a ghostly light haunt Australia's outback?",
+ "hook_style": "question",
+ "headline": "The Outback's Mysterious Floating Light",
+ "banner": [
+  "GHOST LIGHT.",
+  "NO EXPLANATION."
+ ],
+ "site": "sky",
+ "props": [
+  "trees"
+ ],
+ "place": "MIN MIN, AUSTRALIA",
+ "date": "JULY 1918",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "The Min Min Light was first reported near Min Min, Queensland in 1918.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "1918 CLIPPING",
+     "at": "1918",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "In 1938 Constable H. B. documented the light hovering over a cattle station.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "logbook",
+     "caption": "CONSTABLE NOTE",
+     "at": "1938",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Witnesses in 1970 described the light moving like a vehicle, changing colors.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "VEHICLE-LIKE",
+      "COLOR SHIFT"
+     ],
+     "at": "1970",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Recent studies suggest a rare atmospheric mirage could explain it, yet no consensus exists.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "UNEXPLAINED",
+     "small": "NO CONSENSUS",
+     "at": "mirage",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What do you think causes the Min Min Light?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the century-old mystery of Australia's elusive Min Min Light.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#australia"
+ ],
+ "facts": [
+  {
+   "claim": "Min Min light",
+   "source": "https://en.wikipedia.org/wiki/Min_Min_light"
+  }
+ ],
+ "slug": "the-min-min-light-phenomenon",
+ "case": "907",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-20T00:41Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Min_Min_light"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}

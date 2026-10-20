@@ -1,0 +1,117 @@
+{
+ "topic": "Somerton Man",
+ "title": "The Somerton Man Mystery",
+ "hook": "Why does a nameless body still haunt Australian detectives?",
+ "hook_style": "question",
+ "headline": "The Code That Remains Uncracked",
+ "banner": [
+  "UNIDENTIFIED BODY",
+  "MYSTERY CODE"
+ ],
+ "site": "sea",
+ "props": [
+  "ROCKS"
+ ],
+ "place": "ADELAIDE, AUSTRALIA",
+ "date": "DECEMBER 1948",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In December 1948 a man was found dead on Somerton beach.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "CARL WEBB",
+     "at": "man"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "A torn scrap of paper bearing the words 'Tamam Shud' was discovered nearby.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "TAMAM SHUD"
+     ],
+     "at": "Tamam",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Investigators tied the phrase to a rare Rubaiyat edition found nearby.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "RUBAIYAT",
+     "redact": 0,
+     "at": "Rubaiyat",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "DNA analysis in 2022 identified the man as Carl \"Charles\" Webb, an electrical engineer born in Melbourne in 1905, though other details remain unknown.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "2022",
+     "small": "DNA TEST",
+     "at": "2022",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "unknown"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could this be the world's most famous unidentified victim?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A quick look at the baffling Somerton Man case and its lingering mysteries.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#coldcase"
+ ],
+ "facts": [
+  {
+   "claim": "Somerton Man",
+   "source": "https://en.wikipedia.org/wiki/Somerton_Man"
+  }
+ ],
+ "slug": "the-somerton-man-mystery",
+ "case": "909",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-20T00:44Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Somerton_Man"
+  ],
+  "fixed": 2,
+  "unsupported": 0
+ }
+}

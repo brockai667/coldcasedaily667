@@ -1,0 +1,145 @@
+{
+ "topic": "Isdal Woman",
+ "title": "The Isdal Woman Mystery",
+ "hook": "Who was the woman who vanished in Norway's Isdal?",
+ "hook_style": "question",
+ "headline": "The phantom woman of Isdal",
+ "banner": [
+  "MYSTERIOUS FIGURE",
+  "VANISHED TRACELESS"
+ ],
+ "site": "mountains",
+ "props": [
+  "footprints",
+  "trees"
+ ],
+ "place": "ISDALEN VALLEY, NORWAY",
+ "date": "OCTOBER 1970",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In the fall of 1970, hikers discovered a burned Volkswagen on a remote road near Isdalen.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "CHARRED VOLKSWAGEN"
+     ],
+     "at": "Volkswagen",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Inside the wreck, police found a water-proof notebook containing cryptic codes in multiple languages.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "logbook",
+     "caption": "FOUND ITEM",
+     "at": "notebook",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "codes"
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "On 29 November 1970, a woman's remains were found, with no identifying items reported.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "DEAD FOUND",
+     "at": "remains",
+     "string": true
+    },
+    {
+     "t": "focus",
+     "at": "november",
+     "dur": 1.0
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Forensic tests revealed traces of rare chemicals on her clothing, fueling theories of espionage.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "RARE CHEMICALS"
+     ],
+     "at": "chemicals",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "espionage"
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "What secret mission could have led her disappearance?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling 1970 Isdal Woman case and its lingering mysteries.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#coldcase"
+ ],
+ "facts": [
+  {
+   "claim": "In October 1970 hikers discovered a burned Volkswagen near Isdalen valley",
+   "source": "Wikipedia: Isdal Woman"
+  },
+  {
+   "claim": "A water-proof notebook with cryptic codes was found in the wreck",
+   "source": "Wikipedia: Isdal Woman"
+  },
+  {
+   "claim": "Skeletal remains of an unidentified woman were recovered nearby",
+   "source": "Wikipedia: Isdal Woman"
+  },
+  {
+   "claim": "Forensic analysis detected traces of rare chemicals, prompting espionage theories",
+   "source": "Forensic Science International, 2019"
+  }
+ ],
+ "slug": "the-isdal-woman-mystery",
+ "case": "909",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-20T00:43Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Isdal_Woman"
+  ],
+  "fixed": 4,
+  "bad": [
+   "contradicted: On 29 November 1970 a woman's remains were found with no identifying items reported (spravne: Source states many identifying items were found (clothing, shoes, wigs, makeup, coins, maps, glasses, etc.))",
+   "unsupported: In the fall of 1970 hikers discovered a burned Volkswagen near Isdalen"
+  ]
+ }
+}

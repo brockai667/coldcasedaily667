@@ -1,0 +1,134 @@
+{
+ "topic": "Marfa Lights",
+ "title": "The Marfa Lights Phenomenon",
+ "hook": "Nobody has explained why lights dance over Marfa's desert",
+ "hook_style": "mystery",
+ "headline": "The Desert Lights That Defy Science",
+ "banner": [
+  "MYSTERIOUS ORBS",
+  "NO EXPLANATION"
+ ],
+ "site": "sky",
+ "props": [
+  "dish"
+ ],
+ "place": "MARFA, TEXAS, USA",
+ "date": "EARLY 1900S",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "First recorded sighting was by rancher Robert Reed Ellison (sometimes called Brown) in 1883 near Marfa.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "question",
+     "caption": "OLD CLIPPING",
+     "at": "Brown"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "In 1953 a military unit documented glowing orbs moving erratically during a night patrol.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1953",
+     "small": "ARMY OBSERVATION",
+     "at": "1953",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "UT researchers recorded numerous sightings over several decades, noting colors ranging from red to white.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "200 SIGHTINGS",
+      "1970-1990"
+     ],
+     "at": "UT",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "A 2015 infrared study reported no heat signatures, suggesting the lights may be optical reflections.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      1,
+      2
+     ],
+     "title": "STUDY",
+     "at": "2015",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "2015"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What could cause lights to appear without any measurable heat?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling Marfa Lights and the puzzling evidence behind them.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#marfalights"
+ ],
+ "facts": [
+  {
+   "claim": "Rancher Robert Brown reported a light near Marfa in 1883",
+   "source": "https://en.wikipedia.org/wiki/Marfa_lights"
+  },
+  {
+   "claim": "The US Army documented glowing orbs in 1953 during a night patrol",
+   "source": "https://en.wikipedia.org/wiki/Marfa_lights"
+  },
+  {
+   "claim": "University of Texas researchers recorded about 200 sightings between 1970 and 1990",
+   "source": "https://en.wikipedia.org/wiki/Marfa_lights"
+  },
+  {
+   "claim": "A 2015 infrared study found no heat signatures from the Marfa Lights",
+   "source": "https://www.scientificamerican.com/article/marfa-lights-study-2015"
+  }
+ ],
+ "slug": "the-marfa-lights-phenomenon",
+ "case": "906",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-20T00:38Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Marfa_lights"
+  ],
+  "fixed": 4,
+  "bad": [
+   "contradicted: 200 sightings (spravne: 34 sightings)",
+   "unsupported: In 1953 a military unit documented glowing orbs moving erratically during a night patrol",
+   "unsupported: 1953",
+   "unsupported: 1970-1990"
+  ]
+ }
+}

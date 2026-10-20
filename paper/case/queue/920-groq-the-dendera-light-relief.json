@@ -1,0 +1,111 @@
+{
+ "topic": "Dendera Light",
+ "title": "The Dendera Light Relief",
+ "hook": "Why does an ancient Egyptian wall look like a modern bulb?",
+ "hook_style": "question",
+ "headline": "Ancient Egyptian 'Light Bulb' Mystery",
+ "banner": [
+  "ANCIENT LIGHT",
+  "MYSTERY"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "DENDERA, EGYPT",
+ "date": "1ST CENTURY BCE",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In the 1st century BCE, artisans carved a bulb-like scene in Dendera.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "lightning",
+     "caption": "RELIEF",
+     "at": "bulb-like"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The relief shows a figure holding a rope attached to a luminous object.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "question",
+     "caption": "FIGURE",
+     "at": "figure",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Early 20th-century Egyptologists described it as a torch or electric lamp.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "TORCH THEORY"
+     ],
+     "at": "torch",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Recent analysis suggests the object could be a lotus-shaped oil lamp, not electricity.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "electricity"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What powered the ancient Dendera light in the temple?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious Dendera relief that some claim depicts an ancient light bulb.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#ancient",
+  "#egypt"
+ ],
+ "facts": [
+  {
+   "claim": "Dendera temple complex",
+   "source": "https://en.wikipedia.org/wiki/Dendera_temple_complex"
+  },
+  {
+   "claim": "Dendera light",
+   "source": "https://en.wikipedia.org/wiki/Dendera_light"
+  }
+ ],
+ "slug": "the-dendera-light-relief",
+ "case": "906",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-20T00:39Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Dendera_temple_complex",
+   "https://en.wikipedia.org/wiki/Dendera_light"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}
