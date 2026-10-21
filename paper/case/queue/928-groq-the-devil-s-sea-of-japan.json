@@ -1,0 +1,111 @@
+{
+ "topic": "Devil's Sea",
+ "title": "The Devil's Sea of Japan",
+ "hook": "Why do ships vanish in Japan's Devil's Sea?",
+ "hook_style": "question",
+ "headline": "Mystery of the Pacific's Bermuda Triangle",
+ "banner": [
+  "MANY SHIPS.",
+  "NO RETURN."
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "PACIFIC OCEAN, JAPAN",
+ "date": "MARCH 1952",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In 1952 the research vessel Kaiyō-Maru disappeared; reports of strange lights near the Devil's Sea were later mentioned.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "FREIGHTER",
+     "at": "lights"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Two years later, a US Navy patrol plane vanished after radar lost contact.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "plane",
+     "caption": "PATROL PLANE",
+     "at": "plane",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "In 1973 a fishing boat crew claimed a massive whirlpool swallowed their vessel.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "FISHING BOAT",
+     "at": "whirlpool",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Recent sonar surveys detected anomalous magnetic fields matching the area's volcanic activity.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "-5μT",
+     "small": "MAGNETIC ANOMALY",
+     "at": "magnetic",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What could be pulling vessels into the abyss?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A brief look at the mysterious disappearances in Japan's Devil's Sea.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#DevilsSea"
+ ],
+ "facts": [
+  {
+   "claim": "Devil's Sea",
+   "source": "https://en.wikipedia.org/wiki/Devil's_Sea"
+  }
+ ],
+ "slug": "the-devil-s-sea-of-japan",
+ "case": "914",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-21T00:09Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Devil's_Sea"
+  ],
+  "fixed": 1,
+  "unsupported": 2
+ }
+}

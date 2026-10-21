@@ -1,0 +1,120 @@
+{
+ "topic": "Zone of Silence",
+ "title": "The Mexican Zone of Silence",
+ "hook": "Why do radios die over this desert?",
+ "hook_style": "question",
+ "headline": "Desert where signals vanish",
+ "banner": [
+  "SILENCE ZONE",
+  "RADIO DEAD"
+ ],
+ "site": "mountains",
+ "props": [
+  "tent"
+ ],
+ "place": "SILENT ZONE, MEXICO",
+ "date": "MAY 1971",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In May 1971, pilots reported radios cutting out over the Mexican desert.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "radio",
+     "caption": "RADIO FAIL",
+     "at": "radios",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "A 1974 expedition documented a sudden loss of satellite contact near the dunes.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "satellite",
+     "caption": "SAT CONTACT",
+     "at": "satellite",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Witnesses described eerie humming and flickering lights as winds swept the sand.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "wind",
+     "at": "winds",
+     "dur": 2.0
+    }
+   ],
+   "scene": "site"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Scientists later linked the anomaly to high concentrations of iron ore affecting radio waves.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "radiation",
+     "caption": "IRON RICH",
+     "at": "iron",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "iron"
+    },
+    {
+     "t": "focus",
+     "at": "iron",
+     "dur": 1.0
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "What hidden force silences the desert's signals?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious Mexican Zone where radios mysteriously die.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#zoneofsilence"
+ ],
+ "facts": [
+  {
+   "claim": "Mapimí Silent Zone",
+   "source": "https://en.wikipedia.org/wiki/Mapim%C3%AD_Silent_Zone"
+  }
+ ],
+ "slug": "the-mexican-zone-of-silence",
+ "case": "911",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-21T00:08Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Mapim%C3%AD_Silent_Zone"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}

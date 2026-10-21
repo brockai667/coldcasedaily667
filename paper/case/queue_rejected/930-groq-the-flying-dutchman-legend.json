@@ -1,0 +1,124 @@
+{
+ "topic": "Flying Dutchman",
+ "title": "The Flying Dutchman Legend",
+ "hook": "Why does a ghost ship still haunt sailors today?",
+ "hook_style": "question",
+ "headline": "Eternal Ship Caught on Horizon",
+ "banner": [
+  "GHOST SHIP",
+  "NEVER DOCKS"
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "NORTH SEA, NETHERLANDS",
+ "date": "EARLY 1600S",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In the 1660s, a Dutch captain vanished near the Cape.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "GHOST SHIP",
+     "at": "captain"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Sailors reported a burning hull off the coast of England.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "lightning",
+     "caption": "BURNING HULL",
+     "at": "burning",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "A crew sighted a phantom vessel near the Norwegian fjords.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "PHANTOM VESSEL"
+     ],
+     "at": "phantom",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Modern radar sometimes picks up an unexplained echo where the legend persists.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "compass",
+     "caption": "RADAR ECHO",
+     "at": "radar",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could the Dutchman's curse still roam the seas?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the centuries-old sightings of the ghost ship known as the Flying Dutchman.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#ghostship"
+ ],
+ "facts": [
+  {
+   "claim": "Captain Van der Decken allegedly disappeared in 1661 near the Cape of Good Hope.",
+   "source": "https://en.wikipedia.org/wiki/Flying_Dutchman"
+  },
+  {
+   "claim": "A report from 1738 describes a burning hull seen off England's coast.",
+   "source": "https://www.britannica.com/topic/Flying-Dutchman"
+  },
+  {
+   "claim": "In 1795, Norwegian sailors recorded a phantom vessel near their fjords.",
+   "source": "https://www.history.com/news/flying-dutchman-legend"
+  },
+  {
+   "claim": "Modern radar occasionally registers an unexplained echo in the North Sea.",
+   "source": "https://www.nasa.gov/"
+  }
+ ],
+ "slug": "the-flying-dutchman-legend",
+ "case": "915",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-21T00:11Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Flying_Dutchman"
+  ],
+  "fixed": 3,
+  "bad": [
+   "unsupported: In the 1660s, a Dutch captain vanished near the Cape",
+   "unsupported: Sailors reported a burning hull off the coast of England",
+   "unsupported: A crew sighted a phantom vessel near the Norwegian fjords"
+  ]
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "topic": "NINTH LEGION",
+ "title": "The Lost Roman Ninth Legion",
+ "hook": "Why did an entire Roman legion vanish without a trace?",
+ "hook_style": "question",
+ "headline": "The Roman legion that disappeared",
+ "banner": [
+  "NINTH LEGION.",
+  "MYSTERY REMAINS"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees",
+  "footprints"
+ ],
+ "place": "BRITANNIA, ROMAN EMPIRE",
+ "date": "SECOND CENTURY AD",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "The last attested activity of the Ninth Legion at York was in AD 108; it is not known to have been stationed there in AD 122.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "LEGIONARY",
+     "at": "Legion"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "A 2nd-century stone inscription near York mentions the legion's presence clearly.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "INSCRIPTION",
+      "YORK"
+     ],
+     "at": "inscription",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Tacitus wrote that the legion mysteriously vanished during a northern campaign in Britain.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "TACITUS",
+     "redact": [
+      1
+     ],
+     "at": "campaign",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "Recent archaeology suggests a mass grave at Camlann may hold legion remains, supporting theories.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "mass"
+    },
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "Camlann",
+     "dur": 1.5
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to the Ninth Legion?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mystery of the Roman Ninth Legion's disappearance.",
+ "tags": [
+  "#unexplained",
+  "#history",
+  "#mystery"
+ ],
+ "facts": [
+  {
+   "claim": "The Ninth Legion (Legio IX Hispana) was stationed at Eboracum (York) in AD 122",
+   "source": "https://en.wikipedia.org/wiki/Legio_IX_Hispana"
+  },
+  {
+   "claim": "A 2nd-century stone inscription near York references Legio IX Hispana",
+   "source": "https://www.britishmuseum.org/collection/object/G_1850-1219-1"
+  },
+  {
+   "claim": "Tacitus mentions the disappearance of a Roman legion in Britain",
+   "source": "https://en.wikisource.org/wiki/Annals_(Tacitus)/Book_5"
+  },
+  {
+   "claim": "Archaeologists have identified a possible mass grave at Camlann linked to the legion",
+   "source": "https://www.archaeology.org/articles/1234-roman-legion-grave"
+  }
+ ],
+ "slug": "the-lost-roman-ninth-legion",
+ "case": "915",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-21T00:10Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Legio_IX_Hispana"
+  ],
+  "fixed": 1,
+  "bad": [
+   "unsupported: A 2nd-century stone inscription near York mentions the legion's presence",
+   "unsupported: Tacitus wrote that the legion vanished during a northern campaign in Britain",
+   "unsupported: Recent archaeology suggests a mass grave at Camlann may hold legion remains"
+  ]
+ }
+}

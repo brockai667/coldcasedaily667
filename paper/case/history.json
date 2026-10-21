@@ -138,5 +138,12 @@
   "site": "sea",
   "music": null,
   "title": "The Carroll A. Deering Mystery"
+ },
+ {
+  "slug": "the-kaspar-hauser-mystery",
+  "date": "2026-10-21",
+  "site": "sky",
+  "music": null,
+  "title": "The Kaspar Hauser Mystery"
  }
 ]

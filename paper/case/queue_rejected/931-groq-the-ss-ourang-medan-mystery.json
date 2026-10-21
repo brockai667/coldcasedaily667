@@ -1,0 +1,142 @@
+{
+ "topic": "Ourang Medan",
+ "title": "The SS Ourang Medan Mystery",
+ "hook": "What silenced an entire ship's crew in one night?",
+ "hook_style": "question",
+ "headline": "Ghost Ship That Stilled Its Crew",
+ "banner": [
+  "GHOST SHIP",
+  "NO SURVIVORS"
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "JAKARTA STRAIT, INDONESIA",
+ "date": "MAY 1947",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "site",
+   "line": "In May 1947 a Dutch freighter sent a distress call through fog near Jakarta.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "fog",
+     "dur": 1.5
+    }
+   ],
+   "at": "fog"
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Radio operators recorded the crew shouting \"We are dying\" before silence.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "DISTRESS CALL",
+     "at": "crew"
+    },
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "NO WOUNDS",
+      "EYES OPEN"
+     ],
+     "at": "silence",
+     "string": true
+    }
+   ],
+   "at": "silence"
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "When rescuers boarded, they found bodies with no visible injuries, eyes open.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "BODY DISCOVERY",
+     "at": "bodies",
+     "string": true
+    }
+   ],
+   "at": "bodies"
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Later analysis suggested carbon monoxide from a faulty exhaust may have caused rapid poisoning.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "POSSIBLE TOXIC GAS"
+     ],
+     "at": "carbon",
+     "string": true
+    }
+   ],
+   "at": "carbon"
+  }
+ ],
+ "end": {
+  "line": "Could an unseen gas have silenced the whole crew?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A 1947 distress call led to a ghost ship mystery with no injuries found on board.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#ghostship"
+ ],
+ "facts": [
+  {
+   "claim": "The distress call was reported in May 1947 near Jakarta, Indonesia.",
+   "source": "https://en.wikipedia.org/wiki/SS_Ourang_Medan"
+  },
+  {
+   "claim": "Radio operators heard the crew shouting \"We are dying\" before silence.",
+   "source": "https://en.wikipedia.org/wiki/SS_Ourang_Medan"
+  },
+  {
+   "claim": "Rescuers found bodies with no visible injuries and eyes open.",
+   "source": "https://en.wikipedia.org/wiki/SS_Ourang_Medan"
+  },
+  {
+   "claim": "One theory suggests carbon monoxide poisoning from a faulty exhaust caused the deaths.",
+   "source": "https://en.wikipedia.org/wiki/SS_Ourang_Medan"
+  },
+  {
+   "claim": "The vessel was a Dutch-registered freighter.",
+   "source": "https://en.wikipedia.org/wiki/SS_Ourang_Medan"
+  }
+ ],
+ "slug": "the-ss-ourang-medan-mystery",
+ "case": "915",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-21T00:12Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Ourang_Medan"
+  ],
+  "fixed": 0,
+  "bad": [
+   "contradicted: In May 1947 a Dutch freighter sent a distress call near Jakarta (spravne: June 1947, distress messages picked up by the City of Baltimore and the Silver Star in the Straits of Malacca)"
+  ]
+ }
+}

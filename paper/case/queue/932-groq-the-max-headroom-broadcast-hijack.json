@@ -1,0 +1,136 @@
+{
+ "topic": "Max Headroom Hijack",
+ "title": "The Max Headroom Broadcast Hijack",
+ "hook": "Who hijacked the airwaves with a phantom TV host?",
+ "hook_style": "question",
+ "headline": "The TV Signal Hijack That Baffled All",
+ "banner": [
+  "MAX HEADROOM.",
+  "AIRWAVES CAPTURED"
+ ],
+ "site": "sky",
+ "props": [
+  "dish"
+ ],
+ "place": "CHICAGO, ILLINOIS, USA",
+ "date": "NOVEMBER 1987",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "On November 22, 1987, Chicago stations aired a bizarre pirate signal on local airwaves.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "dish",
+     "caption": "UNKNOWN SIGNAL",
+     "at": "signal",
+     "string": false
+    },
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "PIRATE BROADCAST",
+      "MAX HEADROOM",
+      "UNKNOWN SOURCE"
+     ],
+     "at": "pirate",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "The hijacked video featured a glitchy mannequin dubbed Max Headroom during the late-night news.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "GLITCHY MANNEQUIN",
+     "at": "mannequin",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "Max"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Authorities traced the transmission to a vacant studio near the WTTW tower that night.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "CHICAGO",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "STUDIO LOCATION",
+     "at": "studio",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "In 2017, an engineer claimed the signal originated from a test broadcast, per documents.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "INTERVIEW",
+     "redact": [
+      2,
+      3
+     ],
+     "at": "engineer",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really controlled the hijacked broadcast that night?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling 1987 Max Headroom TV hijack and its lingering mysteries.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#broadcast",
+  "#maxheadroom"
+ ],
+ "facts": [
+  {
+   "claim": "Max Headroom signal hijackings",
+   "source": "https://en.wikipedia.org/wiki/Max_Headroom_signal_hijackings"
+  }
+ ],
+ "slug": "the-max-headroom-broadcast-hijack",
+ "case": "915",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-21T00:13Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Max_Headroom_signal_hijackings"
+  ],
+  "fixed": 0,
+  "unsupported": 1
+ }
+}
