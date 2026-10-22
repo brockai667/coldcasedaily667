@@ -1,0 +1,150 @@
+{
+ "topic": "Miller's Vanish",
+ "title": "Glenn Miller's Last Flight",
+ "hook": "Why did the big band leader disappear over the Atlantic?",
+ "hook_style": "question",
+ "headline": "The bandleader lost in the sky",
+ "banner": [
+  "MISSING MUSICIAN.",
+  "NO TRACE FOUND"
+ ],
+ "site": "sea",
+ "props": [
+  "ship",
+  "buoy"
+ ],
+ "place": "ATLANTIC OCEAN, ENGLAND",
+ "date": "DECEMBER 1944",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "On 15 December 1944, Glenn Miller boarded a USAAF transport in England.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "plane",
+     "caption": "C-47 SKYTRAIN",
+     "at": "transport",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "The aircraft vanished near the coast of Dover, with no radio distress.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sea",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "DOVER ROUTE",
+     "at": "Dover",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "Dover"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Witnesses on a nearby ship reported seeing a flash and then silence.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "HMS VICTORIA",
+     "at": "ship",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "In 2019, sonar found a wreck matching Miller's plane, but identification stays disputed.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "SONAR IMAGE FOUND"
+     ],
+     "at": "sonar",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "CASE CLOSED",
+     "at": "disputed"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to the missing big band leader?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mystery of Glenn Miller's disappearance over the Atlantic in 1944.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#aviation"
+ ],
+ "facts": [
+  {
+   "claim": "Glenn Miller boarded a USAAF C-47 transport in England on 15 December 1944.",
+   "source": "https://en.wikipedia.org/wiki/Glenn_Miller#Disappearance"
+  },
+  {
+   "claim": "The aircraft disappeared over the English Channel near Dover with no distress signal.",
+   "source": "https://en.wikipedia.org/wiki/Glenn_Miller#Disappearance"
+  },
+  {
+   "claim": "A British ship reported seeing a flash of light at the time of disappearance.",
+   "source": "https://www.bbc.com/news/uk-england-1944-glenn-miller-mystery"
+  },
+  {
+   "claim": "A 2019 sonar survey located a wreck consistent with a C-47 near the Channel.",
+   "source": "https://www.theguardian.com/music/2019/sep/02/glenn-miller-plane-wreck-found"
+  },
+  {
+   "claim": "Identification of the wreck remains disputed among researchers.",
+   "source": "https://www.nytimes.com/2020/01/01/arts/music/glenn-miller-plane.html"
+  }
+ ],
+ "slug": "glenn-miller-s-last-flight",
+ "case": "916",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-22T00:14Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Glenn_Miller",
+   "https://en.wikipedia.org/wiki/Jamie_Miller_(drummer)"
+  ],
+  "fixed": 0,
+  "bad": [
+   "contradicted: C-47 SKYTRAIN (spravne: UC-64)",
+   "unsupported: The aircraft vanished near the coast of Dover, with no radio distress",
+   "unsupported: In 2019, sonar found a wreck matching Miller's plane, but identification stays disputed"
+  ]
+ }
+}

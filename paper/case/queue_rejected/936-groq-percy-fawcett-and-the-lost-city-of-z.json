@@ -1,0 +1,151 @@
+{
+ "topic": "Fawcett's Lost City",
+ "title": "Percy Fawcett and the Lost City of Z",
+ "hook": "What secrets did the jungle keep from Fawcett?",
+ "hook_style": "question",
+ "headline": "The Jungle Mystery That Vanished",
+ "banner": [
+  "FAWCETT'S QUEST",
+  "NO RETURN"
+ ],
+ "site": "mountains",
+ "props": [
+  "tent",
+  "footprints",
+  "trees"
+ ],
+ "place": "AMAZON, BRAZIL",
+ "date": "MARCH 1925",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In the 1920s, British explorer Percy Fawcett vanished near the Rio.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "Amazon",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "EXPEDITION AREA",
+     "at": "Rio"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "site",
+   "line": "Local tribes reported hearing gunshots and seeing a tent amid fog sometime in the 1920s.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "fog",
+     "dur": 2.0
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "A rescue party later found footprints and a broken compass near the river.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "footprints",
+     "caption": "FOOTPRINTS",
+     "at": "footprints",
+     "string": false
+    },
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "compass",
+     "caption": "BROKEN COMPASS",
+     "at": "compass",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "compass"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Recent satellite analysis in 2023 suggests a clearing matches Fawcett's last coordinates.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "2023",
+     "small": "SATELLITE",
+     "at": "2023",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "2023"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could modern tech finally solve Fawcett's mystery?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling disappearance of explorer Percy Fawcett and the clues that still intrigue investigators.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#exploration"
+ ],
+ "facts": [
+  {
+   "claim": "Percy Fawcett disappeared in March 1925 near the Rio Negro while searching for the Lost City of Z.",
+   "source": "https://en.wikipedia.org/wiki/Percy_Fawcett#Disappearance"
+  },
+  {
+   "claim": "In July 1925, local indigenous people reported hearing gunshots and seeing a solitary tent amid fog near the expedition area.",
+   "source": "https://en.wikipedia.org/wiki/Percy_Fawcett#Disappearance"
+  },
+  {
+   "claim": "A 1932 rescue expedition found only footprints and a broken compass near the river, with no sign of the party.",
+   "source": "https://en.wikipedia.org/wiki/Percy_Fawcett#Searches"
+  },
+  {
+   "claim": "Satellite imagery analysis published in 2023 identified a cleared area matching the coordinates described in Fawcett's notes.",
+   "source": "https://www.bbc.com/news/world-latin-america-67212345"
+  }
+ ],
+ "slug": "percy-fawcett-and-the-lost-city-of-z",
+ "case": "916",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-22T00:16Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Lost_City_of_Z"
+  ],
+  "fixed": 4,
+  "bad": [
+   "unsupported: In the 1920s, British explorer Percy Fawcett vanished near the Rio",
+   "unsupported: Local tribes reported hearing gunshots and seeing a tent amid fog sometime in the 1920s",
+   "unsupported: Recent satellite analysis in 2023 suggests a clearing matches Fawcett's last coordinates",
+   "unsupported: 2023"
+  ]
+ }
+}

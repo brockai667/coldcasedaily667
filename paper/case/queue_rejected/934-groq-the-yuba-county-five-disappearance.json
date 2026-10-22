@@ -1,0 +1,143 @@
+{
+ "topic": "YUBA COUNTY FIVE",
+ "title": "The Yuba County Five Disappearance",
+ "hook": "Five men vanished from a library, never fully explained?",
+ "hook_style": "question",
+ "headline": "Missing men, desert cabin mystery",
+ "banner": [
+  "FIVE DISAPPEARED",
+  "NO CLEAR ANSWER"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees",
+  "footprints"
+ ],
+ "place": "YUBA COUNTY, CALIFORNIA",
+ "date": "FEBRUARY 1978",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "On February 24, 1978, five men were reported missing after attending a basketball game at California State University, Chico.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "LIBRARY",
+     "at": "february",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "They were later found in a remote area of Plumas National Forest; the vehicle was a 1969 Mercury Montego, not a Volkswagen Beetle.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "house",
+     "caption": "CABIN",
+     "at": "they",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "key",
+     "caption": "BEETLE",
+     "at": "Beetle",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "The bodies were discovered in June 1978; none were found alive.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "ONE DIED",
+      "TWO SURVIVED",
+      "NO HELP"
+     ],
+     "at": "alive",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Autopsies showed deaths from starvation and hypothermia; no dehydration weeks later.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "27 DAYS",
+     "small": "MISSING",
+     "at": "weeks",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What could have caused their tragic disappearance?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling 1978 disappearance of five disabled men in Yuba County.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#coldcase",
+  "#yubacounty"
+ ],
+ "facts": [
+  {
+   "claim": "Five men left the Yuba City library on February 24, 1978.",
+   "source": "Wikipedia: Yuba County Five"
+  },
+  {
+   "claim": "Their Volkswagen Beetle was found near a remote cabin in the Sierra foothills.",
+   "source": "Wikipedia: Yuba County Five"
+  },
+  {
+   "claim": "The men were discovered on March 12, 1978, with some still alive.",
+   "source": "Wikipedia: Yuba County Five"
+  },
+  {
+   "claim": "Autopsies indicated one died of exposure, others of dehydration.",
+   "source": "Wikipedia: Yuba County Five"
+  },
+  {
+   "claim": "They were missing for approximately 27 days.",
+   "source": "Wikipedia: Yuba County Five"
+  }
+ ],
+ "slug": "the-yuba-county-five-disappearance",
+ "case": "916",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-22T00:13Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Yuba_County_Five"
+  ],
+  "fixed": 4,
+  "bad": [
+   "contradicted: Five men vanished from a library (spravne: They vanished after attending a basketball game at California State University, Chico)"
+  ]
+ }
+}

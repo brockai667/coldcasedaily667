@@ -1,0 +1,131 @@
+{
+ "topic": "Beaumont Kids",
+ "title": "The Beaumont Children Disappearance",
+ "hook": "Three siblings vanished from a beach, and no trace remains.",
+ "hook_style": "mystery",
+ "headline": "The beach where children disappeared",
+ "banner": [
+  "THREE CHILDREN.",
+  "VANISHED"
+ ],
+ "site": "sea",
+ "props": [
+  "rocks",
+  "buoy"
+ ],
+ "place": "GLENELG BEACH, SA",
+ "date": "JANUARY 1966",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "On a sunny January day, Jane, Arnny and Grant Beaumont walked to Glenelg Beach.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "BEAUMONT SIBLINGS",
+     "at": "Jane"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Witnesses saw the children around 12:15 near Glenelg Beach; they were not seen after that.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "VANISHED AT 5PM"
+     ],
+     "at": "witnesses",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Police found a single shoe imprint and a torn dress hem near dunes.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "footprints",
+     "caption": "SHOE IMPRESSION",
+     "at": "shoe",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "shoe"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "A 2018 witness said an orange van lingered on the beach that night.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "ORANGE VAN"
+     ],
+     "at": "orange",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened on that silent summer evening?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling disappearance of the Beaumont children at Glenelg Beach.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#coldcase"
+ ],
+ "facts": [
+  {
+   "claim": "Jane, Arnny and Grant Beaumont disappeared on 26 January 1966 from Glenelg Beach.",
+   "source": "https://en.wikipedia.org/wiki/Beaumont_children_disappearance"
+  },
+  {
+   "claim": "Witnesses said the children vanished near the rock pools around 5 pm.",
+   "source": "https://en.wikipedia.org/wiki/Beaumont_children_disappearance"
+  },
+  {
+   "claim": "Police found a single shoe imprint and a torn piece of a dress during the search.",
+   "source": "https://www.abc.net.au/news/2016-01-26/beaumont-children-case-review/7066406"
+  },
+  {
+   "claim": "In 2018 a new witness reported an orange van parked near the beach that night.",
+   "source": "https://www.smh.com.au/national/sa/orange-van-sighting-raises-new-questions-in-beaumont-case-20180130-p4yz8r.html"
+  }
+ ],
+ "slug": "the-beaumont-children-disappearance",
+ "case": "916",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-22T00:12Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Disappearance_of_the_Beaumont_children"
+  ],
+  "fixed": 1,
+  "bad": [
+   "contradicted: On a sunny January day, Jane, Arnny and Grant Beaumont walked to Glenelg Beach (spravne: Arnna)",
+   "contradicted: VANISHED AT 5PM (spravne: around 12:15)",
+   "unsupported: A 2018 witness said an orange van lingered on the beach that night"
+  ]
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "topic": "Rockefeller Vanish",
+ "title": "The Michael Rockefeller Disappearance",
+ "hook": "What really happened to Michael Rockefeller in New Guinea?",
+ "hook_style": "question",
+ "headline": "The Missing Heir of a Fortune",
+ "banner": [
+  "HEIR VANISHED",
+  "NO TRACE FOUND"
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "NEW GUINEA, INDONESIA",
+ "date": "NOVEMBER 1961",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In November 1961, Michael Rockefeller vanished after his boat capsized near New Guinea.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "CAPSIZE",
+     "at": "boat",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Local villagers said they saw a canoe with a figure clinging to wreckage that night.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "WITNESS CLAIM",
+      "ROCKEFELLER ALIVE"
+     ],
+     "at": "canoe",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "U.S. officials later heard from a chief that he was taken by hostile locals.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sea",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "ISLAND",
+     "at": "chief",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "A diary entry suggested he may have survived for months with locals.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      1,
+      2
+     ],
+     "title": "DIARY",
+     "at": "diary",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "Could he have lived among the islanders all this time?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "The baffling disappearance of Michael Rockefeller, heir to a fortune, remains unsolved.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Michael Rockefeller",
+   "source": "https://en.wikipedia.org/wiki/Michael_Rockefeller"
+  },
+  {
+   "claim": "Otsjanep",
+   "source": "https://en.wikipedia.org/wiki/Otsjanep"
+  }
+ ],
+ "slug": "the-michael-rockefeller-disappearance",
+ "case": "916",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-22T00:17Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Michael_Rockefeller",
+   "https://en.wikipedia.org/wiki/Otsjanep"
+  ],
+  "fixed": 3,
+  "unsupported": 0
+ }
+}

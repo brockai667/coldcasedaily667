@@ -145,5 +145,12 @@
   "site": "sky",
   "music": null,
   "title": "The Kaspar Hauser Mystery"
+ },
+ {
+  "slug": "the-dendera-light-relief",
+  "date": "2026-10-22",
+  "site": "mountains",
+  "music": null,
+  "title": "The Dendera Light Relief"
  }
 ]
