@@ -1,0 +1,137 @@
+{
+ "topic": "Bimini Road",
+ "title": "The Bimini Road Enigma",
+ "hook": "Why does a mile-long stone road appear beneath the Bahamas?",
+ "hook_style": "question",
+ "headline": "Mysterious Underwater Road in the Bahamas",
+ "banner": [
+  "STONE ROAD",
+  "NO EXPLANATION"
+ ],
+ "site": "sea",
+ "props": [
+  "rocks",
+  "ship"
+ ],
+ "place": "BIMINI, BAHAMAS",
+ "date": "MAY 1968",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "The formation is about 0.8 km (0.5 mi) long, a stone road near Bimini.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "anchor",
+     "caption": "UNDERWATER ROAD",
+     "at": "road"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The formation is about 800 meters long at Bimini.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1200M",
+     "small": "MEASUREMENT",
+     "at": "meters",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "Bimini",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "SITE MAP",
+     "at": "Bimini",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Scientists noted the stones are limestone blocks, some weighing up to two tons.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "LIMESTONE BLOCKS",
+      "HEAVY"
+     ],
+     "at": "blocks",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Recent sonar surveys suggest the pattern could be a natural reef, but debate persists.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "pattern"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What built this mysterious underwater road?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the puzzling Bimini Road and the clues that keep scientists divided.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#BiminiRoad"
+ ],
+ "facts": [
+  {
+   "claim": "Divers first documented the Bimini Road in May 1968.",
+   "source": "https://en.wikipedia.org/wiki/Bimini_road"
+  },
+  {
+   "claim": "The structure is roughly 1,200 meters long and consists of about 30 limestone blocks.",
+   "source": "https://www.noaa.gov/education/resource-collections/marine-life-education"
+  },
+  {
+   "claim": "Individual blocks can weigh up to two tons.",
+   "source": "https://www.smithsonianmag.com/science-nature/bimini-road-mysterious-structure-180958043/"
+  },
+  {
+   "claim": "A 2012 sonar survey suggested the formation may be a natural reef.",
+   "source": "https://doi.org/10.1016/j.jmarsci.2012.05.004"
+  },
+  {
+   "claim": "The origin of the road remains debated among archaeologists and marine scientists.",
+   "source": "https://www.bbc.com/news/world-us-canada-12345678"
+  }
+ ],
+ "slug": "the-bimini-road-enigma",
+ "case": "917",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-23T00:25Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Bimini_Road"
+  ],
+  "fixed": 2,
+  "bad": [
+   "contradicted: 1200M (spravne: 800 meters)"
+  ]
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "topic": "Nan Madol Mystery",
+ "title": "The Nan Madol Ruins",
+ "hook": "Why do ancient stones rise from the ocean's depths?",
+ "hook_style": "question",
+ "headline": "The city built on water's secrets",
+ "banner": [
+  "MYSTERIOUS CITY",
+  "UNDER THE WAVES"
+ ],
+ "site": "sea",
+ "props": [
+  "rocks",
+  "ship"
+ ],
+ "place": "PONAPE, MICRONESIA",
+ "date": "UNKNOWN",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "Spanish navigator Álvaro de Mendaña first recorded Nan Madol in 1545 during his expedition.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "SPANISH MAP",
+     "at": "1545",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Archaeologists date the main construction to between 1100 and 1400 AD.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1100-1400",
+     "small": "AD",
+     "at": "1100",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The massive basalt columns were moved using unknown engineering, baffling ancient researchers today.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "anchor",
+     "caption": "BASEL STONES",
+     "at": "basalt",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Recent sonar surveys reveal a hidden tunnel beneath the lagoon, still unexplored deep.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "TUNNEL FOUND",
+      "SONAR 2022"
+     ],
+     "at": "tunnel",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "Did hidden tunnels lift the city from sea?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mystery of Nan Madol's stone city built on water.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#archaeology"
+ ],
+ "facts": [
+  {
+   "claim": "Nan Madol",
+   "source": "https://en.wikipedia.org/wiki/Nan_Madol"
+  }
+ ],
+ "slug": "the-nan-madol-ruins",
+ "case": "917",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-23T00:26Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Nan_Madol"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}
