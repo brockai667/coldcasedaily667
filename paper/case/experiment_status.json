@@ -12,11 +12,12 @@
   "instagram": 52.0
  },
  "metric_now": {
-  "youtube": 30,
-  "instagram": 15
+  "youtube": 29.5,
+  "tiktok": 84,
+  "instagram": 14.0
  },
- "ratio_now": 1.313,
- "n_tagged": 1,
+ "ratio_now": 1.012,
+ "n_tagged": 2,
  "status": "running",
  "rules": 0,
  "last": null

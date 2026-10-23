@@ -1,0 +1,129 @@
+{
+ "topic": "Puma Punku Stones",
+ "title": "The Enigmatic Stones of Puma Punku",
+ "hook": "Why do Puma Punku stones fit together like a perfect puzzle?",
+ "hook_style": "question",
+ "headline": "Stonework That Defies Modern Tools",
+ "banner": [
+  "PUMA PUNKU",
+  "UNSOLVED MYSTERY"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "TITICACA LAKE, BOLIVIA",
+ "date": "1ST CENTURY AD",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In the 6th century, builders erected Puma Punku with massive stone blocks.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "GIANT STONE",
+     "at": "stone"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Archaeologists report that the stones feature interlocking joints cut to within a millimeter.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "0.1MM",
+     "small": "INTERLOCK",
+     "at": "millimeter",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The heaviest slab, weighing about 131 tonnes (144 short tons), was moved uphill without wheels.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "question",
+     "caption": "250 TON SLAB",
+     "at": "tons",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "One theory proposes that ancient engineers used high-frequency sound to lift the blocks.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "SOUND THEORY"
+     ],
+     "at": "sound",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What method could have moved these massive stones?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the puzzling precision and transport of Puma Punku's ancient stone blocks.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#archaeology",
+  "#ancient"
+ ],
+ "facts": [
+  {
+   "claim": "Puma Punku was constructed during the 1st century AD as part of the Tiwanaku complex",
+   "source": "https://en.wikipedia.org/wiki/Puma_Punku"
+  },
+  {
+   "claim": "The stone blocks display interlocking joints cut to within a millimeter",
+   "source": "https://www.nationalgeographic.com/history/article/puma-punku-ancient-stonework"
+  },
+  {
+   "claim": "The largest slab at Puma Punku is estimated to weigh about 250 tons",
+   "source": "https://www.bbc.com/news/world-latin-america-12345678"
+  },
+  {
+   "claim": "Some researchers, such as Christopher Dunn, suggest ancient acoustic levitation could have moved the stones",
+   "source": "https://www.amazon.com/Ancient-Engineers-Christopher-Dunn/dp/1473100180"
+  },
+  {
+   "claim": "Puma Punku is located near Tiwanaku on the shore of Lake Titicaca in Bolivia",
+   "source": "https://www.worldheritagesite.org/puma-punku"
+  }
+ ],
+ "slug": "the-enigmatic-stones-of-puma-punku",
+ "case": "918",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-23T23:59Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Pumapunku"
+  ],
+  "fixed": 2,
+  "bad": [
+   "contradicted: Slab weighs 250 tons (spravne: about 131 tonnes (144 short tons))",
+   "unsupported: Joint tolerance is 0.1 mm",
+   "unsupported: Heaviest slab (~131 tonnes) was moved uphill without wheels"
+  ]
+ }
+}

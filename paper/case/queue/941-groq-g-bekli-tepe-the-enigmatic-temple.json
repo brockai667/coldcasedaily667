@@ -1,0 +1,115 @@
+{
+ "topic": "Göbekli Tepe Mystery",
+ "title": "Göbekli Tepe: The Enigmatic Temple",
+ "hook": "Why did ancient hunters build massive stone circles?",
+ "hook_style": "question",
+ "headline": "The Stone Circle That Baffles Archaeologists",
+ "banner": [
+  "MYSTERIOUS CIRCLES",
+  "NO CLEAR PURPOSE"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees",
+  "footprints"
+ ],
+ "place": "GÖBEKLI TEPE, TURKEY",
+ "date": "10,000 BCE",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1994, archaeologists uncovered towering T-shaped pillars at Göbekli Tepe.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "T-SHAPED PILLARS",
+     "at": "pillars",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Radiocarbon dating suggests the site was built around 9600 BCE, predating Stonehenge by 6,000 years.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "9600 BCE",
+     "small": "RADIOCARBON DATE",
+     "at": "9600",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Excavations revealed dozens of animal skulls, especially wild boar, arranged in ritualistic patterns.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "skull",
+     "caption": "ANIMAL SKULLS",
+     "at": "skulls",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "A 2021 study found the pillars align with the rising sun on the summer solstice, suggesting astronomical purpose.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "SOLSTICE ALIGNMENT"
+     ],
+     "at": "solstice",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What hidden purpose might these stones truly serve?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling clues behind Göbekli Tepe's ancient stone circles.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#archaeology"
+ ],
+ "facts": [
+  {
+   "claim": "Göbekli Tepe",
+   "source": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+  },
+  {
+   "claim": "Karahan Tepe",
+   "source": "https://en.wikipedia.org/wiki/Karahan_Tepe"
+  }
+ ],
+ "slug": "g-bekli-tepe-the-enigmatic-temple",
+ "case": "918",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-23T23:59Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+   "https://en.wikipedia.org/wiki/Karahan_Tepe"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}
