@@ -1,0 +1,111 @@
+{
+ "topic": "Piri Reis Map",
+ "title": "The Piri Reis Map Mystery",
+ "hook": "Why does a 16th-century map show continents that weren't charted today?",
+ "hook_style": "question",
+ "headline": "A Map That Defies History",
+ "banner": [
+  "MYSTERIOUS MAP",
+  "UNCHARTED LANDS"
+ ],
+ "site": "sea",
+ "props": [
+  "ship",
+  "buoy"
+ ],
+ "place": "ISTANBUL, TURKEY",
+ "date": "MARCH 1513",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "Ottoman admiral Piri Reis commissioned a world map in March 1513.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "printout",
+     "caption": "PIRI REIS MAP",
+     "at": "map",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The 1513 map shows Brazil's coast, years after Cabral's 1500 landing.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "BRAZIL COAST",
+     "at": "coast",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "A fragment of the map depicts a southern land, but it does not show ice-covered Antarctica.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "snowflake",
+     "caption": "ICE LAND",
+     "at": "land",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "2020 researchers claim the map copies lost Ptolemaic charts, source still unknown.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "unknown"
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "What hidden source could explain this enigmatic map?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the puzzling details of the 1513 Piri Reis map and its mysterious origins.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#map"
+ ],
+ "facts": [
+  {
+   "claim": "Piri Reis map",
+   "source": "https://en.wikipedia.org/wiki/Piri_Reis_map"
+  }
+ ],
+ "slug": "the-piri-reis-map-mystery",
+ "case": "919",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-010-hessdalen-lights",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-24T23:37Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Piri_Reis_map"
+  ],
+  "fixed": 2,
+  "unsupported": 2
+ }
+}
