@@ -1,44 +1,58 @@
 {
  "current": {
-  "name": "copy-010-hessdalen-lights",
+  "name": "copy-922-groq-the-min-min-light-phenomenon",
   "slot": "winner",
-  "instruction": "Start with a concise, intriguing hook that frames the mystery as a long-standing, unexplained phenomenon, then present brief chronological sightings before asking a speculative question.",
-  "hypothesis": "The winner succeeds by positioning the subject as an enduring, unsolved mystery with a strong, curiosity-driving hook and a clear call-to-action.",
+  "instruction": "Start with a concise, curiosity-driven question that frames the subject as an unexplained phenomenon, then present three brief historical sightings before ending with an open-ended speculation prompt.",
+  "hypothesis": "The hook’s direct mystery question and the three‑point chronological anecdote structure create immediate intrigue and encourage viewer engagement.",
   "keywords": [
+   "phenomenon",
    "mystery",
    "unexplained",
-   "phenomenon",
-   "sightings"
+   "sighting"
   ],
   "source": "winner",
   "winner": {
-   "spec": "010-hessdalen-lights",
-   "title": "The Hessdalen Lights",
-   "score": 5.89,
+   "spec": "922-groq-the-min-min-light-phenomenon",
+   "title": "The Min Min Light Phenomenon",
+   "score": 5.9,
    "per_platform": {
-    "youtube": 6.27,
-    "instagram": 5.53
+    "youtube": 4.31,
+    "instagram": 8.07
    }
   },
-  "started": "2026-10-18",
+  "started": "2026-10-25",
   "baseline_median": {
-   "youtube": 13.5,
-   "tiktok": 88,
-   "instagram": 52.0
+   "youtube": 22,
+   "tiktok": 83.5,
+   "instagram": 31
   },
-  "baseline_approx": [
-   "youtube",
-   "tiktok",
-   "instagram"
-  ],
-  "tagged": [
-   "914-groq-the-carroll-a-deering-mystery",
-   "915-groq-the-kaspar-hauser-mystery",
-   "920-groq-the-dendera-light-relief",
-   "922-groq-the-min-min-light-phenomenon",
-   "924-groq-the-somerton-man-mystery"
-  ]
+  "baseline_approx": [],
+  "tagged": []
  },
- "rules": [],
- "history": []
+ "rules": [
+  {
+   "name": "copy-010-hessdalen-lights",
+   "slot": "winner",
+   "instruction": "Start with a concise, intriguing hook that frames the mystery as a long-standing, unexplained phenomenon, then present brief chronological sightings before asking a speculative question.",
+   "kept_on": "2026-10-25",
+   "ratio": 1.274
+  }
+ ],
+ "history": [
+  {
+   "name": "copy-010-hessdalen-lights",
+   "slot": "winner",
+   "instruction": "Start with a concise, intriguing hook that frames the mystery as a long-standing, unexplained phenomenon, then present brief chronological sightings before asking a speculative question.",
+   "started": "2026-10-18",
+   "ended": "2026-10-25",
+   "ratio": 1.274,
+   "per_platform": {
+    "youtube": 2.107,
+    "tiktok": 1.012,
+    "instagram": 1.274
+   },
+   "n_tagged": 4,
+   "status": "kept"
+  }
+ ]
 }

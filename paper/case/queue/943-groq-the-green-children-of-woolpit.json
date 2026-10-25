@@ -1,0 +1,109 @@
+{
+ "topic": "Green Children",
+ "title": "The Green Children of Woolpit",
+ "hook": "What secret lies behind the green children of Woolpit?",
+ "hook_style": "question",
+ "headline": "Mystery of the Green Children",
+ "banner": [
+  "GREEN CHILDREN",
+  "VILLAGE MYSTERY"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "WOOLPIT, ENGLAND",
+ "date": "12TH CENTURY",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 12th-century Woolpit, two siblings emerged from a mysterious underground pit.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "MEDIEVAL DRAWING",
+     "at": "pit",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Chronicles by Ralph of Coggeshall note the children's skin was a faint emerald hue.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "EMERALD SKIN"
+     ],
+     "at": "hue",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The siblings spoke an unknown language until they learned English from villagers in 1150.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "VILLAGE RECORD",
+     "redact": [
+      2,
+      4
+     ],
+     "at": "1150",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Modern analysis suggests the children may have suffered from a rare chlorosis condition, yet no conclusive proof exists.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "exists"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could a hidden disease explain the green mystery?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the medieval mystery of Woolpit's green children in under 30 seconds.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Green children of Woolpit",
+   "source": "https://en.wikipedia.org/wiki/Green_children_of_Woolpit"
+  }
+ ],
+ "slug": "the-green-children-of-woolpit",
+ "case": "920",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-922-groq-the-min-min-light-phenomenon",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-25T23:32Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Green_children_of_Woolpit"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}

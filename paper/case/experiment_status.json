@@ -1,24 +1,25 @@
 {
  "factory": "ColdCaseDaily",
- "updated": "2026-10-24",
- "name": "copy-010-hessdalen-lights",
- "started": "2026-10-18",
- "hypothesis": "The winner succeeds by positioning the subject as an enduring, unsolved mystery with a strong, curiosity-driving hook and a clear call-to-action.",
- "instruction": "Start with a concise, intriguing hook that frames the mystery as a long-standing, unexplained phenomenon, then present brief chronological sightings before asking a speculative question.",
+ "updated": "2026-10-25",
+ "name": "copy-922-groq-the-min-min-light-phenomenon",
+ "started": "2026-10-25",
+ "hypothesis": "The hook’s direct mystery question and the three‑point chronological anecdote structure create immediate intrigue and encourage viewer engagement.",
+ "instruction": "Start with a concise, curiosity-driven question that frames the subject as an unexplained phenomenon, then present three brief historical sightings before ending with an open-ended speculation prompt.",
  "metric": "median views at ~48 h per platform",
  "metric_before": {
-  "youtube": 13.5,
-  "tiktok": 88,
-  "instagram": 52.0
+  "youtube": 22,
+  "tiktok": 83.5,
+  "instagram": 31
  },
- "metric_now": {
-  "youtube": 29,
-  "tiktok": 84,
-  "instagram": 15
- },
- "ratio_now": 1.012,
- "n_tagged": 3,
+ "metric_now": {},
+ "ratio_now": null,
+ "n_tagged": 0,
  "status": "running",
- "rules": 0,
- "last": null
+ "rules": 1,
+ "last": {
+  "name": "copy-010-hessdalen-lights",
+  "status": "kept",
+  "ratio": 1.274,
+  "ended": "2026-10-25"
+ }
 }
