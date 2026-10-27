@@ -1,0 +1,119 @@
+{
+ "topic": "Kensington Runestone",
+ "title": "The Kensington Runestone",
+ "hook": "Who carved the mysterious Viking stone in Minnesota?",
+ "hook_style": "question",
+ "headline": "Viking inscription that baffled scholars",
+ "banner": [
+  "RUNESTONE FOUND",
+  "VIKING OR HOAX?"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "KENSINGTON, MN, USA",
+ "date": "JULY 1898",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1898, Swedish immigrant Olof Ohman discovered a stone near the small town of Kensington.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "STONE DISCOVERED",
+     "at": "stone",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The inscription is dated to 1362 but does not mention Erik the Red.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1362",
+     "small": "EXPEDITION YEAR",
+     "at": "1362",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Linguists note the runes diverge from those used in the 14th century, not the 13th.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "RUNE STYLE MATCHES",
+      "13TH-CENTURY"
+     ],
+     "at": "runes",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "In 2004, a geochemical test suggested the stone's surface was artificially aged.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": 2,
+     "title": "ANALYSIS REPORT",
+     "at": "test",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "aged"
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "Could Vikings really have reached Minnesota centuries early?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious Kensington Runestone and the debate over its origins.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Kensington Runestone",
+   "source": "https://en.wikipedia.org/wiki/Kensington_Runestone"
+  }
+ ],
+ "slug": "the-kensington-runestone",
+ "case": "921",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-922-groq-the-min-min-light-phenomenon",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-27T00:58Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Kensington_Runestone"
+  ],
+  "fixed": 3,
+  "unsupported": 2
+ }
+}
