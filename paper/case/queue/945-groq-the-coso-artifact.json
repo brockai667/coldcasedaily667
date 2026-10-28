@@ -1,0 +1,109 @@
+{
+ "topic": "Coso Artifact",
+ "title": "The Coso Artifact",
+ "hook": "What 1920s-era Champion spark plug was found buried?",
+ "hook_style": "question",
+ "headline": "Mystery Metal from Deep Time",
+ "banner": [
+  "MYSTERIOUS METAL",
+  "DEEP EARTH FIND"
+ ],
+ "site": "mountains",
+ "props": [
+  "tent"
+ ],
+ "place": "COSO RANGE, USA",
+ "date": "MAY 1961",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "On Feb 13, 1961, Wallace Lane, Virginia Maxey and Mike Mikesell discovered the artifact while prospecting near Olancha, California.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "compass",
+     "caption": "SPARK PLUG",
+     "at": "1961"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The core layer was thought to be five hundred thousand years old, but geologists say its formation likely took place over decades or years.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "UNSURE",
+     "small": "AGE ESTIMATE",
+     "at": "five",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Scientists said the shape matched a 1920s spark plug, impossible for that ancient layer.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "1920S SPARK PLUG",
+      "IMPOSSIBLE?"
+     ],
+     "at": "1920s",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "In 1978, tests hinted contamination, yet no evidence confirmed the artifact as a hoax.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "contamination",
+     "dur": 1.5
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could a modern object truly predate humanity?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the puzzling Coso Artifact found in a 500,000-year-old core.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#archaeology",
+  "#ancienttechnology"
+ ],
+ "facts": [
+  {
+   "claim": "Coso artifact",
+   "source": "https://en.wikipedia.org/wiki/Coso_artifact"
+  }
+ ],
+ "slug": "the-coso-artifact",
+ "case": "922",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-922-groq-the-min-min-light-phenomenon",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-28T00:44Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Coso_artifact"
+  ],
+  "fixed": 5,
+  "unsupported": 1
+ }
+}
