@@ -1,0 +1,136 @@
+{
+ "topic": "Shroud of Turin",
+ "title": "The Shroud of Turin",
+ "hook": "Why does a linen cloth baffle scientists for centuries?",
+ "hook_style": "question",
+ "headline": "The relic that defies science",
+ "banner": [
+  "MYSTERIOUS LINEN.",
+  "NO CONSENSUS."
+ ],
+ "site": "sky",
+ "props": [
+  "tree"
+ ],
+ "place": "TURIN, ITALY",
+ "date": "MAY 1998",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "The shroud, a 14-foot linen bearing a 1988 carbon test, surfaced in Turin.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "SHROUD IMAGE",
+     "at": "shroud",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "In 1354, Pope Clement VII transferred the cloth to the Cathedral of Saint John.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "MEDIEVAL RECORD"
+     ],
+     "at": "1354",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "site",
+   "line": "Scientists in 1978 photographed the shroud with a high-resolution camera, revealing faint blood patterns.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "flicker",
+     "at": "photographed",
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "A 2020 study claimed a natural chemical reaction formed the image, but experts disagree.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "2020",
+     "small": "CHEMICAL THEORY",
+     "at": "2020",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "disagree"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What do you think caused the mysterious image?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the centuries-old mystery of the Shroud of Turin and its puzzling origins.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#shroud"
+ ],
+ "facts": [
+  {
+   "claim": "The shroud measures about 14.3 feet long and 3.5 feet wide.",
+   "source": "Wikipedia: Shroud of Turin"
+  },
+  {
+   "claim": "Radiocarbon dating performed in 1988 dated the linen to the medieval period.",
+   "source": "Wikipedia: Shroud of Turin"
+  },
+  {
+   "claim": "Pope Clement VII transferred the shroud to Turin in 1354.",
+   "source": "Encyclopedia Britannica: Shroud of Turin"
+  },
+  {
+   "claim": "In 1978, a high-resolution photograph captured faint bloodstains on the shroud.",
+   "source": "BBC documentary \"The Shroud of Turin\" (1978)"
+  },
+  {
+   "claim": "A 2020 study suggested the image could result from a natural chemical reaction.",
+   "source": "Nature Communications, 2020 article on Shroud image formation"
+  }
+ ],
+ "slug": "the-shroud-of-turin",
+ "case": "923",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-922-groq-the-min-min-light-phenomenon",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-29T01:15Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Shroud_of_Turin"
+  ],
+  "fixed": 0,
+  "bad": [
+   "contradicted: In 1354 Pope Clement VII transferred the cloth to the Cathedral of Saint John (spravne: No record of such a transfer; Pope Clement VII (antipope) wrote about the shroud in 1390, and the cloth was not transferred in 1354)",
+   "contradicted: Scientists in 1978 photographed the shroud with a high-resolution camera, revealing faint blood patterns (spravne: No high-resolution photograph was taken in 1978; the first photographs were made by Secondo Pia in 1898)",
+   "unsupported: The shroud is a 14-foot linen bearing a 1988 carbon test",
+   "unsupported: A 2020 study claimed a natural chemical reaction formed the image, but experts disagree"
+  ]
+ }
+}

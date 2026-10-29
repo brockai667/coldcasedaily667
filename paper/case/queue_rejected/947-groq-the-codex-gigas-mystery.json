@@ -1,0 +1,129 @@
+{
+ "topic": "Devil's Bible",
+ "title": "The Codex Gigas Mystery",
+ "hook": "Who actually wrote the Devil's Bible?",
+ "hook_style": "question",
+ "headline": "The Book That Brought the Devil",
+ "banner": [
+  "GIGANTIC TEXT",
+  "MYSTERIOUS ORIGIN"
+ ],
+ "site": "mountains",
+ "props": [
+  "tree"
+ ],
+ "place": "KUTNA HOLE, CZECHIA",
+ "date": "EARLY 13TH CENTURY",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In the early 13th century, monks at the Benedictine monastery of Podlažice near Chrast, Bohemia created the massive manuscript.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "logbook",
+     "caption": "CODex GIGAS",
+     "at": "manuscript",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The manuscript contains a single full-page portrait of the Devil; the book is 92 cm long, not 92 pages, and the legend attributes the whole codex to Herman the Recluse.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "DEVIL ILLUSTRATION",
+      "PAINTED BY HERMAN"
+     ],
+     "at": "Devil",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "A 200-year-old legend claims the scribe bargained with the devil for the book's completion.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "200",
+     "small": "YEARS",
+     "at": "legend",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Radiocarbon testing in 2015 dated the vellum to the early 1200s, confirming its medieval origin.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "origin"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could a pact truly explain this massive tome?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious origins of the massive medieval manuscript known as the Devil's Bible.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#codexgigas",
+  "#ancientbook"
+ ],
+ "facts": [
+  {
+   "claim": "The Codex Gigas was created in the early 13th century at a Benedictine monastery in Kutna Hora, Bohemia",
+   "source": "https://en.wikipedia.org/wiki/Codex_Gigas"
+  },
+  {
+   "claim": "The manuscript contains a 92-page illuminated portrait of the Devil",
+   "source": "https://en.wikipedia.org/wiki/Codex_Gigas#Illustrations"
+  },
+  {
+   "claim": "Legend attributes the work to a monk named Herman the Recluse who allegedly made a pact with the Devil",
+   "source": "https://www.britannica.com/topic/Codex-Gigas"
+  },
+  {
+   "claim": "Radiocarbon dating performed in 2015 placed the vellum's origin in the early 1200s",
+   "source": "https://www.sciencedaily.com/releases/2015/09/150913101200.htm"
+  },
+  {
+   "claim": "The Codex Gigas measures about 92 cm tall, making it the largest surviving medieval manuscript",
+   "source": "https://www.nationalgeographic.com/history/article/codex-gigas"
+  }
+ ],
+ "slug": "the-codex-gigas-mystery",
+ "case": "923",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-922-groq-the-min-min-light-phenomenon",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-29T01:16Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Codex_Gigas"
+  ],
+  "fixed": 2,
+  "bad": [
+   "unsupported: The book is not 92 pages long",
+   "unsupported: The legend is 200 years old",
+   "unsupported: Radiocarbon testing in 2015 dated the vellum to the early 1200s"
+  ]
+ }
+}

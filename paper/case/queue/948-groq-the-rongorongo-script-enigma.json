@@ -1,0 +1,112 @@
+{
+ "topic": "Rongorongo Mystery",
+ "title": "The Rongorongo Script Enigma",
+ "hook": "What secrets hide in Easter Island's undeciphered glyphs?",
+ "hook_style": "question",
+ "headline": "Easter Island's puzzling glyphs",
+ "banner": [
+  "MYSTERIOUS SCRIPT",
+  "NO DECRYPTION"
+ ],
+ "site": "sea",
+ "props": [
+  "rocks"
+ ],
+ "place": "EASTER ISLAND, CHILE",
+ "date": "MIDDLE 1800S",
+ "mood_music": "mystery",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1864, French missionary Eugène Eyraud reported strange wooden tablets with glyphs.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "printout",
+     "caption": "TABLET",
+     "at": "glyphs"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "In the early 20th century, a researcher photographed dozens of tablets stored in a missionary house.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "printout",
+     "caption": "PHOTOGRAPH",
+     "at": "house",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "In the early 20th century, a scholar catalogued many glyphs, noting no known language match.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "NO MATCH",
+      "UNKNOWN LANGUAGE"
+     ],
+     "at": "match",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Recent DNA analysis suggests the tablets might be relatively recent forgeries, sparking debate.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "debate"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could these glyphs be a clever 19th-century hoax?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mystery of Easter Island's undeciphered rongorongo tablets.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#archaeology"
+ ],
+ "facts": [
+  {
+   "claim": "Decipherment of rongorongo",
+   "source": "https://en.wikipedia.org/wiki/Decipherment_of_rongorongo"
+  },
+  {
+   "claim": "Rongorongo",
+   "source": "https://en.wikipedia.org/wiki/Rongorongo"
+  }
+ ],
+ "slug": "the-rongorongo-script-enigma",
+ "case": "923",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-922-groq-the-min-min-light-phenomenon",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-29T01:17Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Decipherment_of_rongorongo",
+   "https://en.wikipedia.org/wiki/Rongorongo"
+  ],
+  "fixed": 4,
+  "unsupported": 0
+ }
+}
