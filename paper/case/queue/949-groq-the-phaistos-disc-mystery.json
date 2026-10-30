@@ -1,0 +1,114 @@
+{
+ "topic": "Phaistos Disc",
+ "title": "The Phaistos Disc Mystery",
+ "hook": "Who carved the symbols on a 3,600-year-old disc?",
+ "hook_style": "question",
+ "headline": "The Bronze Age Puzzle of Crete",
+ "banner": [
+  "MYSTERIOUS DISC.",
+  "NO TRANSLATION."
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "PHAISTOS, GREECE",
+ "date": "C. 1700 BC",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1908 archaeologists uncovered a fired clay disc at Phaistos",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "FIRE-CLAY DISC",
+     "at": "disc"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The disc bears 241 symbols arranged in a spiral no known script matches",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "SYMBOLS",
+     "at": "symbols"
+    },
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "241 SYMBOLS"
+     ],
+     "at": "symbols",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Multiple similar artifacts have been found, including a vase from Knossos, a seal from 1955, and the Arkalochori Axe.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "KNOSSOS SEAL",
+     "at": "seal"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Recent computer analysis suggests the symbols may encode a religious hymn but scholars disagree",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "THEORY: HYMNS"
+     ],
+     "at": "hymn"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Is the disc a lost language or ritual code?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A brief look at the enigmatic Phaistos Disc and its unsolved secrets.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#archaeology"
+ ],
+ "facts": [
+  {
+   "claim": "Phaistos Disc",
+   "source": "https://en.wikipedia.org/wiki/Phaistos_Disc"
+  }
+ ],
+ "slug": "the-phaistos-disc-mystery",
+ "case": "924",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-922-groq-the-min-min-light-phenomenon",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-30T01:21Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Phaistos_Disc"
+  ],
+  "fixed": 1,
+  "unsupported": 1
+ }
+}

@@ -201,5 +201,12 @@
   "site": "mountains",
   "music": null,
   "title": "The Coso Artifact"
+ },
+ {
+  "slug": "the-rongorongo-script-enigma",
+  "date": "2026-10-30",
+  "site": "sea",
+  "music": null,
+  "title": "The Rongorongo Script Enigma"
  }
 ]
