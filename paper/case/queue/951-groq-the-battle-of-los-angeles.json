@@ -1,0 +1,108 @@
+{
+ "topic": "Battle of LA",
+ "title": "The Battle of Los Angeles",
+ "hook": "Why did the sky over Los Angeles explode with fire?",
+ "hook_style": "question",
+ "headline": "Mystery lights over wartime Los Angeles",
+ "banner": [
+  "SKIES ON FIRE.",
+  "NO ENEMY FOUND."
+ ],
+ "site": "sky",
+ "props": [
+  "dish"
+ ],
+ "place": "LOS ANGELES, USA",
+ "date": "FEBRUARY 1942",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "On February 25, 1942, anti-aircraft guns fired at mysterious lights over Los Angeles.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "CIVIL DEFENSE ALERT",
+     "at": "lights",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Witnesses reported a bright orange glow and a booming sound that lasted ten minutes.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "10 MIN",
+     "small": "DURATION",
+     "at": "ten",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The Army later claimed a stray weather balloon set off the anti-aircraft barrage.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "REPORT",
+     "redact": [
+      2
+     ],
+     "at": "balloon",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "In 1994, declassified files showed no Japanese aircraft were detected, deepening the mystery.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "mystery"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really lit up the night over Los Angeles?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the 1942 Los Angeles anti-aircraft barrage and its lingering unanswered questions.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#losangeles"
+ ],
+ "facts": [
+  {
+   "claim": "Battle of Los Angeles",
+   "source": "https://en.wikipedia.org/wiki/Battle_of_Los_Angeles"
+  }
+ ],
+ "slug": "the-battle-of-los-angeles",
+ "case": "925",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-922-groq-the-min-min-light-phenomenon",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-10-31T01:04Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Battle_of_Los_Angeles"
+  ],
+  "fixed": 0,
+  "unsupported": 1
+ }
+}

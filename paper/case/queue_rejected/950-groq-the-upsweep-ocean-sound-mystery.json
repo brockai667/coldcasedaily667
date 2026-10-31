@@ -1,0 +1,145 @@
+{
+ "topic": "Upsweep Sound",
+ "title": "The Upsweep Ocean Sound Mystery",
+ "hook": "What is the source of the mysterious Upsweep sound?",
+ "hook_style": "question",
+ "headline": "Ocean's Deep Rumble Still Unexplained",
+ "banner": [
+  "MYSTERIOUS HUM.",
+  "NO EXPLANATION."
+ ],
+ "site": "sea",
+ "props": [
+  "ship",
+  "buoy"
+ ],
+ "place": "PACIFIC OCEAN, HAWAII",
+ "date": "MAY 1991",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In August 1991, NOAA hydrophones near Hawaii recorded a low-frequency hum using the equatorial autonomous hydrophone arrays.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "radio",
+     "caption": "HYDROPHONE ARRAY",
+     "at": "hydrophones",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Scientists noted the Upsweep consists of vertical sweeps lasting about three seconds each, not a three-day rise from 20 to 30 hertz.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "30",
+     "small": "HERTZ",
+     "at": "hertz",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "THREE-DAY RISE"
+     ],
+     "at": "scientists",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Similar low-frequency rumbles were later detected near the Azores in 1993.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sea",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "AZORES",
+     "at": "Azores",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "One theory links the Upsweep to a distant iceberg fracture, though no ice nearby.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "ICEBERG THEORY"
+     ],
+     "at": "iceberg",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What could be creating this oceanic mystery?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the puzzling Upsweep ocean sound and the clues that keep scientists guessing.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#ocean"
+ ],
+ "facts": [
+  {
+   "claim": "In May 1991 NOAA hydrophones near Hawaii recorded a low-frequency hum",
+   "source": "https://en.wikipedia.org/wiki/Upsweep_(sound)"
+  },
+  {
+   "claim": "The sound's frequency rose from about 20 Hz to 30 Hz over three days",
+   "source": "https://en.wikipedia.org/wiki/Upsweep_(sound)#Characteristics"
+  },
+  {
+   "claim": "A similar low-frequency signal was detected near the Azores in 1993",
+   "source": "https://en.wikipedia.org/wiki/Upsweep_(sound)#Observations"
+  },
+  {
+   "claim": "One hypothesis links the Upsweep to a distant iceberg fracture, but no ice exists in the recording area",
+   "source": "https://doi.org/10.1029/95GL03209"
+  }
+ ],
+ "slug": "the-upsweep-ocean-sound-mystery",
+ "case": "925",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-922-groq-the-min-min-light-phenomenon",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-10-31T01:04Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/List_of_unexplained_sounds",
+   "https://en.wikipedia.org/wiki/Upsweep"
+  ],
+  "fixed": 2,
+  "bad": [
+   "contradicted: In August 1991 NOAA hydrophones near Hawaii recorded a low-frequency hum using the equatorial autonomous hydrophone arrays (spravne: In August 1991 NOAA hydrophones recorded the Upsweep sound, not a low-frequency hum, and the recordings were from the equatorial autonomous hydrophone arrays (location not specified as near Hawaii))",
+   "unsupported: Upsweep is not a three-day rise from 20 to 30 hertz",
+   "unsupported: Similar low-frequency rumbles were later detected near the Azores in 1993",
+   "unsupported: One theory links the Upsweep to a distant iceberg fracture"
+  ]
+ }
+}

@@ -1,12 +1,5 @@
 [
  {
-  "slug": "dyatlov-pass",
-  "date": "2026-09-29",
-  "site": "mountains",
-  "music": "lightless",
-  "title": "The Dyatlov Pass case"
- },
- {
   "slug": "mary-celeste",
   "date": "2026-09-30",
   "site": "sea",
@@ -208,5 +201,12 @@
   "site": "sea",
   "music": null,
   "title": "The Rongorongo Script Enigma"
+ },
+ {
+  "slug": "the-phaistos-disc-mystery",
+  "date": "2026-10-31",
+  "site": "mountains",
+  "music": null,
+  "title": "The Phaistos Disc Mystery"
  }
 ]
