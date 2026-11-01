@@ -1,38 +1,33 @@
 {
  "current": {
-  "name": "copy-922-groq-the-min-min-light-phenomenon",
+  "name": "copy-924-groq-the-somerton-man-mystery",
   "slot": "winner",
-  "instruction": "Start with a concise, curiosity-driven question that frames the subject as an unexplained phenomenon, then present three brief historical sightings before ending with an open-ended speculation prompt.",
-  "hypothesis": "The hook’s direct mystery question and the three‑point chronological anecdote structure create immediate intrigue and encourage viewer engagement.",
+  "instruction": "Begin with a provocative question that frames the unsolved case as a lingering, personal mystery for the audience.",
+  "hypothesis": "A hook that ties an enigmatic case to emotional intrigue drives higher viewership.",
   "keywords": [
-   "phenomenon",
    "mystery",
-   "unexplained",
-   "sighting"
+   "unsolved",
+   "haunt",
+   "coldcase"
   ],
   "source": "winner",
   "winner": {
-   "spec": "922-groq-the-min-min-light-phenomenon",
-   "title": "The Min Min Light Phenomenon",
-   "score": 5.9,
+   "spec": "924-groq-the-somerton-man-mystery",
+   "title": "The Somerton Man Mystery",
+   "score": 3.14,
    "per_platform": {
-    "youtube": 4.31,
-    "instagram": 8.07
+    "youtube": 4.89,
+    "instagram": 2.02
    }
   },
-  "started": "2026-10-25",
+  "started": "2026-11-01",
   "baseline_median": {
-   "youtube": 22,
-   "tiktok": 83.5,
+   "youtube": 30.0,
+   "tiktok": 84,
    "instagram": 31
   },
   "baseline_approx": [],
-  "tagged": [
-   "943-groq-the-green-children-of-woolpit",
-   "944-groq-the-kensington-runestone",
-   "945-groq-the-coso-artifact",
-   "948-groq-the-rongorongo-script-enigma"
-  ]
+  "tagged": []
  },
  "rules": [
   {
@@ -58,6 +53,19 @@
    },
    "n_tagged": 4,
    "status": "kept"
+  },
+  {
+   "name": "copy-922-groq-the-min-min-light-phenomenon",
+   "slot": "winner",
+   "instruction": "Start with a concise, curiosity-driven question that frames the subject as an unexplained phenomenon, then present three brief historical sightings before ending with an open-ended speculation prompt.",
+   "started": "2026-10-25",
+   "ended": "2026-11-01",
+   "ratio": 1.017,
+   "per_platform": {
+    "youtube": 1.017
+   },
+   "n_tagged": 3,
+   "status": "reverted"
   }
  ]
 }

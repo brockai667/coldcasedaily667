@@ -1,0 +1,121 @@
+{
+ "topic": "HOIA BACIU FOREST",
+ "title": "The Hoia Baciu Forest Mystery",
+ "hook": "What secrets hide in Romania's haunted forest?",
+ "hook_style": "question",
+ "headline": "The forest that whispers danger",
+ "banner": [
+  "MYSTERIOUS FOREST",
+  "UNEXPLAINED SIGNS"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "BACIU FOREST, ROMANIA",
+ "date": "MAY 2004",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "Locals reported a strange, dense mist lingering over the forest.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "tree",
+     "caption": "MIST",
+     "at": "mist"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "An expedition documented luminous orbs near ancient trees at night.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "tree",
+     "caption": "ORBS",
+     "at": "orbs",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Researchers recorded strong electromagnetic disturbances matching reported anomalies.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "EMF",
+     "small": "ANOMALY",
+     "at": "electromagnetic",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "A video showed a figure emerging from the fog, never identified.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "FIGURE",
+     "at": "figure",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "identified"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could this forest be a natural phenomenon?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the eerie reports and unexplained phenomena of Romania's Baciu Forest.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#hoiabaciu"
+ ],
+ "facts": [
+  {
+   "claim": "Expedition X",
+   "source": "https://en.wikipedia.org/wiki/Expedition_X"
+  },
+  {
+   "claim": "Hoia-Baciu Forest",
+   "source": "https://en.wikipedia.org/wiki/Hoia-Baciu_Forest"
+  }
+ ],
+ "slug": "the-hoia-baciu-forest-mystery",
+ "case": "926",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-01T00:26Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Expedition_X",
+   "https://en.wikipedia.org/wiki/Hoia-Baciu_Forest"
+  ],
+  "fixed": 4,
+  "unsupported": 0
+ }
+}

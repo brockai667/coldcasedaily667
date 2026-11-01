@@ -1,12 +1,5 @@
 [
  {
-  "slug": "mary-celeste",
-  "date": "2026-09-30",
-  "site": "sea",
-  "music": "echoes",
-  "title": "The Mary Celeste"
- },
- {
   "slug": "wow-signal",
   "date": "2026-10-01",
   "site": "sky",
@@ -208,5 +201,12 @@
   "site": "mountains",
   "music": null,
   "title": "The Phaistos Disc Mystery"
+ },
+ {
+  "slug": "the-battle-of-los-angeles",
+  "date": "2026-11-01",
+  "site": "sky",
+  "music": null,
+  "title": "The Battle of Los Angeles"
  }
 ]
