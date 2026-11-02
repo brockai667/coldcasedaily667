@@ -1,0 +1,119 @@
+{
+ "topic": "Mona Lisa Heist",
+ "title": "The 1911 Mona Lisa Theft",
+ "hook": "Who stole the Mona Lisa from the Louvre's walls?",
+ "hook_style": "question",
+ "headline": "The Louvre's missing masterpiece",
+ "banner": [
+  "MISSING MASTERPIECE",
+  "NO CLUES FOUND"
+ ],
+ "site": "mountains",
+ "props": [
+  "tree"
+ ],
+ "place": "PARIS, FRANCE",
+ "date": "AUGUST 1911",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In August 1911, the world-famous Mona Lisa vanished from the Louvre's main gallery.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "printout",
+     "caption": "MONA LISA",
+     "at": "Louvre's",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Vincenzo Peruggia, an Italian handyman and former Louvre employee, hid the canvas in his coat.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "PERUGGIA CLAIMED"
+     ],
+     "at": "Peruggia",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "He slipped out through a service door on the same afternoon, unnoticed by staff.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "mountains",
+     "place": {
+      "x": 0.5,
+      "y": 0.2
+     },
+     "caption": "LOUVRE FLOOR",
+     "at": "service",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "The theft stayed hidden until Peruggia was finally caught in Italy in December 1913.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "caught"
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "What would you have done with a priceless smile?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the daring 1911 theft of the Mona Lisa and its lingering mysteries.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#artcrime"
+ ],
+ "facts": [
+  {
+   "claim": "The Theft of the Mona Lisa",
+   "source": "https://en.wikipedia.org/wiki/The_Theft_of_the_Mona_Lisa"
+  },
+  {
+   "claim": "Mona Lisa",
+   "source": "https://en.wikipedia.org/wiki/Mona_Lisa"
+  }
+ ],
+ "slug": "the-1911-mona-lisa-theft",
+ "case": "927",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-02T01:08Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/The_Theft_of_the_Mona_Lisa",
+   "https://en.wikipedia.org/wiki/Mona_Lisa"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}

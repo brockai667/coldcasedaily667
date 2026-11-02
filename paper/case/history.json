@@ -1,12 +1,5 @@
 [
  {
-  "slug": "wow-signal",
-  "date": "2026-10-01",
-  "site": "sky",
-  "music": "cutandrun",
-  "title": "The Wow! signal"
- },
- {
   "slug": "flannan-isles",
   "date": "2026-10-02",
   "site": "sea",
@@ -208,5 +201,12 @@
   "site": "sky",
   "music": null,
   "title": "The Battle of Los Angeles"
+ },
+ {
+  "slug": "the-hoia-baciu-forest-mystery",
+  "date": "2026-11-02",
+  "site": "mountains",
+  "music": null,
+  "title": "The Hoia Baciu Forest Mystery"
  }
 ]

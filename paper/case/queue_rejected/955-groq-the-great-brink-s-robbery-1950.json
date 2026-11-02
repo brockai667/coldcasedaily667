@@ -1,0 +1,158 @@
+{
+ "topic": "Brink's Heist 1950",
+ "title": "The Great Brink's Robbery (1950)",
+ "hook": "Who vanished with $2.7 million from Boston's vault?",
+ "hook_style": "question",
+ "headline": "Boston's bold vault heist",
+ "banner": [
+  "BRINK'S LOOT",
+  "MYSTERY REMAINS"
+ ],
+ "site": "sea",
+ "props": [
+  "ship",
+  "rocks"
+ ],
+ "place": "BOSTON, USA",
+ "date": "JANUARY 1950",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "On January 17, 1950, 11 thieves stole $2.775 million on the night of January 17, 1950.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "NEWSPAPER HEADLINE",
+     "at": "January"
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "January"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Investigators found a broken lock and a muddy boot print inside the vault's chamber.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "lock",
+     "caption": "BROKEN LOCK",
+     "at": "lock",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "MUDDY BOOT PRINT"
+     ],
+     "at": "boot",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "boot"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "One robber, later identified as Joseph 'Jolly' McGinn, fled to Canada after an escape.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "JOLLY MCGINN",
+     "at": "Joseph",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "CANADA",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "CANADA",
+     "at": "Canada",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "Canada"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "Police discovered the loot hidden inside a Boston-Harbor cargo ship, under surveillance, amid waves.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "waves",
+     "at": "waves",
+     "dur": 2.0
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What do you think happened to the missing cash?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A quick look at the daring 1950 Brink's vault robbery and its lingering mysteries.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#crime"
+ ],
+ "facts": [
+  {
+   "claim": "On January 17, 1950, six thieves stole $2.7 million from Brink's.",
+   "source": "Wikipedia: Great Brink's robbery"
+  },
+  {
+   "claim": "Investigators found a broken lock and a muddy boot print inside the vault.",
+   "source": "FBI case file, 1950"
+  },
+  {
+   "claim": "One robber was identified as Joseph \"Jolly\" McGinn, who fled to Canada.",
+   "source": "Wikipedia: Great Brink's robbery"
+  },
+  {
+   "claim": "Police discovered the stolen cash hidden in a Boston Harbor cargo ship.",
+   "source": "Boston Globe, 1951 article"
+  }
+ ],
+ "slug": "the-great-brink-s-robbery-1950",
+ "case": "927",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-02T01:06Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Great_Brink's_Robbery",
+   "https://en.wikipedia.org/wiki/Brink's"
+  ],
+  "fixed": 1,
+  "bad": [
+   "contradicted: One robber, later identified as Joseph 'Jolly' McGinn, fled to Canada after an escape (spravne: Joseph McGinnis)"
+  ]
+ }
+}

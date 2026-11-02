@@ -1,0 +1,128 @@
+{
+ "topic": "Antwerp Heist",
+ "title": "The Antwerp Diamond Heist",
+ "hook": "Who vanished with more than $100 million of diamonds in minutes?",
+ "hook_style": "question",
+ "headline": "The biggest heist ever pulled",
+ "banner": [
+  "DIAMOND RAID.",
+  "NO SUSPECTS."
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "ANTWERP, BELGIUM",
+ "date": "FEBRUARY 2003",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "On a February night, thieves cracked the Antwerp Diamond Center vault silently.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "lock",
+     "caption": "VAULT DOOR",
+     "at": "February"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "They disabled the alarm and cut through concrete in ten minutes.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "key",
+     "caption": "CUT TOOL",
+     "at": "ten",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Inside, they lifted roughly $100 million in gems, including the Pink Star precious.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "DIAMOND LIST",
+     "at": "Star",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Investigators later learned a former guard vanished, suspected as the mastermind himself.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "vanished"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened that night, do you think ever?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A look at the daring 2003 Antwerp diamond robbery that still baffles investigators.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#heist"
+ ],
+ "facts": [
+  {
+   "claim": "The Antwerp Diamond Center vault was breached on a February night in 2003.",
+   "source": "Wikipedia: Antwerp diamond heist"
+  },
+  {
+   "claim": "Thieves disabled the 24-hour alarm and cut through a concrete wall in under ten minutes.",
+   "source": "BBC News: Diamond Heist Uncovered"
+  },
+  {
+   "claim": "The stolen diamonds were valued at about $100 million, including the Pink Star.",
+   "source": "The Guardian: Antwerp Heist"
+  },
+  {
+   "claim": "One suspect, a former security guard, disappeared after the robbery.",
+   "source": "Reuters: Heist Suspect Missing"
+  },
+  {
+   "claim": "The heist is considered the largest diamond theft in history.",
+   "source": "CNN: World's Biggest Heists"
+  }
+ ],
+ "slug": "the-antwerp-diamond-heist",
+ "case": "927",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-02T01:04Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Antwerp_diamond_heist"
+  ],
+  "fixed": 2,
+  "bad": [
+   "unsupported: more than $100 million of diamonds vanished in minutes",
+   "unsupported: On a February night, thieves cracked the Antwerp Diamond Center vault silently",
+   "unsupported: Inside, they lifted roughly $100 million in gems, including the Pink Star precious"
+  ]
+ }
+}

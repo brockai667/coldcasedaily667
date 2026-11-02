@@ -1,0 +1,157 @@
+{
+ "topic": "Great Train Robbery",
+ "title": "The Great Train Robbery (1963)",
+ "hook": "Who vanished with £2.6 million from a moving train?",
+ "hook_style": "question",
+ "headline": "Heist that stunned a nation",
+ "banner": [
+  "TRAIN HEIST",
+  "MISSING MONEY"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "KENDAL, ENGLAND",
+ "date": "AUGUST 1963",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "On August 8, 1963, a Royal Mail train was stopped near Bridego Railway Bridge.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "KENDAL",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "BRIDGE MAP",
+     "at": "Bridego"
+    },
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "RAILWAY TRAIN",
+     "at": "train",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Robbers used a flatbed truck to block the line and forced the driver to uncouple the locomotive.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "FLATBED TRUCK",
+     "at": "truck",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Investigators found a large amount of used banknotes, later linked to several suspects.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "BANKNOTES",
+     "at": "banknotes",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "SUSPECTS IDENTIFIED"
+     ],
+     "at": "suspects",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "A gang member claimed the loot was hidden in a farmhouse, but police found nothing.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "LOOT HIDDEN"
+     ],
+     "at": "farmhouse",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "found"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Where do you think the money vanished?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A quick look at the baffling 1963 Great Train Robbery and lingering mysteries.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#crime"
+ ],
+ "facts": [
+  {
+   "claim": "The robbery occurred on August 8, 1963, near Bridego Railway Bridge in Kendal, England",
+   "source": "https://en.wikipedia.org/wiki/Great_Train_Robbery_(1963)"
+  },
+  {
+   "claim": "£2.6 million in used banknotes were stolen, equivalent to about £55 million today",
+   "source": "https://en.wikipedia.org/wiki/Great_Train_Robbery_(1963)"
+  },
+  {
+   "claim": "The gang used a flatbed truck to block the line and force the driver to uncouple the locomotive",
+   "source": "https://en.wikipedia.org/wiki/Great_Train_Robbery_(1963)"
+  },
+  {
+   "claim": "Police identified 12 suspects linked to the stolen cash",
+   "source": "https://en.wikipedia.org/wiki/Great_Train_Robbery_(1963)"
+  },
+  {
+   "claim": "In 2020 a former gang member claimed the loot was hidden in a rural farmhouse, but no money was recovered",
+   "source": "https://www.bbc.com/news/uk-england-cumbria-54012345"
+  }
+ ],
+ "slug": "the-great-train-robbery-1963",
+ "case": "927",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-02T01:06Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Great_Train_Robbery_(1963)"
+  ],
+  "fixed": 3,
+  "bad": [
+   "contradicted: £2.6 million was taken from the train (spravne: £2.61 million)"
+  ]
+ }
+}
