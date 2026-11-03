@@ -1,12 +1,5 @@
 [
  {
-  "slug": "flannan-isles",
-  "date": "2026-10-02",
-  "site": "sea",
-  "music": "lightless",
-  "title": "The Flannan Isles Mystery"
- },
- {
   "slug": "flight-19",
   "date": "2026-10-03",
   "site": "sea",
@@ -208,5 +201,12 @@
   "site": "mountains",
   "music": null,
   "title": "The Hoia Baciu Forest Mystery"
+ },
+ {
+  "slug": "the-1911-mona-lisa-theft",
+  "date": "2026-11-03",
+  "site": "mountains",
+  "music": null,
+  "title": "The 1911 Mona Lisa Theft"
  }
 ]

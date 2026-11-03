@@ -1,0 +1,127 @@
+{
+ "topic": "Paris Art Heist",
+ "title": "The 2010 Paris Modern Art Heist",
+ "hook": "Who stole the priceless paintings from Paris in 2010, and why?",
+ "hook_style": "question",
+ "headline": "Missing Masterpieces from a Paris Museum",
+ "banner": [
+  "ARTWORK VANISHED.",
+  "NO SUSPECTS."
+ ],
+ "site": "sky",
+ "props": [
+  "observatory"
+ ],
+ "place": "PARIS, FRANCE",
+ "date": "MAY 2010",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In May 2010, thieves entered the Musée d'Art Moderne and vanished quietly.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "camera",
+     "caption": "MUSEUM",
+     "at": "May",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Police official reports list a broken security window and missing alarm logs.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "lock",
+     "caption": "BROKEN WINDOW",
+     "at": "window",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Investigators suspect an infamous gang led by known art thief Stéphane B.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "STÉPHANE B",
+     "at": "Stéphane",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "A hidden CCTV reel, released in 2022, shows a large white van speeding away.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "2022",
+     "small": "FOOTAGE",
+     "at": "2022",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "2022"
+    },
+    {
+     "t": "fx",
+     "fx": "flash",
+     "at": "van"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Who really orchestrated the Paris art theft?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling 2010 Paris art heist and the mysterious CCTV reveal.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#arttheft"
+ ],
+ "facts": [
+  {
+   "claim": "Musée d'Art Moderne de Paris",
+   "source": "https://en.wikipedia.org/wiki/Mus%C3%A9e_d'Art_Moderne_de_Paris"
+  },
+  {
+   "claim": "Art theft",
+   "source": "https://en.wikipedia.org/wiki/Art_theft"
+  }
+ ],
+ "slug": "the-2010-paris-modern-art-heist",
+ "case": "928",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-03T03:05Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Mus%C3%A9e_d'Art_Moderne_de_Paris",
+   "https://en.wikipedia.org/wiki/Art_theft"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}
