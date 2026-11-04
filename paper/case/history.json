@@ -1,12 +1,5 @@
 [
  {
-  "slug": "flight-19",
-  "date": "2026-10-03",
-  "site": "sea",
-  "music": "echoes",
-  "title": "Flight 19"
- },
- {
   "slug": "amelia-earhart",
   "date": "2026-10-04",
   "site": "sea",
@@ -208,5 +201,12 @@
   "site": "mountains",
   "music": null,
   "title": "The 1911 Mona Lisa Theft"
+ },
+ {
+  "slug": "the-2010-paris-modern-art-heist",
+  "date": "2026-11-04",
+  "site": "sky",
+  "music": null,
+  "title": "The 2010 Paris Modern Art Heist"
  }
 ]

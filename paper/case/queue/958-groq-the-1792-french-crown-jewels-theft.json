@@ -1,0 +1,118 @@
+{
+ "topic": "Crown Jewels Heist",
+ "title": "The 1792 French Crown Jewels Theft",
+ "hook": "Who stole France's priceless jewels during the Revolution?",
+ "hook_style": "question",
+ "headline": "Mystery of the Missing French Crown Jewels",
+ "banner": [
+  "CROWN JEWELS VANISH",
+  "NO TRAIL LEFT"
+ ],
+ "site": "sky",
+ "props": [
+  "observatory"
+ ],
+ "place": "PARIS, FRANCE",
+ "date": "SEPTEMBER 1792",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "On September eleven 1792 thieves broke into the Garde Meuble in Paris",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "lock",
+     "caption": "GARDMEUBLE",
+     "at": "eleven",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Four men, including a former royal valet, used a duplicate key",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "FOUR THIEVES",
+      "FORMER VALET",
+      "DUPLICATE KEY"
+     ],
+     "at": "Four",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "They vanished with gems valued at thirty million livres and escaped through a tunnel",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "30M",
+     "small": "LIVRES",
+     "at": "thirty",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "The Hope diamond resurfaced in 1812, hinting at a Swiss smuggler per police reports",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "star",
+     "caption": "HOPE",
+     "at": "Hope",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Who might have hidden the stolen treasure for centuries?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling 1792 theft of France's crown jewels and the clues that still puzzle historians.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#jewels"
+ ],
+ "facts": [
+  {
+   "claim": "French Crown Jewels",
+   "source": "https://en.wikipedia.org/wiki/French_Crown_Jewels"
+  },
+  {
+   "claim": "2025 Louvre heist",
+   "source": "https://en.wikipedia.org/wiki/2025_Louvre_heist"
+  }
+ ],
+ "slug": "the-1792-french-crown-jewels-theft",
+ "case": "929",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-04T01:38Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/French_Crown_Jewels",
+   "https://en.wikipedia.org/wiki/2025_Louvre_heist"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}
