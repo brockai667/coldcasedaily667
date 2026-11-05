@@ -1,6 +1,6 @@
 {
  "factory": "ColdCaseDaily",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "name": "copy-924-groq-the-somerton-man-mystery",
  "started": "2026-11-01",
  "hypothesis": "A hook that ties an enigmatic case to emotional intrigue drives higher viewership.",
@@ -11,9 +11,11 @@
   "tiktok": 84,
   "instagram": 31
  },
- "metric_now": {},
- "ratio_now": null,
- "n_tagged": 0,
+ "metric_now": {
+  "tiktok": 267
+ },
+ "ratio_now": 2.934,
+ "n_tagged": 1,
  "status": "running",
  "rules": 1,
  "last": {

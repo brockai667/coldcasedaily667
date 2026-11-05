@@ -1,0 +1,124 @@
+{
+ "topic": "Amber Room",
+ "title": "The Amber Room",
+ "hook": "Who really stole the world's most priceless room?",
+ "hook_style": "question",
+ "headline": "The missing masterpiece vanished in war",
+ "banner": [
+  "GOLDEN CHAMBER",
+  "DISAPPEARED"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "CATHERINE PALACE, RUSSIA",
+ "date": "MAY 1941",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1701 the Amber Room was begun for Charlottenburg Palace in Berlin, not commissioned by Peter the Great.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "AMBER ROOM",
+     "at": "amber",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The room was installed in the Catherine Palace by 1716 in Saint Petersburg.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "Catherine Palace",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "PALACE MAP",
+     "at": "Palace",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "Palace"
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Nazi troops seized the Amber Room during the 1941 invasion of the Soviet Union, taking it from the Catherine Palace and moving it to Königsberg.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "LOOTED",
+     "at": "Nazi",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Its whereabouts remain unknown, though a 2016 Russian investigation suggested a hidden bunker.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "NO TRACE",
+      "BUNKER THEORY"
+     ],
+     "at": "bunker",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "Where do you think the Amber Room lies today?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mystery of the vanished Amber Room and the clues left behind.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#losttreasure"
+ ],
+ "facts": [
+  {
+   "claim": "Amber Room",
+   "source": "https://en.wikipedia.org/wiki/Amber_Room"
+  }
+ ],
+ "slug": "the-amber-room",
+ "case": "930",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-05T01:46Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Amber_Room"
+  ],
+  "fixed": 2,
+  "unsupported": 1
+ }
+}

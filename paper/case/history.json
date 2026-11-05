@@ -1,12 +1,5 @@
 [
  {
-  "slug": "amelia-earhart",
-  "date": "2026-10-04",
-  "site": "sea",
-  "music": "cutandrun",
-  "title": "Amelia Earhart's Last Flight"
- },
- {
   "slug": "ss-baychimo",
   "date": "2026-10-05",
   "site": "sea",
@@ -208,5 +201,12 @@
   "site": "sky",
   "music": null,
   "title": "The 2010 Paris Modern Art Heist"
+ },
+ {
+  "slug": "the-1792-french-crown-jewels-theft",
+  "date": "2026-11-05",
+  "site": "sky",
+  "music": null,
+  "title": "The 1792 French Crown Jewels Theft"
  }
 ]
