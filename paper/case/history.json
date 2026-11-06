@@ -1,12 +1,5 @@
 [
  {
-  "slug": "ss-baychimo",
-  "date": "2026-10-05",
-  "site": "sea",
-  "music": "lightless",
-  "title": "The Ghost Ship SS Baychimo"
- },
- {
   "slug": "franklin-expedition",
   "date": "2026-10-06",
   "site": "sea",
@@ -208,5 +201,12 @@
   "site": "sky",
   "music": null,
   "title": "The 1792 French Crown Jewels Theft"
+ },
+ {
+  "slug": "the-amber-room",
+  "date": "2026-11-06",
+  "site": "mountains",
+  "music": null,
+  "title": "The Amber Room"
  }
 ]

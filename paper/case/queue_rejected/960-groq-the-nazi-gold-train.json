@@ -1,0 +1,122 @@
+{
+ "topic": "Nazi Gold Train",
+ "title": "The Nazi Gold Train",
+ "hook": "Who buried a train of treasure beneath the Polish mountains?",
+ "hook_style": "question",
+ "headline": "Hidden treasure train in Poland's tunnels",
+ "banner": [
+  "MYSTERIOUS TRAIN",
+  "GOLD STILL HID"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "OWL MOUNTAINS, POLAND",
+ "date": "SEPTEMBER 1945",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "After World War II, officers vanished with a train loaded with gold.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "question",
+     "caption": "MYSTERIOUS TRAIN",
+     "at": "train"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Investigators reported a tunnel entrance near the village of Kłodzko.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "mountains",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "TUNNEL SITE",
+     "at": "village",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "A sonar scan detected an underground cavity filled with metal debris.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "100M",
+     "small": "UNDERGROUND CAVITY",
+     "at": "cavity",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Analysis suggests the cavity housed a railway shelter rather than treasure.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "shelter"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really lies beneath the Owl Mountains?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious Nazi gold train legend and recent findings.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "In September 1945 SS officers vanished with a train loaded with gold",
+   "source": "Wikipedia"
+  },
+  {
+   "claim": "Polish investigators reported a tunnel entrance near Kłodzko in 2015",
+   "source": "BBC News"
+  },
+  {
+   "claim": "A 2016 sonar scan detected a 100-meter underground cavity with metal debris",
+   "source": "Polish Geological Institute"
+  },
+  {
+   "claim": "2023 analysis indicates the cavity likely housed a railway shelter, not treasure",
+   "source": "ScienceAlert"
+  }
+ ],
+ "slug": "the-nazi-gold-train",
+ "case": "931",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-06T01:48Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Nazi_gold_train"
+  ],
+  "fixed": 4,
+  "bad": [
+   "contradicted: tunnel entrance near the village of Kłodzko (spravne: tunnel entrance near Świebodzice/Książ Castle in the Owl Mountains)"
+  ]
+ }
+}

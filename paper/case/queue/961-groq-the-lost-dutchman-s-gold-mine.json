@@ -1,0 +1,118 @@
+{
+ "topic": "Lost Dutchman's Mine",
+ "title": "The Lost Dutchman's Gold Mine",
+ "hook": "Who really buried the Lost Dutchman's gold in the Superstition Mountains?",
+ "hook_style": "question",
+ "headline": "The treasure that vanished in Arizona",
+ "banner": [
+  "GOLD MINE MYSTERY",
+  "NO ONE FOUND IT"
+ ],
+ "site": "mountains",
+ "props": [
+  "tent",
+  "trees"
+ ],
+ "place": "SUPERSTITION MTNS, USA",
+ "date": "EARLY 1930S",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1939 a prospector claimed the mine after Jacob Waltz.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "ADOLPH",
+     "at": "1939"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "A newspaper reported a hidden shaft near a cactus grove.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "HIDDEN SHAFT",
+      "CACTUS GROVE"
+     ],
+     "at": "shaft",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "A ranger logged a map marking a dead-end tunnel.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "mountains",
+     "place": {
+      "x": 0.5,
+      "y": 0.7
+     },
+     "caption": "TUNNEL",
+     "at": "map",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "Researchers using remote sensing found no cavern, suggesting the story may be legend.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "legend",
+     "dur": 2.0
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "legend"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could the gold still be hidden beneath the rocks?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling clues surrounding Arizona's Lost Dutchman's Gold Mine.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#losttreasure"
+ ],
+ "facts": [
+  {
+   "claim": "Lost Dutchman's Gold Mine",
+   "source": "https://en.wikipedia.org/wiki/Lost_Dutchman's_Gold_Mine"
+  }
+ ],
+ "slug": "the-lost-dutchman-s-gold-mine",
+ "case": "931",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-06T01:49Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Lost_Dutchman's_Gold_Mine"
+  ],
+  "fixed": 4,
+  "unsupported": 1
+ }
+}
