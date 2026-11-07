@@ -1,12 +1,5 @@
 [
  {
-  "slug": "franklin-expedition",
-  "date": "2026-10-06",
-  "site": "sea",
-  "music": "echoes",
-  "title": "The Franklin Expedition"
- },
- {
   "slug": "tunguska-event",
   "date": "2026-10-07",
   "site": "mountains",
@@ -208,5 +201,12 @@
   "site": "mountains",
   "music": null,
   "title": "The Amber Room"
+ },
+ {
+  "slug": "the-lost-dutchman-s-gold-mine",
+  "date": "2026-11-07",
+  "site": "mountains",
+  "music": null,
+  "title": "The Lost Dutchman's Gold Mine"
  }
 ]

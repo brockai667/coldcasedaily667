@@ -1,0 +1,112 @@
+{
+ "topic": "Kryptos Cipher",
+ "title": "The Kryptos Sculpture Cipher",
+ "hook": "What secret lies hidden in the CIA's Kryptos sculpture?",
+ "hook_style": "question",
+ "headline": "The Uncracked Secret of Kryptos",
+ "banner": [
+  "MYSTERY SCULPTURE",
+  "CODE UNCRACKED"
+ ],
+ "site": "sky",
+ "props": [
+  "trees"
+ ],
+ "place": "WASHINGTON, D.C., USA",
+ "date": "NOVEMBER 1990",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In November 1990, artist Jim Sanborn installed Kryptos at CIA headquarters",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "camera",
+     "caption": "KRYPTO SCULPTURE",
+     "at": "installed",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The 1,800-character cipher contains four sections, three of which have been solved",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "SECTION ONE: AMBRY",
+      "SECTION TWO: LATER"
+     ],
+     "at": "solved",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The final section, known as K4, remains unsolved despite years of attempts",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "K4",
+     "small": "UNSOLVED",
+     "at": "unsolved",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "In 2023, a CIA analyst said a clue hints at a distant planet",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "PLANET CLUE"
+     ],
+     "at": "planet",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What could the hidden planet reference really mean?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the enduring mystery of the Kryptos sculpture and its unsolved cipher.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#cipher",
+  "#cryptography"
+ ],
+ "facts": [
+  {
+   "claim": "Kryptos",
+   "source": "https://en.wikipedia.org/wiki/Kryptos"
+  }
+ ],
+ "slug": "the-kryptos-sculpture-cipher",
+ "case": "932",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-924-groq-the-somerton-man-mystery",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-07T01:07Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Kryptos"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}
