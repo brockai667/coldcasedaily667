@@ -1,39 +1,32 @@
 {
  "current": {
-  "name": "copy-924-groq-the-somerton-man-mystery",
+  "name": "copy-956-groq-the-1911-mona-lisa-theft",
   "slot": "winner",
-  "instruction": "Begin with a provocative question that frames the unsolved case as a lingering, personal mystery for the audience.",
-  "hypothesis": "A hook that ties an enigmatic case to emotional intrigue drives higher viewership.",
+  "instruction": "Start with a concise, curiosity-driven hook asking who stole/what happened, then recount the event in three rapid facts, ending with a personal-choice question.",
+  "hypothesis": "The hook’s direct question and tight three‑point narrative create immediate intrigue and high retention.",
   "keywords": [
+   "theft",
    "mystery",
-   "unsolved",
-   "haunt",
-   "coldcase"
+   "heist",
+   "disappearance"
   ],
   "source": "winner",
   "winner": {
-   "spec": "924-groq-the-somerton-man-mystery",
-   "title": "The Somerton Man Mystery",
-   "score": 3.14,
+   "spec": "956-groq-the-1911-mona-lisa-theft",
+   "title": "The 1911 Mona Lisa Theft",
+   "score": 2.41,
    "per_platform": {
-    "youtube": 4.89,
-    "instagram": 2.02
+    "youtube": 6.17,
+    "tiktok": 0.94
    }
   },
-  "started": "2026-11-01",
+  "started": "2026-11-08",
   "baseline_median": {
-   "youtube": 30.0,
-   "tiktok": 84,
-   "instagram": 31
+   "youtube": 68,
+   "tiktok": 251
   },
   "baseline_approx": [],
-  "tagged": [
-   "952-groq-the-hoia-baciu-forest-mystery",
-   "956-groq-the-1911-mona-lisa-theft",
-   "957-groq-the-2010-paris-modern-art-heist",
-   "958-groq-the-1792-french-crown-jewels-theft",
-   "959-groq-the-amber-room"
-  ]
+  "tagged": []
  },
  "rules": [
   {
@@ -42,6 +35,13 @@
    "instruction": "Start with a concise, intriguing hook that frames the mystery as a long-standing, unexplained phenomenon, then present brief chronological sightings before asking a speculative question.",
    "kept_on": "2026-10-25",
    "ratio": 1.274
+  },
+  {
+   "name": "copy-924-groq-the-somerton-man-mystery",
+   "slot": "winner",
+   "instruction": "Begin with a provocative question that frames the unsolved case as a lingering, personal mystery for the audience.",
+   "kept_on": "2026-11-08",
+   "ratio": 1.707
   }
  ],
  "history": [
@@ -72,6 +72,20 @@
    },
    "n_tagged": 3,
    "status": "reverted"
+  },
+  {
+   "name": "copy-924-groq-the-somerton-man-mystery",
+   "slot": "winner",
+   "instruction": "Begin with a provocative question that frames the unsolved case as a lingering, personal mystery for the audience.",
+   "started": "2026-11-01",
+   "ended": "2026-11-08",
+   "ratio": 1.707,
+   "per_platform": {
+    "youtube": 0.568,
+    "tiktok": 2.846
+   },
+   "n_tagged": 4,
+   "status": "kept"
   }
  ]
 }

@@ -1,0 +1,119 @@
+{
+ "topic": "Bierce Vanishes",
+ "title": "The Disappearance of Ambrose Bierce",
+ "hook": "Who vanished the famed writer Ambrose Bierce in Mexico?",
+ "hook_style": "question",
+ "headline": "Mystery of the Lost War Correspondent",
+ "banner": [
+  "WRITER VANISHED",
+  "NO TRACE FOUND"
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "VERACRUZ, MEXICO",
+ "date": "MARCH 1913",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "He departed in October 1913 for a tour of his old Civil War battlefields, boarding a ship alone.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "BIERCE'S SHIP",
+     "at": "ship"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "He was last seen in the city of Chihuahua in January.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sea",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "VERACRUZ",
+     "at": "last",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "A local newspaper reported a mysterious fire raging on the pier that night.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "NO BODY FOUND"
+     ],
+     "at": "fire",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "In 1925, a diary entry claimed Bierce survived, living quietly near Puebla.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": [
+      1,
+      2
+     ],
+     "title": "DIARY",
+     "at": "diary",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to Ambrose Bierce?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling disappearance of writer Ambrose Bierce in 1913.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Ambrose Bierce",
+   "source": "https://en.wikipedia.org/wiki/Ambrose_Bierce"
+  }
+ ],
+ "slug": "the-disappearance-of-ambrose-bierce",
+ "case": "933",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-08T00:55Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Ambrose_Bierce"
+  ],
+  "fixed": 2,
+  "unsupported": 2
+ }
+}

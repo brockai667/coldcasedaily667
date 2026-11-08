@@ -1,12 +1,5 @@
 [
  {
-  "slug": "tunguska-event",
-  "date": "2026-10-07",
-  "site": "mountains",
-  "music": "cutandrun",
-  "title": "The Tunguska Event"
- },
- {
   "slug": "hessdalen-lights",
   "date": "2026-10-08",
   "site": "mountains",
@@ -208,5 +201,12 @@
   "site": "mountains",
   "music": null,
   "title": "The Lost Dutchman's Gold Mine"
+ },
+ {
+  "slug": "the-kryptos-sculpture-cipher",
+  "date": "2026-11-08",
+  "site": "sky",
+  "music": null,
+  "title": "The Kryptos Sculpture Cipher"
  }
 ]
