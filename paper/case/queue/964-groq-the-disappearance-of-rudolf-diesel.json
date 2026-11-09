@@ -1,0 +1,117 @@
+{
+ "topic": "Diesel Vanishes",
+ "title": "The Disappearance of Rudolf Diesel",
+ "hook": "Who vanished with the engine pioneer on a stormy night?",
+ "hook_style": "question",
+ "headline": "Engine Inventor's Mysterious Vanishing",
+ "banner": [
+  "RUDOLF DIESEL",
+  "MISSING AT SEA"
+ ],
+ "site": "sea",
+ "props": [
+  "ship",
+  "buoy"
+ ],
+ "place": "NORTH SEA, BELGIUM",
+ "date": "MAY 1913",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "Rudolf Diesel boarded the SS Dresden in Antwerp on 29 September 1913.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "SS DRESDEN",
+     "at": "Dresden"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Witnesses reported seeing Diesel's cabin door locked and his luggage untouched.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "LUGGAGE FOUND",
+      "UNTOUCHED"
+     ],
+     "at": "luggage",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The ship's log recorded a sudden storm at 02:00 and no distress call.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "LOG ENTRY",
+     "redact": [
+      1
+     ],
+     "at": "storm",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Later, a lifeboat was found adrift with Diesel's watch but no body.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "watch",
+     "caption": "DIESEL'S WATCH",
+     "at": "watch",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to Diesel that night?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious 1913 disappearance of engine inventor Rudolf Diesel.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Rudolf Diesel",
+   "source": "https://en.wikipedia.org/wiki/Rudolf_Diesel"
+  },
+  {
+   "claim": "XXX: Return of Xander Cage",
+   "source": "https://en.wikipedia.org/wiki/XXX%3A_Return_of_Xander_Cage"
+  }
+ ],
+ "slug": "the-disappearance-of-rudolf-diesel",
+ "case": "934",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-09T01:12Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Rudolf_Diesel",
+   "https://en.wikipedia.org/wiki/XXX%3A_Return_of_Xander_Cage"
+  ],
+  "fixed": 1,
+  "unsupported": 0
+ }
+}

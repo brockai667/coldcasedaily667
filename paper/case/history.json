@@ -1,12 +1,5 @@
 [
  {
-  "slug": "hessdalen-lights",
-  "date": "2026-10-08",
-  "site": "mountains",
-  "music": "lightless",
-  "title": "The Hessdalen Lights"
- },
- {
   "slug": "shiptons-yeti-footprint",
   "date": "2026-10-09",
   "site": "mountains",
@@ -208,5 +201,12 @@
   "site": "sky",
   "music": null,
   "title": "The Kryptos Sculpture Cipher"
+ },
+ {
+  "slug": "the-disappearance-of-ambrose-bierce",
+  "date": "2026-11-09",
+  "site": "sea",
+  "music": null,
+  "title": "The Disappearance of Ambrose Bierce"
  }
 ]
