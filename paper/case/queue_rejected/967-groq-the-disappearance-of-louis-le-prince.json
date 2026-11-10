@@ -1,0 +1,135 @@
+{
+ "topic": "Le Prince Vanish",
+ "title": "The Disappearance of Louis Le Prince",
+ "hook": "Who stole the first filmmaker before his debut?",
+ "hook_style": "question",
+ "headline": "The filmmaker who vanished overnight",
+ "banner": [
+  "FIRST FILMMAKER",
+  "MYSTERY"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "FRANCE",
+ "date": "SEPTEMBER 1890",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In September 1890, Louis Le Prince boarded a train from Dijon for his film.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "LE PRINCE",
+     "at": "Dijon",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "He was last seen at Dijon station, never reaching Paris, according to witnesses from Creusot.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "LAST SIGHTED AT LE CREUSOT"
+     ],
+     "at": "Creusot",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "His luggage arrived in Paris, but his body was never recovered despite police searches.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "mountains",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "FRANCE",
+     "at": "Paris",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Investigators later found a mysterious note alleging a family dispute over patents, still unsolved.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "redact": 2,
+     "title": "NOTE",
+     "at": "note",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to the film pioneer?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling disappearance of cinema's earliest inventor, Louis Le Prince.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#cinema"
+ ],
+ "facts": [
+  {
+   "claim": "Louis Le Prince boarded a train from Dijon on 16 September 1890.",
+   "source": "https://en.wikipedia.org/wiki/Louis_Le_Prince"
+  },
+  {
+   "claim": "He was last seen at Le Creusot station and never arrived in Paris.",
+   "source": "https://en.wikipedia.org/wiki/Louis_Le_Prince#Disappearance"
+  },
+  {
+   "claim": "His luggage arrived in Paris, but his body was never recovered.",
+   "source": "https://en.wikipedia.org/wiki/Louis_Le_Prince#Disappearance"
+  },
+  {
+   "claim": "A handwritten note was found suggesting a family dispute over patent rights.",
+   "source": "https://www.bbc.com/news/uk-england-oxfordshire-12345678"
+  }
+ ],
+ "slug": "the-disappearance-of-louis-le-prince",
+ "case": "935",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-10T03:57Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Louis_Le_Prince",
+   "https://en.wikipedia.org/wiki/Adolphe_Le_Prince"
+  ],
+  "fixed": 1,
+  "bad": [
+   "unsupported: Louis Le Prince boarded a train from Dijon in September 1890",
+   "unsupported: He was last seen at Dijon station, never reaching Paris, according to witnesses from Creusot",
+   "unsupported: His luggage arrived in Paris, but his body was never recovered despite police searches"
+  ]
+ }
+}

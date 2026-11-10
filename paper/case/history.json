@@ -1,12 +1,5 @@
 [
  {
-  "slug": "shiptons-yeti-footprint",
-  "date": "2026-10-09",
-  "site": "mountains",
-  "music": "echoes",
-  "title": "Shipton's Yeti Footprint"
- },
- {
   "slug": "phoenix-lights",
   "date": "2026-10-10",
   "site": "sky",
@@ -208,5 +201,12 @@
   "site": "sea",
   "music": null,
   "title": "The Disappearance of Ambrose Bierce"
+ },
+ {
+  "slug": "the-disappearance-of-rudolf-diesel",
+  "date": "2026-11-10",
+  "site": "sea",
+  "music": null,
+  "title": "The Disappearance of Rudolf Diesel"
  }
 ]

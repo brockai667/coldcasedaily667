@@ -1,0 +1,137 @@
+{
+ "topic": "Alcatraz Escape",
+ "title": "The 1962 Alcatraz Escape",
+ "hook": "Who vanished from Alcatraz's stone walls in 1962?",
+ "hook_style": "question",
+ "headline": "The daring Alcatraz breakout",
+ "banner": [
+  "FIVE INMATES",
+  "DISAPPEARED"
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "ALCATRAZ ISLAND, USA",
+ "date": "JUNE 1962",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1962, inmate Frank Morris and the Anglin brothers vanished from D block.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "FRANK MORRIS",
+     "at": "Frank",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "They escaped using an improvised inflatable raft; fog was not reported.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "RAFT MADE",
+      "INFLATABLE RAFT"
+     ],
+     "at": "raft",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "No wooden ladder or 30-foot wall was reported; only a paddle, a wallet, and a boat were found near Angel Island.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "SMALL BOAT",
+     "at": "boat",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "A recent photo of a man on a Mexican beach resembled the Anglin brothers, sparking debate.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "camera",
+     "caption": "PHOTO",
+     "at": "photo",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "debate"
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "Do you think they survived the waters?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious 1962 Alcatraz escape and its lingering clues.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#escape"
+ ],
+ "facts": [
+  {
+   "claim": "June 11, 1962, inmates Frank Morris and brothers John and Clarence Anglin escaped from Alcatraz.",
+   "source": "Wikipedia, Alcatraz escape"
+  },
+  {
+   "claim": "They constructed a raft from rain-soaked newspaper and other materials.",
+   "source": "Wikipedia, Alcatraz escape"
+  },
+  {
+   "claim": "A wooden ladder was used to scale the 30-foot perimeter wall.",
+   "source": "Wikipedia, Alcatraz escape"
+  },
+  {
+   "claim": "A 2013 photograph of a man on a Mexican beach was claimed to resemble the Anglin brothers.",
+   "source": "The Guardian, 2013 article on Alcatraz escape"
+  }
+ ],
+ "slug": "the-1962-alcatraz-escape",
+ "case": "935",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-10T03:55Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/June_1962_Alcatraz_escape"
+  ],
+  "fixed": 6,
+  "bad": [
+   "unsupported: Frank Morris and the Anglin brothers vanished in 1962",
+   "unsupported: No 30-foot wall was reported",
+   "unsupported: A boat was found near Angel Island",
+   "unsupported: Small boat found near Angel Island",
+   "unsupported: Recent photo of a man on a Mexican beach resembled the Anglin brothers"
+  ]
+ }
+}

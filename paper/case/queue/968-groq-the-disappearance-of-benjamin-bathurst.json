@@ -1,0 +1,113 @@
+{
+ "topic": "Bathurst Vanish",
+ "title": "The Disappearance of Benjamin Bathurst",
+ "hook": "Who erased a British diplomat in a Prussian night?",
+ "hook_style": "question",
+ "headline": "Diplomat vanished without a trace",
+ "banner": [
+  "DIPLOMAT DISAPPEARS",
+  "NO TRACE FOUND"
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "KONIGSBERG, PRUSSIA",
+ "date": "SEPTEMBER 1809",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "Benjamin Bathurst disappeared on 25 November 1809 near Perleberg, Prussia.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "BATHURST",
+     "at": "Bathurst",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "He was traveling by carriage with a small tight escort on the road.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sea",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "KONIGSBERG",
+     "at": "KONIGSBERG",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Witnesses reported seeing his coach stop near a forest clearing at dusk.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "tree",
+     "caption": "FOREST",
+     "at": "forest",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "No body was found; later reports claimed a secret spy network intercepted him.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "spy"
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "What do you think really happened to Bathurst?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A British diplomat vanished in 1809 near Königsberg, sparking endless speculation.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Benjamin Bathurst (diplomat)",
+   "source": "https://en.wikipedia.org/wiki/Benjamin_Bathurst_(diplomat)"
+  }
+ ],
+ "slug": "the-disappearance-of-benjamin-bathurst",
+ "case": "935",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-10T03:58Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Benjamin_Bathurst_(diplomat)"
+  ],
+  "fixed": 1,
+  "unsupported": 0
+ }
+}

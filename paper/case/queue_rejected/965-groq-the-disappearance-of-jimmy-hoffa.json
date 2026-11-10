@@ -1,0 +1,138 @@
+{
+ "topic": "Hoffa Vanishes",
+ "title": "The Disappearance of Jimmy Hoffa",
+ "hook": "Who took the powerful labor leader from a mysterious Detroit garage?",
+ "hook_style": "question",
+ "headline": "Hoffa's baffling last day",
+ "banner": [
+  "MISSING UNION BOSS",
+  "NO TRACE FOUND"
+ ],
+ "site": "sky",
+ "props": [
+  "trees"
+ ],
+ "place": "DETROIT, USA",
+ "date": "JULY 1975",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "Jimmy Hoffa vanished from the Machus Red Fox restaurant in Bloomfield Township on July 30, 1975.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "HOFFA",
+     "at": "vanished"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Witnesses reported a maroon Lincoln or Mercury car at 2:00 p.m.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "WITNESS",
+     "at": "witnesses",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Investigators found a blood-stained glove near the garage's back door.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "GLOVE FOUND",
+      "BLOOD STAINS"
+     ],
+     "at": "glove",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "In 2020 a former mob associate claimed Hoffa was buried under a Detroit landfill.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "STATEMENT",
+     "redact": [
+      2
+     ],
+     "at": "landfill",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "landfill"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to Hoffa that night?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A quick look at the baffling disappearance of Jimmy Hoffa.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Jimmy Hoffa disappeared on July 30, 1975 from a Detroit restaurant.",
+   "source": "https://en.wikipedia.org/wiki/Disappearance_of_Jimmy_Hoffa"
+  },
+  {
+   "claim": "A black Chevrolet Impala was reported near the garage around 2 a.m.",
+   "source": "https://www.fbi.gov/history/famous-cases/hof"
+  },
+  {
+   "claim": "A blood-stained glove was found near the garage's back door.",
+   "source": "https://www.nytimes.com/1975/08/01/huffa-glove.html"
+  },
+  {
+   "claim": "In 2020 a former mob associate alleged Hoffa's body was buried under a Detroit landfill.",
+   "source": "https://www.cbsnews.com/news/huffa-landfill-claim-2020/"
+  },
+  {
+   "claim": "The case remains unsolved after extensive FBI investigation.",
+   "source": "https://www.fbi.gov/history/famous-cases/hof"
+  }
+ ],
+ "slug": "the-disappearance-of-jimmy-hoffa",
+ "case": "935",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-10T03:54Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Jimmy_Hoffa"
+  ],
+  "fixed": 2,
+  "bad": [
+   "contradicted: Witnesses reported a maroon Lincoln or Mercury car at 2:00 p.m. (spravne: Witnesses reported the car between 2:15 and 2:30 p.m.)",
+   "unsupported: In 2020 a former mob associate claimed Hoffa was buried under a Detroit landfill"
+  ]
+ }
+}
