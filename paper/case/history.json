@@ -1,12 +1,5 @@
 [
  {
-  "slug": "phoenix-lights",
-  "date": "2026-10-10",
-  "site": "sky",
-  "music": "cutandrun",
-  "title": "The Phoenix Lights"
- },
- {
   "slug": "kentucky-meat-shower",
   "date": "2026-10-11",
   "site": "sky",
@@ -208,5 +201,12 @@
   "site": "sea",
   "music": null,
   "title": "The Disappearance of Rudolf Diesel"
+ },
+ {
+  "slug": "the-disappearance-of-benjamin-bathurst",
+  "date": "2026-11-11",
+  "site": "sea",
+  "music": null,
+  "title": "The Disappearance of Benjamin Bathurst"
  }
 ]
