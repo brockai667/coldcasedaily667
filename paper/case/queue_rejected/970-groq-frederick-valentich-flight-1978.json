@@ -1,0 +1,138 @@
+{
+ "topic": "Valentich Disappearance",
+ "title": "Frederick Valentich Flight 1978",
+ "hook": "Who vanished over Bass Strait in 1978?",
+ "hook_style": "question",
+ "headline": "Mystery over Bass Strait",
+ "banner": [
+  "PILOT GONE.",
+  "NO TRACE."
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "BASS STRAIT, AUSTRALIA",
+ "date": "NOVEMBER 1978",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "On 21 November, 20-year-old pilot Frederick Valentich took off from Moorabbin Airport.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "plane",
+     "caption": "CESSNA 182L",
+     "at": "Moorabbin"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "He reported a green light at about 1,400 m (4,500 ft) altitude.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "GREEN LIGHT"
+     ],
+     "at": "green",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Radio logs show his final transmission at 2:14 am, asking, \"Is there anyone there?\"",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "TRANSMISSION",
+     "redact": [
+      2,
+      3
+     ],
+     "at": "transmission",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "Searches found only a crashed buoy and a missing-person report, no wreckage.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "anchor",
+     "caption": "CRASHED BUOY",
+     "at": "buoy",
+     "string": true
+    },
+    {
+     "t": "fx",
+     "fx": "waves",
+     "at": "crashed",
+     "dur": 1.5
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What do you think caused the strange lights?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "The 1978 disappearance of pilot Frederick Valentich over Bass Strait remains baffling.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#aviation",
+  "#ghostplane"
+ ],
+ "facts": [
+  {
+   "claim": "Frederick Valentich, a 20-year-old pilot, departed Moorabbin Airport on 21 November 1978.",
+   "source": "https://en.wikipedia.org/wiki/Frederick_Valentich"
+  },
+  {
+   "claim": "He reported a bright green light hovering near his Cessna at about 3 km altitude.",
+   "source": "https://en.wikipedia.org/wiki/Frederick_Valentich"
+  },
+  {
+   "claim": "His final radio transmission was recorded at 2:14 am, asking \"Is there anyone there?\".",
+   "source": "https://en.wikipedia.org/wiki/Frederick_Valentich"
+  },
+  {
+   "claim": "Searches recovered only a buoy and found no aircraft wreckage.",
+   "source": "https://en.wikipedia.org/wiki/Frederick_Valentich"
+  },
+  {
+   "claim": "The case remains classified as an unsolved aviation mystery.",
+   "source": "https://en.wikipedia.org/wiki/Frederick_Valentich"
+  }
+ ],
+ "slug": "frederick-valentich-flight-1978",
+ "case": "937",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-12T02:28Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Disappearance_of_Frederick_Valentich"
+  ],
+  "fixed": 2,
+  "bad": [
+   "contradicted: On 21 November, 20-year-old pilot Frederick Valentich took off from Moorabbin Airport (spravne: 21 October 1978)",
+   "contradicted: Radio logs show his final transmission at 2:14 am, asking, \"Is there anyone there?\" (spravne: 7:06 pm)"
+  ]
+ }
+}

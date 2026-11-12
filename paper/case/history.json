@@ -1,12 +1,5 @@
 [
  {
-  "slug": "kentucky-meat-shower",
-  "date": "2026-10-11",
-  "site": "sky",
-  "music": "lightless",
-  "title": "The Kentucky Meat Shower"
- },
- {
   "slug": "rendlesham-forest",
   "date": "2026-10-12",
   "site": "sky",
@@ -208,5 +201,12 @@
   "site": "sea",
   "music": null,
   "title": "The Disappearance of Benjamin Bathurst"
+ },
+ {
+  "slug": "theodosia-burr-alston-disappearance",
+  "date": "2026-11-12",
+  "site": "sea",
+  "music": null,
+  "title": "Theodosia Burr Alston Disappearance"
  }
 ]

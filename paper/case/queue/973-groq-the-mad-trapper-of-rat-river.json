@@ -1,0 +1,129 @@
+{
+ "topic": "Mad Trapper of Rat River",
+ "title": "The Mad Trapper of Rat River",
+ "hook": "Who chased the mad trapper through the deep frozen Yukon?",
+ "hook_style": "question",
+ "headline": "Yukon's Deadly Manhunt Unsolved",
+ "banner": [
+  "MAD TRAPPER.",
+  "NO TRACE."
+ ],
+ "site": "mountains",
+ "props": [
+  "tent",
+  "footprints"
+ ],
+ "place": "RAT RIVER, CANADA",
+ "date": "AUGUST 1931",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In August 1931, RCMP Constable John Stewart vanished near Rat River.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "CONSTABLE",
+     "at": "John"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "site",
+   "line": "A massive snowstorm forced the trapper's camp into a frozen tent.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "snow",
+     "at": "snowstorm",
+     "dur": 2.0
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Albert Johnson, dubbed the Mad Trapper, shot at pursuing officers in January 1932.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "ALFRED CAMPBELL",
+     "at": "albert"
+    },
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "SHOT AT OFFICERS"
+     ],
+     "at": "shot",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "shot"
+    },
+    {
+     "t": "focus",
+     "at": "shot",
+     "dur": 0.8
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Investigators later found the trapper's rifle missing, suggesting he escaped into the wild.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "RIFLE MISSING"
+     ],
+     "at": "rifle"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to the Mad Trapper?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A brief look at the 1931 Yukon chase of the mysterious Mad Trapper.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#coldcase"
+ ],
+ "facts": [
+  {
+   "claim": "Albert Johnson (criminal)",
+   "source": "https://en.wikipedia.org/wiki/Albert_Johnson_(criminal)"
+  }
+ ],
+ "slug": "the-mad-trapper-of-rat-river",
+ "case": "937",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-12T02:32Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Albert_Johnson_(criminal)"
+  ],
+  "fixed": 1,
+  "unsupported": 2
+ }
+}

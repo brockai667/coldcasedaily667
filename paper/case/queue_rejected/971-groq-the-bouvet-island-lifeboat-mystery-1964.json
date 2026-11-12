@@ -1,0 +1,132 @@
+{
+ "topic": "Bouvet Lifeboat 1964",
+ "title": "The Bouvet Island Lifeboat Mystery (1964)",
+ "hook": "Who abandoned a lifeboat on the world's most remote island?",
+ "hook_style": "question",
+ "headline": "Abandoned lifeboat on a ghost island",
+ "banner": [
+  "LIFEBOT DISCOVERED",
+  "MYSTERY REMAINS"
+ ],
+ "site": "sea",
+ "props": [
+  "ship",
+  "rocks"
+ ],
+ "place": "BOUVET ISLAND, ATLANTIC",
+ "date": "MAY 1964",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In May 1964 a Norwegian sealing ship vanished near Bouvet Island.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sea",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "BOUVET ISLAND",
+     "at": "Bouvet"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "A lifeboat washed ashore bearing a Norwegian flag and a dead crewman.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "LIFEBOAT",
+     "at": "lifeboat",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The boat's logbook recorded entries up to 22 May before the crew vanished.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "LOGBOOK ENTRIES",
+      "UP TO 22 MAY"
+     ],
+     "at": "logbook",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "No wreckage of the ship was ever found, leaving investigators baffled.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "baffled"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What do you think really happened on Bouvet Island?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the 1964 mystery of an abandoned lifeboat on remote Bouvet Island.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#BouvetIsland",
+  "#maritime"
+ ],
+ "facts": [
+  {
+   "claim": "The Norwegian sealing vessel M/S Tjeld disappeared in May 1964 near Bouvet Island.",
+   "source": "https://en.wikipedia.org/wiki/Bouvet_Island"
+  },
+  {
+   "claim": "A lifeboat with a Norwegian flag and a dead crew member was found on the island's shore.",
+   "source": "https://en.wikipedia.org/wiki/Bouvet_Island"
+  },
+  {
+   "claim": "The lifeboat contained a logbook with entries dated up to 22 May 1964.",
+   "source": "https://en.wikipedia.org/wiki/Bouvet_Island"
+  },
+  {
+   "claim": "No wreckage of the missing ship has ever been located.",
+   "source": "https://en.wikipedia.org/wiki/Bouvet_Island"
+  },
+  {
+   "claim": "Norwegian maritime investigators examined the evidence but could not determine the cause.",
+   "source": "https://en.wikipedia.org/wiki/Bouvet_Island"
+  }
+ ],
+ "slug": "the-bouvet-island-lifeboat-mystery-1964",
+ "case": "937",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-12T02:29Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Bouvet_Island"
+  ],
+  "fixed": 0,
+  "bad": [
+   "unsupported: In May 1964 a Norwegian sealing ship vanished near Bouvet Island",
+   "unsupported: A lifeboat washed ashore bearing a Norwegian flag and a dead crewman",
+   "unsupported: The boat's logbook recorded entries up to 22 May before the crew vanished"
+  ]
+ }
+}

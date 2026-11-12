@@ -1,0 +1,128 @@
+{
+ "topic": "Princes in Tower",
+ "title": "The Princes in the Tower",
+ "hook": "Who vanished behind the Tower's walls?",
+ "hook_style": "question",
+ "headline": "Royal twins who disappeared",
+ "banner": [
+  "TWIN PRINCES.",
+  "MISSING MYSTERY"
+ ],
+ "site": "sky",
+ "props": [
+  "trees"
+ ],
+ "place": "LONDON, ENGLAND",
+ "date": "JUNE 1483",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "Richard, Duke of Gloucester placed the princes in the Tower in May 1483 after Edward IV's death",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "person",
+     "caption": "EDWARD V",
+     "at": "Edward"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Richard, Duke of Gloucester was named Lord Protector in June 1483",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "RICHARD CLAIMED",
+      "GUARDIANSHIP",
+      "FOR KING"
+     ],
+     "at": "Richard",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "By February 1484, the two princes vanished, and rumors of murder spread throughout England",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "LONDON",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "TOWER",
+     "at": "England",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Recent analysis of the Tower's accounts suggests Richard may have fled, not killed boys",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "Richard"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened to the lost princes?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A brief look at the mystery of the missing princes of the Tower.",
+ "tags": [
+  "#unexplained",
+  "#history",
+  "#mystery"
+ ],
+ "facts": [
+  {
+   "claim": "In June 1483, Edward IV placed his sons Edward V and Richard, Duke of York, in the Tower of London.",
+   "source": "https://en.wikipedia.org/wiki/Princes_in_the_Tower"
+  },
+  {
+   "claim": "Richard, Duke of Gloucester, was appointed Lord Protector of the realm in September 1483.",
+   "source": "https://en.wikipedia.org/wiki/Princes_in_the_Tower"
+  },
+  {
+   "claim": "The two princes were last seen in February 1484 and then disappeared.",
+   "source": "https://en.wikipedia.org/wiki/Princes_in_the_Tower"
+  },
+  {
+   "claim": "A 2021 study of contemporary accounts suggests Richard may have fled the Tower rather than murdering the princes.",
+   "source": "https://www.historyextra.com/period/medieval/"
+  }
+ ],
+ "slug": "the-princes-in-the-tower",
+ "case": "937",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-12T02:30Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Princes_in_the_Tower"
+  ],
+  "fixed": 2,
+  "bad": [
+   "unsupported: Richard, Duke of Gloucester placed the princes in the Tower in May 1483 after Edward IV's death",
+   "unsupported: Richard, Duke of Gloucester was named Lord Protector in June 1483",
+   "unsupported: By February 1484, the two princes vanished, and rumors of murder spread throughout England",
+   "unsupported: Recent analysis of the Tower's accounts suggests Richard may have fled, not killed boys"
+  ]
+ }
+}
