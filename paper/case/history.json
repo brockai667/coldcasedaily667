@@ -1,12 +1,5 @@
 [
  {
-  "slug": "rendlesham-forest",
-  "date": "2026-10-12",
-  "site": "sky",
-  "music": "echoes",
-  "title": "The Rendlesham Forest Incident"
- },
- {
   "slug": "voynich-manuscript",
   "date": "2026-10-14",
   "site": "sky",
@@ -208,5 +201,12 @@
   "site": "sea",
   "music": null,
   "title": "Theodosia Burr Alston Disappearance"
+ },
+ {
+  "slug": "the-mad-trapper-of-rat-river",
+  "date": "2026-11-13",
+  "site": "mountains",
+  "music": null,
+  "title": "The Mad Trapper of Rat River"
  }
 ]

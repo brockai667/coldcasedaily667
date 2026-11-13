@@ -1,0 +1,110 @@
+{
+ "topic": "Piltdown Hoax",
+ "title": "The Piltdown Man Hoax",
+ "hook": "Who forged the missing link that fooled scientists?",
+ "hook_style": "question",
+ "headline": "The fake fossil that fooled science",
+ "banner": [
+  "FAKE FOSSIL.",
+  "SCIENCE STUNNED"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "PILTDOWN, ENGLAND",
+ "date": "DECEMBER 1912",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In 1912 amateur archaeologist Charles Dawson announced a skull fragment from Piltdown",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "SKULL FRAGMENT",
+     "at": "skull",
+     "string": false
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 1",
+   "line": "The fragment measured 5 cm and showed a mixture of human and orangutan teeth",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "5 CM",
+     "small": "MEASUREMENT",
+     "at": "5 cm",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Scientists later proved the teeth were modern orangutan and the bone chemically altered",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "ORANGUTAN TEETH"
+     ],
+     "at": "orangutan",
+     "string": true
+    }
+   ],
+   "scene": "board"
+  },
+  {
+   "label": "THE TWIST",
+   "line": "In 1953 a fluorine test exposed the forgery confirming Dawson's deception",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "forgery"
+    }
+   ],
+   "scene": "board"
+  }
+ ],
+ "end": {
+  "line": "Do you think Dawson acted alone or had accomplices?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the Piltdown Man hoax that fooled scientists for decades.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Piltdown Man",
+   "source": "https://en.wikipedia.org/wiki/Piltdown_Man"
+  }
+ ],
+ "slug": "the-piltdown-man-hoax",
+ "case": "938",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-13T02:06Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Piltdown_Man"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}
