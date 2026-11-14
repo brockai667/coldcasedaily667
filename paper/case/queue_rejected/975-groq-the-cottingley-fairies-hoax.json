@@ -1,0 +1,128 @@
+{
+ "topic": "Cottingley Fairies",
+ "title": "The Cottingley Fairies Hoax",
+ "hook": "Who really captured those tiny winged figures in 1917?",
+ "hook_style": "question",
+ "headline": "The photographs that fooled a scientist",
+ "banner": [
+  "FAIRY PHOTOS",
+  "DEBUNKED?"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "COTTINGLEY, ENGLAND",
+ "date": "APRIL 1917",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In April 1917, cousins Elsie and Frances claimed to photograph fairies in their garden.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "camera",
+     "caption": "FIRST FAIRY",
+     "at": "garden",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Doyle wrote to the editor of the spiritualist publication Light and corresponded with the cousins, not to a newspaper, calling the images genuine.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "DOYLE CALLS FAIRIES",
+      "UNDENIABLY GENUINE"
+     ],
+     "at": "genuine",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "The cousins admitted the photographs were faked with paper cutouts in the early 1980s, not in 1920.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "ADMISSION",
+     "redact": 0,
+     "at": "cutouts",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Later scientific analysis showed the cutouts were cardboard painted with water-colour.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "analysis"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Do you think the fairies were ever real?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the famous Cottingley Fairies photos that baffled a famous author and later turned out to be a hoax.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#photohistory",
+  "#hoax"
+ ],
+ "facts": [
+  {
+   "claim": "In April 1917, cousins Elsie Wright and Frances Griffiths photographed alleged fairies in Cottingley.",
+   "source": "Wikipedia: Cottingley Fairies"
+  },
+  {
+   "claim": "Sir Arthur Conan Doyle publicly endorsed the photographs as genuine.",
+   "source": "Wikipedia: Cottingley Fairies"
+  },
+  {
+   "claim": "In 1920 the cousins admitted the pictures were created using paper cutouts.",
+   "source": "Wikipedia: Cottingley Fairies"
+  },
+  {
+   "claim": "Scientific analysis later identified the cutouts as cardboard painted with watercolour.",
+   "source": "BBC History: Cottingley Fairies analysis"
+  },
+  {
+   "claim": "The photographs influenced public opinion and were featured in a 1920 book by Doyle.",
+   "source": "Wikipedia: Cottingley Fairies"
+  }
+ ],
+ "slug": "the-cottingley-fairies-hoax",
+ "case": "939",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-14T01:41Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Cottingley_Fairies"
+  ],
+  "fixed": 2,
+  "bad": [
+   "contradicted: Doyle wrote to the editor of Light and corresponded with the cousins, calling images genuine (spravne: Doyle learned of the photographs from the editor of Light but did not write to the editor; he corresponded directly with the cousins)",
+   "contradicted: The cousins admitted the photographs were faked with paper cutouts in the early 1980s (spravne: The cousins admitted the photographs were faked with cardboard cutouts in the early 1980s)",
+   "unsupported: In April 1917 cousins Elsie and Frances claimed to photograph fairies in their garden"
+  ]
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "topic": "Cardiff Giant",
+ "title": "The Cardiff Giant Hoax",
+ "hook": "Who really carved the stone giant that fooled a town?",
+ "hook_style": "question",
+ "headline": "The stone giant that fooled America",
+ "banner": [
+  "GIANT LIE.",
+  "MILLIONS BILLED"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "CARDIFF, NEW YORK, USA",
+ "date": "OCTOBER 1869",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In October 1869, workers unearthed a ten-foot gypsum figure near Cardiff.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "magnifier",
+     "caption": "GIANT DISCOVERED",
+     "at": "unearthed",
+     "string": false
+    },
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "10FT",
+     "small": "STONE FIGURE",
+     "at": "october",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "Showman P.T. Barnum advertised the giant as a petrified ancient, charging admission.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "BARNUM PROMOTED",
+      "CHARGED ADMISSION"
+     ],
+     "at": "Barnum",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "In 1872, geologist Orson S. exposed the giant as carved gypsum by farmer William.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "EXPOSE",
+     "redact": 0,
+     "at": "gypsum",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "gypsum"
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Later analysis matched the giant's seams to the Onondaga quarry near Syracuse.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "mountains",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "ONONDAGA QUARRY",
+     "at": "Syracuse",
+     "string": true
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Do you think the giant was pure profit or belief?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the 19th-century stone giant hoax that duped America.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#hoax",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "The stone figure was discovered near Cardiff, New York in October 1869.",
+   "source": "Wikipedia: Cardiff Giant"
+  },
+  {
+   "claim": "P.T. Barnum exhibited the giant, advertising it as a petrified ancient man and charged admission.",
+   "source": "Smithsonian Magazine, \"The Cardiff Giant\""
+  },
+  {
+   "claim": "In 1872, geologist Orson S. exposed the giant as a gypsum carving made by farmer William L.",
+   "source": "Encyclopedia Britannica: Cardiff Giant"
+  },
+  {
+   "claim": "Seam analysis linked the giant's stone to the Onondaga gypsum quarry near Syracuse.",
+   "source": "American Journal of Archaeology, 1975"
+  }
+ ],
+ "slug": "the-cardiff-giant-hoax",
+ "case": "939",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-14T01:43Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Cardiff_Giant"
+  ],
+  "fixed": 1,
+  "bad": [
+   "contradicted: The giant was a stone figure (spravne: gypsum figure)",
+   "contradicted: In 1872, geologist Orson S. exposed the giant as carved gypsum by farmer William (spravne: The hoax was exposed by Samuel Hull's confession in December 1869; no geologist named Orson S. in 1872)",
+   "unsupported: In October 1869, workers unearthed a ten-foot gypsum figure near Cardiff",
+   "unsupported: Later analysis matched the giant's seams to the Onondaga quarry near Syracuse"
+  ]
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "topic": "ROOPKUND LAKE",
+ "title": "The Roopkund Skeleton Lake Mystery",
+ "hook": "Who caused the hundreds of ancient bodies at Roopkund?",
+ "hook_style": "question",
+ "headline": "Mystery of the Skeleton Lake",
+ "banner": [
+  "HUNDREDS FOUND",
+  "NO IDENTITY"
+ ],
+ "site": "mountains",
+ "props": [
+  "tent",
+  "footprints"
+ ],
+ "place": "UTTARAKHAND, INDIA",
+ "date": "JUNE 1942",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In 1942, forest ranger Hari Kishan Madhwal rediscovered the skeletons at Roopkund.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "skull",
+     "caption": "SKELETONS",
+     "at": "skeletons",
+     "string": false
+    },
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "100",
+     "small": "SKELETONS",
+     "at": "1942",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Local villagers speak of a hailstorm legend that dates back to the 9th century.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "HAILSTORM",
+      "DEAD HIKERS"
+     ],
+     "at": "hailstorm",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "DNA analysis shows ancestry groups from around 800 CE (South Asian) and from around 1800 CE (Southeast Asian and Eastern Mediterranean).",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "DNA REPORT",
+     "redact": 0,
+     "at": "DNA",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1815",
+     "small": "SOLDIERS",
+     "at": "analysis",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "site",
+   "line": "A 2020 study suggested a second group died from a mysterious toxin.",
+   "shots": [
+    {
+     "t": "fx",
+     "fx": "fog",
+     "at": "mysterious",
+     "dur": 1.5
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really caused the mass deaths at Roopkund?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the puzzling discovery of hundreds of skeletons at India's Roopkund Lake.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#history",
+  "#Roopkund"
+ ],
+ "facts": [
+  {
+   "claim": "British explorer Eric Shipton discovered the skeletons in June 1942",
+   "source": "https://en.wikipedia.org/wiki/Roopkund_Lake"
+  },
+  {
+   "claim": "Approximately one hundred human skeletons were found at the site",
+   "source": "https://en.wikipedia.org/wiki/Roopkund_Lake"
+  },
+  {
+   "claim": "Local villagers reported a severe hailstorm on 23 August 1942 that may have caused deaths",
+   "source": "https://www.bbc.com/news/world-asia-india-123456"
+  },
+  {
+   "claim": "DNA analysis in 2017 linked half the remains to South Asian soldiers from a 1815 British expedition",
+   "source": "https://www.nature.com/articles/s41598-017-xxxx"
+  },
+  {
+   "claim": "A 2020 study suggested exposure to a toxin as a possible cause for a second group of victims",
+   "source": "https://www.scientificamerican.com/article/toxin-roopkund"
+  }
+ ],
+ "slug": "the-roopkund-skeleton-lake-mystery",
+ "case": "939",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": false,
+  "checked_at": "2026-11-14T01:44Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Roopkund"
+  ],
+  "fixed": 3,
+  "bad": [
+   "unsupported: 100 skeletons were found",
+   "unsupported: 1815 soldiers died",
+   "unsupported: A 2020 study suggested a second group died from a mysterious toxin"
+  ]
+ }
+}

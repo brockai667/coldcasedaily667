@@ -1,12 +1,5 @@
 [
  {
-  "slug": "voynich-manuscript",
-  "date": "2026-10-14",
-  "site": "sky",
-  "music": "cutandrun",
-  "title": "The Voynich Manuscript"
- },
- {
   "slug": "the-bermuda-triangle-disappearances",
   "date": "2026-10-15",
   "site": "sea",
@@ -208,5 +201,12 @@
   "site": "mountains",
   "music": null,
   "title": "The Mad Trapper of Rat River"
+ },
+ {
+  "slug": "the-piltdown-man-hoax",
+  "date": "2026-11-14",
+  "site": "mountains",
+  "music": null,
+  "title": "The Piltdown Man Hoax"
  }
 ]

@@ -1,0 +1,113 @@
+{
+ "topic": "Hope Diamond Curse",
+ "title": "The Hope Diamond Curse",
+ "hook": "Who stole the Hope Diamond's cursed sparkle?",
+ "hook_style": "question",
+ "headline": "The gem that haunts history",
+ "banner": [
+  "HOPE DIAMOND",
+  "CURSE CONTINUES"
+ ],
+ "site": "mountains",
+ "props": [
+  "tree"
+ ],
+ "place": "WASHINGTON, USA",
+ "date": "MARCH 2024",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "The 45.52-carat Hope Diamond was first notably recorded in 1666 in India.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "report",
+     "caption": "FIRST RECORD",
+     "at": "carat",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Harry Winston bought the stone in 1949.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "HARRY",
+      "WINSTON",
+      "REBRANDED"
+     ],
+     "at": "Harry",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "The Smithsonian displayed it in 1958, and several owners reported mysterious deaths.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "1958",
+     "small": "DISPLAY",
+     "at": "1958",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Recent analysis suggests the blue hue comes from trace boron, not a curse.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "curse"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Do you think the curse is real or myth?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the legend of the Hope Diamond and its alleged curse.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#gemstones",
+  "#history"
+ ],
+ "facts": [
+  {
+   "claim": "Hope Diamond",
+   "source": "https://en.wikipedia.org/wiki/Hope_Diamond"
+  }
+ ],
+ "slug": "the-hope-diamond-curse",
+ "case": "939",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-956-groq-the-1911-mona-lisa-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-14T01:45Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Hope_Diamond"
+  ],
+  "fixed": 2,
+  "unsupported": 0
+ }
+}
