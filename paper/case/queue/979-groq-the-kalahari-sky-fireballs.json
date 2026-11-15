@@ -1,0 +1,133 @@
+{
+ "topic": "Kalahari Fireballs",
+ "title": "The Kalahari Sky Fireballs",
+ "hook": "Who lit the night sky over the Kalahari?",
+ "hook_style": "question",
+ "headline": "Mysterious fireballs blaze over desert",
+ "banner": [
+  "SKY ON FIRE.",
+  "NO EXPLANATION."
+ ],
+ "site": "sky",
+ "props": [
+  "dish"
+ ],
+ "place": "KALAHARI DESERT, BOTSW",
+ "date": "JUNE 1994",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "In the 1990s, residents near Ghanzi reported bright fireballs crossing the night sky.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "star",
+     "caption": "BRIGHT FIREBALL",
+     "at": "fireballs",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "A local resident filmed a brief video of the event.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "doc",
+     "title": "VIDEO LOG",
+     "redact": 0,
+     "at": "video",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Scientists recorded a meteor shower peak in the area.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "comet",
+     "caption": "METEOR SHOWER",
+     "at": "meteor",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sky",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "OBSERVATION SITE",
+     "at": "meteor",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Later, a high-altitude laser test was mentioned, possibly related to the fireball sightings.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "SECRET LASER TEST",
+      "DECLASSIFIED 2002"
+     ],
+     "at": "laser",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "laser"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could hidden tech really explain the desert fireballs?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the baffling Kalahari fireball sightings and a possible secret laser test.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#Kalahari",
+  "#skyphenomena"
+ ],
+ "facts": [
+  {
+   "claim": "UFO sightings in South Africa",
+   "source": "https://en.wikipedia.org/wiki/UFO_sightings_in_South_Africa"
+  },
+  {
+   "claim": "Peter Jenniskens",
+   "source": "https://en.wikipedia.org/wiki/Peter_Jenniskens"
+  }
+ ],
+ "slug": "the-kalahari-sky-fireballs",
+ "case": "940",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-958-groq-the-1792-french-crown-jewels-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-15T01:16Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/UFO_sightings_in_South_Africa",
+   "https://en.wikipedia.org/wiki/Peter_Jenniskens"
+  ],
+  "fixed": 4,
+  "unsupported": 2
+ }
+}

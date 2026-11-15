@@ -1,12 +1,5 @@
 [
  {
-  "slug": "the-bermuda-triangle-disappearances",
-  "date": "2026-10-15",
-  "site": "sea",
-  "music": null,
-  "title": "The Bermuda Triangle Disappearances"
- },
- {
   "slug": "the-flannan-isles-lighthouse-mystery",
   "date": "2026-10-15",
   "site": "sea",
@@ -208,5 +201,12 @@
   "site": "mountains",
   "music": null,
   "title": "The Piltdown Man Hoax"
+ },
+ {
+  "slug": "the-hope-diamond-curse",
+  "date": "2026-11-15",
+  "site": "mountains",
+  "music": null,
+  "title": "The Hope Diamond Curse"
  }
 ]

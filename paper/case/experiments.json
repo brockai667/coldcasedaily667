@@ -1,38 +1,32 @@
 {
  "current": {
-  "name": "copy-956-groq-the-1911-mona-lisa-theft",
+  "name": "copy-958-groq-the-1792-french-crown-jewels-theft",
   "slot": "winner",
-  "instruction": "Start with a concise, curiosity-driven hook asking who stole/what happened, then recount the event in three rapid facts, ending with a personal-choice question.",
-  "hypothesis": "The hook’s direct question and tight three‑point narrative create immediate intrigue and high retention.",
+  "instruction": "Start with a concise, intrigue-driven hook question that hints at a hidden theft or secret, then reveal vivid, chronological clues before ending with an open-ended mystery.",
+  "hypothesis": "The winner succeeds by framing the story as a concealed crime with a strong hook and progressive clue reveal.",
   "keywords": [
-   "theft",
-   "mystery",
    "heist",
-   "disappearance"
+   "lost",
+   "secret",
+   "mystery"
   ],
   "source": "winner",
   "winner": {
-   "spec": "956-groq-the-1911-mona-lisa-theft",
-   "title": "The 1911 Mona Lisa Theft",
-   "score": 2.41,
+   "spec": "958-groq-the-1792-french-crown-jewels-theft",
+   "title": "The 1792 French Crown Jewels Theft",
+   "score": 2.19,
    "per_platform": {
-    "youtube": 6.17,
-    "tiktok": 0.94
+    "youtube": 1.5,
+    "tiktok": 3.2
    }
   },
-  "started": "2026-11-08",
+  "started": "2026-11-15",
   "baseline_median": {
-   "youtube": 68,
-   "tiktok": 251
+   "youtube": 37,
+   "tiktok": 260.0
   },
   "baseline_approx": [],
-  "tagged": [
-   "963-groq-the-disappearance-of-ambrose-bierce",
-   "964-groq-the-disappearance-of-rudolf-diesel",
-   "968-groq-the-disappearance-of-benjamin-bathurst",
-   "969-groq-theodosia-burr-alston-disappearance",
-   "973-groq-the-mad-trapper-of-rat-river"
-  ]
+  "tagged": []
  },
  "rules": [
   {
@@ -92,6 +86,20 @@
    },
    "n_tagged": 4,
    "status": "kept"
+  },
+  {
+   "name": "copy-956-groq-the-1911-mona-lisa-theft",
+   "slot": "winner",
+   "instruction": "Start with a concise, curiosity-driven hook asking who stole/what happened, then recount the event in three rapid facts, ending with a personal-choice question.",
+   "started": "2026-11-08",
+   "ended": "2026-11-15",
+   "ratio": 0.932,
+   "per_platform": {
+    "youtube": 0.857,
+    "tiktok": 1.008
+   },
+   "n_tagged": 4,
+   "status": "reverted"
   }
  ]
 }
