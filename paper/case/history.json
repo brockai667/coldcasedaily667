@@ -1,12 +1,5 @@
 [
  {
-  "slug": "the-flannan-isles-lighthouse-mystery",
-  "date": "2026-10-15",
-  "site": "sea",
-  "music": null,
-  "title": "The Flannan Isles Lighthouse Mystery"
- },
- {
   "slug": "the-sodder-children-fire",
   "date": "2026-10-16",
   "site": "mountains",
@@ -208,5 +201,12 @@
   "site": "mountains",
   "music": null,
   "title": "The Hope Diamond Curse"
+ },
+ {
+  "slug": "the-kalahari-sky-fireballs",
+  "date": "2026-11-16",
+  "site": "sky",
+  "music": null,
+  "title": "The Kalahari Sky Fireballs"
  }
 ]

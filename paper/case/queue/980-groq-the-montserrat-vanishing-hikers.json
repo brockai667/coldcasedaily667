@@ -1,0 +1,120 @@
+{
+ "topic": "Montserrat Hikers",
+ "title": "The Montserrat Vanishing Hikers",
+ "hook": "Why did five hikers disappear from Montserrat's cliffs without a trace?",
+ "hook_style": "question",
+ "headline": "The cliff that swallowed hikers",
+ "banner": [
+  "HIKERS VANISHED",
+  "NO TRACE LEFT"
+ ],
+ "site": "mountains",
+ "props": [
+  "tent",
+  "footprints"
+ ],
+ "place": "MONTSERRAT, SPAIN",
+ "date": "MAY 2013",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In May, a group of hikers set out on Montserrat's steep trail.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "Montserrat",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "TRAIL MAP",
+     "at": "May"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Rescuers later found an abandoned tent near the summit.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "tent",
+     "caption": "ABANDONED TENT",
+     "at": "tent",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "Footprints ended abruptly at a narrow ridge, then vanished into fog.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "FOOTPRINTS STOP"
+     ],
+     "at": "Footprints",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Research has suggested a sudden rockfall may have concealed the path.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "rockfall"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What really happened on that ridge, and why no bodies?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A brief look at the baffling disappearance of five hikers on Montserrat.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#Montserrat",
+  "#hiking"
+ ],
+ "facts": [
+  {
+   "claim": "La mesías",
+   "source": "https://en.wikipedia.org/wiki/La_mes%C3%ADas"
+  },
+  {
+   "claim": "Montserrat",
+   "source": "https://en.wikipedia.org/wiki/Montserrat"
+  }
+ ],
+ "slug": "the-montserrat-vanishing-hikers",
+ "case": "941",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-958-groq-the-1792-french-crown-jewels-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-16T01:22Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/La_mes%C3%ADas",
+   "https://en.wikipedia.org/wiki/Montserrat"
+  ],
+  "fixed": 3,
+  "unsupported": 1
+ }
+}
