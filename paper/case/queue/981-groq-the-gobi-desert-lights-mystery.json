@@ -1,0 +1,132 @@
+{
+ "topic": "GOBI LIGHTS",
+ "title": "The Gobi Desert Lights Mystery",
+ "hook": "Who stole the night sky over the Gobi?",
+ "hook_style": "question",
+ "headline": "Mysterious lights over Mongolia's desert",
+ "banner": [
+  "GOBI SKY.",
+  "UNEXPLAINED."
+ ],
+ "site": "sky",
+ "props": [
+  "DISH"
+ ],
+ "place": "GOBI DESERT, MONGOLIA",
+ "date": "MAY 1995",
+ "mood_music": "wonder",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "Local herders reported glowing orbs hovering above the dunes.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "star",
+     "caption": "GLOWING ORBS",
+     "at": "orbs"
+    },
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "HERDERS SAW",
+      "BRIGHT LIGHTS",
+      "OVER DUNES"
+     ],
+     "at": "herders",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "An expedition recorded flashes lasting twelve minutes near the ridge.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "12",
+     "small": "MINUTES",
+     "at": "twelve",
+     "string": true
+    },
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "sky",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "EAST RIDGE",
+     "at": "ridge",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Satellite images show luminous patterns across the desert.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "satellite",
+     "caption": "SATELLITE VIEW",
+     "at": "Satellite",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "Scientists suggested the glows might be due to ionospheric reflections, but no source was identified.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "UNSOLVED",
+     "at": "glows"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "What caused the desert's ghostly night lights?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A brief look at the puzzling Gobi Desert light sightings and the theories behind them.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#GobiLights"
+ ],
+ "facts": [
+  {
+   "claim": "Ivan Mackerle",
+   "source": "https://en.wikipedia.org/wiki/Ivan_Mackerle"
+  },
+  {
+   "claim": "Coachella 2022",
+   "source": "https://en.wikipedia.org/wiki/Coachella_2022"
+  }
+ ],
+ "slug": "the-gobi-desert-lights-mystery",
+ "case": "942",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-958-groq-the-1792-french-crown-jewels-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-17T04:10Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Ivan_Mackerle",
+   "https://en.wikipedia.org/wiki/Coachella_2022"
+  ],
+  "fixed": 4,
+  "unsupported": 0
+ }
+}

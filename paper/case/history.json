@@ -1,12 +1,5 @@
 [
  {
-  "slug": "the-sodder-children-fire",
-  "date": "2026-10-16",
-  "site": "mountains",
-  "music": null,
-  "title": "The Sodder Children Fire"
- },
- {
   "slug": "amelia-earhart-s-final-flight",
   "date": "2026-10-17",
   "site": "sky",
@@ -208,5 +201,12 @@
   "site": "sky",
   "music": null,
   "title": "The Kalahari Sky Fireballs"
+ },
+ {
+  "slug": "the-montserrat-vanishing-hikers",
+  "date": "2026-11-17",
+  "site": "mountains",
+  "music": null,
+  "title": "The Montserrat Vanishing Hikers"
  }
 ]
