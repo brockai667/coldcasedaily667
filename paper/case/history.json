@@ -1,12 +1,5 @@
 [
  {
-  "slug": "amelia-earhart-s-final-flight",
-  "date": "2026-10-17",
-  "site": "sky",
-  "music": null,
-  "title": "Amelia Earhart's Final Flight"
- },
- {
   "slug": "the-carroll-a-deering-mystery",
   "date": "2026-10-20",
   "site": "sea",
@@ -208,5 +201,12 @@
   "site": "mountains",
   "music": null,
   "title": "The Montserrat Vanishing Hikers"
+ },
+ {
+  "slug": "the-gobi-desert-lights-mystery",
+  "date": "2026-11-18",
+  "site": "sky",
+  "music": null,
+  "title": "The Gobi Desert Lights Mystery"
  }
 ]

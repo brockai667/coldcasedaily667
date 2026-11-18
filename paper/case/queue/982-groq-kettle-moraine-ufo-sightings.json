@@ -1,0 +1,119 @@
+{
+ "topic": "Kettle Moraine UFO",
+ "title": "Kettle Moraine UFO Sightings",
+ "hook": "What lights vanished over Kettle Moraine without a trace tonight?",
+ "hook_style": "question",
+ "headline": "Mysterious lights over Wisconsin forest",
+ "banner": [
+  "STRANGE LIGHTS",
+  "NO EXPLANATION"
+ ],
+ "site": "mountains",
+ "props": [
+  "trees"
+ ],
+ "place": "KETTLE MORAINE, WI",
+ "date": "MARCH 2022",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "scene": "board",
+   "line": "In March 2022 a couple filmed strange lights over Kettle Moraine.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "star",
+     "caption": "UNKNOWN LIGHTS",
+     "at": "lights",
+     "string": false
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "scene": "board",
+   "line": "Witnesses said the bright objects hovered for three minutes before vanishing.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "stat",
+     "big": "3",
+     "small": "MINUTES",
+     "at": "three",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "scene": "board",
+   "line": "In 1995 a hiker reported similar glowing orbs near the same ridge.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "map",
+     "map": "mountains",
+     "place": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "caption": "RIDGE AREA",
+     "at": "ridge",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "scene": "board",
+   "line": "Investigators linked the 2022 video to a commercial drone test flight soon after.",
+   "shots": [
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "video"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could a secret test explain the glowing mystery?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "A couple's 2022 video of lights over Kettle Moraine sparks new questions.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#UFO",
+  "#wisconsin"
+ ],
+ "facts": [
+  {
+   "claim": "Long Island",
+   "source": "https://en.wikipedia.org/wiki/Long_Island"
+  },
+  {
+   "claim": "Dundee, Wisconsin",
+   "source": "https://en.wikipedia.org/wiki/Dundee,_Wisconsin"
+  }
+ ],
+ "slug": "kettle-moraine-ufo-sightings",
+ "case": "943",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-958-groq-the-1792-french-crown-jewels-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-18T03:24Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/Long_Island",
+   "https://en.wikipedia.org/wiki/Dundee,_Wisconsin"
+  ],
+  "fixed": 0,
+  "unsupported": 2
+ }
+}
