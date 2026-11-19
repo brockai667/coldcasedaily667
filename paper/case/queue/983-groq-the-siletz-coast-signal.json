@@ -1,0 +1,115 @@
+{
+ "topic": "Siletz Coast Signal",
+ "title": "The Siletz Coast Signal",
+ "hook": "Did a phantom light guide ships off Oregon's coast?",
+ "hook_style": "question",
+ "headline": "Mysterious flashing beacon on Oregon shore",
+ "banner": [
+  "GHOST LIGHT.",
+  "NO TRACE."
+ ],
+ "site": "sea",
+ "props": [
+  "ship"
+ ],
+ "place": "SILETZ COAST, OREGON",
+ "date": "MAY 1972",
+ "mood_music": "tense",
+ "beats": [
+  {
+   "label": "THE CASE",
+   "line": "Fishermen reported a bright flashing light near Siletz Point.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "ship",
+     "caption": "BRIGHT LIGHT",
+     "at": "light"
+    }
+   ]
+  },
+  {
+   "label": "CLUE 1",
+   "line": "A Coast Guard log noted intermittent pulses lasting several seconds.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "INTERMITTENT PULSES"
+     ],
+     "at": "pulses",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "CLUE 2",
+   "line": "Marine biologists recorded unusual bioluminescent algae blooms near the site.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "photo",
+     "icon": "lightning",
+     "caption": "BIO LUMINESCENCE",
+     "at": "bioluminescent",
+     "string": true
+    }
+   ]
+  },
+  {
+   "label": "THE TWIST",
+   "line": "A Navy sonar report suggested the flashes matched a buoy's distress beacon.",
+   "shots": [
+    {
+     "t": "card",
+     "kind": "note",
+     "lines": [
+      "BUOY BEACON"
+     ],
+     "at": "navy",
+     "string": true
+    },
+    {
+     "t": "stamp",
+     "text": "EVIDENCE",
+     "at": "report"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "line": "Could hidden military tests explain the phantom flashes?",
+  "stamp": "UNSOLVED"
+ },
+ "cta": "COMMENT YOUR THEORY",
+ "description": "Explore the mysterious flashing signal reported off Oregon's Siletz Coast.",
+ "tags": [
+  "#unexplained",
+  "#mystery",
+  "#Oregon",
+  "#coast"
+ ],
+ "facts": [
+  {
+   "claim": "U.S. Route 101",
+   "source": "https://en.wikipedia.org/wiki/U.S._Route_101"
+  }
+ ],
+ "slug": "the-siletz-coast-signal",
+ "case": "944",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-4%",
+ "source": "groq",
+ "exp": "copy-958-groq-the-1792-french-crown-jewels-theft",
+ "factcheck": {
+  "ok": true,
+  "checked_at": "2026-11-19T02:48Z",
+  "source": [
+   "https://en.wikipedia.org/wiki/U.S._Route_101"
+  ],
+  "fixed": 4,
+  "unsupported": 2
+ }
+}

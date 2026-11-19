@@ -1,12 +1,5 @@
 [
  {
-  "slug": "the-carroll-a-deering-mystery",
-  "date": "2026-10-20",
-  "site": "sea",
-  "music": null,
-  "title": "The Carroll A. Deering Mystery"
- },
- {
   "slug": "the-kaspar-hauser-mystery",
   "date": "2026-10-21",
   "site": "sky",
@@ -208,5 +201,12 @@
   "site": "sky",
   "music": null,
   "title": "The Gobi Desert Lights Mystery"
+ },
+ {
+  "slug": "kettle-moraine-ufo-sightings",
+  "date": "2026-11-19",
+  "site": "mountains",
+  "music": null,
+  "title": "Kettle Moraine UFO Sightings"
  }
 ]

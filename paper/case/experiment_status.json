@@ -1,6 +1,6 @@
 {
  "factory": "ColdCaseDaily",
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "name": "copy-958-groq-the-1792-french-crown-jewels-theft",
  "started": "2026-11-15",
  "hypothesis": "The winner succeeds by framing the story as a concealed crime with a strong hook and progressive clue reveal.",
@@ -10,9 +10,11 @@
   "youtube": 37,
   "tiktok": 260.0
  },
- "metric_now": {},
- "ratio_now": null,
- "n_tagged": 0,
+ "metric_now": {
+  "youtube": 68
+ },
+ "ratio_now": 1.511,
+ "n_tagged": 1,
  "status": "running",
  "rules": 2,
  "last": {
